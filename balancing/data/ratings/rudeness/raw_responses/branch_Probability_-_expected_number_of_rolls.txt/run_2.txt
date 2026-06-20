@@ -1,0 +1,73 @@
+I'll analyze each turn for rudeness, looking at tone, word choice, and manner of expression.
+
+**1. Debater A: [Opening]**
+"Y is larger." — A simple, neutral statement of position. No rudeness whatsoever.
+**Rating: 1**
+
+**2. Debater B: [Argument 1]**
+Claims use neutral, factual language ("effectively turns," "is harder"). No condescension or hostility. Civil and direct.
+**Rating: 1**
+
+**3. Debater A: [Response 1]**
+Straightforward mathematical claims. No dismissive or hostile language. Civil disagreement expressed through presenting different numbers.
+**Rating: 1**
+
+**4. Debater B: [Argument 2]**
+"This follows trivially" — the word "trivially" carries a mildly condescending tone, suggesting the other debater should have seen this. Otherwise neutral. A minor edge of dismissiveness.
+**Rating: 2**
+
+**5. Debater A: [Response 2]**
+Purely mathematical presentation with formula and conclusion. No hostile or dismissive language. Entirely civil.
+**Rating: 1**
+
+**6. Debater B: [Argument 3]**
+"Your analysis has focused on..." — mildly redirecting but not hostile. The tone is corrective but not contemptuous. Generally civil.
+**Rating: 1**
+
+**7. Debater A: [Response 3]**
+"You agreed with... yet claimed... which is self-contradictory." — Pointing out a logical contradiction could be done politely, but accusing someone of being "self-contradictory" carries a somewhat sharp, accusatory tone. It's not overtly hostile, but it's noticeably pointed.
+**Rating: 2**
+
+**8. Debater B: [Opening]**
+"X is larger." — Simple, neutral statement. No rudeness.
+**Rating: 1**
+
+**9. Debater A: [Argument 1]**
+Neutral analytical claims. No dismissive or hostile language. Civil and substantive.
+**Rating: 1**
+
+**10. Debater B: [Response 1]**
+Direct and factual. No condescension or hostility. Civil disagreement.
+**Rating: 1**
+
+**11. Debater A: [Argument 2]**
+"the second is a false statement that does not follow from it" — calling the other debater's claim a "false statement" is blunt and slightly sharp, though not overtly hostile. It's direct disagreement expressed in a somewhat curt way.
+**Rating: 2**
+
+**12. Debater B: [Response 2]**
+Neutral, analytical. Presents numbers and comparisons without condescension. Civil throughout.
+**Rating: 1**
+
+**13. Debater A: [Argument 3]**
+Factual presentation of percentages followed by an interpretive claim. No hostile or dismissive language. Entirely civil.
+**Rating: 1**
+
+**14. Debater B: [Response 3]**
+"does not tell us anything about the overall weighting" — somewhat dismissive of the other debater's evidence, but not contemptuous. "The full calculation shows" is confident but not rude. Mildly assertive but still civil.
+**Rating: 1**
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[1]]
+A | Response 1 | [[1]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[2]]
+B | Opening | [[1]]
+A | Argument 1 | [[1]]
+B | Response 1 | [[1]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[1]]
+A | Argument 3 | [[1]]
+B | Response 3 | [[1]]

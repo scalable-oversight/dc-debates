@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probability - expected number of rolls</title>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 2em;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            color: #34495e;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+        
+        h3 {
+            color: #34495e;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        
+        .question-section {
+            margin-bottom: 40px;
+        }
+        
+        .question-section p {
+            margin-bottom: 15px;
+        }
+        
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .references-section {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+        }
+        
+        .references-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .reference-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: white;
+            border-left: 4px solid #3498db;
+            border-radius: 4px;
+        }
+        
+        .reference-item strong {
+            color: #2c3e50;
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        .reference-quote {
+            color: #666;
+            font-style: italic;
+            margin-top: 8px;
+        }
+        
+        .debate-container {
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .debate-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .debate-table thead {
+            background-color: #34495e;
+            color: white;
+        }
+        
+        .debate-table th {
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .debate-table td {
+            padding: 12px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .debate-table tbody tr:hover {
+            background-color: #f8f9fa;
+        }
+        
+        .liz-turn {
+            background-color: #e8f5e9;
+        }
+        
+        .bob-turn {
+            background-color: #fff3e0;
+        }
+        
+        .turn-label {
+            font-weight: 600;
+            color: #2c3e50;
+            width: 100px;
+            white-space: nowrap;
+        }
+        
+        .turn-content {
+            line-height: 1.8;
+        }
+        
+        .task-block {
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+            line-height: 1.6;
+        }
+        
+        pre {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 15px;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+        
+        code {
+            font-family: "Consolas", "Monaco", "Courier New", monospace;
+            font-size: 0.9em;
+        }
+        
+        pre code {
+            display: block;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        
+        .ref-link {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .ref-link:hover {
+            text-decoration: underline;
+        }
+        
+        .flyout {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: white;
+        }
+        
+        .flyout-header {
+            padding: 15px 20px;
+            cursor: pointer;
+            user-select: none;
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #ddd;
+            font-weight: 600;
+            color: #2c3e50;
+            transition: background-color 0.2s ease;
+        }
+        
+        .flyout-header:hover {
+            background-color: #e9ecef;
+        }
+        
+        .flyout-header::before {
+            content: "▶";
+            display: inline-block;
+            margin-right: 10px;
+            transition: transform 0.2s ease;
+            font-size: 0.8em;
+        }
+        
+        .flyout.expanded .flyout-header::before {
+            transform: rotate(90deg);
+        }
+        
+        .flyout-content {
+            display: none;
+            padding: 20px;
+        }
+        
+        .flyout.expanded .flyout-content {
+            display: block;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+            
+            .debate-table {
+                font-size: 0.9em;
+            }
+            
+            .debate-table th,
+            .debate-table td {
+                padding: 8px;
+            }
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add click handlers to flyout headers
+            document.querySelectorAll('.flyout-header').forEach(function(header) {
+                header.addEventListener('click', function() {
+                    var flyout = this.parentElement;
+                    flyout.classList.toggle('expanded');
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Probability - expected number of rolls</h1>
+        
+        <div class="flyout">
+            <div class="flyout-header">Question</div>
+            <div class="flyout-content">
+                <div class="question-section">
+                    <p>Consider these two quantities:</p>
+<br>
+<p>A: The expected number of rolls of a fair six-sided die until you roll two 6s in a row, given that all rolls were even.</p>
+<p>B: The expected number of rolls of a fair six-sided die until you roll the second 6 (not necessarily in a row), given that all rolls were even.</p>
+<br>
+<p>To understand exactly what is meant by &quot;the expected number of rolls... given that all rolls were even&quot; in this problem, think of it this way: Imagine you were to perform a billion sequences of die rolls, stopping each sequence when you roll two 6s in a row. Then you throw out all the sequences that contain an odd roll. The average number of rolls in the remaining sequences will be close to A. Next, perform a billion sequences of die rolls, stopping each sequence when you roll the second 6. Throw out all the sequences among these that contain an odd roll. The average number of rolls in the remaining sequences will be close to B.</p>
+<br>
+<p>Which is larger, A or B?</p>
+<br>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="flyout">
+            <div class="flyout-header">Manual debates</div>
+            <div class="flyout-content">
+                <div class="debate-container">
+<h3>Debate: Liz (Initiator) vs Bob (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.0</td>
+    <td class="turn-content">B is larger. &quot;Given all even&quot; acts as a filter that deletes long sequences (probability of rolling odd increases quickly with sequence length), and two 6s in a row is hard to get without a long sequence, so A is biased toward very short, lucky runs.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.0</td>
+    <td class="turn-content">Anytime you roll until reaching two 6s in a row, you will have also hit your second 6 at or before that moment. Since the stopping condition for A is strictly harder and happens later than or at the same time as B, shouldn&#x27;t A always be larger?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.1</td>
+    <td class="turn-content">&#x27;Strictly harder&#x27; means *shorter* since we&#x27;re discarding sequences with odds. For A, if you roll 2 or 4 after 6, you&#x27;ve broken your streak; to fix it you keep rolling, which exposes you to high risk of rolling an odd and &#x27;dying&#x27;. Surviving seqs for A tend to be those that succeeded quickly.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.1</td>
+    <td class="turn-content">You&#x27;re talking about the prob. of a sequence being valid, but the question asks for the expected # of rolls in valid sequences. Even if valid A-sequences are rarer, why would the survivors be shorter? Shouldn&#x27;t things be dominated by the long sequences that managed to finally get two 6s in a row?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.2</td>
+    <td class="turn-content">No. After 2 rolls the prob of a &#x27;win&#x27; for A &amp; B is equal. After 10 it&#x27;s much lower for A. The difference in distributions biases A towards short rolls (relative to B).</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.2</td>
+    <td class="turn-content">If I roll 6, 4, 6, I have satisfied B and I stop (3 rolls). For A, I am not done; I have to keep rolling, adding more length to the sequence. Do you agree that the probability of rolling an odd and &#x27;killing&#x27; the sequence on any given roll is the same for A &amp; B?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.3</td>
+    <td class="turn-content">Yes, but you still have different distributions. Say we used a 100-sided die. &quot;100, 100&quot; in a row is rare: if you don&#x27;t get this quickly, you&#x27;ll almost certainly hit an odd number and &quot;die.&quot; Whereas longer runs (e.g. 100, 24, 82, 100) are commoner with B. Same thing here, but more obvious with 100.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<div class="debate-container">
+<h3>Debate: Bob (Initiator) vs Liz (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.0</td>
+    <td class="turn-content">A is larger. The condition &quot;all rolls were even&quot; turns the D6 into a D3 for purposes of this question (sides 2, 4, 6). On a D3, getting two 6s in a row is harder than getting two 6s generally, so it takes more rolls.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.0</td>
+    <td class="turn-content">Would you agree that the expected # of rolls of your D3 until we see the first 6 is 3 (it&#x27;s a geometric distribution<a href="#ref-geometric_dist" class="ref-link">[geometric_dist]</a> of success rate 1/3), while expected # of rolls until first 6 given all rolls even is 3/2? (See ref URL for easier-to-read math notation than in the quote)</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.1</td>
+    <td class="turn-content">Pretty sure I don&#x27;t, but even if that were true it wouldn&#x27;t matter - due to reason stated in Bob.Q.0, A should end up larger no matter what happens along the way. I said &quot;all rolls were even&quot; turns the D6 into a D3 **for purposes of this question**, you&#x27;ve substituted a different question.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.1</td>
+    <td class="turn-content">P(X given Y) = P(X and Y)/Pr(Y). Numerator for P(first 6 on roll k|all rows even): If k rolls to see first 6 &amp; all rolls even, then the first k - 1 were all 2 or 4 &amp; the kth was 6. Prob of this is ((2/6)^k-1)*(1/6). Denom. is eqiv. to &quot;prob that of {1,3,5,6}, 6 is the first to show up&quot; = 1/4.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.2</td>
+    <td class="turn-content">I think there may be an error here but I&#x27;m not sure. Again though, it&#x27;s a distraction (see Bob.1.)</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.2</td>
+    <td class="turn-content">Dividing, we get ((2/6)^(k-1))*(1/6))/(1/4) = (2/3)(1/3)^(k-1). Plug in to def of expected value<a href="#ref-expected_val" class="ref-link">[expected_val]</a>, get sum(k=1-&gt;infinity) of k*(2/3)(1/3)^(k-1). Rewrite as (2/3)*(1/(1/3))*sum(k=1-&gt;infinity) of k*(1/3)^k, apply <a href="#ref-arith_geo_seq" class="ref-link">[arith_geo_seq]</a> to get 3/2. No room to prove B &gt; A but this shows &quot;given all rolls were even&quot; matters.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.3</td>
+    <td class="turn-content">I again think there may be an error (Wikipedia&#x27;s note that the formula cited <a href="#ref-expected_val" class="ref-link">[expected_val]</a> &quot;is not suitable as a mathematical definition&quot; <a href="#ref-expected_val_caveat" class="ref-link">[expected_val_caveat]</a> might be relevant here?), but in any case again see Bob.1. This addresses a different question than the one under investigation.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+                <div class="references-section">
+<h2>References</h2>
+<ul class="references-list">
+  <li class="reference-item">
+    <strong id="ref-geometric_dist"><a href="https://en.wikipedia.org/wiki/Geometric_distribution" target="_blank">https://en.wikipedia.org/wiki/Geometric_distribution</a></strong>
+    <p class="reference-quote">The geometric distribution gives the probability that the first occurrence of success requires \(k\) independent trials, each with success probability \(p\). If the probability of success on each trial is \(p\), then the probability that the \(k\)-th trial is the first success is \[\Pr(X = k) = (1-p)^{k-1}p\] for \(k=1,2,3,4,\dots\) The above form of the geometric distribution is used for modeling the number of trials up to and including the first success.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-expected_val"><a href="https://en.wikipedia.org/wiki/Expected_value" target="_blank">https://en.wikipedia.org/wiki/Expected_value</a></strong>
+    <p class="reference-quote">Informally, the expectation of a random variable with a countably infinite set of possible outcomes is defined analogously as the weighted average of all possible outcomes, where the weights are given by the probabilities of realizing each given value. This is to say that \[\operatorname{E}[X] = \sum_{i=1}^\infty x_i\, p_i,\] where \(x_1, x_2, \dots\) are the possible outcomes of the random variable \(X\) 
+and \(p_1, p_2, \dots\) are their corresponding probabilities.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-arith_geo_seq"><a href="https://en.wikipedia.org/wiki/Arithmetico-geometric_sequence" target="_blank">https://en.wikipedia.org/wiki/Arithmetico-geometric_sequence</a></strong>
+    <p class="reference-quote">In general, \( \sum_{k=1}^{\infty} {\color{blue} k} {\color{green} r^k} = \frac{r}{(1 - r)^2} \quad \text{for } -1 < r < 1 \)</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-expected_val_caveat"><a href="https://en.wikipedia.org/wiki/Expected_value" target="_blank">https://en.wikipedia.org/wiki/Expected_value</a></strong>
+    <p class="reference-quote">However, there are some subtleties with infinite summation, so the above formula is not suitable as a mathematical definition. In particular, the Riemann series theorem of mathematical analysis illustrates that the value of certain infinite sums involving positive and negative summands depends on the order in which the summands are given. Since the outcomes of a random variable have no naturally given order, this creates a difficulty in defining expected value precisely.</p>
+  </li>
+</ul>
+</div>
+
+            </div>
+        </div>
+        
+                <div class="flyout">
+            <div class="flyout-header">Gemini 3 Pro Debates</div>
+            <div class="flyout-content">
+                <div class="debate-container">
+<h3>Debate: Liz (Initiator) vs Bob (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.0</td>
+    <td class="turn-content">Quantity B is larger. The problem asks for expectations over sequences filtered by &quot;no odd rolls.&quot; This filtering imposes an exponential penalty on length. Quantity A (6-6) requires a reset upon failure (rolling a 2), which creates long sequences that are discarded. B (second 6) survives at shorter lengths.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.0</td>
+    <td class="turn-content">You are overcomplicating a simple conditional probability. &quot;Given all rolls were even&quot; reduces the problem to a 3-sided die \(\{2, 4, 6\}\). On such a die, the expected wait for &quot;6-6&quot; is 12 rolls, while the wait for a second 6 is only 6<a href="#ref-datagenetics" class="ref-link">[datagenetics]</a>. 12 is double 6. No filter can reverse such a massive gap.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.1</td>
+    <td class="turn-content">It is not a 3-sided die; it is a simulation where odd rolls delete the timeline. A sequence of length \(n\) survives with probability \((1/2)^n\). This is Elchanan Mossel&#x27;s Dice Paradox<a href="#ref-kalai" class="ref-link">[kalai]</a>. The filter decimates the long tails required for A&#x27;s average to reach 12, collapsing it to \(\approx 2.7\).</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.1</td>
+    <td class="turn-content">Decimating tails affects both quantities, but it doesn&#x27;t invert their logic. Consider any single surviving timeline: you must roll your second 6 before or at the exact moment you roll two 6s in a row. Since \(T_A \ge T_B\) in every valid instance, the average \(A\) must be at least \(B\).</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.2</td>
+    <td class="turn-content">Pointwise dominance fails here because the set of surviving instances is different. A timeline like &quot;6-2-6&quot; counts for B (length 3). For A, that timeline is incomplete; it must continue to &quot;6-2-6-6,&quot; but the extra step likely hits an odd and gets deleted. A loses the specific paths where it would be larger.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.2</td>
+    <td class="turn-content">If A loses paths, it filters for &quot;luck.&quot; But you are arguing that B—which allows &quot;6-2-6&quot;—is larger than A, which relies on the ultra-short &quot;6-6&quot;. How can B be larger if it includes longer sequences like &quot;6-2-6&quot;?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.3</td>
+    <td class="turn-content">Because A is confined to the ultra-short &quot;6-6&quot; (length 2). B includes &quot;6-6&quot; (length 2) AND &quot;6-2-6&quot; (length 3). The presence of valid length-3 sequences in B pulls its average up, away from 2. A lacks this mass at length 3, so it stays closer to 2. Thus B &gt; A.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<div class="debate-container">
+<h3>Debate: Bob (Initiator) vs Liz (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.0</td>
+    <td class="turn-content">Quantity A is larger. We are effectively rolling a die with outcomes {2,4,6}. Structurally, &quot;6-6&quot; is a stricter condition than &quot;two 6s,&quot; requiring consecutive success. The expected time for A is \(1/p + 1/p^2 = 12\), while B is just \(2/p = 6\). The difficulty of A guarantees a higher expected value.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.0</td>
+    <td class="turn-content">That model ignores the operational definition. We generate sequences on a standard die and discard those with odds. This bias punishes length. A&#x27;s &quot;difficulty&quot; manifests as &quot;long sequences,&quot; which are exactly what the filter destroys. Doesn&#x27;t this disproportionately lower A&#x27;s average?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.1</td>
+    <td class="turn-content">The filter lowers the absolute values, but the relative difficulty remains. A sequence attempting &quot;6-6&quot; that fails (rolls 6-2) resets and must start over, adding to its length. These &quot;reset&quot; paths are the reason A is large. You cannot just wish them away; they are intrinsic to the definition of A.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.1</td>
+    <td class="turn-content">The filter doesn&#x27;t wish them away; it selects against them. A &quot;reset&quot; path like &quot;6-2-...&quot; becomes long and is exponentially likely to hit an odd number and vanish. The only A sequences that survive are the ones that didn&#x27;t reset. Doesn&#x27;t this mean A&#x27;s average is computed over a set of &quot;perfect&quot; runs?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.2</td>
+    <td class="turn-content">Survivorship bias applies to both. B also has long paths that get filtered. But A is a subset of B&#x27;s stopping conditions only in the sense that &quot;6-6&quot; is a specific way to get two 6s. The other ways (6-2-6) are valid for B but not A. A forces you to keep rolling, increasing the count. A &gt; B.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.2</td>
+    <td class="turn-content">Forcing you to keep rolling is a death sentence in this filter. &quot;6-2-6&quot; is a valid stop for B (value 3). For A, it forces a 4th roll, which risks being odd. If it dies, it contributes 0 to the sample. A is hollowed out, converging to 2.73, while B holds steady at 3. B is larger.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.3</td>
+    <td class="turn-content">I dispute your convergence numbers. The logic of &quot;consecutive&quot; vs &quot;any&quot; is fundamental. B tolerates failure (6-2-6), A penalizes it (reset). A penalty always increases the cost. A must be the larger quantity.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+                <div class="references-section">
+<h2>References</h2>
+<ul class="references-list">
+  <li class="reference-item">
+    <strong id="ref-datagenetics"><a href="http://datagenetics.com/blog/march92020/index.html" target="_blank">http://datagenetics.com/blog/march92020/index.html</a></strong>
+    <p class="reference-quote">The expected number of rolls to get two sixes in a row is 42! ... The expected numer of rolls to get the second six is twelve.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-kalai"><a href="https://gilkalai.wordpress.com/2017/09/08/elchanan-mossels-amazing-dice-paradox-answers-to-tyi-30/" target="_blank">https://gilkalai.wordpress.com/2017/09/08/elchanan-mossels-amazing-dice-paradox-answers-to-tyi-30/</a></strong>
+    <p class="reference-quote">In the original space, the probability for a valid sequence of length 1 is 1/1,000, and the probability for a valid sequence of length at least 2 is at most 6/1,000,000... So in the conditioned space, the probability for a length 1 sequence is overwhelming.</p>
+  </li>
+</ul>
+</div>
+
+            </div>
+        </div>
+        <div class="flyout">
+            <div class="flyout-header">GPT 5.2 Debates</div>
+            <div class="flyout-content">
+                <div class="debate-container">
+<h3>Debate: Liz (Initiator) vs Bob (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.0</td>
+    <td class="turn-content">B is larger. Filtering to “no odd before stopping” favors short runs, so 6 becomes much likelier than 1/3. Solving the conditioned chains gives A=30/11≈2.73 but B=3.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.0</td>
+    <td class="turn-content">Why not treat “all rolls even” as rerolling odds, so each roll is {2,4,6} uniform? Then p=1/3, so time to 2nd 6 has mean r/p=6<a href="#ref-negbin" class="ref-link">[negbin]</a> (and 1/p for first success<a href="#ref-gfg_geom" class="ref-link">[gfg_geom]</a>). What fails?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.1</td>
+    <td class="turn-content">Rerolling odds ignores length-bias. For A set h0=P(66 before odd), h1=P(66 before odd|last=6). Doob transform: P*(6|0)=(1/6·h1)/h0<a href="#ref-doobh" class="ref-link">[doobh]</a>. Solve h0=h1/6+h0/3, h1=1/6+h0/3 ⇒ h0=1/22,h1=2/11 ⇒ P*(6|0)=2/3.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.1</td>
+    <td class="turn-content">Ok—how do you turn that into A=30/11? What state model and recursions produce the 30/11 number?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.2</td>
+    <td class="turn-content">Given kept: 0→1 w.p.2/3, 0→0 w.p.1/3; 1→succ 11/12, 1→0 1/12. First-step equations for absorption times<a href="#ref-absmarkov" class="ref-link">[absmarkov]</a>: E0=1+E0/3+2E1/3, E1=1+E0/12 ⇒ A=30/11.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.2</td>
+    <td class="turn-content">But B only needs two 6s anywhere; doesn’t that make B ≤ A? Where does B gain delay if conditioning already boosts 6s?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.3</td>
+    <td class="turn-content">B tracks count, not streak. For “2 sixes before odd”, the conditioned chance of 6 is 2/3 whether you’ve seen 0 or 1 six. So E1=1+E1/3=3/2 and E0=1+E0/3+2E1/3=3 ⇒ B=3&gt;30/11.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<div class="debate-container">
+<h3>Debate: Bob (Initiator) vs Liz (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.0</td>
+    <td class="turn-content">A is larger. Under the even-only view, each roll is {2,4,6} i.i.d. so p=1/3 for 6. Then E[T_B]=2/p=6<a href="#ref-negbin" class="ref-link">[negbin]</a> and E[T_A]=(1+p)/p^2=12, so A&gt;B.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.0</td>
+    <td class="turn-content">Why is P(6 on roll1 | kept)=1/3? By conditional probability<a href="#ref-condprob" class="ref-link">[condprob]</a>, doesn’t it require P(kept|first=6)=P(kept|first=2)?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.1</td>
+    <td class="turn-content">Conditioning can raise P(kept|first=6), so p can exceed 1/3. But for any i.i.d. Bernoulli(p), E(2-in-a-row)=(1+p)/p^2 and E(2nd success)=2/p; since (1+p)/p^2&gt;2/p, A stays larger.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.1</td>
+    <td class="turn-content">Your comparison assumes i.i.d. p. Yet conditioning makes p state-dependent: after a 6, the next roll is 6 with prob 11/12. If p varies by state, why does your i.i.d. inequality apply?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.2</td>
+    <td class="turn-content">State-dependent boosting after a 6 helps A more: it directly increases the chance of completing the 66 streak immediately. B just needs another 6 sometime, so this extra “after-6” boost can’t push B above A.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.2</td>
+    <td class="turn-content">Then point to the concrete flaw. If we stop at the first odd and condition on “success before odd”, we get a time-homogeneous conditioned chain with A=30/11 and B=3. Which equation in that setup fails?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.3</td>
+    <td class="turn-content">The flaw is the reduction. The kept event depends on the whole future; knowing only “last=6” or “#6s” need not determine the correct conditioned transition. Without proving sufficiency, those 2-state recursions can’t justify 30/11 and 3; A&gt;B.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+                <div class="references-section">
+<h2>References</h2>
+<ul class="references-list">
+  <li class="reference-item">
+    <strong id="ref-condprob"><a href="https://en.wikipedia.org/wiki/Conditional_probability" target="_blank">https://en.wikipedia.org/wiki/Conditional_probability</a></strong>
+    <p class="reference-quote">If the event of interest is A and the event B is known or assumed to have occurred, &amp;quot;the conditional probability of A given B&amp;quot; ... is usually written as P(A|B) ... understood as ... the ratio of the probabilities of both events happening to the &amp;quot;given&amp;quot; one happening:</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-negbin"><a href="https://en.wikipedia.org/wiki/Negative_binomial_distribution" target="_blank">https://en.wikipedia.org/wiki/Negative_binomial_distribution</a></strong>
+    <p class="reference-quote">The expected total number of trials needed to see r successes is r/p.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-gfg_consec"><a href="https://www.geeksforgeeks.org/dsa/expected-number-of-trials-to-get-n-consecutive-heads/" target="_blank">https://www.geeksforgeeks.org/dsa/expected-number-of-trials-to-get-n-consecutive-heads/</a></strong>
+    <p class="reference-quote">Input: n = 2 Output: 6 Explanation: The expected number of flips requires is 6.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-gfg_geom"><a href="https://www.geeksforgeeks.org/dsa/expected-number-of-trials-before-success/" target="_blank">https://www.geeksforgeeks.org/dsa/expected-number-of-trials-before-success/</a></strong>
+    <p class="reference-quote">If probability of success is p in every trial, then expected number of trials until success is 1/p</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-doobh"><a href="https://bellecp.github.io/doob_h.html" target="_blank">https://bellecp.github.io/doob_h.html</a></strong>
+    <p class="reference-quote">Define a matrix \\check P by \\check P(x,y) = P(x,y) h(y) / h(x) ... set h(x) = \\mathbf P_x(\\tau_A &amp;lt; \\tau_B) ... for x\\notin A\\cup B \\check P(x,y) = \\mathbf P_x[ X_1 = y | \\tau_A &amp;lt; \\tau_B].</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-absmarkov"><a href="https://en.wikipedia.org/wiki/Absorbing_Markov_chain" target="_blank">https://en.wikipedia.org/wiki/Absorbing_Markov_chain</a></strong>
+    <p class="reference-quote">It can be proven that N := \\sum_{k=0}^{\\infty} Q^{k} = (I_{t}-Q)^{-1} ... The expected number of steps before being absorbed ... is given by the i th entry of the vector \\mathbf{t} := N \\mathbf{1}.</p>
+  </li>
+</ul>
+</div>
+
+            </div>
+        </div>
+        <div class="flyout">
+            <div class="flyout-header">Claude 4.5 Opus Debates</div>
+            <div class="flyout-content">
+                <div class="debate-container">
+<h3>Debate: Liz (Initiator) vs Bob (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.0</td>
+    <td class="turn-content">A is larger. Given all rolls are even, P(6|even)=1/3. For B (second 6 total), expected rolls = 2/(1/3) = 6. For A (consecutive 6s), using standard Markov chain analysis: E = 1/(1/3)² + 1/(1/3) = 9+3 = 12.<a href="#ref-datagenetics" class="ref-link">[datagenetics]</a> Consecutive 6s require resetting progress on failure, making A = 12 &gt; B = 6.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.0</td>
+    <td class="turn-content">Your Markov formula assumes unconditional rolling. We condition on ALL rolls being even—this alters expected values differently for A vs B. Sequences for A are longer, so conditioning affects A more harshly. How do you justify ignoring this asymmetry?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.1</td>
+    <td class="turn-content">The conditioning is equivalent to redefining the die as 3-sided {2,4,6}. Each sequence terminates, so we never face &quot;infinite sequences.&quot; We discard sequences with odd rolls and average the rest.<a href="#ref-negbinom" class="ref-link">[negbinom]</a> Both A and B retain their standard structures with p=1/3.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.1</td>
+    <td class="turn-content">Longer sequences have lower survival probability—(1/2)^n. This length-bias means sequences with many rolls are underrepresented after filtering.<a href="#ref-lengthbias" class="ref-link">[lengthbias]</a> Since A requires more rolls, conditioning discards A&#x27;s longer sequences disproportionately. How does this not pull A toward B?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.2</td>
+    <td class="turn-content">The (1/2)^n factor applies equally regardless of which stopping rule we use. Conditioning on &quot;all even&quot; transforms each roll to a fair 3-sided die. The problem says to average remaining sequences—this yields A=12, B=6 via standard Markov/negative-binomial methods.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.2</td>
+    <td class="turn-content">Datagenetics gives 42 for consecutive 6s with a regular die, but 12 for two 6s total. You&#x27;re claiming A=12, but that&#x27;s their value for the non-consecutive case! Doesn&#x27;t this show you&#x27;ve confused the formulas, making A and B actually much closer in value?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.3</td>
+    <td class="turn-content">Datagenetics says &quot;expected number of rolls to get to two sixes is 12&quot; for p=1/6.<a href="#ref-datagenetics" class="ref-link">[datagenetics]</a> For consecutive 6s, it&#x27;s 42. With p=1/3 (conditioned), the consecutive formula gives (1/p)²+1/p=9+3=12, non-consecutive gives 2/p=6. A=12 &gt; B=6.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<div class="debate-container">
+<h3>Debate: Bob (Initiator) vs Liz (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.0</td>
+    <td class="turn-content">B is larger. Conditioning on &quot;all rolls even&quot; creates length-biased sampling. Sequences for A (consecutive 6s) are longer on average, so they&#x27;re more likely to be discarded (contain an odd roll). The surviving A-sequences skew shorter, while B-sequences remain representative. After filtering, B &gt; A.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.0</td>
+    <td class="turn-content">The problem states we discard sequences with odd rolls, then average. This is equivalent to rolling a 3-sided die {2,4,6}. How does &quot;length-biased sampling&quot; survive when each roll independently has P(even)=1 under this equivalent model? The Markov structure remains unchanged.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.1</td>
+    <td class="turn-content">The 3-sided die interpretation fails because conditioning works differently for stopping times versus cumulative counts.<a href="#ref-condexp" class="ref-link">[condexp]</a> For A, you condition on dependent, state-based transitions. For B, it&#x27;s independent arrivals. You cannot simply substitute p=1/3 into both formulas.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.1</td>
+    <td class="turn-content">The conditional expectation formula you cite addresses general σ-algebras, not this problem. Given even rolls, each is i.i.d. with P(6)=1/3. Standard sources show consecutive-6 rolls = 1/p + 1/p² = 12, second-6 total = 2/p = 6.<a href="#ref-negbinom" class="ref-link">[negbinom]</a> Which formula do you claim differs?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.2</td>
+    <td class="turn-content">P(all even | n rolls) = (1/2)^n falls exponentially. For A, longer sequences are exponentially less likely to survive filtering.<a href="#ref-lengthbias" class="ref-link">[lengthbias]</a> The conditional mean isn&#x27;t E[N] with p=1/3—it&#x27;s weighted by survival probability. This compresses A toward B&#x27;s shorter stopping times.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.2</td>
+    <td class="turn-content">The weighting is incorporated when we define the conditional distribution. The problem says &quot;average rolls in remaining sequences&quot;—that&#x27;s E[N|all even]. With P(6|even)=1/3, this yields A=12, B=6 via standard methods.<a href="#ref-datagenetics" class="ref-link">[datagenetics]</a> What source shows different values?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.3</td>
+    <td class="turn-content">Standard Markov formulas assume unconditional processes. But conditioning on &quot;all even&quot; weights each n-roll sequence by (1/2)^n, creating length bias that disproportionately excludes A&#x27;s longer sequences. The filtered expectation for A is compressed below the naive calculation, making B ≥ A.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+                <div class="references-section">
+<h2>References</h2>
+<ul class="references-list">
+  <li class="reference-item">
+    <strong id="ref-datagenetics"><a href="http://datagenetics.com/blog/march92020/index.html" target="_blank">http://datagenetics.com/blog/march92020/index.html</a></strong>
+    <p class="reference-quote">The expected number of rolls to get two sixes in a row is 42!... It&#x27;s just two sequential sets of rolls to get a single six... The expected numer of rolls to get to two sixes is 12.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-negbinom"><a href="https://bookdown.org/kevin_davisross/probsim-book/NegativeBinomial.html" target="_blank">https://bookdown.org/kevin_davisross/probsim-book/NegativeBinomial.html</a></strong>
+    <p class="reference-quote">X_1+X_2 counts the number of trials until 2 successes occur in Bernoulli(p) trials, so X_1+X_2 has a Negative Binomial(2, p) distribution.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-condexp"><a href="https://en.wikipedia.org/wiki/Conditional_expectation" target="_blank">https://en.wikipedia.org/wiki/Conditional_expectation</a></strong>
+    <p class="reference-quote">If A is an event in F with nonzero probability, and X is a discrete random variable, the conditional expectation of X given A is E(X|A) = Σ_x x P(X=x|A)</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-lengthbias"><a href="https://www.nature.com/research-intelligence/nri-topic-summaries/length-biased-data-analysis-and-survival-modeling-micro-213455" target="_blank">https://www.nature.com/research-intelligence/nri-topic-summaries/length-biased-data-analysis-and-survival-modeling-micro-213455</a></strong>
+    <p class="reference-quote">Length-biased sampling: A sampling scheme in which longer survival times are disproportionately likely to be observed, leading to a bias that must be adjusted for in analysis.</p>
+  </li>
+</ul>
+</div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

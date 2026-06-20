@@ -1,0 +1,197 @@
+================================================================================
+KEY QUESTION
+================================================================================
+
+A ball of ice 50 cm in diameter floats in a bathtub that holds 200 L water, which is brim full with ice-cold water. The ice has a 50 cm^3 railroad spike frozen inside it, below the waterline. When it melts, what will happen? The bathtub will stay brim full The water level in the bathtub will fall The water in the bathtub will spill over You may ignore the effects of differences in an object's weight in air vs. vacuum or other considerations that the question author would be unlikely to consider relevant. In other words, please provide the answer that you believe the question author would be most likely to mark as correct.
+
+================================================================================
+SOURCES
+================================================================================
+
+[Quote 1]  Wikipedia, Archimedes' principle, quote 1 [URL, author blinded from debate judges.] — “Any floating object displaces its own weight of fluid.”
+
+[Quote 2]  Wikipedia, Archimedes' principle, quote 2 [URL, author blinded from debate judges.] — “One common point of confusion regarding Archimedes' principle is the meaning of displaced volume. Common demonstrations involve measuring the rise in water level when an object floats on the surface in order to calculate the displaced water. This measurement approach fails with a buoyant submerged object because the rise in the water level is directly related to the volume of the object and not the mass (except if the effective density of the object equals exactly the fluid density).”
+
+[Quote 3]  Wikipedia, Archimedes' principle, quote 3 [URL, author blinded from debate judges.] — “In other words, for an object floating on a liquid surface (like a boat) or floating submerged in a fluid (like a submarine in water or dirigible in air) the weight of the displaced fluid equals the weight of the object.”
+
+[Quote 4]  Wikipedia, Archimedes' principle, quote 4 [URL, author blinded from debate judges.] — “In simple terms, the principle states that the buoyant force (Fb) on an object is equal to the weight of the fluid displaced by the object, or the density (ρ) of the fluid multiplied by the submerged volume (V) times the gravity (g) ... For a fully submerged object, Archimedes' principle can be reformulated as follows: apparent immersed weight = weight of object - weight of displaced fluid.”
+
+[Quote 5]  Merriam-Webster's Dictionary, definitions of 'buoyant' and 'buoyancy' [URL, author blinded from debate judges.] — “buoyant (ˈbü-yənt): having buoyancy: 'Warm air is more buoyant than cool air'. a: capable of floating: 'Cork is naturally buoyant.' buoyancy (ˈbȯi-ən(t)-sē): a: the tendency of a body to float or to rise when submerged in a fluid: 'testing an object's buoyancy'. b: the power of a fluid to exert an upward force on a body placed in it: 'the buoyancy of water'. also : the upward force exerted.”
+
+[Quote 6]  Merriam-Webster's Dictionary, definition of 'submerged' [URL, author blinded from debate judges.] — “submerged (səb-ˈmərjd): 1: covered with water. 2: growing or adapted to grow underwater.”
+
+--------------------------------------------------------------------------------
+Note: Exactly one of these debater's answers matches the answer of the expert who wrote the Key Question.
+--------------------------------------------------------------------------------
+
+================================================================================
+DEBATE — LEFT SIDE OF TABLE  (with reactions from the other debater)
+================================================================================
+
+────────────────────────────────────────────────────────────
+Debater A: [Opening]
+────────────────────────────────────────────────────────────
+
+The water level falls.
+
+   → 👎 Debater B registers main objection
+
+Recursed on: Claim 1
+
+────────────────────────────────────────────────────────────
+Debater B: [Argument 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: The spike is submerged below the waterline inside the ice, so its displacement is volume-based [Quote 2].
+   → 👎 Debater A registers main objection
+
+Claim 2: When the ice melts, the spike's volume doesn't change, and the ice's meltwater replaces the ice's displacement.
+   → 👎 Debater A registers secondary objection
+
+Recursed on: Claim 1
+
+────────────────────────────────────────────────────────────
+Debater A: [Response 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: [Quote 2] contrasts an object that "floats on the surface" with a "buoyant submerged object", implying that these are different things.
+   → 👍 Debater B fully agrees
+
+Claim 2: The spike is initially part of an object that floats on the surface, so its initial displacement is weight-based.
+   → 👎 Debater B registers main objection
+
+Recursed on: Claim 2
+
+────────────────────────────────────────────────────────────
+Debater B: [Argument 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: The spike is fully below the waterline, so it is "submerged" according to the dictionary definition of the term ([Quote 6]), which we can safely assume is being used here.
+   → 👎 Debater A registers secondary objection
+
+Claim 2: The spike is floating due to being embedded in the floating ice, so it is buoyant.
+   → 👎 Debater A registers main objection
+
+Recursed on: Claim 2
+
+────────────────────────────────────────────────────────────
+Debater A: [Response 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: Quotes 1 and 2 contradict each other if we assume that "buoyant" just means "floating".
+   → 👍 Debater B fully agrees
+
+Claim 2: "Buoyant" here means weight doesn't exceed upward force from the water, e.g. the object's effective density is less than or equal to that of water.
+   → 👎 Debater B registers main objection
+
+Recursed on: Claim 2
+
+────────────────────────────────────────────────────────────
+Debater B: [Argument 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: This differs from dictionary definitions of "buoyant" [Quote 5].
+   → 👍🚩 Debater A agrees but thinks this omits key info
+
+Claim 2: [Quote 2] refers to "the volume of the object", but the whole volume of an object isn't normally underwater if it has density less than water.
+   → 👍🚩 Debater A agrees but thinks this omits key info
+
+   → 👎 Debater A objects to the idea that these claims refute their argument (main objection)
+
+Recursed on: the meta-claim
+
+────────────────────────────────────────────────────────────
+Debater A: [Response 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: [Quote 2] is pointing out that objects with density less than water, but which *do* have their full volumes underwater, will displace their full volumes.
+   → 👎 Debater B registers main objection
+
+Claim 2: A beach ball held underwater is an example of this.
+   → 👍 Debater B fully agrees
+
+================================================================================
+DEBATE — RIGHT SIDE OF TABLE  (with reactions from the other debater)
+================================================================================
+
+────────────────────────────────────────────────────────────
+Debater B: [Opening]
+────────────────────────────────────────────────────────────
+
+The water level stays brim full.
+
+   → 👎 Debater A registers main objection
+
+Recursed on: Claim 1
+
+────────────────────────────────────────────────────────────
+Debater A: [Argument 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: The floating system displaces water equal to its total weight [Quote 1].
+   → 👎 Debater B registers main objection
+
+Claim 2: When the ice melts and the spike sinks, it transitions from weight-based (~390 ml) to volume-based (~50 ml) displacement, dropping the level ~340 ml.
+   → 👎 Debater B registers secondary objection
+
+Recursed on: Claim 1
+
+────────────────────────────────────────────────────────────
+Debater B: [Response 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: Treating ice and spike as one "floating system" implies that the "below the waterline" phrase in the question is irrelevant.
+   → 👍 Debater A fully agrees
+
+Claim 2: The ice floats on its own (weight-based displacement), the spike is a buoyant submerged object (volume-based displacement) [Quote 2].
+   → 👎 Debater A registers main objection
+
+Recursed on: Claim 2
+
+────────────────────────────────────────────────────────────
+Debater A: [Argument 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: The spike is not a "buoyant submerged object": the spike and ice are initially part of the same floating system.
+   → 👎 Debater B registers main objection
+
+Claim 2: For a boat, displacement is weight-based without needing to consider whether the boat's parts float on their own [Quote 3].
+   → 👎 Debater B registers secondary objection
+
+Recursed on: Claim 1
+
+────────────────────────────────────────────────────────────
+Debater B: [Response 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: It is a "buoyant submerged object" because it is floating fully below the waterline.
+   → 👎 Debater A registers main objection
+
+Claim 2: Compare this to a boat's hull, which is not a buoyant submerged object.
+   → 👍 Debater A fully agrees
+
+Recursed on: Claim 1
+
+────────────────────────────────────────────────────────────
+Debater A: [Argument 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: This would mean displacement is weight-based when 99% is below the waterline, but volume-based at 100%.
+   → 👍🚩 Debater B agrees but thinks this omits key info
+
+Claim 2: Nothing in the source defines "submerged" as "fully below the waterline"; in fact, it differentiates between "submerged" and "fully submerged" [Quote 4].
+   → 👍🚩 Debater B agrees but thinks this omits key info
+
+   → 👎 Debater B objects to the idea that these claims refute their argument (main objection)
+
+Recursed on: the meta-claim
+
+────────────────────────────────────────────────────────────
+Debater B: [Response 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: Your alternative definition (Debater A Response 2 Claim 2) implies the displacement regime is weight-based when 1% of the spike is attached to the ice, but switches to volume-based if this is 0%.
+   → 👍 Debater A fully agrees
+
+Claim 2: This is implausible.
+   → 👎 Debater A registers main objection

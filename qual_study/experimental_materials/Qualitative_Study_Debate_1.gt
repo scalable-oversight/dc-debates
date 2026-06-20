@@ -1,0 +1,280 @@
+
+Welcome to the Debate Analysis task! We hope that you find it interesting and maybe even enjoyable.
+
+*button: Next
+
+Please note that this study involves free-response questions requiring some typing, and MUST be completed on a tablet, laptop, or desktop.
+
+If you attempt to do this task on a mobile phone, you are unlikely to perform well at the task, and therefore we do not allow this. If you are currently on a mobile phone, please exit and instead visit the link on a tablet, laptop, or desktop now.
+
+*button: Next
+
+Please do not use large language models (LLMs) such as Claude, ChatGPT, Gemini, or Copilot to perform this task. We have specifically chosen a task at which LLMs do not perform well and we are aware of what answers to these questions produced by LLMs tend to look like.
+
+*question: I agree not to use LLMs on this task and understand that use of LLMs on this particular task is likely to lead to poor performance.
+	*save: iAgreeNoLLMs
+	Yes
+	No
+
+*if: iAgreeNoLLMs = "No"
+	Unfortunately, in order to participate in this study, you must agree not to use LLMs on the task.
+	*quit
+
+*question: What device are you completing this study on?
+	*save: device
+	Laptop
+	Desktop
+	Tablet
+	Mobile phone
+
+*if: device = "Mobile phone"
+	Unfortunately, in order to participate in this study, you must complete it on a desktop, laptop, or tablet.
+	
+	*quit
+
+*header: Debate Interpretation Project
+*header: Participant Information Sheet
+
+*What is the purpose of this project? What will happen if I agree to take part?*
+
+The purpose of this project is to learn more about how people judge debates on challenging topics. We hope that having a better understanding of this will allow AI developers to better develop 'scalable oversight' techniques that allow us to be more justifiably confident in AI systems' answers to challenging questions, and which could reduce certain risks associated with the development and deployment of AI systems.
+
+If you agree to take part, you will be asked to analyse a debate; you will receive more specific details when you reach this part of the study. Note that we expect that the question being debated may be challenging, and we do not necessarily expect or require you to reach the correct conclusion. We are more interested in getting a clear sense of how you reason about the problem. 
+
+We expect the study to take approximately 45 minutes to complete, and you will be paid for your time at the amount specified on the Prolific invitation you responded to.
+
+*What are the risks and benefits of taking part?*
+
+There are no direct benefits to you from taking part other than the payment you will receive. We hope that the data you provide will contribute to the responsible development of AI systems.
+
+In any online study there is a small risk of issues caused by technical glitches or human error. If you encounter any problems with your submission or payment, please reach out directly to the researcher through the Prolific messaging platform.
+
+*Do I have to take part?*
+
+No, your participation is entirely voluntary. If you do decide to take part, you can withdraw at any time and without giving a reason.
+
+*Do you collect personal data? Who will process any personal data you collect? What will happen to any personal data I provide you?*
+
+/Purpose and legal basis./ If we have not done so already we may ask some optional "details about yourself" questions (e.g., your gender, age range, etc.) in order to better understand the proportion of participants who fall into particular categories. We will also ask about your level of education, as well as your level of experience with physics and computer programming, in order to better understand the experience (or lack of experience) that participants are bringing to the task. This information is used to carry out research under the legitimate interests pursued by Dr Gabriel Recchia. Your answers to these questions will be shared with the lead researcher Dr Gabriel Recchia. 
+
+/Anonymised data./ Anonymised versions of your responses to all questions may appear in publicly available datasets or be shared with other researchers. These will not be publicly associated with any identifier that could be used to identify you individually, and personal data will be /de-linked/. This means that any specific details you may choose to provide - e.g. your educational status, your gender, etc. - will be separated from each other so that your educational status cannot be connected to your gender, age, and so on.
+
+/Data transfer./ Any information that you may choose to share with us will be subject to algorithmic processing and may be transferred, processed, transmitted and stored outside the European Union. For example, data transfers may occur to servers owned by GuidedTrack (the company that makes the survey software you are using now), Dropbox, or Google (companies that offer digital storage).
+
+/Retention period./ The requested information will be retained for five years unless we are required by law to retain it for a longer period.
+
+/Your rights./ You have the right to request access to your personal data held by Dr Gabriel Recchia, to have it corrected or deleted, to restrict processing, to object to processing, and to obtain and reuse any personal data that Dr Gabriel Recchia holds on you for your own purposes. However, this does not override our obligation to comply with legal requirements, such as fulfilling obligations to avoid violating applicable laws. You may withdraw your consent at any time; if you do, we will delete your personal data from our systems unless required by law to retain it. However, this does not affect the lawfulness of processing carried out based on your consent before its withdrawal. Additionally, if your data has already been shared publicly or incorporated into publicly available datasets by the time you withdraw consent, we may no longer have the ability to retrieve or delete it from those external sources. To exercise your rights, or if you have any questions, please send your request to the researcher using Prolific's messaging system. You have the right to lodge a complaint with a supervisory authority if you believe that your data protection rights have been infringed.
+
+*Contact for further information* 
+
+If you have any questions, you may contact the research lead, Dr Gabriel Recchia, directly using Prolific's messaging system.
+
+*button: OK
+
+*label: consentPage
+*page
+
+	Please read the following statements carefully. If you agree with them, tick the box next to each statement and then click proceed.
+		
+	*question: I have read and understand the Participant Information Sheet (the information on the previous page)
+		*save: consentInfoSheet
+		Yes
+		No
+		
+	*question: I understand that my participation is voluntary and that I am free to withdraw at any time without giving a reason
+		*save: consentVoluntary
+		Yes
+		No
+	
+	*question: I understand that the data I provide may be stored and used for future research
+		*save: consentDataStorage
+		Yes
+		No
+		
+	*question: I am aged 18 or older
+		*save: consentAge
+		Yes
+		No
+	
+	*question: I give consent for the data I provide to be processed, transmitted or stored outside the European Union
+		*save: consentDataProcessing
+		Yes
+		No
+	
+	*question: I agree to take part in this study
+		*save: consentToParticipate
+		Yes
+		No
+		
+	If the *Next* button below is not responding, please make sure that you have answered all of the questions above.
+
+>> consentedToAll = "No"
+
+*if: consentInfoSheet = "Yes" and consentVoluntary = "Yes" and consentDataStorage = "Yes" and consentAge = "Yes" and consentDataProcessing = "Yes" and consentToParticipate = "Yes"
+	>> consentedToAll = "Yes"
+	
+*if: consentedToAll = "No"
+	Since you have not answered Yes to all questions, you will not be able to participate in this study.
+	
+	*question: Is this correct?
+		*save: confirmNoConsent
+		This is correct.
+		I made a mistake, take me back to the previous screen!
+	
+	*if: confirmNoConsent = "I made a mistake, take me back to the previous screen!"
+		*goto: consentPage
+			*reset
+	
+	*quit
+
+*label: bookmark
+
+*label: debate_instructions_intro
+*header: How the task works
+
+In this task, you’ll judge a debate between *Debater A* and *Debater B* about a challenging question.
+
+The debate happens over *4 turns*. For each turn, you will:
+1) Click a link that opens that turn in a new tab  
+2) Read the Key Question, the debaters’ positions, and any additional info provided
+3) Give a probability judgment and answer a free-response question
+4) Copy the *encoded version* of your answers and paste it back into this study (we'll explain what this means in a moment)
+
+You do *not* need to be an expert in the specific topic of the question. We mainly care about how you reason with what you’re given.
+
+*button: Next
+
+*header: Giving your judgment
+
+Each debate page will ask you to assign a probability that *Debater A* vs *Debater B* matches what an expert would say.
+
+- If you have *no idea* who is right, set the slider to 50%/50%.
+- If you lean one way, move the slider to reflect that (e.g., 40%/60%, 70%/30%, etc.).
+- If the question seems a bit ambiguous, do your best to answer the way you think the expert who wrote the question would interpret it.
+
+You’ll also be asked to explain *why* you chose the probability that you chose. We'd like you to list all relevant reasons that come to mind, with a brief remark on how much weight you gave to each.
+
+*button: Next
+
+*header: Timing
+
+You will have a maximum time limit for each debate turn:
+- *Turn 1:* 9 minutes  
+- *Turn 2:* 9 minutes  
+- *Turn 3:* 9 minutes  
+- *Turn 4:* 9 minutes  
+
+You don’t need to use all the time, but you should take as much time as you need (within the limit) to be as accurate as you can, and to provide a complete answer to the question provided.
+
+When time runs out, the text box will disappear and you will no longer be able to edit your answer. However, you will still be able to copy your answer from the debate page. If you’re worried about time, it can help to type a short draft answer early, then improve it if you have time left.
+
+*button: Next
+
+*header: What you may and may not consult
+
+To keep the task fair and consistent:
+
+- *Do not* use the internet (Google, Wikipedia, forums, etc.) to help you evaluate the debate.
+- *Do not* use any large language model or AI assistant.
+
+*label: debate_instructions_video
+
+*header: Watch the demo video
+
+Before you start Turn 1, please watch the demo video explaining the interface. 
+
+You do not need to re-watch the video if you have already seen it in a study earlier in this series.
+
+[Watch the demo video (not required if you have already seen it in a study earlier in this series)|https://drive.google.com/file/d/1YE0nxKBQto0xHIjkHNjxiP2ocwnJcKIZ/view?usp=sharing]
+
+*question: I watched the demo video, OR I have seen the video already
+	*save: watched_demo_video
+	Yes - continue to the debate
+	
+*New information: What to do if the task feels overwhelming*
+
+*image: https://images.guidedtrack.com/new_information_rj9h0g4.jpg
+
+Depending on the debate you receive, it is possible that you may be given an amount of information that feels simply impossible to read or comprehend in the amount of time given. In such cases, we recommend you do your best to orient yourself to the question and any relevant definitions, scroll down to the debate, and do your best with the information available to you in the time you have.
+
+In case it is useful, in most browsers, you can press Ctrl+F (or Command+F) to search the current webpage for a particular word or phrase.
+
+*button: OK
+
+*New information: references*
+
+*image: https://images.guidedtrack.com/new_information_rj9h0g4.jpg
+
+Debaters may cite sources that appear as 'Year, title, and link blinded from debate judges.' This is intentional, not a glitch. These are genuine academic papers, and any figures or facts attributed to them do come from those sources.
+
+Similarly, some sources may include a quote, along with the phrase *"URL blinded from debate judges"*. You can be assured that such quotes have indeed been pulled from reputable online sources.
+
+*button: OK
+
+
+>> turn1_urls = {"5db303e4863031000b5f0311" -> "https://moduloresearch.com/debates/prolific_qual_1/probability_-_expected_number_of_rolls/5487d494273ac9534b0d43f8e6c0b5884.html", "629f2a9c3effb1dc81c49116" -> "https://moduloresearch.com/debates/prolific_qual_1/large_linear_structure/1a9229c778dd5ad68aa678ad1a3a1545c.html", "63d3fb730f03adf8b4a28a37" -> "https://moduloresearch.com/debates/prolific_qual_1/probability_-_expected_number_of_rolls/5487d494273ac9534b0d43f8e6c0b5884.html", "629dd4199343d7710fcdb39c" -> "https://moduloresearch.com/debates/prolific_qual_1/little_red_dots/52108559b2155bc4088aa6158c187b085.html", "65490ad4dc55c188bf6482dc" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_338159_(orm_library)/17920240f5f073559a5ed401319b5e62b.html", "5fe230ee29598a57972db630" -> "https://moduloresearch.com/debates/prolific_qual_1/bergs/570175298c79e31dc16925dd8ec29b7b1.html", "68cd5e07879b2732b201d926" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_323067_(db_deletion)/55ab22ee2d6fd45f7ac5a2dd566e72527.html", "69a5a539d7b49d9107b10227" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_338159_(orm_library)/17920240f5f073559a5ed401319b5e62b.html", "699f928faff9f81bd047603e" -> "https://moduloresearch.com/debates/prolific_qual_1/little_red_dots/10fe7671461cd8c60c72cc2e00b7ede41.html", "66ae590a965e76c5cd7b67d7" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_339242_(prefix-sum)/5c630da2a77dc557201d96fa1c51fff03.html", "5f117f2b69f65101263bf8d0" -> "https://moduloresearch.com/debates/prolific_qual_1/switch/58f5c61d46eddcc0f1084e3217ac49943.html", "6151a607b886850c924ff6ec" -> "https://moduloresearch.com/debates/prolific_qual_1/internal_temperature_of_stars/50d18fa0dbccfafaca3a15a4f0bb0ec68.html", "66a22ff1a14a52a55595c00d" -> "https://moduloresearch.com/debates/prolific_qual_1/probability_-_expected_number_of_rolls/174afa5239be0a1c450ab323c76ed9d92.html", "5d45bde698c84000164e1200" -> "https://moduloresearch.com/debates/prolific_qual_1/early_universe_galaxies/58b058326d1a32b683c18d433957b2910.html", "5f529a01b9922d57f46fcf89" -> "https://moduloresearch.com/debates/prolific_qual_1/bergs/570175298c79e31dc16925dd8ec29b7b1.html", "5991b5cd7d29e700017303bb" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_338159_(orm_library)/593165222a27b54e9a6f017dd92bb1afc.html", "69982bfa1ee6046d7dc34144" -> "https://moduloresearch.com/debates/prolific_qual_1/large_linear_structure/54b961c101e37e4565f9ad4d75135ac1c.html", "69a6f402b6703853961d4d30" -> "https://moduloresearch.com/debates/prolific_qual_1/little_red_dots/10fe7671461cd8c60c72cc2e00b7ede41.html", "5fb9a0f931099055176541e6" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_323067_(db_deletion)/11eced01f9078e6307a92140c918e61ae.html", "60886f033e4f5c214da0c898" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_323067_(db_deletion)/11eced01f9078e6307a92140c918e61ae.html", "63fbf0e3b18cc14adc0dbfb6" -> "https://moduloresearch.com/debates/prolific_qual_1/switch/58f5c61d46eddcc0f1084e3217ac49943.html", "66e706540c25cee0f5ccdaba" -> "https://moduloresearch.com/debates/prolific_qual_1/gravitational_lens_modelling/517790f7b9a120ef4566e8cddfc79e1c7.html", "6346921046fa377ce55acbc1" -> "https://moduloresearch.com/debates/prolific_qual_1/gravitational_lens_modelling/1111faed0eaa4d1decf57d60a6d5572bb.html", "62852271a105889fadd8f22d" -> "https://moduloresearch.com/debates/prolific_qual_1/switch/1a759d0ad8be0fd3a3f20d4c857b07eac.html", "6695991a6db58bdcd2d1e388" -> "https://moduloresearch.com/debates/prolific_qual_1/internal_temperature_of_stars/50d18fa0dbccfafaca3a15a4f0bb0ec68.html", "5af2a03697a14300017d2ba4" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_306440_(rust)/5f445958982189afa3c8df1d2160b8355.html", "5c328af23f5d210001834f82" -> "https://moduloresearch.com/debates/prolific_qual_1/bergs/1ec96addb30c3e2998283d063005b1c2e.html", "6658b72b045fe9975678ae46" -> "https://moduloresearch.com/debates/prolific_qual_1/large_linear_structure/1a9229c778dd5ad68aa678ad1a3a1545c.html", "657065aa0c153f5a01470d1b" -> "https://moduloresearch.com/debates/prolific_qual_1/early_universe_galaxies/58b058326d1a32b683c18d433957b2910.html", "60537fdcda0ac05f1c59c57f" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_306440_(rust)/147d927b3db0870b8699aa82dfcd49384.html", "665a09cfc62d40dd7738c79d" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_339242_(prefix-sum)/199248de06c559a07cecb4fc8485f27d6.html", "60147f790be39349d775e4f2" -> "https://moduloresearch.com/debates/prolific_qual_1/early_universe_galaxies/193582e6ff6fb62bb46eba2414ec52e6a.html", "5f6674b8ff4a11134f4ff972" -> "https://moduloresearch.com/debates/prolific_qual_1/internal_temperature_of_stars/50d18fa0dbccfafaca3a15a4f0bb0ec68.html", "5b52f4933234ab00014ca442" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_339242_(prefix-sum)/199248de06c559a07cecb4fc8485f27d6.html", "5c4f7b99b33a5300013dbfdd" -> "https://moduloresearch.com/debates/prolific_qual_1/gravitational_lens_modelling/517790f7b9a120ef4566e8cddfc79e1c7.html", "6050835a7dbf1e0d8bef47d0" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_306440_(rust)/147d927b3db0870b8699aa82dfcd49384.html"}
+>> turn2_urls = {"5db303e4863031000b5f0311" -> "https://moduloresearch.com/debates/prolific_qual_1/probability_-_expected_number_of_rolls/6bbe3bd25f59cda8702deee954db97d10.html", "629f2a9c3effb1dc81c49116" -> "https://moduloresearch.com/debates/prolific_qual_1/large_linear_structure/2ba18d32c1bea3c4cda9ccab103ae9b87.html", "63d3fb730f03adf8b4a28a37" -> "https://moduloresearch.com/debates/prolific_qual_1/probability_-_expected_number_of_rolls/6bbe3bd25f59cda8702deee954db97d10.html", "629dd4199343d7710fcdb39c" -> "https://moduloresearch.com/debates/prolific_qual_1/little_red_dots/69ef48f0f713ef0043d3d72bfd22dcc71.html", "65490ad4dc55c188bf6482dc" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_338159_(orm_library)/22f76adc7f15ee8b6841eb49ee45353ee.html", "5fe230ee29598a57972db630" -> "https://moduloresearch.com/debates/prolific_qual_1/bergs/68fcbe020d2a52b71c098e5622a5e16ce.html", "68cd5e07879b2732b201d926" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_323067_(db_deletion)/6e1be7ee62eddcd092974782b8f90a308.html", "69a5a539d7b49d9107b10227" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_338159_(orm_library)/22f76adc7f15ee8b6841eb49ee45353ee.html", "699f928faff9f81bd047603e" -> "https://moduloresearch.com/debates/prolific_qual_1/little_red_dots/2da2945204a59fbec3274c76d1ba9cac0.html", "66ae590a965e76c5cd7b67d7" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_339242_(prefix-sum)/62c496e213a2634b457cb9ea204611656.html", "5f117f2b69f65101263bf8d0" -> "https://moduloresearch.com/debates/prolific_qual_1/switch/6f691d4e5a9cd81fc4876b06513f704d6.html", "6151a607b886850c924ff6ec" -> "https://moduloresearch.com/debates/prolific_qual_1/internal_temperature_of_stars/6acc237a3f7789b7063c2a779f71427ec.html", "66a22ff1a14a52a55595c00d" -> "https://moduloresearch.com/debates/prolific_qual_1/probability_-_expected_number_of_rolls/2a240e29f6e0601e662c56efd65292fd7.html", "5d45bde698c84000164e1200" -> "https://moduloresearch.com/debates/prolific_qual_1/early_universe_galaxies/6e8724828c22ae1692686a17820d4902c.html", "5f529a01b9922d57f46fcf89" -> "https://moduloresearch.com/debates/prolific_qual_1/bergs/68fcbe020d2a52b71c098e5622a5e16ce.html", "5991b5cd7d29e700017303bb" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_338159_(orm_library)/6ddf485a8c75f07042629f298312b1108.html", "69982bfa1ee6046d7dc34144" -> "https://moduloresearch.com/debates/prolific_qual_1/large_linear_structure/6d5b14f790467cc10bb7cd52944043905.html", "69a6f402b6703853961d4d30" -> "https://moduloresearch.com/debates/prolific_qual_1/little_red_dots/2da2945204a59fbec3274c76d1ba9cac0.html", "5fb9a0f931099055176541e6" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_323067_(db_deletion)/24ce42d7837681c2d4be6910210f083f7.html", "60886f033e4f5c214da0c898" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_323067_(db_deletion)/24ce42d7837681c2d4be6910210f083f7.html", "63fbf0e3b18cc14adc0dbfb6" -> "https://moduloresearch.com/debates/prolific_qual_1/switch/6f691d4e5a9cd81fc4876b06513f704d6.html", "66e706540c25cee0f5ccdaba" -> "https://moduloresearch.com/debates/prolific_qual_1/gravitational_lens_modelling/6d2f82c14c45ad076bd3e525e131b61e5.html", "6346921046fa377ce55acbc1" -> "https://moduloresearch.com/debates/prolific_qual_1/gravitational_lens_modelling/2cd15320d7eaa0e1c26999a6697a30878.html", "62852271a105889fadd8f22d" -> "https://moduloresearch.com/debates/prolific_qual_1/switch/2a63d333c855ceb4749515edde874bf85.html", "6695991a6db58bdcd2d1e388" -> "https://moduloresearch.com/debates/prolific_qual_1/internal_temperature_of_stars/6acc237a3f7789b7063c2a779f71427ec.html", "5af2a03697a14300017d2ba4" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_306440_(rust)/61953e00644f41f4560ea7610aa471591.html", "5c328af23f5d210001834f82" -> "https://moduloresearch.com/debates/prolific_qual_1/bergs/23c2eb4a39265f53271f091814e086bd2.html", "6658b72b045fe9975678ae46" -> "https://moduloresearch.com/debates/prolific_qual_1/large_linear_structure/2ba18d32c1bea3c4cda9ccab103ae9b87.html", "657065aa0c153f5a01470d1b" -> "https://moduloresearch.com/debates/prolific_qual_1/early_universe_galaxies/6e8724828c22ae1692686a17820d4902c.html", "60537fdcda0ac05f1c59c57f" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_306440_(rust)/2c6e7893f573b5e4c4cd6b8ad39749c89.html", "665a09cfc62d40dd7738c79d" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_339242_(prefix-sum)/2ba0761e9d476bd7399e4e3f1c4a09eda.html", "60147f790be39349d775e4f2" -> "https://moduloresearch.com/debates/prolific_qual_1/early_universe_galaxies/20e319315a95c12ddc9041e2dba9f2221.html", "5f6674b8ff4a11134f4ff972" -> "https://moduloresearch.com/debates/prolific_qual_1/internal_temperature_of_stars/6acc237a3f7789b7063c2a779f71427ec.html", "5b52f4933234ab00014ca442" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_339242_(prefix-sum)/2ba0761e9d476bd7399e4e3f1c4a09eda.html", "5c4f7b99b33a5300013dbfdd" -> "https://moduloresearch.com/debates/prolific_qual_1/gravitational_lens_modelling/6d2f82c14c45ad076bd3e525e131b61e5.html", "6050835a7dbf1e0d8bef47d0" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_306440_(rust)/2c6e7893f573b5e4c4cd6b8ad39749c89.html"}
+>> turn3_urls = {"5db303e4863031000b5f0311" -> "https://moduloresearch.com/debates/prolific_qual_1/probability_-_expected_number_of_rolls/71b91484289bdbe62d52d8f9b78847c44.html", "629f2a9c3effb1dc81c49116" -> "https://moduloresearch.com/debates/prolific_qual_1/large_linear_structure/36cb45d6b71dd33e46a824897078356f1.html", "63d3fb730f03adf8b4a28a37" -> "https://moduloresearch.com/debates/prolific_qual_1/probability_-_expected_number_of_rolls/71b91484289bdbe62d52d8f9b78847c44.html", "629dd4199343d7710fcdb39c" -> "https://moduloresearch.com/debates/prolific_qual_1/little_red_dots/7cef9e77f90199535ca13007b5de746d4.html", "65490ad4dc55c188bf6482dc" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_338159_(orm_library)/3d705fa836c79451ee0f9d8ce379b96e8.html", "5fe230ee29598a57972db630" -> "https://moduloresearch.com/debates/prolific_qual_1/bergs/77f42883a291a15acc049e132d2ca8aeb.html", "68cd5e07879b2732b201d926" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_323067_(db_deletion)/719b8def9d652114079b6022cef6b5d62.html", "69a5a539d7b49d9107b10227" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_338159_(orm_library)/3d705fa836c79451ee0f9d8ce379b96e8.html", "699f928faff9f81bd047603e" -> "https://moduloresearch.com/debates/prolific_qual_1/little_red_dots/3dc67d5f2fade2a798890bda2662612a0.html", "66ae590a965e76c5cd7b67d7" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_339242_(prefix-sum)/745737501107aa9cbf853302523a32f87.html", "5f117f2b69f65101263bf8d0" -> "https://moduloresearch.com/debates/prolific_qual_1/switch/750655c6f673763da680a3197adc3c572.html", "6151a607b886850c924ff6ec" -> "https://moduloresearch.com/debates/prolific_qual_1/internal_temperature_of_stars/72ed27e982540e2b197d239699405695c.html", "66a22ff1a14a52a55595c00d" -> "https://moduloresearch.com/debates/prolific_qual_1/probability_-_expected_number_of_rolls/3e6dd7b7d2ec07986ff39dd1a785e8b97.html", "5d45bde698c84000164e1200" -> "https://moduloresearch.com/debates/prolific_qual_1/early_universe_galaxies/7f88706432a3501ed24ef1e73c234981f.html", "5f529a01b9922d57f46fcf89" -> "https://moduloresearch.com/debates/prolific_qual_1/bergs/77f42883a291a15acc049e132d2ca8aeb.html", "5991b5cd7d29e700017303bb" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_338159_(orm_library)/71daf7c65c3d92c775fe3a9f90efeb3a9.html", "69982bfa1ee6046d7dc34144" -> "https://moduloresearch.com/debates/prolific_qual_1/large_linear_structure/70384d6aa947d8e5808343963f14ed5b2.html", "69a6f402b6703853961d4d30" -> "https://moduloresearch.com/debates/prolific_qual_1/little_red_dots/3dc67d5f2fade2a798890bda2662612a0.html", "5fb9a0f931099055176541e6" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_323067_(db_deletion)/341f5d07aa138c457b379451f6bc1399b.html", "60886f033e4f5c214da0c898" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_323067_(db_deletion)/341f5d07aa138c457b379451f6bc1399b.html", "63fbf0e3b18cc14adc0dbfb6" -> "https://moduloresearch.com/debates/prolific_qual_1/switch/750655c6f673763da680a3197adc3c572.html", "66e706540c25cee0f5ccdaba" -> "https://moduloresearch.com/debates/prolific_qual_1/gravitational_lens_modelling/79d57b37400490993aae5f98ea9ccf9c8.html", "6346921046fa377ce55acbc1" -> "https://moduloresearch.com/debates/prolific_qual_1/gravitational_lens_modelling/341e7d8119aa2b1b84dd8aed8fe207502.html", "62852271a105889fadd8f22d" -> "https://moduloresearch.com/debates/prolific_qual_1/switch/39723d6ce3beed9c09af1043d2cb5766b.html", "6695991a6db58bdcd2d1e388" -> "https://moduloresearch.com/debates/prolific_qual_1/internal_temperature_of_stars/72ed27e982540e2b197d239699405695c.html", "5af2a03697a14300017d2ba4" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_306440_(rust)/706f0d4d9fdc993e15a363be2ccd84433.html", "5c328af23f5d210001834f82" -> "https://moduloresearch.com/debates/prolific_qual_1/bergs/3a48858db6018450b22b968bcf1a1d0ae.html", "6658b72b045fe9975678ae46" -> "https://moduloresearch.com/debates/prolific_qual_1/large_linear_structure/36cb45d6b71dd33e46a824897078356f1.html", "657065aa0c153f5a01470d1b" -> "https://moduloresearch.com/debates/prolific_qual_1/early_universe_galaxies/7f88706432a3501ed24ef1e73c234981f.html", "60537fdcda0ac05f1c59c57f" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_306440_(rust)/3fedc1b3847dc4d8873cd4ec39f7d9f62.html", "665a09cfc62d40dd7738c79d" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_339242_(prefix-sum)/3cf1c4746846bac8d9d6f3bb2278e7dc7.html", "60147f790be39349d775e4f2" -> "https://moduloresearch.com/debates/prolific_qual_1/early_universe_galaxies/3af8b1d3cd1400bf1b1f1e8cdfb21816c.html", "5f6674b8ff4a11134f4ff972" -> "https://moduloresearch.com/debates/prolific_qual_1/internal_temperature_of_stars/72ed27e982540e2b197d239699405695c.html", "5b52f4933234ab00014ca442" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_339242_(prefix-sum)/3cf1c4746846bac8d9d6f3bb2278e7dc7.html", "5c4f7b99b33a5300013dbfdd" -> "https://moduloresearch.com/debates/prolific_qual_1/gravitational_lens_modelling/79d57b37400490993aae5f98ea9ccf9c8.html", "6050835a7dbf1e0d8bef47d0" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_306440_(rust)/3fedc1b3847dc4d8873cd4ec39f7d9f62.html"}
+>> turn4_urls = {"5db303e4863031000b5f0311" -> "https://moduloresearch.com/debates/prolific_qual_1/probability_-_expected_number_of_rolls/8fe9e091fabded9a190ea49c3665461f2.html", "629f2a9c3effb1dc81c49116" -> "https://moduloresearch.com/debates/prolific_qual_1/large_linear_structure/4baaae8f092a6c4f35e56a0dde1d4427c.html", "63d3fb730f03adf8b4a28a37" -> "https://moduloresearch.com/debates/prolific_qual_1/probability_-_expected_number_of_rolls/8fe9e091fabded9a190ea49c3665461f2.html", "629dd4199343d7710fcdb39c" -> "https://moduloresearch.com/debates/prolific_qual_1/little_red_dots/84017c8cdf4ffdf1ce354d11f5312069a.html", "65490ad4dc55c188bf6482dc" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_338159_(orm_library)/445ac9b322981abbb9c2f00d40328b9a0.html", "5fe230ee29598a57972db630" -> "https://moduloresearch.com/debates/prolific_qual_1/bergs/8e72c969d543983ae0a78671f484d4f78.html", "68cd5e07879b2732b201d926" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_323067_(db_deletion)/86a1bf26f6176dc64a4eb2d0e1cd9253c.html", "69a5a539d7b49d9107b10227" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_338159_(orm_library)/445ac9b322981abbb9c2f00d40328b9a0.html", "699f928faff9f81bd047603e" -> "https://moduloresearch.com/debates/prolific_qual_1/little_red_dots/4a6b3c61ed9e13df93beaa28d6a51bea0.html", "66ae590a965e76c5cd7b67d7" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_339242_(prefix-sum)/80cb7cdefc7431d850f7fc919e7831aae.html", "5f117f2b69f65101263bf8d0" -> "https://moduloresearch.com/debates/prolific_qual_1/switch/8fa6ea93d92cd452dda5b8c657e383c51.html", "6151a607b886850c924ff6ec" -> "https://moduloresearch.com/debates/prolific_qual_1/internal_temperature_of_stars/8b876d0b2834e5009186117b7b3ed54d7.html", "66a22ff1a14a52a55595c00d" -> "https://moduloresearch.com/debates/prolific_qual_1/probability_-_expected_number_of_rolls/45c6a824d8ce477b816c82c28342d885b.html", "5d45bde698c84000164e1200" -> "https://moduloresearch.com/debates/prolific_qual_1/early_universe_galaxies/86a0e63a86a39d0396cf809b725f5bddc.html", "5f529a01b9922d57f46fcf89" -> "https://moduloresearch.com/debates/prolific_qual_1/bergs/8e72c969d543983ae0a78671f484d4f78.html", "5991b5cd7d29e700017303bb" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_338159_(orm_library)/89b829459305d780c5545baf00f103c7d.html", "69982bfa1ee6046d7dc34144" -> "https://moduloresearch.com/debates/prolific_qual_1/large_linear_structure/83fb615cee60e5b17499c00915f3c764d.html", "69a6f402b6703853961d4d30" -> "https://moduloresearch.com/debates/prolific_qual_1/little_red_dots/4a6b3c61ed9e13df93beaa28d6a51bea0.html", "5fb9a0f931099055176541e6" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_323067_(db_deletion)/4cbb04d1c3c0eafca59555c1c9276c5a4.html", "60886f033e4f5c214da0c898" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_323067_(db_deletion)/4cbb04d1c3c0eafca59555c1c9276c5a4.html", "63fbf0e3b18cc14adc0dbfb6" -> "https://moduloresearch.com/debates/prolific_qual_1/switch/8fa6ea93d92cd452dda5b8c657e383c51.html", "66e706540c25cee0f5ccdaba" -> "https://moduloresearch.com/debates/prolific_qual_1/gravitational_lens_modelling/8d5bcb48bdf966af4ff24fe299fa7e505.html", "6346921046fa377ce55acbc1" -> "https://moduloresearch.com/debates/prolific_qual_1/gravitational_lens_modelling/4c56d2095869305bb542cae96fcfb5aec.html", "62852271a105889fadd8f22d" -> "https://moduloresearch.com/debates/prolific_qual_1/switch/442f78a27cd1045313485402d96d15ffc.html", "6695991a6db58bdcd2d1e388" -> "https://moduloresearch.com/debates/prolific_qual_1/internal_temperature_of_stars/8b876d0b2834e5009186117b7b3ed54d7.html", "5af2a03697a14300017d2ba4" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_306440_(rust)/87ea9809823e2c1fae78a243d637e7c7c.html", "5c328af23f5d210001834f82" -> "https://moduloresearch.com/debates/prolific_qual_1/bergs/4de9706fc51e9f8d607dafa3f8cc0c0c7.html", "6658b72b045fe9975678ae46" -> "https://moduloresearch.com/debates/prolific_qual_1/large_linear_structure/4baaae8f092a6c4f35e56a0dde1d4427c.html", "657065aa0c153f5a01470d1b" -> "https://moduloresearch.com/debates/prolific_qual_1/early_universe_galaxies/86a0e63a86a39d0396cf809b725f5bddc.html", "60537fdcda0ac05f1c59c57f" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_306440_(rust)/472e754fcaa044810a454b8c0b66baa3d.html", "665a09cfc62d40dd7738c79d" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_339242_(prefix-sum)/4f3bb19efcf8424cc019d49b5155b2749.html", "60147f790be39349d775e4f2" -> "https://moduloresearch.com/debates/prolific_qual_1/early_universe_galaxies/482faabd7d8dcb8f2a19f56034b75f39d.html", "5f6674b8ff4a11134f4ff972" -> "https://moduloresearch.com/debates/prolific_qual_1/internal_temperature_of_stars/8b876d0b2834e5009186117b7b3ed54d7.html", "5b52f4933234ab00014ca442" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_339242_(prefix-sum)/4f3bb19efcf8424cc019d49b5155b2749.html", "5c4f7b99b33a5300013dbfdd" -> "https://moduloresearch.com/debates/prolific_qual_1/gravitational_lens_modelling/8d5bcb48bdf966af4ff24fe299fa7e505.html", "6050835a7dbf1e0d8bef47d0" -> "https://moduloresearch.com/debates/prolific_qual_1/malt-public_306440_(rust)/472e754fcaa044810a454b8c0b66baa3d.html"}
+
+>> allPIDs = ["5db303e4863031000b5f0311", "629f2a9c3effb1dc81c49116", "63d3fb730f03adf8b4a28a37", "629dd4199343d7710fcdb39c", "65490ad4dc55c188bf6482dc", "5fe230ee29598a57972db630", "68cd5e07879b2732b201d926", "69a5a539d7b49d9107b10227", "699f928faff9f81bd047603e", "66ae590a965e76c5cd7b67d7", "5f117f2b69f65101263bf8d0", "6151a607b886850c924ff6ec", "66a22ff1a14a52a55595c00d", "5d45bde698c84000164e1200", "5f529a01b9922d57f46fcf89", "5991b5cd7d29e700017303bb", "69982bfa1ee6046d7dc34144", "69a6f402b6703853961d4d30", "5fb9a0f931099055176541e6", "60886f033e4f5c214da0c898", "63fbf0e3b18cc14adc0dbfb6", "66e706540c25cee0f5ccdaba", "6346921046fa377ce55acbc1", "62852271a105889fadd8f22d", "6695991a6db58bdcd2d1e388", "5af2a03697a14300017d2ba4", "5c328af23f5d210001834f82", "6658b72b045fe9975678ae46", "657065aa0c153f5a01470d1b", "60537fdcda0ac05f1c59c57f", "665a09cfc62d40dd7738c79d", "60147f790be39349d775e4f2", "5f6674b8ff4a11134f4ff972", "5b52f4933234ab00014ca442", "5c4f7b99b33a5300013dbfdd", "6050835a7dbf1e0d8bef47d0"]
+
+>> guidedTrackID = "skz1l7v"
+
+>> pid_to_use = PROLIFIC_PID
+*if: not PROLIFIC_PID in allPIDs
+	>> allPIDs.shuffle
+	>> pid_to_use = allPIDs[1]
+
+*label: debate
+
+Please click the link below to view *Turn 1* of the debate and answer the questions below it, carefully considering all information you are provided.
+
+[Debate Turn 1 out of 4|{turn1_urls[pid_to_use]}?GTID={guidedTrackID}]
+
+*question: After you have clicked the link above and completed the task, please paste the encoded version of your answer that you created at that link into the box below.
+	*save: answer_1
+	*type: paragraph
+
+Please click the link below to view *Turn 2* of the debate and answer the questions below it, carefully considering all information you are provided.
+
+[Debate Turn 2 out of 4|{turn2_urls[pid_to_use]}?GTID={guidedTrackID}]
+
+*question: After you have clicked the link above and completed the task, please paste the encoded version of your answer that you created at that link into the box below.
+	*save: answer_2
+	*type: paragraph
+
+Please click the link below to view *Turn 3* of the debate and answer the questions below it, carefully considering all information you are provided.
+
+[Debate Turn 3 out of 4|{turn3_urls[pid_to_use]}?GTID={guidedTrackID}]
+
+*question: After you have clicked the link above and completed the task, please paste the encoded version of your answer that you created at that link into the box below.
+	*save: answer_3
+	*type: paragraph
+
+Please click the link below to view *Turn 4* of the debate and answer the questions below it, carefully considering all information you are provided.
+
+[Debate Turn 4 out of 4|{turn4_urls[pid_to_use]}?GTID={guidedTrackID}]
+*question: After you have clicked the link above and completed the task, please paste the encoded version of your answer that you created at that link into the box below.
+	*save: answer_4
+	*type: paragraph
+	
+*label: debrief
+*header: Debrief
+
+You've completed the debate-judging task!
+
+*Prolific Completion Code: CNXAUEDU*
+
+As previously mentioned, we're studying how people evaluate arguments on challenging questions, including what information they use, what uncertainties remain, and how confident they are. This helps inform research on methods for making AI systems more reliably correct on difficult problems.
+
+If you had any technical issues (links not loading, timer problems, trouble copying encoded answers), please report them to the researcher using Prolific's messaging system so that we can help. You can also contact the researcher if you have questions about the research itself or your rights as a participant.
+
+Thank you very much for your participation!
+
+*question: If you have any additional comments for us, please enter them into the box below. If not, you can type "None" to enable the submission button.
+	*save: other_comments
+	*type: paragraph 
+
+Data submitted successfully!
+*Prolific Completion Code: CNXAUEDU*

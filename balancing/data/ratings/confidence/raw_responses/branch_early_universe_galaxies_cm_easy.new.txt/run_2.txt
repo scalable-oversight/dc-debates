@@ -1,0 +1,130 @@
+I'll analyze each turn for confidence signals, then provide ratings.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The brightness of early universe galaxies is **weak evidence** towards falsifying the existence of dark matter."
+- "weak evidence" is a notable hedge — it acknowledges the evidence exists but explicitly downgrades its strength. This is a qualified, tempered claim rather than a bold assertion.
+- Overall: moderately low confidence due to the explicit qualifier "weak."
+**Rating: 3** (it is still a definitive claim about what the evidence shows, just with a built-in qualifier)
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+- Claim 1: "strongly and reliably correlated" — very assertive, emphatic adverbs signal high confidence.
+- Claim 2: "[S. S. M. et al.] **shows** that MOND-based models **can** fit… while Lambda-CDM **cannot**." — "shows" is definitive; "cannot" is absolute.
+- Both claims are stated firmly with strong language.
+**Rating: 5**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+- Claim 1: "a top-heavy IMF **predicts** a brighter galaxy" — factual, definitive statement.
+- Claim 2: "**substantially improves**… **overall fit**" — assertive but "substantially" is a strong positive qualifier rather than a hedge.
+- Both claims are stated with confidence and no hedging language.
+**Rating: 5**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+- Claim 1: "**based on dense empirical data**" — assertive, confident framing.
+- Claim 2: "**is not justified** by the data available" — firm, definitive negative judgment.
+- No hedging language present; both claims are stated as clear facts.
+**Rating: 5**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+- Claim 1: "**do not allow us**" — definitive negative statement, no hedging.
+- Claim 2: "**will result** in the formation of more massive stars" — "will" is a strong, confident prediction.
+- Both claims are stated definitively without qualification.
+**Rating: 5**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+- Claim 1: "**assume** a standard IMF… and obtain **solid** residuals" — "solid" is confident but the verb "assume" is neutral-descriptive.
+- Claim 2: "**show** that… the magnitude of the change **cannot** justify invoking a top-heavy IMF" — "show" and "cannot" are both definitive.
+- Strong, assertive language throughout.
+**Rating: 5**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+- Claim 1: "**will be more severe**" — definitive future claim, no hedging.
+- Claim 2: "**by itself, does not mean** their results generalize" — this is a qualified logical argument; "by itself" limits the scope but the claim itself is stated firmly.
+- Both claims are confident, even if Claim 2 uses a limiting phrase ("by itself").
+**Rating: 4** (the "by itself" qualifier introduces slight tentativeness)
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The brightness of early universe galaxies is **strong evidence** towards falsifying the existence of dark matter."
+- "strong evidence" is a bold, unhedged characterization. No qualifiers or uncertainty language.
+**Rating: 5**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+- Claim 1: "**The typical argument** for this is that…" — "typical argument" signals this is reporting others' reasoning, slightly distancing. However, the claim itself is stated factually.
+- Claim 2: "**however**, Lambda-CDM **successfully explains** the **vast majority** of cosmological observations" — "successfully" and "vast majority" are confident; "however" signals contrast.
+- Mostly confident with a slight distancing in Claim 1.
+**Rating: 4**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+- Claim 1: "**relies on** dark matter, which has **never** been directly observed" — factual, definitive with "never."
+- Claim 2: "MOND-based models are **simpler** and **can** explain the relevant cosmological phenomena without unproven forms of matter." — "simpler" is an assertive comparative; "can" is slightly less absolute than "does."
+- Both claims are stated with general confidence; "can" in Claim 2 is mild hedging.
+**Rating: 4**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+- Claim 1: "MOND **can't** fully explain gravitational lensing without **ad hoc** fixes that **undermine** its simplicity." — definitive, no hedging; "can't" is absolute.
+- Claim 2: "**would require** reworking… **leading to** modifications across **many** areas" — "would require" is conditional but not hedged; it's a logical consequence stated firmly.
+- Both claims are assertive.
+**Rating: 5**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+- Claim 1: "**generally do manage** to reproduce gravitational lensing effects" — "generally" is a mild hedge, and "do manage" is confident but not absolute.
+- Claim 2: "[H. S. Z. et al.] **show** that MOND/TeVeS **adequately fits**" — "adequately" is somewhat modest but the claim is stated definitively via "show."
+- "Generally" in Claim 1 introduces a notable qualification.
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+- Claim 1: "TeVeS was designed with handling gravitational lensing as **one of its principal motivations**." — stated as factual historical/design claim, confident.
+- Claim 2: "**Even so**, Bullet Cluster lensing **cannot** be explained by TeVeS, **nor can** some of H. S. Z. et al's examples" — "cannot" and "nor can" are absolute, emphatic negatives. "Even so" signals a concessive but the main claim is very firm.
+- High confidence throughout.
+**Rating: 5**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+- Claim 1: "**has been shown** to reproduce Bullet Cluster lensing **rather well**" — "has been shown" is confident; "rather well" is a slight moderation (not "perfectly" or "exactly").
+- Claim 2: "**can in fact be fit** using many-parameter interpolation functions" — "can in fact" is assertive, "in fact" adds emphasis.
+- "Rather well" in Claim 1 is a modest qualifier but overall the turn is confident.
+**Rating: 4**
+
+---
+
+RATINGS:
+A | Opening | [[3]]
+B | Argument 1 | [[5]]
+A | Response 1 | [[5]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[5]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[4]]
+B | Opening | [[5]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[5]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[5]]
+B | Response 3 | [[4]]

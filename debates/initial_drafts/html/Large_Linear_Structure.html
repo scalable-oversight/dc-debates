@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Large Linear Structure</title>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 2em;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            color: #34495e;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+        
+        h3 {
+            color: #34495e;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        
+        .question-section {
+            margin-bottom: 40px;
+        }
+        
+        .question-section p {
+            margin-bottom: 15px;
+        }
+        
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .references-section {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+        }
+        
+        .references-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .reference-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: white;
+            border-left: 4px solid #3498db;
+            border-radius: 4px;
+        }
+        
+        .reference-item strong {
+            color: #2c3e50;
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        .reference-quote {
+            color: #666;
+            font-style: italic;
+            margin-top: 8px;
+        }
+        
+        .debate-container {
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .debate-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .debate-table thead {
+            background-color: #34495e;
+            color: white;
+        }
+        
+        .debate-table th {
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .debate-table td {
+            padding: 12px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .debate-table tbody tr:hover {
+            background-color: #f8f9fa;
+        }
+        
+        .liz-turn {
+            background-color: #e8f5e9;
+        }
+        
+        .bob-turn {
+            background-color: #fff3e0;
+        }
+        
+        .turn-label {
+            font-weight: 600;
+            color: #2c3e50;
+            width: 100px;
+            white-space: nowrap;
+        }
+        
+        .turn-content {
+            line-height: 1.8;
+        }
+        
+        .task-block {
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+            line-height: 1.6;
+        }
+        
+        pre {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 15px;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+        
+        code {
+            font-family: "Consolas", "Monaco", "Courier New", monospace;
+            font-size: 0.9em;
+        }
+        
+        pre code {
+            display: block;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        
+        .ref-link {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .ref-link:hover {
+            text-decoration: underline;
+        }
+        
+        .flyout {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: white;
+        }
+        
+        .flyout-header {
+            padding: 15px 20px;
+            cursor: pointer;
+            user-select: none;
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #ddd;
+            font-weight: 600;
+            color: #2c3e50;
+            transition: background-color 0.2s ease;
+        }
+        
+        .flyout-header:hover {
+            background-color: #e9ecef;
+        }
+        
+        .flyout-header::before {
+            content: "▶";
+            display: inline-block;
+            margin-right: 10px;
+            transition: transform 0.2s ease;
+            font-size: 0.8em;
+        }
+        
+        .flyout.expanded .flyout-header::before {
+            transform: rotate(90deg);
+        }
+        
+        .flyout-content {
+            display: none;
+            padding: 20px;
+        }
+        
+        .flyout.expanded .flyout-content {
+            display: block;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+            
+            .debate-table {
+                font-size: 0.9em;
+            }
+            
+            .debate-table th,
+            .debate-table td {
+                padding: 8px;
+            }
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add click handlers to flyout headers
+            document.querySelectorAll('.flyout-header').forEach(function(header) {
+                header.addEventListener('click', function() {
+                    var flyout = this.parentElement;
+                    flyout.classList.toggle('expanded');
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Large Linear Structure</h1>
+        
+        <div class="flyout">
+            <div class="flyout-header">Question</div>
+            <div class="flyout-content">
+                <div class="question-section">
+                    <p>Definitions</p>
+<br>
+<p>(D1) Gravitational lensing - An astrophysical phenomenon where a massive galaxy present in between the observer and the source bends light being emitted by the source, such that the observer sees distorted (weakly lensed) or multiple (strongly lensed) images of the same source.</p>
+<br>
+<div class="image-container"><img src="../images/gravitational_lensing.png" alt="Image"></div>
+<br>
+<p>(D2) Tully-Fisher relation - A widely verified empirical relationship between the mass or intrinsic luminosity of a spiral galaxy and its asymptotic rotation velocity or emission line width.</p>
+<br>
+<p>(D3) Recoil - Merging black holes release a massive amount of energy in the form of gravitational waves, and this can happen anisotropically, kicking the resulting black hole in a direction opposite to the released gravitational waves. This kick is stronger in systems with more asymmetry in the sizes of the merging black holes.</p>
+<br>
+<p>(D4) AGN - Active Galactic Nuclei are galaxies with an actively accreting (consuming matter) supermassive black hole (SMBH) at their center. The matter forms a very bright (one of the  brightest phenomena in the universe) accretion disc as it spirals into the SMBH. An AGN might also contain twin jets of gas and dust ejected from the center of the galaxy that can rival the galaxy’s own size. High redshift (D5) AGN are often referred to as quasars.   </p>
+<br>
+<div class="image-container"><img src="../images/agn.png" alt="Image"></div>
+<br>
+<p>(D5) Redshift (denoted by z) - As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift =&gt; object is further away.</p>
+<br>
+<p>(D6) Globular clusters - Globular clusters are dense groups of tens of thousands to millions of stars, tightly bound by gravity into a spheroidal shape, orbiting galaxies often in their halos.</p>
+<br>
+<p>Figure 1 in <a href="#ref-question-mm_et_al" class="ref-link">[mm_et_al]</a>:</p>
+<div class="image-container"><img src="../images/figure_1_mm_et_al.png" alt="Image"></div>
+<br>
+<p>Figure 5 in <a href="#ref-question-pvd_cj_et_al" class="ref-link">[pvd_cj_et_al]</a>:</p>
+<div class="image-container"><img src="../images/figure_5_pvd_cj_et_al.png" alt="Image"></div>
+<br>
+<p>Figure 1 in <a href="#ref-question-pvd_cj_et_al" class="ref-link">[pvd_cj_et_al]</a>:</p>
+<div class="image-container"><img src="../images/figure_1_pvd_cj_et_al.png" alt="Image"></div>
+<br>
+<p>Figure 1 in <a href="#ref-question-figure_1_jsa_et_al.png" class="ref-link">[figure_1_jsa_et_al.png]</a>:</p>
+<div class="image-container"><img src="../images/figure_1_jsa_et_al.png" alt="Image"></div>
+<br>
+<p>Figure 2 in <a href="#ref-question-figure_2_jsa_et_al.png" class="ref-link">[figure_2_jsa_et_al.png]</a>:</p>
+<div class="image-container"><img src="../images/figure_2_jsa_et_al.png" alt="Image"></div>
+<br>
+<p>Question</p>
+<br>
+<p>Here is a picture of a real astrophysical system in different filters. What is the best plausible theoretical model to describe this system? </p>
+<br>
+<div class="image-container"><img src="../images/large_linear_structure.png" alt="Image"></div>
+                </div>
+                <div class="references-section">
+<h2>References</h2>
+<ul class="references-list">
+  <li class="reference-item">
+    <strong id="ref-question-pvd_cj_et_al">P. v. D., C. J., et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-question-mm_et_al">M. M. et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+</ul>
+</div>
+
+            </div>
+        </div>
+        
+        <div class="flyout">
+            <div class="flyout-header">Manual debates</div>
+            <div class="flyout-content">
+                <div class="debate-container">
+<h3>Debate: Liz (Initiator) vs Bob (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.0</td>
+    <td class="turn-content">The best plausible theoretical model to describe this system is a runaway supermassive black hole (SMBH) <a href="#ref-pvd_cj_et_al" class="ref-link">[pvd_cj_et_al]</a>.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.0</td>
+    <td class="turn-content">A runaway SMBH scenario would imply two SMBHs interacting in the center of the host galaxy, what evidence do you have of a merger in the galaxy’s history?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.1</td>
+    <td class="turn-content">The past average star formation rate of the galaxy is an order of magnitude higher than the current star formation rate. Additionally, the irregular shape and compact size of the galaxy boosts its star formation rate surface density. This implies that there was a recent merger or accretion event that funneled gas into the center of the galaxy, both pointing towards SMBH interactions.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.1</td>
+    <td class="turn-content">If the star formation was triggered in the wake of a recoiling (D3) SMBH, the age of the stars would monotonically increase with distance from the SMBH. However, Figure 1 in <a href="#ref-mm_et_al" class="ref-link">[mm_et_al]</a> shows that the age (calculated using UV emission/color) of the stars fluctuates a lot more, peaking at -20 kpc and not following a monotonic relation with distance, especially with the age nearest to the hypothesised position of the SMBH (+25 kpc) being relatively high. How does your model explain this discrepancy?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.2</td>
+    <td class="turn-content">While we can expect a broad age gradient along the axis of the wake, the fluctuations in the color can be explained by alternating red and blue supergiants in the trail. Additionally, star formation won’t only occur behind the tip of the shock, but also along the trail as new gas from the surrounding medium is continuously added to the wake.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.2</td>
+    <td class="turn-content">The overdensity created by the passage of an SMBH is not large enough to trigger star formation, if it were enough, we would see similar features due to disruptions generated by globular clusters (D6) or other compact objects much more often. How does your model generate the overdensity required to trigger star formation in the circumgalactic medium (CGM)?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.3</td>
+    <td class="turn-content">The supersonic velocity of the recoiling SMBH generates the bow shock at the tip of the linear structure, which should be maintained by the thermal pressure of the shocked and recycled CGM at the apex. No wind source beyond the CGM would be required to sustain the bow, although it is possible that activity associated with the SMBH contributes to the process.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<div class="debate-container">
+<h3>Debate: Bob (Initiator) vs Liz (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.0</td>
+    <td class="turn-content">The best plausible theoretical model to describe this system is a bulgeless edge-on galaxy <a href="#ref-jsa_et_al" class="ref-link">[jsa_et_al]</a>.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.0</td>
+    <td class="turn-content">A linear feature symmetrical to the nucleus of a galaxy can be explained by SMBH-related hypotheses in the absence of gravitational lensing (D1) <a href="#ref-pvd_cj_et_al" class="ref-link">[pvd_cj_et_al]</a>. What evidence do you have that this is an edge-on galaxy?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.1</td>
+    <td class="turn-content">The position-velocity distribution of the stars in the extended linear feature strongly resembles the rotation curve of a galaxy. To illustrate this point, the position-velocity curve of the object is compared against IC5249, an already known edge-on galaxy (Figure 1(e) in <a href="#ref-jsa_et_al" class="ref-link">[jsa_et_al]</a>). Additionally, the estimated stellar mass and the maximum rotational velocity of the object satisfy the Tully-Fisher relation (D2) used for identifying galaxies (Figure 2 in <a href="#ref-jsa_et_al" class="ref-link">[jsa_et_al]</a>).</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.1</td>
+    <td class="turn-content">The line ratio of the linear object ([OIII]/H𝜷) far exceeds the ratio expected from a galaxy. Additionally, the line ratio reaches the value of 10 expected of shocks or AGN (D4) in two places in the structure. Additionally, the structure is not entirely linear, which would be expected if it were a bulgeless edge-on galaxy. How does your model explain these discrepancies?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.2</td>
+    <td class="turn-content">The fluctuations from linearity are of the order of 0.5 kpc, which can be explained by minor distortions in the disk or by irregular UV emission from star forming regions in the disk. The line ratios can be attributed to local shocks created when supernova-generated bubbles meet the interstellar medium.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.2</td>
+    <td class="turn-content">The edge of the linear structure (Figure 1 in <a href="#ref-pvd_cj_et_al" class="ref-link">[pvd_cj_et_al]</a>) resembles a bow shock caused by an object moving at supersonic speeds (Figure 5 in <a href="#ref-pvd_cj_et_al" class="ref-link">[pvd_cj_et_al]</a>). We see a strong velocity gradient along the linear structure, with the emission near the tip shifting further upstream for higher velocities. How does this fit into the edge-on galaxy model?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.3</td>
+    <td class="turn-content">The rotational velocity of stars increases with distance from the center of the galaxy, which is the same direction as the observed velocity gradient. The clump of UV emission at the edge is also not a rare occurrence in distorted galaxies due to their heterogenous star formation distribution.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+                <div class="references-section">
+<h2>References</h2>
+<ul class="references-list">
+  <li class="reference-item">
+    <strong id="ref-pvd_cj_et_al">P. v. D., C. J., et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-jsa_et_al">J. S. A. et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-pvd_ip_et_al">P. v. D., I. P., et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-mm_et_al">M. M. et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+</ul>
+</div>
+
+            </div>
+        </div>
+        
+                <div class="flyout">
+            <div class="flyout-header">Gemini 3 Pro Debates</div>
+            <div class="flyout-content">
+                <div class="debate-container">
+<h3>Debate: Liz (Initiator) vs Bob (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.0</td>
+    <td class="turn-content">The &quot;mystery object&quot; in the Question Image is simply a bulgeless galaxy seen edge-on, not a runaway black hole wake. As shown in Figure 1e of <a href="#ref-jsa_et_al" class="ref-link">[jsa_et_al]</a>, the object exhibits a clear rotation curve, transitioning from \(-100\) to \(+100\) km/s. This kinematic signature is the hallmark of a rotating disk, not a turbulent wake. Furthermore, Figure 2 places it exactly on the Tully-Fisher relation, a universal scaling law for galaxies. Why invent a new phenomenon when standard physics fits perfectly?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.0</td>
+    <td class="turn-content">Standard physics fails to account for the extreme morphology visible in <a href="#ref-pvd_cj_et_al" class="ref-link">[pvd_cj_et_al]</a> (Fig 1). The object is absurdly thin and linear, with a length-to-width ratio far exceeding typical spirals. Additionally, the bright [OIII] knot at the very tip is identical to a bow shock from a supersonic projectile. How does your galaxy model explain a high-ionization &quot;nucleus&quot; located at the extreme edge of the system rather than the center?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.1</td>
+    <td class="turn-content">Extreme aspect ratios are well-documented in galactic astrophysics. As detailed by <a href="#ref-jd_et_al" class="ref-link">[jd_et_al]</a>, super-thin galaxies like IC 5249 lack a central bulge, which naturally results in the linear morphology seen here. The &quot;knot&quot; is simply a giant star-forming clump, which are common in irregular galaxies. Critically, a wake would not possess an integrated mass and velocity width that align perfectly with the Tully-Fisher relation (<a href="#ref-jsa_et_al" class="ref-link">[jsa_et_al]</a> Fig 2). That precise match is impossible to explain as a coincidence.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.1</td>
+    <td class="turn-content">The correlation is no coincidence; it is a direct consequence of the scaling between black hole mass and host galaxy mass. A ejected black hole creates a wake proportional to its mass, mimicking the Tully-Fisher relation. Furthermore, <a href="#ref-mm_et_al" class="ref-link">[mm_et_al]</a> identifies a &quot;counter-feature&quot; in the opposite direction. In a recoil scenario (D3), this is the ejected binary or host galaxy. The presence of this counter-feature unequivocally supports the recoil model over the isolated galaxy model.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.2</td>
+    <td class="turn-content">The &quot;counter-feature&quot; is indistinguishable from background noise. Deep imaging by <a href="#ref-jsa_et_al" class="ref-link">[jsa_et_al]</a> failed to find any distinct counter-wake or the strong color gradients predicted by the cooling wake model. A galaxy grows inside-out, which fits the observed symmetric color profile significantly better than a cooling wake, which implies a linear age gradient. You are ignoring the robust kinematic data that screams &quot;rotating disk&quot; to chase phantom features.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.2</td>
+    <td class="turn-content">The kinematic data is misinterpreted. The &quot;rotation&quot; in the PV diagram (Question Image, bottom) is extremely steep, resembling a sudden discontinuity or outflow rather than a Keplerian curve. A high-velocity shock front produces a steep velocity gradient indistinguishable from rotation at this resolution. Why assume rotation when a shock fits the velocity profile and the morphology?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.3</td>
+    <td class="turn-content">A shock front would exhibit high velocity dispersion (broad lines) due to turbulence, whereas the data shows ordered motion. The PV diagram in <a href="#ref-jsa_et_al" class="ref-link">[jsa_et_al]</a> is symmetric around the dynamical center, matching the profile of IC 5249 exactly. A shock moving away from us would be redshifted, not show a symmetric +/- gradient relative to a center. The data confirms it is a galaxy.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<div class="debate-container">
+<h3>Debate: Bob (Initiator) vs Liz (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.0</td>
+    <td class="turn-content">This object is the smoking gun for a runaway SMBH (D3). The image in <a href="#ref-pvd_cj_et_al" class="ref-link">[pvd_cj_et_al]</a> shows a razor-straight streak pointing directly at the center of a galaxy (z=0.964), exactly where a recoil would originate. The &quot;head&quot; is a bright [OIII] knot, consistent with a bow shock heating gas to 30,000K (D4), while the &quot;tail&quot; is the cooling wake. The probability of a random background galaxy aligning perfectly with the AGN center and being this thin is astronomically low.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.0</td>
+    <td class="turn-content">Chance alignments are statistically inevitable given the volume of the universe surveyed. If this were a wake, physics dictates the gas must cool as it moves away from the black hole. Why then does the detailed analysis in <a href="#ref-jsa_et_al" class="ref-link">[jsa_et_al]</a> show a symmetric color profile rather than the age gradient required by a cooling wake? Furthermore, how do you account for the object having the exact mass-velocity relationship of a spiral galaxy?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.1</td>
+    <td class="turn-content">The age gradient is clearly visible when analyzed correctly. <a href="#ref-pvd_cj_et_al" class="ref-link">[pvd_cj_et_al]</a> modeled the colors and found they fit a &quot;cooling wake&quot; scenario where stars form behind the shock. The Tully-Fisher overlap is a result of the fundamental M-sigma relation; the wake&#x27;s properties scale with the black hole mass, which scales with the host. It mimics a galaxy in mass metrics, but the morphology—the sheer lack of a bulge and the [OIII] shock—betrays its true nature.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.1</td>
+    <td class="turn-content">Your scaling argument relies on a chain of unproven assumptions. A wake is gas focused by gravity; a galaxy is a gravitationally bound disk of dark matter and stars. The rotation curve in <a href="#ref-jsa_et_al" class="ref-link">[jsa_et_al]</a> Fig 1e shows a dynamical mass of \(10^9 M_\odot\) supported by rotation. Does your wake model predict a \(10^9 M_\odot\) wake rotating at 100 km/s? How does a linear wake acquire angular momentum to look exactly like a rotating disk?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.2</td>
+    <td class="turn-content">The &quot;rotation&quot; is an artifact of expansion. The PV diagram in <a href="#ref-pvd_cj_et_al" class="ref-link">[pvd_cj_et_al]</a> (Fig 5) reveals a vertical feature—constant velocity—at the location of the wake, which flatly contradicts the rotation claim. The appearance of rotation only emerges when averaging over a larger area, confusing background noise with signal. The core feature has flat velocity, exactly as a wake traveling in a straight line must.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.2</td>
+    <td class="turn-content">The &quot;constant velocity&quot; was a low-resolution interpretation. Higher resolution analysis in <a href="#ref-jsa_et_al" class="ref-link">[jsa_et_al]</a> resolves the gradient clearly. Regarding morphology, <a href="#ref-jd_et_al" class="ref-link">[jd_et_al]</a> demonstrates that IC 5249 is a known local galaxy that looks identical to this object: super thin, no bulge. If nature produces such galaxies nearby, there is no justification for invoking an exotic, unprecedented recoil event to explain the same structure at z=1.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.3</td>
+    <td class="turn-content">IC 5249 does not possess a high-ionization [OIII] knot at one tip, nor does it point directly to a parent AGN. The contextual clues—the parent galaxy, the AGN activity, the bow shock morphology—all point to a violent ejection event. This is a discovery of a new class of object, not a misclassification of a standard one.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+                <div class="references-section">
+<h2>References</h2>
+<ul class="references-list">
+  <li class="reference-item">
+    <strong id="ref-jsa_et_al">J. S. A. et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-pvd_cj_et_al">P. v. D. et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-jd_et_al">J. D. et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-mm_et_al">M. M. et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+</ul>
+</div>
+
+            </div>
+        </div>
+        <div class="flyout">
+            <div class="flyout-header">GPT 5.2 Debates</div>
+            <div class="flyout-content">
+                <div class="debate-container">
+<h3>Debate: Liz (Initiator) vs Bob (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.0</td>
+    <td class="turn-content">Best model: a recoiling/runaway SMBH driving a supersonic bow shock through circumgalactic gas, leaving a ~62 kpc narrow, star-forming wake. IFU maps show shock-like line ratios and a ~600 km/s velocity discontinuity confined to the “head,” inconsistent with disk rotation.<a href="#ref-pvd_et_al" class="ref-link">[pvd_et_al]</a></td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.0</td>
+    <td class="turn-content">Why not a bulgeless edge-on disk? A razor-thin galaxy naturally looks like a line, and the published position–velocity curve is symmetric like rotation and lands on Tully–Fisher. What specific observation forces an ejected BH rather than a galaxy?<a href="#ref-jsa_et_al" class="ref-link">[jsa_et_al]</a></td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.1</td>
+    <td class="turn-content">An edge-on disk needs a kinematic center where velocities change sign smoothly and peak near the midplane. Here the steep jump sits at one end, and higher-velocity gas lies upstream of the filament—matching pre/post-shock flow geometry. Where is the rotation center in your disk picture?<a href="#ref-pvd_et_al" class="ref-link">[pvd_et_al]</a></td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.1</td>
+    <td class="turn-content">What blocks the “jump” from being a terminal starburst driving a superbubble or outflow at the disk edge? Superthin disks like IC 5249 host intense localized feedback yet remain razor-thin; why isn’t the tip knot just internal feedback?<a href="#ref-pcvdk_et_al" class="ref-link">[pcvdk_et_al]</a></td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.2</td>
+    <td class="turn-content">A superbubble yields roughly bipolar expansion and line splitting around the source; it doesn’t make a single forward-facing shock plus a 62 kpc collimated trail. The kinetic power implied by ~600 km/s over ~kpc also strains typical clump feedback. Gravitational-wave recoil/slingshot kicks can reach ~10^3 km/s, matching the required scale.<a href="#ref-mc_et_al" class="ref-link">[mc_et_al]</a></td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.2</td>
+    <td class="turn-content">How does a kicked SMBH keep the wake narrow for tens of Myr against Kelvin–Helmholtz turbulence and mixing? And if the PV curve is not rotation, why do stellar mass and Vmax line up on Tully–Fisher so cleanly in the published analysis?<a href="#ref-jsa_et_al" class="ref-link">[jsa_et_al]</a></td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.3</td>
+    <td class="turn-content">Cooling behind a strong shock can compress gas into a long-lived dense filament, and entrainment naturally relaxes velocities downstream—consistent with the IFU modeling. The Tully–Fisher “match” comes from treating wake shear as Vmax. The disk model still lacks a reason for a one-ended bow shock plus shock-dominated ratios concentrated at the head.<a href="#ref-pvd_et_al" class="ref-link">[pvd_et_al]</a></td>
+  </tr>
+</tbody>
+</table>
+</div>
+<div class="debate-container">
+<h3>Debate: Bob (Initiator) vs Liz (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.0</td>
+    <td class="turn-content">Best model is a bulgeless edge-on disk galaxy at z~1. The ridge shows a disk-like light profile and a symmetric position–velocity gradient with a turnover; using Vmax and stellar mass places it on Tully–Fisher. Local superthin analogs show this morphology without exotic BH ejection. Why reject the galaxy explanation?<a href="#ref-jsa_et_al" class="ref-link">[jsa_et_al]</a></td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.0</td>
+    <td class="turn-content">If it’s a rotating disk, how do you explain an abrupt ~600 km/s discontinuity concentrated at one tip and shock-type line ratios peaking there? Doesn’t rotation demand a continuous field about a center, with HII-like ratios along the midplane?<a href="#ref-pvd_et_al" class="ref-link">[pvd_et_al]</a></td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.1</td>
+    <td class="turn-content">Those observables fit a moving galaxy. A disk plowing through halo gas develops a leading-edge bow shock, elevated line ratios, and a turbulent downstream wake; the “head” knot is the leading rim or a merger clump. Superthin disks already look extreme, so a ram-pressure/interaction scenario beats an unseen SMBH.<a href="#ref-pcvdk_et_al" class="ref-link">[pcvdk_et_al]</a></td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.1</td>
+    <td class="turn-content">Where is the stellar dynamical center that anchors your rotation—an old stellar component or mass peak—if the head is dominated by line emission and a compact knot? And why do higher-velocity components sit upstream rather than wrapping around a rotation center?<a href="#ref-pvd_et_al" class="ref-link">[pvd_et_al]</a></td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.2</td>
+    <td class="turn-content">At z~1, old stars can fall below surface-brightness limits while young clumps and nebular lines dominate, making the disk appear as a “string.” Upstream weighting follows from projection plus patchy line emission across the IFU. The Tully–Fisher agreement is a quantitative consistency check; the runaway-SMBH story needs special timing and fine-tuned ambient gas.<a href="#ref-jsa_et_al" class="ref-link">[jsa_et_al]</a></td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.2</td>
+    <td class="turn-content">What single set of model parameters reproduces simultaneously: (i) a one-ended bow-shock morphology, (ii) fast-shock line ratios, and (iii) downstream velocity relaxation—while also producing a stable, bound stellar disk with a clear kinematic center in the same data?<a href="#ref-pvd_et_al" class="ref-link">[pvd_et_al]</a></td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.3</td>
+    <td class="turn-content">A disk-in-halo “jellyfish” interaction does all three: ram pressure shapes a bow, shocks boost ratios, and turbulent mixing relaxes velocities, while the underlying disk sets the PV symmetry and Tully–Fisher placement. Without a direct accretion signature or compact-mass measurement at the head, the SMBH claim adds an unobserved entity; the disk model relies on what’s seen.<a href="#ref-jsa_et_al" class="ref-link">[jsa_et_al]</a></td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+                <div class="references-section">
+<h2>References</h2>
+<ul class="references-list">
+  <li class="reference-item">
+    <strong id="ref-pvd_et_al">P. v. D., et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-jsa_et_al">J. S. A., et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-pcvdk_et_al">P. C. v. d. K., et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-mc_et_al">M. C., et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+</ul>
+</div>
+
+            </div>
+        </div>
+        <div class="flyout">
+            <div class="flyout-header">Claude 4.5 Opus Debates</div>
+            <div class="flyout-content">
+                <div class="debate-container">
+<h3>Debate: Liz (Initiator) vs Bob (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.0</td>
+    <td class="turn-content">This system is best explained as a runaway supermassive black hole (SMBH) creating a stellar wake. The 62 kpc linear feature shows a supersonic bow shock at its tip, confirmed by JWST spectroscopy revealing a ~600 km/s velocity gradient over just 1 kpc <a href="#ref-pvd_et_al" class="ref-link">[pvd_et_al]</a>. The black hole, traveling ~1000 km/s, compresses circumgalactic gas as it escapes, triggering star formation in its wake—&quot;the first confirmed runaway supermassive black hole&quot; <a href="#ref-pvd_et_al" class="ref-link">[pvd_et_al]</a>. How else could one explain the distinct bow shock kinematics?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.0</td>
+    <td class="turn-content">The position-velocity curve resembles a rotation curve, and the object falls exactly on the Tully-Fisher relation characteristic of disk galaxies <a href="#ref-jsa_et_al" class="ref-link">[jsa_et_al]</a>. This is far more parsimonious than invoking an exotic SMBH ejection. Its scale height (~1.2 kpc) and mass (~3×10⁹ M☉) match IC5249, a well-known local bulgeless edge-on galaxy. Why would a stellar wake from random gas compression happen to obey the precise mass-velocity relationship established over billions of years of galactic evolution?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.1</td>
+    <td class="turn-content">The TFR argument was compelling before JWST, but new spectroscopic data is decisive. JWST detected gas moving at opposite velocities on either side of the tip—exactly as shock physics predicts, not galactic rotation <a href="#ref-pvd_et_al" class="ref-link">[pvd_et_al]</a>. Edge-on disk profiles decline exponentially; this feature terminates abruptly at its tip with surface brightness dropping by &gt;40× at 95% confidence <a href="#ref-pvd_et_al" class="ref-link">[pvd_et_al]</a>. No galaxy profile does that. The MAPPINGS shock models <a href="#ref-mga_et_al" class="ref-link">[mga_et_al]</a> predict exactly this emission-line signature from fast radiative shocks.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.1</td>
+    <td class="turn-content">The alleged &quot;bow shock&quot; interpretation assumes the gas displacement is caused by supersonic motion. But emission knots at galaxy ends can produce similar signatures from star formation and outflows—especially at z~1 where galaxies are disturbed. The scale height and mass match IC5249 perfectly <a href="#ref-jsa_et_al" class="ref-link">[jsa_et_al]</a>. How do you explain newly formed stars in a 39 Myr wake landing precisely on a fundamental scaling relation that takes galaxies billions of years to establish?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.2</td>
+    <td class="turn-content">The TFR coincidence, while striking, is explained by the physics: the wake&#x27;s velocity structure reflects the SMBH&#x27;s motion through the CGM, not gravitational equilibrium. Critically, the host galaxy shows no signs of harboring an active central SMBH—it&#x27;s missing <a href="#ref-pvd_et_al" class="ref-link">[pvd_et_al]</a>. The feature directly connects to this galaxy in UV imaging. The velocity pattern—blueshift at front, redshift at edges—is &quot;very strong, bordering on overwhelming&quot; evidence for a supersonic bow shock <a href="#ref-pvd_et_al" class="ref-link">[pvd_et_al]</a>.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.2</td>
+    <td class="turn-content">Absence of an active nucleus doesn&#x27;t mean absence of an SMBH—most SMBHs are quiescent. The runaway scenario also predicted a &quot;counter-wake&quot; from the binary ejection mechanism, yet deep HST imaging found nothing <a href="#ref-mm_et_al" class="ref-link">[mm_et_al]</a>. The probability analysis shows the edge-on galaxy scenario is 10^11 times more likely <a href="#ref-jsa_et_al_2" class="ref-link">[jsa_et_al_2]</a>. Given these facts, how can the SMBH hypothesis be favored over the conventional explanation?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.3</td>
+    <td class="turn-content">The lack of counter-wake actually supports the model: single SMBH ejections via gravitational-wave recoil (not three-body encounters) don&#x27;t require one <a href="#ref-vv_et_al" class="ref-link">[vv_et_al]</a>. GW recoil can impart kicks up to 5000 km/s. The measured velocity (~1000 km/s) and host galaxy mass are fully consistent with recoil predictions. As for the probability analysis—it predates JWST&#x27;s bow shock confirmation. The kinematics provide decisive evidence no static edge-on galaxy can produce.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<div class="debate-container">
+<h3>Debate: Bob (Initiator) vs Liz (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.0</td>
+    <td class="turn-content">This linear feature is most plausibly a bulgeless edge-on galaxy coincidentally aligned with a nearby companion. The evidence is clear: its position-velocity curve matches a galactic rotation curve, and its mass (~3×10⁹ M☉) plus maximum velocity (~110 km/s) place it precisely on the Tully-Fisher relation <a href="#ref-jsa_et_al" class="ref-link">[jsa_et_al]</a>. Its scale height and surface brightness profile match IC5249, a well-known local bulgeless edge-on galaxy. The exotic SMBH hypothesis requires multiple unlikely coincidences.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.0</td>
+    <td class="turn-content">How do you explain the JWST observations showing a 600 km/s velocity jump over just 1 kpc at the feature&#x27;s tip, with gas on opposite sides moving in opposite directions <a href="#ref-pvd_et_al" class="ref-link">[pvd_et_al]</a>? That&#x27;s exactly what shock physics predicts for a supersonic bow shock—not what you&#x27;d see at the edge of a rotating disk. Does your edge-on galaxy model produce such kinematics?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.1</td>
+    <td class="turn-content">Emission-line regions at galaxy edges can show complex kinematics due to outflows, star formation, or tidal interactions—especially at z~1 where galaxies are more disturbed. The color gradient along the feature actually supports a galaxy interpretation: the center shows older populations (~2 Gyr) while the outskirts are younger <a href="#ref-mm_et_al" class="ref-link">[mm_et_al]</a>—consistent with inside-out galaxy growth, but backwards from the SMBH wake scenario where the &quot;oldest&quot; stars should be farthest from the black hole.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.1</td>
+    <td class="turn-content">The stellar population argument has been reanalyzed. The ages increase monotonically with distance from the tip—consistent with the wake model where star formation is triggered progressively as the SMBH passes <a href="#ref-pvd_et_al" class="ref-link">[pvd_et_al]</a>. Also, edge-on galaxies have exponential surface brightness profiles, but this feature abruptly terminates with brightness dropping by &gt;40× at the tip. How does your galaxy model explain that sharp cutoff?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.2</td>
+    <td class="turn-content">The sharp termination could indicate a truncated disk—common in interacting systems or those undergoing ram-pressure stripping. The probability analysis by Sánchez Almeida et al. shows the edge-on galaxy scenario is 10^11 times more likely than the SMBH wake <a href="#ref-jsa_et_al_2" class="ref-link">[jsa_et_al_2]</a>. The SMBH hypothesis requires: (1) three-body encounter, (2) aligned gas cloud, (3) unstable cloud ready to collapse, and (4) resulting stars obeying the TFR. That&#x27;s too many fine-tuned coincidences.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.2</td>
+    <td class="turn-content">That probability analysis predates JWST&#x27;s bow shock confirmation. The velocity structure at the tip—blueshift at front, redshift at flanks—is &quot;very strong, bordering on overwhelming&quot; evidence for supersonic motion <a href="#ref-pvd_et_al" class="ref-link">[pvd_et_al]</a>. A truncated disk cannot produce opposing velocities at its terminus. The MAPPINGS shock models <a href="#ref-mga_et_al" class="ref-link">[mga_et_al]</a> show the line ratios are consistent with fast radiative shocks. Given the host lacks a detectable central SMBH, isn&#x27;t ejection the most coherent explanation?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.3</td>
+    <td class="turn-content">The Tully-Fisher compliance remains the strongest evidence for a galaxy: this relation reflects deep gravitational physics built over cosmic time. That newly formed wake stars would coincidentally reproduce it strains credulity. GW recoil kicks require specific spin configurations—most mergers produce much smaller velocities. JWST kinematics could reflect localized phenomena; the simpler, more conventional interpretation remains a bulgeless edge-on disk with active star-forming regions at its outskirts.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+                <div class="references-section">
+<h2>References</h2>
+<ul class="references-list">
+  <li class="reference-item">
+    <strong id="ref-pvd_et_al">P. v. D., et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-jsa_et_al">J. S. A., et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-jsa_et_al_2">J. S. A., et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-mm_et_al">M. M., et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-mga_et_al">M. G. A., et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-vv_et_al">V. V., et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+</ul>
+</div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

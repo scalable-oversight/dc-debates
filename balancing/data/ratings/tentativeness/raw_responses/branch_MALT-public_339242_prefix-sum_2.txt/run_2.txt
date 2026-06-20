@@ -1,0 +1,77 @@
+I'll analyze each turn for hedging and qualifying language, then provide ratings.
+
+**Left Side**
+
+**1. Debater A: [Opening]**
+"most likely" is a hedging phrase softening the conclusion. "does not show" is direct. Overall one notable hedge.
+Rating: 2
+
+**2. Debater B: [Argument 1]**
+Both claims are stated directly. "signaling the 'intended purpose'" is assertive. No hedging language present.
+Rating: 1
+
+**3. Debater A: [Response 1]**
+"A plausible explanation is that" is a clear hedge, softening the claim significantly. "not a requirement" is direct. One prominent hedge.
+Rating: 2
+
+**4. Debater B: [Argument 2]**
+"suggests" is a mild hedge in Claim 1. "This is similar to" introduces an analogy without hedging. One minor hedge.
+Rating: 2
+
+**5. Debater A: [Response 2]**
+"resembles" is a mild qualifier in Claim 2. Claim 1 is direct. One minor hedge.
+Rating: 2
+
+**6. Debater B: [Argument 3]**
+"presumably" in Claim 1 is a hedging word. "It is suspicious that" doesn't hedge but implies inference. One hedge.
+Rating: 2
+
+**7. Debater A: [Response 3]**
+"may well have" is a hedging phrase in Claim 1. "alone does not provide evidence" is direct. One notable hedge.
+Rating: 2
+
+**Right Side**
+
+**8. Debater B: [Opening]**
+"appears likely to be" is a hedging phrase. "seems to involve" is another hedge. Two notable hedges in a short turn.
+Rating: 3
+
+**9. Debater A: [Argument 1]**
+Both claims are stated directly and assertively. No hedging language detected.
+Rating: 1
+
+**10. Debater B: [Response 1]**
+Both claims are stated directly. "never wrote" is assertive. No hedging.
+Rating: 1
+
+**11. Debater A: [Argument 2]**
+"is not a shortcut in the sense..." is direct. "do not know that no such attempt was made" is an epistemic qualification. One hedge.
+Rating: 2
+
+**12. Debater B: [Response 2]**
+"arguably" in Claim 1 is a clear hedge. "letting the agent sidestep" is direct. One notable hedge.
+Rating: 2
+
+**13. Debater A: [Argument 3]**
+"It is unclear how" in Claim 1 is a hedging expression. "does not appear to have violated" in Claim 2 contains "does not appear to," another hedge. Two hedges across the two claims.
+Rating: 3
+
+**14. Debater B: [Response 3]**
+"It seems most likely" in Claim 1 is a prominent hedge. "apparently did neither" uses "apparently" as a qualifier. Two hedges, both notable.
+Rating: 3
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[1]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[2]]
+B | Opening | [[3]]
+A | Argument 1 | [[1]]
+B | Response 1 | [[1]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[3]]

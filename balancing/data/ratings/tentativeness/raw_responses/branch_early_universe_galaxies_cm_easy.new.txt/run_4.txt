@@ -1,0 +1,101 @@
+I'll analyze each turn for hedging and qualifying language, then provide ratings.
+
+**1. Debater A: [Opening] (Left)**
+"The brightness of early universe galaxies is **weak evidence towards** falsifying the existence of dark matter."
+- "weak evidence towards" is a significant qualifier, softening the claim considerably.
+- One prominent hedging phrase dominates a short claim.
+**Rating: 3** — One qualifying phrase but it's central and prominent in a single-claim turn.
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "**broadly speaking**, strongly and reliably correlated" — "broadly speaking" softens the universal claim.
+Claim 2: Direct statement about what S.S.M. et al. shows — no hedging.
+- One minor hedge in Claim 1.
+**Rating: 2** — One incidental hedging phrase.
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: "a top-heavy mix of masses...predicts a brighter galaxy" — direct.
+Claim 2: "**substantially** improves...over its fit presented in S. S. M. et al." — "substantially" is a qualifier but more of a degree modifier than a hedge.
+- No real hedging language present.
+**Rating: 1** — No genuine tentativeness; both claims stated directly.
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: "is based on dense empirical data" — direct.
+Claim 2: "**Assuming** a different IMF than we've empirically observed...is **not justified by** the data available." — "assuming" frames a conditional; "not justified by" is a direct negative assertion rather than a hedge.
+- No hedging language per se.
+**Rating: 1** — Both claims stated directly without hedging.
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: "Current methods **do not allow us to** empirically calculate" — direct negative statement.
+Claim 2: "have systematically lower metallicity, which **will result in** the formation of more massive stars" — direct causal claim.
+- No hedging language present.
+**Rating: 1** — Both claims stated directly.
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "assume a standard IMF...and obtain solid residuals" — direct.
+Claim 2: "**while** metallicity does decrease...the magnitude of the change **cannot justify** invoking a top-heavy IMF." — "while" introduces a concession but it's structural; "cannot justify" is a direct strong assertion.
+- No real hedging language.
+**Rating: 1** — Both claims stated directly.
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: "**will be** more severe" — direct future assertion, no hedging.
+Claim 2: "**by itself**, does not mean their results generalize" — "by itself" is a limiting qualifier.
+- "by itself" is a mild qualifier in Claim 2.
+**Rating: 2** — One incidental qualifying phrase.
+
+**8. Debater B: [Opening] (Right)**
+"The brightness of early universe galaxies is **strong evidence towards** falsifying the existence of dark matter."
+- "evidence towards" slightly hedges but is fairly direct; "strong" actually amplifies rather than hedges.
+- Minimal hedging.
+**Rating: 1** — Stated directly and assertively.
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "**The typical argument for this is that**" — "typical argument" distances the speaker from the claim; this is a notable hedge/attribution.
+Claim 2: "**however**, Lambda-CDM successfully explains the **vast majority** of cosmological observations" — "vast majority" is a qualifier rather than claiming "all."
+- "typical argument" is a significant distancing device; "vast majority" is a mild qualifier.
+**Rating: 3** — Two qualifying expressions, one quite prominent.
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "Lambda-CDM relies on dark matter, which has **never been directly observed**, and dark energy, which is **theorized to** create negative pressure." — "theorized to" is a hedging phrase; "never been directly observed" is factual rather than hedging.
+Claim 2: "MOND-based models are simpler and **can** explain the relevant cosmological phenomena without **unproven** forms of matter." — "can" is a mild hedge; "unproven" qualifies dark matter.
+- "theorized to," "can," and "unproven" are hedging/qualifying terms.
+**Rating: 3** — Several qualifying expressions distributed across both claims.
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "MOND **can't** fully explain gravitational lensing without **ad hoc** fixes that undermine its simplicity." — "fully" is a qualifier; "ad hoc" is characterizing rather than hedging.
+Claim 2: "**would require** reworking the theory of general relativity, leading to modifications **across many areas** of astrophysics." — "would require" is a conditional hedge; "many areas" qualifies scope.
+- "fully," "would require," and "many areas" provide moderate hedging.
+**Rating: 3** — Multiple qualifying expressions across both claims.
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "Relativistic extensions of MOND, such as TeVeS, **generally do manage to** reproduce gravitational lensing effects" — "generally" and "manage to" are qualifying phrases.
+Claim 2: "MOND/TeVeS **adequately** fits lenses" — "adequately" qualifies the quality of fit.
+- "generally," "manage to," and "adequately" are notable hedges.
+**Rating: 3** — Several hedging expressions present.
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "TeVeS was designed with handling gravitational lensing as **one of its principal** motivations." — "one of its principal" is a mild qualifier.
+Claim 2: "**Even so**, Bullet Cluster lensing...cannot be explained by TeVeS, **nor can some of** H. S. Z. et al's examples..." — "nor can some of" is a limiting qualifier; "even so" is a concessive but structural.
+- "one of its principal," "even so," and "some of" are qualifying expressions.
+**Rating: 2** — A few mild qualifiers but claims are mostly direct.
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "TeVeS together with 2 eV neutrinos **has been shown to** reproduce Bullet Cluster lensing **rather well**" — "has been shown to" attributes to evidence (mild); "rather well" qualifies the quality.
+Claim 2: "the various outliers...can **in fact** be fit using many-parameter interpolation functions **instead of** single parameters." — "in fact" is an emphasizer; "instead of" is structural.
+- "rather well" qualifies; "has been shown to" is mild attribution.
+**Rating: 2** — A couple of mild qualifiers but mostly direct.
+
+RATINGS:
+A | Opening | [[3]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[1]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[2]]
+B | Opening | [[1]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[2]]

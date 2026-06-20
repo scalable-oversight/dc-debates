@@ -1,0 +1,85 @@
+<debate initiator="Liz" questioner="Bob">
+  <speaker name="Liz" claim="0">
+    LRDs can be explained by accretion (D1) of black holes in AGNs (D4) <ref id="zz_et_al"/>.
+  </speaker>
+
+  <speaker name="Bob" question="0">
+    Accretion in AGNs leads to strong X-ray emission, which does not align with the X-ray weakness of LRDs. How does your model explain this?
+  </speaker>
+
+  <speaker name="Liz" claim="1">
+    The X-ray weakness of the LRDs can be explained by super-Eddington (D2) accretion in black holes without contradicting the AGN scenario. At super-Eddington rates, the hot corona above the inner accretion disks that is thought to be responsible for the emission of X-rays in "normal" AGNs is embedded in a funnel-like reflection geometry. The high UV density cools down the plasma and results in extremely soft X-ray spectra like those observed in LRDs <ref id="pm_et_al"/>.
+  </speaker>
+
+  <speaker name="Bob" question="1">
+    AGNs also exhibit distinctive variability compared to galaxies, but most LRDs in your sample only show weak variability. How does your model explain this?
+  </speaker>
+
+  <speaker name="Liz" claim="2">
+    Multiple mechanisms could contribute to the weak variability observed. The host galaxy's contribution increases for longer wavelengths, which would dilute the AGN's intrinsic variability. More importantly, AGN variability amplitude decreases with increasing accretion rate, and super-Eddington accretion will also explain the lack of variability observed in LRDs <ref id="ki_sk_et_al"/>.
+  </speaker>
+
+  <speaker name="Bob" question="2">
+    LRDs contain prominent Balmer breaks which correspond to galaxy-only models or dusty star formation. How does your AGN scenario explain the presence of a Balmer break without a stellar component?
+  </speaker>
+
+  <speaker name="Liz" claim="3">
+    The observed Balmer break in LRDs can be explained by absorption from extremely dense gas in the line of sight. Such dense gas has been used to explain Balmer absorption features in other high-redshift AGNs <ref id="ki_et_al"/>, and fits within the AGN origin framework we build for LRDs.
+  </speaker>
+</debate>
+
+<debate initiator="Bob" questioner="Liz">
+  <speaker name="Bob" claim="0">
+    LRDs can be explained by photospheric emission of supermassive stars (SMS) (D6) <ref id="dn_et_al"/>.
+  </speaker>
+
+  <speaker name="Liz" question="0">
+    Supermassive stars are theorised to be very short-lived, what evolutionary phase in your model corresponds to LRDs?
+  </speaker>
+
+  <speaker name="Bob" claim="1">
+    The protostar (D3) in our model accretes material at a rate higher than the critical accretion rate to set up a supermassive configuration <ref id="dn_lz_et_al"/>. It evolves as a cool, bloated red supergiant along the Hayashi track. The intense surface accretion forces the outer layers to expand dramatically, which lasts for a total of 1000 years, at which point the star achieves its final mass of 10^6 Msol. This pre-evolutionary phase corresponds to LRDs before the SMS collapses directly into a black hole.
+  </speaker>
+
+  <speaker name="Liz" question="1">
+    The time for which your model resembles an LRD (1000 years) is very small. If all LRDs correspond to pre-collapse SMS, the resulting number density of 10^6 Msol black holes would be much larger than what we observe. How do you reconcile this cosmological constraint with your model?
+  </speaker>
+
+  <speaker name="Bob" claim="2">
+    Our base estimates do not incorporate stellar rotation into the model. Adding stellar rotation would provide additional centrifugal force to stabilize the supermassive configuration against gravitational collapse, increasing the lifetime of the SMS and lowering the number density required to support the amount of LRDs observed, while keeping within the constraints imposed by observed 10^6 Msol black holes.
+  </speaker>
+
+  <speaker name="Liz" question="2">
+    In addition to stellar rotation, your model doesn't use a full comoving-frame radiative transfer solution, or a multi-level hydrogen atom (explicitly the n=3 level). How do you calculate the Hα line strength and NLTE effects without assuming phenomenological boosts?
+  </speaker>
+
+  <speaker name="Bob" claim="3">
+    A more rigorous treatment of the radiative transfer will not alter this framework's fit to the observed continuum shape, line features, and line widths. Additionally, the phenomenological boosts we have used are justifiable approximations of the multi-level hydrogen atom case. Our model cleanly fits the observed data as emergent properties from a single stellar object.
+  </speaker>
+</debate>
+
+<refs>
+  <cite id="zz_et_al" 
+        quote="Year and title blinded from debate judges." 
+        url="Z. Z. et al."/>
+  
+  <cite id="dn_et_al" 
+        quote="Year and title blinded from debate judges." 
+        url="D. N. et al."/>
+  
+  <cite id="pm_et_al" 
+        quote="Year and title blinded from debate judges." 
+        url="P. M. et al."/>
+  
+  <cite id="dn_lz_et_al" 
+        quote="Year and title blinded from debate judges." 
+        url="D. N., L. Z. et al."/>
+  
+  <cite id="ki_sk_et_al" 
+        quote="Year and title blinded from debate judges." 
+        url="K. I., S. K. et al."/>
+  
+  <cite id="ki_et_al" 
+        quote="Year and title blinded from debate judges." 
+        url="K. I., et al."/>
+</refs>

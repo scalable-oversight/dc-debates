@@ -1,0 +1,21 @@
+Definitions
+
+(D1) Accretion - The process where a celestial object grows by gravitationally attracting and accumulating surrounding matter, like gas or dust, often forming a swirling accretion disk around the massive object before the material spirals inward. The central object can be a protostar, or a compact object like a neutron star or a black hole.
+
+<img src="images/accretion.png">
+
+(D2) Eddington limit - A theoretical limit to how fast an accreting body can grow. This is the point at which the outward force produced by radiation pressure is equal to the gravitational attraction experienced by the in-falling matter. In real systems, it is known that this limit can be violated, due to non-spherical geometry or various kinds of instabilities, resulting in super-Eddington accretion.
+
+(D3) Protostar - A protostar is the earliest stage of stellar evolution, forming from a collapsing cloud of gas and dust and growing by accreting more material, becoming hotter and denser until nuclear fusion ignites, transitioning it into a main-sequence star.
+
+(D4) AGN - Active Galactic Nuclei are galaxies with an actively accreting (consuming matter) supermassive black hole (SMBH) at their center. The matter forms a very bright (one of the  brightest phenomena in the universe) accretion disc as it spirals into the SMBH. An AGN might also contain twin jets of gas and dust ejected from the center of the galaxy that can rival the galaxy’s own size. High redshift (D5) AGN are often referred to as quasars.
+
+<img src="images/agn.png"> 
+
+(D5) Redshift (denoted by z) - As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift => object is further away.
+
+(D6) Supermassive stars - Theoretical, extremely massive stars (100 to 100,000+ solar masses or Msol) that likely formed in the early universe from primordial gas (mostly pure hydrogen and helium), theorized to be the seeds for the first supermassive black holes seen in the centers of galaxies.
+
+Question
+
+What theoretical model best explains the Little Red Dots (LRDs) observed by the James Webb Space Telescope?

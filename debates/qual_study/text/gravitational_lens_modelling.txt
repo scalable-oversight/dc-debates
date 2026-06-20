@@ -1,0 +1,141 @@
+================================================================================
+KEY QUESTION
+================================================================================
+
+Here is a picture of a real astrophysical system. What is the best plausible theoretical model to describe this system?
+
+What is the best theoretical model to describe this system?
+
+<img src='../images/astrophysical_system.png'/>
+
+================================================================================
+DEFINITIONS
+================================================================================
+
+Einstein zig-zag lens: A gravitational lens system with two lenses, where two light rays from the source cross the optical path between the lenses.
+
+<img src='../images/einstein_zig_zag.png'/>
+
+Gravitational lensing: An astrophysical phenomenon where a massive galaxy present in between the observer and the source bends light being emitted by the source, such that the observer sees distorted (weakly lensed) or multiple (strongly lensed) images of the same source.
+
+<img src='../images/gravitational_lensing.png'/>
+
+AGN: Active Galactic Nuclei are galaxies with an actively accreting (consuming matter) supermassive black hole (SMBH) at their center. The matter forms a very bright (one of the brightest phenomena in the universe) accretion disc as it spirals into the SMBH. An AGN might also contain twin jets of gas and dust ejected from the center of the galaxy that can rival the galaxy's own size. High redshift AGN are often referred to as quasars.
+
+<img src='../images/agn.png'/>
+
+Redshift (denoted by z): As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift => object is further away.
+
+Flux: Amount of light captured by the camera. Higher flux results in a brighter image.
+
+SIS/SIE/PEMD: All of these are separate models for the mass distribution in a galaxy. SIS is the simplest model for a spherical galaxy where mass falls off by a power of 2. SIE includes two additional parameters for ellipticity. PEMD adds two for ellipticity, and one additional parameter for the slope of the mass distribution power law.
+
+Shear: Adds two parameters to add ellipticity to any model without having to align it with the elliptical shape of the galaxy observed in the optical data. This is usually used if the lens is a part of a cluster, or to describe galaxies using an SIS+shear model instead of an SIE. An SIE+shear model is usually used to model an elliptical galaxy in a cluster to model angular properties from the lens galaxy and uncorrelated angular properties from surrounding matter.
+
+Recoil: Merging black holes release a massive amount of energy in the form of gravitational waves, and this can happen anisotropically, kicking the resulting black hole in a direction opposite to the released gravitational waves. This kick is stronger in systems with more asymmetry in the sizes of the merging black holes.
+
+Parsecs (pc) and kiloparsecs (kpc): Units of distance used in astrophysics. 1 pc is approximately 3.26 light years. 1 kpc is approximately 3,260 light-years, that is, it takes light about 3,260 years to cross 1 kpc.
+
+================================================================================
+SOURCES
+================================================================================
+
+F. D. et al. — “Year and title blinded from debate judges.”
+
+C. S. M. et al. — “Year and title blinded from debate judges.”
+
+--------------------------------------------------------------------------------
+Note: Exactly one of these debater's answers matches the answer of the expert who wrote the Key Question.
+--------------------------------------------------------------------------------
+
+================================================================================
+DEBATE — LEFT SIDE OF TABLE
+================================================================================
+
+────────────────────────────────────────────────────────────
+Debater A: [Opening]
+────────────────────────────────────────────────────────────
+
+The best plausible theoretical model to describe this system is an Einstein zig-zag lens with two deflectors and a single AGN ([F. D. et al.]).
+
+────────────────────────────────────────────────────────────
+Debater B: [Question 1]
+────────────────────────────────────────────────────────────
+
+An Einstein zig-zag lens requires many different parameters. What mass and light profiles did you use for the two deflectors and the quasar?
+
+────────────────────────────────────────────────────────────
+Debater A: [Answer 1]
+────────────────────────────────────────────────────────────
+
+A Power-law Elliptical Mass Distribution was used for the first deflector (z=1.84) and a Single Isothermal Sphere (SIS) with external shear for the second deflector (z=1.8845). Four SIS profiles for galaxies in the plane of the first deflector were also used, but they didn’t affect convergence due to their distance from the optical axis. The quasars were modelled as point sources.
+
+────────────────────────────────────────────────────────────
+Debater B: [Question 2]
+────────────────────────────────────────────────────────────
+
+The second deflector is an isolated galaxy that can be described by an SIE profile, but is instead constrained using an SIS + shear model. The presence of galaxies in the first deflector’s plane could have been handled using a shear to model the cumulative mass profile, why add four SIS profiles instead?
+
+────────────────────────────────────────────────────────────
+Debater A: [Answer 2]
+────────────────────────────────────────────────────────────
+
+An SIE profile is often degenerate with an SIS + shear profile at low radii, and has the same amount of parameters. Four SIS profiles were added to accurately model the effects of neighbouring galaxies, taking their positions into account to model a more complex mass distribution than a simple shear.
+
+────────────────────────────────────────────────────────────
+Debater B: [Question 3]
+────────────────────────────────────────────────────────────
+
+Adding complexity to the model allows for more degrees of freedom: 12 (SIE+shear for the lensing galaxy with two point sources at the same redshift) vs 15 (30 total if you set the position and redshift of the second deflector and the four foreground galaxies as free parameters). That amount of parameters will overfit to point source data. What is the reduced chi-squared error of your final model in the optical bands?
+
+────────────────────────────────────────────────────────────
+Debater A: [Answer 3]
+────────────────────────────────────────────────────────────
+
+The positions of the four foreground galaxies were constrained by optical data from HST. The position of the second deflector (being lensed by the first deflector) was constrained by modelling the red arc. The redshifts of the foreground galaxies and the second deflector were constrained by photometry (HST data) and spectroscopy (NIRSpec data) respectively. The chi-squared error for the optical data was not calculated, however the RMSE of the positions of the six lensed images is 0.03”.
+
+================================================================================
+DEBATE — RIGHT SIDE OF TABLE
+================================================================================
+
+────────────────────────────────────────────────────────────
+Debater B: [Opening]
+────────────────────────────────────────────────────────────
+
+The best plausible theoretical model to describe this system is a gravitationally lensed dual-AGN ([C. S. M. et al.]).
+
+────────────────────────────────────────────────────────────
+Debater A: [Question 1]
+────────────────────────────────────────────────────────────
+
+If the system is indeed a dual-AGN, why is there no trace of a host galaxy for the two sets of point sources? There should be an extended arc for the four large points, especially since they are magnified more by the lens.
+
+────────────────────────────────────────────────────────────
+Debater B: [Answer 1]
+────────────────────────────────────────────────────────────
+
+Any galaxy smaller than 400 pc across will not show up as an extended lensed arc in this image, suggesting a dwarf galaxy hosting the first active black hole. The red arc can be the host galaxy of the second active black hole, and the offset of the black hole from the center of the red galaxy can be explained by SMBH recoil.
+
+────────────────────────────────────────────────────────────
+Debater A: [Question 2]
+────────────────────────────────────────────────────────────
+
+Invoking the recoil mechanism requires the system to be post-merger, what evidence do you have that the system is interacting/has interacted?
+
+────────────────────────────────────────────────────────────
+Debater B: [Answer 2]
+────────────────────────────────────────────────────────────
+
+The modelled separation between the quasars in the source plane is 6.5 kpc, which enables significant interaction. Additionally, radio data collected using VLA in addition to the optical HST data shows high radio emission corresponding to star formation rates that are too high for a pre-merger scenario.
+
+────────────────────────────────────────────────────────────
+Debater A: [Question 3]
+────────────────────────────────────────────────────────────
+
+Spectroscopy constrains the second deflector’s redshift to be ~1.8845 and the quasar’s redshift to be ~2.38, which rules out the possibility of the red lensed arc being the host galaxy for one of the AGN in your model. The light curves obtained for all lensed images are also very similar, suggesting that they were emitted by a single object, which adds evidence for a single AGN lensed by two deflectors instead of a dual-AGN system. How do you justify a dual-AGN system without the red arc?
+
+────────────────────────────────────────────────────────────
+Debater B: [Answer 3]
+────────────────────────────────────────────────────────────
+
+A dual-AGN is still plausible without the red galaxy at the same redshift as the quasars. Similar to the first AGN, the extended structure of the second AGN might not be visible or be obscured by the overlapping red galaxy. The constraints on galaxy size for the second AGN would be looser than that of the first AGN due to the lower magnification (as noted in your Q1). Also, the separation between the two AGN could allow for them to interact, leading to correlated emissions.

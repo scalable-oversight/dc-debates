@@ -1,0 +1,82 @@
+I'll analyze each turn for technical jargon systematically.
+
+**Left Side**
+
+**1. Debater A: [Opening]**
+"The water level falls." — No technical terms at all. Plain English.
+Rating: 1
+
+**2. Debater B: [Argument 1]**
+"displacement" — physics term, but widely understood in everyday context; "volume-based" vs weight-based displacement — these are somewhat technical distinctions; "below the waterline" — common phrase; "meltwater" — compound word, self-explanatory.
+Overall: "displacement" and "volume-based displacement" are mildly technical but largely accessible.
+Rating: 2
+
+**3. Debater A: [Response 1]**
+"floats on the surface" and "buoyant submerged object" — "buoyant" is a somewhat technical term from physics; "displacement" implied; "weight-based" — mildly technical.
+Overall: "buoyant" and the distinction between floating/submerged displacement is moderately technical.
+Rating: 2
+
+**4. Debater B: [Argument 2]**
+"below the waterline" — common phrase; "submerged" — commonly understood; "buoyant" — physics term; "embedded in the floating ice" — plain language.
+Rating: 2
+
+**5. Debater A: [Response 2]**
+"effective density" — technical physics term; "buoyant force" — technical physics term; "fluid density" — technical; "fully submerged" — moderately technical.
+"Effective density," "buoyant force," and "fluid density" are genuine technical terms that may be opaque to a layperson.
+Rating: 3
+
+**6. Debater B: [Argument 3]**
+"buoyant" — physics term; "effective density" — referenced but not used directly; "less dense than water" — accessible; "standard dictionaries define 'buoyant'" — plain; "volume of the object" — plain.
+Rating: 2
+
+**7. Debater A: [Response 3]**
+"effective density" — technical; "fully underwater" — common; "displace their full volumes" — mildly technical; "beach ball held underwater" — plain analogy.
+Rating: 2
+
+**Right Side**
+
+**8. Debater B: [Opening]**
+"brim full" — common phrase. No technical terms.
+Rating: 1
+
+**9. Debater A: [Argument 1]**
+"displaces water equal to its total weight" — references Archimedes' principle, moderately technical; "weighing down" — common; "displacing less water" — mildly technical.
+Rating: 2
+
+**10. Debater B: [Response 1]**
+"weight-based displacement" — technical physics distinction; "volume-based displacement" — technical; "buoyant submerged object" — technical; "floating system" — mildly technical.
+Multiple technical distinctions appear together.
+Rating: 3
+
+**11. Debater A: [Argument 2]**
+"1250cm^3 block of ice" — uses volume units; "10cm^3 block of lead" — same; "sandstone" — common; "embedded in the bottom" — plain; "pull more of the ice block underwater" — plain.
+The use of cm^3 is mildly technical notation, but the argument is otherwise plain.
+Rating: 2
+
+**12. Debater B: [Response 2]**
+"volume-based displacement" — technical; "weight-based displacement" — technical; "floating freely" — accessible; "sinking rather than floating" — plain; "forced under the surface" — plain.
+Rating: 2
+
+**13. Debater A: [Argument 3]**
+"Submerged volume" — mildly technical; "displacement" — mildly technical; "degree of floating" — accessible paraphrase; otherwise plain language.
+Rating: 2
+
+**14. Debater B: [Response 3]**
+"mass-based" — mildly technical; "volume-based" — mildly technical; "buoyant submerged objects" — technical; "floating objects" — plain; "displacement" — mildly technical.
+Rating: 2
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[2]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[2]]

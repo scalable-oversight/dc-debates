@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debate>
+<title>Redshift</title>
+
+<defs>
+  <def id="redshift">(D1) Redshift (denoted by z): As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift =&gt; object is further away.</def>
+
+  <def id="emission_lines">(D2) Emission lines: Characteristic wavelengths at which excited electrons in atoms, molecules or ions emit light when returning to lower energy levels.</def>
+
+  <def id="lyman_break">(D3) Lyman break: A sharp drop in a galaxy&#x27;s light spectrum at the Lyman limit (91.13 nanometers), caused by neutral hydrogen absorbing photons with shorter wavelengths, effectively creating a &quot;dropout&quot; in the ultraviolet part of the spectrum. For distant galaxies, this break is stretched into the visible light range (redshifted to longer wavelengths).</def>
+
+  <def id="sed">(D4) SED: The Spectral Energy Distribution captures the amount of light emitted by an object across all wavelengths of light. This is typically used to estimate the composition of galaxies in terms of stars, dust etc.</def>
+</defs>
+
+<references>
+  <img src="images/figure_3_ph_et_al.png"/>
+  <img src="images/figure_4_cd_et_al.png"/>
+  <img src="images/figure_4_ph_et_al.png"/>
+
+  <ref id="ph" author="P. H. et al. Year, title, and link blinded from debate judges."/>
+  <ref id="cd" author="C. D. et al. Year, title, and link blinded from debate judges."/>
+
+  <ref id="hetdex" author="HETDEX Line Classification Tool"/>
+</references>
+
+<question>
+  What is the redshift of the CEERS-93316 galaxy discovered by JWST?
+
+  <side label="left">
+    <opening speaker="A">The redshift (D1) of CEERS-93316 is z ~ 4.9. (<ref id="ph"/>)</opening>
+    <question speaker="B" round="Question 1">What method did you use to calculate the redshift of the galaxy?
+      <answer speaker="A" round="Answer 1">We used spectroscopy to identify key emission lines (D2), and used the difference in their observed and expected wavelengths to calculate the redshift of the galaxy.</answer>
+    </question>
+    <question speaker="B" round="Question 2">What emission lines did you use for your analysis?
+      <answer speaker="A" round="Answer 2">We detect seven emission lines consistent with this redshift, with three different line complexes ([OII], [OIII], and Hα) each independently indicating z ~ 4.9. <figref rid="ph" fig="3">Figure 3</figref> shows the spectrum of the galaxy, with the peaks for Hα+[NII] and [OIII]+Hβ being especially prominent.</answer>
+    </question>
+    <question speaker="B" round="Question 3">How can you be certain that the emission lines you've observed are Hα+[NII] and [OIII]+Hβ? The lines could be created by other atoms, which would significantly affect your fit for the redshift. For example, there's a whole software package (<ref id="hetdex"/>) that exists just to try to figure out whether single detected emission lines are [OII] or Lyα (from hydrogen).
+      <answer speaker="A" round="Answer 3">We use a standard dusty galaxy model with a spectrum that is similar to other galaxies observed around the object of interest. Relative wavelengths of emission lines are well documented, and these strong detections clearly point to star formation in the galaxy.</answer>
+    </question>
+  </side>
+
+  <side label="right">
+    <opening speaker="B">The redshift (D1) of CEERS-93316 is z ~ 16.4. (<ref id="cd"/>)</opening>
+    <question speaker="A" round="Question 1">What method did you use to calculate the redshift of the galaxy?
+      <answer speaker="B" round="Answer 1">We used photometry with observations from multiple filters to identify the position of the Lyman break (D3) and used it to calculate the redshift of the galaxy.</answer>
+    </question>
+    <question speaker="A" round="Question 2">What filters did you use in your analysis?
+      <answer speaker="B" round="Answer 2">The filters we used are presented in <figref rid="cd" fig="4">Figure 4</figref> The key filters used to identify the Lyman break were F150W, F200W, and F277W, where there is a clear drop in the signal in the images after the F200W filter. The SED fit (D4) to the data predicts a Lyman break at ~21000 Angstrom.</answer>
+    </question>
+    <question speaker="A" round="Question 3">(a) Your SED fit predicts negligible flux blueward of the break, but the observations show significant flux in those regions. (b) <figref rid="ph" fig="4">Figure 4</figref> shows the spectrum of CEERS-93316 alongside two high redshift galaxies with actual Lyman breaks. z=16.2 fits the photometric points but not the spectrum, how do you explain this?
+      <answer speaker="B" round="Answer 3">(a) JWST introduces zero point errors in flux measurements, and these need to be corrected for during the analysis. (b) The observed flux blueward of the Lyman break can be attributed to noise being boosted by flux uncertainty, and does not represent actual emission from the galaxy.</answer>
+    </question>
+  </side>
+</question>
+</debate>

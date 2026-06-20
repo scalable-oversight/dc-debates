@@ -1,0 +1,270 @@
+======================================================================
+Variance-components analysis for debate-difficulty planning
+======================================================================
+Input file:  /workspace/cf_package/qual_study/data/cleaned/qual-1-all-debates-for-grading_noids.xlsx
+Rows: 125;  columns: 46
+Unique variants:    24
+Unique questions:   12
+Unique domains:     3 (['astro', 'coding', 'physics'])
+Unique participants:32
+
+======================================================================
+ALL (experts + novices)   n=125
+======================================================================
+
+--- end-state (logit section 4) ---
+
+  DV: end-state (logit section 4)  -- full model   (n=125, source=handrolled)
+    Fixed: intercept = +0.424, beta_order (honest - dishonest) = -0.589
+    SD(domain     ) = 0.626   var share =  13.3%
+    SD(question   ) = 0.496   var share =   8.4%
+    SD(variant    ) = 0.414   var share =   5.8%
+    SD(participant) = 0.845   var share =  24.3%
+    SD(residual)    = 1.190   var share =  48.1%
+    --> tau (between-variant SD) = 0.414
+    --> sigma (within-variant single-judge SD, for sample-size calc) = 1.664
+    --> tau / sigma = 0.249
+
+  [Domain random-effect check]
+
+    Domain SD    = 0.626    (vs within-variant noise SD 1.541)
+    Question SD  = 0.496
+    Variant SD   = 0.414
+    LRT for domain random effect: fit failed
+
+    RECOMMENDATION:
+      With only 3 domains, treat domain as FIXED effect.
+      You cannot reliably estimate a variance from so few levels, regardless
+      of what the LRT says.  Use N-1 indicator variables.
+      Domain SD is NOT small relative to within-variant noise; the choice
+      has real consequences for inference and should be decided carefully.
+
+
+  DV: end-state (logit section 4)  -- planning model (for sample-size calc)   (n=125, source=statsmodels)
+    Fixed: intercept = +0.405, beta_order (honest - dishonest) = -0.554
+    SD(variant    ) = 1.408   var share =  64.8%
+    SD(participant) = 0.331   var share =   3.6%
+    SD(residual)    = 0.985   var share =  31.7%
+    --> tau (between-variant SD) = 1.408
+    --> sigma (within-variant single-judge SD, for sample-size calc) = 1.039
+    --> tau / sigma = 1.355
+
+--- update (logit s4 - logit s1) ---
+
+  DV: update (logit s4 - logit s1)  -- full model   (n=125, source=statsmodels)
+    Fixed: intercept = +0.256, beta_order (honest - dishonest) = -0.343
+    SD(domain     ) = 0.000   var share =   0.0%
+    SD(question   ) = 0.832   var share =  39.9%
+    SD(variant    ) = 0.832   var share =  39.9%
+    SD(participant) = 0.153   var share =   1.3%
+    SD(residual)    = 0.574   var share =  18.9%
+    --> tau (between-variant SD) = 0.832
+    --> sigma (within-variant single-judge SD, for sample-size calc) = 1.022
+    --> tau / sigma = 0.814
+
+  [Domain random-effect check]
+
+    Domain SD    = 0.000    (vs within-variant noise SD 1.022)
+    Question SD  = 0.832
+    Variant SD   = 0.832
+    LRT for domain random effect: fit failed
+
+    RECOMMENDATION:
+      With only 3 domains, treat domain as FIXED effect.
+      You cannot reliably estimate a variance from so few levels, regardless
+      of what the LRT says.  Use N-1 indicator variables.
+      Domain SD is small relative to within-variant noise, so the practical
+      consequences of the fixed-vs-random choice are minor either way.
+
+
+  DV: update (logit s4 - logit s1)  -- planning model (for sample-size calc)   (n=125, source=statsmodels)
+    Fixed: intercept = +0.256, beta_order (honest - dishonest) = -0.343
+    SD(variant    ) = 1.074   var share =  66.4%
+    SD(participant) = 0.153   var share =   1.3%
+    SD(residual)    = 0.749   var share =  32.3%
+    --> tau (between-variant SD) = 1.074
+    --> sigma (within-variant single-judge SD, for sample-size calc) = 0.764
+    --> tau / sigma = 1.405
+
+  r(s1, s4) on logit scale = 0.669
+
+======================================================================
+NOVICES ONLY (Prolific AI-tasker proxy)   n=64
+======================================================================
+
+--- end-state (logit section 4) ---
+
+  DV: end-state (logit section 4)  -- full model   (n=64, source=handrolled)
+    Fixed: intercept = +0.152, beta_order (honest - dishonest) = -0.180
+    SD(domain     ) = 0.499   var share =  11.5%
+    SD(question   ) = 0.599   var share =  16.5%
+    SD(variant    ) = 0.705   var share =  22.8%
+    SD(participant) = 0.847   var share =  33.0%
+    SD(residual)    = 0.594   var share =  16.2%
+    --> tau (between-variant SD) = 0.705
+    --> sigma (within-variant single-judge SD, for sample-size calc) = 1.296
+    --> tau / sigma = 0.544
+
+  [Domain random-effect check]
+
+    Domain SD    = 0.499    (vs within-variant noise SD 1.196)
+    Question SD  = 0.599
+    Variant SD   = 0.705
+    LRT for domain random effect: fit failed
+
+    RECOMMENDATION:
+      With only 3 domains, treat domain as FIXED effect.
+      You cannot reliably estimate a variance from so few levels, regardless
+      of what the LRT says.  Use N-1 indicator variables.
+      Domain SD is NOT small relative to within-variant noise; the choice
+      has real consequences for inference and should be decided carefully.
+
+
+  DV: end-state (logit section 4)  -- planning model (for sample-size calc)   (n=64, source=statsmodels)
+    Fixed: intercept = +0.158, beta_order (honest - dishonest) = -0.189
+    SD(variant    ) = 0.635   var share =  23.2%
+    SD(participant) = 0.853   var share =  41.8%
+    SD(residual)    = 0.781   var share =  35.1%
+    --> tau (between-variant SD) = 0.635
+    --> sigma (within-variant single-judge SD, for sample-size calc) = 1.157
+    --> tau / sigma = 0.549
+
+--- update (logit s4 - logit s1) ---
+
+  DV: update (logit s4 - logit s1)  -- full model   (n=64, source=handrolled)
+    Fixed: intercept = +0.087, beta_order (honest - dishonest) = -0.190
+    SD(domain     ) = 0.444   var share =  12.4%
+    SD(question   ) = 0.489   var share =  15.0%
+    SD(variant    ) = 0.602   var share =  22.7%
+    SD(participant) = 0.735   var share =  33.9%
+    SD(residual)    = 0.505   var share =  16.0%
+    --> tau (between-variant SD) = 0.602
+    --> sigma (within-variant single-judge SD, for sample-size calc) = 1.110
+    --> tau / sigma = 0.542
+
+  [Domain random-effect check]
+
+    Domain SD    = 0.444    (vs within-variant noise SD 1.017)
+    Question SD  = 0.489
+    Variant SD   = 0.602
+    LRT for domain random effect: fit failed
+
+    RECOMMENDATION:
+      With only 3 domains, treat domain as FIXED effect.
+      You cannot reliably estimate a variance from so few levels, regardless
+      of what the LRT says.  Use N-1 indicator variables.
+      Domain SD is NOT small relative to within-variant noise; the choice
+      has real consequences for inference and should be decided carefully.
+
+
+  DV: update (logit s4 - logit s1)  -- planning model (for sample-size calc)   (n=64, source=statsmodels)
+    Fixed: intercept = +0.099, beta_order (honest - dishonest) = -0.195
+    SD(variant    ) = 0.527   var share =  21.1%
+    SD(participant) = 0.759   var share =  43.6%
+    SD(residual)    = 0.683   var share =  35.3%
+    --> tau (between-variant SD) = 0.527
+    --> sigma (within-variant single-judge SD, for sample-size calc) = 1.021
+    --> tau / sigma = 0.517
+
+  r(s1, s4) on logit scale = 0.495
+
+======================================================================
+EXPERTS ONLY (for comparison)   n=61
+======================================================================
+
+--- end-state (logit section 4) ---
+
+  DV: end-state (logit section 4)  -- full model   (n=61, source=handrolled)
+    Fixed: intercept = +0.704, beta_order (honest - dishonest) = -1.016
+    SD(domain     ) = 0.763   var share =  12.2%
+    SD(question   ) = 1.052   var share =  23.1%
+    SD(variant    ) = 0.358   var share =   2.7%
+    SD(participant) = 1.207   var share =  30.4%
+    SD(residual)    = 1.230   var share =  31.6%
+    --> tau (between-variant SD) = 0.358
+    --> sigma (within-variant single-judge SD, for sample-size calc) = 2.158
+    --> tau / sigma = 0.166
+
+  [Domain random-effect check]
+
+    Domain SD    = 0.763    (vs within-variant noise SD 2.019)
+    Question SD  = 1.052
+    Variant SD   = 0.358
+    LRT for domain random effect: fit failed
+
+    RECOMMENDATION:
+      With only 3 domains, treat domain as FIXED effect.
+      You cannot reliably estimate a variance from so few levels, regardless
+      of what the LRT says.  Use N-1 indicator variables.
+      Domain SD is NOT small relative to within-variant noise; the choice
+      has real consequences for inference and should be decided carefully.
+
+
+  DV: end-state (logit section 4)  -- planning model (for sample-size calc)   (n=61, source=statsmodels)
+    Fixed: intercept = +0.720, beta_order (honest - dishonest) = -1.050
+    SD(variant    ) = 0.719   var share =  11.5%
+    SD(participant) = 1.622   var share =  58.7%
+    SD(residual)    = 1.156   var share =  29.8%
+    --> tau (between-variant SD) = 0.719
+    --> sigma (within-variant single-judge SD, for sample-size calc) = 1.992
+    --> tau / sigma = 0.361
+
+--- update (logit s4 - logit s1) ---
+
+  DV: update (logit s4 - logit s1)  -- full model   (n=61, source=handrolled)
+    Fixed: intercept = +0.440, beta_order (honest - dishonest) = -0.516
+    SD(domain     ) = 0.676   var share =  12.5%
+    SD(question   ) = 1.019   var share =  28.4%
+    SD(variant    ) = 0.694   var share =  13.1%
+    SD(participant) = 1.078   var share =  31.7%
+    SD(residual)    = 0.722   var share =  14.2%
+    --> tau (between-variant SD) = 0.694
+    --> sigma (within-variant single-judge SD, for sample-size calc) = 1.783
+    --> tau / sigma = 0.389
+
+  [Domain random-effect check]
+
+    Domain SD    = 0.676    (vs within-variant noise SD 1.650)
+    Question SD  = 1.019
+    Variant SD   = 0.694
+    LRT for domain random effect: fit failed
+
+    RECOMMENDATION:
+      With only 3 domains, treat domain as FIXED effect.
+      You cannot reliably estimate a variance from so few levels, regardless
+      of what the LRT says.  Use N-1 indicator variables.
+      Domain SD is NOT small relative to within-variant noise; the choice
+      has real consequences for inference and should be decided carefully.
+
+
+  DV: update (logit s4 - logit s1)  -- planning model (for sample-size calc)   (n=61, source=statsmodels)
+    Fixed: intercept = +0.460, beta_order (honest - dishonest) = -0.564
+    SD(variant    ) = 0.701   var share =  21.9%
+    SD(participant) = 0.980   var share =  42.9%
+    SD(residual)    = 0.888   var share =  35.2%
+    --> tau (between-variant SD) = 0.701
+    --> sigma (within-variant single-judge SD, for sample-size calc) = 1.322
+    --> tau / sigma = 0.530
+
+  r(s1, s4) on logit scale = 0.727
+
+======================================================================
+HOW TO READ THIS:
+======================================================================
+  tau   = between-variant SD (signal).  Bigger = debates are more
+          distinguishable in difficulty, which is good for you.
+  sigma = within-variant, single-judge SD (noise).  In the main
+          between-subjects study, participant-level variance collapses
+          into this, so sigma = sqrt(var_participant + var_residual
+          + any-other-non-variant-variances).  Smaller = easier to
+          rank debates precisely.
+  tau / sigma is the signal-to-noise ratio that governs ranking
+          precision; your pilot gave roughly 1.0 for novices on both
+          DVs, which is favourable.
+
+  For the domain random-effect decision, the simulation-based rule is:
+    <5 levels:   fixed effects, full stop.
+    5-7 levels:  fixed effects unless the LRT is clearly significant.
+    8+ levels:   random effects usually fine.
+  Your pilot has 3 (or however you mapped them) domains, so with very
+  high probability the recommendation will be FIXED effects.

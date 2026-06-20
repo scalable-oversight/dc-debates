@@ -1,0 +1,62 @@
+<debate initiator="Liz" questioner="Bob">
+  <speaker name="Liz" claim="0">
+    The internal temperature of a star increases with time on the main sequence (D1).
+  </speaker>
+
+  <speaker name="Bob" question="0">
+    A star continually radiates energy, how can the temperature of a system increase when energy is actively being taken away from it?
+  </speaker>
+
+  <speaker name="Liz" claim="1">
+    The energy leaving the star via radiation is compensated by the star’s contraction, and the kinetic energy of the star’s particles has to increase to keep the system in equilibrium. The equipartition theorem positively correlates the kinetic energy of constituent molecules to a system’s temperature, which means the temperature of the star will increase as it evolves.
+  </speaker>
+
+  <speaker name="Bob" question="1">
+    The mechanism you describe implies that the star has negative heat capacity, i.e. the star’s temperature increases as energy is taken away from it. How does this not violate the first law of thermodynamics?
+  </speaker>
+
+  <speaker name="Liz" claim="2">
+    The mechanism described is not in violation of the laws of thermodynamics. The energy lost via radiation is compensated by the gravitational potential energy of the star, which gets increasingly negative (i.e. the star contracts). According to the virial theorem, the kinetic energy of the star is roughly equal to negative half of its potential energy, which means that the kinetic energy of the star increases as the potential energy decreases, implying an increase in internal temperature.
+  </speaker>
+
+  <speaker name="Bob" question="2">
+    Gravitational binding energy should not be a part of the thermodynamic calculations, since temperature is a property of the particles in the star. The second law of thermodynamics states that entropy always increases, what happens to the star’s entropy in the mechanism you describe?
+  </speaker>
+
+  <speaker name="Liz" claim="3">
+    Temperature and gravitational binding energy should not be separated in a self-gravitating system. The entropy of the star decreases as the star contracts and the temperature rises, but the total entropy of the universe increases. This is because the entropy carried by the photons radiated away is greater than the entropy decrease in the star. Since the star is an open system, this is not a violation of the second law of thermodynamics.
+  </speaker>
+</debate>
+
+<debate initiator="Bob" questioner="Liz">
+  <speaker name="Bob" claim="0">
+    The internal temperature of a star decreases with time on the main sequence (D1).
+  </speaker>
+
+  <speaker name="Liz" question="0">
+    A star contracts as it evolves on the main sequence, how can decreasing internal temperature stabilize a contracting star against gravitational collapse?
+  </speaker>
+
+  <speaker name="Bob" claim="1">
+    Radiation pressure from nuclear fusion in the star’s core stabilizes the star against gravitational collapse. The energy output via nuclear fusion is dominated by the proton-proton chain in smaller stars and the CNO cycle in larger stars, both of which have a strong dependency on the temperature of the core. A star’s contraction would imply a reduction in radiation pressure due to fusion, which can be achieved by decreasing core temperature.
+  </speaker>
+
+  <speaker name="Liz" question="1">
+    The mechanism you describe frames the decrease in the internal temperature of the star as the cause for the contraction of the star, what would cause the internal temperature of the star to decrease on its own?
+  </speaker>
+
+  <speaker name="Bob" claim="2">
+    The total energy of the system needs to be conserved, and the energy being radiated away by the star has to be compensated by a decrease in the thermal energy of the star. This causes the internal temperature of the star to decrease.
+  </speaker>
+
+  <speaker name="Liz" question="2">
+    The mechanism you describe would lead to runaway contraction of the star as gravity gets stronger and radiation pressure gets weaker with the star’s contraction. Evolution on the main sequence will not be possible with contraction at this timescale. How does the star remain in equilibrium with these unbalanced forces?
+  </speaker>
+
+  <speaker name="Bob" claim="3">
+    Stars contract over the main sequence till the core gets dense enough to ignite Helium fusion. The internal thermal pressure of the gas particles is what supports the star. As the star radiates energy, the thermal energy and thus thermal pressure of the particles must decrease. The contraction you describe is a consequence of this thermal pressure decrease, not a source of additional heating.
+  </speaker>
+</debate>
+
+<refs>
+</refs>

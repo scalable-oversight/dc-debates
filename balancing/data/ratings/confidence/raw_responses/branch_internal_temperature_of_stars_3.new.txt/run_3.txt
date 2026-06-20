@@ -1,0 +1,99 @@
+I'll analyze each turn for confidence signals, then provide ratings.
+
+**1. Debater A: [Opening]**
+"The internal temperature of a star increases with time on the main sequence."
+- Flat declarative statement, no hedging, no qualifiers.
+- Rating: **5**
+
+**2. Debater B: [Argument 1]**
+- Claim 1: "A star continually radiates energy away..." — definitive, factual statement.
+- Claim 2: "The temperature of the system does not increase due to the amount of energy actively being taken away from it." — stated as fact, no qualification.
+- Both claims are assertive with no hedging language.
+- Rating: **5**
+
+**3. Debater A: [Response 1]**
+- Claim 1: "The temperature of a star is proportional to the kinetic energy... via the equipartition theorem." — confident, definitive.
+- Claim 2: "The kinetic energy... on the whole, increases as it evolves on the main sequence." — "on the whole" is a mild qualifier but not a strong hedge.
+- Overall assertive tone with only a slight softening.
+- Rating: **4**
+
+**4. Debater B: [Argument 2]**
+- Claim 1: "By the first law of thermodynamics, energy lost via radiation must come from..." — "must" signals strong certainty.
+- Claim 2: "Since no external work is being done, internal energy must decrease..." — "must" again, definitive causal chain.
+- Very confident, using "must" twice.
+- Rating: **5**
+
+**5. Debater A: [Response 2]**
+- Claim 1: "When a self-gravitating system contracts, its gravitational potential energy decreases." — flat declarative, no hedging.
+- Claim 2: "Gravity does work on the system and the released gravitational potential energy more than offsets the radiated energy, with the surplus increasing the kinetic energy of the particles." — definitive cause-and-effect, "more than offsets" is assertive.
+- No hedging language present.
+- Rating: **5**
+
+**6. Debater B: [Argument 3]**
+- Claim 1: "Thermodynamic properties like internal energy are intrinsically linked to the temperature of the star." — "intrinsically linked" is assertive.
+- Claim 2: "Kinetic energy is related to temperature, but gravitational potential energy should not be included in thermodynamic calculations." — "should not" is a strong normative/prescriptive statement, fairly confident.
+- Overall assertive, though "should not" carries slight prescriptive rather than purely descriptive certainty.
+- Rating: **4**
+
+**7. Debater A: [Response 3]**
+- Claim 1: "By the virial theorem, the kinetic energy of the star increases over time, as the gravitational potential energy of the star itself decreases." — definitive, invokes theorem as authority.
+- Claim 2: "And since the temperature is proportional to the kinetic energy... the temperature naturally increases." — "naturally" reinforces inevitability, no hedging.
+- Very confident throughout.
+- Rating: **5**
+
+**8. Debater B: [Opening]**
+"The internal temperature of a star decreases with time on the main sequence."
+- Flat declarative, no hedging.
+- Rating: **5**
+
+**9. Debater A: [Argument 1]**
+- Claim 1: "Star cores contract as they evolve on the main sequence." — simple declarative, no hedging.
+- Claim 2: "If pressure fails to keep pace with strengthening gravity as the star contracts, the star will undergo gravitational collapse." — conditional "if...will" structure introduces conditionality, slightly reducing confidence.
+- The conditional framing in Claim 2 is a mild hedge.
+- Rating: **4**
+
+**10. Debater B: [Response 1]**
+- Claim 1: "Radiation pressure from nuclear fusion in a star's core is one of the forces that supports the star against gravitational collapse." — "one of the forces" is appropriately scoped but not hedging; definitive.
+- Claim 2: "The combination of radiation pressure and thermal pressure prevents collapse even though thermal pressure decreases." — assertive conclusion.
+- Confident overall.
+- Rating: **4**
+
+**11. Debater A: [Argument 2]**
+- Claim 1: "When the temperature falls, radiation and thermal pressure are both going to fall accordingly." — "going to" is slightly softer than "will" but fairly assertive.
+- Claim 2: "With less pressure pushing outward, gravity would naturally get stronger because the mass is now more concentrated, in effect breaking hydrostatic equilibrium." — "would naturally" and "in effect" are mild softeners.
+- Some slight hedging with "would" and "in effect."
+- Rating: **4**
+
+**12. Debater B: [Response 2]**
+- Claim 1: "Thermal pressure importantly depends on density as well as on temperature." — "importantly" is emphatic rather than hedging; confident.
+- Claim 2: "As the core contracts, rising density partially offsets the falling temperature. So the pressure deficit stays small and the contraction is slow and gradual, not a runaway collapse." — "partially offsets" and "stays small" show some qualification of degree.
+- "Partially" hedges the extent of the effect; otherwise fairly assertive.
+- Rating: **4**
+
+**13. Debater A: [Argument 3]**
+- Claim 1: "The contraction continues unchecked over time in this scenario because no mechanism breaks the feedback loop." — "in this scenario" slightly limits scope but is otherwise assertive.
+- Claim 2: "Furthermore, with nothing in place to interrupt the feedback loop, the collapse will occur at a thermal timescale." — "will occur" is definitive.
+- Overall confident with only minor scope-limiting language.
+- Rating: **4**
+
+**14. Debater B: [Response 3]**
+- Claim 1: "A star contracts until it ignites helium fusion at the end of the main sequence." — definitive.
+- Claim 2: "The rate at which thermal pressure decreases does matter: the increasing density of the core... prolongs the contraction long enough for helium fusion to ignite." — "does matter" is emphatic; overall assertive.
+- Confident throughout with no hedging.
+- Rating: **5**
+
+RATINGS:
+A | Opening | [[5]]
+B | Argument 1 | [[5]]
+A | Response 1 | [[4]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[5]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[5]]
+B | Opening | [[5]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[5]]

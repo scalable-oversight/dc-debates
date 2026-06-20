@@ -1,0 +1,129 @@
+I'll analyze each turn for confidence-signaling language before rating.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The Einstein zig-zag lens model... with two deflectors... and one AGN which produces 6 lensed images after being lensed by both deflectors."
+No hedging language at all. States the model definitively as a description of the system. Highly assertive, factual tone.
+**Rating: 5**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "is, on closer inspection, overfit, mainly due to the various modeling decisions" — "mainly due to" is slightly qualifying, but "overfit" is definitive. "On closer inspection" adds a framing of revealed truth.
+Claim 2: "do not actually quantify or report a chi-squared error" — completely definitive, factual assertion.
+Overall: mostly assertive with only minor qualifications.
+**Rating: 4**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: "is likely to have a significant effect" — "likely" is a hedge, softening the claim.
+Claim 2: "allows one to more accurately model" — relatively confident but "more accurately" is comparative, not absolute.
+Both claims have mild hedging ("likely"), but still reasonably assertive overall.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: "This fails to reveal that the model has 30 total parameters" — definitive, factual.
+Claim 2: "provides an enormous degree of modelling flexibility and results in overfitting" — "results in overfitting" is stated as a definitive consequence, "enormous" is emphatic.
+Very assertive throughout with no hedging.
+**Rating: 5**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: "A simpler model is not necessarily a correct model" — uses "not necessarily," which is a qualifier, though the claim itself is a general logical principle stated firmly.
+Claim 2: "15 parameters in our model are partially constrained, which are not full degrees of freedom" — "partially constrained" hedges somewhat, but the factual assertion is stated confidently.
+Mixed: one qualifier ("not necessarily"), one hedge ("partially"), but overall moderately confident.
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "Constraints don't fix the parameters... in place: they are determined via different models that come with their own errors" — definitive, no hedging.
+Claim 2: "All galaxy positions and redshifts except the main deflector can vary considerably, adding more freedom" — "can vary" is slightly open-ended, but "considerably" is emphatic and overall quite assertive.
+Mostly assertive with minor softening from "can vary."
+**Rating: 4**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: "provides quite tight constraints" — "quite tight" is assertive though "quite" is slightly softening.
+Claim 2: "constrains positions to sub-arcsecond precision" — very definitive, factual, no hedging.
+Overall moderately to highly confident, with "quite" being a minor softener.
+**Rating: 4**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The gravitationally lensed dual-AGN model... with the first AGN corresponding to the four brightest images and the second AGN corresponding to the two dim images next to the extended red arcs."
+Completely definitive description, no hedges, presents the model as a statement of fact.
+**Rating: 5**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "we would normally expect to see a host galaxy" — "normally expect" introduces some tentativeness/probabilistic language.
+Claim 2: "Light curves for all 6 lensed images display the same variations... C. S. M. et al. claim that D and E correspond to AGN that are 6 kiloparsecs away" — factual and definitive in its presentation of the contradiction.
+Mixed: Claim 1 has hedging ("normally expect"), Claim 2 is assertive.
+**Rating: 3**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "would likely remain undetected" — "likely" is a clear hedge.
+Claim 2: "an even larger extended component might be undetected" — "might" is a significant hedge.
+Both claims use hedging language ("likely," "might"), suggesting lower confidence.
+**Rating: 2**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "Dual AGN often arise from mergers" — "often" is a hedging qualifier.
+Claim 2: "Observed AGN-host dwarf galaxies are biased towards late-type with low merger rates, directly against your hypothesis" — "directly against" is assertive, but "are biased towards" is somewhat qualified.
+Mixed hedging and assertion, leaning moderate.
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "have mainly been studied at very low redshifts" — "mainly" is a mild qualifier but overall factual.
+Claim 2: "are not a representative population for this object" — definitive assertion.
+Mostly assertive with only minor qualification ("mainly").
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "The most plausible morphology... is still going to be a quiescent galaxy that is <400 pc wide but yet massive enough to host AGN" — "most plausible" is a hedging qualifier, not definitive certainty.
+Claim 2: "The probability... remains very low, even conditioned on..." — "very low" is confident but speaking in probabilistic terms inherently acknowledges uncertainty.
+Moderate confidence — uses probabilistic/plausibility framing throughout.
+**Rating: 3**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "can be far more compact" — "can be" is somewhat hedged but "far more" is emphatic.
+Claim 2: "can rapidly quench star formation. Compactness and quiescence are not mutually exclusive, especially at high z" — "can rapidly" hedges slightly; the second sentence is definitive.
+Mixed: "can be" hedges, but core assertions are fairly confident.
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[5]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[4]]
+B | Opening | [[5]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[2]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[3]]

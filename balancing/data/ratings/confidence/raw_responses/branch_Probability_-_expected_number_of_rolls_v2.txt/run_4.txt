@@ -1,0 +1,127 @@
+I'll analyze each turn for confidence signals, then provide ratings.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"Y is larger." — A single, bare declarative statement with no hedging, qualifiers, or uncertainty. Maximally assertive.
+**Rating: 5**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "effectively turns the D6 into a D3" — "effectively" is a mild qualifier but still assertive overall.
+Claim 2: "getting two 6s in a row is harder (requires more rolls)" — stated as a direct fact, no hedging.
+Overall: mostly assertive with only a minor qualifier ("effectively").
+**Rating: 4**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: "The expected number of rolls to first 6 for such a D3 is 3." — stated as a flat fact.
+Claim 2: "So it's not true that the condition effectively turns the D6 to a D3." — definitive negation, no hedging.
+Both claims are stated as certainties.
+**Rating: 5**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: "specifies that the D6 becomes a D3 for the purposes of this question. The expected number of rolls… is a separate, irrelevant question." — definitive, no hedging.
+Claim 2: "It is irrelevant because…" — stated as a fact.
+Both claims are assertive and definitive.
+**Rating: 5**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: "It is relevant for showing why arguments based on this claimed equivalence don't work." — assertive.
+Claim 2: "It would be strange if…" — "it would be strange" introduces a mild hypothetical/rhetorical framing rather than a direct assertion, adding a touch of tentativeness.
+Mostly assertive but Claim 2 uses indirect reasoning.
+**Rating: 4**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "'Expected number of rolls to the first 6' is a fundamentally different quantity…" — definitive, uses "fundamentally."
+Claim 2: "what counts is how often 6 turns up versus non-6 — non-6 is twice as likely here." — stated as fact, no hedging.
+Both claims are assertive.
+**Rating: 5**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: "X depends on adjacent 6s, while Y depends on where the second 6 occurs; e.g. '626' stops Y at roll 3 but doesn't stop X." — definitive, concrete example.
+Claim 2: "So order, not only relative frequency, is part of the stopping rule and affects the conditional expectation." — assertive conclusion using "So."
+Both claims are stated firmly.
+**Rating: 5**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"X is larger." — Single bare declarative, no hedging whatsoever.
+**Rating: 5**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "X needs two 6s in a row, normally requiring a much longer run than Y's two 6s anywhere." — "normally" is a mild qualifier.
+Claim 2: "filters long runs exponentially, so X's probability mass is squeezed onto its short, lucky runs much more so than Y's." — assertive with technical language; "much more so" is confident.
+Mostly assertive with one minor qualifier.
+**Rating: 4**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "'Given all rolls were even' applies to both X and Y." — flat fact, fully assertive.
+Claim 2: "The stopping condition for X is strictly harder and happens later than or at the same time as Y's. X's distribution is dominated by long sequences…" — "strictly" and "dominated" are confident; no hedging.
+Both claims fully assertive.
+**Rating: 5**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "affects X more because you'll nearly always roll an odd before getting two 6s, so the long sequences will be largely filtered out." — "nearly always" and "largely" are mild hedges but overall assertive.
+Claim 2: "the second is a false statement that does not follow from it." — definitive, no hedging.
+Mix of mild hedges and strong assertion.
+**Rating: 4**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "Y is affected similarly, because you will also nearly always roll an odd before getting two nonconsecutive 6s, so Y's runs are filtered just as harshly." — "nearly always" is a hedge; "just as harshly" is assertive.
+Claim 2: "The net effect of the all-even condition is therefore similar for X and Y, and the D3 equivalence holds." — "therefore" signals logical certainty; "holds" is definitive.
+Mostly assertive with minor hedge.
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "Among the all-even stopped sequences, 61% of X sequences stop at roll 2, compared with 44% of Y sequences. By the end of roll 3, 81% of X sequences have stopped, compared with 74% of Y sequences." — stated as concrete numerical facts, fully assertive.
+Claim 2: "This suggests that X is more likely than Y to stop extremely early." — "suggests" is a notable hedge, introducing tentativeness.
+Claim 1 is fully confident; Claim 2 hedges with "suggests."
+**Rating: 4**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "The total proportion of all-even stopped sequences that stop by roll 2 or 3 does not determine the overall weighting." — definitive negation.
+Claim 2: "The tails of the two distributions matter as well, and the full computation yields X as the larger of the two values." — "matter as well" is assertive; "yields" implies a computed result stated as fact.
+Both claims are assertive.
+**Rating: 5**
+
+---
+
+RATINGS:
+A | Opening | [[5]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[5]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[4]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[5]]
+B | Opening | [[5]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[5]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[5]]

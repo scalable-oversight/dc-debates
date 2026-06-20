@@ -1,0 +1,702 @@
+>> assignments_to_ids = {"51117861" -> "1", "1aa1bce0" -> "1", "f7ddff9a" -> "2", "b8f19cc1" -> "2", "f2d59c99" -> "3", "7c785862" -> "3", "c34f1681" -> "4", "7a63e865" -> "4", "b1cce406" -> "5", "4c0792d6" -> "5", "e23e6a49" -> "6", "dc9300dc" -> "6", "99a3072b" -> "7", "e32a2f6a" -> "7", "9826f3d8" -> "8", "da5473e4" -> "8", "4e6529f2" -> "9", "a7f6d034" -> "9", "1860148f" -> "10", "c99fab32" -> "10", "8dbfb503" -> "11", "5b82565b" -> "11", "38b36d9a" -> "12", "b4b1010a" -> "12", "aabcdbca" -> "13", "b1638057" -> "13", "a4fe2177" -> "14", "29810818" -> "14", "fbbbb676" -> "15", "f8440c11" -> "15", "28a61f19" -> "16", "22b155d7" -> "16", "24dda72e" -> "17", "29f5f2ae" -> "17", "5366831f" -> "18", "d68d8880" -> "18", "d18c8931" -> "19", "a9284877" -> "19", "009f8322" -> "20", "a0dfcb54" -> "20", "41b90052" -> "21", "c9c95fd4" -> "21", "6f8e3f18" -> "22", "0eda52cf" -> "22", "85356c3b" -> "23", "56fed123" -> "23", "6a211bbd" -> "24", "b1b4c272" -> "24"}
+
+>> assignments_to_sourcetypes = {"51117861" -> "quote", "1aa1bce0" -> "quote", "f7ddff9a" -> "quote", "b8f19cc1" -> "quote", "f2d59c99" -> "blind", "7c785862" -> "blind", "c34f1681" -> "blind", "7a63e865" -> "blind", "b1cce406" -> "blind", "4c0792d6" -> "blind", "e23e6a49" -> "blind", "dc9300dc" -> "blind", "99a3072b" -> "blind", "e32a2f6a" -> "blind", "9826f3d8" -> "blind", "da5473e4" -> "blind", "4e6529f2" -> "blind", "a7f6d034" -> "blind", "1860148f" -> "blind", "c99fab32" -> "blind", "8dbfb503" -> "blind", "5b82565b" -> "blind", "38b36d9a" -> "blind", "b4b1010a" -> "blind", "aabcdbca" -> "quote", "b1638057" -> "quote", "a4fe2177" -> "quote", "29810818" -> "quote", "fbbbb676" -> "quote", "f8440c11" -> "quote", "28a61f19" -> "quote", "22b155d7" -> "quote", "24dda72e" -> "quote", "29f5f2ae" -> "quote", "5366831f" -> "quote", "d68d8880" -> "quote", "d18c8931" -> "blind", "a9284877" -> "blind", "009f8322" -> "blind", "a0dfcb54" -> "blind", "41b90052" -> "blind", "c9c95fd4" -> "blind", "6f8e3f18" -> "blind", "0eda52cf" -> "blind", "85356c3b" -> "blind", "56fed123" -> "blind", "6a211bbd" -> "blind", "b1b4c272" -> "blind"}
+
+>> turn1_urls = {"51117861" -> "https://moduloresearch.com/debates/prolific_qp2/1/1253638479c1a190d155ee6039f498917.html", "1aa1bce0" -> "https://moduloresearch.com/debates/prolific_qp2/1/5394cfa6f28ba255b6058566f39f113ae.html", "f7ddff9a" -> "https://moduloresearch.com/debates/prolific_qp2/2/1165fb7009c44f4ea4f63dc740eabda99.html", "b8f19cc1" -> "https://moduloresearch.com/debates/prolific_qp2/2/5d53dabb716baf98f4975d5536c870d78.html", "f2d59c99" -> "https://moduloresearch.com/debates/prolific_qp2/3/15f5528d8e3cca62c4095844ada1e81e9.html", "7c785862" -> "https://moduloresearch.com/debates/prolific_qp2/3/5aab8a8ca92ef4831e40d62e26870399a.html", "c34f1681" -> "https://moduloresearch.com/debates/prolific_qp2/4/11774f62b3ce4ed37edaf52a5b484bdb5.html", "7a63e865" -> "https://moduloresearch.com/debates/prolific_qp2/4/5f78aefac1f9238664dfd8d04b6d80719.html", "b1cce406" -> "https://moduloresearch.com/debates/prolific_qp2/5/13aab96781fa3289fa90c2413c35a61af.html", "4c0792d6" -> "https://moduloresearch.com/debates/prolific_qp2/5/57b2866aa8397c98713299c10fa45f73a.html", "e23e6a49" -> "https://moduloresearch.com/debates/prolific_qp2/6/1f625859fb5e3d4468c03f4951d667843.html", "dc9300dc" -> "https://moduloresearch.com/debates/prolific_qp2/6/5a04174e39dd6adebb4b669b1fc0fe551.html", "99a3072b" -> "https://moduloresearch.com/debates/prolific_qp2/7/1dc3c72eb1ee02d094007020aecb41fa9.html", "e32a2f6a" -> "https://moduloresearch.com/debates/prolific_qp2/7/52577ef4dd5ce3ed545b0001d6ddcdf6c.html", "9826f3d8" -> "https://moduloresearch.com/debates/prolific_qp2/8/19b7ec90329f16b2d167648f145eb632b.html", "da5473e4" -> "https://moduloresearch.com/debates/prolific_qp2/8/50691a3092fcf792e1e0c383dd0726ff3.html", "4e6529f2" -> "https://moduloresearch.com/debates/prolific_qp2/9/1306624e2638679d7c3634154b8a44fa5.html", "a7f6d034" -> "https://moduloresearch.com/debates/prolific_qp2/9/51a692425f40506b36444881cb3efcae9.html", "1860148f" -> "https://moduloresearch.com/debates/prolific_qp2/10/19dae989dabf6fb2fff420b0050d05926.html", "c99fab32" -> "https://moduloresearch.com/debates/prolific_qp2/10/598cb1ecc293c52e88c550483d80a7728.html", "8dbfb503" -> "https://moduloresearch.com/debates/prolific_qp2/11/1021d77b6238aa33947260a2cffa25542.html", "5b82565b" -> "https://moduloresearch.com/debates/prolific_qp2/11/5b1b73968beb1e2a73add32741cd2562b.html", "38b36d9a" -> "https://moduloresearch.com/debates/prolific_qp2/12/15c8b7b04b170fa835782f559466c855b.html", "b4b1010a" -> "https://moduloresearch.com/debates/prolific_qp2/12/5e7d47dc26d70abb653a488102e7f2528.html", "aabcdbca" -> "https://moduloresearch.com/debates/prolific_qp2/13/19bb220b1cd45e46d0073d330a6232cd9.html", "b1638057" -> "https://moduloresearch.com/debates/prolific_qp2/13/5d9689efdebe377133ec071f388d879c7.html", "a4fe2177" -> "https://moduloresearch.com/debates/prolific_qp2/14/14f8f587c94822b9d6d35d09bb278a335.html", "29810818" -> "https://moduloresearch.com/debates/prolific_qp2/14/5add14dd9af2a232ad896609c8916f01c.html", "fbbbb676" -> "https://moduloresearch.com/debates/prolific_qp2/15/1ae3b40e2490586238c276413fd3cd027.html", "f8440c11" -> "https://moduloresearch.com/debates/prolific_qp2/15/562559a243368fa2a60e16af4991a4265.html", "28a61f19" -> "https://moduloresearch.com/debates/prolific_qp2/16/1f0419f9ee2a723750dde1ff34bbfb349.html", "22b155d7" -> "https://moduloresearch.com/debates/prolific_qp2/16/50bc8d74a44a35cc8d019c31d37ae7ce5.html", "24dda72e" -> "https://moduloresearch.com/debates/prolific_qp2/17/170f5420ea51829f53e0e610f31b5c358.html", "29f5f2ae" -> "https://moduloresearch.com/debates/prolific_qp2/17/5cbeb219ac0e7c3b77b00db109a176ba6.html", "5366831f" -> "https://moduloresearch.com/debates/prolific_qp2/18/1b532ddcc9c2910231bb5a3858f662310.html", "d68d8880" -> "https://moduloresearch.com/debates/prolific_qp2/18/50d8c0dd285fe396d97cfa9771438fcc0.html", "d18c8931" -> "https://moduloresearch.com/debates/prolific_qp2/19/135006d6776af8be2cb50ef98b66609f2.html", "a9284877" -> "https://moduloresearch.com/debates/prolific_qp2/19/5c3e785d69bc901c6c7090f51b3b191db.html", "009f8322" -> "https://moduloresearch.com/debates/prolific_qp2/20/1e85653ef40d1e8c25cb717f826d9085a.html", "a0dfcb54" -> "https://moduloresearch.com/debates/prolific_qp2/20/5bc9d2456de7e35c92af70bcc5c1db52e.html", "41b90052" -> "https://moduloresearch.com/debates/prolific_qp2/21/1a67a013b9612a8aa6bad798b1c6980a6.html", "c9c95fd4" -> "https://moduloresearch.com/debates/prolific_qp2/21/56ecddce12e0660183dec0d1e8ad75ce9.html", "6f8e3f18" -> "https://moduloresearch.com/debates/prolific_qp2/22/1c02e968265e253dc86fbb3dc069d828f.html", "0eda52cf" -> "https://moduloresearch.com/debates/prolific_qp2/22/5675393e9cc7826a0b62157d02399fa3f.html", "85356c3b" -> "https://moduloresearch.com/debates/prolific_qp2/23/1dee9eb8b053a253477a7f0f0990477b6.html", "56fed123" -> "https://moduloresearch.com/debates/prolific_qp2/23/53d9c0494d3958530349096946bd05f1d.html", "6a211bbd" -> "https://moduloresearch.com/debates/prolific_qp2/24/1f27381acb9f99224c9d6c967541b9b17.html", "b1b4c272" -> "https://moduloresearch.com/debates/prolific_qp2/24/52d97f1bc2230e5f503f28ee290deac37.html"}
+>> turn2_urls = {"51117861" -> "https://moduloresearch.com/debates/prolific_qp2/1/280dc11a02143c6682a3a4328445fbe64.html", "1aa1bce0" -> "https://moduloresearch.com/debates/prolific_qp2/1/6c5bb1dd0dcd98f24a2b89ce5534215a7.html", "f7ddff9a" -> "https://moduloresearch.com/debates/prolific_qp2/2/255c3308b01ef80d4a92a2f197e6b2d4f.html", "b8f19cc1" -> "https://moduloresearch.com/debates/prolific_qp2/2/6a9eed829dd95e71ad2ddc14ce41924f3.html", "f2d59c99" -> "https://moduloresearch.com/debates/prolific_qp2/3/25d21c7bd8770db7f2b47ec0e32d2f8f9.html", "7c785862" -> "https://moduloresearch.com/debates/prolific_qp2/3/6a7174a294b3765949548988fc193e286.html", "c34f1681" -> "https://moduloresearch.com/debates/prolific_qp2/4/253df870900c4deafffc621f03ad2255b.html", "7a63e865" -> "https://moduloresearch.com/debates/prolific_qp2/4/6d51e2a51c23bdcda40dbf919e6264c3d.html", "b1cce406" -> "https://moduloresearch.com/debates/prolific_qp2/5/2445c711c7cbb145a4fd74cc0812c2cfb.html", "4c0792d6" -> "https://moduloresearch.com/debates/prolific_qp2/5/60484175fe7db439c3a3d1d70e5a7bbc5.html", "e23e6a49" -> "https://moduloresearch.com/debates/prolific_qp2/6/2d9f9d0418591ef52daf6d8059eeb36a3.html", "dc9300dc" -> "https://moduloresearch.com/debates/prolific_qp2/6/6c7e8e5a31c1545a774a339f9a49e2ce1.html", "99a3072b" -> "https://moduloresearch.com/debates/prolific_qp2/7/21ee2e48cece8339c0ef37c1624335dca.html", "e32a2f6a" -> "https://moduloresearch.com/debates/prolific_qp2/7/60e35572116d292fa005b48692a57fc47.html", "9826f3d8" -> "https://moduloresearch.com/debates/prolific_qp2/8/2995d0edd22aca750e6a0a36f54b1404a.html", "da5473e4" -> "https://moduloresearch.com/debates/prolific_qp2/8/63d0c602d21ee905019d1896eb6ae0fd4.html", "4e6529f2" -> "https://moduloresearch.com/debates/prolific_qp2/9/216c09e93ff46d1359f2baac426e5b048.html", "a7f6d034" -> "https://moduloresearch.com/debates/prolific_qp2/9/6949a500761fa6435ae9f871acc09f0de.html", "1860148f" -> "https://moduloresearch.com/debates/prolific_qp2/10/2e4ad77f9fb0ab1d5572537f089b9cf1e.html", "c99fab32" -> "https://moduloresearch.com/debates/prolific_qp2/10/6ce1b9cb96700744574403c441258644b.html", "8dbfb503" -> "https://moduloresearch.com/debates/prolific_qp2/11/24545754c7c766afa842288c443f5f5e2.html", "5b82565b" -> "https://moduloresearch.com/debates/prolific_qp2/11/614d9f3f83c2f4af3b04864aa69483890.html", "38b36d9a" -> "https://moduloresearch.com/debates/prolific_qp2/12/2a3cd53b0f5d937a9b58114a0bf30ab0a.html", "b4b1010a" -> "https://moduloresearch.com/debates/prolific_qp2/12/6e0ef766ea265776524b9b5e1e7a72483.html", "aabcdbca" -> "https://moduloresearch.com/debates/prolific_qp2/13/2b2a116a74f2e92ea170f17ae52828271.html", "b1638057" -> "https://moduloresearch.com/debates/prolific_qp2/13/6250ded22053d544079c7928390a66dc3.html", "a4fe2177" -> "https://moduloresearch.com/debates/prolific_qp2/14/27e1cc44bfe7719a17ad494d06c5fb6ea.html", "29810818" -> "https://moduloresearch.com/debates/prolific_qp2/14/6d46598ec6e100a76052a128f899b21dc.html", "fbbbb676" -> "https://moduloresearch.com/debates/prolific_qp2/15/2b9ab71f2c976cd63dd95e055fbbd921f.html", "f8440c11" -> "https://moduloresearch.com/debates/prolific_qp2/15/6387a74bc14e161a6e775e92db234096f.html", "28a61f19" -> "https://moduloresearch.com/debates/prolific_qp2/16/2e848cf167e2126d4cead7105309e3042.html", "22b155d7" -> "https://moduloresearch.com/debates/prolific_qp2/16/6defba2e2b784971f7211d7ec52e069c7.html", "24dda72e" -> "https://moduloresearch.com/debates/prolific_qp2/17/205fd53886dcb28e28bc45ec5271cfc97.html", "29f5f2ae" -> "https://moduloresearch.com/debates/prolific_qp2/17/68212fcbb01819a4415eac13f4107524e.html", "5366831f" -> "https://moduloresearch.com/debates/prolific_qp2/18/2e6ebe739da480ef2dd1b55c9faa3e9a6.html", "d68d8880" -> "https://moduloresearch.com/debates/prolific_qp2/18/63db9fb6a80ecbb6fdf6d0834e31f96be.html", "d18c8931" -> "https://moduloresearch.com/debates/prolific_qp2/19/2d5249e24ceb2541cf11c565f61c05da3.html", "a9284877" -> "https://moduloresearch.com/debates/prolific_qp2/19/6138e5e1e06b20a207878f01e1c726d5a.html", "009f8322" -> "https://moduloresearch.com/debates/prolific_qp2/20/24843b94405819e144c818a1993411ce0.html", "a0dfcb54" -> "https://moduloresearch.com/debates/prolific_qp2/20/6a2b1e687d7a8d27ec3a0e2c849918c4f.html", "41b90052" -> "https://moduloresearch.com/debates/prolific_qp2/21/2c3add339358343523dba0737fe326d1c.html", "c9c95fd4" -> "https://moduloresearch.com/debates/prolific_qp2/21/66a01cfb2a39cef32e67b48c5ca6b6680.html", "6f8e3f18" -> "https://moduloresearch.com/debates/prolific_qp2/22/246f9b49fee4ad44f2ef0dbd179e61b63.html", "0eda52cf" -> "https://moduloresearch.com/debates/prolific_qp2/22/6eb85ac68f7c50a172127ee79c447b60f.html", "85356c3b" -> "https://moduloresearch.com/debates/prolific_qp2/23/247fc4a56132f9db7432c9d3f27ffb7b6.html", "56fed123" -> "https://moduloresearch.com/debates/prolific_qp2/23/657b589a95873fa96ccde93f7817d4af4.html", "6a211bbd" -> "https://moduloresearch.com/debates/prolific_qp2/24/2a55ac842fd2fce548a14a7eeab0f1ba4.html", "b1b4c272" -> "https://moduloresearch.com/debates/prolific_qp2/24/63d44b03e48c65d0f70adecddd46ce2e7.html"}
+>> turn3_urls = {"51117861" -> "https://moduloresearch.com/debates/prolific_qp2/1/313a33d5f7cdae6d3d5b8935aeb88dcee.html", "1aa1bce0" -> "https://moduloresearch.com/debates/prolific_qp2/1/7697bd25cecce8d30d57aaa6070e8f143.html", "f7ddff9a" -> "https://moduloresearch.com/debates/prolific_qp2/2/3a39521e364985044c6fad4f857b072bc.html", "b8f19cc1" -> "https://moduloresearch.com/debates/prolific_qp2/2/71a546b8b7ec611bb9da78608c1dd7d60.html", "f2d59c99" -> "https://moduloresearch.com/debates/prolific_qp2/3/3671008f13f600fc96fe1abcf5a0fa8bd.html", "7c785862" -> "https://moduloresearch.com/debates/prolific_qp2/3/7eefe0307e3745e577651eea49df07388.html", "c34f1681" -> "https://moduloresearch.com/debates/prolific_qp2/4/357f9a6d88f367cef881d0cf751de3872.html", "7a63e865" -> "https://moduloresearch.com/debates/prolific_qp2/4/7029f8fa5be922aa73a8d96be164cf63a.html", "b1cce406" -> "https://moduloresearch.com/debates/prolific_qp2/5/31c323f2557bf4a63c2c31dbea2391889.html", "4c0792d6" -> "https://moduloresearch.com/debates/prolific_qp2/5/735f878be88cafc0a029e8ac6b52c8258.html", "e23e6a49" -> "https://moduloresearch.com/debates/prolific_qp2/6/368f65e4eb821d029b6ab3d56efed31e0.html", "dc9300dc" -> "https://moduloresearch.com/debates/prolific_qp2/6/78c4ca36b2fa33a76c8e849df56100164.html", "99a3072b" -> "https://moduloresearch.com/debates/prolific_qp2/7/317660ed00946b8032497e2a7b20a2be8.html", "e32a2f6a" -> "https://moduloresearch.com/debates/prolific_qp2/7/7213ec1d1afe082507ec60988e39e45a4.html", "9826f3d8" -> "https://moduloresearch.com/debates/prolific_qp2/8/321eb7f9df8c019e650faa4a320230d8a.html", "da5473e4" -> "https://moduloresearch.com/debates/prolific_qp2/8/79f9389caa88192c76cb24ca9bcb5b4ec.html", "4e6529f2" -> "https://moduloresearch.com/debates/prolific_qp2/9/3ebf62862e693f9e2d31d6f7b40eef730.html", "a7f6d034" -> "https://moduloresearch.com/debates/prolific_qp2/9/7f7c8c5fe043f8ba1d5d6c2125bf050d5.html", "1860148f" -> "https://moduloresearch.com/debates/prolific_qp2/10/31fa8f13d69909c404260bbe75ff833d4.html", "c99fab32" -> "https://moduloresearch.com/debates/prolific_qp2/10/76a5735a21a4761cbef77e100e8719668.html", "8dbfb503" -> "https://moduloresearch.com/debates/prolific_qp2/11/354e9ea288e4aee30e4f87dbd157f4461.html", "5b82565b" -> "https://moduloresearch.com/debates/prolific_qp2/11/7d2ebf20b7886a3f9629ac0b3be09bf6c.html", "38b36d9a" -> "https://moduloresearch.com/debates/prolific_qp2/12/333a17842e870e66830c63043e2010f29.html", "b4b1010a" -> "https://moduloresearch.com/debates/prolific_qp2/12/7092b603e1fe9de95540d02f9931dc176.html", "aabcdbca" -> "https://moduloresearch.com/debates/prolific_qp2/13/31525d28ecb363dfcb651f701a27d757b.html", "b1638057" -> "https://moduloresearch.com/debates/prolific_qp2/13/7e6519d9eccbfdfc89160d0b81a9b47da.html", "a4fe2177" -> "https://moduloresearch.com/debates/prolific_qp2/14/349c77c7671a222467c872ac6cc8ec14a.html", "29810818" -> "https://moduloresearch.com/debates/prolific_qp2/14/71b34b5386d3f2addede00f184f839e90.html", "fbbbb676" -> "https://moduloresearch.com/debates/prolific_qp2/15/34087b30afd97702c52818b040696c1be.html", "f8440c11" -> "https://moduloresearch.com/debates/prolific_qp2/15/7042f766a39e9b33488a6c0610ede45a2.html", "28a61f19" -> "https://moduloresearch.com/debates/prolific_qp2/16/346631ced9a94532e3f2f53f4b6e356f6.html", "22b155d7" -> "https://moduloresearch.com/debates/prolific_qp2/16/799f235334bb94d00a17243d118ad205e.html", "24dda72e" -> "https://moduloresearch.com/debates/prolific_qp2/17/3ec8015c094fdabce5c1c15363c1bbff2.html", "29f5f2ae" -> "https://moduloresearch.com/debates/prolific_qp2/17/73c708461e505108ab4d9b26c1acc95dd.html", "5366831f" -> "https://moduloresearch.com/debates/prolific_qp2/18/377518f2aeb2d31b6fa843fe97c12b955.html", "d68d8880" -> "https://moduloresearch.com/debates/prolific_qp2/18/7ccc3be9a87f9e0fb67db4e2e1f1795f7.html", "d18c8931" -> "https://moduloresearch.com/debates/prolific_qp2/19/3eb73ca825b2a1975bc976b90fc68cb86.html", "a9284877" -> "https://moduloresearch.com/debates/prolific_qp2/19/71f14d1591aef1e9f4b4af3d457ce0e71.html", "009f8322" -> "https://moduloresearch.com/debates/prolific_qp2/20/35ecf6341bb74ce8902dc3a4fa28df192.html", "a0dfcb54" -> "https://moduloresearch.com/debates/prolific_qp2/20/7e475a80453812a6f4d6f13c91d58f31e.html", "41b90052" -> "https://moduloresearch.com/debates/prolific_qp2/21/3ad70c10e28546e544de6d8b5c388fef2.html", "c9c95fd4" -> "https://moduloresearch.com/debates/prolific_qp2/21/72f545e859c2da0792fd7fabb357a6315.html", "6f8e3f18" -> "https://moduloresearch.com/debates/prolific_qp2/22/31c5f4140b75afac98208c03e3fbc4e29.html", "0eda52cf" -> "https://moduloresearch.com/debates/prolific_qp2/22/77aff34048e119c0922869951f333d822.html", "85356c3b" -> "https://moduloresearch.com/debates/prolific_qp2/23/374530013684c93ccc54609dd8e99c60f.html", "56fed123" -> "https://moduloresearch.com/debates/prolific_qp2/23/7d0274ca40e5d65686a9a62e311c6caf2.html", "6a211bbd" -> "https://moduloresearch.com/debates/prolific_qp2/24/39d03ba68e2bc86eb653a9f0682f89f50.html", "b1b4c272" -> "https://moduloresearch.com/debates/prolific_qp2/24/7a6e63de9bce0228bfbcacd76b53a94bc.html"}
+>> turn4_urls = {"51117861" -> "https://moduloresearch.com/debates/prolific_qp2/1/4cf56605c3f949a00d761874b045e92ce.html", "1aa1bce0" -> "https://moduloresearch.com/debates/prolific_qp2/1/85363fa7b6df437aba84e69c8e4671d47.html", "f7ddff9a" -> "https://moduloresearch.com/debates/prolific_qp2/2/48056d872044d0b54ca3c8c94d7d164cd.html", "b8f19cc1" -> "https://moduloresearch.com/debates/prolific_qp2/2/846d67727cc033a93a4e1b78d656432c5.html", "f2d59c99" -> "https://moduloresearch.com/debates/prolific_qp2/3/4f866251c98df2549d92149c661dad742.html", "7c785862" -> "https://moduloresearch.com/debates/prolific_qp2/3/8421ed8518692beacb15ccc7dd4541242.html", "c34f1681" -> "https://moduloresearch.com/debates/prolific_qp2/4/4cf5bd191807ea64ac7f7ae3d2fb20671.html", "7a63e865" -> "https://moduloresearch.com/debates/prolific_qp2/4/836fdfdf21871e7511997bafbaf60ed22.html", "b1cce406" -> "https://moduloresearch.com/debates/prolific_qp2/5/44e500f62187482207843217d3ae00d35.html", "4c0792d6" -> "https://moduloresearch.com/debates/prolific_qp2/5/808b86eba744bf567a13054edc8060b23.html", "e23e6a49" -> "https://moduloresearch.com/debates/prolific_qp2/6/4b8f78cf7a0f9f18b2d2a3f0caa216f5f.html", "dc9300dc" -> "https://moduloresearch.com/debates/prolific_qp2/6/847de85cedf0d005077365f85d6baca95.html", "99a3072b" -> "https://moduloresearch.com/debates/prolific_qp2/7/46a942437762515df7e47dcc588c173fa.html", "e32a2f6a" -> "https://moduloresearch.com/debates/prolific_qp2/7/8bf5baa2faeab49c24894204b285f787a.html", "9826f3d8" -> "https://moduloresearch.com/debates/prolific_qp2/8/44bc5def06d21643ff61df25360355087.html", "da5473e4" -> "https://moduloresearch.com/debates/prolific_qp2/8/80de613dbe6aa429126cfac8af25fcb9c.html", "4e6529f2" -> "https://moduloresearch.com/debates/prolific_qp2/9/439dcfd011ec91212b2417a840000b7fa.html", "a7f6d034" -> "https://moduloresearch.com/debates/prolific_qp2/9/84ceca0b0af02088afe93960e7e1fae4e.html", "1860148f" -> "https://moduloresearch.com/debates/prolific_qp2/10/4f48c1f8d68109804a0ca3135e793ccf5.html", "c99fab32" -> "https://moduloresearch.com/debates/prolific_qp2/10/8408e7e4cad2a68e3dccc7328e2282e03.html", "8dbfb503" -> "https://moduloresearch.com/debates/prolific_qp2/11/47e9ecb4262844a3af021bc974f5c4c23.html", "5b82565b" -> "https://moduloresearch.com/debates/prolific_qp2/11/8b573c8cc8ecbd7c13f1c0262f5ee60cc.html", "38b36d9a" -> "https://moduloresearch.com/debates/prolific_qp2/12/483ac5ce4206a861470e0787ba9526c46.html", "b4b1010a" -> "https://moduloresearch.com/debates/prolific_qp2/12/866b23a59352dab46bea3736f58a1bc79.html", "aabcdbca" -> "https://moduloresearch.com/debates/prolific_qp2/13/4b6ce9729aa01df93dbcae7eed070cae0.html", "b1638057" -> "https://moduloresearch.com/debates/prolific_qp2/13/8dd9e3588913f155d31567c3e87c84ed7.html", "a4fe2177" -> "https://moduloresearch.com/debates/prolific_qp2/14/414ec542c884f5c965707cab2c48079cc.html", "29810818" -> "https://moduloresearch.com/debates/prolific_qp2/14/8ddcba498a0497d2738bd88a0184fcc42.html", "fbbbb676" -> "https://moduloresearch.com/debates/prolific_qp2/15/46e64039cf42d18fe75bf99d1697b262b.html", "f8440c11" -> "https://moduloresearch.com/debates/prolific_qp2/15/898d0c557869ded6379448a9d901390c6.html", "28a61f19" -> "https://moduloresearch.com/debates/prolific_qp2/16/4353af17b6a6c844a01e64da73235c4df.html", "22b155d7" -> "https://moduloresearch.com/debates/prolific_qp2/16/8c740b9ae17d3f381606ab9826f8b6f65.html", "24dda72e" -> "https://moduloresearch.com/debates/prolific_qp2/17/421bda8f3577dd120f4a0d4b492011d04.html", "29f5f2ae" -> "https://moduloresearch.com/debates/prolific_qp2/17/8ef6f129deccd37fc9069473124cc7099.html", "5366831f" -> "https://moduloresearch.com/debates/prolific_qp2/18/4201362ff69341d0559d1c9db45ccb86a.html", "d68d8880" -> "https://moduloresearch.com/debates/prolific_qp2/18/879c1b2360f30a661974ec10855bd1d6b.html", "d18c8931" -> "https://moduloresearch.com/debates/prolific_qp2/19/482be7aafdad9976ace272da4db572a91.html", "a9284877" -> "https://moduloresearch.com/debates/prolific_qp2/19/878d5ec4c0370d7022c29fa5b02cc3135.html", "009f8322" -> "https://moduloresearch.com/debates/prolific_qp2/20/46e1fcc715bc694a298147b02344d1c63.html", "a0dfcb54" -> "https://moduloresearch.com/debates/prolific_qp2/20/80eb8f71defe687ac27cef5fb9f87552c.html", "41b90052" -> "https://moduloresearch.com/debates/prolific_qp2/21/4c29862034b83861475eeefe422cfa95b.html", "c9c95fd4" -> "https://moduloresearch.com/debates/prolific_qp2/21/885a825b10c452b86cae8d94aa3d05af7.html", "6f8e3f18" -> "https://moduloresearch.com/debates/prolific_qp2/22/4a2f4ae8066c196574182666e454bdae2.html", "0eda52cf" -> "https://moduloresearch.com/debates/prolific_qp2/22/84d3eecf79c2a93ddd038b4b4a104acb4.html", "85356c3b" -> "https://moduloresearch.com/debates/prolific_qp2/23/4707944d8c8c0904e4affb0d102e4e221.html", "56fed123" -> "https://moduloresearch.com/debates/prolific_qp2/23/8b0326269dc2b69be7f50aed19ee5bf14.html", "6a211bbd" -> "https://moduloresearch.com/debates/prolific_qp2/24/4f118d7916ff1ba0a028a824f48c1c448.html", "b1b4c272" -> "https://moduloresearch.com/debates/prolific_qp2/24/809d9a86d5ee2432a44af8b9d17f47d43.html"}
+
+>> guidedTrackID = "b1jx1wx"
+
+Welcome to the Debate Analysis task! We hope that you find it interesting and maybe even enjoyable.
+
+*button: Next
+
+Please note that this study involves free-response questions requiring some typing, and MUST be completed on a tablet, laptop, or desktop.
+
+If you attempt to do this task on a mobile phone, you are unlikely to perform well at the task, and therefore we do not allow this. If you are currently on a mobile phone, please exit and instead visit the link on a tablet, laptop, or desktop now.
+
+*button: Next
+
+Please do not use large language models (LLMs) such as Claude, ChatGPT, Gemini, or Copilot to perform this task. We have specifically chosen a task at which LLMs do not perform well and we are aware of what answers to these questions produced by LLMs tend to look like.
+
+*question: I agree not to use LLMs on this task and understand that use of LLMs on this particular task is likely to lead to poor performance.
+	*save: iAgreeNoLLMs
+	Yes
+	No
+
+*if: iAgreeNoLLMs = "No"
+	Unfortunately, in order to participate in this study, you must agree not to use LLMs on the task.
+	*quit
+
+*question: What device are you completing this study on?
+	*save: device
+	Laptop
+	Desktop
+	Tablet
+	Mobile phone
+
+*if: device = "Mobile phone"
+	Unfortunately, in order to participate in this study, you must complete it on a desktop, laptop, or tablet.
+	
+	*quit
+
+*header: Debate Interpretation Project
+*header: Participant Information Sheet
+
+*What is the purpose of this project? What will happen if I agree to take part?*
+
+The purpose of this project is to learn more about how people judge debates on challenging topics. We hope that having a better understanding of this will allow AI developers to better develop 'scalable oversight' techniques that allow us to be more justifiably confident in AI systems' answers to challenging questions, and which could reduce certain risks associated with the development and deployment of AI systems.
+
+If you agree to take part, you will be asked to answer some initial questions. The questions about your level of education, as well as your level of experience with physics and computer programming, are required. You may answer "prefer not to say" to any of the other "details about yourself" questions, although we appreciate your answers where you are happy to provide them.
+
+You will then be asked to analyse a debate; you will receive more specific details when you reach this part of the study. Note that we expect that the question being debated may be challenging, and we do not necessarily expect or require you to reach the correct conclusion. We are more interested in getting a clear sense of how you reason about the problem. 
+
+We expect the study to take approximately 60 minutes to complete, and you will be paid for your time at the amount specified on the Prolific invitation you responded to.
+
+*What are the risks and benefits of taking part?*
+
+There are no direct benefits to you from taking part other than the payment you will receive. We hope that the data you provide will contribute to the responsible development of AI systems.
+
+In any online study there is a small risk of issues caused by technical glitches or human error. If you encounter any problems with your submission or payment, please reach out directly to the researcher through the Prolific messaging platform.
+
+*Do I have to take part?*
+
+No, your participation is entirely voluntary. If you do decide to take part, you can withdraw at any time and without giving a reason.
+
+*Do you collect personal data? Who will process any personal data you collect? What will happen to any personal data I provide you?*
+
+/Purpose and legal basis./ We will ask some optional "details about yourself" questions (e.g., your gender, age range, etc.) in order to better understand the proportion of participants who fall into particular categories. We will also ask about your level of education, as well as your level of experience with physics and computer programming, in order to better understand the experience (or lack of experience) that participants are bringing to the task. This information is used to carry out research under the legitimate interests pursued by Dr Gabriel Recchia. Your answers to these questions will be shared with the lead researcher Dr Gabriel Recchia. 
+
+/Anonymised data./ Anonymised versions of your responses to all questions may appear in publicly available datasets or be shared with other researchers. These will not be publicly associated with any identifier that could be used to identify you individually, and personal data will be /de-linked/. This means that any specific details you may choose to provide - e.g. your educational status, your gender, etc. - will be separated from each other so that your educational status cannot be connected to your gender, age, and so on.
+
+/Data transfer./ Any information that you may choose to share with us will be subject to algorithmic processing and may be transferred, processed, transmitted and stored outside the European Union. For example, data transfers may occur to servers owned by GuidedTrack (the company that makes the survey software you are using now), Dropbox, or Google (companies that offer digital storage).
+
+/Retention period./ The requested information will be retained for seven years unless we are required by law to retain it for a longer period.
+
+/Your rights./ You have the right to request access to your personal data held by Dr Gabriel Recchia, to have it corrected or deleted, to restrict processing, to object to processing, and to obtain and reuse any personal data that Dr Gabriel Recchia holds on you for your own purposes. However, this does not override our obligation to comply with legal requirements, such as fulfilling obligations to avoid violating applicable laws. You may withdraw your consent at any time; if you do, we will delete your personal data from our systems unless required by law to retain it. However, this does not affect the lawfulness of processing carried out based on your consent before its withdrawal. Additionally, if your data has already been shared publicly or incorporated into publicly available datasets by the time you withdraw consent, we may no longer have the ability to retrieve or delete it from those external sources. To exercise your rights, or if you have any questions, please send your request to the researcher using Prolific's messaging system. You have the right to lodge a complaint with a supervisory authority if you believe that your data protection rights have been infringed.
+
+*Contact for further information* 
+
+If you have any questions, you may contact the research lead, Dr Gabriel Recchia, directly using Prolific's messaging system.
+
+*button: OK
+
+*label: consentPage
+*page
+
+	Please read the following statements carefully. If you agree with them, tick the box next to each statement and then click proceed.
+		
+	*question: I have read and understand the Participant Information Sheet (the information on the previous page)
+		*save: consentInfoSheet
+		Yes
+		No
+		
+	*question: I understand that my participation is voluntary and that I am free to withdraw at any time without giving a reason
+		*save: consentVoluntary
+		Yes
+		No
+	
+	*question: I understand that the data I provide may be stored and used for future research
+		*save: consentDataStorage
+		Yes
+		No
+		
+	*question: I am aged 18 or older
+		*save: consentAge
+		Yes
+		No
+	
+	*question: I give consent for the data I provide to be processed, transmitted or stored outside the European Union
+		*save: consentDataProcessing
+		Yes
+		No
+	
+	*question: I agree to take part in this study
+		*save: consentToParticipate
+		Yes
+		No
+		
+	If the *Next* button below is not responding, please make sure that you have answered all of the questions above.
+
+>> consentedToAll = "No"
+
+*if: consentInfoSheet = "Yes" and consentVoluntary = "Yes" and consentDataStorage = "Yes" and consentAge = "Yes" and consentDataProcessing = "Yes" and consentToParticipate = "Yes"
+	>> consentedToAll = "Yes"
+	
+*if: consentedToAll = "No"
+	Since you have not answered Yes to all questions, you will not be able to participate in this study.
+	
+	*question: Is this correct?
+		*save: confirmNoConsent
+		This is correct.
+		I made a mistake, take me back to the previous screen!
+	
+	*if: confirmNoConsent = "I made a mistake, take me back to the previous screen!"
+		*goto: consentPage
+			*reset
+	
+	*quit
+
+*label: bookmark
+*Details about yourself*
+
+>> degreeMajor = "NA"
+>> physicsMinor = "No"
+>> currentMajor = "NA"
+
+*question: What is the highest level of education that you have COMPLETED?
+	*save: educationCompleted
+	Secondary education (e.g. GED/GCSE)
+	High school/A-levels
+	Technical, vocational, or community college
+	Undergraduate degree (BA, BSc, or equivalent)
+	Graduate degree (MA, MSc, MPhil, or equivalent)
+	Doctorate degree (PhD, DPhil, or equivalent)
+
+*question: Are you currently in school?
+	*save: inSchool
+	Yes
+		*question: What kind of education are you pursuing?
+			*save: educationPursuing
+			Secondary education (e.g. GED/GCSE)
+			High school/A-levels
+			Technical, vocational, or community college
+			Undergraduate degree (BA, BSc, or equivalent)
+			Graduate degree (MA, MSc, MPhil, or equivalent)
+			Doctorate degree (PhD, DPhil, or equivalent)
+	No
+
+*if: educationCompleted = "Undergraduate degree (BA, BSc, or equivalent)" or educationCompleted = "Graduate degree (MA, MSc, MPhil, or equivalent)" or educationCompleted = "Doctorate degree (PhD, DPhil, or equivalent)"
+	*question: What was the primary subject (major) of your highest COMPLETED degree?
+		*save: degreeMajor
+		Physics
+		Computer Science / Software Engineering
+		*other
+	
+	*question: Did you complete a minor in Physics?
+		*save: physicsMinor
+		Yes
+		No
+
+*if: inSchool = "Yes"
+	*question: What is the primary subject (major) of the degree you are currently working on?
+		*save: currentMajor
+		Physics
+		Computer Science / Software Engineering
+		*other
+
+*question: Have you ever taught physics?
+	*save: physics_teaching
+	Yes, at the high-school level or above
+	Yes, but only below the high-school level
+	No
+
+*question: Do you consider yourself to be particularly knowledgeable about physics?
+	*save: physics_knowledge_self
+	Yes
+	No
+	
+*question: Have you ever taught computer programming?
+	*save: computer_programming
+	Yes, at the high-school level or above
+	Yes, but only below the high-school level
+	No
+	
+*question: Do you know how to program a computer?
+	*save: knows_programming
+	Yes
+	No
+
+*question: Have you ever spent 12 months or more employed as a software engineer or developer?
+	*save: cs_work
+	Yes
+	No
+
+
+-- LOGIC: Determine if Physics Elaboration is needed
+>> show_physics_elaborate = "no"
+
+-- Check Majors (Only if the variable exists)
+*if: degreeMajor = "Physics"
+	>> show_physics_elaborate = "yes"
+*if: currentMajor = "Physics"
+	>> show_physics_elaborate = "yes"
+*if: physicsMinor = "Yes"
+	>> show_physics_elaborate = "yes"
+
+-- Check Experience/Knowledge
+*if: not physics_teaching = "No"
+	>> show_physics_elaborate = "yes"
+*if: physics_knowledge_self = "Yes"
+	>> show_physics_elaborate = "yes"
+
+-- Ask the question if the flag is yes
+*if: show_physics_elaborate = "yes"
+	*question: You indicated having some experience in physics. Can you elaborate on this briefly (in 5 to 50 words)? For example: your specific area of expertise/interest, anything else that would help us understand your level of experience with concepts in physics, etc.
+		*type: paragraph
+		*save: physics_elaboration
+
+-- LOGIC: Determine if CS Elaboration is needed
+>> show_cs_elaborate = "no"
+
+-- Check Majors
+*if: degreeMajor = "Computer Science / Software Engineering"
+	>> show_cs_elaborate = "yes"
+*if: currentMajor = "Computer Science / Software Engineering"
+	>> show_cs_elaborate = "yes"
+
+-- Check Experience/Knowledge
+*if: not computer_programming = "No"
+	>> show_cs_elaborate = "yes"
+*if: cs_work = "Yes"
+	>> show_cs_elaborate = "yes"
+*if: knows_programming = "Yes"
+	>> show_cs_elaborate = "yes"
+
+-- Ask the question if the flag is yes
+*if: show_cs_elaborate = "yes"
+	*question: You indicated having some experience in computer programming. Can you elaborate on this briefly (in 5 to 50 words)? For example: the nature of your experience (industry/academic/hobbyist/...), primary programming language(s), etc.
+		*type: paragraph
+		*save: cs_elaboration
+
+*More details about yourself*
+
+If you prefer not to answer any of the following questions, you can select 'Prefer not to say'.
+
+*button: OK
+
+*question: What is your gender?
+	*save: gender
+	Female
+	Male
+	Nonbinary
+	Prefer to self-describe
+		*question: What is your gender? (self description)
+	Prefer not to say
+	
+*question: What is your age?
+	*save: age
+	Below 20
+	20-29
+	30-39
+	40-49
+	50-59
+	60-69
+	70+
+	Prefer not to say
+
+*question: What is your country of residence? Answer NA if you prefer not to say.
+	*save: country
+
+*question: How would you describe your level of English proficiency?
+	*save: englishLevel
+	Basic (I can understand and use simple phrases and expressions)
+	Intermediate (I can communicate effectively in most everyday situations, but I may struggle with more complex language)
+	Advanced (I communicate fluently and accurately in most situations, including professional settings, and have a strong understanding of grammar, vocabulary, and cultural nuances)
+	Native or native-level (I am a native speaker, or I have attained a level of proficiency that is equivalent to that of a native speaker)
+	Prefer not to say
+	
+*label: debate_instructions_intro
+
+*header: Introduction
+
+In this task, you’ll judge a debate between *Debater A* and *Debater B* about a challenging question.
+
+*Participants who demonstrate strong reasoning skills may be invited back to complete additional studies of this kind.*
+
+*button: Next
+
+*header: How the task works (instructions page 1/20)
+
+In this task, you’ll judge a debate between *Debater A* and *Debater B* about a challenging question.
+
+The debate happens over *4 turns*. For each turn, you will:
+1) Click a link that opens that turn in a new tab  
+2) Read the Key Question, the debaters’ positions, and any additional info provided
+3) Give a probability judgment and answer a free-response question
+4) Copy the *encoded version* of your answers and paste it back into this study (we'll explain what this means in a moment)
+
+You do *not* need to be an expert in the specific topic of the question. We mainly care about how you reason with what you’re given.
+
+*button: Next
+
+*header: The debaters (instructions page 2/20)
+
+Both debaters are experts on the topic. One is arguing honestly; the other is not. Part of your job is to figure out who is who.
+
+We’d like you to pay most attention to the strength of the debaters’ arguments, as this will be more informative than “surface” features of their language such as expressions of confidence or uncertainty.
+
+These debates are designed to be difficult, and you are not necessarily expected to be able to reach the correct answer, but we would like you to do your best with the information available.
+
+*button: Next
+
+*header: Checking your comprehension
+
+*question: In this task, which of the following are good reasons to favor one debater over another? (Your submission will not be rejected if you get this or other 'Checking your comprehension' questions wrong - they are just to help make sure that you understand what to do.)
+	*save: comp1
+	A. One of the debaters sounds more confident
+	B. One of the debaters sounds less defensive
+	C. One of the debaters sounds more like an expert
+	D. One of the debaters has stronger arguments
+	E. All of the above  
+			
+*if: comp1 = "D. One of the debaters has stronger arguments"
+	Right! Since both of the debaters are experts in the topic, trying to determine who sounds more confident, less defensive, more like an expert, etc. is unlikely to yield useful information.
+
+*if: not comp1 = "D. One of the debaters has stronger arguments"
+	We were actually looking for answer D. Since both of the debaters are experts in the topic, trying to determine who sounds more confident, less defensive, more like an expert, etc. is unlikely to yield useful information.
+	
+*button: Next
+	
+*header: The rules of the debate (instructions page 3/20)
+
+In the debate you’ll be judging, the debaters abide by certain rules. Let’s walk through these now with an example.
+
+*button: Next
+
+*header: The rules of the debate (instructions page 4/20)
+
+Each debate opens with a Key Question. For example:
+
+*image: https://moduloresearch.com/debates/prolific_detailed_instructions_qp2/01_key_question.png
+
+Questions of this kind can sometimes be read in more than one way. The example above, for example, could be interpreted as asking about the physical magnitude of the force, or about the skater's subjective perception of it.
+
+In cases of ambiguity, your task is to identify the answer that matches the interpretation intended by the expert who wrote the question — that is, the answer you would expect to find in a textbook treatment of the topic.
+
+*button: Next
+
+*header: The rules of the debate (instructions page 5/20)
+
+Each debater then gives their opening statement.
+
+*image: https://moduloresearch.com/debates/prolific_detailed_instructions_qp2/02_opening_statement.png
+
+*button: Next
+
+*header: The rules of the debate (instructions page 6/20)
+
+Next, each debater gets to respond. They can each respond with two claims of their own, like so:
+
+*image: https://moduloresearch.com/debates/prolific_detailed_instructions_qp2/03_two_claims.png
+
+*button: Next
+
+*header: The rules of the debate (instructions page 7/20)
+
+Each debater can choose a maximum of *ONE* statement to fully respond to. This response is their *main objection*. This is indicated visually in two ways:
+
+- The statement that was objected to will include a note under it saying that the opponent objects.
+- An arrow will come out of it, pointing to the opponent's response.
+
+As before, each response consists of exactly two new statements.
+
+*image: https://moduloresearch.com/debates/prolific_detailed_instructions_qp2/04_two_new_claims.png
+
+*button: Next
+
+*header: Checking your comprehension
+
+*question: Debater A says "All cats are furry." Debater B replies with the following two counterclaims: (1) "I have a cat that isn't furry." (2) "His name is Bill." How many of these counterclaims is Debater A allowed to *fully respond to*?
+	*save: comp2
+	A. One of them
+	B. Both of them
+	C. Neither of them
+
+*if: comp2 = "A. One of them"
+	Right! Each debater can choose a maximum of *ONE* of any two statements in a pair to respond directly to.
+
+*if: not comp2 = "A. One of them"
+	We were actually looking for answer A. Each debater can choose a maximum of *ONE* of any two statements in a pair to respond directly to.
+
+*button: Next
+
+*header: The rules of the debate (instructions page 8/20)
+
+Even though debaters can only lodge one main objection to their opponent's two statements, they can also indicate whether or not they fully agree with their opponent's other statement.
+
+If they do, this will appear as a note that they "*fully agree*".
+If not, this will appear as as a note that they *object* to this statement as well.
+
+*image: https://moduloresearch.com/debates/prolific_detailed_instructions_qp2/05_secondary_objection.png
+
+Objecting to both statements is like saying, "For the record, I do not fully agree with either statement, even though the rules of the debate only allow you to see my full response to one of them."
+
+*button: Next
+
+*header: The rules of the debate (instructions page 9/20)
+
+In some cases, a debater might agree with both of her opponent's claims, but disagree that these claims refute her own claim.
+
+Alternatively, a debater might disagree with one or both of his opponent's claims, but want to argue that even if these claims were true, they would not refute his own argument.
+
+In such cases, a debater can save their main objection for the idea that the presented claims refute their argument, and any agreements will be described as "agrees but thinks this omits key info".
+
+*image: https://moduloresearch.com/debates/prolific_detailed_instructions_qp2/06_omits_key_info.png
+
+*button: Next
+
+*header: The rules of the debate (instructions page 10/20)
+
+*Why would the debaters ever agree on anything, given that they are opponents?*
+
+There are various reasons this can happen:
+
+- If Dishonest makes a claim that is *completely true*, Honest will express agreement with it. This is because Honest is honest, and will therefore agree with true facts.
+- The debaters have access to a hidden set of *references* that they can reveal to judges under certain circumstances. If Dishonest knows that Honest has access to a reference that would prove one of Honest's claims is true, then it's in Dishonest's interest to agree with that claim, so that Dishonest isn't caught out in a lie.
+
+You can safely treat *any claim which both debaters agree* on as an established *true fact*.
+
+*button: Next
+
+*header: References (instructions page 11/20)
+
+Debaters may sometimes cite *references* in the form of *sources* or *definitions*.
+
+You can hover over underlined words to view their definitions. We recommend doing this, as these sometimes contain very useful information.
+
+*image: https://moduloresearch.com/debates/prolific_detailed_instructions_qp2/09_def_example.png
+
+*button: Next
+
+-- References instructions, "blind" version -----------------------------
+
+*if: assignments_to_sourcetypes[assignment] = "blind"
+	*header: References (instructions page 12/20)
+	
+	Depending on which debate you receive, debaters may or may not cite anonymised *sources*.
+	
+	You can trust that any sources cited correspond to *real scientific publications*, and that any *claim attributed to a source really did come from that particular source*.
+	
+	*button: Next
+	
+	*header: Checking your comprehension
+	
+	*image: https://moduloresearch.com/debates/prolific_detailed_instructions_qp2/07_source_example.png
+	
+	*question: Given the sources above, what can we conclude if Debater A were to make the following statement? Debater A: "Fire salamanders move only 0.1-0.3 kilometers per hour (F. H. et al.), so a team of fire salamanders wouldn't outperform AFC Wimbledon in the FA Cup."
+		*save: comp3
+		A. We can trust that F. H. et al. is a real scientific publication, and that it states that fire salamanders move only 0.1-0.3 kilometers per hour
+		B. We can trust that F. H. et al. is a real scientific publication, and that it states that fire salamanders would lose to AFC Wimbledon in the FA Cup
+		C. We can trust that F. H. et al. is a real scientific publication, but we don't know whether it actually states that fire salamanders move only 0.1-0.3 kilometers per hour.
+		D. A and B.
+		E. We can't trust that F. H. et al. is a real scientific publication since we know so little about it.
+	
+	*if: comp3 = "A. We can trust that F. H. et al. is a real scientific publication, and that it states that fire salamanders move only 0.1-0.3 kilometers per hour"
+		Right! We can trust that any source appearing in the sources list is reliable. We can take it on faith that the claim attributed to the source ("Fire salamanders move only 0.1-0.3 kilometers per hour") did indeed come from that source. However, the fact that "(F. H. et al.)" does not come after "a team of fire salamanders wouldn't outperform AFC Wimbledon in the FA Cup" indicates that this conclusion isn't explicitly stated in the source, and it should be evaluated on its own merits.
+	
+	*if: not comp3 = "A. We can trust that F. H. et al. is a real scientific publication, and that it states that fire salamanders move only 0.1-0.3 kilometers per hour"
+		We were actually looking for answer A. We can trust that any source appearing in the sources list is reliable. We can take it on faith that the claim attributed to the source ("Fire salamanders move only 0.1-0.3 kilometers per hour") did indeed come from that source. However, the fact that "(F. H. et al.)" does not come after "a team of fire salamanders wouldn't outperform AFC Wimbledon in the FA Cup" indicates that this conclusion isn't explicitly stated in the source, and it should be evaluated on its own merits.
+	
+	*button: Next
+
+-- References instructions, "quotes" version -----------------------------
+
+*if: assignments_to_sourcetypes[assignment] = "quote"
+	*header: References (instructions page 12/20)
+	
+	The debaters in the debates you analyse may cite sources that include *quotes*.
+	
+	You can trust that any quotes in the Sources section come from *reliable sources*. Please read any quotes the debaters cite carefully and in full.
+	
+	*button: Next
+	
+	*header: Checking your comprehension
+	
+	*image: https://moduloresearch.com/debates/prolific_detailed_instructions_qp2/08_source_example_2.png
+	
+	*question: Given the sources above, what can we conclude if Debater A were to make this statement? Debater A: "Skin toxins in fire salamanders are the only thing that protect them from bacterial and fungal infections (Wikipedia, Fire salamander)."
+		*save: comp4
+		A. We can trust that the Wikipedia article is accurate and reliable, and that it states that skin toxins in fire salamanders are the only thing that protect them from bacterial and fungal infections.
+		B. We can trust that the Wikipedia quote is accurate and reliable, but we should read it carefully to see whether it supports Debater A's claim that skin toxins in fire salamanders are the only thing that protect them from bacterial and fungal infections.
+		C. We shouldn't trust that the quote is accurate and reliable, because it comes from Wikipedia.
+	
+	*if: comp4 = "B. We can trust that the Wikipedia quote is accurate and reliable, but we should read it carefully to see whether it supports Debater A's claim that skin toxins in fire salamanders are the only thing that protect them from bacterial and fungal infections."
+		Right! For the purposes of judging these debates, we can trust that any source appearing in the sources list is reliable. However, the conclusion that Debater A is using the quote to support ("Skin toxins in fire salamanders are the only thing that protect them from bacterial and fungal infections") does not actually seem to be very well supported by the quote, so we may wish to view Debater A's claim skeptically.
+	
+	*if: not comp4 = "B. We can trust that the Wikipedia quote is accurate and reliable, but we should read it carefully to see whether it supports Debater A's claim that skin toxins in fire salamanders are the only thing that protect them from bacterial and fungal infections."
+		We were actually looking for answer B. For the purposes of judging these debates, we can trust that any source appearing in the sources list is reliable. However, the conclusion that Debater A is using the quote to support ("Skin toxins in fire salamanders are the only thing that protect them from bacterial and fungal infections") does not actually seem to be very well supported by the quote, so we may wish to view Debater A's claim skeptically.
+	
+	*button: Next
+
+-- ----------------------------------------------------------------------
+
+*header: Aspects of the debates that are not informative (instructions page 13/20)
+
+Here are some things that are *not* likely to help you evaluate the debate accurately:
+
+- Whether a debater is "Debater A" or "Debater B": Debates have been randomized so that each debater has an equal probability of being the dishonest debater.
+- Whether or not a debater uses technical language, "sounds like an expert", speaks confidently, expresses uncertainty, sounds defensive, and so on: Remember, both debaters are experts. Participants generally do best if they ignore superficial features of tone and language, and instead pay attention to whether the debaters have good arguments.
+
+*button: Next
+
+*header: What to do if the task feels overwhelming (instructions page 14/20)
+
+Remember, these debates are designed to be difficult, and you are not necessarily expected to be able to reach the correct answer. *We are just interested in learning about how you reason with the information you are given.*
+
+*button: Next
+
+*header: Giving your judgment (instructions page 15/20)
+
+Each debate page will ask you to assign a probability that *Debater A* vs *Debater B* matches what an expert would say.
+
+- If you have *no idea* who is right, set the slider to 50%/50%.
+- If you lean one way or the other, move the slider to reflect that (e.g., 40%/60%, 70%/30%, etc.).
+- If the question seems ambiguous, do your best to answer the way you think the expert who wrote the question would interpret it.
+
+You'll also be asked to explain *why* you chose the probability that you chose. We'd like you to list *all relevant reasons that come to mind*, with a brief remark on how much weight you gave to each.
+
+*button: Next
+
+*header: Timing (instructions page 16/20)
+
+You will have a maximum time limit for each debate turn:
+- *Turn 1:* 9 minutes
+- *Turn 2:* 9 minutes
+- *Turn 3:* 9 minutes
+- *Turn 4:* 9 minutes
+
+You don't need to use all the time, but you should take as much time as you need (within the limit) to be as accurate as you can, and to provide a complete answer to the question provided.
+
+When time runs out, the text box will disappear and you will no longer be able to edit your answer. However, you will still be able to copy your answer from the debate page. If you're worried about time, it can help to type a short draft answer early, then improve it if you have time left.
+
+*button: Next
+
+*header: What you may and may not consult (instructions page 17/20)
+
+To keep the task fair and consistent:
+
+- *Do not* use the internet (Google, Wikipedia, forums, etc.) to help you evaluate the debate.
+- *Do not* use any large language model or AI assistant.
+
+*button: Next
+
+*header: If there is too much to read within the time limit (instructions page 18/20)
+
+Depending on the debate you receive, it is possible that you may be given an amount of information that feels simply impossible to read or comprehend in the amount of time given. In such cases, we recommend you do your best to orient yourself to the question, scroll down to the debate, and do your best with the information available to you in the time you have.
+
+*button: Next
+
+*header: Don't worry about if debaters are "following the rules" (instructions page 19/20)
+
+Don't worry too much about if debaters seem to be "following the rules" of the debate as previously described. We aren't asking you to evaluate whether the debaters are "playing fair". We just want your judgments of how likely it is you believe each side to be the honest expert debater (vs. the dishonest expert debater), based on the strength of their arguments. 
+
+*button: Next
+
+*header: Watch the demo video (instructions page 20/20)
+
+Before you start Turn 1, please watch the demo video that walks you through the interface.
+
+-- Video links, "blind" version -----------------------------
+
+*if: assignments_to_sourcetypes[assignment] = "blind"
+	[Click here to watch the demo video|https://drive.google.com/file/d/1UL4IRHsHcRL0JRa49RSBQM7TL4XUMvnB/view?usp=sharing]
+	
+	Backup links to the same video in case the link above does not work or takes too long to load:
+	[https://youtu.be/P9UOqPrU0zk|https://youtu.be/P9UOqPrU0zk]
+	[https://share.descript.com/view/rqgEec0ab6f|https://share.descript.com/view/rqgEec0ab6f]
+
+-- Video links, "quotes" version -----------------------------
+
+*if: assignments_to_sourcetypes[assignment] = "quote"
+	[Click here to watch the demo video|https://drive.google.com/file/d/18AidDsJRAc33470BTK9V7BxpdHOgOOpq/view?usp=sharing]
+	
+	Backup links to the same video in case the link above does not work or takes too long to load:
+	[https://youtu.be/GtqamXrvBDY|https://youtu.be/GtqamXrvBDY]
+	[https://share.descript.com/view/vP4CwN8AVIl|https://share.descript.com/view/vP4CwN8AVIl]
+
+-- ----------------------------------------------------------
+
+*question: Did you watch the demo video?
+	*save: watched_demo_video
+	Yes - continue to the debate
+
+*label: debate
+
+Please click the link below to view *Turn 1* of the debate and answer the questions below it, carefully considering all information you are provided.
+
+[Debate Turn 1 out of 4|{turn1_urls[assignment]}?GTID={guidedTrackID}&PROLIFIC_PID={PROLIFIC_PID}&assignment={assignment}]
+
+*label: answer1
+*question: After you have completed the task, please paste the encoded version of your answer that you created at that link into the box below.
+	*save: answer_1
+	*type: paragraph
+
+>> answer1check = answer_1.find("ROUND1")
+
+*if: not answer1check
+	*Your submission does not appear to contain the expected encoded text (it should contain the string "ROUND1").* Please check the other tab and confirm that you clicked the 'Copy this encoded text' button, then paste the result below.
+
+	*goto: answer1
+
+Please click the link below to view *Turn 2* of the debate and answer the questions below it, carefully considering all information you are provided.
+
+[Debate Turn 2 out of 4|{turn2_urls[assignment]}?GTID={guidedTrackID}&PROLIFIC_PID={PROLIFIC_PID}&assignment={assignment}]
+
+*label: answer2
+*question: After you have completed the task, please paste the encoded version of your answer that you created at that link into the box below.
+	*save: answer_2
+	*type: paragraph
+
+>> answer2check = answer_2.find("ROUND2")
+
+*if: not answer2check
+	*Your submission does not appear to contain the expected encoded text (it should contain the string "ROUND2").* Please check the other tab and confirm that you clicked the 'Copy this encoded text' button, then paste the result below.
+
+	*goto: answer2
+
+Please click the link below to view *Turn 3* of the debate and answer the questions below it, carefully considering all information you are provided.
+
+[Debate Turn 3 out of 4|{turn3_urls[assignment]}?GTID={guidedTrackID}&PROLIFIC_PID={PROLIFIC_PID}&assignment={assignment}]
+
+*label: answer3
+*question: After you have completed the task, please paste the encoded version of your answer that you created at that link into the box below.
+	*save: answer_3
+	*type: paragraph
+
+>> answer3check = answer_3.find("ROUND3")
+
+*if: not answer3check
+	*Your submission does not appear to contain the expected encoded text (it should contain the string "ROUND3").* Please check the other tab and confirm that you clicked the 'Copy this encoded text' button, then paste the result below.
+
+	*goto: answer3
+
+Please click the link below to view *Turn 4* of the debate and answer the questions below it, carefully considering all information you are provided.
+
+[Debate Turn 4 out of 4|{turn4_urls[assignment]}?GTID={guidedTrackID}&PROLIFIC_PID={PROLIFIC_PID}&assignment={assignment}]
+
+*label: answer4
+*question: After you have completed the task, please paste the encoded version of your answer that you created at that link into the box below.
+	*save: answer_4
+	*type: paragraph
+
+>> answer4check = answer_4.find("ROUND4")
+
+*if: not answer4check
+	*Your submission does not appear to contain the expected encoded text (it should contain the string "ROUND4").* Please check the other tab and confirm that you clicked the 'Copy this encoded text' button, then paste the result below.
+
+	*goto: answer4
+	
+*label: debrief
+*header: Debrief
+
+You've completed the debate-judging task!
+
+*Prolific Completion Code: C13F80L6*
+
+As previously mentioned, we're studying how people evaluate arguments on challenging questions, including what information they use, what uncertainties remain, and how confident they are. This helps inform research on methods for making the accuracy of AI system outputs easier for people to evaluate reliably.
+
+If you had any technical issues (links not loading, timer problems, trouble copying encoded answers), please report them to the researcher using Prolific's messaging system so that we can help. You can also contact the researcher if you have questions about the research itself or your rights as a participant.
+
+Unfortunately, we are not currently revealing which of the two answers you received was correct, to increase the chances that you will remain eligible for similar future studies. We appreciate your understanding of this.
+
+Thank you very much for your participation!
+
+*question: If you have any additional comments for us, please enter them into the box below. If not, you can type "None" to enable the submission button.
+	*save: other_comments
+	*type: paragraph 
+
+Data submitted successfully!
+*Prolific Completion Code: C13F80L6*

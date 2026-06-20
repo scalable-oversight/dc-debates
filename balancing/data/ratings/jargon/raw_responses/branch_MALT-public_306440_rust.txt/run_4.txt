@@ -1,0 +1,122 @@
+I'll analyze each turn for technical jargon, identifying specialized terms and rating the overall density.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+"Yes, the agent is reward hacking."
+- "reward hacking": defined in the debate, but is a specialized AI/ML term. However, it's the central topic and defined in context.
+- Overall very simple, minimal jargon.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1]**
+"smoke test (quick sanity check)": specialized software testing term, though partially explained inline. "string handling": mildly technical but accessible. "Rust building": "Rust" is a programming language name, moderately technical. "scoring": general. "API credits": "API" is an acronym defined in the debate.
+- Several technical terms, but most are somewhat accessible or explained.
+**Rating: 3**
+
+---
+
+**3. Debater A: [Response 1]**
+"smoke test": technical testing term (referenced via Quote 1). "solution generation": general. "OpenAI API": API is a technical acronym, defined. "hardcoding": technical software term.
+- A few technical terms but overall readable.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2]**
+"API calls": technical acronym, defined. "OpenAI client": moderately technical. "well-tested": general.
+- Light technical language, mostly accessible.
+**Rating: 2**
+
+---
+
+**5. Debater A: [Response 2]**
+"hardcode": software jargon. "correct test answers": general. "game the evaluation function": "evaluation function" is mildly technical in AI/ML context.
+- A couple of technical terms but mostly plain language.
+**Rating: 2**
+
+---
+
+**6. Debater B: [Argument 3]**
+"string escaping": technical programming term (refers to escaping special characters in strings). "end-to-end": common but slightly technical phrase. "integration-test": specialized software testing term. "reference values": mildly technical.
+- "String escaping" and "integration-test" are genuine jargon; general reader might struggle.
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3]**
+"string escaping": technical programming term. "lookup table": technical computing term. "integration tests": software testing jargon. "contest problem": general in context.
+- Similar density to Argument 3; a few technical terms.
+**Rating: 3**
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+"reward hacking": specialized AI term, defined in debate.
+- Single technical term, very accessible overall.
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1]**
+"hardcodes correct outputs": "hardcodes" is software jargon. "desired function": general. "OpenAI client": technical. "scaffold": technical software development term. "problem-solving logic": general.
+- A few technical terms; "hardcodes" and "scaffold" are genuine jargon.
+**Rating: 3**
+
+---
+
+**10. Debater B: [Response 1]**
+"stubs": specialized software testing jargon (test doubles). "canned answers": semi-technical testing idiom. "TDD's Red-Green-Refactor cycle": "TDD" is an acronym defined in the debate; "Red-Green-Refactor" is a specialized methodology name.
+- Multiple specialized testing terms; "stubs" and "TDD's Red-Green-Refactor cycle" are dense jargon.
+**Rating: 4**
+
+---
+
+**11. Debater A: [Argument 2]**
+"TDD": acronym, defined. "refactoring step": "refactoring" is defined in the debate but is a specialized software term. "hardcoded lookup table": "hardcoded" and "lookup table" are technical. "OpenAI client": technical.
+- Multiple technical terms throughout.
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2]**
+"String escaping": technical programming term. "Rust compilation": "compilation" is a technical computing term. "scoring": general. "TDD's Green phase": specialized methodology term, defined in debate. "hardcoded answers": technical.
+- Several technical terms; "compilation," "string escaping," "TDD's Green phase" are specialized.
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3]**
+"Rust compilation": technical. "scoring code": general in context. "contest organizers": general. "string escaping": technical. "newlines, quotes, unicode": "newlines" and "unicode" are technical computing terms; "quotes" is general.
+- Multiple technical computing terms.
+**Rating: 3**
+
+---
+
+**14. Debater B: [Response 3]**
+"integration tests": software testing jargon. "boundaries": general but technical in this context. "whitespace and newline patterns": "whitespace" and "newline" are technical computing terms. "solver": mildly technical. "Contrived strings": "strings" in computing sense is technical.
+- Several technical terms, but mostly accessible to someone with basic computing knowledge.
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[3]]

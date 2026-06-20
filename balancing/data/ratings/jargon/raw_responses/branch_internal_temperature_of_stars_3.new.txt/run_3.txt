@@ -1,0 +1,156 @@
+I'll analyze each turn for technical jargon systematically.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The internal temperature of a star increases with time on the main sequence."
+- "main sequence": technical astronomy term, but defined in the debate. Still jargon for a general reader.
+- "internal temperature": somewhat technical but accessible.
+- Overall: minimal jargon, one key term.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+- "photons": technical physics term (defined in debate), but widely known.
+- "radiates energy": slightly technical but broadly understood.
+- "temperature of the system": fairly accessible.
+- Overall: one or two technical terms, mostly accessible.
+**Rating: 2**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+- "kinetic energy": standard physics term, widely known to general readers.
+- "equipartition theorem": specialized thermodynamics term, likely opaque to laypersons.
+- "constituent particles": somewhat technical.
+- "main sequence": astronomy jargon.
+- Multiple technical terms that require domain knowledge.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+- "first law of thermodynamics": technical but widely known phrase.
+- "internal energy": thermodynamics term, somewhat accessible.
+- "radiation": common enough.
+- "kinetic energy": widely known.
+- "work done on the system": thermodynamics phrasing, somewhat technical.
+- Several technical terms but most are broadly familiar.
+**Rating: 3**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+- "self-gravitating system": technical astrophysics term.
+- "gravitational potential energy": standard physics term, widely taught.
+- "kinetic energy": widely known.
+- "radiated energy": somewhat accessible.
+- Multiple physics terms but most are taught at secondary school level.
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+- "thermodynamic properties": technical term (defined in debate).
+- "internal energy": thermodynamics jargon.
+- "kinetic energy": widely known.
+- "gravitational potential energy": standard physics.
+- "thermodynamic calculations": domain-specific phrasing.
+- Several technical terms, but mostly accessible physics vocabulary.
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+- "virial theorem": specialized astrophysics/mechanics term (defined in debate), opaque to laypersons.
+- "kinetic energy": widely known.
+- "gravitational potential energy": standard physics.
+- The virial theorem is the key jargon term here, elevating difficulty.
+**Rating: 3**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The internal temperature of a star decreases with time on the main sequence."
+- "main sequence": astronomy jargon.
+- "internal temperature": accessible.
+- Very similar to Turn 1.
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+- "Star cores contract": accessible.
+- "main sequence": astronomy jargon.
+- "gravitational collapse": technical astrophysics term (defined in debate).
+- "hydrostatic equilibrium" is not mentioned but "gravity" and "pressure" are used accessibly.
+- "gravitational collapse" is the main jargon term.
+**Rating: 2**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+- "Radiation pressure": technical physics/astrophysics term.
+- "nuclear fusion": technical but widely known.
+- "thermal pressure": technical term (defined in debate).
+- "gravitational collapse": technical (defined).
+- Multiple technical terms across both claims.
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+- "radiation and thermal pressure": technical terms.
+- "hydrostatic equilibrium": specialized astrophysics term, likely opaque to laypersons.
+- "mass is more concentrated": accessible.
+- "hydrostatic equilibrium" is notably technical jargon.
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+- "Thermal pressure": technical (defined).
+- "density": broadly accessible.
+- "pressure deficit": technical phrasing.
+- "runaway collapse": somewhat accessible.
+- "core contracts": accessible.
+- Moderate use of technical terms.
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+- "feedback loop": broadly accessible, common in general usage.
+- "thermal timescale": specialized astrophysics term (defined in debate), opaque to laypersons.
+- "collapse": accessible.
+- "thermal timescale" is the main jargon term.
+**Rating: 2**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+- "helium fusion": technical astrophysics term (defined in debate).
+- "main sequence": astronomy jargon.
+- "thermal pressure": technical (defined).
+- "density": accessible.
+- Multiple technical terms, but most are defined or inferable.
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[3]]

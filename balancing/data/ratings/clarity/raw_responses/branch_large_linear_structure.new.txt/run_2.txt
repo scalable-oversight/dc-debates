@@ -1,0 +1,150 @@
+I'll analyze each turn for clarity to a layperson, identifying elements that help or hinder comprehension.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+- "Runaway supermassive black hole" is a vivid, somewhat accessible phrase, but "SMBH" as an acronym may confuse laypeople.
+- The citation is opaque but doesn't impede core meaning.
+- The sentence is short and direct, but gives no explanation of what this means visually or physically.
+- Overall: brief but lacks context for a layperson to grasp what's being claimed.
+**Rating: 3**
+
+---
+
+**2. Debater B: [Argument 1]**
+- "Within a few parsecs" — "parsecs" is a technical unit unfamiliar to most laypeople.
+- "~40 kiloparsecs" — same issue, compounded.
+- The logical structure is clear (SMBHs are usually close to galaxy centers; this one would be very far away), which helps.
+- A layperson could roughly follow the argument even without knowing what a parsec is (it's clearly a unit of distance).
+**Rating: 3**
+
+---
+
+**3. Debater A: [Response 1]**
+- "SMBH recoil" is somewhat explained in the definitions, and the concept of being ejected during a merger is intuitive.
+- "Trail of star formation left in the wake of a recoiling SMBH" is a vivid, understandable image.
+- "Linear structure" is accessible.
+- "CGM" (circumgalactic medium) appears later but not here.
+- Reasonably accessible overall.
+**Rating: 4**
+
+---
+
+**4. Debater B: [Argument 2]**
+- "Circumgalactic medium (CGM)" is introduced with the acronym but no explanation — technical and unfamiliar.
+- "Old, massive and compact structures" for globular clusters is a reasonable plain-language description.
+- The logical argument (if black holes leave trails, globular clusters should too, but they don't) is clear and intuitive.
+- "CGM" is the main stumbling block.
+**Rating: 3**
+
+---
+
+**5. Debater A: [Response 2]**
+- "Supersonic speeds" is accessible and vivid.
+- "Bow shock" is somewhat technical — most laypeople may not know what this means physically.
+- The logic (supersonic travel → bow shock → star formation; globular clusters don't do this) is clear if you accept "bow shock" as a given.
+- Reasonably understandable with minor technical vocabulary.
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3]**
+- "Color of the stars fluctuates" is accessible.
+- "Monotonically decrease along the structure" — "monotonically" is a slightly technical word but understandable in context.
+- The argument (if caused by a passing SMBH, star ages should decrease in order; fluctuating color contradicts this) is logically clear.
+- "[Figure 1]" reference is opaque but doesn't impede meaning.
+**Rating: 4**
+
+---
+
+**7. Debater A: [Response 3]**
+- "Broad age gradient" is moderately technical.
+- "Alternating red and blue supergiants" — "supergiants" is somewhat technical but the color description helps.
+- "Color fluctuations can be explained by..." is reasonably clear.
+- The second claim about star formation after SMBH passage is accessible.
+- Overall moderately clear.
+**Rating: 3**
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+- "Bulgeless edge-on galaxy" is defined in the definitions section; the concept of a galaxy viewed edge-on looking like a line is intuitive.
+- Short and fairly clear.
+**Rating: 4**
+
+---
+
+**9. Debater A: [Argument 1]**
+- "Line ratio ([OIII]/H𝜷)" — this is highly technical; OIII and H-beta are emission lines that laypeople won't know.
+- "Far exceeds the ratio expected from a typical galaxy" — the conclusion is clear even if the metric isn't.
+- "Not entirely linear" is accessible.
+- The OIII/Hβ ratio is the main barrier here.
+**Rating: 2**
+
+---
+
+**10. Debater B: [Response 1]**
+- "Tully-Fisher relation" is defined in the definitions section — estimated stellar mass and rotational velocity.
+- "Classified as galaxies based on their estimated stellar mass and maximum rotational velocity" is accessible.
+- "Bulgeless edge-on galaxy" is accessible from the definition.
+- Fairly clear overall, especially given the definition provided.
+**Rating: 4**
+
+---
+
+**11. Debater A: [Argument 2]**
+- "Observational inconsistencies" is vague but understandable.
+- "Velocity gradient near the edge of the object is too large" — "velocity gradient" is defined in the definitions, but "too large for it to be classified as a galaxy" is accessible.
+- References to figures are opaque.
+- Moderately accessible.
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2]**
+- "IC5249" — a specific galaxy name, unfamiliar to laypeople, but it's being used as a comparison case.
+- "Position vs rotational velocity gradient" is technical.
+- "Observationally confirmed bulgeless edge-on galaxy" is accessible given the definition.
+- The comparison argument is clear in structure but the specific technical comparisons (velocity gradient) require background knowledge.
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3]**
+- "Velocity and flux gradient" — "flux" is technical.
+- "Smoother than those of the object" is accessible.
+- "Structure in line emission strongly resembling a bow shock at its tip" — "line emission" and "bow shock" are technical terms.
+- The conclusion (implies the object is not a galaxy) is clear.
+- Multiple technical terms make this harder for a layperson.
+**Rating: 2**
+
+---
+
+**14. Debater B: [Response 3]**
+- "Line emission...in the range expected of shocks produced by supernovae" — "line emission" is technical, but "shocks produced by supernovae" is somewhat accessible.
+- "Clumpy and irregular UV emission arising from heterogeneous star formation" — "UV emission" and "heterogeneous" are moderately technical.
+- "Distorted galaxies" is accessible.
+- The overall argument (this is consistent with normal galaxy behavior) is understandable but uses technical vocabulary throughout.
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[3]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[4]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[3]]
+B | Opening | [[4]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[3]]

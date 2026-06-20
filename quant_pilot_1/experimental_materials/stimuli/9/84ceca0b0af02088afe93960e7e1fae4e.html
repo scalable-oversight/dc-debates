@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Debate (Judge View)</title>
+<script>
+  MathJax = {
+    tex: { inlineMath: [['\\(','\\)'],['$','$']], displayMath: [['\\[','\\]'],['$$','$$']] },
+    options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code'] }
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+<style>
+    :root {
+        --color-left: #FFF6CC;
+        --color-right: #F2E8FF;
+        --primary-blue: #007bff;
+        --timer-bg: #343a40;
+        --timer-text: #fff;
+        --clr-accent: #3d5a80;
+    }
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f9f9f9; color: #333;
+        max-width: 800px; margin: 0 auto;
+        padding: 20px; padding-bottom: 60px; line-height: 1.6;
+    }
+    #timer-bar {
+        position: fixed; bottom: 0; left: 0; width: 100%;
+        background-color: var(--timer-bg); color: var(--timer-text);
+        text-align: center; padding: 10px 0; font-weight: bold;
+        font-size: 1.2rem; z-index: 1000;
+        box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+    }
+    .timer-warning { background-color: #dc3545 !important; }
+    .container {
+        background: white; padding: 30px; border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .intro-section { margin-bottom: 30px; }
+    .intro-section h3 {
+        margin-top: 25px; margin-bottom: 15px; color: #2c3e50;
+        border-bottom: 2px solid #eee; padding-bottom: 10px;
+    }
+    .intro-section h3:first-child { margin-top: 0; }
+    .definition-item { margin-bottom: 12px; }
+    .definition-item img { max-width: 100%; height: auto; }
+    .context-text {
+        font-style: italic; margin-bottom: 20px; color: #555;
+        background-color: #f8f9fa; padding: 10px;
+        border-left: 4px solid #6c757d; border-radius: 4px;
+    }
+    .image-container { text-align: center; margin-bottom: 20px; }
+    .image-container img {
+        max-width: 100%; height: auto;
+        border: 1px solid #ddd; border-radius: 4px;
+    }
+    .figure-wrapper {
+        border: 1px solid #ddd; border-radius: 4px; padding: 15px;
+        margin-bottom: 20px; background-color: #fff; text-align: left;
+    }
+    .figure-wrapper img {
+        border: none !important; margin-bottom: 5px;
+        display: block; margin-left: auto; margin-right: auto;
+        max-width: 100%; height: auto;
+    }
+    .figure-caption {
+        font-style: italic; color: #666; font-size: 0.9rem;
+        margin-top: 5px; text-align: center;
+    }
+    .slider-section { margin-bottom: 40px; padding: 0 10px; }
+    .slider-labels {
+        display: flex; justify-content: space-between;
+        font-weight: bold; margin-bottom: 5px;
+        font-size: 0.85rem; color: #555;
+    }
+    .slider-wrapper {
+        position: relative; height: 40px;
+        display: flex; align-items: center;
+    }
+    input[type=range] {
+        -webkit-appearance: none; width: 100%;
+        background: transparent; position: relative;
+        z-index: 2; cursor: pointer;
+    }
+    input[type=range]:focus { outline: none; }
+    input[type=range]::-webkit-slider-thumb {
+        -webkit-appearance: none; height: 24px; width: 24px;
+        border-radius: 50%; background: #333;
+        border: 2px solid white;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+        cursor: pointer; margin-top: -8px;
+    }
+    input[type=range]::-moz-range-thumb {
+        height: 24px; width: 24px; border-radius: 50%;
+        background: #333; border: 2px solid white;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.3); cursor: pointer;
+    }
+    .gradient-bar {
+        position: absolute; top: 50%; left: 0; right: 0;
+        height: 12px; transform: translateY(-50%);
+        background: linear-gradient(to right, var(--color-left), var(--color-right));
+        border-radius: 6px; border: 1px solid #ddd; z-index: 1;
+    }
+    .percentage-display {
+        display: flex; justify-content: space-between;
+        margin-top: 10px; font-family: monospace; font-size: 1.0rem;
+    }
+    .input-section { margin-bottom: 30px; }
+    label {
+        display: block; font-weight: 600;
+        margin-bottom: 10px; color: #2c3e50;
+    }
+    textarea {
+        width: 100%; padding: 12px; border: 1px solid #ccc;
+        border-radius: 6px; font-family: inherit;
+        resize: vertical; min-height: 150px; box-sizing: border-box;
+    }
+    textarea:focus {
+        outline: none; border-color: var(--primary-blue);
+        box-shadow: 0 0 0 3px rgba(0,123,255,0.1);
+    }
+    .summary-section {
+        background-color: #f1f3f5; border: 1px solid #e1e4e8;
+        padding: 20px; border-radius: 6px;
+    }
+    .summary-header {
+        font-size: 1.1rem; margin-top: 0; margin-bottom: 15px;
+        border-bottom: 1px solid #d1d5da; padding-bottom: 10px;
+    }
+    #summaryText {
+        white-space: pre-wrap; font-family: 'Courier New', Courier, monospace;
+        font-size: 0.9rem; color: #444; margin-bottom: 15px;
+        word-break: break-all;
+    }
+    .btn-copy {
+        background-color: var(--primary-blue); color: white;
+        border: none; padding: 10px 20px; border-radius: 4px;
+        cursor: pointer; font-size: 0.9rem;
+        transition: background-color 0.2s;
+    }
+    .btn-copy:hover { background-color: #0056b3; }
+    /* Source link styling */
+    .source-link {
+        color: var(--clr-accent); text-decoration: none;
+        border-bottom: 1px dashed var(--clr-accent); font-weight: 600;
+    }
+    .source-link:hover { border-bottom-style: solid; text-decoration: none; }
+    .missing-source {
+        background-color: #fdd; color: #900; font-weight: 600;
+        padding: 0 3px; border-radius: 3px;
+    }
+    /* Definition link + tooltip */
+    .def-link {
+        color: #5d4037; text-decoration: none;
+        border-bottom: 1px dotted #5d4037;
+        position: relative; cursor: help;
+    }
+    .def-link:hover { color: #3e2723; border-bottom-style: solid; }
+    .def-tooltip {
+        position: absolute; width: max-content; max-width: 380px;
+        background: #2c2c2c; color: #f5f5f5;
+        font-size: .82rem; font-weight: 400; line-height: 1.5;
+        padding: .6rem .85rem; border-radius: 4px;
+        box-shadow: 0 4px 12px rgba(0,0,0,.08);
+        z-index: 1000; pointer-events: none; white-space: normal;
+    }
+    .def-tooltip-arrow {
+        position: absolute; width: 0; height: 0;
+        border: 6px solid transparent; border-top-color: #2c2c2c;
+        z-index: 1001; pointer-events: none;
+    }
+    /* Source entries */
+    .source-entry {
+        padding: 0.7rem 1rem; border-bottom: 1px solid #e0ddd8;
+        font-size: 0.95rem; line-height: 1.55;
+    }
+    .source-entry:last-child { border-bottom: none; }
+    .source-entry strong { color: #1a1a1a; }
+    .source-url {
+        color: var(--clr-accent); word-break: break-all;
+        font-size: 0.85rem; display: block; margin-top: 2px;
+    }
+    .source-quote { color: #6b6b6b; font-style: italic; }
+    /* Debate table */
+    .debate-table-card {
+        background: rgba(255,255,255,0.04);
+        border: 1px solid rgba(0,0,0,0.10);
+        border-radius: 18px; overflow: visible;
+        margin: 0 30px 20px 30px;
+    }
+    .debate-table-card table {
+        width: 100%; table-layout: fixed;
+        border-collapse: separate; border-spacing: 0;
+    }
+    .debate-table-card td {
+        vertical-align: top; padding: 14px 16px; font-size: 14.5px;
+        border-bottom: 1px solid rgba(0,0,0,0.08);
+        overflow-wrap: anywhere;
+        position: relative;
+    }
+    .debate-table-card td:first-child { padding-right: 24px; }
+    .debate-table-card td:last-child  { padding-left: 24px; }
+    .gap-div {
+        position: absolute; top: -1px; bottom: -1px; width: 10px;
+        background: white; z-index: 1;
+    }
+    .gap-div-right { right: -1px; }
+    .gap-div-left  { left: -1px; }
+    .debate-table-card tr:last-child td { border-bottom: none; }
+    .debate-table-card tr:first-child td:first-child { border-top-left-radius: 18px; }
+    .debate-table-card tr:first-child td:last-child  { border-top-right-radius: 18px; }
+    .debate-table-card tr:last-child  td:first-child { border-bottom-left-radius: 18px; }
+    .debate-table-card tr:last-child  td:last-child  { border-bottom-right-radius: 18px; }
+    td.speaker-a {
+        background: #fff6cc; color: #2a2000;
+    }
+    td.speaker-b { background: #f2e8ff; color: #1f0f33; }
+    td.speaker-a strong, td.speaker-b strong { font-weight: 750; }
+    /* Claim boxes inside argument / response rows */
+    .speaker-a-claim {
+        border: 2px solid #C4A000; border-radius: 6px;
+        padding: 6px 10px; margin-top: 8px;
+    }
+    .speaker-b-claim {
+        border: 2px solid #9B7DC4; border-radius: 6px;
+        padding: 6px 10px; margin-top: 8px;
+    }
+    #post-lockdown-instruction {
+        display: none; margin-top: 20px; padding: 15px;
+        background-color: #d4edda; color: #155724;
+        border: 1px solid #c3e6cb; border-radius: 4px;
+        font-weight: bold; text-align: center;
+    }
+</style>
+</head>
+<body>
+<div id="timer-bar">Time Remaining: <span id="time-display">09:00</span></div>
+<div class="container">
+<div class="intro-section hide-on-lockdown">
+<h3>Key Question</h3>
+<div class="definition-item">Here is a picture of a real astrophysical system in different filters. What is the best plausible theoretical model to describe this system?<br><img src='images/large_linear_structure.png'/></div>
+<h3>Definitions</h3>
+<div class="definition-item"><strong>Gravitational lensing:</strong> An astrophysical phenomenon where a massive galaxy present in between the observer and the source bends light being emitted by the source, such that the observer sees distorted (weakly lensed) or multiple (strongly lensed) images of the same source.</div>
+<div class="definition-item"><strong>Tully-Fisher relation:</strong> A widely verified empirical relationship between the mass or intrinsic luminosity of a spiral galaxy and its asymptotic rotation velocity or emission line width.</div>
+<div class="definition-item"><strong>Recoil:</strong> Merging black holes release a massive amount of energy in the form of gravitational waves, and this can happen anisotropically, kicking the resulting black hole in a direction opposite to the released gravitational waves. This kick is stronger in systems with more asymmetry in the sizes of the merging black holes.</div>
+<div class="definition-item">AGN: Active Galactic Nuclei are galaxies with an actively accreting (consuming matter) supermassive black hole (SMBH) at their center. The matter forms a very bright (one of the brightest phenomena in the universe) accretion disc as it spirals into the SMBH. An AGN might also contain twin jets of gas and dust ejected from the center of the galaxy that can rival the galaxy's own size. High redshift AGN are often referred to as quasars.</div>
+<div class="definition-item"><strong>Redshift (denoted by z):</strong> As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift =&gt; object is further away =&gt; we are looking further back in time as we are seeing light that left the object millions or billions of years ago.</div>
+<div class="definition-item"><strong>Globular clusters:</strong> Globular clusters are dense groups of tens of thousands to millions of stars, tightly bound by gravity into a spheroidal shape, orbiting galaxies often in their halos.</div>
+<div class="definition-item"><strong>Bulgeless edge-on galaxy:</strong> A disc-shaped galaxy that is viewed edge-on from Earth, making it look like a line in the sky.</div>
+<div class="definition-item"><strong>Supermassive black hole (SMBH):</strong> An extremely massive black hole, typically millions to billions of solar masses, found at the center of most galaxies.</div>
+<div class="definition-item"><strong>Velocity gradient:</strong> The rate at which the velocity of stars or gas changes with position across an astrophysical object, used to infer its internal dynamics and classify its nature.</div>
+<h3>Sources</h3>
+<div class="image-container">
+<div class="figure-wrapper" id="src-figure-2-jsa-et-al">
+<img alt="Figure 2 from J. S. A. et al." src="images/figure_2_jsa_et_al.png"/>
+<div class="figure-caption">Figure 2 from <a class="source-link" href="#src-jsa_et_al">J. S. A. et al.</a></div>
+</div>
+<div class="figure-wrapper" id="src-figure-1-pvd-cj-et-al">
+<img alt="Figure 1 from P. D. et al." src="images/figure_1_pvd_cj_et_al.png"/>
+<div class="figure-caption">Figure 1 from <a class="source-link" href="#src-pvd_cj_et_al">P. D. et al.</a></div>
+</div>
+<div class="figure-wrapper" id="src-figure-5-pvd-cj-et-al">
+<img alt="Figure 5 from P. D. et al." src="images/figure_5_pvd_cj_et_al.png"/>
+<div class="figure-caption">Figure 5 from <a class="source-link" href="#src-pvd_cj_et_al">P. D. et al.</a></div>
+</div>
+<div class="figure-wrapper" id="src-figure-1-jsa-et-al">
+<img alt="Figure 1 from J. S. A. et al." src="images/figure_1_jsa_et_al.png"/>
+<div class="figure-caption">Figure 1 from <a class="source-link" href="#src-jsa_et_al">J. S. A. et al.</a></div>
+</div>
+<div class="figure-wrapper" id="src-figure-3-pvd-cj-et-al">
+<img alt="Figure 3 from P. D. et al." src="images/figure_3_pvd_cj_et_al.png"/>
+<div class="figure-caption">Figure 3 from <a class="source-link" href="#src-pvd_cj_et_al">P. D. et al.</a></div>
+</div>
+<div class="figure-wrapper" id="src-figure-1-mm-et-al">
+<img alt="Figure 1 from M. M. et al." src="images/lls_figure_1_mm_et_al.png"/>
+<div class="figure-caption">Figure 1 from <a class="source-link" href="#src-mm_et_al">M. M. et al.</a></div>
+</div>
+</div>
+<div class="source-entry" id="src-jsa_et_al"><strong>J. S. A. et al.</strong><span class="source-quote"> &mdash; &ldquo;Year and title blinded from debate judges.&rdquo;</span></div>
+<div class="source-entry" id="src-pvd_cj_et_al"><strong>P. D. et al.</strong><span class="source-quote"> &mdash; &ldquo;Year and title blinded from debate judges.&rdquo;</span></div>
+<div class="source-entry" id="src-mm_et_al"><strong>M. M. et al.</strong><span class="source-quote"> &mdash; &ldquo;Year and title blinded from debate judges.&rdquo;</span></div>
+
+</div>
+<hr class="hide-on-lockdown"/>
+<div class="context-text hide-on-lockdown">
+    Exactly one of these debater's answers matches the answer of the expert who wrote the Key Question.
+</div>
+<div class="debate-table-card hide-on-lockdown">
+<table aria-label="Debate table">
+<colgroup><col/><col/></colgroup>
+<tbody>
+<tr>
+<td class="speaker-a"><strong>Debater A: [Opening]</strong> The best plausible theoretical model to describe this system is a <a class="def-link" data-tooltip="Bulgeless edge-on galaxy - A disc-shaped galaxy that is viewed edge-on from Earth, making it look like a line in the sky.">bulgeless edge-on galaxy</a> (<a class="source-link" href="#src-jsa_et_al">J. S. A. et al.</a>).<br><span style="font-size:0.82em">👎 <i>Debater B registers main objection</i></span><div class="gap-div gap-div-right"></div></td>
+<td class="speaker-b"><div class="gap-div gap-div-left"></div><strong>Debater B: [Opening]</strong> The best plausible theoretical model to describe this system is a runaway <a class="def-link" data-tooltip="Supermassive black hole (SMBH) - An extremely massive black hole, typically millions to billions of solar masses, found at the center of most galaxies.">supermassive black hole</a> (SMBH) (<a class="source-link" href="#src-pvd_cj_et_al">P. D. et al.</a>).<br><span style="font-size:0.82em">👎 <i>Debater A registers main objection</i></span></td>
+</tr>
+<tr>
+<td class="speaker-b"><strong>Debater B: [Argument 1]</strong> <div class="speaker-b-claim">The line ratio of the linear object ([OIII]/H𝜷) far exceeds the ratio expected from a galaxy. <br><span style="font-size:0.82em">👍🚩 <i><span style="color:#006400">Debater A agrees</span> but thinks this omits key info</i></span></div><div class="speaker-b-claim">Additionally, the structure is not entirely linear, which would be expected if it were a bulgeless edge-on galaxy. <br><span style="font-size:0.82em">👍🚩 <i><span style="color:#006400">Debater A agrees</span> but thinks this omits key info</i></span></div><span style="font-size:0.82em">👎 <i>Debater A objects to the idea that these claims refute their argument (main objection)</i></span><div class="gap-div gap-div-right"></div></td>
+<td class="speaker-a"><div class="gap-div gap-div-left"></div><strong>Debater A: [Argument 1]</strong> <div class="speaker-a-claim">Supermassive black holes are typically found within a few parsecs of the center of galaxies.<br><span style="font-size:0.82em">👍🚩 <i><span style="color:#006400">Debater B agrees</span> but thinks this omits key info</i></span></div><div class="speaker-a-claim">If this hypothesis were true, the SMBH would have to be ~40 kiloparsecs away from its host galaxy.<br><span style="font-size:0.82em">👍🚩 <i><span style="color:#006400">Debater B agrees</span> but thinks this omits key info</i></span></div><span style="font-size:0.82em">👎 <i>Debater B objects to the idea that these claims refute their argument (main objection)</i></span></td>
+</tr>
+<tr>
+<td class="speaker-a"><strong>Debater A: [Response 1]</strong> <div class="speaker-a-claim">The <a class="def-link" data-tooltip="Tully-Fisher relation - A widely verified empirical relationship between the mass or intrinsic luminosity of a spiral galaxy and its asymptotic rotation velocity or emission line width.">Tully-Fisher relation</a> is used to classify objects as galaxies based on their estimated stellar mass and maximum rotational velocity.<br><span style="font-size:0.82em">👍 <i style="color:#006400">Debater B fully agrees</i></span></div><div class="speaker-a-claim continuing-claim" data-arrow-side="left" data-arrow-speaker="speaker-a">The linear object satisfies the Tully-Fisher relation, making it a strong candidate for a bulgeless edge-on galaxy (<a class="source-link" href="#src-figure-2-jsa-et-al">Figure 2</a> in <a class="source-link" href="#src-jsa_et_al">J. S. A. et al.</a>).<br><span style="font-size:0.82em">👎 <i>Debater B registers main objection</i></span></div><div class="gap-div gap-div-right"></div></td>
+<td class="speaker-b"><div class="gap-div gap-div-left"></div><strong>Debater B: [Response 1]</strong> <div class="speaker-b-claim">SMBH <a class="def-link" data-tooltip="Recoil - Merging black holes release a massive amount of energy in the form of gravitational waves, and this can happen anisotropically, kicking the resulting black hole in a direction opposite to the released gravitational waves. This kick is stronger in systems with more asymmetry in the sizes of the merging black holes.">recoil</a> can eject SMBHs from the centers of their host galaxy during a merger.<br><span style="font-size:0.82em">👍 <i style="color:#006400">Debater A fully agrees</i></span></div><div class="speaker-b-claim continuing-claim" data-arrow-side="right" data-arrow-speaker="speaker-b">The galaxy shows signs of a recent merger (<a class="source-link" href="#src-pvd_cj_et_al">P. D. et al.</a>), which supports the hypothesis that the linear structure could be a trail of star formation left in the wake of a recoiling SMBH.<br><span style="font-size:0.82em">👎 <i>Debater A registers main objection</i></span></div></td>
+</tr>
+<tr>
+<td class="speaker-b"><strong>Debater B: [Argument 2]</strong> <div class="speaker-b-claim">Satisfying the Tully-Fisher relation does not resolve observational inconsistencies.<br><span style="font-size:0.82em">👍 <i style="color:#006400">Debater A fully agrees</i></span></div><div class="speaker-b-claim continuing-claim" data-arrow-side="left" data-arrow-speaker="speaker-b">The <a class="def-link" data-tooltip="Velocity gradient - The rate at which the velocity of stars or gas changes with position across an astrophysical object, used to infer its internal dynamics and classify its nature.">velocity gradient</a> near the edge of the object is too large for it to be classified as a galaxy (<a class="source-link" href="#src-figure-1-pvd-cj-et-al">Figure 1</a>, <a class="source-link" href="#src-figure-5-pvd-cj-et-al">Figure 5</a> in <a class="source-link" href="#src-pvd_cj_et_al">P. D. et al.</a>).<br><span style="font-size:0.82em">👎 <i>Debater A registers main objection</i></span></div><div class="gap-div gap-div-right"></div></td>
+<td class="speaker-a"><div class="gap-div gap-div-left"></div><strong>Debater A: [Argument 2]</strong> <div class="speaker-a-claim"><a class="def-link" data-tooltip="Globular clusters - Globular clusters are dense groups of tens of thousands to millions of stars, tightly bound by gravity into a spheroidal shape, orbiting galaxies often in their halos.">Globular clusters</a> are massive compact structures that  travel through the circumgalactic medium (CGM).<br><span style="font-size:0.82em">👍 <i style="color:#006400">Debater B fully agrees</i></span></div><div class="speaker-a-claim continuing-claim" data-arrow-side="right" data-arrow-speaker="speaker-a">If the passage of a black hole through the CGM caused star formation, we would observe similar trails for globular clusters, but we do not.<br><span style="font-size:0.82em">👎 <i>Debater B registers main objection</i></span></div></td>
+</tr>
+<tr>
+<td class="speaker-a"><strong>Debater A: [Response 2]</strong> <div class="speaker-a-claim">IC5249 is an observationally confirmed bulgeless edge-on galaxy.<br><span style="font-size:0.82em">👍 <i style="color:#006400">Debater B fully agrees</i></span></div><div class="speaker-a-claim continuing-claim" data-arrow-side="left" data-arrow-speaker="speaker-a">The position vs rotational velocity gradient of the stars in the structure strongly resembles the gradient of IC5249 (<a class="source-link" href="#src-figure-1-jsa-et-al">Figure 1</a> in <a class="source-link" href="#src-jsa_et_al">J. S. A. et al.</a>), suggesting that they're the same class of objects.<br><span style="font-size:0.82em">👎 <i>Debater B registers main objection</i></span></div><div class="gap-div gap-div-right"></div></td>
+<td class="speaker-b"><div class="gap-div gap-div-left"></div><strong>Debater B: [Response 2]</strong> <div class="speaker-b-claim">The SMBH in this model is traveling at supersonic speeds.<br><span style="font-size:0.82em">👍 <i style="color:#006400">Debater A fully agrees</i></span></div><div class="speaker-b-claim continuing-claim" data-arrow-side="right" data-arrow-speaker="speaker-b">The bow shock due to this supersonic travel would cause star formation. Globular clusters do not form a bow shock in the CGM, and thus would not have star forming trails.<br><span style="font-size:0.82em">👎 <i>Debater A registers main objection</i></span></div></td>
+</tr>
+<tr>
+<td class="speaker-b"><strong>Debater B: [Argument 3]</strong> <div class="speaker-b-claim">The velocity and flux gradient of IC5249 is much smoother than that of the object in the figure you present.<br><span style="font-size:0.82em">👍 <i style="color:#006400">Debater A fully agrees</i></span></div><div class="speaker-b-claim continuing-claim" data-arrow-side="left" data-arrow-speaker="speaker-b">The linear object has a structure in line emission resembling a bow shock at its tip (<a class="source-link" href="#src-figure-3-pvd-cj-et-al">Figure 3</a> in <a class="source-link" href="#src-pvd_cj_et_al">P. D. et al.</a>) that IC5249 does not have. This implies that the object is not a galaxy. <br><span style="font-size:0.82em">👎 <i>Debater A registers main objection</i></span></div><div class="gap-div gap-div-right"></div></td>
+<td class="speaker-a"><div class="gap-div gap-div-left"></div><strong>Debater A: [Argument 3]</strong> <div class="speaker-a-claim"><a class="source-link" href="#src-figure-1-mm-et-al">Figure 1</a> in <a class="source-link" href="#src-mm_et_al">M. M. et al.</a> shows that the age of the stars along the hypothesised wake fluctuates very strongly.<br><span style="font-size:0.82em">👍 <i style="color:#006400">Debater B fully agrees</i></span></div><div class="speaker-a-claim continuing-claim" data-arrow-side="right" data-arrow-speaker="speaker-a">If the star formation was caused by the bow shock of a passing SMBH, the age of the stars would monotonically decrease along the structure, but we do not observe that.<br><span style="font-size:0.82em">👎 <i>Debater B registers main objection</i></span></div></td>
+</tr>
+<tr>
+<td class="speaker-a"><strong>Debater A: [Response 3]</strong> <div class="speaker-a-claim">The line emission in the figure is in the range expected of shocks produced by supernovae within galaxies, not just by an external bow shock.<br><span style="font-size:0.82em">👍🚩 <i><span style="color:#006400">Debater B agrees</span> but thinks this omits key info</i></span></div><div class="speaker-a-claim">Distorted galaxies often have clumpy UV emission from heterogeneous star formation, which could explain this structure.<br><span style="font-size:0.82em">👍🚩 <i><span style="color:#006400">Debater B agrees</span> but thinks this omits key info</i></span></div><span style="font-size:0.82em">👎 <i>Debater B objects to the idea that these claims refute their argument (main objection)</i></span><div class="gap-div gap-div-right"></div></td>
+<td class="speaker-b"><div class="gap-div gap-div-left"></div><strong>Debater B: [Response 3]</strong> <div class="speaker-b-claim">A broad age gradient is expected along the wake, but the color fluctuations can be explained by alternating red and blue supergiants in the trail.<br><span style="font-size:0.82em">👍🚩 <i><span style="color:#006400">Debater A agrees</span> but thinks this omits key info</i></span></div><div class="speaker-b-claim">Star formation will also occur along the trail as new gas joins the wake, adding noise to the age gradient.<br><span style="font-size:0.82em">👍🚩 <i><span style="color:#006400">Debater A agrees</span> but thinks this omits key info</i></span></div><span style="font-size:0.82em">👎 <i>Debater A objects to the idea that these claims refute their argument (main objection)</i></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="hide-on-lockdown" style="font-weight:600;margin-bottom:15px;color:#2c3e50;">
+    Consider each debater's answer to the Key Question. What probability do you assign to each of matching the expert's answer?
+</div>
+<div class="slider-section hide-on-lockdown">
+<div class="slider-labels">
+<span>Debater A matches the expert's answer</span>
+<span>Debater B matches the expert's answer</span>
+</div>
+<div class="slider-wrapper">
+<div class="gradient-bar"></div>
+<input id="credenceSlider" max="99" min="1" type="range" value="50"/>
+</div>
+<div class="percentage-display">
+<span id="labelA">50% probability Debater A matches the expert's answer</span>
+<span id="labelB">50% probability Debater B matches the expert's answer</span>
+</div>
+</div>
+<hr class="hide-on-lockdown"/>
+<div class="input-section hide-on-lockdown">
+<label for="reasonInput" id="dynamicReasonLabel">
+    Please explain why you assign Debater A's answer to the Key Question a 50% probability of matching the expert's answer. Please enumerate ALL relevant reasons, with a brief remark on how much weight you gave to each. For example, if there were two different things you noticed that made you lean toward one debater, and one thing that made you lean towards the other, please list all of these.
+</label>
+<textarea id="reasonInput" placeholder="Enter your reasoning here..."></textarea>
+</div>
+<div class="summary-section">
+<h3 class="summary-header" id="summaryHeader">Your answers (encoded)</h3>
+<div id="summaryText"></div>
+<button class="btn-copy" id="copyBtn">Copy this encoded text</button>
+<div id="pasteInstruction" style="display:none;color:#006400;font-weight:bold;margin-top:10px;">
+    Copied! Please return to the main tab and paste this text in as your answer (using <span id="shortcutKey">Ctrl+V</span> or by right-clicking in the box there and selecting 'Paste').<br/>
+    <span id="gtidLink"></span>
+</div>
+</div>
+<div id="post-lockdown-instruction">
+    Please copy-paste the above into the main tab of the experiment.
+</div>
+</div>
+<script>
+const startTime = new Date().toString();
+const slider = document.getElementById('credenceSlider');
+const labelA = document.getElementById('labelA');
+const labelB = document.getElementById('labelB');
+const dynamicReasonLabel = document.getElementById('dynamicReasonLabel');
+const reasonInput = document.getElementById('reasonInput');
+const summaryText = document.getElementById('summaryText');
+const copyBtn = document.getElementById('copyBtn');
+const timerDisplay = document.getElementById('time-display');
+const timerBar = document.getElementById('timer-bar');
+let summaryProbA = "50%", summaryProbB = "50%", endTime = new Date().toString();
+let timeRemaining = 540, timerActive = true;
+const ENCODING_MAP = ['0','1','2','3','4','5','6','7','8','9','a','B','c','D','e','F'];
+const gtidParam = new URLSearchParams(window.location.search).get('GTID') || 'h419jrn';
+const gtidUrl = 'https://www.guidedtrack.com/programs/' + encodeURIComponent(gtidParam) + '/run';
+document.getElementById('gtidLink').innerHTML = 'If you cannot find the main tab where you need to paste in your answer, or if you accidentally closed it, you can open it again using this link: <a href="' + gtidUrl + '">' + gtidUrl + '</a>';
+updateState(); startTimer();
+slider.addEventListener('input', updateState);
+reasonInput.addEventListener('input', updateSummary);
+copyBtn.addEventListener('click', copyToClipboard);
+function startTimer() {
+    const ti = setInterval(() => {
+        if (!timerActive) { clearInterval(ti); return; }
+        timeRemaining--;
+        const m = Math.floor(timeRemaining/60), s = timeRemaining%60;
+        timerDisplay.innerText = `${m.toString().padStart(2,'0')}:${s.toString().padStart(2,'0')}`;
+        if (timeRemaining < 30) timerBar.classList.add('timer-warning');
+        if (timeRemaining <= 0) { clearInterval(ti); timerActive = false; triggerLockdown(); }
+    }, 1000);
+}
+function triggerLockdown() {
+    document.querySelectorAll('.hide-on-lockdown').forEach(el => el.style.display = 'none');
+    document.getElementById('post-lockdown-instruction').style.display = 'block';
+    updateSummary();
+}
+function updateState() {
+    if (!timerActive) return;
+    const val = parseInt(slider.value);
+    let textA="", textB="", reasonLabel="";
+    const base = " probability of matching the expert's answer. Please enumerate ALL relevant reasons, with a brief remark on how much weight you gave to each. For example, if there were two different things you noticed that made you lean toward one debater, and one thing that made you lean towards the other, please list all of these.";
+    if (val === 0) {
+        textA = "More than 99.5% probability Debater A matches the expert's answer";
+        textB = "Less than 0.5% probability Debater B matches the expert's answer";
+        reasonLabel = "Please explain why you assign Debater A's answer to the Key Question more than a 99.5%" + base;
+        summaryProbA = ">99.5%"; summaryProbB = "<0.5%";
+    } else if (val === 100) {
+        textA = "Less than 0.5% probability Debater A matches the expert's answer";
+        textB = "More than 99.5% probability Debater B matches the expert's answer";
+        reasonLabel = "Please explain why you assign Debater B's answer to the Key Question more than a 99.5%" + base;
+        summaryProbA = "<0.5%"; summaryProbB = ">99.5%";
+    } else {
+        let pB = val, pA = 100-val;
+        textA = `${pA}% probability Debater A matches the expert's answer`;
+        textB = `${pB}% probability Debater B matches the expert's answer`;
+        let dd = (pA >= pB) ? "A" : "B", dp = (pA >= pB) ? pA : pB;
+        reasonLabel = `Please explain why you assign Debater ${dd}'s answer to the Key Question a ${dp}%` + base;
+        summaryProbA = `${pA}%`; summaryProbB = `${pB}%`;
+    }
+    labelA.innerText = textA; labelB.innerText = textB;
+    dynamicReasonLabel.innerText = reasonLabel;
+    updateSummary();
+}
+function updateSummary() {
+    endTime = new Date().toString();
+    const reasoning = reasonInput.value.trim() || "[No reasoning provided]";
+    const plainText = `START TIME
+${startTime}
+
+CREDENCE ASSIGNMENT
+Debater A: ${summaryProbA}
+Debater B: ${summaryProbB}
+
+REASONING
+${reasoning}
+
+END TIME
+${endTime}`;
+    summaryText.innerText = "[ROUND4]" + encodeRobust(plainText) + "[ROUND4]";
+}
+function encodeRobust(str) {
+    let r = ""; const u = unescape(encodeURIComponent(str));
+    for (let i = 0; i < u.length; i++) {
+        const c = u.charCodeAt(i);
+        r += ENCODING_MAP[(c>>4)&0xF] + ENCODING_MAP[c&0xF];
+    }
+    return r;
+}
+function copyToClipboard() {
+    navigator.clipboard.writeText(summaryText.innerText).then(() => {
+        const orig = copyBtn.innerText;
+        copyBtn.innerText = "Copied!";
+        copyBtn.style.backgroundColor = "#28a745";
+        document.getElementById('pasteInstruction').style.display = 'block';
+        setTimeout(() => { copyBtn.innerText = orig; copyBtn.style.backgroundColor = ""; }, 2000);
+    }).catch(err => { console.error('Failed to copy:', err); alert("Failed to copy"); });
+}
+if (navigator.userAgent.indexOf("Mac") !== -1)
+    document.getElementById("shortcutKey").innerText = "Command+V";
+
+// Definition tooltips — positioned to stay within the debate table
+(function() {
+    var tip = null, arrow = null;
+    var table = document.querySelector('.debate-table-card');
+    document.querySelectorAll('.def-link[data-tooltip]').forEach(function(link) {
+        link.addEventListener('mouseenter', function() {
+            if (tip) tip.remove();
+            if (arrow) arrow.remove();
+            tip = document.createElement('div');
+            tip.className = 'def-tooltip';
+            tip.textContent = link.getAttribute('data-tooltip');
+            document.body.appendChild(tip);
+            arrow = document.createElement('div');
+            arrow.className = 'def-tooltip-arrow';
+            document.body.appendChild(arrow);
+
+            var lr = link.getBoundingClientRect();
+            var tr = table ? table.getBoundingClientRect() : { left: 0, right: document.documentElement.clientWidth };
+            var tipW = tip.offsetWidth;
+            var tipH = tip.offsetHeight;
+
+            var top = lr.top + window.scrollY - tipH - 10;
+            tip.style.top = top + 'px';
+
+            var idealLeft = lr.left + window.scrollX + lr.width / 2 - tipW / 2;
+            var minLeft = tr.left + window.scrollX;
+            var maxLeft = tr.right + window.scrollX - tipW;
+            var left = Math.max(minLeft, Math.min(maxLeft, idealLeft));
+            tip.style.left = left + 'px';
+
+            var arrowLeft = lr.left + window.scrollX + lr.width / 2 - 6;
+            arrow.style.top = (lr.top + window.scrollY - 12) + 'px';
+            arrow.style.left = arrowLeft + 'px';
+        });
+        link.addEventListener('mouseleave', function() {
+            if (tip) { tip.remove(); tip = null; }
+            if (arrow) { arrow.remove(); arrow = null; }
+        });
+    });
+})();
+
+// ── Arrows from continuing claims to the next row ───────────────
+window.addEventListener('load', function() {
+    var card = document.querySelector('.debate-table-card');
+    if (!card) return;
+    var conts = card.querySelectorAll('.continuing-claim');
+    if (!conts.length) return;
+
+    card.style.position = 'relative';
+
+    var ns = 'http://www.w3.org/2000/svg';
+    var svg = document.createElementNS(ns, 'svg');
+    svg.style.cssText = 'position:absolute;top:0;left:0;width:100%;height:100%;'
+                       + 'pointer-events:none;overflow:visible;';
+
+    // Arrowhead markers — one per speaker × direction combination
+    var defs = document.createElementNS(ns, 'defs');
+    var colors = { 'speaker-a': '#C4A000', 'speaker-b': '#9B7DC4' };
+    ['speaker-a','speaker-b'].forEach(function(spk) {
+        [['right','0 0, 10 4, 0 8','10'],
+         ['left', '10 0, 0 4, 10 8','0']
+        ].forEach(function(cfg) {
+            var mk = document.createElementNS(ns, 'marker');
+            mk.setAttribute('id', 'ah-' + cfg[0] + '-' + spk);
+            mk.setAttribute('markerWidth', '10');
+            mk.setAttribute('markerHeight', '8');
+            mk.setAttribute('refX', cfg[2]);
+            mk.setAttribute('refY', '4');
+            var p = document.createElementNS(ns, 'polygon');
+            p.setAttribute('points', cfg[1]);
+            p.setAttribute('fill', colors[spk]);
+            mk.appendChild(p);
+            defs.appendChild(mk);
+        });
+    });
+    svg.appendChild(defs);
+    card.appendChild(svg);
+
+    var cardRect = card.getBoundingClientRect();
+
+    conts.forEach(function(claim) {
+        var side = claim.getAttribute('data-arrow-side');
+        var spk = claim.getAttribute('data-arrow-speaker');
+        var td = claim.closest('td');
+        var tr = td.closest('tr');
+        var nextTr = tr.nextElementSibling;
+        if (!nextTr) return;
+
+        var colIdx = Array.from(tr.children).indexOf(td);
+        var targetTd = nextTr.children[colIdx];
+        if (!targetTd) return;
+
+        var cr = claim.getBoundingClientRect();
+        var tgt = targetTd.getBoundingClientRect();
+        var color = colors[spk] || '#888';
+        // Debater A: 30px, Debater B: 36px from table edge
+        var gap = spk === 'speaker-b' ? 36 : 30;
+
+        var sx, sy, ex, ey, ox, d, mkr;
+        sy = cr.top + cr.height / 2 - cardRect.top;
+        ey = tgt.top + tgt.height / 2 - cardRect.top;
+
+        if (side === 'left') {
+            sx = cr.left - cardRect.left;
+            ox = -gap;
+            ex = tgt.left - cardRect.left;
+            d = 'M'+sx+' '+sy+' H'+ox+' V'+ey+' H'+ex;
+            mkr = 'url(#ah-right-' + spk + ')';
+        } else {
+            sx = cr.right - cardRect.left;
+            ox = cardRect.width + gap;
+            ex = tgt.right - cardRect.left;
+            d = 'M'+sx+' '+sy+' H'+ox+' V'+ey+' H'+ex;
+            mkr = 'url(#ah-left-' + spk + ')';
+        }
+
+        var path = document.createElementNS(ns, 'path');
+        path.setAttribute('d', d);
+        path.setAttribute('fill', 'none');
+        path.setAttribute('stroke', color);
+        path.setAttribute('stroke-width', '2');
+        path.setAttribute('marker-end', mkr);
+        svg.appendChild(path);
+    });
+});
+</script>
+</body>
+</html>

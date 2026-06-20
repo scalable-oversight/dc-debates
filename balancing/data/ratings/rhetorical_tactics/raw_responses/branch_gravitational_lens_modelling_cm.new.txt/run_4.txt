@@ -1,0 +1,121 @@
+I'll analyze each turn for rhetorical or persuasive tactics, then provide ratings.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+The opening simply states the model being defended with a citation. It describes the system (two deflectors, one AGN, six lensed images) without loaded language, emotional appeals, or framing devices. Purely descriptive and substantive.
+*Tactics identified: None.*
+**Rating: 1**
+
+---
+
+**2. Debater B: [Argument 1]**
+Claim 1 uses "on closer inspection" which is a mild framing device suggesting the opponent's model doesn't withstand scrutiny — implying superficiality without explicitly arguing it. The word "overfit" is a technical term but also functions as a loaded label. "mainly due to the various modeling decisions" is somewhat vague. Claim 2 is a straightforward factual observation about missing chi-squared reporting. Overall, minor framing in Claim 1, but substantive content dominates.
+*Tactics: Mild loaded framing ("on closer inspection," "overfit"), vague attribution.*
+**Rating: 2**
+
+---
+
+**3. Debater A: [Response 1]**
+Both claims are factual, technical statements about why model complexity is justified (second deflector proximity to optical axis; galaxy positions improving mass distribution modeling). No loaded language, emotional appeals, or rhetorical devices detected.
+*Tactics: None.*
+**Rating: 1**
+
+---
+
+**4. Debater B: [Argument 2]**
+Claim 1 uses "This fails to reveal that..." — the phrase "fails to reveal" is a mild accusatory framing, implying the opponent deliberately concealed information. This is a slight rhetorical device suggesting bad faith. Claim 2 ("enormous degree of modelling flexibility") uses somewhat loaded intensifier language ("enormous"). Otherwise the argument is substantive.
+*Tactics: Mild accusatory framing ("fails to reveal"), intensifier language ("enormous").*
+**Rating: 2**
+
+---
+
+**5. Debater A: [Response 2]**
+Claim 1 ("A simpler model is not necessarily a correct model") is a general philosophical principle used as a rhetorical counter without direct engagement with the specific overfitting concern — it deflects rather than directly addresses. This functions somewhat as a straw-man rebuttal by implying Debater B's argument equates simplicity with correctness, which wasn't the precise claim. Claim 2 is a technical factual rebuttal. Mild rhetorical deflection in Claim 1.
+*Tactics: Mild deflection/implicit straw-man in Claim 1.*
+**Rating: 2**
+
+---
+
+**6. Debater B: [Argument 3]**
+Both claims are technical and substantive — explaining that constraints don't fix parameters fully and that galaxy positions/redshifts introduce additional freedom. No rhetorical devices detected.
+*Tactics: None.*
+**Rating: 1**
+
+---
+
+**7. Debater A: [Response 3]**
+Both claims cite specific instruments (NIRSpec spectroscopy, Hubble Space Telescope) with specific precision claims. This is an appeal to authority in the sense of citing prestigious instruments to lend credibility, but this is a normal and appropriate form of scientific evidence citation. The mention of "quite tight constraints" is a mild evaluative framing. Overall very substantive.
+*Tactics: Very minor appeal to instrument authority, minor evaluative language ("quite tight").*
+**Rating: 1**
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+Simply states the model being defended with citation and describes the correspondence between images and AGN. Purely descriptive, no rhetorical devices.
+*Tactics: None.*
+**Rating: 1**
+
+---
+
+**9. Debater A: [Argument 1]**
+Claim 1 uses "we would normally expect" — an appeal to convention/normalcy that frames the absence of host galaxies as a problem without fully arguing why the expectation must hold. "Normally" functions as a soft appeal to common expectation. Claim 2 is a factual, substantive observation about light curves and redshifts. Mild rhetorical framing in Claim 1.
+*Tactics: Mild appeal to convention ("normally expect").*
+**Rating: 2**
+
+---
+
+**10. Debater B: [Response 1]**
+Both claims are technical and specific (size constraints, magnification effects on detectability). Straightforward substantive rebuttals grounded in observational parameters.
+*Tactics: None.*
+**Rating: 1**
+
+---
+
+**11. Debater A: [Argument 2]**
+Claim 1 is a factual statement about dual AGN origins. Claim 2 uses "directly against your hypothesis" — this is pointed but substantive framing. The phrase "directly against" is moderately forceful framing language. The reference to observational bias in AGN-host dwarf galaxies is substantive. Slightly adversarial framing but largely substantive.
+*Tactics: Minor adversarial framing ("directly against your hypothesis").*
+**Rating: 2**
+
+---
+
+**12. Debater B: [Response 2]**
+Both claims are factual and technical — noting the limited redshift range of existing studies and arguing representativeness. No rhetorical devices.
+*Tactics: None.*
+**Rating: 1**
+
+---
+
+**13. Debater A: [Argument 3]**
+Claim 1 uses "most plausible morphology" — "most plausible" is an evaluative framing device that presupposes a hierarchy of plausibility without fully justifying it. Claim 2 uses "remains very low" for probability — this is a probabilistic assertion that functions as burden-shifting without providing quantitative backing. "Remains very low" is a loaded evaluative phrase. Slightly more rhetorical than most turns.
+*Tactics: Evaluative framing ("most plausible"), unquantified probability claim functioning as burden-shifting ("remains very low").*
+**Rating: 2**
+
+---
+
+**14. Debater B: [Response 3]**
+Both claims are factual and technical (high-z galaxy compactness, dual-AGN feedback quenching). Claim 2 ends with "especially at high z" which is a mild appeal to the specific context being favorable. Overall substantive.
+*Tactics: Very minor contextual emphasis ("especially at high z").*
+**Rating: 1**
+
+---
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[1]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[1]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[1]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[1]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[1]]

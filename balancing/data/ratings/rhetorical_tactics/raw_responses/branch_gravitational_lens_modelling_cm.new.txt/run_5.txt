@@ -1,0 +1,107 @@
+I'll analyze each turn for rhetorical or persuasive tactics, then provide ratings.
+
+---
+
+**Left Side**
+
+**1. Debater A: [Opening]**
+The opening is a straightforward description of the Einstein zig-zag lens model, citing a source and describing its components. No appeals to emotion, loaded language, or persuasive framing. Pure factual claim.
+**Rating: 1**
+
+---
+
+**2. Debater B: [Argument 1]**
+Claim 1 uses "on closer inspection" which implies the opponent's position was superficially presented — a mild framing device suggesting carelessness. "Overfit" and "various modeling decisions" carry a slightly dismissive tone. Claim 2 is straightforward, pointing to a missing metric. Overall, mostly substantive with one mild framing device.
+**Rating: 2**
+
+---
+
+**3. Debater A: [Response 1]**
+Both claims are direct, substantive statements about the effect of mass profiles and galaxy positions on modeling. No rhetorical devices detected. Straightforward technical reasoning.
+**Rating: 1**
+
+---
+
+**4. Debater B: [Argument 2]**
+Claim 1 uses contrast ("30 total parameters, compared to 12") as a rhetorical framing device to make the opponent's model seem excessive. "Enormous degree of modelling flexibility" in Claim 2 uses loaded language to imply excess. "Overfitting" is a technical term but also functions as a persuasive label. The emphasis on stark numerical comparison is a persuasive technique. Still has substantive content but rhetorical framing is noticeable.
+**Rating: 2**
+
+---
+
+**5. Debater A: [Response 2]**
+Claim 1 ("A simpler model is not necessarily a correct model") is a general philosophical counter-principle, somewhat deflecting the specific criticism rather than addressing it directly — a mild burden-shifting tactic. Claim 2 is a substantive rebuttal about partial constraints. The first claim functions slightly rhetorically as a general truism to counter without fully engaging.
+**Rating: 2**
+
+---
+
+**6. Debater B: [Argument 3]**
+Both claims are substantive technical points: constraints introduce their own errors (Claim 1), and parameters can still vary (Claim 2). No significant rhetorical devices. Direct technical engagement.
+**Rating: 1**
+
+---
+
+**7. Debater A: [Response 3]**
+Both claims cite specific instruments (NIRSpec, HST) and specific precision levels ("sub-arcsecond precision"). Appeals to named prestigious instruments could function mildly as appeals to authority, but they are substantively relevant technical points. Mostly straightforward.
+**Rating: 2**
+
+---
+
+**Right Side**
+
+**8. Debater B: [Opening]**
+Straightforward description of the dual-AGN model with source citation. No rhetorical devices. Pure factual claim.
+**Rating: 1**
+
+---
+
+**9. Debater A: [Argument 1]**
+Claim 1 uses "we would normally expect" — an appeal to convention/expert consensus that subtly frames the opponent's model as abnormal. Claim 2 uses contrast (same light curves vs. 6 kpc separation) to highlight apparent contradiction. The phrase "But C. S. M. et al. claim" introduces a mild framing of implausibility. Mostly substantive but with some framing.
+**Rating: 2**
+
+---
+
+**10. Debater B: [Response 1]**
+Both claims are specific technical rebuttals about detection limits based on parsec-scale constraints and magnification. The reasoning is direct and factual. No significant rhetorical devices.
+**Rating: 1**
+
+---
+
+**11. Debater A: [Argument 2]**
+Claim 1 is a factual statement about dual AGN origins. Claim 2 uses "directly against your hypothesis" — an emphatic framing that slightly overstates the force of the evidence. "Biased towards late-type with low merger rates" is a technical point but "directly against" is a rhetorical intensifier. Minor rhetorical emphasis.
+**Rating: 2**
+
+---
+
+**12. Debater B: [Response 2]**
+Both claims are substantive technical points about redshift bias in AGN-host studies. Straightforward factual rebuttals with no significant rhetorical devices.
+**Rating: 1**
+
+---
+
+**13. Debater A: [Argument 3]**
+Claim 1 uses "still going to be" which asserts probability somewhat assertively without full justification. Claim 2 uses "remains very low" — a probability claim that functions as a persuasive assertion without quantification. "Even conditioned on" is a technical phrase that slightly implies the opponent's concession weakens their case. Some burden-shifting and unquantified probability claims, but still largely substantive.
+**Rating: 2**
+
+---
+
+**14. Debater B: [Response 3]**
+Both claims are substantive technical points about high-z galaxy compactness and dual-AGN feedback. Claim 2 ends with "especially at high z" which slightly emphasizes the point rhetorically, but both claims are largely factual. Minor rhetorical emphasis.
+**Rating: 1**
+
+---
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[1]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[2]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[1]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[1]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[1]]

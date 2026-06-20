@@ -1,0 +1,407 @@
+{
+  "nextId": 39,
+  "root": {
+    "id": 0,
+    "text": "What is the best theoretical model to describe this system? <br><img src='images/astrophysical_system.png'/>",
+    "debater": "questioner",
+    "level": 0,
+    "parentId": null,
+    "honest_response": "",
+    "dishonest_response": "",
+    "children": [
+      {
+        "id": 1,
+        "text": "The <a xdef=\"einstein_zig_zag_lens\">Einstein zig-zag lens</a> model (<ref id=\"fd_et_al\"/>) with two deflectors (white galaxy and red galaxy behind it) at different <a xdef=\"redshift\">redshifts</a>, and one <a xdef=\"agn\">AGN</a> which produces 6 lensed images after being lensed by both deflectors.",
+        "debater": "honest",
+        "level": 1,
+        "parentId": 0,
+        "honest_response": "Yes",
+        "dishonest_response": "No (main objection)",
+        "children": [
+          {
+            "id": 2,
+            "text": "The model is overfit, due to the modeling decisions made for the second deflector and the galaxies in the first deflector's plane.",
+            "debater": "dishonest",
+            "level": 2,
+            "parentId": 1,
+            "honest_response": "No (main objection)",
+            "dishonest_response": "Yes",
+            "children": [
+              {
+                "id": 3,
+                "text": "The mass profile of the second deflector will have a significant effect on the modelling when it is close to the optical axis.",
+                "debater": "honest",
+                "level": 3,
+                "parentId": 2,
+                "honest_response": "Yes",
+                "dishonest_response": "Yes but omits key info",
+                "children": []
+              },
+              {
+                "id": 4,
+                "text": "Taking galaxy positions into account allows one to more accurately model a more complex mass distribution than a simple <a xdef=\"shear\">shear</a>.",
+                "debater": "honest",
+                "level": 3,
+                "parentId": 2,
+                "honest_response": "Yes",
+                "dishonest_response": "Yes but omits key info",
+                "children": []
+              },
+              {
+                "id": 5,
+                "text": "Therefore, you should reject [2].",
+                "debater": "honest",
+                "level": 3,
+                "parentId": 2,
+                "honest_response": "Yes",
+                "dishonest_response": "No (main objection)",
+                "children": [
+                  {
+                    "id": 6,
+                    "text": "This fails to reveal that the model has 30 total parameters, compared to 12 parameters used in other work.",
+                    "debater": "dishonest",
+                    "level": 4,
+                    "parentId": 5,
+                    "honest_response": "Yes",
+                    "dishonest_response": "Yes",
+                    "children": []
+                  },
+                  {
+                    "id": 7,
+                    "text": "This provides an enormous degree of modelling flexibility and results in overfitting.",
+                    "debater": "dishonest",
+                    "level": 4,
+                    "parentId": 5,
+                    "honest_response": "No (main objection)",
+                    "dishonest_response": "Yes",
+                    "children": [
+                      {
+                        "id": 8,
+                        "text": "A simpler model is not necessarily a correct model.",
+                        "debater": "honest",
+                        "level": 5,
+                        "parentId": 7,
+                        "honest_response": "Yes",
+                        "dishonest_response": "Yes but omits key info",
+                        "children": []
+                      },
+                      {
+                        "id": 9,
+                        "text": "15 parameters in our model are partially constrained, which cannot be considered full degrees of freedom.",
+                        "debater": "honest",
+                        "level": 5,
+                        "parentId": 7,
+                        "honest_response": "Yes",
+                        "dishonest_response": "Yes but omits key info",
+                        "children": []
+                      },
+                      {
+                        "id": 10,
+                        "text": "Therefore, you should reject [7].",
+                        "debater": "honest",
+                        "level": 5,
+                        "parentId": 7,
+                        "honest_response": "Yes",
+                        "dishonest_response": "No (main objection)",
+                        "children": [
+                          {
+                            "id": 11,
+                            "text": "Constraints don't fix them in place: they are determined via different models that come with their own errors.",
+                            "debater": "dishonest",
+                            "level": 6,
+                            "parentId": 10,
+                            "honest_response": "Yes",
+                            "dishonest_response": "Yes",
+                            "children": []
+                          },
+                          {
+                            "id": 12,
+                            "text": "All galaxy positions and redshifts except the main deflector can vary considerably, adding more freedom to an already complex model.",
+                            "debater": "dishonest",
+                            "level": 6,
+                            "parentId": 10,
+                            "honest_response": "No (main objection)",
+                            "dishonest_response": "Yes",
+                            "children": [
+                              {
+                                "id": 13,
+                                "text": "NIRSpec spectroscopy provides tight constraints for the second deflector's redshift independent of the lens model.",
+                                "debater": "honest",
+                                "level": 7,
+                                "parentId": 12,
+                                "honest_response": "Yes",
+                                "dishonest_response": "Yes but omits key info",
+                                "children": []
+                              },
+                              {
+                                "id": 14,
+                                "text": "HST imaging constrains positions to sub-arcsecond precision.",
+                                "debater": "honest",
+                                "level": 7,
+                                "parentId": 12,
+                                "honest_response": "Yes",
+                                "dishonest_response": "Yes but omits key info",
+                                "children": []
+                              },
+                              {
+                                "id": 15,
+                                "text": "Therefore, you should reject [12].",
+                                "debater": "honest",
+                                "level": 7,
+                                "parentId": 12,
+                                "honest_response": "Yes",
+                                "dishonest_response": "No (main objection)",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "id": 16,
+                            "text": "Therefore, you should reject [10].",
+                            "debater": "dishonest",
+                            "level": 6,
+                            "parentId": 10,
+                            "honest_response": "",
+                            "dishonest_response": "Yes",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": 17,
+                    "text": "Therefore, you should reject [5].",
+                    "debater": "dishonest",
+                    "level": 4,
+                    "parentId": 5,
+                    "honest_response": "",
+                    "dishonest_response": "Yes",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "text": "Also, F. D. et al. do not quantify or report chi-squared error, an important index of image reconstruction error.",
+            "debater": "dishonest",
+            "level": 2,
+            "parentId": 1,
+            "honest_response": "Yes",
+            "dishonest_response": "Yes",
+            "children": []
+          },
+          {
+            "id": 19,
+            "text": "Therefore, you should reject [1].",
+            "debater": "dishonest",
+            "level": 2,
+            "parentId": 1,
+            "honest_response": "",
+            "dishonest_response": "Yes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "text": "The <a xdef=\"gravitational_lensing\">gravitationally lensed</a> dual-<a xdef=\"agn\">AGN</a> model (<ref id=\"csm_et_al\"/>), with the first AGN corresponding to the four brightest images and the second AGN corresponding to the two dim images next to the extended red arcs.",
+        "debater": "dishonest",
+        "level": 1,
+        "parentId": 0,
+        "honest_response": "No (main objection)",
+        "dishonest_response": "Yes",
+        "children": [
+          {
+            "id": 21,
+            "text": "If true, we would normally expect to see a host galaxy for each of the two sets of point sources.",
+            "debater": "honest",
+            "level": 2,
+            "parentId": 20,
+            "honest_response": "Yes",
+            "dishonest_response": "No (main objection)",
+            "children": [
+              {
+                "id": 22,
+                "text": "A dwarf host galaxy of <400 <a xdef=\"pc\">pc</a> (constrained by the brightest image for the first <a xdef=\"agn\">AGN</a>) would likely remain undetected in the HST imaging.",
+                "debater": "dishonest",
+                "level": 3,
+                "parentId": 21,
+                "honest_response": "Yes but omits key info",
+                "dishonest_response": "Yes",
+                "children": []
+              },
+              {
+                "id": 23,
+                "text": "Since the magnification of the images of the second <a xdef=\"agn\">AGN</a> is lower, an even larger extended component might be undetected.",
+                "debater": "dishonest",
+                "level": 3,
+                "parentId": 21,
+                "honest_response": "Yes but omits key info",
+                "dishonest_response": "Yes",
+                "children": []
+              },
+              {
+                "id": 24,
+                "text": "Therefore, you should reject [21].",
+                "debater": "dishonest",
+                "level": 3,
+                "parentId": 21,
+                "honest_response": "No (main objection)",
+                "dishonest_response": "Yes",
+                "children": [
+                  {
+                    "id": 25,
+                    "text": "Dual AGN are often results of a merger between two or more galaxies.",
+                    "debater": "honest",
+                    "level": 4,
+                    "parentId": 24,
+                    "honest_response": "Yes",
+                    "dishonest_response": "Yes",
+                    "children": []
+                  },
+                  {
+                    "id": 26,
+                    "text": "Observed AGN-host dwarf galaxies are more likely to be late-type galaxies with low merger rates, going against your hypothesis.",
+                    "debater": "honest",
+                    "level": 4,
+                    "parentId": 24,
+                    "honest_response": "Yes",
+                    "dishonest_response": "No (main objection)",
+                    "children": [
+                      {
+                        "id": 27,
+                        "text": "AGN-host dwarf galaxies have mainly been studied at very low redshifts.",
+                        "debater": "dishonest",
+                        "level": 5,
+                        "parentId": 26,
+                        "honest_response": "Yes but omits key info",
+                        "dishonest_response": "Yes",
+                        "children": []
+                      },
+                      {
+                        "id": 28,
+                        "text": "Low redshift galaxies are not a representative population for this object.",
+                        "debater": "dishonest",
+                        "level": 5,
+                        "parentId": 26,
+                        "honest_response": "Yes but omits key info",
+                        "dishonest_response": "Yes",
+                        "children": []
+                      },
+                      {
+                        "id": 29,
+                        "text": "Therefore, you should reject [26].",
+                        "debater": "dishonest",
+                        "level": 5,
+                        "parentId": 26,
+                        "honest_response": "No (main objection)",
+                        "dishonest_response": "Yes",
+                        "children": [
+                          {
+                            "id": 30,
+                            "text": "The most plausible morphology for a dwarf host is still a quiescent galaxy <400 pc wide but massive enough to host AGN.",
+                            "debater": "honest",
+                            "level": 6,
+                            "parentId": 29,
+                            "honest_response": "Yes",
+                            "dishonest_response": "Yes",
+                            "children": []
+                          },
+                          {
+                            "id": 31,
+                            "text": "The probability of a merger-driven dual AGN system with these host properties remains very low, even conditioned on Debater B Response 2 Claim 1.",
+                            "debater": "honest",
+                            "level": 6,
+                            "parentId": 29,
+                            "honest_response": "Yes",
+                            "dishonest_response": "No (main objection)",
+                            "children": [
+                              {
+                                "id": 32,
+                                "text": "High redshift galaxies can be far more compact than low redshift galaxies of similar mass.",
+                                "debater": "dishonest",
+                                "level": 7,
+                                "parentId": 31,
+                                "honest_response": "Yes but omits key info",
+                                "dishonest_response": "Yes",
+                                "children": []
+                              },
+                              {
+                                "id": 33,
+                                "text": "Dual-AGN feedback can rapidly quench star formation. Compactness and quiescence are not mutually exclusive, especially at high z.",
+                                "debater": "dishonest",
+                                "level": 7,
+                                "parentId": 31,
+                                "honest_response": "Yes but omits key info",
+                                "dishonest_response": "Yes",
+                                "children": []
+                              },
+                              {
+                                "id": 34,
+                                "text": "Therefore, you should reject [31].",
+                                "debater": "dishonest",
+                                "level": 7,
+                                "parentId": 31,
+                                "honest_response": "No (main objection)",
+                                "dishonest_response": "Yes",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "id": 35,
+                            "text": "Therefore, you should reject [29].",
+                            "debater": "honest",
+                            "level": 6,
+                            "parentId": 29,
+                            "honest_response": "Yes",
+                            "dishonest_response": "",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": 36,
+                    "text": "Therefore, you should reject [24].",
+                    "debater": "honest",
+                    "level": 4,
+                    "parentId": 24,
+                    "honest_response": "Yes",
+                    "dishonest_response": "",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "text": "Light curves for all 6 lensed images display the same variations with brief offsets (e.g. 35 days between D and E), and the same redshifts. C. S. M. et al. posit AGN 6 kiloparsecs apart.",
+            "debater": "honest",
+            "level": 2,
+            "parentId": 20,
+            "honest_response": "Yes",
+            "dishonest_response": "Yes",
+            "children": []
+          },
+          {
+            "id": 38,
+            "text": "Therefore, you should reject [20].",
+            "debater": "honest",
+            "level": 2,
+            "parentId": 20,
+            "honest_response": "Yes",
+            "dishonest_response": "",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "defs_and_sources": "<defs>\n  <def id=\"gravitational_lensing\">Gravitational lensing - An astrophysical phenomenon where a massive galaxy present in between the observer and the source bends light being emitted by the source, such that the observer sees distorted (weakly lensed) or multiple (strongly lensed) images of the same source.</def>\n\n  <def id=\"einstein_zig_zag_lens\">Einstein zig-zag lens - A gravitational lens system with two lenses, where two light rays from the source cross the optical path between the lenses.</def>\n\n  <def id=\"agn\">AGN - Active Galactic Nuclei are galaxies with an actively accreting (consuming matter) supermassive black hole (SMBH) at their center. The matter forms a very bright (one of the brightest phenomena in the universe) accretion disc as it spirals into the SMBH. An AGN might also contain twin jets of gas and dust ejected from the center of the galaxy that can rival the galaxy's own size. High redshift AGN are often referred to as quasars.</def>\n\n  <def id=\"redshift\">Redshift (denoted by z) - As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift => object is further away => we are looking further back in time as we are seeing light that left the object millions or billions of years ago.</def>\n\n  <def id=\"flux\">Flux - Amount of light captured by the camera. Higher flux results in a brighter image.</def>\n\n  <def id=\"def_5\">SIS/SIE/PEMD: All of these are separate models for the mass distribution in a galaxy. SIS is the simplest model for a spherical galaxy where mass falls off by a power of 2. SIE adds two parameters to SIS for ellipticity. PEMD adds one additional parameter to SIE for the slope of the mass distribution power law.</def>\n\n  <def id=\"shear\">Shear - Adds two parameters to add ellipticity to any model without having to align it with the elliptical shape of the galaxy observed in the optical data. This is usually used if the lens is a part of a cluster, or to describe galaxies using an SIS+shear model instead of an SIE. An SIE+shear model is usually used to model an elliptical galaxy in a cluster to model angular properties from the lens galaxy and uncorrelated angular properties from surrounding matter.</def>\n\n  <def id=\"recoil\">Recoil - Merging black holes release a massive amount of energy in the form of gravitational waves, and this can happen anisotropically, kicking the resulting black hole in a direction opposite to the released gravitational waves. This kick is stronger in systems with more asymmetry in the sizes of the merging black holes.</def>\n\n  <def id=\"pc\">Parsecs (pc) and kiloparsecs (kpc) - Units of distance used in astrophysics. 1 pc is approximately 3.26 light years. 1 kpc is approximately 3,260 light-years, that is, it takes light about 3,260 years to cross 1 kpc.</def>\n</defs>\n\n<sources>\n  <ref id=\"fd_et_al\"\n       quote=\"Year and title blinded from debate judges.\"\n       author=\"F. D. et al.\"/>\n\n  <ref id=\"csm_et_al\"\n       quote=\"Year and title blinded from debate judges.\"\n       author=\"C. S. M. et al.\"/>\n</sources>"
+}

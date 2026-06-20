@@ -1,0 +1,64 @@
+
+######################################################################
+# End-state (logit s4)
+######################################################################
+
+--- End-state (logit s4): REML fit on observed data (novice subset) ---
+  Fixed effects (GLS at optimum):
+    beta_intercept    = +0.111
+    beta_order        = -0.138
+    beta_I(astro)     = +0.475
+    beta_I(coding)    = -0.486
+  Variance components:
+    SD(question   ) = 0.188   var share =   2.1%
+    SD(variant    ) = 0.647   var share =  24.3%
+    SD(participant) = 0.555   var share =  17.9%
+    SD(residual)   = 0.980   var share =  55.8%
+  Planning quantities:
+    tau_marginal      = sqrt(var_q + var_v) = 0.674
+    tau_variant_only  = sqrt(var_v)         = 0.647
+    sigma             = sqrt(var_p + var_r) = 1.126
+    tau_marginal / sigma = 0.598  (SNR per single judge)
+
+--- Bootstrap distribution of variance components (End-state (logit s4), n=500 draws) ---
+parameter                 mean      SE       5%     50%     95%
+-----------------------------------------------------------------
+sd_question              0.223   0.258    0.000   0.080   0.684
+sd_variant               0.511   0.285    0.000   0.561   0.891
+sd_participant           0.510   0.249    0.000   0.543   0.871
+sd_residual              0.963   0.122    0.753   0.975   1.149
+tau_marginal             0.635   0.234    0.228   0.664   0.969
+tau_variant_only         0.511   0.285    0.000   0.561   0.891
+sigma                    1.117   0.124    0.911   1.112   1.319
+
+######################################################################
+# Update (logit s4 - logit s1)
+######################################################################
+
+--- Update (logit s4 - logit s1): REML fit on observed data (novice subset) ---
+  Fixed effects (GLS at optimum):
+    beta_intercept    = +0.100
+    beta_order        = -0.102
+    beta_I(astro)     = +0.384
+    beta_I(coding)    = -0.576
+  Variance components:
+    SD(question   ) = 0.000   var share =   0.0%
+    SD(variant    ) = 0.561   var share =  24.7%
+    SD(participant) = 0.502   var share =  19.8%
+    SD(residual)   = 0.840   var share =  55.5%
+  Planning quantities:
+    tau_marginal      = sqrt(var_q + var_v) = 0.561
+    tau_variant_only  = sqrt(var_v)         = 0.561
+    sigma             = sqrt(var_p + var_r) = 0.979
+    tau_marginal / sigma = 0.573  (SNR per single judge)
+
+--- Bootstrap distribution of variance components (Update (logit s4 - logit s1), n=500 draws) ---
+parameter                 mean      SE       5%     50%     95%
+-----------------------------------------------------------------
+sd_question              0.139   0.195    0.000   0.000   0.524
+sd_variant               0.451   0.237    0.000   0.490   0.799
+sd_participant           0.464   0.215    0.000   0.489   0.774
+sd_residual              0.826   0.106    0.646   0.836   0.996
+tau_marginal             0.525   0.203    0.136   0.555   0.809
+tau_variant_only         0.451   0.237    0.000   0.490   0.799
+sigma                    0.972   0.110    0.797   0.966   1.149

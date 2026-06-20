@@ -1,0 +1,73 @@
+I'll analyze each turn for confidence signals, then provide ratings.
+
+**1. Debater A: [Opening] (Left)**
+"Y is larger." — Completely unhedged, no qualifiers, a flat declarative statement.
+**Rating: 5**
+
+**2. Debater B: [Argument 1] (Left)**
+"effectively turns the D6 into a D3" — "effectively" is a mild qualifier but still assertive. "is harder (requires more rolls)" — stated as fact with no hedging. Overall very confident.
+**Rating: 5**
+
+**3. Debater A: [Response 1] (Left)**
+"The expected number of rolls to first 6 for such a D3 is 3." — definitive. "it's not true that the condition effectively turns the D6 to a D3" — direct refutation, assertive. No hedging language.
+**Rating: 5**
+
+**4. Debater B: [Argument 2] (Left)**
+"specifies that... for the purposes of this question" — assertive framing. "is a separate, irrelevant question" — definitive. "It is irrelevant because..." — confident causal claim. No hedging.
+**Rating: 5**
+
+**5. Debater A: [Response 2] (Left)**
+"It is relevant for showing why..." — assertive. "It would be strange if..." — uses "would be strange" which is a mild hedge/rhetorical device rather than direct assertion. Slightly less forceful.
+**Rating: 4**
+
+**6. Debater B: [Argument 3] (Left)**
+"is a fundamentally different quantity" — strong, definitive. "what counts is how often 6 turns up versus non-6 — non-6 is twice as likely here" — stated as fact, no hedging.
+**Rating: 5**
+
+**7. Debater A: [Response 3] (Left)**
+"X depends on adjacent 6s, while Y depends on where the second 6 occurs" — factual, definitive. "e.g. '626' stops Y at roll 3 but doesn't stop X" — concrete example, confident. "So order, not only relative frequency, is part of the stopping rule and affects the conditional expectation." — "so" signals logical conclusion, no hedging.
+**Rating: 5**
+
+**8. Debater B: [Opening] (Right)**
+"X is larger." — Completely unhedged, flat declarative.
+**Rating: 5**
+
+**9. Debater A: [Argument 1] (Right)**
+"normally requiring a much longer run" — "normally" is a mild qualifier. "so X's probability mass is squeezed onto its short, lucky runs much more so than Y's" — confident but uses "so" (logical deduction). Mostly assertive with minor hedging.
+**Rating: 4**
+
+**10. Debater B: [Response 1] (Right)**
+"applies to both X and Y" — definitive. "X's stopping condition is strictly harder" — "strictly" is emphatic. "X's distribution is dominated by long sequences" — definitive. No hedging.
+**Rating: 5**
+
+**11. Debater A: [Argument 2] (Right)**
+"is true, but affects X more because you'll nearly always roll an odd before getting two 6s" — "nearly always" is a qualifier but the overall claim is confident. "is a false statement that does not follow from it" — very assertive dismissal.
+**Rating: 5**
+
+**12. Debater B: [Response 2] (Right)**
+"Y is affected similarly" — "similarly" is slightly softening. "you will also nearly always roll an odd" — "nearly always" is hedging. "just as harshly" — comparative but assertive. "is therefore similar" — "therefore" logical, but "similar" is somewhat hedged. Mixed hedging.
+**Rating: 4**
+
+**13. Debater A: [Argument 3] (Right)**
+"61% of X sequences stop at roll 2" — precise numerical claim, very confident. "81% of X sequences have stopped" — definitive. "This suggests that X is more likely than Y to stop extremely early." — "suggests" is a hedge, lowering confidence slightly.
+**Rating: 4**
+
+**14. Debater B: [Response 3] (Right)**
+"does not determine the overall weighting" — definitive. "The tails of the two distributions matter as well" — assertive. "the full computation yields X as the larger of the two values" — very confident, definitive claim.
+**Rating: 5**
+
+RATINGS:
+A | Opening | [[5]]
+B | Argument 1 | [[5]]
+A | Response 1 | [[5]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[4]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[5]]
+B | Opening | [[5]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[5]]
+A | Argument 2 | [[5]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[5]]

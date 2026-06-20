@@ -1,0 +1,131 @@
+I'll analyze each turn for professionalism, considering language, structure, tone, and appropriateness for a formal context.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"Y is larger."
+
+This is extremely terse — a two-word answer with no elaboration, framing, or structure. While brevity can be appropriate, this reads as minimally prepared. It functions as a position statement but offers nothing beyond the bare claim.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: Effective D3 equivalence. Claim 2: Getting two 6s in a row is harder on a D3.
+
+Clear, logical structure. The language is clean and appropriately formal ("effectively turns," "for purposes of this question"). The argument is concise and well-framed. Minor informality in "harder" but overall polished.
+**Rating: 4**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: Expected rolls to first 6 on D3 is 3. Claim 2: Expected rolls to first 6 on D6 given all-even is 3/2, so the equivalence doesn't hold.
+
+Reasonably structured. "So it's not true that" is slightly informal but functional. The argument is coherent and the language is mostly appropriate. A bit blunt but not unprofessional.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: The D3 equivalence was specified for this question; the first-6 question is irrelevant. Claim 2: It's irrelevant because this question involves two 6s.
+
+The word "irrelevant" is used twice, which feels slightly repetitive and mildly dismissive. The phrase "a separate, irrelevant question" is functional but could be more diplomatically framed. The structure is clear but the tone is a touch blunt.
+**Rating: 3**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: It is relevant for showing why the equivalence doesn't work. Claim 2: "It would be strange if…"
+
+"It would be strange if" is somewhat informal and colloquial for a formal debate context. The argument is logical but the phrasing undermines professionalism slightly. The structure is adequate.
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "Expected number of rolls to first 6" is fundamentally different. Claim 2: With one 6, each roll's odds matter on their own; with two 6s, relative frequency matters.
+
+"Fundamentally different" is a reasonable phrase. Claim 2 is somewhat conversational ("what counts is how often 6 turns up versus non-6") and the phrasing is informal. The logic is present but the presentation is more casual than polished.
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: Example of '626' distinguishing X and Y. Claim 2: Order, not only relative frequency, affects the conditional expectation.
+
+The use of a concrete example ('626') is well-chosen and demonstrates preparation. "So order, not only relative frequency" is a clean, formal construction. The turn is well-structured and appropriately analytical.
+**Rating: 4**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"X is larger."
+
+Same issue as Debater A's opening — a two-word statement with no elaboration or framing. Extremely terse and minimally prepared.
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: X normally requires a longer run than Y. Claim 2: "given all rolls were even" filters long runs exponentially, squeezing X's probability mass onto short runs.
+
+"Squeezed onto" is a somewhat informal metaphor, and "lucky runs" is casual language. However, the overall argument is structured and shows analytical thinking. The phrasing is a mix of formal and informal.
+**Rating: 3**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: The condition applies to both X and Y. Claim 2: X's stopping condition is strictly harder; X's distribution is dominated by long sequences.
+
+"Strictly harder" and "dominated by long sequences" are reasonably formal. The language is clear and the argument is well-structured. A solid, professional response.
+**Rating: 4**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: Long sequences will be "largely filtered out." Claim 2: "The second [claim] is a false statement that does not follow from it."
+
+"Largely filtered out" is slightly informal. More notably, Claim 2 — "a false statement that does not follow from it" — is rather blunt and reads as dismissive. While it conveys the point, more formal phrasing (e.g., "does not follow from the preceding claim") would be more appropriate.
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: Y is similarly affected by the filtering. Claim 2: The D3 equivalence holds.
+
+"Just as harshly" is somewhat informal. The argument is logically structured but the language is a bit casual. "Net effect" is a reasonable formal term. Overall moderately professional.
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: Specific statistics — 61% of X vs. 44% of Y stop at roll 2; 81% vs. 74% by roll 3. Claim 2: X is more likely than Y to stop extremely early.
+
+The use of precise numerical claims is a strong marker of preparation and formality. The language is clear and structured. "Stop extremely early" is slightly informal but the overall turn is well-prepared and analytical.
+**Rating: 4**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: The proportions stopping by roll 2 or 3 don't determine overall weighting. Claim 2: Tails of distributions matter; the full computation yields X as larger.
+
+"The tails of the two distributions matter as well" is appropriately technical. "The full computation yields X as larger" is clean and formal. The turn is well-structured and reads as carefully prepared.
+**Rating: 4**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[4]]
+B | Opening | [[2]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[4]]

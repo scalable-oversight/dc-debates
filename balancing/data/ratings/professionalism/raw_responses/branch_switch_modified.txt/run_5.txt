@@ -1,0 +1,191 @@
+I'll analyze each turn for professionalism, considering language, structure, tone, and overall presentation.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The speed stays the same when we model the car as a point mass. It decreases slightly when modeled as a rigid body."
+
+- Clear, structured, concise sentence.
+- Uses technical terminology appropriately ("point mass," "rigid body").
+- No casual or flippant language.
+- Compact but well-organized for an opening claim.
+
+**Rating: 4**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "A ball on a string spins faster when pulled inward. The same principle applies when the car transitions to a tighter radius."
+Claim 2: "The connecting track provides a radially inward force that accelerates the car tangentially."
+
+- Claim 1 uses an analogy ("ball on a string"), which is somewhat informal but acceptable in debate contexts as a rhetorical device.
+- Claim 2 uses precise technical vocabulary ("radially inward," "tangentially").
+- Overall structured and appropriate, though the analogy slightly reduces formality.
+
+**Rating: 3**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: "The string does work because, as the ball spirals inward, its velocity has a radial component aligned with the tension."
+Claim 2: "The fixed frictionless track exerts only a normal constraint force perpendicular to the car's velocity, so unlike the string it does no work."
+
+- Both claims are precisely worded with appropriate technical language ("normal constraint force," "radial component," "aligned with the tension").
+- Logical structure, directly addressing the prior argument.
+- Formal and polished throughout.
+
+**Rating: 5**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: "The curvature changes continuously along the connecting track, so the direction of the constraint force rotates."
+Claim 2: "This continuous rotation means that the force cannot remain perfectly perpendicular to the velocity at every instant."
+
+- Formal, technical language used throughout.
+- Well-structured logical progression between claims.
+- No informal or casual language.
+
+**Rating: 5**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: "The car's velocity is tangent to the track at every point. The constraint force is normal to the track, hence perpendicular to velocity."
+Claim 2: "At every instant, the force and velocity rotate together, maintaining perpendicularity even as curvature changes."
+
+- Precise and technical language ("tangent," "normal," "perpendicularity").
+- Clear, logical structure.
+- Polished and formal throughout.
+
+**Rating: 5**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "Along the transition arc, the rail's normal force rotates and grows as curvature tightens."
+Claim 2: "Centripetal acceleration varies in magnitude with the local radius of curvature, unlike on either circular section."
+
+- Technical vocabulary used precisely ("centripetal acceleration," "local radius of curvature").
+- Well-organized and formal.
+- No casual language.
+
+**Rating: 5**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: "These facts are true but do not refute Debater A Response 2 Claim 2."
+Claim 2: "Imagine you're in the car. Velocity points out the windshield, your side doors are aligned with the track. Although you're turning, your doors stay exactly 90 degrees from your windshield."
+
+- Claim 1 references the debate structure directly, which is somewhat technical/procedural but acceptable.
+- Claim 2 uses a vivid analogy ("imagine you're in the car," "velocity points out the windshield," "side doors") — this is conversational and informal, significantly lowering the professional tone.
+- "Your doors stay exactly 90 degrees from your windshield" is colloquial in framing.
+- The analogy is creative but undermines formal presentation.
+
+**Rating: 2**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The speed increases if we model the car as a point mass. It also increases if we model it as a rigid body."
+
+- Clear, concise, uses technical terminology appropriately.
+- Parallel structure adds polish.
+- No informal language.
+
+**Rating: 5**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "On a frictionless track, the rails' constraint force does no work, so kinetic energy (KE) is conserved and speed cannot increase."
+Claim 2: "There is no mechanism on a fixed frictionless track to add energy to the car."
+
+- Precise technical language ("constraint force," "kinetic energy").
+- Claim 2 is slightly more conversational ("There is no mechanism") but remains appropriate for formal debate.
+- Well-structured and polished overall.
+
+**Rating: 4**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "If the rails truly do no work, then a point-mass car cannot lose speed on the smaller track."
+Claim 2: "Yet if kinetic energy is conserved and the rails do no work, then no slowdown should occur on a frictionless track for a rigid body model, contradicting Debater A's Opening."
+
+- Logical, well-structured argumentation.
+- Technical vocabulary used appropriately.
+- Reference to "Debater A's Opening" is procedural but acceptable in a debate context.
+- Formal throughout.
+
+**Rating: 4**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "A rigid body has both translational and rotational kinetic energy; a point mass has only translational."
+Claim 2: "On a tighter track, the body is forced to yaw with the curvature, and rotational energy increases at the expense of translational energy."
+
+- Technical terms used precisely ("translational," "rotational kinetic energy," "yaw").
+- Clear parallel structure in Claim 1.
+- Claim 2 uses "at the expense of" which is slightly informal but commonly accepted in technical writing.
+- Well-polished overall.
+
+**Rating: 4**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "The rail forces that steer the rigid body do positive work and supply the rotational KE directly; it does not need to come from translational KE."
+Claim 2: "Since ω = v/R, any drop in v also reduces ω, so the rotational KE does not have to increase."
+
+- Technical language used throughout ("positive work," "rotational KE," "translational KE").
+- Mathematical notation (ω = v/R) appropriately integrated.
+- "does not need to come from" and "does not have to increase" are slightly informal phrasings but within acceptable range.
+- Well-organized.
+
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "Whether ω = v/R rises or falls depends on whether v or R changes faster. Energy conservation gives v₂ > v₁·R₂/R₁."
+Claim 2: "For any choice of m, I, R₁>R₂, this gives v₂/v₁ > R₂/R₁, so ω = v/R increases."
+
+- Heavy use of mathematical notation, well-integrated.
+- Precise, technical, and formal.
+- "Whether ω = v/R rises or falls" is a slightly informal phrasing but acceptable.
+- Overall polished and well-prepared.
+
+**Rating: 4**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "The formula ω = v/R is a 'point-mass formula' that applies only to a tiny point mass moving on a circle of radius R."
+Claim 2: "The center of mass does not ride on the rail's radius, so you can't plug in the velocity at the center of mass for v and the rail radius for R."
+
+- Claim 1 uses scare quotes around "point-mass formula" which slightly undermines formality, and "tiny point mass" is somewhat informal.
+- Claim 2 uses "you can't plug in" which is distinctly colloquial and casual.
+- Overall, the informal phrasing noticeably reduces professionalism.
+
+**Rating: 2**
+
+---
+
+RATINGS:
+A | Opening | [[4]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[5]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[5]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[2]]
+B | Opening | [[5]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[2]]

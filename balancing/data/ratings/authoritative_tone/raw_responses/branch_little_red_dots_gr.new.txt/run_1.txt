@@ -1,0 +1,212 @@
+I'll analyze each turn for authoritative tone, examining language that contributes to or undermines an impression of expertise and command.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"Black hole accretion in AGN (active galactic nuclei) is a highly plausible explanation for LRDs"
+
+- "highly plausible" hedges rather than asserts — softens the authority
+- "active galactic nuclei" parenthetical shows some technical grounding
+- Single sentence with a citation is minimal; lacks development
+- "highly plausible" is confident but not commanding; it stops short of asserting certainty
+
+Overall: Some technical vocabulary but the hedging language and brevity limit authority. **Rating: 3**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+"LRDs contain Balmer breaks; these are associated with galaxy-only models or dusty star formation."
+"Prominent Balmer breaks can be cleanly explained by photospheric emission in supermassive stars."
+
+- "Balmer breaks," "photospheric emission," "supermassive stars" — strong technical vocabulary
+- "cleanly explained" conveys confident command
+- "associated with" is slightly neutral but not undermining
+- The use of precise astrophysical terminology throughout signals expertise
+- Direct, declarative sentence structure adds authority
+
+Overall: Technically precise and confident. **Rating: 4**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+"Balmer breaks are also associated with absorption from dense gas in the line of sight in high-redshift AGN."
+"D. N. et al's use of speculative theories like supermassive stars to explain phenomena that can be defined by known physics may not be warranted."
+
+- "absorption from dense gas in the line of sight in high-redshift AGN" — technically specific and authoritative
+- "speculative theories" is a rhetorical move that signals confidence in one's own framework
+- "may not be warranted" is hedged — weakens the assertiveness
+- "known physics" is somewhat vague compared to the technical specificity of the first claim
+- Overall, the first claim is strong; the second is moderately confident
+
+Overall: Mixed — one technically strong claim, one more hedged. **Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+"Postulating something other than typical AGN is warranted: LRDs are X-ray weak while AGN are typically strong in X-rays."
+"LRDs also show, on the whole, significantly weaker variability than typical observed AGN."
+
+- "Postulating something other than typical AGN is warranted" — confident, declarative framing
+- "X-ray weak," "strong in X-rays" — direct observational language
+- "on the whole, significantly weaker variability" — "on the whole" slightly hedges but "significantly" adds weight
+- The structure sets up a logical argument with clear observational grounding
+- Authoritative but not deeply technical in these particular claims
+
+Overall: Confident and well-structured with observational evidence. **Rating: 4**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+"At super-Eddington accretion rates, the plasma responsible for emitting X-rays is cooled down. This results in weak X-ray spectra."
+"AGN variability amplitude decreases with increasing accretion rate, which supports super-Eddington accretion as an explanation for weak observed variability (moreso than SMS)."
+
+- "super-Eddington accretion rates," "plasma responsible for emitting X-rays," "weak X-ray spectra" — precise technical language
+- "variability amplitude decreases with increasing accretion rate" — technical and confident
+- "moreso than SMS" in parentheses adds a comparative assertion that sounds assured
+- The causal chain in Claim 1 is stated directly and confidently
+- "supports" in Claim 2 is slightly softer than "proves" but still assertive
+
+Overall: Technically rich and confident throughout. **Rating: 4**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+"The super-Eddington variability suppression mechanism is theoretically predicted but rests on a small number of empirical samples."
+"SMS photospheres lack the stochastic accretion-driven variability mechanism that characterises AGN."
+
+- "variability suppression mechanism," "stochastic accretion-driven variability mechanism" — highly technical vocabulary
+- "rests on a small number of empirical samples" — acknowledges limitation but frames it as a critique, maintaining authority
+- "characterises AGN" — confident, declarative
+- "SMS photospheres lack" — direct and assertive
+- Both claims are technically precise and delivered with confidence
+
+Overall: Strong technical language, confident framing. **Rating: 4**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+"The SMS in D. N. et al. accretes at the rate of 1000 Msol/yr. This results in turbulent flows, which are a known source of stochastic variability."
+"However, none of the variability associated with these turbulent flows is modelled."
+
+- "accretes at the rate of 1000 Msol/yr" — specific quantitative claim, very authoritative
+- "turbulent flows," "stochastic variability" — technical vocabulary
+- "a known source of" — appeals to established knowledge, strong
+- "none of the variability... is modelled" — direct, assertive critique
+- "However" pivot is clean and logical
+- Both claims are technically grounded and delivered with assurance
+
+Overall: Specific, technical, and confident. **Rating: 4**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"Photospheric emission of supermassive stars (SMS) is a highly plausible explanation for LRDs"
+
+- "Photospheric emission," "supermassive stars" — technical terminology signals expertise
+- "highly plausible" — same hedging as Debater A's opening; confident but not fully assertive
+- Mirrors the structure of Debater A's opening — concise but not commanding
+- Parenthetical "(SMS)" shows familiarity with technical shorthand
+
+Overall: Similar to Debater A's opening — some technical grounding but hedged. **Rating: 3**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+"Supermassive stars are theoretical objects that have not been directly observed."
+"Furthermore, with characteristic masses above 10⁴ M☉, supermassive stars have short main-sequence lifetimes."
+
+- "10⁴ M☉" — specific quantitative notation, signals technical fluency
+- "characteristic masses," "main-sequence lifetimes" — precise astrophysical terminology
+- "theoretical objects that have not been directly observed" — direct, confident framing of a limitation
+- "Furthermore" adds logical structure
+- Both claims are declarative and confident
+
+Overall: Technically precise with confident, direct language. **Rating: 4**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+"It is almost certain that supermassive stars existed in the early universe, made up of pure hydrogen and helium."
+"D. N. et al.'s SMS model has an LRD-like spectrum for around 1000 years, making a galaxy containing SMS a valid candidate for LRDs."
+
+- "It is almost certain" — strong but the "almost" hedges slightly
+- "pure hydrogen and helium" — technically grounded
+- "LRD-like spectrum for around 1000 years" — specific, quantitative
+- "a valid candidate" — somewhat hedged compared to a stronger assertion
+- "making a galaxy containing SMS a valid candidate" — logical inference stated with moderate confidence
+
+Overall: Moderately confident with some hedging; specific details add authority. **Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+"Direct collapse of supermassive stars is theorized to generate black hole seeds for SMBH."
+"If the SMS model only resembles LRDs for 1000 years, the number of SMS required would be too high compared to observed SMBHs."
+
+- "Direct collapse," "black hole seeds," "SMBH" — field-specific terminology used fluently
+- "is theorized to" — slightly hedged but contextually appropriate
+- "the number of SMS required would be too high" — quantitative reasoning, confident
+- "compared to observed SMBHs" — grounds claim in empirical comparison
+- Logical structure is clear and confident
+
+Overall: Technically fluent with well-reasoned claims. **Rating: 4**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+"Stellar rotation, in general, provides additional outward pressure that can help stabilize stars against collapse over time."
+"Considering the effect of rotation extends SMS lifetimes. Including it in the SMS model will, in turn, reduce the number of SMS required to produce LRDs to acceptable numbers."
+
+- "Stellar rotation," "outward pressure," "stabilize stars against collapse" — technical but somewhat general
+- "in general" and "can help" are hedging qualifiers that reduce authority
+- "to acceptable numbers" is vague — lacks specific quantification
+- "will, in turn, reduce" is more assertive
+- The logic is clear but the hedging in Claim 1 softens the overall tone
+
+Overall: Moderate authority — some hedging and vagueness undermines otherwise technical content. **Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+"The modeling of rotation, radiative transfer, and related effects appears insufficiently rigorous to fully support this claim."
+"For example, the paper does not provide an estimate for the lifespan of SMS with stellar rotation."
+
+- "rotation, radiative transfer" — technical vocabulary
+- "appears insufficiently rigorous" — hedged with "appears"; weakens the assertion
+- "does not provide an estimate" — direct and factual, strong
+- "to fully support this claim" — somewhat soft
+- The second claim is more direct and factual; the first hedges more
+
+Overall: Mixed — the first claim hedges significantly, the second is more direct. **Rating: 3**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+"Modelling the evolution of rapidly accreting SMSs to the GR instability regime is only feasible with 1D stellar evolution."
+"D. N. et al. solve radiative transfer with a one-dimensional streaming-pair scheme (a Feautrier / Λ-iteration solver)."
+
+- "GR instability regime," "1D stellar evolution," "one-dimensional streaming-pair scheme," "Feautrier / Λ-iteration solver" — extremely specific technical terminology
+- "is only feasible with" — confident, assertive claim about methodological necessity
+- The parenthetical "(a Feautrier / Λ-iteration solver)" demonstrates deep technical knowledge
+- Both claims are direct, specific, and technically dense
+- No hedging language — entirely declarative
+
+Overall: Highly technical and confident — the most technically specific turn in the debate. **Rating: 5**
+
+---
+
+RATINGS:
+A | Opening | [[3]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[4]]
+A | Response 2 | [[4]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[4]]
+B | Opening | [[3]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[5]]

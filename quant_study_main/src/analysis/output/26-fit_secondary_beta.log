@@ -1,0 +1,99 @@
+Initializing NUTS using jitter+adapt_diag...
+/usr/local/lib/python3.11/dist-packages/pytensor/tensor/rewriting/elemwise.py:881: UserWarning: Loop fusion failed because the resulting node would exceed the kernel argument limit.
+  warn(
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [kappa, Intercept, order, section_is_4, C(domain, Treatment('brainteasers')), 1|question_sigma, 1|question_offset, 1|transcript_sigma, 1|transcript_offset, section_is_4|transcript_sigma, section_is_4|transcript_offset, 1|participant_id_sigma, 1|participant_id_offset]
+Loaded 2564 rows from quant-1-official-study-beta-long.csv
+  participants:  1282
+  transcripts:   24
+  questions:     12
+  p range:       [0.010, 0.990]
+
+Model:
+       Formula: p ~ 1 + order + section_is_4 + C(domain, Treatment('brainteasers')) + (1|question) + (1|transcript) + (0 + section_is_4|transcript) + (1|participant_id)
+        Family: beta
+          Link: mu = logit
+  Observations: 2564
+        Priors: 
+    target = mu
+        Common-level effects
+            Intercept ~ Normal(mu: 0.0, sigma: 2.0)
+            order ~ Normal(mu: 0.0, sigma: 1.0)
+            section_is_4 ~ Normal(mu: 0.0, sigma: 1.0)
+            C(domain, Treatment('brainteasers')) ~ Normal(mu: 0.0, sigma: 1.0)
+        
+        Group-level effects
+            1|question ~ Normal(mu: 0.0, sigma: HalfNormal(sigma: 1.0))
+            1|transcript ~ Normal(mu: 0.0, sigma: HalfNormal(sigma: 1.0))
+            section_is_4|transcript ~ Normal(mu: 0.0, sigma: HalfNormal(sigma: 1.0))
+            1|participant_id ~ Normal(mu: 0.0, sigma: HalfNormal(sigma: 1.0))
+        
+        Auxiliary parameters
+            kappa ~ HalfCauchy(beta: 1.0)
+
+Initial fit (chains=4, tune=2000, draws=2000, target_accept=0.8)...
+Sampling 4 chains for 2_000 tune and 2_000 draw iterations (8_000 + 8_000 draws total) took 64 seconds.
+There were 58 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+/usr/local/lib/python3.11/dist-packages/pytensor/tensor/rewriting/elemwise.py:881: UserWarning: Loop fusion failed because the resulting node would exceed the kernel argument limit.
+  warn(
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [kappa, Intercept, order, section_is_4, C(domain, Treatment('brainteasers')), 1|question_sigma, 1|question_offset, 1|transcript_sigma, 1|transcript_offset, section_is_4|transcript_sigma, section_is_4|transcript_offset, 1|participant_id_sigma, 1|participant_id_offset]
+  done in 77.3s
+  divergent transitions: 58
+
+Escalating divergences: refitting at target_accept=0.95...
+Sampling 4 chains for 2_000 tune and 2_000 draw iterations (8_000 + 8_000 draws total) took 110 seconds.
+  done in 122.4s
+  divergent transitions: 0
+
+NUTS diagnostics:
+  mean acceptance / chain: 0.945, 0.941, 0.946, 0.942
+  tree depth (max=10): saturated=0.00%  counts: 6:8000
+  E-BFMI / chain: 0.577, 0.581, 0.490, 0.512  (all >= 0.3: True)
+  energy plot -> energy-secondary-beta.png
+
+Diagnostics -- R-hat<1.01: True  ESS_bulk>=400: True  ESS_tail>=400: True
+
+Saved InferenceData -> /workspace/cf_package/quant_study_main/src/analysis/output/secondary-beta-fit.nc
+
+Fixed effects + variance components + Beta precision:
+                                                     mean     sd  hdi_3%  hdi_97%  mcse_mean  mcse_sd  ess_bulk  ess_tail  r_hat
+kappa                                               6.383  0.240   5.926    6.827      0.004    0.002    3782.0    6259.0    1.0
+Intercept                                          -0.007  0.170  -0.331    0.318      0.003    0.002    3335.0    3983.0    1.0
+order                                               0.002  0.048  -0.086    0.092      0.001    0.000    4701.0    5707.0    1.0
+section_is_4                                        0.140  0.058   0.028    0.247      0.001    0.001    3334.0    4334.0    1.0
+C(domain, Treatment('brainteasers'))[astrophysics]  0.032  0.236  -0.439    0.471      0.004    0.003    3548.0    3859.0    1.0
+C(domain, Treatment('brainteasers'))[coding]        0.093  0.240  -0.342    0.571      0.004    0.004    3139.0    3363.0    1.0
+1|question_sigma                                    0.316  0.102   0.156    0.505      0.002    0.002    2953.0    4051.0    1.0
+1|transcript_sigma                                  0.064  0.049   0.000    0.148      0.001    0.001    1763.0    3405.0    1.0
+section_is_4|transcript_sigma                       0.237  0.052   0.145    0.334      0.001    0.001    3303.0    5021.0    1.0
+1|participant_id_sigma                              0.655  0.025   0.605    0.700      0.000    0.000    2753.0    4407.0    1.0
+section_is_4|transcript[1]                          0.019  0.123  -0.199    0.262      0.001    0.001    8699.0    6734.0    1.0
+section_is_4|transcript[2]                          0.180  0.125  -0.051    0.416      0.001    0.001    8047.0    6336.0    1.0
+section_is_4|transcript[3]                          0.054  0.128  -0.175    0.305      0.001    0.001    8905.0    6404.0    1.0
+section_is_4|transcript[4]                         -0.109  0.125  -0.338    0.129      0.001    0.001    8446.0    6100.0    1.0
+section_is_4|transcript[5]                          0.040  0.127  -0.199    0.280      0.001    0.001    8289.0    6274.0    1.0
+section_is_4|transcript[6]                         -0.136  0.127  -0.385    0.096      0.001    0.001    8749.0    6565.0    1.0
+section_is_4|transcript[7]                          0.443  0.136   0.190    0.703      0.002    0.001    7599.0    6487.0    1.0
+section_is_4|transcript[8]                          0.214  0.126  -0.014    0.458      0.001    0.001    8171.0    6631.0    1.0
+section_is_4|transcript[9]                          0.072  0.126  -0.157    0.320      0.001    0.001    9400.0    6423.0    1.0
+section_is_4|transcript[10]                         0.033  0.127  -0.193    0.282      0.001    0.001    8225.0    6227.0    1.0
+section_is_4|transcript[11]                         0.110  0.127  -0.140    0.339      0.001    0.001    8541.0    6594.0    1.0
+section_is_4|transcript[12]                         0.020  0.124  -0.218    0.250      0.001    0.001    8394.0    6938.0    1.0
+section_is_4|transcript[13]                        -0.024  0.124  -0.257    0.210      0.001    0.001    8400.0    5907.0    1.0
+section_is_4|transcript[14]                         0.221  0.129  -0.017    0.470      0.001    0.001    8129.0    5845.0    1.0
+section_is_4|transcript[15]                        -0.171  0.130  -0.431    0.060      0.001    0.001    7556.0    5708.0    1.0
+section_is_4|transcript[16]                        -0.307  0.134  -0.555   -0.058      0.002    0.001    7597.0    6062.0    1.0
+section_is_4|transcript[17]                        -0.063  0.121  -0.289    0.165      0.001    0.001    8171.0    6051.0    1.0
+section_is_4|transcript[18]                        -0.043  0.123  -0.273    0.190      0.001    0.001    7257.0    6245.0    1.0
+section_is_4|transcript[19]                         0.072  0.124  -0.172    0.300      0.001    0.001    8383.0    6481.0    1.0
+section_is_4|transcript[20]                        -0.174  0.130  -0.407    0.079      0.001    0.001    7610.0    6479.0    1.0
+section_is_4|transcript[21]                         0.115  0.126  -0.114    0.355      0.001    0.001    8017.0    6195.0    1.0
+section_is_4|transcript[22]                        -0.346  0.132  -0.597   -0.103      0.002    0.001    7506.0    6248.0    1.0
+section_is_4|transcript[23]                        -0.376  0.133  -0.623   -0.125      0.002    0.001    7457.0    6311.0    1.0
+section_is_4|transcript[24]                         0.153  0.130  -0.093    0.391      0.001    0.001    9056.0    6284.0    1.0
+
+Final divergent transitions: 0
+
+All convergence checks passed.

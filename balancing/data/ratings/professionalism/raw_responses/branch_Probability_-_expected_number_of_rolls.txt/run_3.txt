@@ -1,0 +1,143 @@
+I'll analyze each turn for professionalism, considering language, structure, tone, and appropriateness for a formal context.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"Y is larger."
+
+This is a complete sentence but extremely terse. It states a position without any supporting framing or context. While not casual or flippant, it lacks the polish and preparation expected of a formal opening. It functions more as a bare assertion than a professional opening statement.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: Introduces the D3 equivalence clearly and with appropriate terminology.
+Claim 2: Makes a logical comparative statement in clear, measured language.
+
+Both claims are concise, well-structured, and use formal language appropriate to a mathematical debate. No casual remarks. The framing is logical and organized.
+**Rating: 4**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: States a specific numerical result clearly.
+Claim 2: Presents a counterargument with a specific figure and a logical conclusion drawn from it.
+
+Both claims are well-structured and precise. The language is formal and the reasoning is presented in an organized way. The phrase "So it's not true that..." is slightly blunt but not unprofessional.
+**Rating: 4**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: Restates a position clearly.
+Claim 2: Uses cross-references ("Debater A Response 1 Claim 1 and Debater B Argument 1 Claim 1") which is structured but creates somewhat mechanical-sounding prose. "This follows trivially" is a phrase that, while common in mathematical discourse, can come across as slightly dismissive or presumptuous in a debate context.
+
+The cross-referencing is organized but the word "trivially" slightly undermines the measured tone.
+**Rating: 3**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: Presents a specific mathematical formula in prose form — clear and precise.
+Claim 2: Follows logically from Claim 1 with a clear method reference ("plug this into the formula").
+
+"We can plug this into" is slightly informal compared to alternatives like "substituting this into" or "applying this to." Otherwise the claims are well-structured and precise.
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: Provides specific numerical values (42, 13.2), which adds credibility and precision.
+Claim 2: Clearly redirects focus of the debate to the relevant point.
+
+Both claims are professional in tone and structure. Numerical specificity lends authority. The language is direct and appropriate.
+**Rating: 4**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: Makes a clear conditional assertion.
+Claim 2: Accuses the opponent of self-contradiction by referencing prior claims. The phrase "which is self-contradictory" is direct but somewhat blunt. The cross-referencing is organized but the overall tone borders on adversarial. Calling out a self-contradiction is legitimate but the phrasing could be more diplomatically measured.
+
+The structure is organized but the accusatory framing slightly detracts from a fully professional tone.
+**Rating: 3**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"X is larger."
+
+Same pattern as Debater A's opening — a bare, terse assertion. Functional but entirely lacks introductory framing or polish. Not casual, but not professionally presented either.
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: Clear statement with appropriate qualification ("ignoring the all-even condition").
+Claim 2: Uses the phrase "filters long runs exponentially" — technically meaningful but somewhat jargon-heavy without elaboration. "A larger share of X's probability sits on its short successful runs" is a somewhat informal construction, though the underlying idea is clear.
+
+The language is mostly professional but slightly unpolished in Claim 2.
+**Rating: 3**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: A brief, clear, and accurate observation stated professionally.
+Claim 2: "X's distribution is dominated by long sequences that finally get two 6s in a row" — the word "finally" feels slightly informal. Otherwise the claim is structured and clear.
+
+Mostly professional with minor informal touches.
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: Uses "You'll nearly always" — conversational phrasing that reduces professional polish.
+Claim 2: The structure of labeling Debater B's claim as "a false statement that does not follow from it" is somewhat blunt and adversarial, though the cross-referencing is organized.
+
+"You'll nearly always" is notably informal. The adversarial directness of Claim 2 further reduces the professional impression.
+**Rating: 2**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "You'll also nearly always" — mirrors the informal phrasing from the opposing argument. Conversational.
+Claim 2: Provides specific numerical values (22/27, 20/27, 0.074) which is precise and lends credibility. "A 0.074 gap, comparable to other roll-by-roll gaps in this conditioned distribution" is analytical and structured.
+
+Claim 1 is informal; Claim 2 is notably more precise and professional. Mixed overall.
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: Presents specific percentages (61%, 44%, 81%, 74%) in a well-structured comparative format. Precise and evidence-based.
+Claim 2: Draws a measured conclusion using "suggests" — appropriately hedged and professional.
+
+Both claims are well-organized, data-driven, and professionally presented. One of the stronger turns in the debate.
+**Rating: 4**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "does not tell us anything about" is somewhat informal — more formal alternatives would be "is insufficient to determine" or "provides no information regarding." The claim is otherwise structured.
+Claim 2: References "the far ends (the tails)" with a parenthetical clarification — the parenthetical feels slightly informal. "The full calculation shows" is somewhat vague but acceptable.
+
+The claims are logically sound but the language is slightly casual in places.
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[4]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[3]]

@@ -1,0 +1,127 @@
+I'll analyze each turn for confidence level, identifying hedging or assertive language before assigning a rating.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"Y is larger." — A single, unqualified declarative statement. No hedging whatsoever.
+**Rating: 5**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "effectively turns the D6 into a D3" — "effectively" is a mild qualifier but still assertive overall.
+Claim 2: "getting two 6s in a row is harder (requires more rolls)" — stated as a direct fact, no hedging.
+Overall: Very assertive with only a minor softening word ("effectively").
+**Rating: 4**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: "The expected number of rolls to first 6 for such a D3 is 3." — Stated as a definitive fact.
+Claim 2: "So it's not true that the condition effectively turns the D6 to a D3." — Uses "So" to signal logical conclusion, states the negation definitively.
+Both claims are stated with full confidence, no hedging.
+**Rating: 5**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: "specifies that the D6 becomes a D3 for the purposes of this question. The expected number of rolls to the first 6 given all rolls even is a separate, irrelevant question." — Definitive, no hedging.
+Claim 2: "It is irrelevant because..." — Again definitive causal statement.
+Both claims are stated flatly and assertively.
+**Rating: 5**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: "It is relevant for showing why arguments based on this claimed equivalence don't work." — Assertive but somewhat indirect (arguing about relevance rather than direct fact).
+Claim 2: "It would be strange if..." — "would be strange" is a mild rhetorical hedge, framing as a conditional/hypothetical rather than a direct assertion.
+The use of "would be strange if" introduces some tentativeness.
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "is a fundamentally different quantity" — Definitive and emphatic ("fundamentally").
+Claim 2: "what counts is how often 6 turns up versus non-6 — non-6 is twice as likely here." — Stated as fact, no hedging.
+Both claims are confident and direct.
+**Rating: 5**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: "X depends on adjacent 6s, while Y depends on where the second 6 occurs; e.g. '626' stops Y at roll 3 but doesn't stop X." — Definitive, supported by a concrete example.
+Claim 2: "So order, not only relative frequency, is part of the stopping rule and affects the conditional expectation." — "So" signals logical conclusion; stated definitively.
+Both claims are assertive and precise.
+**Rating: 5**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"X is larger." — Single unqualified declarative statement, no hedging.
+**Rating: 5**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "normally requiring a much longer run" — "normally" is a mild qualifier, but overall assertive.
+Claim 2: "filters long runs exponentially, so X's probability mass is squeezed onto its short, lucky runs much more so than Y's." — Uses "so" as a logical connector; assertive, though "much more so" is comparative rather than absolute. The use of "exponentially" and "squeezed" adds rhetorical force.
+Mostly assertive with minor hedging ("normally").
+**Rating: 4**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "'Given all rolls were even' applies to both X and Y." — Completely definitive.
+Claim 2: "The stopping condition for X is strictly harder and happens later than or at the same time as Y's. X's distribution is dominated by long sequences that finally get two 6s in a row." — "strictly" is emphatic; "dominated by" is assertive. No hedging.
+Both claims are stated with full confidence.
+**Rating: 5**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "you'll nearly always roll an odd before getting two 6s, so the long sequences will be largely filtered out." — "nearly always" and "largely" are mild qualifiers, but the overall thrust is assertive.
+Claim 2: "The first sentence of Debater B Response 1 Claim 2 is true, the second is a false statement that does not follow from it." — Calling something "a false statement" is very confident language.
+Mix of qualified and highly assertive language.
+**Rating: 4**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "you will also nearly always roll an odd before getting two nonconsecutive 6s, so Y's runs are filtered just as harshly." — "nearly always" and "just as harshly" are somewhat qualified but directionally assertive.
+Claim 2: "The net effect of the all-even condition is therefore similar for X and Y, and the D3 equivalence holds." — "therefore" signals logical certainty; "holds" is definitive.
+Overall assertive, with minor hedges ("nearly always," "similar").
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "61% of X sequences stop at roll 2, compared with 44% of Y sequences. By the end of roll 3, 81% of X sequences have stopped, compared with 74% of Y sequences." — Precise numerical claims stated as fact. Very confident.
+Claim 2: "This suggests that X is more likely than Y to stop extremely early." — "suggests" is a notable hedge, introducing some tentativeness.
+Mostly confident but "suggests" pulls it down slightly.
+**Rating: 4**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "The total proportion of all-even stopped sequences that stop by roll 2 or 3 does not determine the overall weighting." — Definitive negation, no hedging.
+Claim 2: "the full computation yields X as the larger of the two values." — "yields" is precise and definitive; however, "the tails of the two distributions matter as well" is stated plainly. The phrase "full computation" implies authority.
+Both claims are stated confidently.
+**Rating: 5**
+
+---
+
+RATINGS:
+A | Opening | [[5]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[5]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[5]]
+B | Opening | [[5]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[5]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[5]]

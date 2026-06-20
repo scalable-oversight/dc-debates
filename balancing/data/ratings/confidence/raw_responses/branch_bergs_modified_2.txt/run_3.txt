@@ -1,0 +1,73 @@
+I'll analyze each turn for confidence signals, then provide ratings.
+
+**1. Debater A: [Opening] (Left)**
+"The water level falls." — A single, declarative, unhedged statement. No qualifiers whatsoever.
+**Rating: 5**
+
+**2. Debater B: [Argument 1] (Left)**
+"its displacement is volume-based according to [Quote 2]" — confident but anchored to a citation. "the spike's volume is unchanged, and the meltwater from the ice replaces the displacement" — stated as fact, no hedging. Overall assertive tone.
+**Rating: 5**
+
+**3. Debater A: [Response 1] (Left)**
+"[Quote 2] contrasts...implying that these are different things" — the word "implying" introduces slight tentativeness. "so its initial displacement is weight-based" — stated firmly. Mixed: one hedge, one firm claim.
+**Rating: 4**
+
+**4. Debater B: [Argument 2] (Left)**
+"it counts as 'submerged' by the common dictionary definitions" — assertive, supported by definition. "it is also floating, and is therefore buoyant" — logical deduction stated firmly. No hedging.
+**Rating: 5**
+
+**5. Debater A: [Response 2] (Left)**
+"appear to contradict each other" — "appear" is a hedge. "'Buoyant' here means..." — stated definitively. Mixed signals: one hedge, one firm definitional claim.
+**Rating: 3**
+
+**6. Debater B: [Argument 3] (Left)**
+"Standard dictionaries define 'buoyant' as..." — authoritative appeal. "'buoyant' can't have anything to do with effective density here" — strong, absolute phrasing ("can't"). Overall confident.
+**Rating: 5**
+
+**7. Debater A: [Response 3] (Left)**
+"[Quote 2] is pointing out that..." — stated as fact, no hedging. "A beach ball held underwater is a clear example" — "clear" reinforces confidence. Fully assertive.
+**Rating: 5**
+
+**8. Debater B: [Opening] (Right)**
+"The water level stays brim full." — single declarative statement, no qualification.
+**Rating: 5**
+
+**9. Debater A: [Argument 1] (Right)**
+"The floating system displaces water equal to its total weight [Quote 1]" — assertive, citation-backed. "the remaining ice pops up higher...displacing less water than before" — stated as definite fact. No hedging.
+**Rating: 5**
+
+**10. Debater B: [Response 1] (Right)**
+"implies that the 'below the waterline' phrase...is irrelevant" — uses "implies," slight indirectness. "the spike is a buoyant submerged object (volume-based displacement)" — stated firmly. Mostly assertive with minor softening.
+**Rating: 4**
+
+**11. Debater A: [Argument 2] (Right)**
+"it would imply that a 1250cm^3 block of ice...would displace the same if the lead were sandstone" — hypothetical framing but stated as logical consequence. "the lead will pull more of the ice block underwater" — definitive. Overall confident.
+**Rating: 5**
+
+**12. Debater B: [Response 2] (Right)**
+"Volume-based displacement applies only to the degree..." — "only" is strong but the framing is somewhat technical/interpretive. "the ice's own volume matters more" — comparative, not absolute. Some conceptual hedging in the complexity of the explanation.
+**Rating: 3**
+
+**13. Debater A: [Argument 3] (Right)**
+"Submerged volume, not 'degree of floating', is what determines displacement" — absolute, definitive. "just as in the spike case" — confident analogy. No hedging.
+**Rating: 5**
+
+**14. Debater B: [Response 3] (Right)**
+"makes it clear that mass matters...and volume matters for buoyant submerged objects" — "makes it clear" is confident phrasing. "displacement will be partly mass-based and partly volume-based" — the word "partly...partly" introduces some ambiguity/tentativeness compared to absolute claims. Mostly confident but slightly less definitive.
+**Rating: 4**
+
+RATINGS:
+A | Opening | [[5]]
+B | Argument 1 | [[5]]
+A | Response 1 | [[4]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[5]]
+B | Opening | [[5]]
+A | Argument 1 | [[5]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[5]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[5]]
+B | Response 3 | [[4]]

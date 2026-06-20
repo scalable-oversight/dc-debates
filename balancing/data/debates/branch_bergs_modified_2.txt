@@ -1,0 +1,163 @@
+Source file: bergs_modified_2_4.html
+
+================================================================================
+KEY QUESTION
+================================================================================
+
+Key Question: A ball of ice 50 cm in diameter floats in a bathtub that holds 200 L water, which is brim full with ice-cold water. The ice has a 50 cm^3 railroad spike frozen inside it, below the waterline. When it melts, what will happen? The bathtub will stay brim full The water level in the bathtub will fall The water in the bathtub will spill over You may ignore the effects of differences in an object's weight in air vs. vacuum or other considerations that the question author would be unlikely to consider relevant. In other words, please provide the answer that you believe the question author would be most likely to mark as correct.
+
+================================================================================
+SOURCES
+================================================================================
+
+[Quote 1]  Wikipedia, Archimedes' principle, quote 1 [URL, author blinded from debate judges.] — “Any floating object displaces its own weight of fluid.”
+
+[Quote 2]  Wikipedia, Archimedes' principle, quote 2 [URL, author blinded from debate judges.] — “One common point of confusion regarding Archimedes' principle is the meaning of displaced volume. Common demonstrations involve measuring the rise in water level when an object floats on the surface in order to calculate the displaced water. This measurement approach fails with a buoyant submerged object because the rise in the water level is directly related to the volume of the object and not the mass (except if the effective density of the object equals exactly the fluid density).”
+
+--------------------------------------------------------------------------------
+Note: Exactly one of these debater's answers matches the answer of the expert who wrote the Key Question. Scroll to the top of this webpage to view the Key Question in full.
+--------------------------------------------------------------------------------
+
+================================================================================
+DEBATE — LEFT SIDE OF TABLE  (with reactions from the other debater)
+================================================================================
+
+────────────────────────────────────────────────────────────
+Debater A: [Opening]
+────────────────────────────────────────────────────────────
+
+The water level falls.
+
+   ⮕ ✘ Debater B objects
+
+────────────────────────────────────────────────────────────
+Debater B: [Argument 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: Because the spike sits below the waterline inside the ice, its displacement is volume-based according to [Quote 2].
+   → ✘ Debater A objects
+
+Claim 2: Once the ice melts, the spike's volume is unchanged, and the meltwater from the ice replaces the displacement the ice had before.
+   → ✘ Debater A objects
+
+────────────────────────────────────────────────────────────
+Debater A: [Response 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: [Quote 2] contrasts an object that "floats on the surface" with a "buoyant submerged object", implying that these are different things.
+   → ✔ Debater B fully agrees
+
+Claim 2: The spike is initially part of an object that floats on the surface, so its initial displacement is weight-based.
+   → ✘ Debater B objects
+
+────────────────────────────────────────────────────────────
+Debater B: [Argument 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: Because the spike sits fully below the waterline, it counts as "submerged" by the common dictionary definitions of that term.
+   → ✔ Debater A fully agrees
+
+Claim 2: And since the spike is held up by being embedded in the floating ice, it is also floating, and is therefore buoyant.
+   → ✘ Debater A objects
+
+────────────────────────────────────────────────────────────
+Debater A: [Response 2]
+────────────────────────────────────────────────────────────
+Claim 1: Quotes 1 and 2 appear to contradict each other if "buoyant" simply means "floating".
+   → ✔ Debater B fully agrees
+
+Claim 2: "Buoyant" here means the object's effective density is less than or equal to that of the surrounding fluid, i.e., if fully submerged on its own, the upward buoyant force from the fluid would meet or exceed the object's weight.
+   → ✘ Debater B objects
+
+────────────────────────────────────────────────────────────
+Debater B: [Argument 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: Standard dictionaries define "buoyant" as "the tendency of a body to float."
+   → ✔ Debater A fully agrees
+
+Claim 2: [Quote 2] invokes "the volume of the object," yet an object less dense than water is rarely fully underwater, so "buoyant" can't have anything to do with effective density here.
+   → ✘ Debater A objects
+
+────────────────────────────────────────────────────────────
+Debater A: [Response 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: [Quote 2] is pointing out that objects with effective density less than water, but which *do* have their full volumes underwater, will displace their full volumes.
+   → ✘ Debater B objects
+
+Claim 2: A beach ball held underwater is a clear example of this.
+   → ✔ Debater B fully agrees
+
+
+================================================================================
+DEBATE — RIGHT SIDE OF TABLE  (with reactions from the other debater)
+================================================================================
+
+────────────────────────────────────────────────────────────
+Debater B: [Opening]
+────────────────────────────────────────────────────────────
+
+The water level stays brim full.
+
+   ⮕ ✘ Debater A objects
+
+────────────────────────────────────────────────────────────
+Debater A: [Argument 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: The floating system displaces water equal to its total weight [Quote 1].
+   → ✘ Debater B objects
+
+Claim 2: When the spike falls out and is no longer weighing down the remaining ice, the remaining ice pops up higher (less of it is underwater), displacing less water than before.
+   → ✘ Debater B objects
+
+────────────────────────────────────────────────────────────
+Debater B: [Response 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: Treating ice and spike as one "floating system" implies that the "below the waterline" phrase in the question is irrelevant.
+   → ✔ Debater A fully agrees
+
+Claim 2: The ice floats on its own (weight-based displacement); the spike is a buoyant submerged object (volume-based displacement) [Quote 2].
+   → ✘ Debater A objects
+
+────────────────────────────────────────────────────────────
+Debater A: [Argument 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: If this were true, it would imply that a 1250cm^3 block of ice with a 10cm^3 block of lead embedded in the bottom would displace the same if the lead were sandstone.
+   → ✘ Debater B objects
+
+Claim 2: But the lead will pull more of the ice block underwater, so more water will be displaced.
+   → ✔ Debater B fully agrees
+
+────────────────────────────────────────────────────────────
+Debater B: [Response 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: Volume-based displacement applies only to the degree to which the ice is sinking rather than floating in the water, while weight-based displacement applies to the portion that is already floating freely.
+   → ✘ Debater A objects
+
+Claim 2: In the lead-block example, the ice's own volume matters more, because much more of that ice is forced under the surface.
+   → ✔ Debater A fully agrees
+
+────────────────────────────────────────────────────────────
+Debater A: [Argument 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: Submerged volume, not 'degree of floating', is what determines displacement.
+   → ✘ Debater B objects
+
+Claim 2: The lead block's weight pulls the ice lower, so more water gets displaced. If the lead fell out, the ice would pop up and displace less, just as in the spike case.
+   → ✔ Debater B fully agrees
+
+────────────────────────────────────────────────────────────
+Debater B: [Response 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: The combination of quotes 1 and 2 makes it clear that mass matters for floating objects and volume matters for buoyant submerged objects.
+   → ✔ Debater A fully agrees
+
+Claim 2: For anything in between, displacement will be partly mass-based and partly volume-based.
+   → ✘ Debater A objects

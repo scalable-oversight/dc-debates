@@ -1,0 +1,189 @@
+================================================================================
+KEY QUESTION
+================================================================================
+
+Key Question: Consider these two quantities: X: The expected number of rolls of a fair six-sided die until you roll two 6s in a row, given that all rolls were even. Y: The expected number of rolls of a fair six-sided die until you roll the second 6 (not necessarily in a row), given that all rolls were even. To understand exactly what is meant by "the expected number of rolls... given that all rolls were even" in this problem, think of it this way: Imagine you were to perform a billion sequences of die rolls, stopping each sequence when you roll two 6s in a row. Then you throw out all the sequences that contain an odd roll. The average number of rolls in the remaining sequences will be close to X. Next, perform a billion sequences of die rolls, stopping each sequence when you roll the second 6. Throw out all the sequences among these that contain an odd roll. The average number of rolls in the remaining sequences will be close to Y. Which is larger, X or Y?
+
+================================================================================
+DEFINITIONS
+================================================================================
+
+D6: A six-sided die.
+
+D3: A three-sided die.
+
+--------------------------------------------------------------------------------
+Note: Exactly one of these debater's answers matches the answer of the expert who wrote the Key Question. Scroll to the top of this webpage to view the Key Question in full.
+--------------------------------------------------------------------------------
+
+================================================================================
+DEBATE — LEFT SIDE OF TABLE  (with reactions from the other debater)
+================================================================================
+
+────────────────────────────────────────────────────────────
+Debater A: [Opening]
+────────────────────────────────────────────────────────────
+
+Y is larger.
+
+   → ✘ Debater B objects
+
+Recursed on: Claim 1
+
+────────────────────────────────────────────────────────────
+Debater B: [Argument 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: The condition "all rolls were even" effectively turns the D6 into a D3 for purposes of this question (with sides 2, 4, 6).
+   → ✘ Debater A objects
+
+Claim 2: On a D3, getting two 6s in a row is harder (requires more rolls) than getting two 6s not necessarily in a row.
+   → ✔ Debater A fully agrees
+
+Recursed on: Claim 1
+
+────────────────────────────────────────────────────────────
+Debater A: [Response 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: The expected number of rolls to first 6 for such a D3 is 3.
+   → ✔ Debater B fully agrees
+
+Claim 2: The expected number of rolls to the first 6 for a D6, given that all rolls were even, is 3/2. So it's not true that the condition effectively turns the D6 to a D3.
+   → ✘ Debater B objects
+
+Recursed on: Claim 2
+
+────────────────────────────────────────────────────────────
+Debater B: [Argument 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: The expected number of rolls to the first 6 for a D6, given that all rolls were even, is the same as for a D3 with sides 2, 4, 6.
+   → ✘ Debater A objects
+
+Claim 2: This follows trivially, as Debater A Response 1 Claim 1 and Debater B Argument 1 Claim 1 are both true.
+   → ✘ Debater A objects
+
+Recursed on: Claim 1
+
+────────────────────────────────────────────────────────────
+Debater A: [Response 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: The probability that the first 6 arrives on roll k, given all rolls even, comes to 3/2 * (1/3)^(k - 1).
+   → ✔ 🚩 Debater B agrees but thinks this omits key info
+
+Claim 2: We can plug this into the formula for expectation to see that the expected number of rolls until the first 6, given all rolls even, is 3/2.
+   → ✔ 🚩 Debater B agrees but thinks this omits key info
+
+   → ✘ Debater B objects to the idea that these claims refute their argument
+
+Recursed on: the meta-claim
+
+────────────────────────────────────────────────────────────
+Debater B: [Argument 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: X is still larger: the expected wait for two consecutive 6s is 42, whereas the wait for two 6s in any positions is 13.2.
+   → ✘ Debater A objects
+
+Claim 2: Your analysis has focused on the expected number of rolls to the first 6, while the problem concerns rolling two 6s.
+   → ✔ Debater A fully agrees
+
+Recursed on: Claim 1
+
+────────────────────────────────────────────────────────────
+Debater A: [Response 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: Those numbers are only correct if you don't filter sequences containing odd rolls.
+   → ✘ Debater B objects
+
+Claim 2: You agreed with Debater A Response 1 Claim 1 and Debater A Response 2 Claim 2 yet claimed Debater B Argument 2 Claim 1, which is self-contradictory.
+   → ✘ Debater B objects
+
+================================================================================
+DEBATE — RIGHT SIDE OF TABLE  (with reactions from the other debater)
+================================================================================
+
+────────────────────────────────────────────────────────────
+Debater B: [Opening]
+────────────────────────────────────────────────────────────
+
+X is larger.
+
+   → ✘ Debater A objects
+
+Recursed on: Claim 1
+
+────────────────────────────────────────────────────────────
+Debater A: [Argument 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: X needs two 6s in a row, which would take longer on average ignoring the all-even condition.
+   → ✔ Debater B fully agrees
+
+Claim 2: But 'given all rolls were even' filters long runs exponentially, so a larger share of X's probability sits on its short successful runs than is the case for Y.
+   → ✘ Debater B objects
+
+Recursed on: Claim 2
+
+────────────────────────────────────────────────────────────
+Debater B: [Response 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: "Given all rolls were even" applies to both X and Y.
+   → ✔ Debater A fully agrees
+
+Claim 2: The stopping condition for X is strictly harder and happens later than or at the same time as Y's. X's distribution is dominated by long sequences that finally get two 6s in a row.
+   → ✘ Debater A objects
+
+Recursed on: Claim 2
+
+────────────────────────────────────────────────────────────
+Debater A: [Argument 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: You'll nearly always roll an odd before two 6s in a row, so long sequences will be largely filtered out.
+   → ✘ Debater B objects
+
+Claim 2: The first sentence of Debater B Response 1 Claim 2 is true; the second is a false statement that does not follow from it.
+   → ✘ Debater B objects
+
+Recursed on: Claim 1
+
+────────────────────────────────────────────────────────────
+Debater B: [Response 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: You'll also nearly always roll an odd before getting two nonconsecutive 6s, so the filtering cuts both ways.
+   → ✔ 🚩 Debater A agrees but thinks this omits key info
+
+Claim 2: Given all-even, X stops on roll 3 with probability 22/27 vs Y 20/27 — a 0.074 gap, comparable to other roll-by-roll gaps in this conditioned distribution.
+   → ✔ 🚩 Debater A agrees but thinks this omits key info
+
+   → ✘ Debater A objects to the idea that these claims refute their argument
+
+Recursed on: the meta-claim
+
+────────────────────────────────────────────────────────────
+Debater A: [Argument 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: Among the all-even stopped sequences, 61% of X sequences stop at roll 2, compared with 44% of Y sequences. By roll 3, 81% of X sequences have stopped, compared with 74% of Y sequences.
+   → ✔ Debater B fully agrees
+
+Claim 2: This suggests that X is more likely than Y to stop extremely early.
+   → ✘ Debater B objects
+
+Recursed on: Claim 2
+
+────────────────────────────────────────────────────────────
+Debater B: [Response 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: The total proportion of all-even stopped sequences that stop by roll 2 or 3 does not tell us anything about the overall weighting.
+   → ✘ Debater A objects
+
+Claim 2: The far ends (the tails) of the two distributions matter too, and the full calculation shows that X is larger.
+   → ✘ Debater A objects

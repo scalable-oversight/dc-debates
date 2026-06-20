@@ -1,0 +1,157 @@
+I'll analyze each turn for grammatical quality, identifying specific issues and strengths before assigning ratings.
+
+---
+
+**1. Debater A: [Opening]**
+"The Einstein zig-zag lens model ([F. D. et al.]) with two deflectors (white galaxy and red galaxy behind it) at different redshifts, and one AGN which produces 6 lensed images after being lensed by both deflectors."
+
+This is a noun phrase fragment rather than a complete sentence — there is no main verb making it a full sentence. While this may be intentional as a thesis-style label, grammatically it lacks a predicate. Otherwise, the internal structure is clear and correctly punctuated.
+
+**Rating: 3** — The fragment structure is a grammatical issue, though the rest is well-formed.
+
+---
+
+**2. Debater B: [Argument 1]**
+Claim 1: "The Einstein zig-zag lens model is overfit, due to the modeling decisions made for the second deflector and the galaxies in the first deflector's plane."
+Claim 2: "Also, F. D. et al. do not quantify or report chi-squared error, an important index of image reconstruction error."
+
+Claim 1 is grammatically sound, though "overfit" could arguably be "overfitted" (both are acceptable). The comma before "due to" is debatable but not strictly wrong. Claim 2 is well-formed. "Also" as a sentence opener is slightly informal but not incorrect. Both claims are clear and correctly structured.
+
+**Rating: 4** — Minor stylistic choices, but no clear mechanical errors.
+
+---
+
+**3. Debater A: [Response 1]**
+Claim 1: "The mass profile of the second deflector appears likely to have a significant effect on the modelling when it is close to the optical axis."
+Claim 2: "Taking galaxy positions into account allows one to more accurately model a more complex mass distribution than a simple shear."
+
+Both claims are grammatically well-formed. Claim 1 is slightly awkward with "appears likely to have" but this is not a grammatical error. "Modelling" is standard British spelling. Claim 2 uses a split infinitive ("to more accurately model") which is generally accepted in modern usage. No errors detected.
+
+**Rating: 5** — Both sentences are clean and well-constructed.
+
+---
+
+**4. Debater B: [Argument 2]**
+Claim 1: "This fails to reveal that the model has 30 total parameters, compared to 12 parameters used in other work."
+Claim 2: "This provides an enormous degree of modelling flexibility and results in overfitting."
+
+Both claims are grammatically correct and clearly structured. "This" as a subject is slightly vague in referencing context, but this is a stylistic rather than grammatical issue. No errors.
+
+**Rating: 5** — Clean, well-formed sentences throughout.
+
+---
+
+**5. Debater A: [Response 2]**
+Claim 1: "A simpler model is not necessarily a correct or accurate model of the system in question."
+Claim 2: "Fifteen parameters in our model are only partially constrained, and therefore should not count as full degrees of freedom."
+
+Both claims are grammatically correct. Claim 2 has a slight ambiguity (the subject "Fifteen parameters" and the predicate "should not count" are well-matched). The comma before "and therefore" is appropriate. No errors.
+
+**Rating: 5** — Both sentences are flawless.
+
+---
+
+**6. Debater B: [Argument 3]**
+Claim 1: "Constraints don't actually fix them in place: they are themselves determined via different models that come with their own errors and uncertainties."
+Claim 2: "Furthermore, all galaxy positions and redshifts except for the main deflector can vary considerably, adding even more freedom to an already complex model."
+
+Claim 1 uses a colon effectively and is grammatically correct. "Don't" is informal but acceptable. Claim 2 is well-structured. No mechanical errors.
+
+**Rating: 5** — Both sentences are clear and grammatically sound.
+
+---
+
+**7. Debater A: [Response 3]**
+Claim 1: "Direct spectroscopy of the second deflector pins down its distance (its redshift) tightly, regardless of the lens model."
+Claim 2: "On top of that, Hubble imaging fixes the on-sky positions to a fraction of an arcsecond."
+
+Both claims are grammatically correct. The use of parentheses in Claim 1 is appropriate. Claim 2 is a clean, simple sentence. No errors.
+
+**Rating: 5** — Both sentences are flawless.
+
+---
+
+**8. Debater B: [Opening]**
+"The gravitationally lensed dual-AGN model ([C. S. M. et al.]), with the first AGN corresponding to the four brightest images and the second AGN corresponding to the two dim images next to the extended red arcs."
+
+Like Debater A's opening, this is a noun phrase fragment with no main verb predicate. The internal structure is well-formed and clearly expressed, but the absence of a main verb makes it grammatically incomplete as a sentence.
+
+**Rating: 3** — Same fragment issue as Debater A's opening; otherwise clear.
+
+---
+
+**9. Debater A: [Argument 1]**
+Claim 1: "Spectroscopy constrains the redshift of the lensed red galaxy to be 1.88, which places it between the main deflector and alleged dual-AGN."
+Claim 2: "The dual-AGN model's lens model should include the mass profile of the red galaxy in order to be valid, but it does not."
+
+Claim 1 is well-formed, though "alleged dual-AGN" is slightly awkward (missing an article: "the alleged dual-AGN"). Claim 2 is grammatically correct. The missing article in Claim 1 is a minor issue.
+
+**Rating: 4** — One minor article omission, otherwise well-constructed.
+
+---
+
+**10. Debater B: [Response 1]**
+Claim 1: "Inclusion of the red galaxy in the lens model will, on the whole, produce only minor changes in the caustics at the redshift of the dual-AGN."
+Claim 2: "The added mass will in turn allow for a relatively larger separation between the two AGN, as one might reasonably expect."
+
+Both claims are grammatically correct and well-structured. The parenthetical "on the whole" is properly set off with commas. No errors.
+
+**Rating: 5** — Both sentences are flawless.
+
+---
+
+**11. Debater A: [Argument 2]**
+Claim 1: "The presence of a second deflector enables models in which one single source can produce 6 observed images."
+Claim 2: "Single-AGN models remain consistent with all available data, making the dual-AGN model unnecessary."
+
+Both claims are grammatically correct. "One single source" is slightly redundant (one vs. single) but not a grammatical error. No mechanical issues.
+
+**Rating: 5** — Clean and well-formed.
+
+---
+
+**12. Debater B: [Response 2]**
+Claim 1: "A single source being lensed to produce 6 images requires a specific morphology which has never been observed before."
+Claim 2: "A dual-AGN is an observed phenomenon that does not invoke overcomplicated hypotheses or unobserved morphologies."
+
+Both claims are grammatically sound. "Which" is used where "that" might be preferred in restrictive clauses (Claim 1), but this is a stylistic preference rather than a hard rule. No other errors.
+
+**Rating: 4** — Very minor "which/that" issue, otherwise correct.
+
+---
+
+**13. Debater A: [Argument 3]**
+Claim 1: "Light curves for all 6 lensed images display the same variations with brief offsets (e.g. 35 days between D and E), and the same redshifts. But C. S. M. et al. claim that D and E correspond to AGN that are 6 kiloparsecs away from each other."
+Claim 2: "Light curves this similar can only be generated by a single source."
+
+Claim 1 is structured as two sentences. The second sentence begins with "But," which is informal but grammatically acceptable. The first sentence has a slightly loose structure with "the same variations with brief offsets... and the same redshifts," which is a bit awkward but not incorrect. No mechanical errors. Claim 2 is perfectly constructed.
+
+**Rating: 4** — Minor awkwardness in Claim 1's first sentence, but no real errors.
+
+---
+
+**14. Debater B: [Response 3]**
+Claim 1: "Activity in one AGN can set off activity in the other AGN in a dual-AGN system, causing correlated emissions."
+Claim 2: "Correlated emissions can make two different objects look like a single object under some circumstances."
+
+Both claims are grammatically correct and clearly expressed. No errors.
+
+**Rating: 5** — Both sentences are flawless.
+
+---
+
+RATINGS:
+A | Opening | [[3]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[5]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[5]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[5]]
+B | Opening | [[3]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[5]]
+A | Argument 2 | [[5]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[5]]

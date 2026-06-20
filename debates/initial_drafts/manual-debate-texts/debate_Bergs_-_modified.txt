@@ -1,0 +1,73 @@
+<debate initiator="Liz" questioner="Bob">
+  <speaker name="Liz" claim="0">
+    The answer is (b). While floating, the heavy spike forces the ice to displace water equal to the spike's weight. When the ice melts, the spike sinks to the bottom, where it displaces only its volume. Since iron is denser than water, it displaced much more water while floating.
+  </speaker>
+
+  <speaker name="Bob" question="0">
+    The low-density ice is floating and so displaces exactly its own weight in water <ref id="archimedes_weight"/>. The spike is a "buoyant submerged object" <ref id="submerged_confusion"/> inside the ice. Why treat the spike's mass as what matters when water rise relates to "volume... not mass" <ref id="submerged_confusion"/> for submerged objects?
+  </speaker>
+
+  <speaker name="Liz" claim="1">
+    The spike drops out of the ice as the ice melts. The ice, relieved of that load, pops up like an unloaded boat, lowering the water level. When the remaining ice melts the level stays at that new, lower point.
+  </speaker>
+
+  <speaker name="Bob" question="1">
+    The water level does not lower when a boat is unloaded. Since this is a closed system (the mass of the water, ice, and spike remains exactly the same before and after melting), and mass is conserved, why wouldn't the water level remain constant?
+  </speaker>
+
+  <speaker name="Liz" claim="2">
+    Mass is conserved, but displacement changes. Think of a huge Styrofoam cube with small, very heavy lead balls weighing it down: it displaces a lot of water. If dropped, the whole cube pops out of the water and very little water is displaced.
+  </speaker>
+
+  <speaker name="Bob" question="2">
+    If a system like this displaced water equal to its weight, wouldn't that imply that a floating Styrofoam cube that starts to sink due to containing a 100 lb metal ball would displace ~10x as much water as a same-sized cube containing a same-sized 1,000 lb ball?
+  </speaker>
+
+  <speaker name="Liz" claim="3">
+    Yes, provided the cube is large enough to keep the 1,000 lb ball afloat. That is exactly how buoyancy works <ref id="archimedes_weight"/>.
+  </speaker>
+</debate>
+
+<debate initiator="Bob" questioner="Liz">
+  <speaker name="Bob" claim="0">
+    The answer is (a). The water level stays the same <ref id="archimedes_weight"/> for a "floating object", but the spike isn't "floating" in the required sense.
+  </speaker>
+
+  <speaker name="Liz" question="0">
+    Why not? A "railroad spike" implies significant weight (~400g). While floating, that weight displaces ~400ml of water. When sunken, it displaces only 50ml. Shouldn’t the water level drop ~350ml?
+  </speaker>
+
+  <speaker name="Bob" claim="1">
+    The spike is effectively a "buoyant submerged object" <ref id="submerged_confusion"/> inside the ice system. The text warns that for such objects, water rise relates to "volume... not mass" <ref id="submerged_confusion"/> which does not change. By focusing on the spike's mass, you are falling for the distractor.
+  </speaker>
+
+  <speaker name="Liz" question="1">
+    <ref id="submerged_confusion"/> warns that the displacement rule switches from mass-based to volume-based when an object becomes submerged. Since the spike transitions from floating (supported by ice/buoyancy) to submerged (supported by the tub floor), why wouldn't the displacement switch too?
+  </speaker>
+
+  <speaker name="Bob" claim="2">
+    You are confusing the container with the contents. The ice floats due to its low density; the spike is just a fixed volume trapped inside it.
+  </speaker>
+
+  <speaker name="Liz" question="2">
+    Imagine the spike is the size of a pin but super-heavy such that the ice is pushed almost entirely underwater to support it. If that pin-spike suddenly fell out, the ice would pop up and the water level would fall. At what weight does the answer switch from (b) to (a)?
+  </speaker>
+
+  <speaker name="Bob" claim="3">
+    It doesn't switch. That scenario exploits incorrect intuitions that some people have about floating bodies.
+  </speaker>
+</debate>
+
+<refs>
+  <cite id="archimedes_weight" 
+        quote="Any floating object displaces its own weight of fluid." 
+        url="https://en.wikipedia.org/wiki/Archimedes%27_principle"/>
+
+  <cite id="submerged_confusion" 
+        quote="One common point of confusion regarding Archimedes' principle is the meaning of displaced volume. Common demonstrations involve measuring the rise in water level when an object floats on the surface in order to calculate the displaced water. This measurement approach fails with a buoyant submerged object because the rise in the water level is directly related to the volume of the object and not the mass (except if the effective density of the object equals exactly the fluid density)." 
+        url="https://en.wikipedia.org/wiki/Archimedes%27_principle"/>
+
+  <cite id="archimedes_restate" 
+        quote="In other words, for an object floating on a liquid surface (like a boat) or floating submerged in a fluid (like a submarine in water or dirigible in air) the weight of the displaced fluid equals the weight of the object." 
+        url="https://en.wikipedia.org/wiki/Archimedes%27_principle"/>
+</refs>

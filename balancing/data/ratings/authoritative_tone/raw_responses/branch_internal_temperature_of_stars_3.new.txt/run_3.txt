@@ -1,0 +1,157 @@
+I'll analyze each turn for authoritative tone, then provide ratings.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The internal temperature of a star increases with time on the main sequence."
+
+This is a simple declarative statement. It's direct and confident, with no hedging. However, it offers no technical language, no reasoning, and no demonstration of expertise — just a bare assertion. Directness lends some authority, but the absence of any supporting language or technical vocabulary keeps it minimal.
+
+**Rating: 3** — Confident and direct, but too sparse to convey deep expertise.
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "A star continually radiates energy away from its surface in the form of photons."
+Claim 2: "The temperature of the system does not increase due to the amount of energy actively being taken away from it."
+
+Claim 1 uses precise scientific vocabulary ("radiates energy," "photons") and sounds authoritative. Claim 2 uses reasonably confident language ("does not increase due to") but is somewhat informal and lacks specific technical terminology (e.g., no reference to thermodynamics, no quantitative framing). "Actively being taken away" is a slightly colloquial phrase that softens the authority a bit.
+
+**Rating: 3** — Some technical vocabulary in Claim 1, but Claim 2 is less precise and slightly casual.
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: "The temperature of a star is proportional to the kinetic energy of its constituent particles via the equipartition theorem."
+Claim 2: "The kinetic energy of the constituent particles of the star, on the whole, increases as it evolves on the main sequence."
+
+Claim 1 invokes the equipartition theorem by name and uses precise scientific language ("proportional to," "constituent particles"), which strongly signals expertise. Claim 2 is also technically phrased, though "on the whole" introduces a slight hedge. Overall, this is a technically confident, well-framed argument.
+
+**Rating: 4** — Named physical theorem, precise language, confident phrasing; minor hedging in Claim 2.
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: "By the first law of thermodynamics, energy lost via radiation must come from the system's internal energy or work done on the system."
+Claim 2: "Since no external work is being done, internal energy must decrease, which comes from the constituent particles' kinetic energy."
+
+Claim 1 explicitly invokes the first law of thermodynamics, uses rigorous scientific framing ("energy lost via radiation," "work done on the system"), and demonstrates a solid command of thermodynamic reasoning. Claim 2 follows logically and precisely, with confident declarative language ("must decrease"). Together these are very technically presented.
+
+**Rating: 4** — Named thermodynamic law, logical deductive structure, precise vocabulary throughout.
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: "When a self-gravitating system contracts, its gravitational potential energy decreases."
+Claim 2: "Gravity does work on the system and the released gravitational potential energy more than offsets the radiated energy, with the surplus increasing the kinetic energy of the particles."
+
+Both claims use technical language ("self-gravitating system," "gravitational potential energy," "does work on the system"). The phrase "more than offsets" is confident and precise in conveying the net energy balance. This is well-framed astrophysical reasoning. "On the system" follows thermodynamic framing naturally from the prior argument.
+
+**Rating: 4** — Strong technical vocabulary, confident causal reasoning, clear expert framing.
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "Thermodynamic properties like internal energy are intrinsically linked to the temperature of the star."
+Claim 2: "Kinetic energy is related to temperature, but gravitational potential energy should not be included in thermodynamic calculations."
+
+Claim 1 uses the phrase "intrinsically linked" and references thermodynamic properties competently. Claim 2 makes a categorical assertion ("should not be included") which sounds confident, though it is a contestable claim. The use of "thermodynamic calculations" as a technical domain marker adds some authority. However, "is related to" in Claim 2 is slightly weaker phrasing compared to the precision seen elsewhere.
+
+**Rating: 3** — Reasonably technical but with some imprecision; the categorical assertion in Claim 2 reads as assertive rather than deeply expert.
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: "By the virial theorem, the kinetic energy of the star increases over time, as the gravitational potential energy of the star itself decreases."
+Claim 2: "And since the temperature is proportional to the kinetic energy (Debater A Response 1 Claim 1), the temperature naturally increases."
+
+Claim 1 invokes the virial theorem by name and provides a technically precise causal relationship. Claim 2 references a prior claim explicitly to build a logical chain, which demonstrates structured reasoning. "Naturally increases" is confident. The explicit citation of a prior claim can read as either organized or slightly mechanical, but overall the technical framing is strong.
+
+**Rating: 4** — Named virial theorem, logical chain construction, confident declarative language.
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The internal temperature of a star decreases with time on the main sequence."
+
+Identical structure to Debater A's opening — a single, direct declarative statement. No technical vocabulary, no reasoning given, just a confident assertion.
+
+**Rating: 3** — Direct and confident but bare of expertise markers.
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "Star cores contract as they evolve on the main sequence."
+Claim 2: "If pressure fails to keep pace with strengthening gravity as the star contracts, the star will undergo gravitational collapse."
+
+Claim 1 is factual and confident but uses simple, accessible language. Claim 2 introduces "hydrostatic equilibrium" implicitly through the pressure-gravity framing and uses "gravitational collapse" as a technical term. However, "fails to keep pace" is somewhat informal, and the overall framing is less rigorous than invoking specific laws or theorems.
+
+**Rating: 3** — Introduces a technical concept (gravitational collapse) but language is relatively informal and no laws/theorems are explicitly named.
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "Radiation pressure from nuclear fusion in a star's core is one of the forces that supports the star against gravitational collapse."
+Claim 2: "The combination of radiation pressure and thermal pressure prevents collapse even though thermal pressure decreases."
+
+Claim 1 uses specific technical terms ("radiation pressure," "nuclear fusion," "gravitational collapse") and demonstrates knowledge of stellar physics mechanisms. Claim 2 compounds two pressure types with a concessive clause ("even though thermal pressure decreases"), showing nuanced reasoning. However, "is one of the forces" is slightly hedged language.
+
+**Rating: 3** — Good technical vocabulary but "one of the forces" hedges slightly; overall moderately authoritative.
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "When the temperature falls, radiation and thermal pressure are both going to fall accordingly."
+Claim 2: "With less pressure pushing outward, gravity would naturally get stronger because the mass is now more concentrated, in effect breaking hydrostatic equilibrium."
+
+"Are both going to fall accordingly" is a relatively informal construction. Claim 2 uses "hydrostatic equilibrium" as a technical term but "less pressure pushing outward" is plain language, and "naturally get stronger" is colloquial. The overall tone is conversational rather than expert.
+
+**Rating: 2** — Uses "hydrostatic equilibrium" but much of the language is casual and informal, undermining expertise.
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "Thermal pressure importantly depends on density as well as on temperature."
+Claim 2: "As the core contracts, rising density partially offsets the falling temperature. So the pressure deficit stays small and the contraction is slow and gradual, not a runaway collapse."
+
+Claim 1 uses the term "thermal pressure" precisely and the adverb "importantly" signals a knowledgeable correction. Claim 2 introduces "pressure deficit" as a conceptual term and distinguishes "slow and gradual" contraction from "runaway collapse," showing nuanced technical understanding. The phrasing is confident and well-structured.
+
+**Rating: 4** — Precise technical vocabulary, clear expert distinction between types of contraction, confident logical flow.
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "The contraction continues unchecked over time in this scenario because no mechanism breaks the feedback loop."
+Claim 2: "Furthermore, with nothing in place to interrupt the feedback loop, the collapse will occur at a thermal timescale."
+
+The phrase "feedback loop" is used technically but is also common in non-expert contexts. "Nothing in place to interrupt" is somewhat informal. "Thermal timescale" in Claim 2 is a precise stellar physics term, lending authority. However, "unchecked" and "nothing in place" undermine the expert register. The argument repeats the feedback loop point without deepening it.
+
+**Rating: 3** — "Thermal timescale" is a strong technical marker, but other language is less rigorous; some repetition weakens the overall impression.
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "A star contracts until it ignites helium fusion at the end of the main sequence."
+Claim 2: "The rate at which thermal pressure decreases does matter: the increasing density of the core (Debater B Response 2 Claim 1) prolongs the contraction long enough for helium fusion to ignite."
+
+Claim 1 uses "helium fusion" precisely and correctly situates it at the end of the main sequence, demonstrating astrophysical knowledge. Claim 2 builds a careful causal argument with explicit reference to a prior claim and uses "prolongs the contraction" with confident precision. "Does matter" is slightly emphatic but informal. The overall logical and technical structure is strong.
+
+**Rating: 4** — Precise technical terms, well-structured causal reasoning, confident tone with minor informality.
+
+---
+
+RATINGS:
+A | Opening | [[3]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[4]]
+B | Argument 2 | [[4]]
+A | Response 2 | [[4]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[4]]
+B | Opening | [[3]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[4]]

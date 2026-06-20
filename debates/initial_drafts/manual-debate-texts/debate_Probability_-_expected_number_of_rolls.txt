@@ -1,0 +1,78 @@
+<debate initiator="Liz" questioner="Bob">
+  <speaker name="Liz" claim="0">
+    B is larger. "Given all even" acts as a filter that deletes long sequences (probability of rolling odd increases quickly with sequence length), and two 6s in a row is hard to get without a long sequence, so A is biased toward very short, lucky runs.
+  </speaker>
+
+  <speaker name="Bob" question="0">
+    Anytime you roll until reaching two 6s in a row, you will have also hit your second 6 at or before that moment. Since the stopping condition for A is strictly harder and happens later than or at the same time as B, shouldn't A always be larger?
+  </speaker>
+
+  <speaker name="Liz" claim="1">
+    'Strictly harder' means *shorter* since we're discarding sequences with odds. For A, if you roll 2 or 4 after 6, you've broken your streak; to fix it you keep rolling, which exposes you to high risk of rolling an odd and 'dying'. Surviving seqs for A tend to be those that succeeded quickly.
+  </speaker>
+
+  <speaker name="Bob" question="1">
+    You're talking about the prob. of a sequence being valid, but the question asks for the expected # of rolls in valid sequences. Even if valid A-sequences are rarer, why would the survivors be shorter? Shouldn't things be dominated by the long sequences that managed to finally get two 6s in a row?
+  </speaker>
+
+  <speaker name="Liz" claim="2">
+    No. After 2 rolls the prob of a 'win' for A &amp; B is equal. After 10 it's much lower for A. The difference in distributions biases A towards short rolls (relative to B).
+  </speaker>
+
+  <speaker name="Bob" question="2">
+    If I roll 6, 4, 6, I have satisfied B and I stop (3 rolls). For A, I am not done; I have to keep rolling, adding more length to the sequence. Do you agree that the probability of rolling an odd and 'killing' the sequence on any given roll is the same for A &amp; B?
+  </speaker>
+
+  <speaker name="Liz" claim="3">
+    Yes, but you still have different distributions. Say we used a 100-sided die. "100, 100" in a row is rare: if you don't get this quickly, you'll almost certainly hit an odd number and "die." Whereas longer runs (e.g. 100, 24, 82, 100) are commoner with B. Same thing here, but more obvious with 100.
+  </speaker>
+</debate>
+
+<debate initiator="Bob" questioner="Liz">
+  <speaker name="Bob" claim="0">
+    A is larger. The condition "all rolls were even" turns the D6 into a D3 for purposes of this question (sides 2, 4, 6). On a D3, getting two 6s in a row is harder than getting two 6s generally, so it takes more rolls.
+  </speaker>
+
+  <speaker name="Liz" question="0">
+    Would you agree that the expected # of rolls of your D3 until we see the first 6 is 3 (it's a geometric distribution<ref id="geometric_dist"/> of success rate 1/3), while expected # of rolls until first 6 given all rolls even is 3/2? (See ref URL for easier-to-read math notation than in the quote)
+  </speaker>
+
+  <speaker name="Bob" claim="1">
+    Pretty sure I don't, but even if that were true it wouldn't matter - due to reason stated in Bob.Q.0, A should end up larger no matter what happens along the way. I said "all rolls were even" turns the D6 into a D3 **for purposes of this question**, you've substituted a different question.
+  </speaker>
+
+  <speaker name="Liz" question="1">
+    P(X given Y) = P(X and Y)/Pr(Y). Numerator for P(first 6 on roll k|all rows even): If k rolls to see first 6 &amp; all rolls even, then the first k - 1 were all 2 or 4 &amp; the kth was 6. Prob of this is ((2/6)^k-1)*(1/6). Denom. is eqiv. to "prob that of {1,3,5,6}, 6 is the first to show up" = 1/4.
+  </speaker>
+
+  <speaker name="Bob" claim="2">
+    I think there may be an error here but I'm not sure. Again though, it's a distraction (see Bob.1.)
+  </speaker>
+
+  <speaker name="Liz" question="2">
+    Dividing, we get ((2/6)^(k-1))*(1/6))/(1/4) = (2/3)(1/3)^(k-1). Plug in to def of expected value<ref id="expected_val"/>, get sum(k=1->infinity) of k*(2/3)(1/3)^(k-1). Rewrite as (2/3)*(1/(1/3))*sum(k=1->infinity) of k*(1/3)^k, apply <ref id="arith_geo_seq"/> to get 3/2. No room to prove B > A but this shows "given all rolls were even" matters.
+  </speaker>
+
+  <speaker name="Bob" claim="3">
+    I again think there may be an error (Wikipedia's note that the formula cited <ref id="expected_val"/> "is not suitable as a mathematical definition" <ref id="expected_val_caveat"/> might be relevant here?), but in any case again see Bob.1. This addresses a different question than the one under investigation.
+  </speaker>
+</debate>
+
+<refs>
+  <cite id="geometric_dist" 
+        quote="The geometric distribution gives the probability that the first occurrence of success requires <math>k</math> independent trials, each with success probability <math>p</math>. If the probability of success on each trial is <math>p</math>, then the probability that the <math>k</math>-th trial is the first success is <math display='block'>\Pr(X = k) = (1-p)^{k-1}p</math> for <math>k=1,2,3,4,\dots</math> The above form of the geometric distribution is used for modeling the number of trials up to and including the first success." 
+        url="https://en.wikipedia.org/wiki/Geometric_distribution"/>
+
+  <cite id="expected_val" 
+        quote="Informally, the expectation of a random variable with a countably infinite set of possible outcomes is defined analogously as the weighted average of all possible outcomes, where the weights are given by the probabilities of realizing each given value. This is to say that <math display='block'>\operatorname{E}[X] = \sum_{i=1}^\infty x_i\, p_i,</math> where $x_1, x_2, \dots$ are the possible outcomes of the random variable $X$ 
+and $p_1, p_2, \dots$ are their corresponding probabilities." 
+        url="https://en.wikipedia.org/wiki/Expected_value"/>
+
+  <cite id="arith_geo_seq" 
+        quote="In general, $ \sum_{k=1}^{\infty} {\color{blue} k} {\color{green} r^k} = \frac{r}{(1 - r)^2} \quad \text{for } -1 < r < 1 $" 
+        url="https://en.wikipedia.org/wiki/Arithmetico-geometric_sequence"/>
+
+  <cite id="expected_val_caveat" 
+        quote="However, there are some subtleties with infinite summation, so the above formula is not suitable as a mathematical definition. In particular, the Riemann series theorem of mathematical analysis illustrates that the value of certain infinite sums involving positive and negative summands depends on the order in which the summands are given. Since the outcomes of a random variable have no naturally given order, this creates a difficulty in defining expected value precisely." 
+        url="https://en.wikipedia.org/wiki/Expected_value"/>
+</refs>

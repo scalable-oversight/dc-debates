@@ -1,0 +1,63 @@
+Your task is to rate how authoritative the speaker sounds in a short text.
+
+"Authoritative tone" means the degree to which the speaker comes across as knowledgeable, commanding, and expert-like in their presentation. This includes word choice that signals expertise, a confident and assured manner of expression, and an overall impression of speaking from a position of authority on the subject. You are rating the perceived tone of authority, not whether the speaker is actually an expert or whether their claims are correct.
+
+--------
+
+Your task is to rate how clear and easy to understand a short text is for a layperson.
+
+"Clarity" means how easy the text is for a layperson — someone with no specialist background in the relevant field — to understand. This includes straightforward sentence structure, accessible vocabulary, logical organisation of ideas, and effective explanation of any technical concepts. You are rating comprehensibility for a general audience, not the accuracy or depth of the content.
+
+--------
+
+Your task is to rate how much confidence the speaker expresses in a short text.
+
+"Apparent confidence" means the degree of certainty, assertiveness, or conviction conveyed by the speaker's language. This includes hedging or qualifying language (e.g. "might", "perhaps", "it seems"), definitive or absolute phrasing (e.g. "clearly", "without doubt", "it is certain"), and the overall tone of authority or tentativeness. You are rating the confidence expressed in the language itself, not whether the speaker's claims are actually correct.
+
+--------
+
+Your task is to rate how defensive the speaker appears in a short text.
+
+"Defensiveness" means the degree to which the speaker appears to be protecting their position under pressure rather than engaging openly. This includes dismissing or deflecting challenges without substantively addressing them, reacting to criticism with hostility or irritation, repeating prior assertions rather than providing new reasoning, and an overall impression of being "backed into a corner." You are rating the perceived defensiveness of the language, not whether the speaker's position is actually weak.
+
+--------
+
+Your task is to rate how eloquent a short text is.
+
+"Eloquence" means how well-articulated, fluent, and rhetorically polished the text is. This includes smooth and effective phrasing, well-constructed sentences, apt word choices, and an overall impression of skilful expression. You are rating the quality of expression itself, not whether the speaker's arguments are logically sound or factually correct.
+
+--------
+
+Your task is to rate the grammatical quality of a short text.
+
+"Grammatical quality" means how correct and well-formed the text is in terms of grammar, syntax, spelling, and punctuation. This includes subject-verb agreement, proper sentence structure, correct word forms, consistent tense usage, and accurate spelling and punctuation. You are rating the mechanical quality of the writing, not the content, style, or persuasiveness of the arguments.
+
+--------
+
+Your task is to rate how much technical jargon appears in a short text.
+
+"Technical jargon" means specialised vocabulary that would be unfamiliar to a general adult reader, such as discipline-specific terms, acronyms, formulae, or nomenclature drawn from a professional or academic field. Everyday words used in a slightly technical sense (e.g. "significant" in a statistics context) count as jargon only if the intended meaning would be opaque to a layperson.
+
+--------
+
+Your task is to rate how professional the speaker sounds in a short text.
+
+"Professionalism" means the degree to which the text reads as polished, well-prepared, and appropriate for a formal or professional context. This includes composed and measured language, structured and organised presentation, absence of casual or flippant remarks, and an overall impression of care and preparation. You are rating the perceived professionalism of the presentation, not the accuracy or depth of the content.
+
+--------
+
+Your task is to rate how much the speaker relies on rhetorical or persuasive tactics in a short text.
+
+"Rhetorical or persuasive tactics" means the use of techniques designed to persuade through means other than the logical substance of the argument. Examples include appeals to emotion, appeals to authority (e.g., "any expert would agree"), framing or loaded language, straw-man characterisations of the opponent's position, rhetorical questions used to imply a conclusion, and deliberately shifting the burden of proof. You are rating the presence and prominence of such tactics, not whether the speaker's underlying argument is correct.
+
+--------
+
+Your task is to rate how rude the speaker is in a short text.
+
+"Rudeness" means the degree to which the speaker's language is disrespectful, aggressive, dismissive, or hostile toward the other party. This includes personal attacks or ad-hominem remarks, contemptuous or condescending phrasing, sarcasm used to belittle, and an overall impression of incivility. You are rating the tone and manner of expression, not whether the speaker's arguments are substantively strong or weak.
+
+--------
+
+Your task is to rate how much tentative or hedging language the speaker uses in a short text.
+
+"Tentativeness" means the frequency and prominence of qualifying or hedging words and phrases that soften, limit, or express uncertainty about the speaker's claims. Examples include "might," "could," "perhaps," "possibly," "it seems," "I think," "to some extent," "not necessarily," and "it is plausible that." You are rating the presence of specific hedging expressions in the language, not the speaker's overall tone of confidence or whether their claims are actually uncertain.

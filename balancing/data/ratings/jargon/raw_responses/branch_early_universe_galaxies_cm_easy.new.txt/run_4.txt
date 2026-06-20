@@ -1,0 +1,156 @@
+I'll analyze each turn for technical jargon, then provide ratings.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+- "early universe galaxies" – descriptive, accessible
+- "dark matter" – defined in definitions section, but still a technical physics term
+- "falsifying" – used in a scientific/philosophical sense (Popper); mildly technical but broadly understood
+Overall: Only "dark matter" is genuinely technical, and it's widely known. Rating: **2**
+
+---
+
+**2. Debater B: [Argument 1]**
+- "stellar mass" – implied but not explicit; "mass of a galaxy" is plain language
+- "brightness" – plain
+- "MOND-based models" – technical acronym (Modified Newtonian Dynamics)
+- "high-redshift" – technical astrophysics term; "redshift" requires domain knowledge
+- "Lambda-CDM" – technical cosmological model acronym
+Overall: Several technical terms (MOND, high-redshift, Lambda-CDM). Rating: **3**
+
+---
+
+**3. Debater A: [Response 1]**
+- "stellar mass" – technical but fairly accessible
+- "top-heavy IMF" – "IMF" is a technical acronym (Initial Mass Function); "top-heavy" in this context is jargon
+- "Lambda-CDM" – technical acronym
+Overall: Multiple technical terms concentrated in these claims. Rating: **3**
+
+---
+
+**4. Debater B: [Argument 2]**
+- "IMF" – technical acronym
+- "empirically" – slightly academic but accessible
+- "Milky Way" – common knowledge
+- "population of stars" – accessible
+Overall: IMF is the main jargon term, used twice. The rest is accessible. Rating: **2**
+
+---
+
+**5. Debater A: [Response 2]**
+- "IMF" – technical acronym
+- "early universe galaxies" – descriptive
+- "metallicity" – technical astrophysics term; a layperson would not know this refers to abundance of elements heavier than hydrogen/helium
+- "formation of more massive stars" – accessible
+Overall: "metallicity" is significant jargon alongside IMF. Rating: **3**
+
+---
+
+**6. Debater B: [Argument 3]**
+- "IMF" – technical acronym
+- "z~3-4" – redshift notation, highly technical
+- "solid residuals" – "residuals" in a statistical/fitting sense is technical
+- "redshift" – technical astrophysics term
+- "metallicity" – technical
+- "top-heavy IMF" – technical
+Overall: Multiple technical terms including notation. Rating: **4**
+
+---
+
+**7. Debater A: [Response 3]**
+- "metallicity" – technical
+- "redshifts of 8-16" – redshift values, technical
+- "standard IMF" – technical acronym
+Overall: Several technical terms but fewer than the previous turn. Rating: **3**
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+- "early universe galaxies" – descriptive
+- "dark matter" – technical but widely known
+- "falsifying" – mildly technical (scientific method sense)
+Overall: Similar to Debater A's opening. Rating: **2**
+
+---
+
+**9. Debater A: [Argument 1]**
+- "MOND-based models" – technical acronym
+- "high-redshift galaxy masses" – technical astrophysics
+- "Lambda-CDM" – technical acronym
+- "cosmological observations" – mildly technical
+Overall: Multiple technical terms. Rating: **3**
+
+---
+
+**10. Debater B: [Response 1]**
+- "Lambda-CDM" – technical acronym
+- "dark matter" – technical
+- "dark energy" – technical
+- "negative pressure" – technical physics concept
+- "MOND-based models" – technical
+- "cosmological phenomena" – mildly technical
+Overall: Dense with technical terms from the field. Rating: **3**
+
+---
+
+**11. Debater A: [Argument 2]**
+- "MOND" – technical acronym
+- "gravitational lensing" – technical astrophysics term
+- "ad hoc fixes" – academic phrasing but accessible
+- "dark matter" – technical
+- "general relativity" – technical but widely known
+- "astrophysics" – discipline name, accessible
+Overall: Several technical terms but most are somewhat accessible. Rating: **3**
+
+---
+
+**12. Debater B: [Response 2]**
+- "Relativistic extensions of MOND" – technical
+- "TeVeS" – highly technical acronym (Tensor-Vector-Scalar gravity); specialist term
+- "gravitational lensing" – technical
+- "dark matter" – technical
+- "CASTLES sample" – very technical; refers to a specific lens survey database
+Overall: TeVeS and CASTLES are quite specialist; combined with other terms makes this heavy. Rating: **4**
+
+---
+
+**13. Debater A: [Argument 3]**
+- "TeVeS" – highly technical acronym
+- "gravitational lensing" – technical
+- "Bullet Cluster lensing" – technical; refers to a specific astronomical observation
+- "lens systems" – technical
+- "clusters" – in astrophysics context, technical
+Overall: Multiple highly specialist terms. Rating: **4**
+
+---
+
+**14. Debater B: [Response 3]**
+- "TeVeS" – highly technical acronym
+- "2 eV neutrinos" – very technical (particle physics; eV = electron volts)
+- "Bullet Cluster lensing" – technical
+- "dark matter" – technical
+- "many-parameter interpolation functions" – technical mathematical/physics concept
+- "single parameters" – technical in context
+Overall: Very dense with specialist terminology including particle physics notation. Rating: **4**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[4]]

@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Debate (Judge View)</title>
+<script>
+  MathJax = {
+    tex: { inlineMath: [['\\(','\\)'],['$','$']], displayMath: [['\\[','\\]'],['$$','$$']] },
+    options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code'] }
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+<style>
+    :root {
+        --color-left: #FFF6CC;
+        --color-right: #F2E8FF;
+        --primary-blue: #007bff;
+        --timer-bg: #343a40;
+        --timer-text: #fff;
+        --clr-accent: #3d5a80;
+    }
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f9f9f9; color: #333;
+        max-width: 800px; margin: 0 auto;
+        padding: 20px; padding-bottom: 60px; line-height: 1.6;
+    }
+    .container {
+        background: white; padding: 30px; border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .intro-section { margin-bottom: 30px; }
+    .intro-section h3 {
+        margin-top: 25px; margin-bottom: 15px; color: #2c3e50;
+        border-bottom: 2px solid #eee; padding-bottom: 10px;
+    }
+    .intro-section h3:first-child { margin-top: 0; }
+    .definition-item { margin-bottom: 12px; }
+    .definition-item img { max-width: 100%; height: auto; }
+    .context-text {
+        font-style: italic; margin-bottom: 20px; color: #555;
+        background-color: #f8f9fa; padding: 10px;
+        border-left: 4px solid #6c757d; border-radius: 4px;
+    }
+    .image-container { text-align: center; margin-bottom: 20px; }
+    .image-container img {
+        max-width: 100%; height: auto;
+        border: 1px solid #ddd; border-radius: 4px;
+    }
+    .figure-wrapper {
+        border: 1px solid #ddd; border-radius: 4px; padding: 15px;
+        margin-bottom: 20px; background-color: #fff; text-align: left;
+    }
+    .figure-wrapper img {
+        border: none !important; margin-bottom: 5px;
+        display: block; margin-left: auto; margin-right: auto;
+        max-width: 100%; height: auto;
+    }
+    .figure-caption {
+        font-style: italic; color: #666; font-size: 0.9rem;
+        margin-top: 5px; text-align: center;
+    }
+    label {
+        display: block; font-weight: 600;
+        margin-bottom: 10px; color: #2c3e50;
+    }
+    textarea:focus {
+        outline: none; border-color: var(--primary-blue);
+        box-shadow: 0 0 0 3px rgba(0,123,255,0.1);
+    }
+    .btn-copy:hover { background-color: #0056b3; }
+    /* Source link styling */
+    .source-link {
+        color: var(--clr-accent); text-decoration: none;
+        border-bottom: 1px dashed var(--clr-accent); font-weight: 600;
+    }
+    .source-link:hover { border-bottom-style: solid; text-decoration: none; }
+    .missing-source {
+        background-color: #fdd; color: #900; font-weight: 600;
+        padding: 0 3px; border-radius: 3px;
+    }
+    /* Definition link + tooltip */
+    .def-link {
+        color: #5d4037; text-decoration: none;
+        border-bottom: 1px dotted #5d4037;
+        position: relative; cursor: help;
+    }
+    .def-link:hover { color: #3e2723; border-bottom-style: solid; }
+    .def-tooltip {
+        position: absolute; width: max-content; max-width: 380px;
+        background: #2c2c2c; color: #f5f5f5;
+        font-size: .82rem; font-weight: 400; line-height: 1.5;
+        padding: .6rem .85rem; border-radius: 4px;
+        box-shadow: 0 4px 12px rgba(0,0,0,.08);
+        z-index: 1000; pointer-events: none; white-space: normal;
+    }
+    .def-tooltip-arrow {
+        position: absolute; width: 0; height: 0;
+        border: 6px solid transparent; border-top-color: #2c2c2c;
+        z-index: 1001; pointer-events: none;
+    }
+    /* Source entries */
+    .source-entry {
+        padding: 0.7rem 1rem; border-bottom: 1px solid #e0ddd8;
+        font-size: 0.95rem; line-height: 1.55;
+    }
+    .source-entry:last-child { border-bottom: none; }
+    .source-entry strong { color: #1a1a1a; }
+    .source-url {
+        color: var(--clr-accent); word-break: break-all;
+        font-size: 0.85rem; display: block; margin-top: 2px;
+    }
+    .source-quote { color: #6b6b6b; font-style: italic; }
+    /* Debate table */
+    .debate-table-card {
+        background: rgba(255,255,255,0.04);
+        border: 1px solid rgba(0,0,0,0.10);
+        border-radius: 18px; overflow: visible;
+        margin: 0 30px 20px 30px;
+    }
+    .debate-table-card table {
+        width: 100%; table-layout: fixed;
+        border-collapse: separate; border-spacing: 0;
+    }
+    .debate-table-card td {
+        vertical-align: top; padding: 14px 16px; font-size: 14.5px;
+        border-bottom: 1px solid rgba(0,0,0,0.08);
+        overflow-wrap: anywhere;
+        position: relative;
+    }
+    .debate-table-card td:first-child { padding-right: 24px; }
+    .debate-table-card td:last-child  { padding-left: 24px; }
+    .gap-div {
+        position: absolute; top: -1px; bottom: -1px; width: 10px;
+        background: white; z-index: 1;
+    }
+    .gap-div-right { right: -1px; }
+    .gap-div-left  { left: -1px; }
+    .debate-table-card tr:last-child td { border-bottom: none; }
+    .debate-table-card tr:first-child td:first-child { border-top-left-radius: 18px; }
+    .debate-table-card tr:first-child td:last-child  { border-top-right-radius: 18px; }
+    .debate-table-card tr:last-child  td:first-child { border-bottom-left-radius: 18px; }
+    .debate-table-card tr:last-child  td:last-child  { border-bottom-right-radius: 18px; }
+    td.speaker-a {
+        background: #fff6cc; color: #2a2000;
+    }
+    td.speaker-b { background: #f2e8ff; color: #1f0f33; }
+    td.speaker-a strong, td.speaker-b strong { font-weight: 750; }
+    /* Claim boxes inside argument / response rows */
+    .speaker-a-claim {
+        border: 2px solid #C4A000; border-radius: 6px;
+        padding: 6px 10px; margin-top: 8px;
+    }
+    .speaker-b-claim {
+        border: 2px solid #9B7DC4; border-radius: 6px;
+        padding: 6px 10px; margin-top: 8px;
+    }
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="intro-section">
+<h3>Key Question</h3>
+<div class="definition-item">A ball of ice 50 cm in diameter floats in a bathtub that holds 200 L water, which is brim full with ice-cold water. The ice has a 50 cm^3 railroad spike frozen inside it, below the waterline. When it melts, what will happen?
+<br/><br/>
+<ul><li>The bathtub will stay brim full</li><li>The water level in the bathtub will fall</li><li>The water in the bathtub will spill over</li></ul>
+You may ignore the effects of differences in an object's weight in air vs. vacuum or other considerations that the question author would be unlikely to consider relevant. In other words, please provide the answer that you believe the question author would be most likely to mark as correct.</div>
+
+<h3>Sources</h3>
+<div class="source-entry" id="src-quote_1"><strong>Wikipedia, Archimedes&#x27; principle, quote 1</strong> <em>[URL, author blinded from debate judges.]</em><span class="source-quote"> &mdash; &ldquo;Any floating object displaces its own weight of fluid.&rdquo;</span></div>
+<div class="source-entry" id="src-quote_2"><strong>Wikipedia, Archimedes&#x27; principle, quote 2</strong> <em>[URL, author blinded from debate judges.]</em><span class="source-quote"> &mdash; &ldquo;One common point of confusion regarding Archimedes&#x27; principle is the meaning of displaced volume. Common demonstrations involve measuring the rise in water level when an object floats on the surface in order to calculate the displaced water. This measurement approach fails with a buoyant submerged object because the rise in the water level is directly related to the volume of the object and not the mass (except if the effective density of the object equals exactly the fluid density).&rdquo;</span></div>
+<div class="source-entry" id="src-quote_3"><strong>Wikipedia, Archimedes&#x27; principle, quote 3</strong> <em>[URL, author blinded from debate judges.]</em><span class="source-quote"> &mdash; &ldquo;In other words, for an object floating on a liquid surface (like a boat) or floating submerged in a fluid (like a submarine in water or dirigible in air) the weight of the displaced fluid equals the weight of the object.&rdquo;</span></div>
+<div class="source-entry" id="src-quote_4"><strong>Wikipedia, Archimedes&#x27; principle, quote 4</strong> <em>[URL, author blinded from debate judges.]</em><span class="source-quote"> &mdash; &ldquo;In simple terms, the principle states that the buoyant force (Fb) on an object is equal to the weight of the fluid displaced by the object, or the density (ρ) of the fluid multiplied by the submerged volume (V) times the gravity (g) ... For a fully submerged object, Archimedes&#x27; principle can be reformulated as follows: apparent immersed weight = weight of object - weight of displaced fluid.&rdquo;</span></div>
+<div class="source-entry" id="src-buoyant_def"><strong>Merriam-Webster&#x27;s Dictionary, definitions of &#x27;buoyant&#x27; and &#x27;buoyancy&#x27;</strong> <em>[URL, author blinded from debate judges.]</em><span class="source-quote"> &mdash; &ldquo;buoyant (ˈbü-yənt): having buoyancy: &#x27;Warm air is more buoyant than cool air&#x27;. a: capable of floating: &#x27;Cork is naturally buoyant.&#x27; buoyancy (ˈbȯi-ən(t)-sē): a: the tendency of a body to float or to rise when submerged in a fluid: &#x27;testing an object&#x27;s buoyancy&#x27;. b: the power of a fluid to exert an upward force on a body placed in it: &#x27;the buoyancy of water&#x27;. also : the upward force exerted.&rdquo;</span></div>
+<div class="source-entry" id="src-submerged_def"><strong>Merriam-Webster&#x27;s Dictionary, definition of &#x27;submerged&#x27;</strong> <em>[URL, author blinded from debate judges.]</em><span class="source-quote"> &mdash; &ldquo;submerged (səb-ˈmərjd): 1: covered with water. 2: growing or adapted to grow underwater.&rdquo;</span></div>
+
+</div>
+<hr/>
+<div class="context-text">
+    Exactly one of these debater's answers matches the answer of the expert who wrote the Key Question.
+</div>
+<div class="debate-table-card">
+<table aria-label="Debate table">
+<colgroup><col/><col/></colgroup>
+<tbody>
+<tr>
+<td class="speaker-a"><strong>Debater A: [Opening]</strong> The water level falls.<br><span style="font-size:0.82em">👎 <i>Debater B registers main objection</i></span><div class="gap-div gap-div-right"></div></td>
+<td class="speaker-b"><div class="gap-div gap-div-left"></div><strong>Debater B: [Opening]</strong> The water level stays brim full.<br><span style="font-size:0.82em">👎 <i>Debater A registers main objection</i></span></td>
+</tr>
+<tr>
+<td class="speaker-b"><strong>Debater B: [Argument 1]</strong> <div class="speaker-b-claim continuing-claim" data-arrow-side="left" data-arrow-speaker="speaker-b">The spike is submerged below the waterline inside the ice, so its displacement is volume-based <a class="source-link" href="#src-quote_2">[Quote 2]</a>.<br><span style="font-size:0.82em">👎 <i>Debater A registers main objection</i></span></div><div class="speaker-b-claim">When the ice melts, the spike's volume doesn't change, and the ice's meltwater replaces the ice's displacement.<br><span style="font-size:0.82em">👎 <i>Debater A registers secondary objection</i></span></div><div class="gap-div gap-div-right"></div></td>
+<td class="speaker-a"><div class="gap-div gap-div-left"></div><strong>Debater A: [Argument 1]</strong> <div class="speaker-a-claim continuing-claim" data-arrow-side="right" data-arrow-speaker="speaker-a">The floating system displaces water equal to its total weight <a class="source-link" href="#src-quote_1">[Quote 1]</a>.<br><span style="font-size:0.82em">👎 <i>Debater B registers main objection</i></span></div><div class="speaker-a-claim">When the ice melts and the spike sinks, it transitions from weight-based (~390 ml) to volume-based (~50 ml) displacement, dropping the level ~340 ml.<br><span style="font-size:0.82em">👎 <i>Debater B registers secondary objection</i></span></div></td>
+</tr>
+<tr>
+<td class="speaker-a"><strong>Debater A: [Response 1]</strong> <div class="speaker-a-claim"><a class="source-link" href="#src-quote_2">[Quote 2]</a> contrasts an object that "floats on the surface" with a "buoyant submerged object", implying that these are different things.<br><span style="font-size:0.82em">👍 <i style="color:#006400">Debater B fully agrees</i></span></div><div class="speaker-a-claim continuing-claim" data-arrow-side="left" data-arrow-speaker="speaker-a">The spike is initially part of an object that floats on the surface, so its initial displacement is weight-based.<br><span style="font-size:0.82em">👎 <i>Debater B registers main objection</i></span></div><div class="gap-div gap-div-right"></div></td>
+<td class="speaker-b"><div class="gap-div gap-div-left"></div><strong>Debater B: [Response 1]</strong> <div class="speaker-b-claim">Treating ice and spike as one "floating system" implies that the "below the waterline" phrase in the question is irrelevant.<br><span style="font-size:0.82em">👍 <i style="color:#006400">Debater A fully agrees</i></span></div><div class="speaker-b-claim continuing-claim" data-arrow-side="right" data-arrow-speaker="speaker-b">The ice floats on its own (weight-based displacement), the spike is a buoyant submerged object (volume-based displacement) <a class="source-link" href="#src-quote_2">[Quote 2]</a>.<br><span style="font-size:0.82em">👎 <i>Debater A registers main objection</i></span></div></td>
+</tr>
+<tr>
+<td class="speaker-b"><strong>Debater B: [Argument 2]</strong> <div class="speaker-b-claim">The spike is fully below the waterline, so it is "submerged" according to the dictionary definition of the term (<a class="source-link" href="#src-submerged_def">[Quote 6]</a>), which we can safely assume is being used here.<br><span style="font-size:0.82em">👎 <i>Debater A registers secondary objection</i></span></div><div class="speaker-b-claim continuing-claim" data-arrow-side="left" data-arrow-speaker="speaker-b">The spike is floating due to being embedded in the floating ice, so it is buoyant.<br><span style="font-size:0.82em">👎 <i>Debater A registers main objection</i></span></div><div class="gap-div gap-div-right"></div></td>
+<td class="speaker-a"><div class="gap-div gap-div-left"></div><strong>Debater A: [Argument 2]</strong> <div class="speaker-a-claim continuing-claim" data-arrow-side="right" data-arrow-speaker="speaker-a">The spike is not a "buoyant submerged object": the spike and ice are initially part of the same floating system.<br><span style="font-size:0.82em">👎 <i>Debater B registers main objection</i></span></div><div class="speaker-a-claim">For a boat, displacement is weight-based without needing to consider whether the boat's parts float on their own <a class="source-link" href="#src-quote_3">[Quote 3]</a>.<br><span style="font-size:0.82em">👎 <i>Debater B registers secondary objection</i></span></div></td>
+</tr>
+<tr>
+<td class="speaker-a"><strong>Debater A: [Response 2]</strong> <div class="speaker-a-claim">Quotes 1 and 2 contradict each other if we assume that "buoyant" just means "floating".<br><span style="font-size:0.82em">👍 <i style="color:#006400">Debater B fully agrees</i></span></div><div class="speaker-a-claim continuing-claim" data-arrow-side="left" data-arrow-speaker="speaker-a">"Buoyant" here means weight doesn't exceed upward force from the water, e.g. the object's effective density is less than or equal to that of water.<br><span style="font-size:0.82em">👎 <i>Debater B registers main objection</i></span></div><div class="gap-div gap-div-right"></div></td>
+<td class="speaker-b"><div class="gap-div gap-div-left"></div><strong>Debater B: [Response 2]</strong> <div class="speaker-b-claim continuing-claim" data-arrow-side="right" data-arrow-speaker="speaker-b">It is a "buoyant submerged object" because it is floating fully below the waterline.<br><span style="font-size:0.82em">👎 <i>Debater A registers main objection</i></span></div><div class="speaker-b-claim">Compare this to a boat's hull, which is not a buoyant submerged object.<br><span style="font-size:0.82em">👍 <i style="color:#006400">Debater A fully agrees</i></span></div></td>
+</tr>
+<tr>
+<td class="speaker-b"><strong>Debater B: [Argument 3]</strong> <div class="speaker-b-claim">This differs from dictionary definitions of "buoyant" <a class="source-link" href="#src-buoyant_def">[Quote 5]</a>.<br><span style="font-size:0.82em">👍🚩 <i><span style="color:#006400">Debater A agrees</span> but thinks this omits key info</i></span></div><div class="speaker-b-claim"><a class="source-link" href="#src-quote_2">[Quote 2]</a> refers to "the volume of the object", but the whole volume of an object isn't normally underwater if it has density less than water.<br><span style="font-size:0.82em">👍🚩 <i><span style="color:#006400">Debater A agrees</span> but thinks this omits key info</i></span></div><span style="font-size:0.82em">👎 <i>Debater A objects to the idea that these claims refute their argument (main objection)</i></span><div class="gap-div gap-div-right"></div></td>
+<td class="speaker-a"><div class="gap-div gap-div-left"></div><strong>Debater A: [Argument 3]</strong> <div class="speaker-a-claim">This would mean displacement is weight-based when 99% is below the waterline, but volume-based at 100%.<br><span style="font-size:0.82em">👍🚩 <i><span style="color:#006400">Debater B agrees</span> but thinks this omits key info</i></span></div><div class="speaker-a-claim">Nothing in the source defines "submerged" as "fully below the waterline"; in fact, it differentiates between "submerged" and "fully submerged" <a class="source-link" href="#src-quote_4">[Quote 4]</a>.<br><span style="font-size:0.82em">👍🚩 <i><span style="color:#006400">Debater B agrees</span> but thinks this omits key info</i></span></div><span style="font-size:0.82em">👎 <i>Debater B objects to the idea that these claims refute their argument (main objection)</i></span></td>
+</tr>
+<tr>
+<td class="speaker-a"><strong>Debater A: [Response 3]</strong> <div class="speaker-a-claim"><a class="source-link" href="#src-quote_2">[Quote 2]</a> is pointing out that objects with density less than water, but which *do* have their full volumes underwater, will displace their full volumes.<br><span style="font-size:0.82em">👎 <i>Debater B registers main objection</i></span></div><div class="speaker-a-claim">A beach ball held underwater is an example of this.<br><span style="font-size:0.82em">👍 <i style="color:#006400">Debater B fully agrees</i></span></div><div class="gap-div gap-div-right"></div></td>
+<td class="speaker-b"><div class="gap-div gap-div-left"></div><strong>Debater B: [Response 3]</strong> <div class="speaker-b-claim">Your alternative definition (Debater A Response 2 Claim 2) implies the displacement regime is weight-based when 1% of the spike is attached to the ice, but switches to volume-based if this is 0%.<br><span style="font-size:0.82em">👍 <i style="color:#006400">Debater A fully agrees</i></span></div><div class="speaker-b-claim">This is implausible.<br><span style="font-size:0.82em">👎 <i>Debater A registers main objection</i></span></div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<script>
+// Node-reference + source links → scroll to target and flash a blue outline
+(function() {
+    function flashTarget(target) {
+        target.scrollIntoView({behavior: 'smooth', block: 'center'});
+        target.classList.remove('claim-flash');
+        void target.offsetWidth;
+        target.classList.add('claim-flash');
+        target.addEventListener('animationend', function done() {
+            target.classList.remove('claim-flash');
+            target.removeEventListener('animationend', done);
+        });
+    }
+    document.querySelectorAll('.node-ref').forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            var tid = link.getAttribute('data-target-id');
+            var target = document.getElementById('claim-' + tid);
+            if (target) flashTarget(target);
+        });
+    });
+    document.querySelectorAll('.source-link').forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            var href = link.getAttribute('href') || '';
+            if (href.charAt(0) !== '#') return;
+            var target = document.getElementById(href.slice(1));
+            if (!target) return;
+            e.preventDefault();
+            flashTarget(target);
+        });
+    });
+})();
+
+// Arrows: SVG paths from each .continuing-claim to the matching cell in the next row
+(function() {
+    var card = null, svg = null, conts = null;
+    var ns = 'http://www.w3.org/2000/svg';
+    var colors = { 'speaker-a': '#C4A000', 'speaker-b': '#9B7DC4' };
+
+    function setupArrowSvg() {
+        card = document.querySelector('.debate-table-card');
+        if (!card) return false;
+        conts = card.querySelectorAll('.continuing-claim');
+        if (!conts.length) return false;
+        card.style.position = 'relative';
+
+        svg = document.createElementNS(ns, 'svg');
+        svg.style.cssText = 'position:absolute;top:0;left:0;width:100%;height:100%;'
+                           + 'pointer-events:none;overflow:visible;';
+
+        var defs = document.createElementNS(ns, 'defs');
+        ['speaker-a','speaker-b'].forEach(function(spk) {
+            [['right','0 0, 10 4, 0 8','10'],
+             ['left', '10 0, 0 4, 10 8','0']
+            ].forEach(function(cfg) {
+                var mk = document.createElementNS(ns, 'marker');
+                mk.setAttribute('id', 'ah-' + cfg[0] + '-' + spk);
+                mk.setAttribute('markerWidth', '10');
+                mk.setAttribute('markerHeight', '8');
+                mk.setAttribute('refX', cfg[2]);
+                mk.setAttribute('refY', '4');
+                var p = document.createElementNS(ns, 'polygon');
+                p.setAttribute('points', cfg[1]);
+                p.setAttribute('fill', colors[spk]);
+                mk.appendChild(p);
+                defs.appendChild(mk);
+            });
+        });
+        svg.appendChild(defs);
+        card.appendChild(svg);
+        return true;
+    }
+
+    function drawArrows() {
+        if (!svg || !conts) return;
+        Array.from(svg.querySelectorAll('path')).forEach(function(p) { p.remove(); });
+        var cardRect = card.getBoundingClientRect();
+        conts.forEach(function(claim) {
+            var td = claim.closest('td');
+            if (!td) return;
+            var tr = td.closest('tr');
+            if (!tr) return;
+            var nextTr = tr.nextElementSibling;
+            if (!nextTr) return;
+
+            var side = claim.getAttribute('data-arrow-side');
+            var spk = claim.getAttribute('data-arrow-speaker');
+            var colIdx = Array.from(tr.children).indexOf(td);
+            var targetTd = nextTr.children[colIdx];
+            if (!targetTd) return;
+
+            var cr = claim.getBoundingClientRect();
+            var tgt = targetTd.getBoundingClientRect();
+            var color = colors[spk] || '#888';
+            var gap = spk === 'speaker-b' ? 36 : 30;
+
+            var sx, sy, ex, ey, ox, d, mkr;
+            sy = cr.top + cr.height / 2 - cardRect.top;
+            ey = tgt.top + tgt.height / 2 - cardRect.top;
+
+            if (side === 'left') {
+                sx = cr.left - cardRect.left;
+                ox = -gap;
+                ex = tgt.left - cardRect.left;
+                d = 'M'+sx+' '+sy+' H'+ox+' V'+ey+' H'+ex;
+                mkr = 'url(#ah-right-' + spk + ')';
+            } else {
+                sx = cr.right - cardRect.left;
+                ox = cardRect.width + gap;
+                ex = tgt.right - cardRect.left;
+                d = 'M'+sx+' '+sy+' H'+ox+' V'+ey+' H'+ex;
+                mkr = 'url(#ah-left-' + spk + ')';
+            }
+
+            var path = document.createElementNS(ns, 'path');
+            path.setAttribute('d', d);
+            path.setAttribute('fill', 'none');
+            path.setAttribute('stroke', color);
+            path.setAttribute('stroke-width', '2');
+            path.setAttribute('marker-end', mkr);
+            svg.appendChild(path);
+        });
+    }
+
+    function init() {
+        if (setupArrowSvg()) drawArrows();
+    }
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+    window.addEventListener('load', drawArrows);
+    window.addEventListener('resize', drawArrows);
+})();
+
+// Key Question code toggle — reveal/hide the embedded code block
+(function() {
+    document.querySelectorAll('.key-question-code-btn').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            var wrapper = btn.parentElement;
+            if (!wrapper) return;
+            var content = wrapper.querySelector('.key-question-code-content');
+            if (!content) return;
+            var hidden = content.style.display === 'none' || content.style.display === '';
+            content.style.display = hidden ? 'block' : 'none';
+            btn.textContent = hidden ? 'Click here to hide code' : 'Click here to view code';
+        });
+    });
+})();
+
+// Hover tooltips for source-link / def-link / node-ref
+(function() {
+    var tip = null, arrow = null;
+    var table = document.querySelector('.debate-table-card');
+    document.querySelectorAll('.source-link[data-tooltip], .def-link[data-tooltip], .node-ref[data-tooltip]').forEach(function(link) {
+        link.addEventListener('mouseenter', function() {
+            if (tip) tip.remove();
+            if (arrow) arrow.remove();
+            tip = document.createElement('div');
+            tip.className = 'def-tooltip';
+            tip.textContent = link.getAttribute('data-tooltip');
+            document.body.appendChild(tip);
+            arrow = document.createElement('div');
+            arrow.className = 'def-tooltip-arrow';
+            document.body.appendChild(arrow);
+
+            var lr = link.getBoundingClientRect();
+            var tr = table ? table.getBoundingClientRect()
+                           : { left: 0, right: document.documentElement.clientWidth };
+            var tipW = tip.offsetWidth;
+            var tipH = tip.offsetHeight;
+
+            var top = lr.top + window.scrollY - tipH - 10;
+            tip.style.top = top + 'px';
+
+            var idealLeft = lr.left + window.scrollX + lr.width / 2 - tipW / 2;
+            var minLeft = tr.left + window.scrollX;
+            var maxLeft = tr.right + window.scrollX - tipW;
+            var left = Math.max(minLeft, Math.min(maxLeft, idealLeft));
+            tip.style.left = left + 'px';
+
+            var arrowLeft = lr.left + window.scrollX + lr.width / 2 - 6;
+            arrow.style.top = (lr.top + window.scrollY - 12) + 'px';
+            arrow.style.left = arrowLeft + 'px';
+        });
+        link.addEventListener('mouseleave', function() {
+            if (tip) { tip.remove(); tip = null; }
+            if (arrow) { arrow.remove(); arrow = null; }
+        });
+    });
+})();
+</script>
+</body>
+</html>

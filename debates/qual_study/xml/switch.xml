@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debate>
+<title>Switch</title>
+
+<defs>
+  <def id="angular_velocity">Angular velocity: The rate at which an object rotates about an axis, measured in radians per second (rad/s) and denoted by ω.</def>
+
+  <def id="velocity_relation">Velocity relation: The equation ω = v/R, which relates the tangential (linear) speed v of a point on a rotating body to its angular velocity ω and the radius R of its circular path.</def>
+
+  <def id="ke">Kinetic energy (KE): The energy an object possesses due to its motion, equal to ½mv² for an object of mass m moving at speed v.</def>
+</defs>
+
+<sources>
+  <ref id="work_energy_theorem" author="OpenStax University Physics [URL blinded from debate judges.]" quote="Let&#x27;s start by looking at the net work done on a particle as it moves over an infinitesimal displacement, which is the dot product of the net force and the displacement: $dW_{\text{net}} = \vec{F}_{\text{net}} \cdot d\vec{r}$."/>
+  <ref id="normal_force" author="The Organic Chemistry Tutor [URL blinded from debate judges.]" quote="[1:54] ...the normal force is the sum of the centripetal force and the weight force mg. Now I need to give you the radius of curvature. So let&#x27;s say it&#x27;s two meters for A and B. With that information, go ahead and calculate the normal force."/>
+</sources>
+
+<question>
+  A train car is freely coasting around a large circular track. It is then switched to a smaller circular track. How does its speed change? Assume no friction.
+  <img src="images/switch.png"/>
+
+  <side label="left">
+    <opening speaker="A">The rails only exert forces perpendicular to the car's velocity, so they do no work on a point mass model; <a xdef="ke">kinetic energy</a> stays constant, so the speed stays the same. A small slowdown might be possible if the question author wants us to consider the car a rigid body rather than a point mass.</opening>
+    <question speaker="B" round="Question 1">It doesn't seem right to say that the rails only exert forces perpendicular to the car's velocity. Doesn't the instantaneous direction the train travels vary constantly while the train is transitioning tracks?
+      <answer speaker="A" round="Answer 1">The direction of velocity changes continuously along the transition curve. In this case the car exactly follows the path of the rail and so the direction of the applied force is always perfectly perpendicular to the velocity, as long as the track is smooth and frictionless.</answer>
+    </question>
+    <question speaker="B" round="Question 2">Does the direction of the applied force, or the car's velocity, differ from the front to the rear of the car?
+      <answer speaker="A" round="Answer 2">For a point mass model, no. In a rigid body model, the local track tangent differs from front to rear, so front/rear wheels have slightly different velocities, and each contact force remains perpendicular to its contact point's instantaneous velocity, so forces still do no work.</answer>
+    </question>
+    <question speaker="B" round="Question 3">If the local track tangent differs from front to rear, wouldn't the resulting imbalance create torque that decreases rotational <a xdef="ke">kinetic energy</a>, thereby speeding the car up?
+      <answer speaker="A" round="Answer 3">No. On a rigid body model, because of the <a xdef="velocity_relation">velocity relation</a>, tighter curvature demands higher ω. Total <a xdef="ke">KE</a> is conserved, so increased rotational KE must come from translational KE, slightly reducing speed.</answer>
+    </question>
+  </side>
+
+  <side label="right">
+    <opening speaker="B">It will speed up. Picture someone spinning a ball on a string; the ball spins faster as they pull the string in. It's not a perfect analogy because the speedup will vary based on the dimensions of the train car, but it holds if the train car is assumed to be a point mass.</opening>
+    <question speaker="A" round="Question 1">It speeds up on a string only because pulling the string inward moves the ball inward while the tension pulls inward too, so there is a force component in the ball's direction of travel. On a frictionless fixed track, the force is sideways; where does the energy needed to increase speed come from?
+      <answer speaker="B" round="Answer 1">The curvature of the connecting track changes as it transitions from approximating the curvature of the outer track to that of the inner track. So the force is not perpendicular to the direction of travel. The train gains speed while on the connecting path, which it maintains in the inner track.</answer>
+    </question>
+    <question speaker="A" round="Question 2">On a frictionless fixed track, the car's velocity is always tangent to the path, and the track's contact force is perpendicular to that velocity at every instant. Can you point to any point where the track's contact force isn't perpendicular to the car's instantaneous velocity at the contact point?
+      <answer speaker="B" round="Answer 2">This is true of *every* point on the connecting track. The difference from perpendicular at any single point is infinitesimally small, but they add up when you integrate over the length of the connecting track.</answer>
+    </question>
+    <question speaker="A" round="Question 3">Infinitesimal work is defined locally: dW = F · dr (<ref id="work_energy_theorem"/>). On a frictionless track dr is tangent and the contact force is normal, so F · dr = 0 at every point; integrating zeroes stays zero. What nonzero F_tangent are you integrating?
+      <answer speaker="B" round="Answer 3">Curvature changes, so the contact force can't stay perpendicular; you can't just ignore the amount of curvature in such problems (see <ref id="normal_force"/> for example). In this case dW = F · dr becomes positive.</answer>
+    </question>
+  </side>
+</question>
+</debate>

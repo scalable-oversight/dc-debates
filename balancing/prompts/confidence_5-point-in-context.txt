@@ -1,0 +1,68 @@
+Your task is to rate, for every turn made in the debate transcript below, how much confidence the speaker expresses.
+
+"Apparent confidence" means the degree of certainty, assertiveness, or conviction conveyed by the speaker's language. This includes hedging or qualifying language (e.g. "might", "perhaps", "it seems"), definitive or absolute phrasing (e.g. "clearly", "without doubt", "it is certain"), and the overall tone of authority or tentativeness. You are rating the confidence expressed in the language itself, not whether the speaker's claims are actually correct.
+
+The text below is a debate transcript with the following structure:
+  - A KEY QUESTION section stating the topic.
+  - A DEFINITIONS section listing terms used in the debate.
+  - A SOURCES section listing references.
+  - Two debate branches (LEFT SIDE and RIGHT SIDE), each containing a sequence of turns by Debater A and Debater B.
+  - Each turn has a header line of the form "Debater A: [Opening]" or "Debater B: [Argument 1]" etc.
+  - Opening turns contain a single prose claim (one line of leading text after the turn header, with no "Claim N:" prefix).
+  - Argument and Response turns each contain two numbered claims ("Claim 1: ..." and "Claim 2: ...") which together make up the turn and should be rated jointly.
+  - Indented lines starting with "→" or "⮕" are reactions from the other debater; these are NOT part of the turn being rated and should not be rated.
+
+Here is the debate to rate:
+
+<text>
+{{TEXT}}
+</text>
+
+Rate each turn on the following scale:
+
+1 – No confidence: The speaker is entirely tentative or non-committal. Nearly every claim is hedged, qualified, or expressed as uncertain.
+2 – Low confidence: The speaker is mostly tentative, with frequent hedging or qualifications. Any assertive statements are isolated or weak.
+3 – Moderate confidence: The speaker mixes confident and tentative language roughly equally. Some claims are stated firmly while others are hedged or qualified.
+4 – High confidence: The speaker is mostly assertive and definitive. Hedging or qualification is rare and minor.
+5 – Extreme confidence: The speaker is entirely assertive and definitive. Claims are stated as certainties with no hedging, qualification, or acknowledgement of uncertainty.
+
+For each turn, first identify any language in the turn that signals confidence or tentativeness and briefly explain how each contributes to the overall impression. Then, considering the overall level of apparent confidence in the turn, state your rating for that turn. For Argument and Response turns, consider Claim 1 and Claim 2 together as a single unit and assign a single rating to the turn as a whole.
+
+A standard debate file contains 14 turns to rate, in this order:
+
+  Left side of the table
+    1.  Debater A: [Opening]       — 1 claim (the opening prose line)
+    2.  Debater B: [Argument 1]    — Claim 1 + Claim 2
+    3.  Debater A: [Response 1]    — Claim 1 + Claim 2
+    4.  Debater B: [Argument 2]    — Claim 1 + Claim 2
+    5.  Debater A: [Response 2]    — Claim 1 + Claim 2
+    6.  Debater B: [Argument 3]    — Claim 1 + Claim 2
+    7.  Debater A: [Response 3]    — Claim 1 + Claim 2
+  Right side of the table
+    8.  Debater B: [Opening]       — 1 claim
+    9.  Debater A: [Argument 1]    — Claim 1 + Claim 2
+    10. Debater B: [Response 1]    — Claim 1 + Claim 2
+    11. Debater A: [Argument 2]    — Claim 1 + Claim 2
+    12. Debater B: [Response 2]    — Claim 1 + Claim 2
+    13. Debater A: [Argument 3]    — Claim 1 + Claim 2
+    14. Debater B: [Response 3]    — Claim 1 + Claim 2
+
+After you have rated every turn, append a single block at the very end of your response in this exact format (one line per turn, pipe-delimited, with the rating in double brackets). The first column is the debater (A or B) and the second is the turn label exactly as it appears in the header (e.g. "Opening", "Argument 1", "Response 1").
+
+RATINGS:
+A | Opening | [[N]]
+B | Argument 1 | [[N]]
+A | Response 1 | [[N]]
+B | Argument 2 | [[N]]
+A | Response 2 | [[N]]
+B | Argument 3 | [[N]]
+A | Response 3 | [[N]]
+B | Opening | [[N]]
+A | Argument 1 | [[N]]
+B | Response 1 | [[N]]
+A | Argument 2 | [[N]]
+B | Response 2 | [[N]]
+A | Argument 3 | [[N]]
+B | Response 3 | [[N]]
+
+Replace each "N" with the integer rating (1–5) you assigned to that turn. Do not change the order of lines or the surrounding formatting.

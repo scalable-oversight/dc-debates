@@ -1,0 +1,407 @@
+{
+  "nextId": 39,
+  "root": {
+    "id": 0,
+    "text": "A train car is freely coasting around a large circular track. It is then switched to a smaller circular track. How does its speed change? Assume no friction.",
+    "debater": "questioner",
+    "level": 0,
+    "parentId": null,
+    "honest_response": "",
+    "dishonest_response": "",
+    "children": [
+      {
+        "id": 1,
+        "text": "The speed stays the same if we model the car as a <a xdef=\"point_mass\">point mass</a>. A small slowdown is possible if modeled as a <a xdef=\"rigid_body\">rigid body</a>.",
+        "debater": "honest",
+        "level": 1,
+        "parentId": 0,
+        "honest_response": "Yes",
+        "dishonest_response": "No (main objection)",
+        "children": [
+          {
+            "id": 2,
+            "text": "A ball on a string spins faster when pulled inward. The same principle applies when the car transitions to a tighter radius.",
+            "debater": "dishonest",
+            "level": 2,
+            "parentId": 1,
+            "honest_response": "No (main objection)",
+            "dishonest_response": "Yes",
+            "children": [
+              {
+                "id": 3,
+                "text": "The string does work because, as the ball spirals inward, its velocity has a radial component aligned with the tension.",
+                "debater": "honest",
+                "level": 3,
+                "parentId": 2,
+                "honest_response": "Yes",
+                "dishonest_response": "Yes",
+                "children": []
+              },
+              {
+                "id": 4,
+                "text": "The fixed frictionless track exerts only a force perpendicular to the car's velocity, so unlike the string it does no work.",
+                "debater": "honest",
+                "level": 3,
+                "parentId": 2,
+                "honest_response": "Yes",
+                "dishonest_response": "No (main objection)",
+                "children": [
+                  {
+                    "id": 5,
+                    "text": "The curvature changes continuously along the connecting track, so the constraint force direction rotates.",
+                    "debater": "dishonest",
+                    "level": 4,
+                    "parentId": 4,
+                    "honest_response": "Yes",
+                    "dishonest_response": "Yes",
+                    "children": []
+                  },
+                  {
+                    "id": 6,
+                    "text": "This rotation means the force cannot remain perfectly perpendicular to velocity.",
+                    "debater": "dishonest",
+                    "level": 4,
+                    "parentId": 4,
+                    "honest_response": "No (main objection)",
+                    "dishonest_response": "Yes",
+                    "children": [
+                      {
+                        "id": 7,
+                        "text": "The car's velocity is <a xdef=\"tangent\">tangent</a> to the track at every point. The constraint force is <a xdef=\"normal\">normal</a> to the track, hence perpendicular to velocity.",
+                        "debater": "honest",
+                        "level": 5,
+                        "parentId": 6,
+                        "honest_response": "Yes",
+                        "dishonest_response": "No (secondary objection)",
+                        "children": []
+                      },
+                      {
+                        "id": 8,
+                        "text": "At every instant, the force and velocity rotate together, maintaining perpendicularity even as curvature changes.",
+                        "debater": "honest",
+                        "level": 5,
+                        "parentId": 6,
+                        "honest_response": "Yes",
+                        "dishonest_response": "No (main objection)",
+                        "children": [
+                          {
+                            "id": 9,
+                            "text": "On a changing-curvature path, the constraint force adjusts in both magnitude and direction.",
+                            "debater": "dishonest",
+                            "level": 6,
+                            "parentId": 8,
+                            "honest_response": "Yes but omits key info",
+                            "dishonest_response": "Yes",
+                            "children": []
+                          },
+                          {
+                            "id": 10,
+                            "text": "The centripetal acceleration behaves differently on the connecting track than it does on either circular section.",
+                            "debater": "dishonest",
+                            "level": 6,
+                            "parentId": 8,
+                            "honest_response": "Yes but omits key info",
+                            "dishonest_response": "Yes",
+                            "children": []
+                          },
+                          {
+                            "id": 11,
+                            "text": "Therefore, you should reject [8].",
+                            "debater": "dishonest",
+                            "level": 6,
+                            "parentId": 8,
+                            "honest_response": "No (main objection)",
+                            "dishonest_response": "Yes",
+                            "children": [
+                              {
+                                "id": 12,
+                                "text": "Force adjusting direction is what maintains perpendicularity; it rotates to stay normal as velocity rotates to stay tangent.",
+                                "debater": "honest",
+                                "level": 7,
+                                "parentId": 11,
+                                "honest_response": "Yes",
+                                "dishonest_response": "No (secondary objection)",
+                                "children": []
+                              },
+                              {
+                                "id": 13,
+                                "text": "Centripetal force remains perpendicular to the velocity throughout, regardless of how its magnitude varies.",
+                                "debater": "honest",
+                                "level": 7,
+                                "parentId": 11,
+                                "honest_response": "Yes",
+                                "dishonest_response": "Yes but omits key info",
+                                "children": []
+                              },
+                              {
+                                "id": 14,
+                                "text": "Therefore, you should reject [11].",
+                                "debater": "honest",
+                                "level": 7,
+                                "parentId": 11,
+                                "honest_response": "Yes",
+                                "dishonest_response": "No (main objection)",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": 15,
+                        "text": "Therefore, you should reject [6].",
+                        "debater": "honest",
+                        "level": 5,
+                        "parentId": 6,
+                        "honest_response": "Yes",
+                        "dishonest_response": "",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 16,
+                    "text": "Therefore, you should reject [4].",
+                    "debater": "dishonest",
+                    "level": 4,
+                    "parentId": 4,
+                    "honest_response": "",
+                    "dishonest_response": "Yes",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 17,
+                "text": "Therefore, you should reject [2].",
+                "debater": "honest",
+                "level": 3,
+                "parentId": 2,
+                "honest_response": "Yes",
+                "dishonest_response": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "text": "The connecting track provides a <a xdef=\"radially\">radially</a> inward force that accelerates the car <a xdef=\"tangentially\">tangentially</a>.",
+            "debater": "dishonest",
+            "level": 2,
+            "parentId": 1,
+            "honest_response": "No (secondary objection)",
+            "dishonest_response": "Yes",
+            "children": []
+          },
+          {
+            "id": 19,
+            "text": "Therefore, you should reject [1].",
+            "debater": "dishonest",
+            "level": 2,
+            "parentId": 1,
+            "honest_response": "",
+            "dishonest_response": "Yes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "text": "The speed increases whether we model the car as a <a xdef=\"point_mass\">point mass</a> or as a <a xdef=\"rigid_body\">rigid body</a>.",
+        "debater": "dishonest",
+        "level": 1,
+        "parentId": 0,
+        "honest_response": "No (main objection)",
+        "dishonest_response": "Yes",
+        "children": [
+          {
+            "id": 21,
+            "text": "On a frictionless track, the rails' <a xdef=\"constraint_force\">constraint force</a> does no work, so <a xdef=\"ke\">kinetic energy (KE)</a> is conserved and speed cannot increase.",
+            "debater": "honest",
+            "level": 2,
+            "parentId": 20,
+            "honest_response": "Yes",
+            "dishonest_response": "No (main objection)",
+            "children": [
+              {
+                "id": 22,
+                "text": "If true that the rails do no work, then a point-mass car would not lose speed on the smaller track.",
+                "debater": "dishonest",
+                "level": 3,
+                "parentId": 21,
+                "honest_response": "Yes",
+                "dishonest_response": "Yes",
+                "children": []
+              },
+              {
+                "id": 23,
+                "text": "But if KE is conserved (Debater A Argument 1 Claim 1) and the rails do no work, then there should be no slowdown on a frictionless track for a rigid body model, contra Debater A Opening.",
+                "debater": "dishonest",
+                "level": 3,
+                "parentId": 21,
+                "honest_response": "No (main objection)",
+                "dishonest_response": "Yes",
+                "children": [
+                  {
+                    "id": 24,
+                    "text": "A rigid body has both translational and rotational KE; a point mass has only translational.",
+                    "debater": "honest",
+                    "level": 4,
+                    "parentId": 23,
+                    "honest_response": "Yes",
+                    "dishonest_response": "Yes",
+                    "children": []
+                  },
+                  {
+                    "id": 25,
+                    "text": "On a tighter track, rotational KE increases at the expense of translational KE.",
+                    "debater": "honest",
+                    "level": 4,
+                    "parentId": 23,
+                    "honest_response": "Yes",
+                    "dishonest_response": "No (main objection)",
+                    "children": [
+                      {
+                        "id": 26,
+                        "text": "This is only true if we assume the body is constrained to yaw with the track curvature (rigid link between axles and body), an unwarranted assumption.",
+                        "debater": "dishonest",
+                        "level": 5,
+                        "parentId": 25,
+                        "honest_response": "No (main objection)",
+                        "dishonest_response": "Yes",
+                        "children": [
+                          {
+                            "id": 27,
+                            "text": "Both axles are constrained to the rails, so the body's orientation is pinned by the chord between the two axle positions.",
+                            "debater": "honest",
+                            "level": 6,
+                            "parentId": 26,
+                            "honest_response": "Yes",
+                            "dishonest_response": "Yes but omits key info",
+                            "children": []
+                          },
+                          {
+                            "id": 28,
+                            "text": "On a curved section this geometrically forces the body to yaw as it advances.",
+                            "debater": "honest",
+                            "level": 6,
+                            "parentId": 26,
+                            "honest_response": "Yes",
+                            "dishonest_response": "Yes but omits key info",
+                            "children": []
+                          },
+                          {
+                            "id": 29,
+                            "text": "Therefore, you should reject [26].",
+                            "debater": "honest",
+                            "level": 6,
+                            "parentId": 26,
+                            "honest_response": "Yes",
+                            "dishonest_response": "No (main objection)",
+                            "children": [
+                              {
+                                "id": 30,
+                                "text": "A car whose axles are rigidly fixed parallel to the body cannot roll without slipping on a curved track.",
+                                "debater": "dishonest",
+                                "level": 7,
+                                "parentId": 29,
+                                "honest_response": "Yes but omits key info",
+                                "dishonest_response": "Yes",
+                                "children": []
+                              },
+                              {
+                                "id": 31,
+                                "text": "The curvature differs at the front and rear contact points on the connecting track, with consequences for yaw and speed.",
+                                "debater": "dishonest",
+                                "level": 7,
+                                "parentId": 29,
+                                "honest_response": "No (secondary objection)",
+                                "dishonest_response": "Yes",
+                                "children": []
+                              },
+                              {
+                                "id": 32,
+                                "text": "Therefore, you should reject [29].",
+                                "debater": "dishonest",
+                                "level": 7,
+                                "parentId": 29,
+                                "honest_response": "No (main objection)",
+                                "dishonest_response": "Yes",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "id": 33,
+                        "text": "We can't justifiably force such exact yaw, so total KE stays translational and speed does not fall.",
+                        "debater": "dishonest",
+                        "level": 5,
+                        "parentId": 25,
+                        "honest_response": "No (secondary objection)",
+                        "dishonest_response": "Yes",
+                        "children": []
+                      },
+                      {
+                        "id": 34,
+                        "text": "Therefore, you should reject [25].",
+                        "debater": "dishonest",
+                        "level": 5,
+                        "parentId": 25,
+                        "honest_response": "",
+                        "dishonest_response": "Yes",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 35,
+                    "text": "Therefore, you should reject [23].",
+                    "debater": "honest",
+                    "level": 4,
+                    "parentId": 23,
+                    "honest_response": "Yes",
+                    "dishonest_response": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 36,
+                "text": "Therefore, you should reject [21].",
+                "debater": "dishonest",
+                "level": 3,
+                "parentId": 21,
+                "honest_response": "",
+                "dishonest_response": "Yes",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "text": "There is no mechanism on a fixed frictionless track to add energy to the car.",
+            "debater": "honest",
+            "level": 2,
+            "parentId": 20,
+            "honest_response": "Yes",
+            "dishonest_response": "No (secondary objection)",
+            "children": []
+          },
+          {
+            "id": 38,
+            "text": "Therefore, you should reject [20].",
+            "debater": "honest",
+            "level": 2,
+            "parentId": 20,
+            "honest_response": "Yes",
+            "dishonest_response": "",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "defs_and_sources": "<defs>\n  <def id=\"angular_velocity\">Angular velocity - The rate at which an object rotates about an axis, measured in radians per second (rad/s) and denoted by ω.</def>\n\n  <def id=\"velocity_relation\">Velocity relation - The equation ω = v/R, which relates the tangential (linear) speed v of a point on a rotating body to its angular velocity ω and the radius R of its circular path.</def>\n\n  <def id=\"point_mass\">Point mass - An idealized object with mass but no spatial extent, used to simplify analysis by ignoring rotation and internal structure.</def>\n\n  <def id=\"rigid_body\">Rigid body - An idealized solid object in which the distance between every pair of points remains constant, so it can rotate as well as translate.</def>\n\n  <def id=\"tangent\">Tangent - A straight line that touches a curve at exactly one point and points in the direction the curve is heading at that point.</def>\n\n  <def id=\"radially\">Radially - In the direction pointing toward or away from the center of a circular path.</def>\n\n  <def id=\"tangentially\">Tangentially - In the direction along the instantaneous velocity of an object moving on a curved path, i.e. perpendicular to the radial direction.</def>\n\n  <def id=\"normal\">Normal - Perpendicular to a surface or line at a given point.</def>\n\n  <def id=\"positive_work\">Positive work - Work done on an object when the applied force has a component in the same direction as the object's displacement, resulting in an increase in the object's kinetic energy.</def>\n\n  <def id=\"constraint_force\">Constraint force - A force exerted by a surface, track, or other boundary that restricts an object's motion to a particular path.</def>\n\n  <def id=\"ke\">Kinetic energy (KE) - The energy an object possesses due to its motion, equal to ½mv² for an object of mass m moving at speed v.</def>\n</defs>"
+}

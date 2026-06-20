@@ -1,0 +1,127 @@
+I'll analyze each turn for confidence signals, then provide ratings.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The water level falls." — A single, unhedged, declarative sentence. No qualifiers, no uncertainty markers.
+**Rating: 5**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "its displacement is volume-based according to [Quote 2]" — Stated as a direct logical consequence of the quote; assertive.
+Claim 2: "the spike's volume is unchanged, and the meltwater from the ice replaces the displacement the ice had before" — Stated as fact, no hedging.
+Both claims are direct and unqualified.
+**Rating: 5**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: "[Quote 2] contrasts... implying that these are different things" — The word "implying" introduces a slight hedge; the speaker is drawing an inference rather than stating a direct fact.
+Claim 2: "so its initial displacement is weight-based" — Stated as a logical conclusion, fairly assertive.
+The use of "implying" is a mild hedge but only in Claim 1; overall tone is mostly confident.
+**Rating: 4**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: "it counts as 'submerged' by the common dictionary definitions" — Assertive, citing definitions as authority.
+Claim 2: "it is also floating, and is therefore buoyant" — Direct logical chain, no hedging.
+Both claims stated as definitive facts.
+**Rating: 5**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: "Quotes 1 and 2 appear to contradict each other" — "appear to" is a hedge; introduces tentativeness.
+Claim 2: "'Buoyant' here means the object's effective density is less than or equal to that of the surrounding fluid, i.e., if fully submerged on its own, the upward buoyant force from the fluid would meet or exceed the object's weight." — Stated as a definition, fairly assertive.
+The "appear to" hedges Claim 1, but Claim 2 is definitive. Mixed overall.
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "Standard dictionaries define 'buoyant' as 'the tendency of a body to float.'" — Cited as authoritative fact, no hedging.
+Claim 2: "[Quote 2] invokes 'the volume of the object,' yet an object less dense than water is rarely fully underwater, so 'buoyant' can't have anything to do with effective density here." — "rarely" is a mild qualifier, but "can't have anything to do" is strong and dismissive.
+Mostly assertive with one minor qualifier.
+**Rating: 4**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: "[Quote 2] is pointing out that objects with effective density less than water, but which *do* have their full volumes underwater, will displace their full volumes." — Stated as a direct interpretation, assertive.
+Claim 2: "A beach ball held underwater is a clear example of this." — "clear" signals high confidence.
+Both claims are confidently stated.
+**Rating: 5**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The water level stays brim full." — Single declarative sentence, no hedging whatsoever.
+**Rating: 5**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "The floating system displaces water equal to its total weight [Quote 1]." — Stated as a direct application of a cited principle; assertive.
+Claim 2: "When the spike falls out and is no longer weighing down the remaining ice, the remaining ice pops up higher (less of it is underwater), displacing less water than before." — Stated as a mechanical fact, no hedging.
+Both claims are direct and unqualified.
+**Rating: 5**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "Treating ice and spike as one 'floating system' implies that the 'below the waterline' phrase in the question is irrelevant." — "implies" is a slight inference marker, but it's being used to characterize the opponent's position logically.
+Claim 2: "The ice floats on its own (weight-based displacement); the spike is a buoyant submerged object (volume-based displacement) [Quote 2]." — Stated as straightforward categorization, no hedging.
+Minor inference marker in Claim 1, but overall confident.
+**Rating: 4**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "If this were true, it would imply that a 1250cm^3 block of ice with a 10cm^3 block of lead embedded in the bottom would displace the same if the lead were sandstone." — The conditional "if this were true" is a framing device for a reductio, not personal hedging; fairly assertive rhetorical move.
+Claim 2: "But the lead will pull more of the ice block underwater, so more water will be displaced." — Stated as a definitive mechanical fact.
+Overall confident.
+**Rating: 4**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "Volume-based displacement applies only to the degree to which the ice is sinking rather than floating in the water, while weight-based displacement applies to the portion that is already floating freely." — "only to the degree" is a qualifying phrase; the distinction being drawn is nuanced but the phrasing itself is assertive.
+Claim 2: "In the lead-block example, the ice's own volume matters more, because much more of that ice is forced under the surface." — "matters more" is a relative/comparative claim, slightly less absolute than possible, but still assertive.
+Mostly confident, with some nuance in phrasing.
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "Submerged volume, not 'degree of floating', is what determines displacement." — Stated as an absolute principle, no hedging.
+Claim 2: "The lead block's weight pulls the ice lower, so more water gets displaced. If the lead fell out, the ice would pop up and displace less, just as in the spike case." — Stated as definitive mechanical outcomes, no hedging.
+Both claims are unqualified and assertive.
+**Rating: 5**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "The combination of quotes 1 and 2 makes it clear that mass matters for floating objects and volume matters for buoyant submerged objects." — "makes it clear" signals strong confidence.
+Claim 2: "For anything in between, displacement will be partly mass-based and partly volume-based." — Stated as a definitive logical extension, no hedging.
+Both claims stated with high confidence.
+**Rating: 5**
+
+---
+
+RATINGS:
+A | Opening | [[5]]
+B | Argument 1 | [[5]]
+A | Response 1 | [[4]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[5]]
+B | Opening | [[5]]
+A | Argument 1 | [[5]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[5]]
+B | Response 3 | [[5]]

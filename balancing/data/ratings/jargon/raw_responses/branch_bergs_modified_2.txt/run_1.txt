@@ -1,0 +1,157 @@
+I'll analyze each turn for technical jargon, identifying specialized terms and rating the overall density.
+
+---
+
+**Turn 1 – Debater A: [Opening] (Left)**
+"The water level falls."
+- No technical terms. Plain everyday language.
+**Rating: 1**
+
+---
+
+**Turn 2 – Debater B: [Argument 1] (Left)**
+- "displacement": physics term meaning volume/weight of fluid pushed aside — moderate jargon in context
+- "volume-based": technical physics phrasing
+- "meltwater": compound word, fairly accessible
+- "below the waterline": descriptive, accessible
+Overall: A couple of physics terms but meaning is largely accessible from context.
+**Rating: 2**
+
+---
+
+**Turn 3 – Debater A: [Response 1] (Left)**
+- "floats on the surface" / "buoyant submerged object": quoting physics distinctions
+- "displacement": as before
+- "weight-based": technical physics phrasing
+- "initial displacement": physics term
+These terms are used in a technical physics sense, but remain fairly accessible.
+**Rating: 2**
+
+---
+
+**Turn 4 – Debater B: [Argument 2] (Left)**
+- "submerged": somewhat technical but widely understood
+- "buoyant": physics term, though also in common use
+- "embedded in the floating ice": descriptive, accessible
+- "floating," "waterline": accessible
+Minimal technical terms; mostly plain language with a couple of physics words.
+**Rating: 2**
+
+---
+
+**Turn 5 – Debater A: [Response 2] (Left)**
+- "buoyant": physics term
+- "effective density": technical physics phrase — this is genuine jargon; a layperson may not know this means mass/volume ratio compared to fluid
+- "fully submerged": accessible
+- "upward buoyant force": physics terminology
+- "fluid density": technical
+This turn uses several physics terms that would require domain knowledge.
+**Rating: 3**
+
+---
+
+**Turn 6 – Debater B: [Argument 3] (Left)**
+- "buoyant": physics/dictionary term
+- "effective density": technical (referencing prior turn)
+- "volume of the object": accessible
+- "less dense than water": accessible physics phrasing
+Some technical terms but mostly accessible; references "effective density" in passing.
+**Rating: 2**
+
+---
+
+**Turn 7 – Debater A: [Response 3] (Left)**
+- "effective density": technical physics
+- "volumes underwater": accessible
+- "displace their full volumes": physics phrasing
+- "beach ball held underwater": illustrative, accessible
+Mixed — a couple of technical phrases but the beach ball example makes it very accessible.
+**Rating: 2**
+
+---
+
+**Turn 8 – Debater B: [Opening] (Right)**
+"The water level stays brim full."
+- No technical terms. Plain language.
+**Rating: 1**
+
+---
+
+**Turn 9 – Debater A: [Argument 1] (Right)**
+- "displaces water equal to its total weight": Archimedes' principle phrasing — accessible with context
+- "weighing down": everyday language
+- "displacing less water": physics phrasing, accessible
+- "floating system": somewhat technical framing
+Mild physics terminology, mostly accessible.
+**Rating: 2**
+
+---
+
+**Turn 10 – Debater B: [Response 1] (Right)**
+- "weight-based displacement": technical physics phrasing
+- "volume-based displacement": technical physics phrasing
+- "buoyant submerged object": physics term
+- "below the waterline": accessible
+Two distinct technical physics phrases ("weight-based displacement," "volume-based displacement") used as conceptual categories.
+**Rating: 3**
+
+---
+
+**Turn 11 – Debater A: [Argument 2] (Right)**
+- "1250cm^3": numerical/unit notation
+- "10cm^3": same
+- "embedded in the bottom": accessible
+- "displace the same": physics usage
+- "lead," "sandstone": material names, accessible
+The cm^3 units are mildly technical but the overall argument is accessible.
+**Rating: 2**
+
+---
+
+**Turn 12 – Debater B: [Response 2] (Right)**
+- "volume-based displacement": technical physics
+- "weight-based displacement": technical physics
+- "sinking rather than floating freely": accessible
+- "forced under the surface": accessible
+Two technical physics category terms; otherwise plain language.
+**Rating: 2**
+
+---
+
+**Turn 13 – Debater A: [Argument 3] (Right)**
+- "Submerged volume": physics term
+- "displacement": physics term
+- "'degree of floating'": somewhat ironic/informal use
+- "displace less": physics usage
+Mild physics terminology, mostly accessible.
+**Rating: 2**
+
+---
+
+**Turn 14 – Debater B: [Response 3] (Right)**
+- "mass": scientific term but widely understood
+- "volume": scientific term but widely understood
+- "floating objects": accessible
+- "buoyant submerged objects": technical physics phrase
+- "displacement": physics term
+- "mass-based," "volume-based": technical physics phrasing
+Several technical physics terms used as categorical distinctions.
+**Rating: 2**
+
+---
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[2]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[2]]

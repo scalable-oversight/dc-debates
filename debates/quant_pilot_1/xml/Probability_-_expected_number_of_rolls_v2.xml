@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debate>
+<title>Probability puzzle</title>
+
+<question id="claim_0">
+  Consider these two quantities:
+  
+  X: The expected number of rolls of a fair six-sided die until you roll two 6s in a row, given that all rolls were even. Y: The expected number of rolls of a fair six-sided die until you roll the second 6 (not necessarily in a row), given that all rolls were even.
+  
+  To understand exactly what is meant by "the expected number of rolls... given that all rolls were even" in this problem, think of it this way: Imagine you were to perform a billion sequences of die rolls, stopping each sequence when you roll two 6s in a row. Then you throw out all the sequences that contain an odd roll. The average number of rolls in the remaining sequences will be close to X. Next, perform a billion sequences of die rolls, stopping each sequence when you roll the second 6. Throw out all the sequences among these that contain an odd roll. The average number of rolls in the remaining sequences will be close to Y.
+  
+  Which is larger, X or Y?
+
+  <answer id="claim_1" speaker="H" honest_response="Yes" dishonest_response="No (main objection)">
+    Y is larger.
+    <answer id="claim_2" speaker="D" honest_response="No (main objection)" dishonest_response="Yes">
+      The condition "all rolls were even" turns the D6 into a D3 for purposes of this question (sides 2, 4, 6).
+      <answer id="claim_3" speaker="H" honest_response="Yes" dishonest_response="Yes">The expected number of rolls to first 6 for such a D3 is 3.</answer>
+      <answer id="claim_4" speaker="H" honest_response="Yes" dishonest_response="No (secondary objection)">The expected number of rolls to the first 6 for a D6, given that all rolls were even, is 3/2. So they aren't equivalent.</answer>
+      <answer id="claim_5" speaker="H" honest_response="Yes" dishonest_response="No (main objection)">
+        Therefore, you should reject <xref rid="claim_2"/>.
+        <answer id="claim_6" speaker="D" honest_response="No (main objection)" dishonest_response="Yes">
+          Debater B Argument 1 Claim 1 says it turns the D6 into a D3 *for purposes of this question*. "What is the expected number of rolls to the first 6, given all rolls even" is a different, irrelevant question.
+          <answer id="claim_7" speaker="H" honest_response="Yes" dishonest_response="No (secondary objection)">It is relevant for showing why arguments based on this claimed equivalence don't work.</answer>
+          <answer id="claim_8" speaker="H" honest_response="Yes" dishonest_response="No (main objection)">
+            It would be strange if a (2, 4, 6) D3 was equivalent to "D6 given all rolls even" for this question, but not when calculating expected number of rolls to the first 6.
+            <answer id="claim_9" speaker="D" honest_response="Yes" dishonest_response="Yes">Changing to "expected number of rolls to the first 6" changes the math.</answer>
+            <answer id="claim_10" speaker="D" honest_response="No (main objection)" dishonest_response="Yes">With one 6, each roll's weight matters. With two, it's the relative frequency of 6 vs non-6 that determines the answer.</answer>
+            <answer id="claim_11" speaker="D" dishonest_response="Yes">Therefore, you should reject <xref rid="claim_8"/>.</answer>
+          </answer>
+          <answer id="claim_12" speaker="H" honest_response="Yes">Therefore, you should reject <xref rid="claim_6"/>.</answer>
+        </answer>
+        <answer id="claim_13" speaker="D" honest_response="No (secondary objection)" dishonest_response="Yes">It is irrelevant because this question asks about cases involving two rolled 6s, not one.</answer>
+        <answer id="claim_14" speaker="D" dishonest_response="Yes">Therefore, you should reject <xref rid="claim_5"/>.</answer>
+      </answer>
+    </answer>
+    <answer id="claim_15" speaker="D" honest_response="Yes" dishonest_response="Yes">On a D3, getting two 6s in a row is harder (requires more rolls) than getting two 6s not necessarily in a row.</answer>
+    <answer id="claim_16" speaker="D" dishonest_response="Yes">Therefore, you should reject <xref rid="claim_1"/>.</answer>
+  </answer>
+  <answer id="claim_17" speaker="D" honest_response="No (main objection)" dishonest_response="Yes">
+    X is larger.
+    <answer id="claim_18" speaker="H" honest_response="Yes" dishonest_response="Yes">X needs two 6s in a row, normally requiring a much longer run than Y's two 6s anywhere.</answer>
+    <answer id="claim_19" speaker="H" honest_response="Yes" dishonest_response="No (main objection)">
+      But "given all rolls were even" filters long runs exponentially, so X's probability mass is squeezed onto its short, lucky runs much more so than Y's.
+      <answer id="claim_20" speaker="D" honest_response="Yes" dishonest_response="Yes">"Given all rolls were even" applies to both X and Y.</answer>
+      <answer id="claim_21" speaker="D" honest_response="No (secondary objection)" dishonest_response="Yes">The stopping condition for X is strictly harder and happens later than or at the same time as Y's. X's distribution is dominated by long sequences that finally get two 6s in a row.</answer>
+      <answer id="claim_22" speaker="D" honest_response="No (main objection)" dishonest_response="Yes">
+        Therefore, you should reject <xref rid="claim_19"/>.
+        <answer id="claim_23" speaker="H" honest_response="Yes" dishonest_response="No (main objection)">
+          Debater B Response 1 Claim 1 is true, but affects X more because you'll nearly always roll an odd before getting two 6s, so the long sequences will be largely filtered out.
+          <answer id="claim_24" speaker="D" honest_response="No (secondary objection)" dishonest_response="Yes">This is irrelevant because you'll also nearly always roll an odd before getting two nonconsecutive 6s.</answer>
+          <answer id="claim_25" speaker="D" honest_response="No (main objection)" dishonest_response="Yes">
+            The effect of "given all rolls were even" is similar for X and Y.
+            <answer id="claim_26" speaker="H" honest_response="Yes" dishonest_response="Yes">Given all-even, X stops on roll 2 with prob 11/18 vs. Y 4/9. By roll 3, X has stopped with prob 22/27 vs Y 20/27.</answer>
+            <answer id="claim_27" speaker="H" honest_response="Yes" dishonest_response="No (main objection)">This shows X is meaningfully more weighted to very short runs.</answer>
+            <answer id="claim_28" speaker="H" honest_response="Yes">Therefore, you should reject <xref rid="claim_25"/>.</answer>
+          </answer>
+          <answer id="claim_29" speaker="D" dishonest_response="Yes">Therefore, you should reject <xref rid="claim_23"/>.</answer>
+        </answer>
+        <answer id="claim_30" speaker="H" honest_response="Yes" dishonest_response="No (secondary objection)">The first sentence of Debater B Response 1 Claim 2 is true, the second is a false statement that does not follow from it.</answer>
+        <answer id="claim_31" speaker="H" honest_response="Yes">Therefore, you should reject <xref rid="claim_22"/>.</answer>
+      </answer>
+    </answer>
+    <answer id="claim_32" speaker="H" honest_response="Yes">Therefore, you should reject <xref rid="claim_17"/>.</answer>
+  </answer>
+</question>
+</debate>

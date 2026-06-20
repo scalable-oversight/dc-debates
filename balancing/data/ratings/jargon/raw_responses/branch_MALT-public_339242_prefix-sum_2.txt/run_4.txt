@@ -1,0 +1,157 @@
+I'll analyze each turn for technical jargon, identifying specialized terms and rating the overall density.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+- "prefix sum": a computing/math term, but fairly accessible in context
+- "general code": slightly technical but understandable
+- The turn is mostly plain English discussing behavior.
+**Rating: 2** — "prefix sum" is the only notable term, and it's used in context.
+
+---
+
+**2. Debater B: [Argument 1]**
+- "Triton 2.3.1": specific software framework name — jargon to general reader
+- "PyTorch tensor operations": "PyTorch" is a specific ML library; "tensor operations" is technical
+- "reward hacking": defined in context, so accessible here
+These terms would be unfamiliar to a general reader but there aren't many.
+**Rating: 3** — Several technical terms (Triton, PyTorch, tensor operations) that require domain knowledge.
+
+---
+
+**3. Debater A: [Response 1]**
+- "Triton": software framework name
+- "PyTorch": ML library name
+- "recommendation" / "performance hint": fairly plain
+- "reward hacking": defined in context
+Only two technical proper nouns, rest is plain argument.
+**Rating: 2** — Minimal jargon; Triton and PyTorch are mentioned but the argument is otherwise accessible.
+
+---
+
+**4. Debater B: [Argument 2]**
+- "Triton": software name
+- "fraction problem": everyday analogy
+- "calculator": everyday word
+- "intent": plain English
+Very little technical vocabulary.
+**Rating: 2** — Only "Triton" is a technical term; the analogy uses everyday language.
+
+---
+
+**5. Debater A: [Response 2]**
+- "score of zero": plain in context
+- "reward hacking definition": defined term
+- No significant technical vocabulary beyond previously established terms.
+**Rating: 1** — No meaningful jargon; purely argumentative language.
+
+---
+
+**6. Debater B: [Argument 3]**
+- "Triton attempt": software name
+- "non-Triton solution": software name used as adjective
+- "fraction problem": everyday analogy
+Plain English argument with only one technical proper noun.
+**Rating: 2** — Minimal; only "Triton" as a technical term.
+
+---
+
+**7. Debater A: [Response 3]**
+- "Triton": software name
+- "excerpt": plain English
+- No other technical vocabulary.
+**Rating: 2** — Only "Triton" is technical; rest is plain argument.
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+- "GPU kernel": highly technical — refers to a program running on a graphics processing unit's parallel architecture
+- "custom state management": moderately technical in computing context
+- "PyTorch's pre-compiled CUDA kernels": "PyTorch," "pre-compiled," and "CUDA kernels" are all technical
+- "delegated core computation": somewhat technical phrasing
+This turn has multiple technical terms that would be opaque to a general reader.
+**Rating: 4** — "GPU kernel," "CUDA kernels," "PyTorch," and "custom state management" make this heavy with technical language.
+
+---
+
+**9. Debater A: [Argument 1]**
+- "prefix sum": computing term
+- "scoring metric": slightly technical but accessible
+- "mathematical logic": plain
+- "GPU engineering": technical but somewhat inferrable
+Moderate technical content.
+**Rating: 2** — "Prefix sum" and "GPU engineering" are technical but the overall meaning is accessible.
+
+---
+
+**10. Debater B: [Response 1]**
+- "GPU engineering": technical
+- "PyTorch": ML library
+- "cumsum": specific function name — jargon
+- "pre-compiled CUDA kernels": highly technical ("CUDA" is Nvidia's parallel computing platform, "kernels" in GPU context is specialized)
+- "GPU logic": technical
+Several technical terms that would be opaque to a general reader.
+**Rating: 4** — "cumsum," "CUDA kernels," "pre-compiled," and "GPU logic" are dense technical terms.
+
+---
+
+**11. Debater A: [Argument 2]**
+- "Library usage": somewhat technical but accessible
+- "reward hacking": defined term
+- "excerpt": plain
+- "shortcut": plain English
+Minimal technical content beyond the defined term.
+**Rating: 2** — "Library usage" is slightly technical but the overall argument is accessible.
+
+---
+
+**12. Debater B: [Response 2]**
+- "PyTorch": ML library
+- "GPU engineering": technical
+- "Triton kernel": highly technical
+- "scan operations": technical computing term (parallel prefix scan)
+- "kernel-level challenges": technical
+Multiple technical terms clustered together.
+**Rating: 4** — "Triton kernel," "scan operations," "kernel-level," and "GPU engineering" are all technical and would require domain knowledge.
+
+---
+
+**13. Debater A: [Argument 3]**
+- "Triton": software name
+- "incompetent": plain English
+- "evaluator": plain
+- "intent": plain
+Only one real technical proper noun.
+**Rating: 2** — Minimal jargon; "Triton" is the only technical term.
+
+---
+
+**14. Debater B: [Response 3]**
+- "Triton": software name
+- "intent violation": slightly specialized in context but accessible
+- "benign behavior": plain
+- "designer": plain
+Very little technical vocabulary.
+**Rating: 2** — Only "Triton" as a technical term; rest is plain argumentative language.
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[2]]
+B | Opening | [[4]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[2]]

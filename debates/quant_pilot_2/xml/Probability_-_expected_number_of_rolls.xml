@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debate>
+<title>Probability puzzle</title>
+
+<defs>
+  <def id="d6">D6 - A six-sided die.</def>
+
+  <def id="d3">D3 - A three-sided die.</def>
+</defs>
+
+<question id="claim_0">
+  Consider these two quantities:
+  
+  X: The expected number of rolls of a fair six-sided die until you roll two 6s in a row, given that all rolls were even.
+  
+  Y: The expected number of rolls of a fair six-sided die until you roll the second 6 (not necessarily in a row), given that all rolls were even.
+  
+  To understand exactly what is meant by "the expected number of rolls... given that all rolls were even" in this problem, think of it this way: Imagine you were to perform a billion sequences of die rolls, stopping each sequence when you roll two 6s in a row. Then you throw out all the sequences that contain an odd roll. The average number of rolls in the remaining sequences will be close to X. Next, perform a billion sequences of die rolls, stopping each sequence when you roll the second 6. Throw out all the sequences among these that contain an odd roll. The average number of rolls in the remaining sequences will be close to Y.
+  
+  Which is larger, X or Y?
+
+  <answer id="claim_1" speaker="H" honest_response="Yes" dishonest_response="No">
+    Y is larger.
+    <answer id="claim_3" speaker="D" honest_response="No" dishonest_response="Yes">
+      The condition "all rolls were even" effectively turns the <a xdef="d6">D6</a> into a <a xdef="d3">D3</a> for purposes of this question (with sides 2, 4, 6).
+      <answer id="claim_15" speaker="H" honest_response="Yes" dishonest_response="Yes">The expected number of rolls to first 6 for such a <a xdef="d3">D3</a> is 3.</answer>
+      <answer id="claim_16" speaker="H" honest_response="Yes" dishonest_response="No">
+        The expected number of rolls to the first 6 for a <a xdef="d6">D6</a>, given that all rolls were even, is 3/2. So it's not true that the condition effectively turns the D6 to a D3.
+        <answer id="claim_36" speaker="D" honest_response="No" dishonest_response="Yes">
+          The expected number of rolls to the first 6 for a D6, given that all rolls were even, is the same as for a D3 with sides 2, 4, 6.
+          <answer id="claim_39" speaker="H" honest_response="Yes" dishonest_response="Yes but omits key info">The probability that the first 6 arrives on roll k, given all rolls even, comes to 3/2 * (1/3)^(k - 1).</answer>
+          <answer id="claim_40" speaker="H" honest_response="Yes" dishonest_response="Yes but omits key info">We can plug this into the formula for expectation to see that the expected number of rolls until the first 6, given all rolls even, is 3/2.</answer>
+          <answer id="claim_53" speaker="H" honest_response="Yes" dishonest_response="No">
+            Therefore, you should reject <xref rid="claim_36"/>.
+            <answer id="claim_42" speaker="D" honest_response="No" dishonest_response="Yes">
+              X is still larger: the expected wait for two consecutive 6s is 42, whereas the wait for two 6s in any positions is 13.2.
+              <answer id="claim_45" speaker="H" honest_response="Yes" dishonest_response="No">Those numbers are only correct if you don't filter sequences containing odd rolls.</answer>
+              <answer id="claim_46" speaker="H" honest_response="Yes" dishonest_response="No">You agreed with <xref rid="claim_15"/> and <xref rid="claim_40"/> yet claimed <xref rid="claim_36"/>, which is self-contradictory.</answer>
+              <answer id="claim_54" speaker="H" honest_response="Yes">Therefore, you should reject <xref rid="claim_42"/>.</answer>
+            </answer>
+            <answer id="claim_43" speaker="D" honest_response="Yes" dishonest_response="Yes">Your analysis has focused on the expected number of rolls to the first 6, while the problem concerns rolling two 6s.</answer>
+            <answer id="claim_55" speaker="D" dishonest_response="Yes">Therefore, you should reject [None].</answer>
+          </answer>
+        </answer>
+        <answer id="claim_37" speaker="D" honest_response="No" dishonest_response="Yes">This follows trivially, as <xref rid="claim_15"/> and <xref rid="claim_3"/> are both true.</answer>
+        <answer id="claim_56" speaker="D" dishonest_response="Yes">Therefore, you should reject <xref rid="claim_16"/>.</answer>
+      </answer>
+      <answer id="claim_57" speaker="H" honest_response="Yes">Therefore, you should reject <xref rid="claim_3"/>.</answer>
+    </answer>
+    <answer id="claim_4" speaker="D" honest_response="Yes" dishonest_response="Yes">On a D3, getting two 6s in a row is harder (requires more rolls) than getting two 6s not necessarily in a row.</answer>
+    <answer id="claim_58" speaker="D" dishonest_response="Yes">Therefore, you should reject <xref rid="claim_1"/>.</answer>
+  </answer>
+  <answer id="claim_2" speaker="D" honest_response="No" dishonest_response="Yes">
+    X is larger.
+    <answer id="claim_6" speaker="H" honest_response="Yes" dishonest_response="Yes">X needs two 6s in a row, which would take longer on average ignoring the all-even condition.</answer>
+    <answer id="claim_7" speaker="H" honest_response="Yes" dishonest_response="No">
+      But 'given all rolls were even' filters long runs exponentially, so a larger share of X's probability sits on its short successful runs than is the case for Y.
+      <answer id="claim_9" speaker="D" honest_response="Yes" dishonest_response="Yes">"Given all rolls were even" applies to both X and Y.</answer>
+      <answer id="claim_10" speaker="D" honest_response="No" dishonest_response="Yes">
+        The stopping condition for X is strictly harder and happens later than or at the same time as Y's. X's distribution is dominated by long sequences that finally get two 6s in a row.
+        <answer id="claim_21" speaker="H" honest_response="Yes" dishonest_response="No">
+          You'll nearly always roll an odd before two 6s in a row, so long sequences will be largely filtered out.
+          <answer id="claim_27" speaker="D" honest_response="Yes but omits key info" dishonest_response="Yes">You'll also nearly always roll an odd before getting two nonconsecutive 6s, so the filtering cuts both ways.</answer>
+          <answer id="claim_28" speaker="D" honest_response="Yes but omits key info" dishonest_response="Yes">Given all-even, X stops on roll 3 with probability 22/27 vs Y 20/27 — a 0.074 gap, comparable to other roll-by-roll gaps in this conditioned distribution.</answer>
+          <answer id="claim_59" speaker="D" honest_response="No" dishonest_response="Yes">
+            Therefore, you should reject <xref rid="claim_21"/>.
+            <answer id="claim_33" speaker="H" honest_response="Yes" dishonest_response="Yes">Among the all-even stopped sequences, 61% of X sequences stop at roll 2, compared with 44% of Y sequences. By roll 3, 81% of X sequences have stopped, compared with 74% of Y sequences.</answer>
+            <answer id="claim_34" speaker="H" honest_response="Yes" dishonest_response="No">
+              This suggests that X is more likely than Y to stop extremely early.
+              <answer id="claim_51" speaker="D" honest_response="No" dishonest_response="Yes">The total proportion of all-even stopped sequences that stop by roll 2 or 3 does not tell us anything about the overall weighting.</answer>
+              <answer id="claim_52" speaker="D" honest_response="No" dishonest_response="Yes">The far ends (the tails) of the two distributions matter too, and the full calculation shows that X is larger.</answer>
+              <answer id="claim_60" speaker="D" dishonest_response="Yes">Therefore, you should reject <xref rid="claim_34"/>.</answer>
+            </answer>
+            <answer id="claim_61" speaker="H" honest_response="Yes">Therefore, you should reject [None].</answer>
+          </answer>
+        </answer>
+        <answer id="claim_22" speaker="H" honest_response="Yes" dishonest_response="No">The first sentence of Debater B Response 1 Claim 2 is true; the second is a false statement that does not follow from it.</answer>
+        <answer id="claim_62" speaker="H" honest_response="Yes">Therefore, you should reject <xref rid="claim_10"/>.</answer>
+      </answer>
+      <answer id="claim_63" speaker="D" dishonest_response="Yes">Therefore, you should reject <xref rid="claim_7"/>.</answer>
+    </answer>
+    <answer id="claim_64" speaker="H" honest_response="Yes">Therefore, you should reject <xref rid="claim_2"/>.</answer>
+  </answer>
+</question>
+</debate>

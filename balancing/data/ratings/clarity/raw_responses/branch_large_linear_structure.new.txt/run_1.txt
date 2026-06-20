@@ -1,0 +1,146 @@
+I'll analyze each turn for clarity to a layperson, identifying elements that help or hinder comprehension.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+- "Runaway supermassive black hole" is a striking, somewhat accessible phrase, but "SMBH" abbreviation is introduced without prior explanation in the turn itself (though defined in the glossary).
+- The turn is very brief and simple in structure.
+- A layperson can mostly follow this, though "runaway SMBH" may be unfamiliar.
+- **Rating: 4**
+
+---
+
+**2. Debater B: [Argument 1]**
+- "Few parsecs" and "kiloparsecs" are technical astronomical distance units that most laypeople won't know.
+- "Host galaxies" is a common enough term.
+- The logic (SMBHs are normally close to galaxy centers; this one is far away) is clear in structure.
+- The use of specific numbers (40 kiloparsecs) adds precision but obscures meaning for laypeople who don't know how far a parsec is.
+- **Rating: 3**
+
+---
+
+**3. Debater A: [Response 1]**
+- "SMBH recoil" is defined in the glossary; the concept of being ejected during a merger is fairly intuitive.
+- "Trail of star formation left in the wake of a recoiling SMBH" is a vivid and somewhat accessible image.
+- "Linear structure" and "CGM" (circumgalactic medium) are not yet used but the sentence is still fairly understandable.
+- Overall fairly accessible for someone who has read the glossary.
+- **Rating: 4**
+
+---
+
+**4. Debater B: [Argument 2]**
+- "Circumgalactic medium (CGM)" is a technical term introduced without full explanation.
+- The comparison between globular clusters and black holes traveling through space is logical and relatively easy to follow.
+- The argument structure (if X were true, we'd see Y for similar objects, but we don't) is clear.
+- "Old, massive and compact structures" is accessible.
+- **Rating: 3**
+
+---
+
+**5. Debater A: [Response 2]**
+- "Supersonic speeds" is a familiar concept.
+- "Bow shock" is a somewhat technical term but fairly intuitive (like a wave in front of a fast-moving object).
+- The logic (black hole moves fast → bow shock → star formation; globular clusters don't make bow shocks) is reasonably clear.
+- "CGM" reappears without explanation.
+- **Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3]**
+- References "[Figure 1] in [M. M. et al.]" which a layperson cannot access, making this harder to follow.
+- "Color of the stars fluctuates" is accessible.
+- "Monotonically decrease" is a technical/mathematical phrase that laypeople may not know.
+- The argument (if bow shock caused star formation, star ages should go in one direction; fluctuating color contradicts this) requires some effort but is followable.
+- **Rating: 3**
+
+---
+
+**7. Debater A: [Response 3]**
+- "Broad age gradient" is somewhat technical.
+- "Red and blue supergiants" is somewhat accessible (these are types of stars).
+- "Alternating red and blue supergiants in the trail" as an explanation for color fluctuation is moderately accessible.
+- Claim 2 about star formation occurring after the SMBH passes is intuitive.
+- Overall reasonably clear but with some technical vocabulary.
+- **Rating: 3**
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+- "Bulgeless edge-on galaxy" is defined in the glossary and the definition is quite accessible ("looks like a line in the sky").
+- The opening is simple and clear.
+- **Rating: 5**
+
+---
+
+**9. Debater A: [Argument 1]**
+- "[OIII]/H𝜷" is a highly technical spectroscopic ratio that a layperson would not understand without explanation.
+- "Line ratio" is also technical jargon.
+- "Not entirely linear" is accessible.
+- Claim 2 is fairly clear but Claim 1 is quite opaque to a layperson.
+- **Rating: 2**
+
+---
+
+**10. Debater B: [Response 1]**
+- "Tully-Fisher relation" is defined in the glossary and the definition is fairly clear.
+- "Stellar mass and maximum rotational velocity" is somewhat technical.
+- The argument (this object satisfies the Tully-Fisher relation, so it could be a galaxy) is logical and followable.
+- Reference to a specific figure is inaccessible without the figure.
+- **Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2]**
+- "Observational inconsistencies" is vague and somewhat jargon-heavy.
+- "Velocity gradient near the edge" — "velocity gradient" is defined in the glossary, which helps.
+- The argument (satisfying one criterion isn't enough; the velocity gradient is too large) is logically structured.
+- Overall moderately accessible.
+- **Rating: 3**
+
+---
+
+**12. Debater B: [Response 2]**
+- "IC5249" is a specific galaxy name that is unexplained beyond being an "observationally confirmed bulgeless edge-on galaxy."
+- "Position vs rotational velocity gradient" is technical but partially accessible.
+- The comparison logic (this object resembles IC5249, which is a known bulgeless edge-on galaxy) is clear.
+- **Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3]**
+- "Velocity and flux gradient" — "flux" is a technical term not defined in the glossary.
+- "Smoother" is accessible.
+- "Line emission strongly resembling a bow shock at its tip" — "line emission" and "bow shock" are technical but bow shock was mentioned earlier.
+- The argument (IC5249's features are smoother; this object has a bow-shock structure that galaxies don't have) is logically clear but has several technical terms.
+- **Rating: 3**
+
+---
+
+**14. Debater B: [Response 3]**
+- "Line emission" and "shocks produced by supernovae" are technical but somewhat graspable.
+- "Clumpy and irregular UV emission arising from heterogeneous star formation" — "heterogeneous" and "UV emission" add technical difficulty.
+- "Distorted galaxies often have rather clumpy...emission" is partially accessible.
+- Both claims together make the argument that unusual features can be explained by ordinary galaxy processes, which is followable at a high level.
+- **Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[4]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[4]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[3]]
+B | Opening | [[5]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[3]]

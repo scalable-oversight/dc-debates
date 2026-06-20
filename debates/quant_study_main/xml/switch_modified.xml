@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debate>
+<title>Switch</title>
+
+<defs>
+  <def id="angular_velocity">Angular velocity - The rate at which an object rotates about an axis, measured in radians per second (rad/s) and denoted by ω.</def>
+
+  <def id="velocity_relation">Velocity relation - The equation ω = v/R, which relates the tangential (linear) speed v of a point on a rotating body to its angular velocity ω and the radius R of its circular path.</def>
+
+  <def id="point_mass">Point mass - An idealized object with mass but no spatial extent, used to simplify analysis by ignoring rotation and internal structure.</def>
+
+  <def id="rigid_body">Rigid body - An idealized solid object in which the distance between every pair of points remains constant, so it can rotate as well as translate.</def>
+
+  <def id="tangent">Tangent - A straight line that touches a curve at exactly one point and points in the direction the curve is heading at that point.</def>
+
+  <def id="radially">Radially - In the direction pointing toward or away from the center of a circular path.</def>
+
+  <def id="tangentially">Tangentially - In the direction along the instantaneous velocity of an object moving on a curved path, i.e. perpendicular to the radial direction.</def>
+
+  <def id="normal">Normal - Perpendicular to a surface or line at a given point.</def>
+
+  <def id="positive_work">Positive work - Work done on an object when the applied force has a component in the same direction as the object's displacement, resulting in an increase in the object's kinetic energy.</def>
+
+  <def id="constraint_force">Constraint force - A force exerted by a surface, track, or other boundary that restricts an object's motion to a particular path.</def>
+
+  <def id="ke">Kinetic energy (KE) - The energy an object possesses due to its motion, equal to ½mv² for an object of mass m moving at speed v.</def>
+</defs>
+
+<question id="claim_0">
+  A train car is freely coasting around a large circular track. It is then switched to a smaller circular track. How does its speed change? Assume no friction.
+
+  <answer id="claim_1" speaker="H" honest_response="Yes" dishonest_response="No">
+    The speed stays the same when we model the car as a <a xdef="point_mass">point mass</a>. It decreases slightly when modeled as a <a xdef="rigid_body">rigid body</a>.
+    <answer id="claim_3" speaker="D" honest_response="No" dishonest_response="Yes">
+      A ball on a string spins faster when pulled inward. The same principle applies when the car transitions to a tighter radius.
+      <answer id="claim_9" speaker="H" honest_response="Yes" dishonest_response="Yes">The string does work because, as the ball spirals inward, its velocity has a radial component aligned with the tension.</answer>
+      <answer id="claim_10" speaker="H" honest_response="Yes" dishonest_response="No">
+        The fixed frictionless track exerts only a normal constraint force perpendicular to the car's velocity, so unlike the string it does no work.
+        <answer id="claim_12" speaker="D" honest_response="Yes" dishonest_response="Yes">The curvature changes continuously along the connecting track, so the direction of the constraint force rotates.</answer>
+        <answer id="claim_13" speaker="D" honest_response="No" dishonest_response="Yes">
+          This continuous rotation means that the force cannot remain perfectly perpendicular to the velocity at every instant.
+          <answer id="claim_15" speaker="H" honest_response="Yes" dishonest_response="No">The car's velocity is <a xdef="tangent">tangent</a> to the track at every point. The constraint force is <a xdef="normal">normal</a> to the track, hence perpendicular to velocity.</answer>
+          <answer id="claim_16" speaker="H" honest_response="Yes" dishonest_response="No">
+            At every instant, the force and velocity rotate together, maintaining perpendicularity even as curvature changes.
+            <answer id="claim_18" speaker="D" honest_response="Yes but omits key info" dishonest_response="Yes">Along the transition arc, the rail's normal force rotates and grows as curvature tightens.</answer>
+            <answer id="claim_19" speaker="D" honest_response="Yes but omits key info" dishonest_response="Yes">Centripetal acceleration varies in magnitude with the local radius of curvature, unlike on either circular section.</answer>
+            <answer id="claim_41" speaker="D" honest_response="No" dishonest_response="Yes">
+              Therefore, you should reject <xref rid="claim_16"/>.
+              <answer id="claim_33" speaker="H" honest_response="Yes" dishonest_response="No">These facts are true but do not refute <xref rid="claim_16"/>.</answer>
+              <answer id="claim_34" speaker="H" honest_response="Yes" dishonest_response="Yes">Imagine you're in the car. Velocity points out the windshield, your side doors are aligned with the track. Although you're turning, your doors stay exactly 90 degrees from your windshield.</answer>
+              <answer id="claim_42" speaker="H" honest_response="Yes">Therefore, you should reject [None].</answer>
+            </answer>
+          </answer>
+          <answer id="claim_43" speaker="H" honest_response="Yes">Therefore, you should reject <xref rid="claim_13"/>.</answer>
+        </answer>
+        <answer id="claim_44" speaker="D" dishonest_response="Yes">Therefore, you should reject <xref rid="claim_10"/>.</answer>
+      </answer>
+      <answer id="claim_45" speaker="H" honest_response="Yes">Therefore, you should reject <xref rid="claim_3"/>.</answer>
+    </answer>
+    <answer id="claim_4" speaker="D" honest_response="No" dishonest_response="Yes">The connecting track provides a <a xdef="radially">radially</a> inward force that accelerates the car <a xdef="tangentially">tangentially</a>.</answer>
+    <answer id="claim_46" speaker="D" dishonest_response="Yes">Therefore, you should reject <xref rid="claim_1"/>.</answer>
+  </answer>
+  <answer id="claim_2" speaker="D" honest_response="No" dishonest_response="Yes">
+    The speed increases if we model the car as a <a xdef="point_mass">point mass</a>. It also increases if we model it as a <a xdef="rigid_body">rigid body</a>.
+    <answer id="claim_6" speaker="H" honest_response="Yes" dishonest_response="No">
+      On a frictionless track, the rails' <a xdef="constraint_force">constraint force</a> does no work, so <a xdef="ke">kinetic energy (KE)</a> is conserved and speed cannot increase.
+      <answer id="claim_24" speaker="D" honest_response="Yes" dishonest_response="Yes">If the rails truly do no work, then a point-mass car cannot lose speed on the smaller track.</answer>
+      <answer id="claim_25" speaker="D" honest_response="No" dishonest_response="Yes">
+        Yet if kinetic energy is conserved and the rails do no work, then no slowdown should occur on a frictionless track for a rigid body model, contradicting <xref rid="claim_1"/>.
+        <answer id="claim_27" speaker="H" honest_response="Yes" dishonest_response="Yes">A rigid body has both translational and rotational kinetic energy; a point mass has only translational.</answer>
+        <answer id="claim_28" speaker="H" honest_response="Yes" dishonest_response="No">
+          On a tighter track, the body is forced to yaw with the curvature, and rotational energy increases at the expense of translational energy.
+          <answer id="claim_30" speaker="D" honest_response="No" dishonest_response="Yes">The rail forces that steer the rigid body do <a xdef="positive_work">positive work</a> and supply the rotational KE directly; it does not need to come from translational KE.</answer>
+          <answer id="claim_31" speaker="D" honest_response="No" dishonest_response="Yes">
+            Since <a xdef="velocity_relation">ω = v/R</a>, any drop in v also reduces ω, so the rotational KE does not have to increase.
+            <answer id="claim_36" speaker="H" honest_response="Yes" dishonest_response="Yes but omits key info">Whether ω = v/R rises or falls depends on whether v or R changes faster. Energy conservation gives v₂ &gt; v₁·R₂/R₁.</answer>
+            <answer id="claim_37" speaker="H" honest_response="Yes" dishonest_response="Yes but omits key info">For any choice of m, I, R₁&gt;R₂, this gives v₂/v₁ &gt; R₂/R₁, so ω = v/R increases.</answer>
+            <answer id="claim_47" speaker="H" honest_response="Yes" dishonest_response="No">
+              Therefore, you should reject <xref rid="claim_31"/>.
+              <answer id="claim_39" speaker="D" honest_response="No" dishonest_response="Yes">The formula ω = v/R is a 'point-mass formula' that applies only to a tiny point mass moving on a circle of radius R.</answer>
+              <answer id="claim_40" speaker="D" honest_response="Yes" dishonest_response="Yes">The center of mass does not ride on the rail's radius, so you can't plug in the velocity at the center of mass for v and the rail radius for R.</answer>
+              <answer id="claim_48" speaker="D" dishonest_response="Yes">Therefore, you should reject [None].</answer>
+            </answer>
+          </answer>
+          <answer id="claim_49" speaker="D" dishonest_response="Yes">Therefore, you should reject <xref rid="claim_28"/>.</answer>
+        </answer>
+        <answer id="claim_50" speaker="H" honest_response="Yes">Therefore, you should reject <xref rid="claim_25"/>.</answer>
+      </answer>
+      <answer id="claim_51" speaker="D" dishonest_response="Yes">Therefore, you should reject <xref rid="claim_6"/>.</answer>
+    </answer>
+    <answer id="claim_7" speaker="H" honest_response="Yes" dishonest_response="No">There is no mechanism on a fixed frictionless track to add energy to the car.</answer>
+    <answer id="claim_52" speaker="H" honest_response="Yes">Therefore, you should reject <xref rid="claim_2"/>.</answer>
+  </answer>
+</question>
+</debate>

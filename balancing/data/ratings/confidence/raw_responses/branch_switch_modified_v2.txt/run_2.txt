@@ -1,0 +1,107 @@
+I'll analyze each turn for confidence signals, then provide ratings.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+"The speed stays the same" and "It decreases slightly" — both are stated definitively. The word "slightly" is a minor qualifier on the rigid body case, but overall the claims are direct and assertive. No hedging language like "might" or "perhaps."
+**Rating: 4**
+
+---
+
+**2. Debater B: [Argument 1]**
+"spins faster when its radius is reduced" — definitive. "the same principle applies" — assertive, no hedging. "provides a radially inward force that accelerates the car tangentially" — stated as fact. Very assertive throughout.
+**Rating: 5**
+
+---
+
+**3. Debater A: [Response 1]**
+"The string does work because..." — stated as direct causal fact. "The fixed frictionless track exerts only a normal constraint force perpendicular to the car's velocity, so unlike the string it does no work" — definitive, logical structure. No hedging at all.
+**Rating: 5**
+
+---
+
+**4. Debater B: [Argument 2]**
+"Curvature changes continuously along the connecting arc" — stated as fact. "causing the direction of the constraint force to rotate" — causal, definitive. "This rotation means the force cannot remain perfectly perpendicular" — "cannot" is absolute. Strong, definitive language throughout.
+**Rating: 5**
+
+---
+
+**5. Debater A: [Response 2]**
+"The car's velocity is tangent to the track at every point" — definitive. "The constraint force is normal to the track, hence perpendicular to velocity" — logical and certain. "Perpendicularity is maintained even as curvature changes" — absolute claim. No hedging.
+**Rating: 5**
+
+---
+
+**6. Debater B: [Argument 3]**
+"must adjust in both magnitude and direction" — "must" signals certainty. "behaves differently on the connecting track" — stated as fact. Both claims are assertive, though somewhat general/abstract. No hedging.
+**Rating: 5**
+
+---
+
+**7. Debater A: [Response 3]**
+"The force adjusts direction to maintain perpendicularity" — definitive. "it rotates to stay normal as velocity rotates to stay tangent" — mechanistic certainty. "Centripetal force remains perpendicular to the velocity throughout, regardless of how its magnitude varies" — "remains...throughout...regardless" signals absolute confidence.
+**Rating: 5**
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+"The speed increases if we model the car as a point mass. It also increases if we model it as a rigid body." — Both sentences are flat declarative statements with no hedging. Extremely assertive.
+**Rating: 5**
+
+---
+
+**9. Debater A: [Argument 1]**
+"the rails' constraint force does no work, so kinetic energy (KE) is conserved and speed cannot increase" — logical, definitive. "There is simply nothing on a fixed frictionless track that can add energy to the car" — "simply nothing" reinforces absolute certainty. Very confident.
+**Rating: 5**
+
+---
+
+**10. Debater B: [Response 1]**
+"If the rails truly do no work" — "truly" is a mild qualifier, slightly conditional framing. "a point-mass car will not lose speed" — definitive. "Yet if kinetic energy is conserved while the rails do no work, a rigid body on a frictionless track does not slow down" — conditional "if" framing, but conclusion is stated firmly. Slight conditionality lowers confidence marginally.
+**Rating: 4**
+
+---
+
+**11. Debater A: [Argument 2]**
+"A rigid body has translational and rotational kinetic energy; a point mass has only translational" — stated as textbook fact. "On a tighter track, rotational kinetic energy increases at the expense of translational kinetic energy" — definitive causal claim. No hedging.
+**Rating: 5**
+
+---
+
+**12. Debater B: [Response 2]**
+"This holds only when the body is mechanically constrained to yaw with the track curvature...which has not been established" — conditional framing, pointing out what hasn't been established introduces some tentativeness. "Without that constraint, total KE stays translational and the speed does not fall" — definitive conditional conclusion. The "only when" and "has not been established" introduce qualification, but the underlying claims are stated assertively.
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3]**
+"Both axles are constrained to the rails, so the body's orientation is pinned by the chord between the two axle positions" — definitive, geometric. "On a curved section, this geometry causes the body to yaw as it advances" — causal, no hedging. Very assertive.
+**Rating: 5**
+
+---
+
+**14. Debater B: [Response 3]**
+"cannot roll without slipping on a curved track" — "cannot" is absolute. "The curvature differs at the front and rear contact points on the connecting track, with consequences for yaw and speed" — "differs" is definitive, though "consequences for yaw and speed" is somewhat vague without specifying direction/magnitude. Overall still highly assertive.
+**Rating: 4**
+
+---
+
+RATINGS:
+A | Opening | [[4]]
+B | Argument 1 | [[5]]
+A | Response 1 | [[5]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[5]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[5]]
+B | Opening | [[5]]
+A | Argument 1 | [[5]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[5]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[5]]
+B | Response 3 | [[4]]

@@ -1,0 +1,28 @@
+<debate initiator="Liz" questioner="Bob">
+  <speaker name="Liz" claim="0">B is larger. Filtering to “no odd before stopping” favors short runs, so 6 becomes much likelier than 1/3. Solving the conditioned chains gives A=30/11≈2.73 but B=3.</speaker>
+  <speaker name="Bob" question="0">Why not treat “all rolls even” as rerolling odds, so each roll is {2,4,6} uniform? Then p=1/3, so time to 2nd 6 has mean r/p=6<ref id="negbin"/> (and 1/p for first success<ref id="gfg_geom"/>). What fails?</speaker>
+  <speaker name="Liz" claim="1">Rerolling odds ignores length-bias. For A set h0=P(66 before odd), h1=P(66 before odd|last=6). Doob transform: P*(6|0)=(1/6·h1)/h0<ref id="doobh"/>. Solve h0=h1/6+h0/3, h1=1/6+h0/3 ⇒ h0=1/22,h1=2/11 ⇒ P*(6|0)=2/3.</speaker>
+  <speaker name="Bob" question="1">Ok—how do you turn that into A=30/11? What state model and recursions produce the 30/11 number?</speaker>
+  <speaker name="Liz" claim="2">Given kept: 0→1 w.p.2/3, 0→0 w.p.1/3; 1→succ 11/12, 1→0 1/12. First-step equations for absorption times<ref id="absmarkov"/>: E0=1+E0/3+2E1/3, E1=1+E0/12 ⇒ A=30/11.</speaker>
+  <speaker name="Bob" question="2">But B only needs two 6s anywhere; doesn’t that make B ≤ A? Where does B gain delay if conditioning already boosts 6s?</speaker>
+  <speaker name="Liz" claim="3">B tracks count, not streak. For “2 sixes before odd”, the conditioned chance of 6 is 2/3 whether you’ve seen 0 or 1 six. So E1=1+E1/3=3/2 and E0=1+E0/3+2E1/3=3 ⇒ B=3>30/11.</speaker>
+</debate>
+
+<debate initiator="Bob" questioner="Liz">
+  <speaker name="Bob" claim="0">A is larger. Under the even-only view, each roll is {2,4,6} i.i.d. so p=1/3 for 6. Then E[T_B]=2/p=6<ref id="negbin"/> and E[T_A]=(1+p)/p^2=12, so A>B.</speaker>
+  <speaker name="Liz" question="0">Why is P(6 on roll1 | kept)=1/3? By conditional probability<ref id="condprob"/>, doesn’t it require P(kept|first=6)=P(kept|first=2)?</speaker>
+  <speaker name="Bob" claim="1">Conditioning can raise P(kept|first=6), so p can exceed 1/3. But for any i.i.d. Bernoulli(p), E(2-in-a-row)=(1+p)/p^2 and E(2nd success)=2/p; since (1+p)/p^2>2/p, A stays larger.</speaker>
+  <speaker name="Liz" question="1">Your comparison assumes i.i.d. p. Yet conditioning makes p state-dependent: after a 6, the next roll is 6 with prob 11/12. If p varies by state, why does your i.i.d. inequality apply?</speaker>
+  <speaker name="Bob" claim="2">State-dependent boosting after a 6 helps A more: it directly increases the chance of completing the 66 streak immediately. B just needs another 6 sometime, so this extra “after-6” boost can’t push B above A.</speaker>
+  <speaker name="Liz" question="2">Then point to the concrete flaw. If we stop at the first odd and condition on “success before odd”, we get a time-homogeneous conditioned chain with A=30/11 and B=3. Which equation in that setup fails?</speaker>
+  <speaker name="Bob" claim="3">The flaw is the reduction. The kept event depends on the whole future; knowing only “last=6” or “#6s” need not determine the correct conditioned transition. Without proving sufficiency, those 2-state recursions can’t justify 30/11 and 3; A>B.</speaker>
+</debate>
+
+<refs>
+  <cite id="condprob" quote="If the event of interest is A and the event B is known or assumed to have occurred, &quot;the conditional probability of A given B&quot; ... is usually written as P(A|B) ... understood as ... the ratio of the probabilities of both events happening to the &quot;given&quot; one happening:" url="https://en.wikipedia.org/wiki/Conditional_probability"/>
+  <cite id="negbin" quote="The expected total number of trials needed to see r successes is r/p." url="https://en.wikipedia.org/wiki/Negative_binomial_distribution"/>
+  <cite id="gfg_consec" quote="Input: n = 2 Output: 6 Explanation: The expected number of flips requires is 6." url="https://www.geeksforgeeks.org/dsa/expected-number-of-trials-to-get-n-consecutive-heads/"/>
+  <cite id="gfg_geom" quote="If probability of success is p in every trial, then expected number of trials until success is 1/p" url="https://www.geeksforgeeks.org/dsa/expected-number-of-trials-before-success/"/>
+  <cite id="doobh" quote="Define a matrix \\check P by \\check P(x,y) = P(x,y) h(y) / h(x) ... set h(x) = \\mathbf P_x(\\tau_A &lt; \\tau_B) ... for x\\notin A\\cup B \\check P(x,y) = \\mathbf P_x[ X_1 = y | \\tau_A &lt; \\tau_B]." url="https://bellecp.github.io/doob_h.html"/>
+  <cite id="absmarkov" quote="It can be proven that N := \\sum_{k=0}^{\\infty} Q^{k} = (I_{t}-Q)^{-1} ... The expected number of steps before being absorbed ... is given by the i th entry of the vector \\mathbf{t} := N \\mathbf{1}." url="https://en.wikipedia.org/wiki/Absorbing_Markov_chain"/>
+</refs>

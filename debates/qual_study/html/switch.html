@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Debater Credence Tool</title>
+<script>
+  MathJax = {
+    tex: { inlineMath: [['\\(','\\)'],['$','$']], displayMath: [['\\[','\\]'],['$$','$$']] },
+    options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code'] }
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+<style>
+    :root {
+        --color-left: #FFF6CC;
+        --color-right: #F2E8FF;
+        --primary-blue: #007bff;
+        --timer-bg: #343a40;
+        --timer-text: #fff;
+        --clr-accent: #3d5a80;
+    }
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        padding-bottom: 60px;
+        line-height: 1.6;
+    }
+    .container {
+        background: white; padding: 30px; border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .intro-section { margin-bottom: 30px; }
+    .intro-section h3 {
+        margin-top: 25px; margin-bottom: 15px; color: #2c3e50;
+        border-bottom: 2px solid #eee; padding-bottom: 10px;
+    }
+    .intro-section h3:first-child { margin-top: 0; }
+    .definition-item { margin-bottom: 12px; }
+    .context-text {
+        font-style: italic; margin-bottom: 20px; color: #555;
+        background-color: #f8f9fa; padding: 10px;
+        border-left: 4px solid #6c757d; border-radius: 4px;
+    }
+    .image-container { text-align: center; margin-bottom: 20px; }
+    .image-container img {
+        max-width: 100%; height: auto;
+        border: 1px solid #ddd; border-radius: 4px;
+    }
+    .figure-wrapper {
+        border: 1px solid #ddd; border-radius: 4px; padding: 15px;
+        margin-bottom: 20px; background-color: #fff; text-align: left;
+    }
+    .figure-wrapper img {
+        border: none !important; margin-bottom: 5px;
+        display: block; margin-left: auto; margin-right: auto;
+    }
+    .figure-caption {
+        font-style: italic; color: #666; font-size: 0.9rem;
+        margin-top: 5px; text-align: center;
+    }
+    label {
+        display: block; font-weight: 600;
+        margin-bottom: 10px; color: #2c3e50;
+    }
+    textarea:focus {
+        outline: none; border-color: var(--primary-blue);
+        box-shadow: 0 0 0 3px rgba(0,123,255,0.1);
+    }
+    .btn-copy:hover { background-color: #0056b3; }
+    /* Source link styling */
+    .source-link {
+        color: var(--clr-accent); text-decoration: none;
+        border-bottom: 1px dashed var(--clr-accent);
+        font-weight: 600;
+    }
+    .source-link:hover {
+        border-bottom-style: solid; text-decoration: none;
+    }
+    .missing-source {
+        background-color: #fdd; color: #900; font-weight: 600;
+        padding: 0 3px; border-radius: 3px;
+    }
+    /* Definition link + tooltip */
+    .def-link {
+        color: #5d4037; text-decoration: none;
+        border-bottom: 1px dotted #5d4037;
+        position: relative; cursor: help;
+    }
+    .def-link:hover {
+        color: #3e2723; border-bottom-style: solid;
+    }
+    .def-tooltip {
+        position: absolute;
+        width: max-content; max-width: 380px;
+        background: #2c2c2c; color: #f5f5f5;
+        font-size: .82rem; font-weight: 400;
+        line-height: 1.5; padding: .6rem .85rem;
+        border-radius: 4px;
+        box-shadow: 0 4px 12px rgba(0,0,0,.08);
+        z-index: 1000; pointer-events: none;
+        white-space: normal;
+    }
+    .def-tooltip-arrow {
+        position: absolute;
+        width: 0; height: 0;
+        border: 6px solid transparent;
+        border-top-color: #2c2c2c;
+        z-index: 1001; pointer-events: none;
+    }
+    /* Source entry styling */
+    .source-entry {
+        padding: 0.7rem 1rem; border-bottom: 1px solid #e0ddd8;
+        font-size: 0.95rem; line-height: 1.55;
+    }
+    .source-entry:last-child { border-bottom: none; }
+    .source-entry strong { color: #1a1a1a; }
+    .source-url {
+        color: var(--clr-accent); word-break: break-all;
+        font-size: 0.85rem; display: block; margin-top: 2px;
+    }
+    .source-quote {
+        color: #6b6b6b; font-style: italic;
+    }
+    /* Debate table */
+    .debate-table-card {
+        background: rgba(255,255,255,0.04);
+        border: 1px solid rgba(0,0,0,0.10);
+        border-radius: 18px; overflow: visible; margin-bottom: 20px;
+    }
+    .debate-table-card table {
+        width: 100%; table-layout: fixed;
+        border-collapse: separate; border-spacing: 0;
+    }
+    .debate-table-card td {
+        vertical-align: top; padding: 14px 16px;
+        font-size: 14.5px;
+        border-bottom: 1px solid rgba(0,0,0,0.08);
+        overflow-wrap: anywhere;
+    }
+    .debate-table-card tr:last-child td { border-bottom: none; }
+    .debate-table-card tr:first-child td:first-child { border-top-left-radius: 18px; }
+    .debate-table-card tr:first-child td:last-child { border-top-right-radius: 18px; }
+    .debate-table-card tr:last-child td:first-child { border-bottom-left-radius: 18px; }
+    .debate-table-card tr:last-child td:last-child { border-bottom-right-radius: 18px; }
+    td.speaker-a {
+        background: #fff6cc; color: #2a2000;
+        border-right: 1px solid rgba(0,0,0,0.06);
+    }
+    td.speaker-b { background: #f2e8ff; color: #1f0f33; }
+    td.speaker-a strong, td.speaker-b strong { font-weight: 750; }
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="intro-section">
+<h3>Key Question</h3>
+<div class="definition-item">A train car is freely coasting around a large circular track. It is then switched to a smaller circular track. How does its speed change? Assume no friction.</div>
+<div class="image-container"><img src="../images/switch.png" alt="Question figure" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px;"/></div>
+<h3>Definitions</h3>
+<div class="definition-item">Angular velocity: The rate at which an object rotates about an axis, measured in radians per second (rad/s) and denoted by ω.</div>
+<div class="definition-item">Velocity relation: The equation ω = v/R, which relates the tangential (linear) speed v of a point on a rotating body to its angular velocity ω and the radius R of its circular path.</div>
+<div class="definition-item">Kinetic energy (KE): The energy an object possesses due to its motion, equal to ½mv² for an object of mass m moving at speed v.</div>
+<h3>Sources</h3>
+<div class="source-entry" id="src-work_energy_theorem"><strong>OpenStax University Physics</strong> <em>[URL blinded from debate judges.]</em><span class="source-quote"> &mdash; &ldquo;Let's start by looking at the net work done on a particle as it moves over an infinitesimal displacement, which is the dot product of the net force and the displacement: $dW_{\text{net}} = \vec{F}_{\text{net}} \cdot d\vec{r}$.&rdquo;</span></div>
+<div class="source-entry" id="src-normal_force"><strong>The Organic Chemistry Tutor</strong> <em>[URL blinded from debate judges.]</em><span class="source-quote"> &mdash; &ldquo;[1:54] ...the normal force is the sum of the centripetal force and the weight force mg. Now I need to give you the radius of curvature. So let's say it's two meters for A and B. With  that information, go ahead and calculate the normal force.&rdquo;</span></div>
+
+</div>
+<hr/>
+<div class="context-text">
+    Exactly one of these debater's answers matches the answer of the expert who wrote the Key Question.
+</div>
+<div class="debate-table-card">
+<table aria-label="Debate table">
+<colgroup><col/><col/></colgroup>
+<tbody>
+<tr>
+<td class="speaker-a"><strong>Debater A: [Opening]</strong> The rails only exert forces perpendicular to the car's velocity, so they do no work on a point mass model; <a class="def-link" data-tooltip="Kinetic energy (KE): The energy an object possesses due to its motion, equal to ½mv² for an object of mass m moving at speed v.">kinetic energy</a> stays constant, so the speed stays the same. A small slowdown might be possible if the question author wants us to consider the car a rigid body rather than a point mass.</td>
+<td class="speaker-b"><strong>Debater B: [Opening]</strong> It will speed up. Picture someone spinning a ball on a string; the ball spins faster as they pull the string in. It's not a perfect analogy because the speedup will vary based on the dimensions of the train car, but it holds if the train car is assumed to be a point mass.</td>
+</tr>
+<tr>
+<td class="speaker-b"><strong>Debater B: [Question 1]</strong> It doesn't seem right to say that the rails only exert forces perpendicular to the car's velocity. Doesn't the instantaneous direction the train travels vary constantly while the train is transitioning tracks?</td>
+<td class="speaker-a"><strong>Debater A: [Question 1]</strong> It speeds up on a string only because pulling the string inward moves the ball inward while the tension pulls inward too, so there is a force component in the ball's direction of travel. On a frictionless fixed track, the force is sideways; where does the energy needed to increase speed come from?</td>
+</tr>
+<tr>
+<td class="speaker-a"><strong>Debater A: [Answer 1]</strong> The direction of velocity changes continuously along the transition curve. In this case the car exactly follows the path of the rail and so the direction of the applied force is always perfectly perpendicular to the velocity, as long as the track is smooth and frictionless.</td>
+<td class="speaker-b"><strong>Debater B: [Answer 1]</strong> The curvature of the connecting track changes as it transitions from approximating the curvature of the outer track to that of the inner track. So the force is not perpendicular to the direction of travel. The train gains speed while on the connecting path, which it maintains in the inner track.</td>
+</tr>
+<tr>
+<td class="speaker-b"><strong>Debater B: [Question 2]</strong> Does the direction of the applied force, or the car's velocity, differ from the front to the rear of the car?</td>
+<td class="speaker-a"><strong>Debater A: [Question 2]</strong> On a frictionless fixed track, the car's velocity is always tangent to the path, and the track's contact force is perpendicular to that velocity at every instant. Can you point to any point where the track's contact force isn't perpendicular to the car's instantaneous velocity at the contact point?</td>
+</tr>
+<tr>
+<td class="speaker-a"><strong>Debater A: [Answer 2]</strong> For a point mass model, no. In a rigid body model, the local track tangent differs from front to rear, so front/rear wheels have slightly different velocities, and each contact force remains perpendicular to its contact point's instantaneous velocity, so forces still do no work.</td>
+<td class="speaker-b"><strong>Debater B: [Answer 2]</strong> This is true of *every* point on the connecting track. The difference from perpendicular at any single point is infinitesimally small, but they add up when you integrate over the length of the connecting track.</td>
+</tr>
+<tr>
+<td class="speaker-b"><strong>Debater B: [Question 3]</strong> If the local track tangent differs from front to rear, wouldn't the resulting imbalance create torque that decreases rotational <a class="def-link" data-tooltip="Kinetic energy (KE): The energy an object possesses due to its motion, equal to ½mv² for an object of mass m moving at speed v.">kinetic energy</a>, thereby speeding the car up?</td>
+<td class="speaker-a"><strong>Debater A: [Question 3]</strong> Infinitesimal work is defined locally: dW = F · dr (<a class="source-link" href="#src-work_energy_theorem">OpenStax University Physics</a>). On a frictionless track dr is tangent and the contact force is normal, so F · dr = 0 at every point; integrating zeroes stays zero. What nonzero F_tangent are you integrating?</td>
+</tr>
+<tr>
+<td class="speaker-a"><strong>Debater A: [Answer 3]</strong> No. On a rigid body model, because of the <a class="def-link" data-tooltip="Velocity relation: The equation ω = v/R, which relates the tangential (linear) speed v of a point on a rotating body to its angular velocity ω and the radius R of its circular path.">velocity relation</a>, tighter curvature demands higher ω. Total <a class="def-link" data-tooltip="Kinetic energy (KE): The energy an object possesses due to its motion, equal to ½mv² for an object of mass m moving at speed v.">KE</a> is conserved, so increased rotational KE must come from translational KE, slightly reducing speed.</td>
+<td class="speaker-b"><strong>Debater B: [Answer 3]</strong> Curvature changes, so the contact force can't stay perpendicular; you can't just ignore the amount of curvature in such problems (see <a class="source-link" href="#src-normal_force">The Organic Chemistry Tutor</a> for example). In this case dW = F · dr becomes positive.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<script>
+(function() {
+    var tip = null, arrow = null;
+    var table = document.querySelector('.debate-table-card');
+    document.querySelectorAll('.def-link[data-tooltip]').forEach(function(link) {
+        link.addEventListener('mouseenter', function() {
+            if (tip) tip.remove();
+            if (arrow) arrow.remove();
+            tip = document.createElement('div');
+            tip.className = 'def-tooltip';
+            tip.textContent = link.getAttribute('data-tooltip');
+            document.body.appendChild(tip);
+            arrow = document.createElement('div');
+            arrow.className = 'def-tooltip-arrow';
+            document.body.appendChild(arrow);
+
+            var lr = link.getBoundingClientRect();
+            var tr = table ? table.getBoundingClientRect()
+                           : { left: 0, right: document.documentElement.clientWidth };
+            var tipW = tip.offsetWidth;
+            var tipH = tip.offsetHeight;
+
+            var top = lr.top + window.scrollY - tipH - 10;
+            tip.style.top = top + 'px';
+
+            var idealLeft = lr.left + window.scrollX + lr.width / 2 - tipW / 2;
+            var minLeft = tr.left + window.scrollX;
+            var maxLeft = tr.right + window.scrollX - tipW;
+            var left = Math.max(minLeft, Math.min(maxLeft, idealLeft));
+            tip.style.left = left + 'px';
+
+            var arrowLeft = lr.left + window.scrollX + lr.width / 2 - 6;
+            arrow.style.top = (lr.top + window.scrollY - 12) + 'px';
+            arrow.style.left = arrowLeft + 'px';
+        });
+        link.addEventListener('mouseleave', function() {
+            if (tip) { tip.remove(); tip = null; }
+            if (arrow) { arrow.remove(); arrow = null; }
+        });
+    });
+})();
+</script>
+</body>
+</html>

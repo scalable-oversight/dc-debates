@@ -1,0 +1,103 @@
+I'll analyze each turn for technical jargon, identifying specialized terms and rating the overall density.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"point mass" – physics jargon for an idealized object with no spatial extent. "rigid body" – physics jargon for an idealized solid. These are specialized physics terms, but the sentence is short and the overall meaning is fairly accessible even without knowing the precise definitions.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+"radius" – mildly technical but widely understood. "radially inward" – specialized directional term from physics. "tangentially" – specialized term. "transitions to a tighter radius" – somewhat technical phrasing. The ball-on-a-string analogy is accessible, but "radially inward force that accelerates the car tangentially" is specialized language.
+**Rating: 3**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+"radial component" – physics jargon. "tension" – used in a technical physics sense. "normal constraint force" – specialized term combining "normal" (perpendicular to surface) and "constraint force." "perpendicular to the car's velocity" – somewhat technical. Multiple physics terms appear together.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+"curvature" – used in a technical geometric/physics sense. "constraint force" – specialized term. "perpendicular to the velocity" – technical phrasing. The claims are relatively short and the concepts are expressed without heavy notation, but the terms are specialized.
+**Rating: 3**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+"tangent to the track" – geometric/physics term. "constraint force" – specialized. "normal to the track" – technical usage of "normal" meaning perpendicular. "perpendicular to velocity" – technical. "curvature changes" – technical. Multiple specialized terms, but no formulas or acronyms.
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+"transition arc" – technical geometry. "normal force" – physics jargon. "curvature tightens" – technical. "centripetal acceleration" – specialized physics term. "local radius of curvature" – technical geometric term. Several specialized physics terms, but still readable with some domain knowledge.
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+"90 degrees" – widely understood. The windshield/door analogy is accessible everyday language. Very little technical jargon here; the argument is made using an intuitive analogy.
+**Rating: 1**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"point mass" – physics jargon. "rigid body" – physics jargon. Otherwise simple language. Two technical terms, both brief.
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+"frictionless track" – somewhat technical but widely understood in context. "constraint force" – specialized. "kinetic energy (KE)" – technical physics term, but very commonly known. "conserved" – used in a physics sense (energy conservation). Multiple technical terms but most are fairly familiar.
+**Rating: 3**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+"point-mass car" – specialized. "kinetic energy" – technical but familiar. "frictionless track" – accessible. "rigid body model" – specialized. The reasoning is logical and the terms are used in recognizable ways.
+**Rating: 2**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+"rigid body" – specialized. "translational kinetic energy" – technical physics term. "rotational kinetic energy" – technical physics term. "yaw" – specialized mechanics/engineering term. "curvature" – technical. "rotational energy increases at the expense of translational energy" – physics jargon. Heavy use of mechanics terminology.
+**Rating: 4**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+"rail forces" – somewhat technical. "positive work" – physics jargon (work in the thermodynamics/mechanics sense). "rotational KE" – technical abbreviation. "translational KE" – technical. "ω = v/R" – mathematical formula with Greek letter. Multiple technical terms and a formula.
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+"ω = v/R" – mathematical formula with Greek letter omega. "energy conservation" – technical physics principle. "v₂ > v₁·R₂/R₁" – algebraic formula with subscripts. "m, I, R₁>R₂" – symbolic notation (I = moment of inertia implied). "v₂/v₁ > R₂/R₁" – ratio notation. Heavy use of mathematical notation and symbols.
+**Rating: 4**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+"point-mass formula" – specialized. "ω = v/R" – formula with Greek letter. "point mass moving on a circle of radius R" – technical. "center of mass" – physics jargon. "rail's radius" – technical. Multiple specialized terms plus a formula.
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[1]]
+B | Opening | [[2]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[2]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[3]]

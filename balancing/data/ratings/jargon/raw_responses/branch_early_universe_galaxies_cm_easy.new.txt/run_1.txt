@@ -1,0 +1,132 @@
+I'll analyze each turn for technical jargon, then provide ratings.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The brightness of early universe galaxies is weak evidence towards falsifying the existence of dark matter."
+- "early universe galaxies": contextually clear
+- "dark matter": defined in the debate, but still a specialist term
+- "falsifying": philosophical/scientific term, somewhat accessible
+Overall: One or two specialist terms, meaning largely accessible.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "stellar mass," "observed brightness" — "stellar mass" is a mild technical term but largely intuitive.
+Claim 2: "MOND-based models," "Lambda-CDM," "high-redshift galaxies" — MOND, Lambda-CDM are acronyms defined in the debate but still specialist; "high-redshift" is a technical astrophysics term that a layperson would not know.
+Overall: Several technical terms across both claims.
+**Rating: 3**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: "stellar mass," "top-heavy IMF" — IMF is an acronym (defined but specialized), "top-heavy" in this context is jargon.
+Claim 2: "top-heavy IMF," "Lambda-CDM" — same specialist terms.
+Overall: Multiple technical terms, requires domain knowledge.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: "standard IMF," "empirical data," "Milky Way" — IMF is jargon; "Milky Way" and "neighbouring galaxies" are accessible.
+Claim 2: "IMF," "population of stars" — IMF again, rest is accessible.
+Overall: Moderate; IMF is the main jargon term, repeated.
+**Rating: 3**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: "empirically calculate the IMF of early universe galaxies" — IMF is jargon; otherwise accessible.
+Claim 2: "metallicity," "IMF" implicitly, "early universe galaxies," "formation of more massive stars" — "metallicity" is a technical astronomy term (refers to abundance of elements heavier than helium, not intuitive to layperson); "lower metallicity" would be opaque without domain knowledge.
+Overall: "Metallicity" adds meaningful jargon beyond IMF.
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "standard IMF," "z~3-4" (redshift notation), "solid residuals" — "z~3-4" is highly technical notation; "residuals" in this context is a technical term.
+Claim 2: "metallicity," "redshift," "top-heavy IMF" — multiple technical terms.
+Overall: "z~3-4" notation and "residuals" alongside metallicity and IMF make this heavily jargon-laden.
+**Rating: 4**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: "metallicity," "early universe galaxies," "redshifts of 8-16" — "redshifts of 8-16" is technical notation; metallicity is jargon.
+Claim 2: "standard IMF," "early universe galaxies" — IMF is jargon.
+Overall: Several technical terms; redshift values and metallicity are non-trivial for laypersons.
+**Rating: 3**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The brightness of early universe galaxies is strong evidence towards falsifying the existence of dark matter."
+- Same structure as Debater A's opening; "dark matter" and "falsifying" are the main specialist terms.
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "MOND-based models," "high-redshift galaxy masses," "Lambda-CDM" — all technical.
+Claim 2: "Lambda-CDM," "cosmological observations" — technical but somewhat accessible.
+Overall: Multiple acronyms and technical terms.
+**Rating: 3**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "Lambda-CDM," "dark matter," "dark energy," "negative pressure" — "negative pressure" is a physics concept that would confuse laypersons.
+Claim 2: "MOND-based models," "cosmological phenomena" — technical terms.
+Overall: Several technical terms; "negative pressure" is notably opaque.
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "MOND," "gravitational lensing," "ad hoc fixes" — "gravitational lensing" is a technical astrophysics term; "ad hoc" is Latin but widely understood.
+Claim 2: "dark matter," "theory of general relativity," "astrophysics" — "general relativity" is a named theory, accessible but technical.
+Overall: Moderate jargon; gravitational lensing and general relativity are the main technical terms.
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "Relativistic extensions of MOND," "TeVeS," "gravitational lensing effects," "dark matter" — "TeVeS" is a highly specialized acronym (Tensor-Vector-Scalar gravity); "relativistic extensions" is technical.
+Claim 2: "MOND/TeVeS," "CASTLES sample," "gravitational lensing," "dark matter" — "CASTLES" is a specific observational dataset acronym; "lenses" in gravitational lensing context is technical.
+Overall: TeVeS and CASTLES are highly specialized terms that would be opaque to non-specialists; this is heavily jargon-laden.
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "TeVeS," "gravitational lensing" — specialized terms.
+Claim 2: "Bullet Cluster lensing," "TeVeS," "lens systems," "clusters" — "Bullet Cluster" is a specific astronomical object; "lensing" in this context is technical.
+Overall: Multiple specialized terms including TeVeS and Bullet Cluster.
+**Rating: 4**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "TeVeS," "2 eV neutrinos," "Bullet Cluster lensing," "dark matter" — "2 eV neutrinos" involves particle physics units (eV = electron volts), highly technical; TeVeS is specialized.
+Claim 2: "H. S. Z. et al.," "many-parameter interpolation functions," "single parameters" — "interpolation functions" is a technical mathematical/physics term.
+Overall: "2 eV neutrinos" with energy units and interpolation functions push this to heavy jargon.
+**Rating: 4**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[4]]

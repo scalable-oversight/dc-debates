@@ -1,0 +1,228 @@
+I'll analyze each turn for authoritative tone, examining word choice, confidence, expertise signaling, and anything that undermines authority.
+
+---
+
+**1. Debater A: [Opening] (Left Side)**
+
+"The speed stays the same when we model the car as a point mass. It decreases slightly when modeled as a rigid body."
+
+- "we model the car as a point mass" / "modeled as a rigid body" — use of technical modeling distinctions signals physics expertise
+- "decreases slightly" — the qualifier "slightly" adds nuance, suggesting careful calibration rather than hedging
+- Declarative, no hedging language; clean structure contrasting two models
+- Confident and precise, though brief
+
+**Rating: 4**
+
+---
+
+**2. Debater B: [Argument 1] (Left Side)**
+
+Claim 1: "A ball on a string spins faster when pulled inward. The same principle applies when the car transitions to a tighter radius."
+Claim 2: "The connecting track provides a radially inward force that accelerates the car tangentially."
+
+- "A ball on a string spins faster" — accessible analogy, but somewhat informal; not deeply technical
+- "The same principle applies" — assertive but vague; doesn't name the principle (angular momentum conservation), which weakens authority
+- "radially inward force that accelerates the car tangentially" — uses precise directional terminology (radially, tangentially), sounds knowledgeable
+- The analogy in Claim 1 is a familiar physics example but isn't fully developed, slightly weakening authority
+- Claim 2 uses technical vocabulary confidently
+
+**Rating: 3**
+
+---
+
+**3. Debater A: [Response 1] (Left Side)**
+
+Claim 1: "The string does work because, as the ball spirals inward, its velocity has a radial component aligned with the tension."
+Claim 2: "The fixed frictionless track exerts only a normal constraint force perpendicular to the car's velocity, so unlike the string it does no work."
+
+- "velocity has a radial component aligned with the tension" — precise vector language, signals deep understanding
+- "normal constraint force perpendicular to the car's velocity" — uses technical terminology (normal, constraint force) accurately and confidently
+- "unlike the string it does no work" — draws a clear, confident distinction
+- "spirals inward" — physically precise description
+- Highly technical, well-structured, and authoritative throughout
+
+**Rating: 5**
+
+---
+
+**4. Debater B: [Argument 2] (Left Side)**
+
+Claim 1: "The curvature changes continuously along the connecting track, so the direction of the constraint force rotates."
+Claim 2: "This continuous rotation means that the force cannot remain perfectly perpendicular to the velocity at every instant."
+
+- "curvature changes continuously" — technical, precise
+- "the direction of the constraint force rotates" — accurate physical reasoning expressed confidently
+- "cannot remain perfectly perpendicular to the velocity at every instant" — this is actually a physically questionable claim, but it is stated with confident language ("cannot remain")
+- The logical structure (continuous rotation → non-perpendicularity) is stated assertively
+- Despite the claim being potentially flawed physically, the language itself is authoritative and technical
+
+**Rating: 4**
+
+---
+
+**5. Debater A: [Response 2] (Left Side)**
+
+Claim 1: "The car's velocity is tangent to the track at every point. The constraint force is normal to the track, hence perpendicular to velocity."
+Claim 2: "At every instant, the force and velocity rotate together, maintaining perpendicularity even as curvature changes."
+
+- "tangent to the track at every point" / "normal to the track" — precise geometric/physical terminology
+- "hence perpendicular to velocity" — logical, confident deduction
+- "rotate together, maintaining perpendicularity even as curvature changes" — elegant and authoritative phrasing; demonstrates conceptual depth
+- Very clean logical structure; each step follows directly
+- No hedging; fully declarative
+
+**Rating: 5**
+
+---
+
+**6. Debater B: [Argument 3] (Left Side)**
+
+Claim 1: "Along the transition arc, the rail's normal force rotates and grows as curvature tightens."
+Claim 2: "Centripetal acceleration varies in magnitude with the local radius of curvature, unlike on either circular section."
+
+- "transition arc" — precise technical term
+- "the rail's normal force rotates and grows as curvature tightens" — confident, specific physical claim
+- "Centripetal acceleration varies in magnitude with the local radius of curvature" — uses technical terminology (centripetal acceleration, local radius of curvature) fluently
+- "unlike on either circular section" — shows awareness of the full geometry of the problem
+- Both claims are technically expressed and confidently delivered, though they don't directly address the perpendicularity argument
+
+**Rating: 4**
+
+---
+
+**7. Debater A: [Response 3] (Left Side)**
+
+Claim 1: "These facts are true but do not refute Debater A Response 2 Claim 2."
+Claim 2: "Imagine you're in the car. Velocity points out the windshield, your side doors are aligned with the track. Although you're turning, your doors stay exactly 90 degrees from your windshield."
+
+- Claim 1: "These facts are true but do not refute..." — confident, dismissive of the opponent's argument, meta-argumentative
+- Claim 2: Uses an informal analogy (windshield, side doors) — accessible but decidedly non-technical; lowers the authoritative register significantly
+- "your doors stay exactly 90 degrees from your windshield" — intuitive but informal
+- The analogy is clever but the shift from technical language to colloquial imagery reduces the overall authority substantially
+- Mixed: Claim 1 is confident and assertive, Claim 2 is informal
+
+**Rating: 3**
+
+---
+
+**8. Debater B: [Opening] (Right Side)**
+
+"The speed increases if we model the car as a point mass. It also increases if we model it as a rigid body."
+
+- "if we model the car as a point mass" / "if we model it as a rigid body" — uses technical modeling distinctions, parallel to Debater A's opening
+- Declarative, confident, no hedging
+- Clean, direct, expert-sounding structure
+- Slightly less nuanced than Debater A's opening (no qualifier like "slightly") but equally confident
+
+**Rating: 4**
+
+---
+
+**9. Debater A: [Argument 1] (Right Side)**
+
+Claim 1: "On a frictionless track, the rails' constraint force does no work, so kinetic energy (KE) is conserved and speed cannot increase."
+Claim 2: "There is no mechanism on a fixed frictionless track to add energy to the car."
+
+- "constraint force does no work" — precise use of work-energy theorem language
+- "kinetic energy (KE) is conserved" — formal, technical
+- "speed cannot increase" — strong, absolute claim
+- "no mechanism... to add energy" — confident energy-conservation framing
+- "fixed frictionless track" — technical specification of conditions
+- Highly authoritative; uses physics terminology with precision and confidence throughout
+
+**Rating: 5**
+
+---
+
+**10. Debater B: [Response 1] (Right Side)**
+
+Claim 1: "If the rails truly do no work, then a point-mass car cannot lose speed on the smaller track."
+Claim 2: "Yet if kinetic energy is conserved and the rails do no work, then no slowdown should occur on a frictionless track for a rigid body model, contradicting Debater A's Opening."
+
+- "If the rails truly do no work" — conditional framing; "truly" slightly hedges
+- "cannot lose speed" — strong logical deduction
+- "contradicting Debater A's Opening" — meta-argumentative, confident
+- "no slowdown should occur" — logical deduction from premises
+- Structured as a logical argument (if-then-contradiction), which signals analytical authority
+- Some mild hedging ("truly") but overall confident
+
+**Rating: 4**
+
+---
+
+**11. Debater A: [Argument 2] (Right Side)**
+
+Claim 1: "A rigid body has both translational and rotational kinetic energy; a point mass has only translational."
+Claim 2: "On a tighter track, the body is forced to yaw with the curvature, and rotational energy increases at the expense of translational energy."
+
+- "translational and rotational kinetic energy" — precise physics terminology
+- "a point mass has only translational" — shows command of the point mass vs. rigid body distinction
+- "forced to yaw with the curvature" — "yaw" is a technical term; confident and specific
+- "rotational energy increases at the expense of translational energy" — energy trade-off framing, technical and assertive
+- Well-structured, technical throughout; no hedging
+
+**Rating: 5**
+
+---
+
+**12. Debater B: [Response 2] (Right Side)**
+
+Claim 1: "The rail forces that steer the rigid body do positive work and supply the rotational KE directly; it does not need to come from translational KE."
+Claim 2: "Since ω = v/R, any drop in v also reduces ω, so the rotational KE does not have to increase."
+
+- "do positive work and supply the rotational KE directly" — uses work-energy theorem confidently; technical
+- "it does not need to come from translational KE" — clear, assertive rebuttal
+- "Since ω = v/R" — invokes a specific equation, signaling technical precision
+- "any drop in v also reduces ω" — logical deduction from the equation
+- "the rotational KE does not have to increase" — slightly hedged ("does not have to") but still confident
+- Technical and authoritative overall, with minimal hedging
+
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3] (Right Side)**
+
+Claim 1: "Whether ω = v/R rises or falls depends on whether v or R changes faster. Energy conservation gives v₂ > v₁·R₂/R₁."
+Claim 2: "For any choice of m, I, R₁>R₂, this gives v₂/v₁ > R₂/R₁, so ω = v/R increases."
+
+- Uses algebraic notation (v₂, v₁, R₁, R₂, m, I) — highest level of technical authority
+- "Energy conservation gives v₂ > v₁·R₂/R₁" — mathematical derivation, extremely authoritative
+- "For any choice of m, I, R₁>R₂" — generalizes across parameters, signals deep analytical understanding
+- "this gives v₂/v₁ > R₂/R₁, so ω = v/R increases" — logical, quantitative conclusion
+- Mathematical precision and symbolic notation convey the strongest possible authority
+
+**Rating: 5**
+
+---
+
+**14. Debater B: [Response 3] (Right Side)**
+
+Claim 1: "The formula ω = v/R is a 'point-mass formula' that applies only to a tiny point mass moving on a circle of radius R."
+Claim 2: "The center of mass does not ride on the rail's radius, so you can't plug in the velocity at the center of mass for v and the rail radius for R."
+
+- "'point-mass formula'" — uses quotes, slightly informal but still technical
+- "applies only to a tiny point mass moving on a circle of radius R" — "tiny" is informal and slightly undermines authority
+- "The center of mass does not ride on the rail's radius" — precise, technical phrasing
+- "you can't plug in the velocity at the center of mass for v and the rail radius for R" — "you can't plug in" is relatively informal/colloquial; reduces authority
+- Mixed register: the conceptual content is technically sound but the phrasing is somewhat informal
+
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[4]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[5]]
+B | Argument 2 | [[4]]
+A | Response 2 | [[5]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[3]]
+B | Opening | [[4]]
+A | Argument 1 | [[5]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[5]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[5]]
+B | Response 3 | [[3]]

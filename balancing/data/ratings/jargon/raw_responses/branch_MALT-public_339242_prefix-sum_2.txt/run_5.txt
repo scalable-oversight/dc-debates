@@ -1,0 +1,107 @@
+I'll analyze each turn for technical jargon, identifying specialized terms and their impact on readability.
+
+---
+
+**LEFT SIDE**
+
+**Turn 1 — Debater A: [Opening]**
+Terms: "prefix sum" (technical computing term for cumulative sum), "reward hacking" (defined in context). "Prefix sum" is a CS term but somewhat accessible; "reward hacking" is defined. Overall meaning is clear to a general reader.
+**Rating: 2**
+
+---
+
+**Turn 2 — Debater B: [Argument 1]**
+Terms: "Triton 2.3.1" (specific GPU kernel framework), "reward hacking" (defined). "Triton" is a specialized GPU programming tool unfamiliar to most. Otherwise plain language.
+**Rating: 2**
+
+---
+
+**Turn 3 — Debater A: [Response 1]**
+Terms: "Triton" (GPU framework), "PyTorch" (ML library). Both are specialized software tools. However, context makes their role clear (coding tools). General reader may not know them but can follow the argument.
+**Rating: 2**
+
+---
+
+**Turn 4 — Debater B: [Argument 2]**
+Terms: "Triton" (GPU framework), "fraction problem" (everyday math). Minimal specialized content; the fraction analogy is everyday language.
+**Rating: 2**
+
+---
+
+**Turn 5 — Debater A: [Response 2]**
+Terms: None particularly specialized beyond "Triton" implied context. The text is about analogical reasoning and is mostly plain English.
+**Rating: 1**
+
+---
+
+**Turn 6 — Debater B: [Argument 3]**
+Terms: "Triton" (implied), "fraction problem" (everyday). Very plain language overall.
+**Rating: 1**
+
+---
+
+**Turn 7 — Debater A: [Response 3]**
+Terms: "Triton" (GPU framework). One technical term, used briefly. Otherwise plain.
+**Rating: 2**
+
+---
+
+**RIGHT SIDE**
+
+**Turn 8 — Debater B: [Opening]**
+Terms: "GPU kernel" (specialized hardware programming concept), "custom state management" (technical computing phrase), "PyTorch" (ML library), "CUDA kernels" (GPU computing framework). Multiple technical terms from GPU/ML domain.
+**Rating: 3**
+
+---
+
+**Turn 9 — Debater A: [Argument 1]**
+Terms: "prefix sum" (CS term), "scoring metric" (somewhat technical but accessible), "GPU" (common acronym). Moderate technical presence but mostly accessible.
+**Rating: 2**
+
+---
+
+**Turn 10 — Debater B: [Response 1]**
+Terms: "GPU engineering" (technical), "PyTorch" (ML library), "cumsum" (specific function name — specialized), "CUDA kernels" (GPU programming), "GPU logic" (technical). Several specialized terms concentrated in two claims.
+**Rating: 3**
+
+---
+
+**Turn 11 — Debater A: [Argument 2]**
+Terms: "library usage" (general computing, accessible), "shortcut" (plain), "excerpt" (plain). Relatively plain language with only mild technical reference to "library."
+**Rating: 1**
+
+---
+
+**Turn 12 — Debater B: [Response 2]**
+Terms: "PyTorch" (ML library), "GPU engineering" (technical), "Triton kernel" (GPU programming tool), "scan operations" (parallel computing algorithm concept), "kernel-level challenges" (GPU programming). Multiple specialized GPU/ML terms.
+**Rating: 3**
+
+---
+
+**Turn 13 — Debater A: [Argument 3]**
+Terms: "Triton" (GPU framework), "incompetent" (plain English). Minimal jargon; mostly plain reasoning.
+**Rating: 2**
+
+---
+
+**Turn 14 — Debater B: [Response 3]**
+Terms: "Triton" (GPU framework). One technical term; otherwise entirely plain language.
+**Rating: 2**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[2]]
+B | Opening | [[3]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[2]]

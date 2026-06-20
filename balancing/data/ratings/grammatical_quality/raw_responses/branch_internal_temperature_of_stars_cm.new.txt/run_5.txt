@@ -1,0 +1,157 @@
+I'll analyze each turn for grammatical quality, identifying errors and well-constructed passages before assigning a rating.
+
+---
+
+**1. Debater A: [Opening] (Left Side)**
+"The internal temperature of a star increases with time on the main sequence."
+
+A clean, well-formed sentence. No grammatical errors, correct punctuation, clear syntax.
+
+Rating: **5**
+
+---
+
+**2. Debater B: [Argument 1] (Left Side)**
+Claim 1: "A star continually radiates energy away from its surface in the form of photons."
+Claim 2: "The temperature of the system does not increase due to the amount of energy actively being taken away from it."
+
+Claim 1 is flawless. Claim 2 is grammatically correct but slightly awkward with "due to the amount of energy actively being taken away from it" — this is syntactically valid, if a bit wordy. No actual errors.
+
+Rating: **4**
+
+---
+
+**3. Debater A: [Response 1] (Left Side)**
+Claim 1: "The temperature of a star is proportional to the kinetic energy of its constituent particles via the equipartition theorem."
+Claim 2: "The kinetic energy of the constituent particles of the star increases, as it evolves, on the main sequence."
+
+Both claims are grammatically sound. The comma usage in Claim 2 ("increases, as it evolves, on the main sequence") is acceptable as a parenthetical insertion, though slightly awkward stylistically. No mechanical errors.
+
+Rating: **4**
+
+---
+
+**4. Debater B: [Argument 2] (Left Side)**
+Claim 1: "By the first law of thermodynamics, energy lost via radiation must come from the system's internal energy or work done on the system."
+Claim 2: "Since no external work is being done on the system, the internal energy must decrease, which comes from the kinetic energy of the constituent particles."
+
+Claim 1 is well-formed. In Claim 2, "which comes from the kinetic energy" has an ambiguous antecedent (does "which" refer to the decrease or the internal energy?). This is a minor syntactic issue but no outright error.
+
+Rating: **4**
+
+---
+
+**5. Debater A: [Response 2] (Left Side)**
+Claim 1: "When a self-gravitating system contracts, its gravitational potential energy decreases."
+Claim 2: "Gravity does work on the system and the released gravitational potential energy more than offsets the radiated energy. The surplus increases the kinetic energy of the particles."
+
+Both claims are well-structured. Claim 2 consists of two sentences, both grammatically correct. Minor note: a comma after "system" in "Gravity does work on the system and the released..." would improve readability, but its absence is not a strict error.
+
+Rating: **5**
+
+---
+
+**6. Debater B: [Argument 3] (Left Side)**
+Claim 1: "Thermodynamic properties, which include internal energy, are intrinsically linked to the star's temperature."
+Claim 2: "Kinetic energy maps onto temperature via the equipartition theorem. In contrast, gravitational potential energy has no place in thermodynamic calculations."
+
+Both claims are grammatically flawless. The sentence structure is clear and punctuation is correct.
+
+Rating: **5**
+
+---
+
+**7. Debater A: [Response 3] (Left Side)**
+Claim 1: "By the virial theorem, the kinetic energy of the star increases over time, as the gravitational potential energy of the star itself decreases."
+Claim 2: "And since the temperature is proportional to the kinetic energy (Debater A Response 1 Claim 1), the temperature, on the whole, naturally increases."
+
+Claim 1 is well-formed. Claim 2 begins with "And," which is acceptable in modern usage. The parenthetical reference is handled cleanly. Minor stylistic note: starting a sentence with "And" is informal but not a grammatical error. Overall, well-constructed.
+
+Rating: **4**
+
+---
+
+**8. Debater B: [Opening] (Right Side)**
+"The internal temperature of a star decreases with time on the main sequence."
+
+A clean, well-formed sentence. No errors.
+
+Rating: **5**
+
+---
+
+**9. Debater A: [Argument 1] (Right Side)**
+Claim 1: "Star cores contract as they evolve on the main sequence."
+Claim 2: "Gravity gets stronger as the star contracts. If the internal temperature also decreases, the star would collapse at a thermal timescale."
+
+Claim 1 is grammatically fine. In Claim 2, "collapse at a thermal timescale" is slightly awkward — the more natural phrasing would be "collapse on a thermal timescale." The preposition "at" is used instead of the conventional "on" in astrophysical contexts. This is a minor but noticeable error.
+
+Rating: **4**
+
+---
+
+**10. Debater B: [Response 1] (Right Side)**
+Claim 1: "Nuclear fusion generates the radiation pressure and thermal pressure that support the star against gravitational collapse."
+Claim 2: "Decreasing outward pressure as the star runs out of nuclear fuel causes the star's contraction. This does not cause collapse."
+
+Both claims are grammatically correct. The sentences are clear and well-structured.
+
+Rating: **5**
+
+---
+
+**11. Debater A: [Argument 2] (Right Side)**
+Claim 1: "Nuclear fusion in the star's core converts hydrogen into helium during the main sequence."
+Claim 2: "This in turn reduces the number of particles and hence the thermal pressure in the core. If the temperature does not increase to compensate, hydrostatic equilibrium cannot be maintained."
+
+Both claims are well-formed. "This in turn" could benefit from a comma after "This" but its absence is minor and not strictly required.
+
+Rating: **5**
+
+---
+
+**12. Debater B: [Response 2] (Right Side)**
+Claim 1: "Over time, the core gradually gets denser as hydrogen is steadily converted into helium."
+Claim 2: "The higher density enables the core to withstand more inward pressure from the outer layers of the star. This is why temperature does not need to increase to maintain equilibrium."
+
+Both claims are grammatically sound, well-punctuated, and clearly structured.
+
+Rating: **5**
+
+---
+
+**13. Debater A: [Argument 3] (Right Side)**
+Claim 1: "The self-gravity of an object increases as it grows denser at constant mass."
+Claim 2: "The core's own inward pull and the pressure from the outer layers of the star grow stronger with contraction; the temperature must in turn increase to counteract them and prevent collapse."
+
+Both claims are well-formed. The semicolon in Claim 2 is used correctly to join two independent clauses. No errors.
+
+Rating: **5**
+
+---
+
+**14. Debater B: [Response 3] (Right Side)**
+Claim 1: "A star contracts until it ignites helium fusion at the end of the main sequence."
+Claim 2: "The rate at which thermal pressure decreases matters: the increasing density of the core (Debater B Response 2 Claim 1) prolongs the contraction long enough for helium fusion to ignite, preventing collapse."
+
+Both claims are grammatically correct. The colon in Claim 2 is used appropriately to introduce an elaboration. The parenthetical reference is handled cleanly.
+
+Rating: **5**
+
+---
+
+RATINGS:
+A | Opening | [[5]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[4]]
+B | Argument 2 | [[4]]
+A | Response 2 | [[5]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[4]]
+B | Opening | [[5]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[5]]
+A | Argument 2 | [[5]]
+B | Response 2 | [[5]]
+A | Argument 3 | [[5]]
+B | Response 3 | [[5]]

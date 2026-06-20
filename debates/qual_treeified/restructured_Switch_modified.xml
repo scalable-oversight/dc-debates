@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debate>
+<title>Switch (modified)</title>
+
+<sources>
+  <ref speaker="H" id="work_energy_theorem" quote="Let's start by looking at the net work done on a particle as it moves over an infinitesimal displacement, which is the dot product of the net force and the displacement: $dW_{\text{net}} = \vec{F}_{\text{net}} \cdot d\vec{r}$." url="https://openstax.org/books/university-physics-volume-1/pages/7-3-work-energy-theorem" author="OpenStax University Physics"/>
+  <ref speaker="D" id="normal_force" quote="[1:54] ...the normal force is the sum of the centripetal force and the weight force mg. Now I need to give you the radius of curvature. So let's say it's two meters for A and B. With  that information, go ahead and calculate the normal force." url="https://www.youtube.com/watch?v=Ec6btKP4qfg" author="The Organic Chemistry Tutor"/>
+</sources>	   
+
+<facts speaker="H">
+  <ref id="string2">A ball on a string speeds up because the inward pull has a component along the ball's direction of travel.</ref>
+  <ref id="kec_conserved_if_no_work">Kinetic energy is conserved if there is no work done on the train.</ref>
+  <ref id="ke_explanation">A rigid train car on a circular track of radius R must yaw at rate ω = v/R. On a smaller track the same speed demands a higher yaw rate and thus more rotational KE. Since total KE is conserved, translational KE must decrease.</ref>
+  <ref id="no_work_if_perp_forces">If X's contact force on Y only exerts forces perpendicular to Y's velocity, then X does no work on Y.</ref>
+</facts>
+
+<facts speaker="D">
+  <ref id="string">If someone spins a ball on a string, the ball spins faster as they pull the string in.</ref>
+  <ref id="kec_not_conserved_if_work">Kinetic energy is not conserved if there is work done on the train.</ref>
+  <ref id="rigid_body_complication">on a rigid body model, the direction of the applied force and the car's velocity differ from the front to the rear of the car.</ref>
+  <ref id="curvature_force_rotation">When a particle moves along a path of changing curvature, the constraint force required to maintain contact adjusts in both magnitude and direction. The curvature along the path determines how quickly the force direction rotates.</ref>
+</facts>
+
+<question>
+A train car is freely coasting around a large circular track. It is then switched to a smaller circular track. How does its speed change? Assume no friction.
+
+<img src="images/switch.png"/>
+
+  <answer speaker="H">If we model the car as a point mass, the speed stays the same. There is a slight slowdown if the question author wants us to model the car as a rigid body rather than a point mass.</answer>
+  
+  <answer speaker="D">It will speed up. <xref rid="string"/> It's not a perfect analogy, but the same principle applies.</answer>
+  
+  <question speaker="H"><xref rid="string2"/> Is there any force in the train's direction of motion that would increase its speed?
+  <answer speaker="H">No. See <xanswer rid="A5"/></answer>
+  <answer speaker="D">Yes. See <xanswer rid="A4"/></answer>
+  </question>
+  
+  <question speaker="H">
+  Is the kinetic energy of the train car conserved? <xref rid="kec_conserved_if_no_work"/>
+  <answer speaker="H">Yes</answer>
+  <answer speaker="D">No. <xref rid="kec_not_conserved_if_work"/></answer>
+  
+	  <question speaker="D">
+	  Do the rails do work on the train?
+	  <answer speaker="H">No</answer>
+	  <answer speaker="D">Yes</answer>
+	  
+		  <question speaker="D">
+		  Do the rails do work on the train if we model the car as a point mass?
+		  <answer speaker="H" id="A1">No. <xref rid="no_work_if_perp_forces"/></answer>
+		  <answer speaker="D">Yes</answer>
+			  <question speaker="D">
+			  Do the rails exert forces that are not perpendicular to the car's velocity?
+			  <answer speaker="H" id="A5">No. The car exactly follows the path of the rail and so the direction of the applied force is always perfectly perpendicular to the velocity (not in the train's direction of motion), as long as the track is smooth and frictionless.</answer>
+			  <answer speaker="D" id="A4">Yes. The curvature of the connecting track changes as it transitions from approximating the curvature of the outer track to that of the inner track. So the force is not perpendicular to the direction of travel. The train gains speed while on the connecting path, which it maintains in the inner track.</answer>
+			  
+				  <question speaker="H">Is there any point where the track's contact force isn't perpendicular to the car's instantaneous velocity at the contact point?
+				  <answer speaker="H">No</answer>
+				  <answer speaker="D">This is true of every point on the connecting track. The difference from perpendicular at any single point is infinitesimally small, but they add up when you integrate over the length of the connecting track.</answer>
+				  
+					<question speaker="H">Infinitesimal work is defined locally: dW = F · dr (<xref rid="work_energy_theorem"/>). Where, if anywhere, is F_tangent nonzero?
+				    <answer speaker="H">Nowhere. On a frictionless track dr is tangent and the contact force is normal, so F · dr = 0 at every point. The sum of zeroes is zero.</answer>
+					<answer speaker="D">Curvature changes, so the contact force can't stay perpendicular; you can't just ignore the amount of curvature in such problems (see <xref rid="normal_force"/> for example). <xref rid="curvature_force_rotation"/> In this case dW = F · dr becomes positive.</answer>
+					</question>
+					
+				  </question>
+			  </question>
+		  
+			  <question speaker="D" id="Q1">If <xanswer rid="A1"/> were true, would the car slow down?
+			  <answer speaker="H">No, not on a point mass model.</answer>
+			  <answer speaker="D">See <xanswer rid="A3"/>.</answer>
+			  </question>
+			  
+		  </question>
+		  
+		  <question speaker="D">
+		  Do the rails do work on the train if we model the car as a rigid body?
+		  <answer speaker="H" id="A2">No. <xref rid="no_work_if_perp_forces"/> In a rigid body model, the local track tangent differs from front to rear, so front/rear wheels have slightly different velocities, and each contact force remains perpendicular to its contact point's instantaneous velocity, so forces still do no work.</answer>
+		  <answer speaker="D">Yes. See <xanswer rid="A4"/>. And we have the additional complication that <xref rid="rigid_body_complication"/></answer>
+		  
+			  <question speaker="D" id="Q2">If <xanswer rid="A2"/> were true, would the car slow down?
+			  <answer speaker="H">Yes, on a rigid body model. <xref rid="ke_explanation"/> So the speed drops slightly.</answer>
+			  <answer speaker="D" id="A3">If claims lead to a contradiction then at least one of them should be rejected. Believing <xanswer rid="A1"/> and <xanswer rid="A2"/> requires committing oneself to answers of No to <xquestion rid="Q1"/> and Yes to <xquestion rid="Q2"/>, which seems implausible.</answer>
+			  </question>
+		  </question>
+	  
+	  </question>
+	</question>
+</question>
+</debate>

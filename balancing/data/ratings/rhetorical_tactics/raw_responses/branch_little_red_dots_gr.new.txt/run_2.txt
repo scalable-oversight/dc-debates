@@ -1,0 +1,107 @@
+I'll analyze each turn for rhetorical/persuasive tactics systematically.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+"Black hole accretion in AGN is a *highly plausible* explanation for LRDs" — the phrase "highly plausible" is mildly loaded but the claim is otherwise a direct substantive assertion citing a source. Minimal rhetorical framing; mostly straightforward.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1]**
+Both claims are factual/observational statements about Balmer breaks and their association with specific models. No emotional appeals, no loaded framing, no straw-manning. Pure substantive argument.
+**Rating: 1**
+
+---
+
+**3. Debater A: [Response 1]**
+Claim 1 is a direct substantive counter. Claim 2 uses the phrase "speculative theories" (loaded framing that dismisses the competing model) and implies an argument from parsimony ("can be defined by known physics"), which is a rhetorical framing device rather than a direct refutation.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2]**
+Both claims are observational facts about LRDs (X-ray weakness, weak variability) compared to typical AGN. No rhetorical devices; purely substantive.
+**Rating: 1**
+
+---
+
+**5. Debater A: [Response 2]**
+Both claims are mechanistic/physical explanations for X-ray weakness and variability. Claim 2 includes a mild comparative framing ("moreso than SMS") that nudges the conclusion, but is otherwise substantive. Minimal rhetoric.
+**Rating: 2**
+
+---
+
+**6. Debater B: [Argument 3]**
+Claim 1 acknowledges the mechanism but notes limited empirical support — this is a legitimate epistemic critique, not a rhetorical device. Claim 2 is a substantive mechanistic distinction. Both are straightforward.
+**Rating: 1**
+
+---
+
+**7. Debater A: [Response 3]**
+Both claims are substantive: Claim 1 identifies a physical source of variability (turbulent flows), Claim 2 honestly concedes the modelling gap. No rhetorical devices; this is transparent, direct argumentation.
+**Rating: 1**
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+"Photospheric emission of supermassive stars is a *highly plausible* explanation for LRDs" — mirrors Debater A's opening with the same mild "highly plausible" framing. Otherwise a direct claim with source citation.
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1]**
+Claim 1 stresses that SMS are "theoretical objects that have not been directly observed" — this is a legitimate point but also functions as an appeal to skepticism/burden of proof against an unobserved entity. Claim 2 adds a factual point about short lifetimes. The emphasis on lack of direct observation is a mild rhetorical device (shifting burden of proof), but the content is substantive.
+**Rating: 2**
+
+---
+
+**10. Debater B: [Response 1]**
+Claim 1 uses "almost certain" — a strong epistemic assertion that slightly overstates confidence and functions as a mild appeal to consensus/authority. Claim 2 is a direct substantive point about the model's spectrum. Overall mostly substantive.
+**Rating: 2**
+
+---
+
+**11. Debater A: [Argument 2]**
+Both claims are substantive: theoretical predictions about SMS collapse and a quantitative argument about the number of SMS required. No rhetorical devices detected; straightforward reasoning.
+**Rating: 1**
+
+---
+
+**12. Debater B: [Response 2]**
+Both claims are physical/mechanistic arguments about stellar rotation and its effect on SMS lifetimes. No rhetorical devices; purely substantive.
+**Rating: 1**
+
+---
+
+**13. Debater A: [Argument 3]**
+Claim 1 uses "insufficiently rigorous" and "does not fully support" — these are evaluative framings that characterize the opponent's work negatively without providing direct evidence, functioning as loaded language. Claim 2 is a concrete, specific factual point (no lifespan estimate provided). The combination leans somewhat on characterization rather than pure substance.
+**Rating: 3**
+
+---
+
+**14. Debater B: [Response 3]**
+Both claims are technical/methodological defenses (1D stellar evolution feasibility, specific radiative transfer scheme). These are direct substantive responses to the criticism. No rhetorical devices.
+**Rating: 1**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[1]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[1]]
+B | Opening | [[2]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[2]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[1]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[1]]

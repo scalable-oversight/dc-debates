@@ -1,0 +1,136 @@
+I'll analyze each turn for technical jargon, then provide ratings.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+"Y is larger." — No technical terms at all. Simple comparative statement.
+Rating: **1**
+
+---
+
+**2. Debater B: [Argument 1]**
+- "D6" and "D3": These are defined terms (six-sided die, three-sided die) used as shorthand notation. They're somewhat specialized but defined in the debate.
+- "sides 2, 4, 6": Plain description.
+- The concepts are accessible to a general reader.
+Rating: **2**
+
+---
+
+**3. Debater A: [Response 1]**
+- "expected number of rolls": "Expected" in the statistical sense (expected value/mean) is mildly technical, but contextually clear.
+- "D3", "D6": Defined shorthand.
+- "conditional" is implicit but not stated explicitly.
+Rating: **2**
+
+---
+
+**4. Debater B: [Argument 2]**
+- "expected number of rolls": Mildly technical statistical term.
+- References to prior claims are structural, not jargon.
+- Otherwise plain language.
+Rating: **2**
+
+---
+
+**5. Debater A: [Response 2]**
+- "(2, 4, 6) D3": Slightly technical notation combining die type with face specification.
+- "equivalence": Slightly mathematical usage but accessible.
+- "expected number of rolls": Mildly technical.
+Rating: **2**
+
+---
+
+**6. Debater B: [Argument 3]**
+- "expected number of rolls": Mildly technical.
+- "odds": Common usage here, not deeply technical.
+- "relative frequency": Slightly statistical term but generally understood.
+- Overall fairly accessible.
+Rating: **2**
+
+---
+
+**7. Debater A: [Response 3]**
+- "adjacent 6s": Plain language in context.
+- "stopping rule": This is a specific statistical/probability term referring to the condition that ends a process. A general reader might not know this term.
+- "conditional expectation": This is a technical statistics term — the expected value conditioned on an event. A layperson would likely not know this.
+- "relative frequency": Mildly technical.
+Rating: **3**
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+"X is larger." — No technical terms.
+Rating: **1**
+
+---
+
+**9. Debater A: [Argument 1]**
+- "probability mass": This is a technical statistics term (probability mass function context), referring to how probability is distributed. A layperson might not know it.
+- "filters long runs exponentially": "exponentially" used in a loosely mathematical sense; "filters" is informal but accessible.
+- "squeezed onto... short, lucky runs": Plain metaphorical language.
+Rating: **3**
+
+---
+
+**10. Debater B: [Response 1]**
+- "stopping condition": Mildly technical (relates to stopping rule).
+- "distribution": In the statistical sense; mildly technical but widely understood.
+- "dominated by long sequences": "dominated" has a mild technical flavor in probability but is accessible in context.
+Rating: **2**
+
+---
+
+**11. Debater A: [Argument 2]**
+- No particularly technical terms. "Filtered out" is plain language.
+- References prior claims by label, which is structural.
+- "false statement that does not follow from it": Plain logical language.
+Rating: **1**
+
+---
+
+**12. Debater B: [Response 2]**
+- "nonconsecutive 6s": Plain descriptive language.
+- "D3 equivalence": Mildly technical shorthand.
+- "net effect": Plain.
+- "conditional expectation" is implicit but not stated.
+Rating: **2**
+
+---
+
+**13. Debater A: [Argument 3]**
+- Percentages and statistics: "61% of X sequences stop at roll 2" — uses statistical framing but accessible.
+- "probability mass" is implicit.
+- "distributions" implied.
+- Overall accessible with numbers but no dense jargon.
+Rating: **2**
+
+---
+
+**14. Debater B: [Response 3]**
+- "proportion": Mild statistical term but widely understood.
+- "distributions": Standard statistical term, mildly technical.
+- "overall weighting": Mildly technical in probabilistic sense.
+- "full computation": Implies mathematical work but not jargon-heavy.
+Rating: **2**
+
+---
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[3]]
+B | Opening | [[1]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[2]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[2]]

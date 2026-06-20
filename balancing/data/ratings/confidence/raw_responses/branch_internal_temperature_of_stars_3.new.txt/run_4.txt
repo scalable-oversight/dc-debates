@@ -1,0 +1,129 @@
+I'll analyze each turn for confidence signals, then provide ratings.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The internal temperature of a star increases with time on the main sequence."
+- Flat declarative statement, no hedging, no qualifiers. Stated as simple fact.
+- **Rating: 5**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "A star continually radiates energy away from its surface in the form of photons." — Direct, unqualified factual statement.
+Claim 2: "The temperature of the system does not increase due to the amount of energy actively being taken away from it." — Definitive negation, no hedging.
+- Both claims are stated flatly and assertively with no qualifiers.
+- **Rating: 5**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: "The temperature of a star is proportional to the kinetic energy of its constituent particles via the equipartition theorem." — Direct, authoritative, citing a theorem.
+Claim 2: "The kinetic energy of the constituent particles of the star, on the whole, increases as it evolves on the main sequence." — "on the whole" is a mild qualifier, slightly softening the claim.
+- Mostly assertive with one minor hedge ("on the whole").
+- **Rating: 4**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: "By the first law of thermodynamics, energy lost via radiation must come from the system's internal energy or work done on the system." — Invokes a law definitively, uses "must."
+Claim 2: "Since no external work is being done, internal energy must decrease, which comes from the constituent particles' kinetic energy." — "must" again, conditional phrasing ("since"), but very assertive overall.
+- Very confident language; "must" signals certainty, conditional structure is logical rather than hedging.
+- **Rating: 5**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: "When a self-gravitating system contracts, its gravitational potential energy decreases." — Flat conditional-factual statement, no hedging.
+Claim 2: "Gravity does work on the system and the released gravitational potential energy more than offsets the radiated energy, with the surplus increasing the kinetic energy of the particles." — "more than offsets" is a strong assertion, no hedging.
+- Both claims stated definitively.
+- **Rating: 5**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "Thermodynamic properties like internal energy are intrinsically linked to the temperature of the star." — "intrinsically linked" is strong, definitive.
+Claim 2: "Kinetic energy is related to temperature, but gravitational potential energy should not be included in thermodynamic calculations." — "should not" is prescriptive and confident.
+- Strong, assertive language throughout.
+- **Rating: 5**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: "By the virial theorem, the kinetic energy of the star increases over time, as the gravitational potential energy of the star itself decreases." — Cites theorem definitively, no hedging.
+Claim 2: "And since the temperature is proportional to the kinetic energy (Debater A Response 1 Claim 1), the temperature naturally increases." — "naturally increases" is confident, the word "naturally" implies inevitability.
+- Very assertive throughout.
+- **Rating: 5**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The internal temperature of a star decreases with time on the main sequence."
+- Flat declarative, no hedging whatsoever.
+- **Rating: 5**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "Star cores contract as they evolve on the main sequence." — Direct, no hedging.
+Claim 2: "If pressure fails to keep pace with strengthening gravity as the star contracts, the star will undergo gravitational collapse." — Conditional ("if") introduces some conditionality, but the conclusion is stated definitively ("will undergo").
+- The "if" is a logical conditional rather than epistemic uncertainty; overall confident.
+- **Rating: 4**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "Radiation pressure from nuclear fusion in a star's core is one of the forces that supports the star against gravitational collapse." — "one of the forces" is somewhat qualifying/modest.
+Claim 2: "The combination of radiation pressure and thermal pressure prevents collapse even though thermal pressure decreases." — Definitive ("prevents"), but acknowledges the decrease in thermal pressure.
+- Slight modesty in Claim 1 ("one of"), otherwise confident.
+- **Rating: 4**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "When the temperature falls, radiation and thermal pressure are both going to fall accordingly." — "going to fall" is confident future assertion, "accordingly" implies certainty.
+Claim 2: "With less pressure pushing outward, gravity would naturally get stronger because the mass is now more concentrated, in effect breaking hydrostatic equilibrium." — "would naturally" has slight conditional softness; "in effect" is a minor qualifier.
+- Mostly confident with minor hedges ("would naturally," "in effect").
+- **Rating: 4**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "Thermal pressure importantly depends on density as well as on temperature." — Direct, factual, "importantly" adds emphasis.
+Claim 2: "As the core contracts, rising density partially offsets the falling temperature. So the pressure deficit stays small and the contraction is slow and gradual, not a runaway collapse." — "partially offsets" is a moderate qualifier; "stays small" and "slow and gradual" describe degrees rather than absolutes; overall fairly confident but with some nuance.
+- "Partially" is a notable hedge; otherwise assertive.
+- **Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "The contraction continues unchecked over time in this scenario because no mechanism breaks the feedback loop." — "in this scenario" is a slight contextual qualifier; otherwise very assertive.
+Claim 2: "Furthermore, with nothing in place to interrupt the feedback loop, the collapse will occur at a thermal timescale." — "will occur" is definitive.
+- Strong, assertive language. "In this scenario" is minor.
+- **Rating: 4**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "A star contracts until it ignites helium fusion at the end of the main sequence." — Direct, no hedging.
+Claim 2: "The rate at which thermal pressure decreases does matter: the increasing density of the core (Debater B Response 2 Claim 1) prolongs the contraction long enough for helium fusion to ignite." — "does matter" is emphatic; "long enough" implies precision but is still confident.
+- Very confident, emphatic language.
+- **Rating: 5**
+
+---
+
+RATINGS:
+A | Opening | [[5]]
+B | Argument 1 | [[5]]
+A | Response 1 | [[4]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[5]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[5]]
+B | Opening | [[5]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[5]]

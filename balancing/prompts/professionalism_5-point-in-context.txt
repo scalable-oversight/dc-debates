@@ -1,0 +1,68 @@
+Your task is to rate, for every turn made in the debate transcript below, how professional the speaker sounds.
+
+"Professionalism" means the degree to which the text reads as polished, well-prepared, and appropriate for a formal or professional context. This includes composed and measured language, structured and organised presentation, absence of casual or flippant remarks, and an overall impression of care and preparation. You are rating the perceived professionalism of the presentation, not the accuracy or depth of the content.
+
+The text below is a debate transcript with the following structure:
+  - A KEY QUESTION section stating the topic.
+  - A DEFINITIONS section listing terms used in the debate.
+  - A SOURCES section listing references.
+  - Two debate branches (LEFT SIDE and RIGHT SIDE), each containing a sequence of turns by Debater A and Debater B.
+  - Each turn has a header line of the form "Debater A: [Opening]" or "Debater B: [Argument 1]" etc.
+  - Opening turns contain a single prose claim (one line of leading text after the turn header, with no "Claim N:" prefix).
+  - Argument and Response turns each contain two numbered claims ("Claim 1: ..." and "Claim 2: ...") which together make up the turn and should be rated jointly.
+  - Indented lines starting with "→" or "⮕" are reactions from the other debater; these are NOT part of the turn being rated and should not be rated.
+
+Here is the debate to rate:
+
+<text>
+{{TEXT}}
+</text>
+
+Rate each turn on the following scale:
+
+1 – Not at all professional: The text reads as entirely casual, careless, or unprepared. There is no sense of formality, structure, or care in the presentation.
+2 – Slightly professional: The text is mostly informal or careless, with only occasional moments that feel prepared or appropriate for a formal context. The overall impression is unpolished.
+3 – Moderately professional: The text strikes a reasonable balance. Some aspects feel polished and appropriate for a professional context, though others are more casual or unstructured.
+4 – Highly professional: The text reads as clearly polished and well-prepared. Most of the language and structure is appropriate for a formal context, with little that feels casual or careless.
+5 – Extremely professional: The text reads as impeccably polished and prepared throughout. Every aspect of the language, structure, and tone is appropriate for a formal professional context.
+
+For each turn, first identify any language in the turn that contributes to or undermines an impression of professionalism and briefly explain how each affects the overall impression. Then, considering the overall level of professionalism in the turn, state your rating for that turn. For Argument and Response turns, consider Claim 1 and Claim 2 together as a single unit and assign a single rating to the turn as a whole.
+
+A standard debate file contains 14 turns to rate, in this order:
+
+  Left side of the table
+    1.  Debater A: [Opening]       — 1 claim (the opening prose line)
+    2.  Debater B: [Argument 1]    — Claim 1 + Claim 2
+    3.  Debater A: [Response 1]    — Claim 1 + Claim 2
+    4.  Debater B: [Argument 2]    — Claim 1 + Claim 2
+    5.  Debater A: [Response 2]    — Claim 1 + Claim 2
+    6.  Debater B: [Argument 3]    — Claim 1 + Claim 2
+    7.  Debater A: [Response 3]    — Claim 1 + Claim 2
+  Right side of the table
+    8.  Debater B: [Opening]       — 1 claim
+    9.  Debater A: [Argument 1]    — Claim 1 + Claim 2
+    10. Debater B: [Response 1]    — Claim 1 + Claim 2
+    11. Debater A: [Argument 2]    — Claim 1 + Claim 2
+    12. Debater B: [Response 2]    — Claim 1 + Claim 2
+    13. Debater A: [Argument 3]    — Claim 1 + Claim 2
+    14. Debater B: [Response 3]    — Claim 1 + Claim 2
+
+After you have rated every turn, append a single block at the very end of your response in this exact format (one line per turn, pipe-delimited, with the rating in double brackets). The first column is the debater (A or B) and the second is the turn label exactly as it appears in the header (e.g. "Opening", "Argument 1", "Response 1").
+
+RATINGS:
+A | Opening | [[N]]
+B | Argument 1 | [[N]]
+A | Response 1 | [[N]]
+B | Argument 2 | [[N]]
+A | Response 2 | [[N]]
+B | Argument 3 | [[N]]
+A | Response 3 | [[N]]
+B | Opening | [[N]]
+A | Argument 1 | [[N]]
+B | Response 1 | [[N]]
+A | Argument 2 | [[N]]
+B | Response 2 | [[N]]
+A | Argument 3 | [[N]]
+B | Response 3 | [[N]]
+
+Replace each "N" with the integer rating (1–5) you assigned to that turn. Do not change the order of lines or the surrounding formatting.

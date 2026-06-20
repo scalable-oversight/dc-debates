@@ -1,0 +1,109 @@
+Section 1 vs Section 4 credence in correct answer, by debate question
+========================================================================
+Each block: n, mean, 95% CI for section 1 and section 4, whether the two
+95% CIs overlap, and a paired t-test (section 4 - section 1) for that
+question. Non-overlapping CIs => significant difference; overlapping CIs
+do NOT rule one out (see the paired test).
+
+Bergs
+------------------------------------------------------------------------
+  Section 1: n=12, mean=0.4783, 95% CI=[0.2823, 0.6743]
+  Section 4: n=12, mean=0.3892, 95% CI=[0.2089, 0.5694]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=12, mean diff=-0.0892, t(11)=-1.487, p=0.1651
+
+Early Universe Galaxies
+------------------------------------------------------------------------
+  Section 1: n=7, mean=0.5971, 95% CI=[0.5171, 0.6772]
+  Section 4: n=7, mean=0.7257, 95% CI=[0.5858, 0.8657]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=7, mean diff=+0.1286, t(6)=2.521, p=0.0453
+
+Graviational Lens Modelling
+------------------------------------------------------------------------
+  Section 1: n=10, mean=0.4940, 95% CI=[0.3983, 0.5897]
+  Section 4: n=10, mean=0.4650, 95% CI=[0.3695, 0.5605]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=10, mean diff=-0.0290, t(9)=-0.479, p=0.6431
+
+Internal Temperature of Stars
+------------------------------------------------------------------------
+  Section 1: n=9, mean=0.5700, 95% CI=[0.4443, 0.6957]
+  Section 4: n=9, mean=0.6467, 95% CI=[0.4787, 0.8146]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=9, mean diff=+0.0767, t(8)=1.479, p=0.1773
+
+Large Linear Structure
+------------------------------------------------------------------------
+  Section 1: n=12, mean=0.4192, 95% CI=[0.3742, 0.4641]
+  Section 4: n=12, mean=0.5258, 95% CI=[0.3908, 0.6608]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=12, mean diff=+0.1067, t(11)=1.904, p=0.0834
+
+Little Red Dots
+------------------------------------------------------------------------
+  Section 1: n=10, mean=0.4590, 95% CI=[0.3700, 0.5480]
+  Section 4: n=10, mean=0.4580, 95% CI=[0.2925, 0.6235]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=10, mean diff=-0.0010, t(9)=-0.015, p=0.9881
+
+Rust
+------------------------------------------------------------------------
+  Section 1: n=9, mean=0.4944, 95% CI=[0.3867, 0.6022]
+  Section 4: n=9, mean=0.6556, 95% CI=[0.4759, 0.8353]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=9, mean diff=+0.1611, t(8)=3.188, p=0.0128
+
+Database deletion
+------------------------------------------------------------------------
+  Section 1: n=12, mean=0.5158, 95% CI=[0.3621, 0.6696]
+  Section 4: n=12, mean=0.4233, 95% CI=[0.2832, 0.5635]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=12, mean diff=-0.0925, t(11)=-1.746, p=0.1086
+
+ORM library
+------------------------------------------------------------------------
+  Section 1: n=11, mean=0.5200, 95% CI=[0.4103, 0.6297]
+  Section 4: n=11, mean=0.5264, 95% CI=[0.3606, 0.6921]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=11, mean diff=+0.0064, t(10)=0.107, p=0.9173
+
+Prefix-sum
+------------------------------------------------------------------------
+  Section 1: n=10, mean=0.5100, 95% CI=[0.3556, 0.6644]
+  Section 4: n=10, mean=0.4690, 95% CI=[0.2691, 0.6689]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=10, mean diff=-0.0410, t(9)=-0.627, p=0.5460
+
+Probability puzzle
+------------------------------------------------------------------------
+  Section 1: n=9, mean=0.3900, 95% CI=[0.2433, 0.5367]
+  Section 4: n=9, mean=0.3767, 95% CI=[0.2152, 0.5382]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=9, mean diff=-0.0133, t(8)=-0.156, p=0.8802
+
+Switch
+------------------------------------------------------------------------
+  Section 1: n=10, mean=0.5740, 95% CI=[0.4231, 0.7249]
+  Section 4: n=10, mean=0.5840, 95% CI=[0.5215, 0.6465]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=10, mean diff=+0.0100, t(9)=0.167, p=0.8713
+
+Summary
+========================================================================
+  Questions with overlapping section 1 / section 4 95% CIs:     12 / 12
+  Questions with non-overlapping (separated) 95% CIs:           0 / 12
+
+  Quick view (question : CI overlap : mean s1 -> mean s4):
+    Bergs                            overlap   0.478 -> 0.389
+    Early Universe Galaxies          overlap   0.597 -> 0.726
+    Graviational Lens Modelling      overlap   0.494 -> 0.465
+    Internal Temperature of Stars    overlap   0.570 -> 0.647
+    Large Linear Structure           overlap   0.419 -> 0.526
+    Little Red Dots                  overlap   0.459 -> 0.458
+    Rust                             overlap   0.494 -> 0.656
+    Database deletion                overlap   0.516 -> 0.423
+    ORM library                      overlap   0.520 -> 0.526
+    Prefix-sum                       overlap   0.510 -> 0.469
+    Probability puzzle               overlap   0.390 -> 0.377
+    Switch                           overlap   0.574 -> 0.584

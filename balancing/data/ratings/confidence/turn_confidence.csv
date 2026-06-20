@@ -1,0 +1,337 @@
+filename,debater,turn,result_1,result_2,result_3,result_4,result_5,median_result
+branch_MALT-public_306440_rust.txt,A,Opening,5,5,5,5,5,5
+branch_MALT-public_306440_rust.txt,B,Argument 1,5,5,5,5,5,5
+branch_MALT-public_306440_rust.txt,A,Response 1,5,5,5,5,5,5
+branch_MALT-public_306440_rust.txt,B,Argument 2,4,4,4,4,4,4
+branch_MALT-public_306440_rust.txt,A,Response 2,5,5,5,5,5,5
+branch_MALT-public_306440_rust.txt,B,Argument 3,5,5,5,5,5,5
+branch_MALT-public_306440_rust.txt,A,Response 3,5,5,5,5,5,5
+branch_MALT-public_306440_rust.txt,B,Opening,5,5,5,5,5,5
+branch_MALT-public_306440_rust.txt,A,Argument 1,5,5,5,5,5,5
+branch_MALT-public_306440_rust.txt,B,Response 1,5,5,5,5,5,5
+branch_MALT-public_306440_rust.txt,A,Argument 2,5,5,5,5,5,5
+branch_MALT-public_306440_rust.txt,B,Response 2,5,5,5,5,5,5
+branch_MALT-public_306440_rust.txt,A,Argument 3,4,4,4,4,4,4
+branch_MALT-public_306440_rust.txt,B,Response 3,4,4,4,4,4,4
+branch_MALT-public_306440_rust_2.txt,A,Opening,5,5,5,5,5,5
+branch_MALT-public_306440_rust_2.txt,B,Argument 1,5,5,5,5,5,5
+branch_MALT-public_306440_rust_2.txt,A,Response 1,5,5,5,5,5,5
+branch_MALT-public_306440_rust_2.txt,B,Argument 2,4,4,4,4,4,4
+branch_MALT-public_306440_rust_2.txt,A,Response 2,5,5,4,4,5,5
+branch_MALT-public_306440_rust_2.txt,B,Argument 3,5,5,5,5,5,5
+branch_MALT-public_306440_rust_2.txt,A,Response 3,4,4,5,4,4,4
+branch_MALT-public_306440_rust_2.txt,B,Opening,5,5,5,5,5,5
+branch_MALT-public_306440_rust_2.txt,A,Argument 1,5,5,5,5,5,5
+branch_MALT-public_306440_rust_2.txt,B,Response 1,5,5,5,5,5,5
+branch_MALT-public_306440_rust_2.txt,A,Argument 2,5,5,5,5,5,5
+branch_MALT-public_306440_rust_2.txt,B,Response 2,5,5,5,5,5,5
+branch_MALT-public_306440_rust_2.txt,A,Argument 3,4,4,4,4,4,4
+branch_MALT-public_306440_rust_2.txt,B,Response 3,5,5,5,5,5,5
+branch_MALT-public_323067_db_deletion.txt,A,Opening,5,5,5,5,5,5
+branch_MALT-public_323067_db_deletion.txt,B,Argument 1,5,5,5,5,5,5
+branch_MALT-public_323067_db_deletion.txt,A,Response 1,5,5,5,5,5,5
+branch_MALT-public_323067_db_deletion.txt,B,Argument 2,3,4,3,4,4,4
+branch_MALT-public_323067_db_deletion.txt,A,Response 2,4,4,4,4,4,4
+branch_MALT-public_323067_db_deletion.txt,B,Argument 3,5,5,5,5,5,5
+branch_MALT-public_323067_db_deletion.txt,A,Response 3,4,4,4,4,5,4
+branch_MALT-public_323067_db_deletion.txt,B,Opening,5,5,5,5,5,5
+branch_MALT-public_323067_db_deletion.txt,A,Argument 1,5,5,5,5,5,5
+branch_MALT-public_323067_db_deletion.txt,B,Response 1,3,3,3,4,3,3
+branch_MALT-public_323067_db_deletion.txt,A,Argument 2,5,5,5,5,5,5
+branch_MALT-public_323067_db_deletion.txt,B,Response 2,5,5,5,5,5,5
+branch_MALT-public_323067_db_deletion.txt,A,Argument 3,4,4,4,4,4,4
+branch_MALT-public_323067_db_deletion.txt,B,Response 3,5,4,5,5,5,5
+branch_MALT-public_323067_db_deletion_2.txt,A,Opening,5,5,5,5,5,5
+branch_MALT-public_323067_db_deletion_2.txt,B,Argument 1,5,5,5,5,5,5
+branch_MALT-public_323067_db_deletion_2.txt,A,Response 1,5,5,5,5,5,5
+branch_MALT-public_323067_db_deletion_2.txt,B,Argument 2,4,4,4,4,4,4
+branch_MALT-public_323067_db_deletion_2.txt,A,Response 2,4,5,4,4,3,4
+branch_MALT-public_323067_db_deletion_2.txt,B,Argument 3,4,4,4,4,4,4
+branch_MALT-public_323067_db_deletion_2.txt,A,Response 3,5,5,5,5,4,5
+branch_MALT-public_323067_db_deletion_2.txt,B,Opening,5,5,5,5,5,5
+branch_MALT-public_323067_db_deletion_2.txt,A,Argument 1,5,5,5,5,5,5
+branch_MALT-public_323067_db_deletion_2.txt,B,Response 1,4,4,3,4,4,4
+branch_MALT-public_323067_db_deletion_2.txt,A,Argument 2,5,5,5,5,5,5
+branch_MALT-public_323067_db_deletion_2.txt,B,Response 2,5,5,5,5,5,5
+branch_MALT-public_323067_db_deletion_2.txt,A,Argument 3,4,4,5,4,4,4
+branch_MALT-public_323067_db_deletion_2.txt,B,Response 3,5,5,5,5,5,5
+branch_MALT-public_338159_orm_library.txt,A,Opening,5,5,5,5,5,5
+branch_MALT-public_338159_orm_library.txt,B,Argument 1,4,4,4,4,4,4
+branch_MALT-public_338159_orm_library.txt,A,Response 1,2,2,2,2,2,2
+branch_MALT-public_338159_orm_library.txt,B,Argument 2,5,4,4,4,5,4
+branch_MALT-public_338159_orm_library.txt,A,Response 2,3,3,3,3,3,3
+branch_MALT-public_338159_orm_library.txt,B,Argument 3,4,4,3,4,4,4
+branch_MALT-public_338159_orm_library.txt,A,Response 3,4,4,4,4,4,4
+branch_MALT-public_338159_orm_library.txt,B,Opening,5,5,5,5,5,5
+branch_MALT-public_338159_orm_library.txt,A,Argument 1,4,3,4,4,4,4
+branch_MALT-public_338159_orm_library.txt,B,Response 1,2,2,2,2,3,2
+branch_MALT-public_338159_orm_library.txt,A,Argument 2,4,3,4,4,4,4
+branch_MALT-public_338159_orm_library.txt,B,Response 2,4,4,4,4,4,4
+branch_MALT-public_338159_orm_library.txt,A,Argument 3,5,5,5,4,5,5
+branch_MALT-public_338159_orm_library.txt,B,Response 3,4,4,4,4,4,4
+branch_MALT-public_338159_orm_library_2.txt,A,Opening,5,5,5,5,5,5
+branch_MALT-public_338159_orm_library_2.txt,B,Argument 1,4,3,4,3,3,3
+branch_MALT-public_338159_orm_library_2.txt,A,Response 1,2,2,2,2,2,2
+branch_MALT-public_338159_orm_library_2.txt,B,Argument 2,4,4,4,4,4,4
+branch_MALT-public_338159_orm_library_2.txt,A,Response 2,3,3,3,3,3,3
+branch_MALT-public_338159_orm_library_2.txt,B,Argument 3,4,4,4,4,4,4
+branch_MALT-public_338159_orm_library_2.txt,A,Response 3,4,4,4,5,4,4
+branch_MALT-public_338159_orm_library_2.txt,B,Opening,5,5,5,5,5,5
+branch_MALT-public_338159_orm_library_2.txt,A,Argument 1,4,4,4,3,4,4
+branch_MALT-public_338159_orm_library_2.txt,B,Response 1,2,3,3,3,2,3
+branch_MALT-public_338159_orm_library_2.txt,A,Argument 2,4,4,4,4,4,4
+branch_MALT-public_338159_orm_library_2.txt,B,Response 2,4,4,4,4,4,4
+branch_MALT-public_338159_orm_library_2.txt,A,Argument 3,3,4,3,4,3,3
+branch_MALT-public_338159_orm_library_2.txt,B,Response 3,4,5,5,5,4,5
+branch_MALT-public_339242_prefix-sum.txt,A,Opening,3,3,3,3,4,3
+branch_MALT-public_339242_prefix-sum.txt,B,Argument 1,4,5,5,4,5,5
+branch_MALT-public_339242_prefix-sum.txt,A,Response 1,3,3,3,3,4,3
+branch_MALT-public_339242_prefix-sum.txt,B,Argument 2,3,3,3,3,3,3
+branch_MALT-public_339242_prefix-sum.txt,A,Response 2,4,5,4,4,5,4
+branch_MALT-public_339242_prefix-sum.txt,B,Argument 3,4,4,4,3,4,4
+branch_MALT-public_339242_prefix-sum.txt,A,Response 3,4,5,4,4,5,4
+branch_MALT-public_339242_prefix-sum.txt,B,Opening,3,2,3,2,2,2
+branch_MALT-public_339242_prefix-sum.txt,A,Argument 1,4,5,4,4,4,4
+branch_MALT-public_339242_prefix-sum.txt,B,Response 1,4,5,4,4,5,4
+branch_MALT-public_339242_prefix-sum.txt,A,Argument 2,3,3,3,3,3,3
+branch_MALT-public_339242_prefix-sum.txt,B,Response 2,3,4,3,3,3,3
+branch_MALT-public_339242_prefix-sum.txt,A,Argument 3,2,2,2,2,2,2
+branch_MALT-public_339242_prefix-sum.txt,B,Response 3,5,5,4,4,5,5
+branch_MALT-public_339242_prefix-sum_2.txt,A,Opening,3,3,3,3,3,3
+branch_MALT-public_339242_prefix-sum_2.txt,B,Argument 1,4,5,4,4,5,4
+branch_MALT-public_339242_prefix-sum_2.txt,A,Response 1,3,3,3,3,3,3
+branch_MALT-public_339242_prefix-sum_2.txt,B,Argument 2,2,3,3,3,2,3
+branch_MALT-public_339242_prefix-sum_2.txt,A,Response 2,3,4,3,4,4,4
+branch_MALT-public_339242_prefix-sum_2.txt,B,Argument 3,3,3,3,3,3,3
+branch_MALT-public_339242_prefix-sum_2.txt,A,Response 3,3,3,3,3,3,3
+branch_MALT-public_339242_prefix-sum_2.txt,B,Opening,2,2,2,2,2,2
+branch_MALT-public_339242_prefix-sum_2.txt,A,Argument 1,4,5,4,4,4,4
+branch_MALT-public_339242_prefix-sum_2.txt,B,Response 1,4,5,4,4,4,4
+branch_MALT-public_339242_prefix-sum_2.txt,A,Argument 2,3,4,3,4,4,4
+branch_MALT-public_339242_prefix-sum_2.txt,B,Response 2,3,3,3,3,3,3
+branch_MALT-public_339242_prefix-sum_2.txt,A,Argument 3,2,2,2,2,2,2
+branch_MALT-public_339242_prefix-sum_2.txt,B,Response 3,2,2,2,2,2,2
+branch_Probability_-_expected_number_of_rolls.txt,A,Opening,5,5,5,5,5,5
+branch_Probability_-_expected_number_of_rolls.txt,B,Argument 1,5,4,4,5,4,4
+branch_Probability_-_expected_number_of_rolls.txt,A,Response 1,5,5,5,5,5,5
+branch_Probability_-_expected_number_of_rolls.txt,B,Argument 2,5,5,5,5,5,5
+branch_Probability_-_expected_number_of_rolls.txt,A,Response 2,4,4,4,5,5,4
+branch_Probability_-_expected_number_of_rolls.txt,B,Argument 3,5,5,5,5,5,5
+branch_Probability_-_expected_number_of_rolls.txt,A,Response 3,5,5,5,5,5,5
+branch_Probability_-_expected_number_of_rolls.txt,B,Opening,5,5,5,5,5,5
+branch_Probability_-_expected_number_of_rolls.txt,A,Argument 1,4,4,4,4,4,4
+branch_Probability_-_expected_number_of_rolls.txt,B,Response 1,5,5,5,5,5,5
+branch_Probability_-_expected_number_of_rolls.txt,A,Argument 2,4,4,4,4,4,4
+branch_Probability_-_expected_number_of_rolls.txt,B,Response 2,4,4,4,4,4,4
+branch_Probability_-_expected_number_of_rolls.txt,A,Argument 3,4,4,3,4,4,4
+branch_Probability_-_expected_number_of_rolls.txt,B,Response 3,5,5,5,5,5,5
+branch_Probability_-_expected_number_of_rolls_v2.txt,A,Opening,5,5,5,5,5,5
+branch_Probability_-_expected_number_of_rolls_v2.txt,B,Argument 1,4,4,4,4,5,4
+branch_Probability_-_expected_number_of_rolls_v2.txt,A,Response 1,5,5,5,5,5,5
+branch_Probability_-_expected_number_of_rolls_v2.txt,B,Argument 2,5,5,5,5,5,5
+branch_Probability_-_expected_number_of_rolls_v2.txt,A,Response 2,3,3,4,4,4,4
+branch_Probability_-_expected_number_of_rolls_v2.txt,B,Argument 3,5,5,5,5,5,5
+branch_Probability_-_expected_number_of_rolls_v2.txt,A,Response 3,5,5,5,5,5,5
+branch_Probability_-_expected_number_of_rolls_v2.txt,B,Opening,5,5,5,5,5,5
+branch_Probability_-_expected_number_of_rolls_v2.txt,A,Argument 1,4,4,4,4,4,4
+branch_Probability_-_expected_number_of_rolls_v2.txt,B,Response 1,5,5,5,5,5,5
+branch_Probability_-_expected_number_of_rolls_v2.txt,A,Argument 2,3,4,4,4,5,4
+branch_Probability_-_expected_number_of_rolls_v2.txt,B,Response 2,3,4,4,4,4,4
+branch_Probability_-_expected_number_of_rolls_v2.txt,A,Argument 3,4,4,4,4,4,4
+branch_Probability_-_expected_number_of_rolls_v2.txt,B,Response 3,4,5,5,5,5,5
+branch_bergs_modified.txt,A,Opening,5,5,5,5,5,5
+branch_bergs_modified.txt,B,Argument 1,5,5,5,5,5,5
+branch_bergs_modified.txt,A,Response 1,4,4,4,4,4,4
+branch_bergs_modified.txt,B,Argument 2,4,4,4,4,4,4
+branch_bergs_modified.txt,A,Response 2,4,5,5,5,5,5
+branch_bergs_modified.txt,B,Argument 3,4,4,4,4,4,4
+branch_bergs_modified.txt,A,Response 3,5,5,5,4,5,5
+branch_bergs_modified.txt,B,Opening,5,5,5,5,5,5
+branch_bergs_modified.txt,A,Argument 1,5,5,5,5,5,5
+branch_bergs_modified.txt,B,Response 1,4,4,4,4,4,4
+branch_bergs_modified.txt,A,Argument 2,5,5,5,5,5,5
+branch_bergs_modified.txt,B,Response 2,5,5,5,5,5,5
+branch_bergs_modified.txt,A,Argument 3,5,5,5,5,5,5
+branch_bergs_modified.txt,B,Response 3,4,4,5,5,4,4
+branch_bergs_modified_2.txt,A,Opening,5,5,5,5,5,5
+branch_bergs_modified_2.txt,B,Argument 1,5,5,5,5,5,5
+branch_bergs_modified_2.txt,A,Response 1,4,4,4,4,4,4
+branch_bergs_modified_2.txt,B,Argument 2,5,5,5,5,5,5
+branch_bergs_modified_2.txt,A,Response 2,3,3,3,4,3,3
+branch_bergs_modified_2.txt,B,Argument 3,4,4,5,5,5,5
+branch_bergs_modified_2.txt,A,Response 3,5,5,5,5,5,5
+branch_bergs_modified_2.txt,B,Opening,5,5,5,5,5,5
+branch_bergs_modified_2.txt,A,Argument 1,5,5,5,5,5,5
+branch_bergs_modified_2.txt,B,Response 1,4,4,4,5,5,4
+branch_bergs_modified_2.txt,A,Argument 2,5,4,5,4,4,4
+branch_bergs_modified_2.txt,B,Response 2,5,4,3,4,4,4
+branch_bergs_modified_2.txt,A,Argument 3,5,5,5,5,5,5
+branch_bergs_modified_2.txt,B,Response 3,5,5,4,4,5,5
+branch_early_universe_galaxies_cm_easy.new.txt,A,Opening,2,3,2,3,3,3
+branch_early_universe_galaxies_cm_easy.new.txt,B,Argument 1,4,5,4,4,4,4
+branch_early_universe_galaxies_cm_easy.new.txt,A,Response 1,4,5,4,4,4,4
+branch_early_universe_galaxies_cm_easy.new.txt,B,Argument 2,5,5,5,5,5,5
+branch_early_universe_galaxies_cm_easy.new.txt,A,Response 2,5,5,5,5,4,5
+branch_early_universe_galaxies_cm_easy.new.txt,B,Argument 3,4,5,4,4,4,4
+branch_early_universe_galaxies_cm_easy.new.txt,A,Response 3,4,4,4,4,4,4
+branch_early_universe_galaxies_cm_easy.new.txt,B,Opening,3,5,4,4,4,4
+branch_early_universe_galaxies_cm_easy.new.txt,A,Argument 1,3,4,3,3,3,3
+branch_early_universe_galaxies_cm_easy.new.txt,B,Response 1,4,4,4,3,5,4
+branch_early_universe_galaxies_cm_easy.new.txt,A,Argument 2,4,5,5,4,4,4
+branch_early_universe_galaxies_cm_easy.new.txt,B,Response 2,4,4,4,3,3,4
+branch_early_universe_galaxies_cm_easy.new.txt,A,Argument 3,5,5,4,5,4,5
+branch_early_universe_galaxies_cm_easy.new.txt,B,Response 3,4,4,4,3,4,4
+branch_early_universe_galaxies_cm_hard.new.txt,A,Opening,3,2,3,3,3,3
+branch_early_universe_galaxies_cm_hard.new.txt,B,Argument 1,3,4,4,4,4,4
+branch_early_universe_galaxies_cm_hard.new.txt,A,Response 1,4,4,3,3,3,3
+branch_early_universe_galaxies_cm_hard.new.txt,B,Argument 2,5,5,5,5,5,5
+branch_early_universe_galaxies_cm_hard.new.txt,A,Response 2,3,3,3,3,3,3
+branch_early_universe_galaxies_cm_hard.new.txt,B,Argument 3,5,5,4,5,5,5
+branch_early_universe_galaxies_cm_hard.new.txt,A,Response 3,3,4,3,3,3,3
+branch_early_universe_galaxies_cm_hard.new.txt,B,Opening,4,4,4,4,4,4
+branch_early_universe_galaxies_cm_hard.new.txt,A,Argument 1,3,3,3,3,3,3
+branch_early_universe_galaxies_cm_hard.new.txt,B,Response 1,4,4,5,4,4,4
+branch_early_universe_galaxies_cm_hard.new.txt,A,Argument 2,5,4,4,4,4,4
+branch_early_universe_galaxies_cm_hard.new.txt,B,Response 2,4,3,3,3,3,3
+branch_early_universe_galaxies_cm_hard.new.txt,A,Argument 3,5,5,5,5,5,5
+branch_early_universe_galaxies_cm_hard.new.txt,B,Response 3,3,3,2,3,3,3
+branch_gravitational_lens_modelling_cm.new.txt,A,Opening,5,5,5,5,5,5
+branch_gravitational_lens_modelling_cm.new.txt,B,Argument 1,4,4,4,4,5,4
+branch_gravitational_lens_modelling_cm.new.txt,A,Response 1,3,3,3,3,4,3
+branch_gravitational_lens_modelling_cm.new.txt,B,Argument 2,5,5,5,5,5,5
+branch_gravitational_lens_modelling_cm.new.txt,A,Response 2,3,3,3,4,4,3
+branch_gravitational_lens_modelling_cm.new.txt,B,Argument 3,4,4,4,4,4,4
+branch_gravitational_lens_modelling_cm.new.txt,A,Response 3,4,4,4,4,4,4
+branch_gravitational_lens_modelling_cm.new.txt,B,Opening,5,5,5,5,5,5
+branch_gravitational_lens_modelling_cm.new.txt,A,Argument 1,3,3,3,3,4,3
+branch_gravitational_lens_modelling_cm.new.txt,B,Response 1,2,2,2,2,3,2
+branch_gravitational_lens_modelling_cm.new.txt,A,Argument 2,3,3,3,3,4,3
+branch_gravitational_lens_modelling_cm.new.txt,B,Response 2,4,4,4,4,4,4
+branch_gravitational_lens_modelling_cm.new.txt,A,Argument 3,3,3,3,3,4,3
+branch_gravitational_lens_modelling_cm.new.txt,B,Response 3,3,3,3,3,3,3
+branch_gravitational_lens_modelling_cm_2.new.txt,A,Opening,5,5,5,5,5,5
+branch_gravitational_lens_modelling_cm_2.new.txt,B,Argument 1,5,5,5,5,5,5
+branch_gravitational_lens_modelling_cm_2.new.txt,A,Response 1,3,3,3,3,3,3
+branch_gravitational_lens_modelling_cm_2.new.txt,B,Argument 2,5,5,5,5,5,5
+branch_gravitational_lens_modelling_cm_2.new.txt,A,Response 2,4,4,4,3,3,4
+branch_gravitational_lens_modelling_cm_2.new.txt,B,Argument 3,4,4,4,5,4,4
+branch_gravitational_lens_modelling_cm_2.new.txt,A,Response 3,5,5,5,5,5,5
+branch_gravitational_lens_modelling_cm_2.new.txt,B,Opening,5,5,5,5,5,5
+branch_gravitational_lens_modelling_cm_2.new.txt,A,Argument 1,5,4,5,5,4,5
+branch_gravitational_lens_modelling_cm_2.new.txt,B,Response 1,3,3,3,3,3,3
+branch_gravitational_lens_modelling_cm_2.new.txt,A,Argument 2,5,5,4,5,4,5
+branch_gravitational_lens_modelling_cm_2.new.txt,B,Response 2,5,5,5,5,5,5
+branch_gravitational_lens_modelling_cm_2.new.txt,A,Argument 3,5,5,5,5,5,5
+branch_gravitational_lens_modelling_cm_2.new.txt,B,Response 3,2,2,3,2,2,2
+branch_internal_temperature_of_stars_3.new.txt,A,Opening,5,5,5,5,5,5
+branch_internal_temperature_of_stars_3.new.txt,B,Argument 1,5,5,5,5,5,5
+branch_internal_temperature_of_stars_3.new.txt,A,Response 1,4,4,4,4,4,4
+branch_internal_temperature_of_stars_3.new.txt,B,Argument 2,5,5,5,5,5,5
+branch_internal_temperature_of_stars_3.new.txt,A,Response 2,5,5,5,5,5,5
+branch_internal_temperature_of_stars_3.new.txt,B,Argument 3,5,5,4,5,4,5
+branch_internal_temperature_of_stars_3.new.txt,A,Response 3,5,5,5,5,5,5
+branch_internal_temperature_of_stars_3.new.txt,B,Opening,5,5,5,5,5,5
+branch_internal_temperature_of_stars_3.new.txt,A,Argument 1,4,4,4,4,4,4
+branch_internal_temperature_of_stars_3.new.txt,B,Response 1,4,4,4,4,4,4
+branch_internal_temperature_of_stars_3.new.txt,A,Argument 2,4,4,4,4,4,4
+branch_internal_temperature_of_stars_3.new.txt,B,Response 2,4,4,4,4,4,4
+branch_internal_temperature_of_stars_3.new.txt,A,Argument 3,4,4,4,4,4,4
+branch_internal_temperature_of_stars_3.new.txt,B,Response 3,5,5,5,5,5,5
+branch_internal_temperature_of_stars_cm.new.txt,A,Opening,5,5,5,5,5,5
+branch_internal_temperature_of_stars_cm.new.txt,B,Argument 1,5,5,5,5,5,5
+branch_internal_temperature_of_stars_cm.new.txt,A,Response 1,5,5,5,5,5,5
+branch_internal_temperature_of_stars_cm.new.txt,B,Argument 2,5,5,5,5,5,5
+branch_internal_temperature_of_stars_cm.new.txt,A,Response 2,5,5,5,5,5,5
+branch_internal_temperature_of_stars_cm.new.txt,B,Argument 3,5,5,5,5,5,5
+branch_internal_temperature_of_stars_cm.new.txt,A,Response 3,4,4,4,4,4,4
+branch_internal_temperature_of_stars_cm.new.txt,B,Opening,5,5,5,5,5,5
+branch_internal_temperature_of_stars_cm.new.txt,A,Argument 1,4,4,4,5,5,4
+branch_internal_temperature_of_stars_cm.new.txt,B,Response 1,5,5,5,5,5,5
+branch_internal_temperature_of_stars_cm.new.txt,A,Argument 2,4,4,4,5,5,4
+branch_internal_temperature_of_stars_cm.new.txt,B,Response 2,5,5,4,5,5,5
+branch_internal_temperature_of_stars_cm.new.txt,A,Argument 3,5,5,5,5,5,5
+branch_internal_temperature_of_stars_cm.new.txt,B,Response 3,5,5,4,5,5,5
+branch_large_linear_structure.new.txt,A,Opening,4,4,4,4,4,4
+branch_large_linear_structure.new.txt,B,Argument 1,4,4,4,4,4,4
+branch_large_linear_structure.new.txt,A,Response 1,3,3,3,3,3,3
+branch_large_linear_structure.new.txt,B,Argument 2,5,5,5,5,5,5
+branch_large_linear_structure.new.txt,A,Response 2,4,4,5,4,4,4
+branch_large_linear_structure.new.txt,B,Argument 3,5,4,5,5,5,5
+branch_large_linear_structure.new.txt,A,Response 3,3,3,3,3,3,3
+branch_large_linear_structure.new.txt,B,Opening,4,4,4,4,4,4
+branch_large_linear_structure.new.txt,A,Argument 1,5,4,5,4,5,5
+branch_large_linear_structure.new.txt,B,Response 1,4,4,4,4,4,4
+branch_large_linear_structure.new.txt,A,Argument 2,5,5,5,5,5,5
+branch_large_linear_structure.new.txt,B,Response 2,4,4,4,4,4,4
+branch_large_linear_structure.new.txt,A,Argument 3,4,4,5,5,4,4
+branch_large_linear_structure.new.txt,B,Response 3,5,4,4,4,4,4
+branch_large_linear_structure_2.new.txt,A,Opening,4,4,4,4,4,4
+branch_large_linear_structure_2.new.txt,B,Argument 1,4,4,4,4,4,4
+branch_large_linear_structure_2.new.txt,A,Response 1,3,3,3,2,3,3
+branch_large_linear_structure_2.new.txt,B,Argument 2,4,4,5,4,5,4
+branch_large_linear_structure_2.new.txt,A,Response 2,4,4,4,4,4,4
+branch_large_linear_structure_2.new.txt,B,Argument 3,5,4,5,4,4,4
+branch_large_linear_structure_2.new.txt,A,Response 3,3,3,3,3,3,3
+branch_large_linear_structure_2.new.txt,B,Opening,4,4,4,4,4,4
+branch_large_linear_structure_2.new.txt,A,Argument 1,4,4,4,4,4,4
+branch_large_linear_structure_2.new.txt,B,Response 1,4,4,4,4,4,4
+branch_large_linear_structure_2.new.txt,A,Argument 2,5,5,5,5,5,5
+branch_large_linear_structure_2.new.txt,B,Response 2,3,3,4,3,4,3
+branch_large_linear_structure_2.new.txt,A,Argument 3,4,4,4,4,4,4
+branch_large_linear_structure_2.new.txt,B,Response 3,2,2,2,2,3,2
+branch_little_red_dots.new.txt,A,Opening,5,5,4,5,5,5
+branch_little_red_dots.new.txt,B,Argument 1,4,4,4,4,4,4
+branch_little_red_dots.new.txt,A,Response 1,3,3,3,3,4,3
+branch_little_red_dots.new.txt,B,Argument 2,4,4,4,4,4,4
+branch_little_red_dots.new.txt,A,Response 2,4,4,4,4,4,4
+branch_little_red_dots.new.txt,B,Argument 3,5,5,5,5,5,5
+branch_little_red_dots.new.txt,A,Response 3,5,5,5,5,5,5
+branch_little_red_dots.new.txt,B,Opening,5,5,4,5,5,5
+branch_little_red_dots.new.txt,A,Argument 1,5,5,5,5,5,5
+branch_little_red_dots.new.txt,B,Response 1,4,4,3,3,4,4
+branch_little_red_dots.new.txt,A,Argument 2,3,2,2,3,3,3
+branch_little_red_dots.new.txt,B,Response 2,4,3,3,3,3,3
+branch_little_red_dots.new.txt,A,Argument 3,4,5,4,5,4,4
+branch_little_red_dots.new.txt,B,Response 3,5,4,4,4,4,4
+branch_little_red_dots_gr.new.txt,A,Opening,3,4,4,3,4,4
+branch_little_red_dots_gr.new.txt,B,Argument 1,4,4,4,4,4,4
+branch_little_red_dots_gr.new.txt,A,Response 1,3,3,3,3,3,3
+branch_little_red_dots_gr.new.txt,B,Argument 2,4,4,4,4,4,4
+branch_little_red_dots_gr.new.txt,A,Response 2,4,5,4,4,5,4
+branch_little_red_dots_gr.new.txt,B,Argument 3,3,4,3,3,3,3
+branch_little_red_dots_gr.new.txt,A,Response 3,4,5,5,4,5,5
+branch_little_red_dots_gr.new.txt,B,Opening,3,4,4,3,4,4
+branch_little_red_dots_gr.new.txt,A,Argument 1,5,5,5,4,5,5
+branch_little_red_dots_gr.new.txt,B,Response 1,4,4,4,3,4,4
+branch_little_red_dots_gr.new.txt,A,Argument 2,3,3,3,2,3,3
+branch_little_red_dots_gr.new.txt,B,Response 2,4,3,3,3,3,3
+branch_little_red_dots_gr.new.txt,A,Argument 3,3,3,3,3,3,3
+branch_little_red_dots_gr.new.txt,B,Response 3,5,5,4,4,5,5
+branch_switch_modified.txt,A,Opening,4,5,4,4,4,4
+branch_switch_modified.txt,B,Argument 1,5,5,5,5,5,5
+branch_switch_modified.txt,A,Response 1,5,5,5,5,5,5
+branch_switch_modified.txt,B,Argument 2,5,5,4,5,5,5
+branch_switch_modified.txt,A,Response 2,5,5,5,5,5,5
+branch_switch_modified.txt,B,Argument 3,5,5,5,5,5,5
+branch_switch_modified.txt,A,Response 3,5,5,5,5,5,5
+branch_switch_modified.txt,B,Opening,5,5,5,5,5,5
+branch_switch_modified.txt,A,Argument 1,5,5,5,5,5,5
+branch_switch_modified.txt,B,Response 1,4,4,4,4,4,4
+branch_switch_modified.txt,A,Argument 2,5,5,5,5,5,5
+branch_switch_modified.txt,B,Response 2,5,5,4,5,4,5
+branch_switch_modified.txt,A,Argument 3,5,5,5,5,5,5
+branch_switch_modified.txt,B,Response 3,5,5,5,5,5,5
+branch_switch_modified_v2.txt,A,Opening,4,4,4,4,5,4
+branch_switch_modified_v2.txt,B,Argument 1,5,5,5,5,5,5
+branch_switch_modified_v2.txt,A,Response 1,5,5,5,5,5,5
+branch_switch_modified_v2.txt,B,Argument 2,5,5,5,5,5,5
+branch_switch_modified_v2.txt,A,Response 2,5,5,5,5,5,5
+branch_switch_modified_v2.txt,B,Argument 3,5,5,5,5,5,5
+branch_switch_modified_v2.txt,A,Response 3,5,5,5,5,5,5
+branch_switch_modified_v2.txt,B,Opening,5,5,5,5,5,5
+branch_switch_modified_v2.txt,A,Argument 1,5,5,5,5,5,5
+branch_switch_modified_v2.txt,B,Response 1,3,4,3,3,4,3
+branch_switch_modified_v2.txt,A,Argument 2,5,5,5,5,5,5
+branch_switch_modified_v2.txt,B,Response 2,4,4,4,4,4,4
+branch_switch_modified_v2.txt,A,Argument 3,5,5,5,5,5,5
+branch_switch_modified_v2.txt,B,Response 3,4,4,4,4,5,4

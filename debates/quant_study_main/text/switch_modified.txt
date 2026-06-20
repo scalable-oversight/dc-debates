@@ -1,0 +1,209 @@
+================================================================================
+KEY QUESTION
+================================================================================
+
+Key Question: A train car is freely coasting around a large circular track. It is then switched to a smaller circular track. How does its speed change? Assume no friction.
+
+<img src='../images/switch.png'/>
+
+================================================================================
+DEFINITIONS
+================================================================================
+
+Angular velocity: The rate at which an object rotates about an axis, measured in radians per second (rad/s) and denoted by ω.
+
+Velocity relation: The equation ω = v/R, which relates the tangential (linear) speed v of a point on a rotating body to its angular velocity ω and the radius R of its circular path.
+
+Point mass: An idealized object with mass but no spatial extent, used to simplify analysis by ignoring rotation and internal structure.
+
+Rigid body: An idealized solid object in which the distance between every pair of points remains constant, so it can rotate as well as translate.
+
+Tangent: A straight line that touches a curve at exactly one point and points in the direction the curve is heading at that point.
+
+Radially: In the direction pointing toward or away from the center of a circular path.
+
+Tangentially: In the direction along the instantaneous velocity of an object moving on a curved path, i.e. perpendicular to the radial direction.
+
+Normal: Perpendicular to a surface or line at a given point.
+
+Positive work: Work done on an object when the applied force has a component in the same direction as the object's displacement, resulting in an increase in the object's kinetic energy.
+
+Constraint force: A force exerted by a surface, track, or other boundary that restricts an object's motion to a particular path.
+
+Kinetic energy (KE): The energy an object possesses due to its motion, equal to ½mv² for an object of mass m moving at speed v.
+
+--------------------------------------------------------------------------------
+Note: Exactly one of these debater's answers matches the answer of the expert who wrote the Key Question. Scroll to the top of this webpage to view the Key Question in full.
+--------------------------------------------------------------------------------
+
+================================================================================
+DEBATE — LEFT SIDE OF TABLE  (with reactions from the other debater)
+================================================================================
+
+────────────────────────────────────────────────────────────
+Debater A: [Opening]
+────────────────────────────────────────────────────────────
+
+The speed stays the same when we model the car as a point mass. It decreases slightly when modeled as a rigid body.
+
+   → ✘ Debater B objects
+
+Recursed on: Claim 1
+
+────────────────────────────────────────────────────────────
+Debater B: [Argument 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: A ball on a string spins faster when pulled inward. The same principle applies when the car transitions to a tighter radius.
+   → ✘ Debater A objects
+
+Claim 2: The connecting track provides a radially inward force that accelerates the car tangentially.
+   → ✘ Debater A objects
+
+Recursed on: Claim 1
+
+────────────────────────────────────────────────────────────
+Debater A: [Response 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: The string does work because, as the ball spirals inward, its velocity has a radial component aligned with the tension.
+   → ✔ Debater B fully agrees
+
+Claim 2: The fixed frictionless track exerts only a normal constraint force perpendicular to the car's velocity, so unlike the string it does no work.
+   → ✘ Debater B objects
+
+Recursed on: Claim 2
+
+────────────────────────────────────────────────────────────
+Debater B: [Argument 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: The curvature changes continuously along the connecting track, so the direction of the constraint force rotates.
+   → ✔ Debater A fully agrees
+
+Claim 2: This continuous rotation means that the force cannot remain perfectly perpendicular to the velocity at every instant.
+   → ✘ Debater A objects
+
+Recursed on: Claim 2
+
+────────────────────────────────────────────────────────────
+Debater A: [Response 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: The car's velocity is tangent to the track at every point. The constraint force is normal to the track, hence perpendicular to velocity.
+   → ✘ Debater B objects
+
+Claim 2: At every instant, the force and velocity rotate together, maintaining perpendicularity even as curvature changes.
+   → ✘ Debater B objects
+
+Recursed on: Claim 2
+
+────────────────────────────────────────────────────────────
+Debater B: [Argument 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: Along the transition arc, the rail's normal force rotates and grows as curvature tightens.
+   → ✔ 🚩 Debater A agrees but thinks this omits key info
+
+Claim 2: Centripetal acceleration varies in magnitude with the local radius of curvature, unlike on either circular section.
+   → ✔ 🚩 Debater A agrees but thinks this omits key info
+
+   → ✘ Debater A objects to the idea that these claims refute their argument
+
+Recursed on: the meta-claim
+
+────────────────────────────────────────────────────────────
+Debater A: [Response 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: These facts are true but do not refute Debater A Response 2 Claim 2.
+   → ✘ Debater B objects
+
+Claim 2: Imagine you're in the car. Velocity points out the windshield, your side doors are aligned with the track. Although you're turning, your doors stay exactly 90 degrees from your windshield.
+   → ✔ Debater B fully agrees
+
+================================================================================
+DEBATE — RIGHT SIDE OF TABLE  (with reactions from the other debater)
+================================================================================
+
+────────────────────────────────────────────────────────────
+Debater B: [Opening]
+────────────────────────────────────────────────────────────
+
+The speed increases if we model the car as a point mass. It also increases if we model it as a rigid body.
+
+   → ✘ Debater A objects
+
+Recursed on: Claim 1
+
+────────────────────────────────────────────────────────────
+Debater A: [Argument 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: On a frictionless track, the rails' constraint force does no work, so kinetic energy (KE) is conserved and speed cannot increase.
+   → ✘ Debater B objects
+
+Claim 2: There is no mechanism on a fixed frictionless track to add energy to the car.
+   → ✘ Debater B objects
+
+Recursed on: Claim 1
+
+────────────────────────────────────────────────────────────
+Debater B: [Response 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: If the rails truly do no work, then a point-mass car cannot lose speed on the smaller track.
+   → ✔ Debater A fully agrees
+
+Claim 2: Yet if kinetic energy is conserved and the rails do no work, then no slowdown should occur on a frictionless track for a rigid body model, contradicting Debater A Opening.
+   → ✘ Debater A objects
+
+Recursed on: Claim 2
+
+────────────────────────────────────────────────────────────
+Debater A: [Argument 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: A rigid body has both translational and rotational kinetic energy; a point mass has only translational.
+   → ✔ Debater B fully agrees
+
+Claim 2: On a tighter track, the body is forced to yaw with the curvature, and rotational energy increases at the expense of translational energy.
+   → ✘ Debater B objects
+
+Recursed on: Claim 2
+
+────────────────────────────────────────────────────────────
+Debater B: [Response 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: The rail forces that steer the rigid body do positive work and supply the rotational KE directly; it does not need to come from translational KE.
+   → ✘ Debater A objects
+
+Claim 2: Since ω = v/R, any drop in v also reduces ω, so the rotational KE does not have to increase.
+   → ✘ Debater A objects
+
+Recursed on: Claim 2
+
+────────────────────────────────────────────────────────────
+Debater A: [Argument 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: Whether ω = v/R rises or falls depends on whether v or R changes faster. Energy conservation gives v₂ > v₁·R₂/R₁.
+   → ✔ 🚩 Debater B agrees but thinks this omits key info
+
+Claim 2: For any choice of m, I, R₁>R₂, this gives v₂/v₁ > R₂/R₁, so ω = v/R increases.
+   → ✔ 🚩 Debater B agrees but thinks this omits key info
+
+   → ✘ Debater B objects to the idea that these claims refute their argument
+
+Recursed on: the meta-claim
+
+────────────────────────────────────────────────────────────
+Debater B: [Response 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: The formula ω = v/R is a 'point-mass formula' that applies only to a tiny point mass moving on a circle of radius R.
+   → ✘ Debater A objects
+
+Claim 2: The center of mass does not ride on the rail's radius, so you can't plug in the velocity at the center of mass for v and the rail radius for R.
+   → ✔ Debater A fully agrees

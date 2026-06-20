@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debate>
+<title>Large Linear Structure</title>
+
+<defs>
+  <def id="tully_fisher_relation">Tully-Fisher relation - A widely verified empirical relationship between the mass or intrinsic luminosity of a spiral galaxy and its asymptotic rotation velocity or emission line width.</def>
+
+  <def id="recoil">Recoil - Merging black holes release a massive amount of energy in the form of gravitational waves, and this can happen anisotropically, kicking the resulting black hole in a direction opposite to the released gravitational waves. A strongly recoiling SMBH can look like a line emerging out of a galaxy.</def>
+
+  <def id="globular_clusters">Globular clusters - Globular clusters are dense groups of tens of thousands to millions of stars, tightly bound by gravity into a spheroidal shape, orbiting galaxies often in their halos.</def>
+
+  <def id="bulgeless_edge_on_galaxy">Bulgeless edge-on galaxy - A disc-shaped galaxy that is viewed edge-on from Earth, making it look like a line in the sky.</def>
+
+  <def id="smbh">Supermassive black hole (SMBH) - An extremely massive black hole, typically millions to billions of solar masses, found at the center of most galaxies.</def>
+
+  <def id="velocity_gradient">Velocity gradient - The rate at which the velocity of stars or gas changes with position across an astrophysical object, used to infer its internal dynamics and classify its nature.</def>
+</defs>
+
+<sources>
+  <ref id="pvd_cj_et_al"
+       quote="Year and title blinded from debate judges."
+       author="P. D. et al.">
+    <img src="images/figure_1_pvd_cj_et_al.png" caption="Figure 1"/>
+    <img src="images/figure_5_pvd_cj_et_al.png" caption="Figure 5"/>
+    <img src="images/figure_10_pvd_cj_et_al.png" caption="Figure 10"/>
+  </ref>
+
+  <ref id="jsa_et_al"
+       quote="Year and title blinded from debate judges."
+       author="J. S. A. et al.">
+    <img src="images/figure_2_jsa_et_al.png" caption="Figure 2"/>
+    <img src="images/figure_1_jsa_et_al.png" caption="Figure 1"/>
+  </ref>
+
+  <ref id="mm_et_al"
+       quote="Year and title blinded from debate judges."
+       author="M. M. et al.">
+    <img src="images/lls_figure_1_mm_et_al.png" caption="Figure 1"/>
+  </ref>
+</sources>
+
+<question id="claim_0">
+  Here is a picture of a real astrophysical system in different filters. What is the best plausible theoretical model to describe this system?
+
+  <answer id="claim_1" speaker="H" honest_response="Yes" dishonest_response="No">
+    The best plausible theoretical model to describe this system is a runaway <a xdef="smbh">supermassive black hole</a> (SMBH) (<ref id="pvd_cj_et_al"/>).
+    <answer id="claim_3" speaker="D" honest_response="Yes but omits key info" dishonest_response="Yes">Supermassive black holes are typically found within a few parsecs of the center of galaxies.</answer>
+    <answer id="claim_4" speaker="D" honest_response="Yes but omits key info" dishonest_response="Yes">If this hypothesis were true, the SMBH would have to be located ~40 kiloparsecs away from its host galaxy.</answer>
+    <answer id="claim_38" speaker="D" honest_response="No" dishonest_response="Yes">
+      Therefore, you should reject <xref rid="claim_1"/>.
+      <answer id="claim_9" speaker="H" honest_response="Yes" dishonest_response="Yes">SMBH <a xdef="recoil">recoil</a> can eject SMBHs from the centers of their host galaxy during a merger.</answer>
+      <answer id="claim_10" speaker="H" honest_response="Yes" dishonest_response="No">
+        The galaxy shows signs of a recent merger (<ref id="pvd_cj_et_al"/>), which supports the hypothesis that the linear structure could be a trail of star formation left in the wake of a recoiling SMBH.
+        <answer id="claim_12" speaker="D" honest_response="Yes" dishonest_response="Yes"><a xdef="globular_clusters">Globular clusters</a> are old, massive and compact structures that travel through the circumgalactic medium (CGM).</answer>
+        <answer id="claim_13" speaker="D" honest_response="No" dishonest_response="Yes">
+          If the passage of a black hole through the CGM caused star formation, we would observe similar trails for globular clusters, but in practice we do not.
+          <answer id="claim_15" speaker="H" honest_response="Yes" dishonest_response="Yes">The SMBH in this model is traveling at supersonic speeds along its trajectory.</answer>
+          <answer id="claim_16" speaker="H" honest_response="Yes" dishonest_response="No">
+            The bow shock due to this supersonic travel would cause star formation along the way. Globular clusters do not form a bow shock in the CGM, and thus would not have star forming trails.
+            <answer id="claim_18" speaker="D" honest_response="Yes" dishonest_response="Yes"><figref rid="mm_et_al" fig="1">Figure 1</figref> in <ref id="mm_et_al"/> shows that the color of the stars along the hypothesised wake fluctuates.</answer>
+            <answer id="claim_19" speaker="D" honest_response="No" dishonest_response="Yes">
+              If the star formation was caused by the bow shock of a passing SMBH, the age of the stars would monotonically decrease along the structure, but the observed fluctuating color does not support that.
+              <answer id="claim_21" speaker="H" honest_response="Yes" dishonest_response="Yes but omits key info">While a broad age gradient is expected along the wake, the color fluctuations can be explained by alternating red and blue supergiants in the trail.</answer>
+              <answer id="claim_22" speaker="H" honest_response="Yes" dishonest_response="Yes but omits key info">Star formation will not only occur at the bow shock, but after the passage of the SMBH as well, which would also add fluctuations to the stellar age.</answer>
+              <answer id="claim_39" speaker="H" honest_response="Yes" dishonest_response="No">Therefore, you should reject <xref rid="claim_19"/>.</answer>
+            </answer>
+            <answer id="claim_40" speaker="D" dishonest_response="Yes">Therefore, you should reject <xref rid="claim_16"/>.</answer>
+          </answer>
+          <answer id="claim_41" speaker="H" honest_response="Yes">Therefore, you should reject <xref rid="claim_13"/>.</answer>
+        </answer>
+        <answer id="claim_42" speaker="D" dishonest_response="Yes">Therefore, you should reject <xref rid="claim_10"/>.</answer>
+      </answer>
+      <answer id="claim_43" speaker="H" honest_response="Yes">Therefore, you should reject [None].</answer>
+    </answer>
+  </answer>
+  <answer id="claim_2" speaker="D" honest_response="No" dishonest_response="Yes">
+    The best plausible theoretical model to describe this system is a <a xdef="bulgeless_edge_on_galaxy">bulgeless edge-on galaxy</a> (<ref id="jsa_et_al"/>).
+    <answer id="claim_6" speaker="H" honest_response="Yes" dishonest_response="Yes but omits key info">The line ratio of the linear object ([OIII]/H𝜷) far exceeds the ratio expected from a galaxy.</answer>
+    <answer id="claim_7" speaker="H" honest_response="Yes" dishonest_response="Yes but omits key info">Additionally, the structure is not entirely linear, which would be expected if it were a bulgeless edge-on galaxy.</answer>
+    <answer id="claim_44" speaker="H" honest_response="Yes" dishonest_response="No">
+      Therefore, you should reject <xref rid="claim_2"/>.
+      <answer id="claim_24" speaker="D" honest_response="Yes" dishonest_response="Yes">The <a xdef="tully_fisher_relation">Tully-Fisher relation</a> is used to classify objects as galaxies based on their estimated stellar mass and maximum rotational velocity.</answer>
+      <answer id="claim_25" speaker="D" honest_response="No" dishonest_response="Yes">
+        The linear object satisfies the Tully-Fisher relation, making it a strong candidate for a bulgeless edge-on galaxy (<figref rid="jsa_et_al" fig="2">Figure 2</figref> in <ref id="jsa_et_al"/>).
+        <answer id="claim_27" speaker="H" honest_response="Yes" dishonest_response="Yes">Satisfying the Tully-Fisher relation is not sufficient to classify an object as a galaxy given observational inconsistencies.</answer>
+        <answer id="claim_28" speaker="H" honest_response="Yes" dishonest_response="No">
+          The <a xdef="velocity_gradient">velocity gradient</a> near the edge of the object is too large for it to be classified as a galaxy (<figref rid="pvd_cj_et_al" fig="1">Figure 1</figref>, <figref rid="pvd_cj_et_al" fig="5">Figure 5</figref> in <ref id="pvd_cj_et_al"/>).
+          <answer id="claim_30" speaker="D" honest_response="Yes" dishonest_response="Yes">IC5249 is an observationally confirmed bulgeless edge-on galaxy.</answer>
+          <answer id="claim_31" speaker="D" honest_response="No" dishonest_response="Yes">
+            The position vs rotational velocity gradient of the stars in the structure resembles the gradient of IC5249 (<figref rid="jsa_et_al" fig="1">Figure 1</figref> in <ref id="jsa_et_al"/>), suggesting that they're the same class of objects.
+            <answer id="claim_33" speaker="H" honest_response="Yes" dishonest_response="Yes">The velocity and flux gradients of IC5249 appear smoother than those of the object in your figure.</answer>
+            <answer id="claim_34" speaker="H" honest_response="Yes" dishonest_response="No">
+              Additionally, the position vs rotational velocity curve you present is only part of the entire linear structure. The full gradient of the object (<figref rid="pvd_cj_et_al" fig="10">Figure 10</figref> in <ref id="pvd_cj_et_al"/>) does not match that of a galaxy.
+              <answer id="claim_36" speaker="D" honest_response="Yes but omits key info" dishonest_response="Yes">The fitted function that you present here also appears to include a part of the galaxy on the left side, with velocity measurements close to 0 on the far left.</answer>
+              <answer id="claim_37" speaker="D" honest_response="Yes but omits key info" dishonest_response="Yes">Galactic mergers can leave extended trails of star formation between merging galaxies, offering an alternative explanation for the galaxy hypothesis.</answer>
+              <answer id="claim_45" speaker="D" honest_response="No" dishonest_response="Yes">Therefore, you should reject <xref rid="claim_34"/>.</answer>
+            </answer>
+            <answer id="claim_46" speaker="H" honest_response="Yes">Therefore, you should reject <xref rid="claim_31"/>.</answer>
+          </answer>
+          <answer id="claim_47" speaker="D" dishonest_response="Yes">Therefore, you should reject <xref rid="claim_28"/>.</answer>
+        </answer>
+        <answer id="claim_48" speaker="H" honest_response="Yes">Therefore, you should reject <xref rid="claim_25"/>.</answer>
+      </answer>
+      <answer id="claim_49" speaker="D" dishonest_response="Yes">Therefore, you should reject [None].</answer>
+    </answer>
+  </answer>
+</question>
+</debate>

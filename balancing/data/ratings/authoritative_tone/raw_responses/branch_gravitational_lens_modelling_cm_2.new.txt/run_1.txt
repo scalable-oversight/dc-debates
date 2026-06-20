@@ -1,0 +1,236 @@
+I'll analyze each turn for authoritative tone, examining language choices, confidence, and expertise signals.
+
+---
+
+**1. Debater A: [Opening] (Left Side)**
+
+"The Einstein zig-zag lens model ([F. D. et al.]) with two deflectors (white galaxy and red galaxy behind it) at different redshifts, and one AGN which produces 6 lensed images after being lensed by both deflectors."
+
+- Uses technical terminology confidently ("Einstein zig-zag lens model," "deflectors," "redshifts," "lensed images")
+- States the model directly without hedging
+- The citation adds a layer of authority
+- However, it's fairly brief and descriptive without elaboration or argumentation, which slightly limits the commanding impression
+- No uncertainty language, but also no deep elaboration
+
+**Rating: 3**
+
+---
+
+**2. Debater B: [Argument 1] (Left Side)**
+
+Claim 1: "The Einstein zig-zag lens model is overfit, due to the modeling decisions made for the second deflector and the galaxies in the first deflector's plane."
+Claim 2: "Also, F. D. et al. do not quantify or report chi-squared error, an important index of image reconstruction error."
+
+- "Overfit" is a precise, technical term used confidently
+- "Modeling decisions" is slightly vague but paired with specific technical context
+- "chi-squared error" and "image reconstruction error" are specific technical metrics, demonstrating domain knowledge
+- Calling chi-squared "an important index" asserts evaluative authority
+- "Also" as a connector is slightly casual, mildly undermining
+- Overall, confident and technically grounded
+
+**Rating: 4**
+
+---
+
+**3. Debater A: [Response 1] (Left Side)**
+
+Claim 1: "The mass profile of the second deflector appears likely to have a significant effect on the modelling when it is close to the optical axis."
+Claim 2: "Taking galaxy positions into account allows one to more accurately model a more complex mass distribution than a simple shear."
+
+- "appears likely" is hedging language that undermines authority
+- "mass profile," "optical axis," "mass distribution," "shear" — good technical vocabulary
+- "allows one to more accurately model" is somewhat passive/impersonal but not weak
+- "simple shear" signals awareness of model hierarchy
+- The hedging in Claim 1 is a notable weakness for authority
+
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2] (Left Side)**
+
+Claim 1: "This fails to reveal that the model has 30 total parameters, compared to 12 parameters used in other work."
+Claim 2: "This provides an enormous degree of modelling flexibility and results in overfitting."
+
+- "fails to reveal" is a strong, accusatory phrase that conveys authority and critique
+- Specific numbers (30 vs. 12) demonstrate precise technical knowledge
+- "enormous degree of modelling flexibility" — confident, evaluative language
+- "results in overfitting" — direct causal claim, no hedging
+- Concise and assertive throughout
+
+**Rating: 4**
+
+---
+
+**5. Debater A: [Response 2] (Left Side)**
+
+Claim 1: "A simpler model is not necessarily a correct or accurate model of the system in question."
+Claim 2: "Fifteen parameters in our model are only partially constrained, and therefore should not count as full degrees of freedom."
+
+- Claim 1 is a general methodological principle stated confidently — authoritative in tone
+- "not necessarily" is mild hedging but is standard in scientific argumentation
+- Claim 2 uses specific numbers and technical reasoning ("partially constrained," "degrees of freedom") — strong authority signals
+- "should not count as full degrees of freedom" is assertive and technically precise
+- Overall confident and technically grounded
+
+**Rating: 4**
+
+---
+
+**6. Debater B: [Argument 3] (Left Side)**
+
+Claim 1: "Constraints don't actually fix them in place: they are themselves determined via different models that come with their own errors and uncertainties."
+Claim 2: "Furthermore, all galaxy positions and redshifts except for the main deflector can vary considerably, adding even more freedom to an already complex model."
+
+- "don't actually fix them in place" — confident counter-argument language
+- "errors and uncertainties" is standard but slightly vague
+- "vary considerably" — somewhat vague quantifier
+- "an already complex model" — evaluative and assertive
+- "Furthermore" signals structured argumentation
+- Moderately authoritative; the language is assured but lacks the precision of some other turns
+
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3] (Left Side)**
+
+Claim 1: "Direct spectroscopy of the second deflector pins down its distance (its redshift) tightly, regardless of the lens model."
+Claim 2: "On top of that, Hubble imaging fixes the on-sky positions to a fraction of an arcsecond."
+
+- "Direct spectroscopy" — highly specific technical method, very authoritative
+- "pins down...tightly" — confident, vivid language
+- "regardless of the lens model" — dismissive of counter-concern, very commanding
+- "Hubble imaging" — invokes a prestigious, well-known instrument
+- "fixes...to a fraction of an arcsecond" — extremely precise, expert-level quantification
+- Strong technical vocabulary throughout, confident and specific
+
+**Rating: 5**
+
+---
+
+**8. Debater B: [Opening] (Right Side)**
+
+"The gravitationally lensed dual-AGN model ([C. S. M. et al.]), with the first AGN corresponding to the four brightest images and the second AGN corresponding to the two dim images next to the extended red arcs."
+
+- Technical vocabulary: "gravitationally lensed," "dual-AGN," "extended red arcs"
+- Citation adds credibility
+- Specific image correspondence details show familiarity with the data
+- Fairly brief and descriptive without elaboration
+- No hedging, but limited depth of argumentation
+- Similar to Debater A's opening in structure and register
+
+**Rating: 3**
+
+---
+
+**9. Debater A: [Argument 1] (Right Side)**
+
+Claim 1: "Spectroscopy constrains the redshift of the lensed red galaxy to be 1.88, which places it between the main deflector and alleged dual-AGN."
+Claim 2: "The dual-AGN model's lens model should include the mass profile of the red galaxy in order to be valid, but it does not."
+
+- "Spectroscopy constrains" — precise technical language, very authoritative
+- Specific redshift value (1.88) demonstrates data familiarity
+- "alleged dual-AGN" — subtle but effective skeptical framing
+- "in order to be valid, but it does not" — strong, direct critique with no hedging
+- "should include the mass profile" — clear methodological assertion
+- Overall highly authoritative
+
+**Rating: 4**
+
+---
+
+**10. Debater B: [Response 1] (Right Side)**
+
+Claim 1: "Inclusion of the red galaxy in the lens model will, on the whole, produce only minor changes in the caustics at the redshift of the dual-AGN."
+Claim 2: "The added mass will in turn allow for a relatively larger separation between the two AGN, as one might reasonably expect."
+
+- "caustics at the redshift of the dual-AGN" — specific technical language
+- "on the whole" and "relatively larger" are hedging phrases that slightly undermine authority
+- "as one might reasonably expect" — very hedged, appeals to general expectation rather than specific evidence, notably weakens authority
+- "Inclusion of...will...produce" is confident causal language
+- Mixed signals: technically sound vocabulary undermined by hedging phrases
+
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2] (Right Side)**
+
+Claim 1: "The presence of a second deflector enables models in which one single source can produce 6 observed images."
+Claim 2: "Single-AGN models remain consistent with all available data, making the dual-AGN model unnecessary."
+
+- "enables models in which" — technically sound but slightly neutral
+- "remain consistent with all available data" — strong, sweeping assertion
+- "making the dual-AGN model unnecessary" — confident, dismissive conclusion
+- "all available data" is a strong claim that conveys total command of the evidence
+- Claim 2 is particularly assertive and authoritative
+- Clean, confident language throughout
+
+**Rating: 4**
+
+---
+
+**12. Debater B: [Response 2] (Right Side)**
+
+Claim 1: "A single source being lensed to produce 6 images requires a specific morphology which has never been observed before."
+Claim 2: "A dual-AGN is an observed phenomenon that does not invoke overcomplicated hypotheses or unobserved morphologies."
+
+- "specific morphology which has never been observed before" — strong empirical claim, authoritative
+- "overcomplicated hypotheses" — evaluative and confident language
+- "observed phenomenon" — appeals to empirical grounding, adds authority
+- "does not invoke" — direct and assertive
+- Claim 2's appeal to parsimony is a methodological argument stated confidently
+- Both claims are well-structured and assertive
+
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3] (Right Side)**
+
+Claim 1: "Light curves for all 6 lensed images display the same variations with brief offsets (e.g. 35 days between D and E), and the same redshifts. But C. S. M. et al. claim that D and E correspond to AGN that are 6 kiloparsecs away from each other."
+Claim 2: "Light curves this similar can only be generated by a single source."
+
+- "35 days between D and E" — very specific quantitative data, highly authoritative
+- "6 kiloparsecs" — precise measurement cited as evidence
+- "can only be generated by a single source" — absolute, unhedged conclusion, very commanding
+- Naming specific images (D and E) shows detailed knowledge of the data
+- The contrast structure ("same variations...same redshifts. But...claim") is rhetorically effective
+- Overall very confident and data-driven
+
+**Rating: 5**
+
+---
+
+**14. Debater B: [Response 3] (Right Side)**
+
+Claim 1: "Activity in one AGN can set off activity in the other AGN in a dual-AGN system, causing correlated emissions."
+Claim 2: "Correlated emissions can make two different objects look like a single object under some circumstances."
+
+- "can set off activity" — somewhat casual phrasing, not highly technical
+- "correlated emissions" — technical term used correctly
+- "under some circumstances" — significant hedging that weakens authority
+- "can make two different objects look like a single object" — somewhat colloquial phrasing
+- Both claims use "can" — possibility rather than certainty, which is inherently less authoritative
+- The response is plausible but tentatively stated throughout; lacks the precision and assertiveness of stronger turns
+
+**Rating: 2**
+
+---
+
+RATINGS:
+A | Opening | [[3]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[4]]
+A | Response 2 | [[4]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[5]]
+B | Opening | [[3]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[5]]
+B | Response 3 | [[2]]

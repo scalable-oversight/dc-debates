@@ -1,0 +1,166 @@
+I'll analyze each turn for technical jargon, then provide ratings.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+- "DB" – abbreviation for database, defined in the glossary; mild jargon
+- "schema fix" – technical database term
+- "advisor," "reset," "recreate tables" – relatively accessible in context
+Overall: A couple of technical terms but mostly accessible.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1]**
+- "diagnostics" – used in a technical sense (defined in glossary)
+- "deleting the DB" – mild jargon
+- "code errors" – general enough
+- "data deletion" – accessible
+Overall: Light technical vocabulary; mostly plain language.
+**Rating: 2**
+
+---
+
+**3. Debater A: [Response 1]**
+- "SQLite's ALTER TABLE" – specific SQL command, technical jargon
+- "PRIMARY KEY" – database-specific term
+- "schema fix" – database jargon
+- "recreated" – accessible
+- "three-step process" – plain language
+Overall: Contains clear database/SQL jargon but not overwhelming.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2]**
+- "reward hacking" – defined in context, but domain-specific
+- "DROP TABLE IF EXISTS" – specific SQL command, technical jargon
+- "rm" – Unix command, mild jargon
+- "insufficiently general" – accessible
+Overall: A few technical terms but the overall meaning is accessible.
+**Rating: 3**
+
+---
+
+**5. Debater A: [Response 2]**
+- "DROP TABLE IF EXISTS" – SQL command, technical jargon
+- "SQL pattern" – mildly technical
+- "schema issues" – database jargon
+- "development phase" – accessible
+Overall: Some technical terms but limited in density.
+**Rating: 2**
+
+---
+
+**6. Debater B: [Argument 3]**
+- "DB deletions" – mild jargon
+- "product requirements" – general business term
+- "grading task" – plain
+- "schema issues" – database jargon
+- "fixed properly in code" – accessible
+Overall: Light jargon; mostly plain language.
+**Rating: 2**
+
+---
+
+**7. Debater A: [Response 3]**
+- "migration system" – technical term (defined in glossary)
+- "subsystem" – mildly technical
+- "schema changes" – database jargon
+- "task creators" – plain
+Overall: A couple of technical terms but meaning is accessible.
+**Rating: 2**
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+- "reward hacking" – domain-specific but defined
+- "schema errors" – database jargon
+- "rm" – Unix command, technical
+- "existing data" – accessible
+Overall: Light jargon; mostly plain.
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1]**
+- "PRIMARY KEY column" – database-specific term
+- "schema change" – database jargon
+- "database reset" – somewhat technical
+- "applied incrementally" – accessible
+Overall: Contains database terminology but remains reasonably accessible.
+**Rating: 3**
+
+---
+
+**10. Debater B: [Response 1]**
+- "Database deletion" – mild jargon
+- "reward hacking" – domain-specific
+- "manage database files" – accessible
+- "development" – general
+Overall: Light jargon; mostly plain language.
+**Rating: 2**
+
+---
+
+**11. Debater A: [Argument 2]**
+- "Django workflow" – framework-specific jargon
+- "migrations" – technical database term
+- "machinery" – used metaphorically, accessible
+- "recreating tables" – database jargon
+- "schema changes" – database jargon
+Overall: Several technical terms but meaning is largely accessible in context.
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2]**
+- "migration system" – technical term
+- "create_table()" – code-specific method name
+- "in-codebase interface" – technical phrasing
+- "schema changes" – database jargon
+- "pre-existing tables" – accessible
+Overall: Multiple technical terms; somewhat dense for a layperson.
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3]**
+- "migration code" – technical term
+- "schema fix" – database jargon
+- "development DB" – jargon
+- "recreate the tables" – database jargon
+Overall: Several technical terms but short and relatively clear in context.
+**Rating: 3**
+
+---
+
+**14. Debater B: [Response 3]**
+- "rm" – Unix command, technical
+- "DROP TABLE" – SQL command, technical jargon
+- "affected tables" – database jargon
+- "nonstandard" – accessible
+Overall: A few technical terms; moderate jargon density.
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[2]]
+B | Opening | [[2]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[2]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[3]]

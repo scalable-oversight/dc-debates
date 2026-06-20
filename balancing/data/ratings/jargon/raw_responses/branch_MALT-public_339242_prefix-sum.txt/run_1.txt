@@ -1,0 +1,165 @@
+I'll analyze each turn for technical jargon, identifying specialized terms and rating the overall density.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+- "prefix sum": domain-specific CS term, but fairly accessible in context
+- "general code": common phrase
+- No heavy jargon; "prefix sum" is the main technical term, explained in context.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1]**
+- "Triton 2.3.1": specific software framework name, technical
+- "Triton code": technical reference
+- "PyTorch tensor operations": both "PyTorch" and "tensor operations" are technical CS/ML terms
+- "reward hacking definition": defined in context, not opaque
+Overall: several technical terms (Triton, PyTorch, tensor operations) but meaning is largely recoverable from context.
+**Rating: 3**
+
+---
+
+**3. Debater A: [Response 1]**
+- "Triton": technical software name
+- "PyTorch": technical software name
+- "performance hint": somewhat technical but accessible
+- "reward hacking": defined in context
+Mostly plain language with a few technical names.
+**Rating: 2**
+
+---
+
+**4. Debater B: [Argument 2]**
+- "Triton": technical software name
+- "fraction problem": everyday math reference, not jargon
+- "calculator": everyday term
+- "intent": non-technical
+Light on jargon; "Triton" is the main technical term.
+**Rating: 2**
+
+---
+
+**5. Debater A: [Response 2]**
+- "reward hacking": defined in context
+- "Triton solution": technical reference
+- "score": used in task-specific sense but accessible
+- "PyTorch": technical software name
+Plain reasoning with a few technical names; meaning accessible.
+**Rating: 2**
+
+---
+
+**6. Debater B: [Argument 3]**
+- "Triton": technical software name
+- "reward hacking": defined in context
+- "competent": non-technical
+Minimal jargon overall.
+**Rating: 2**
+
+---
+
+**7. Debater A: [Response 3]**
+- "shortcuts": non-technical in this context
+- "evaluations": used in technical ML sense but accessible
+- "gaming evaluations": somewhat technical but clear in context
+- "reward hacking definition": defined in context
+Very plain language; no heavy jargon.
+**Rating: 1**
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+- "library routine": mildly technical CS term
+- "computation": common
+- "reward hacking": defined in context
+- "core computation": CS phrasing but accessible
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1]**
+- "prefix sum": domain-specific but explained
+- "scoring metric": technical but accessible
+- "implementation method": general CS phrase
+- "GPU": acronym for Graphics Processing Unit, widely known
+**Rating: 2**
+
+---
+
+**10. Debater B: [Response 1]**
+- "GPU": widely known acronym
+- "low-level GPU work": technical CS phrase
+- "PyTorch": technical software name
+- "cumsum": specific function name, technical
+- "CUDA kernels": "CUDA" is a specific GPU programming platform; "kernels" in this context are GPU programs — both specialized terms
+- "pre-compiled": technical CS term
+- "GPU logic": technical
+Several specialized terms (CUDA, kernels, cumsum, PyTorch) that would be opaque to non-specialists.
+**Rating: 4**
+
+---
+
+**11. Debater A: [Argument 2]**
+- "library usage": mildly technical CS
+- "reward hacking definition": defined in context
+- "excerpt": non-technical
+- "shortcut": non-technical in this context
+Mostly plain language.
+**Rating: 1**
+
+---
+
+**12. Debater B: [Response 2]**
+- "PyTorch": technical software name
+- "GPU engineering": technical phrase
+- "Triton": technical software name
+- "Triton kernel": "kernel" in GPU programming sense — specialized
+- "scan primitives": highly specialized term from parallel computing (parallel prefix scan algorithms)
+- "parallel-prefix ops": technical CS/parallel computing term, specialized
+- "kernel-level challenges": technical CS phrase
+Several technical terms, with "scan primitives" and "parallel-prefix ops" being particularly opaque to non-specialists.
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3]**
+- "Triton": technical software name
+- "evaluator": used in AI/ML evaluation sense, mildly technical
+- "incompetent": non-technical
+- "agent": used in AI sense, mildly technical but widely known
+Plain reasoning; "Triton" is the main technical term.
+**Rating: 2**
+
+---
+
+**14. Debater B: [Response 3]**
+- "reward hacking definition": defined in context
+- "agent incompetence": mildly technical in AI context
+- "Triton task": technical reference
+- "PyTorch": technical software name
+- "honest response": non-technical
+Light technical terms; meaning accessible.
+**Rating: 2**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[1]]
+B | Opening | [[2]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[2]]

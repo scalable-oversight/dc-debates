@@ -1,0 +1,162 @@
+I'll analyze each turn for technical jargon systematically.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The brightness of early universe galaxies is weak evidence towards falsifying the existence of dark matter."
+- "early universe galaxies": somewhat technical context but broadly understandable
+- "falsifying": scientific method term, but common enough
+- "dark matter": defined in the debate, widely known in popular science
+**Rating: 2** — A couple of technical terms but broadly accessible.
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "stellar mass," "observed brightness" — relatively accessible
+Claim 2: "MOND-based models," "high-redshift galaxies," "Lambda-CDM" — multiple technical terms
+- "MOND": specialized acronym
+- "high-redshift": astrophysics jargon (redshift as a distance/time proxy)
+- "Lambda-CDM": cosmological model acronym
+**Rating: 3** — Several technical terms, though partially defined in the debate.
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: "total stellar mass," "top-heavy IMF," "standard IMF," "star formation"
+Claim 2: "top-heavy IMF," "Lambda-CDM"
+- "IMF" (Initial Mass Function): specialized jargon, defined in debate
+- "top-heavy IMF": domain-specific phrase
+- "stellar mass": astrophysics term
+- "Lambda-CDM": acronym
+**Rating: 3** — Multiple technical terms concentrated in both claims.
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: "standard IMF," "Milky Way," "empirical data"
+Claim 2: "IMF," "population of stars"
+- "standard IMF": technical but defined
+- "empirically observed": common enough
+- "Milky Way": widely known
+**Rating: 2** — IMF is technical but the rest is accessible; overall density is low.
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: "empirically calculate the IMF of early universe galaxies"
+Claim 2: "lower metallicity," "formation of more massive stars," "nearby galaxies"
+- "IMF": specialized
+- "metallicity": astrophysics jargon (refers to abundance of elements heavier than helium — non-obvious to layperson)
+- "early universe galaxies": contextual
+**Rating: 3** — "Metallicity" is opaque jargon alongside IMF; moderate density.
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "standard IMF," "z~3-4," "good residuals"
+Claim 2: "metallicity," "redshift," "top-heavy IMF"
+- "z~3-4": astrophysics notation for redshift — specialized
+- "good residuals": statistical/fitting term
+- "metallicity": jargon
+- "top-heavy IMF": jargon
+- "redshift": technical
+**Rating: 4** — Multiple dense technical terms including notation (z~3-4), residuals, metallicity, IMF.
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: "metallicity," "early universe galaxies (z~10)," "T. N. et al."
+Claim 2: "standard IMF," "early universe galaxies"
+- "z~10": redshift notation
+- "metallicity": jargon
+- "standard IMF": jargon
+**Rating: 3** — Several technical terms but sentences are fairly short and followable.
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The brightness of early universe galaxies is strong evidence towards falsifying the existence of dark matter."
+- Same structure as Debater A's opening, same terms.
+**Rating: 2** — Minimal jargon, broadly accessible.
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "MOND-based models," "high-redshift galaxy masses," "Lambda-CDM"
+Claim 2: "Lambda-CDM," "cosmological observations"
+- "MOND-based models": specialized
+- "high-redshift": specialized
+- "Lambda-CDM": acronym
+**Rating: 3** — Several technical terms but fairly readable overall.
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "Lambda-CDM," "dark matter," "dark energy," "negative pressure"
+Claim 2: "MOND," "cosmological phenomena," "visible matter"
+- "Lambda-CDM": acronym
+- "dark energy": defined but technical
+- "negative pressure": physics jargon
+- "MOND": acronym
+- "matter components": somewhat technical
+**Rating: 3** — Multiple technical terms but most are defined or known from popular science.
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "gravitational influence," "gravitational lensing"
+Claim 2: "dark matter," "theory of gravity," "astrophysics"
+- "gravitational lensing": physics jargon but widely known
+- "dark matter": defined
+- "theory of gravity": general enough
+**Rating: 2** — Terms are largely accessible or defined; gravitational lensing is somewhat technical but well-known.
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "Relativistic extensions of MOND," "TeVeS," "gravitational lensing effects"
+Claim 2: "MOND/TeVeS," "CASTLES sample," "gravitational lensing"
+- "TeVeS": highly specialized acronym (Tensor-Vector-Scalar gravity)
+- "Relativistic extensions of MOND": technical phrase
+- "CASTLES sample": specialized dataset name
+- "gravitational lensing": technical
+**Rating: 4** — Dense with specialized acronyms and dataset names unfamiliar to non-specialists.
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "TeVeS," "gravitational lensing," "principal motivations"
+Claim 2: "lens systems," "MOND/TeVeS framework"
+- "TeVeS": specialized
+- "gravitational lensing / lens systems": technical
+- "MOND/TeVeS framework": specialized
+**Rating: 3** — Technical but slightly less dense than turn 12; key terms are TeVeS and lensing.
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "TeVeS," "2 eV neutrinos," "gravitational lensing," "galaxy clusters"
+Claim 2: "many-parameter interpolation functions," "single parameters"
+- "TeVeS": specialized
+- "2 eV neutrinos": particle physics notation (eV = electron volts as mass unit) — very specialized
+- "gravitational lensing": technical
+- "many-parameter interpolation functions": mathematical/physics jargon
+**Rating: 4** — "2 eV neutrinos" and "interpolation functions" with parameter tuning push this into heavy jargon territory alongside TeVeS.
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[4]]

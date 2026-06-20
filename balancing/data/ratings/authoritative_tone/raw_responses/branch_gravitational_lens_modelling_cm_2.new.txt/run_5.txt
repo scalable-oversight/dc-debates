@@ -1,0 +1,243 @@
+I'll analyze each turn for authoritative tone, examining language choices, confidence, and expertise signals.
+
+---
+
+**1. Debater A: [Opening] (Left Side)**
+
+"The Einstein zig-zag lens model ([F. D. et al.]) with two deflectors (white galaxy and red galaxy behind it) at different redshifts, and one AGN which produces 6 lensed images after being lensed by both deflectors."
+
+- Uses precise technical terminology (Einstein zig-zag, deflectors, redshifts, AGN, lensed images)
+- Cites a source directly
+- Declarative, no hedging
+- However, it reads somewhat like a label or summary rather than a commanding argument
+- Compact and factual but not deeply elaborated
+
+**Rating: 3** — Technically precise and confident, but the brevity and list-like structure limit the commanding impression.
+
+---
+
+**2. Debater B: [Argument 1] (Left Side)**
+
+Claim 1: "The Einstein zig-zag lens model is overfit, due to the modeling decisions made for the second deflector and the galaxies in the first deflector's plane."
+Claim 2: "Also, F. D. et al. do not quantify or report chi-squared error, an important index of image reconstruction error."
+
+- "Overfit" is a precise technical term used confidently
+- References "modeling decisions" with specificity about deflector planes
+- "chi-squared error" is technical, and calling it "an important index" demonstrates evaluative expertise
+- "Also" slightly weakens the transition, making it feel additive rather than commanding
+- Direct critique of a named source adds authority
+- Both claims are assertive with no hedging
+
+**Rating: 4** — Confident, technically grounded, uses appropriate jargon and evaluative framing.
+
+---
+
+**3. Debater A: [Response 1] (Left Side)**
+
+Claim 1: "The mass profile of the second deflector appears likely to have a significant effect on the modelling when it is close to the optical axis."
+Claim 2: "Taking galaxy positions into account allows one to more accurately model a more complex mass distribution than a simple shear."
+
+- "appears likely" is hedging language that undermines authority
+- "optical axis" is precise terminology
+- "more accurately model a more complex mass distribution" is reasonably technical
+- "simple shear" contrasts well with "complex mass distribution," showing knowledge
+- However, the hedged phrasing in Claim 1 noticeably weakens the authoritative tone
+- "Taking galaxy positions into account allows one to" is somewhat passive and impersonal
+
+**Rating: 3** — Some technical language, but hedging ("appears likely") and slightly neutral phrasing reduce authority.
+
+---
+
+**4. Debater B: [Argument 2] (Left Side)**
+
+Claim 1: "This fails to reveal that the model has 30 total parameters, compared to 12 parameters used in other work."
+Claim 2: "This provides an enormous degree of modelling flexibility and results in overfitting."
+
+- Specific numerical comparison (30 vs. 12) is highly authoritative — concrete data signals expertise
+- "fails to reveal" is a confident accusatory framing
+- "enormous degree of modelling flexibility" is assertive
+- "results in overfitting" — direct causal claim, no hedging
+- The turn is compact but punchy with strong evaluative language
+- No uncertainty markers
+
+**Rating: 4** — Precise quantitative comparison, confident evaluative claims, no hedging.
+
+---
+
+**5. Debater A: [Response 2] (Left Side)**
+
+Claim 1: "A simpler model is not necessarily a correct or accurate model of the system in question."
+Claim 2: "Fifteen parameters in our model are only partially constrained, and therefore should not count as full degrees of freedom."
+
+- Claim 1 is a methodological principle stated confidently but also somewhat generally — "not necessarily" is slightly hedged
+- Claim 2 uses specific quantification ("Fifteen parameters") and technical concept ("degrees of freedom")
+- "partially constrained" is a precise modeling concept
+- "should not count as full degrees of freedom" is assertive
+- The phrase "in our model" is direct ownership of the argument
+- Overall technically grounded but Claim 1 is somewhat defensive in nature
+
+**Rating: 3** — Technically sound with specific quantification, but Claim 1 is fairly general and mildly defensive.
+
+---
+
+**6. Debater B: [Argument 3] (Left Side)**
+
+Claim 1: "Constraints don't actually fix them in place: they are themselves determined via different models that come with their own errors and uncertainties."
+Claim 2: "Furthermore, all galaxy positions and redshifts except for the main deflector can vary considerably, adding even more freedom to an already complex model."
+
+- "don't actually fix them in place" is colloquial but assertive
+- "determined via different models that come with their own errors and uncertainties" shows meta-level awareness of modeling methodology
+- "Furthermore" is a confident connective
+- "can vary considerably" and "already complex model" are evaluative but somewhat vague
+- "errors and uncertainties" is standard technical phrasing
+- The turn makes a sophisticated epistemological point about constraint propagation
+- Slightly more conversational than optimally authoritative
+
+**Rating: 3** — Makes a sophisticated methodological point but some phrasing is conversational and vague.
+
+---
+
+**7. Debater A: [Response 3] (Left Side)**
+
+Claim 1: "Direct spectroscopy of the second deflector pins down its distance (its redshift) tightly, regardless of the lens model."
+Claim 2: "On top of that, Hubble imaging fixes the on-sky positions to a fraction of an arcsecond."
+
+- "Direct spectroscopy" is precise and authoritative
+- "pins down its distance (its redshift) tightly" — confident, uses parenthetical to clarify for the audience, showing pedagogical command
+- "regardless of the lens model" is a strong, unqualified assertion
+- "Hubble imaging" invokes a prestigious instrument, adding credibility
+- "fixes the on-sky positions to a fraction of an arcsecond" — very precise, quantified claim
+- "On top of that" is slightly colloquial but maintains assertiveness
+- Both claims are highly specific and confident
+
+**Rating: 5** — Precise technical methods, specific quantification, prestigious instrument citation, no hedging.
+
+---
+
+**8. Debater B: [Opening] (Right Side)**
+
+"The gravitationally lensed dual-AGN model ([C. S. M. et al.]), with the first AGN corresponding to the four brightest images and the second AGN corresponding to the two dim images next to the extended red arcs."
+
+- Uses precise technical terminology (gravitationally lensed, dual-AGN, extended red arcs)
+- Cites source directly
+- Describes image correspondence with specificity (four brightest vs. two dim)
+- Declarative and confident
+- Like Debater A's opening, somewhat list-like rather than commanding
+- "dim images next to the extended red arcs" is descriptive but specific
+
+**Rating: 3** — Technically precise and confident, similar structure to A's opening, slightly descriptive rather than analytical.
+
+---
+
+**9. Debater A: [Argument 1] (Right Side)**
+
+Claim 1: "Spectroscopy constrains the redshift of the lensed red galaxy to be 1.88, which places it between the main deflector and alleged dual-AGN."
+Claim 2: "The dual-AGN model's lens model should include the mass profile of the red galaxy in order to be valid, but it does not."
+
+- "Spectroscopy constrains the redshift" — precise technical method with specific numerical value (1.88)
+- "places it between the main deflector and alleged dual-AGN" — assertive structural claim
+- "alleged dual-AGN" — the word "alleged" subtly undermines the opposing model while maintaining technical framing
+- "should include the mass profile...in order to be valid, but it does not" — direct critique, confident assertion of what validity requires
+- Combines observational data with methodological critique
+- Strong authoritative framing throughout
+
+**Rating: 4** — Specific redshift value, methodological critique framed as requirement for validity, confident tone throughout.
+
+---
+
+**10. Debater B: [Response 1] (Right Side)**
+
+Claim 1: "Inclusion of the red galaxy in the lens model will, on the whole, produce only minor changes in the caustics at the redshift of the dual-AGN."
+Claim 2: "The added mass will in turn allow for a relatively larger separation between the two AGN, as one might reasonably expect."
+
+- "on the whole, produce only minor changes" — hedged with "on the whole" and "minor," though stated with some confidence
+- "caustics at the redshift" — uses technical lensing terminology precisely
+- "as one might reasonably expect" — this is notably hedging language, significantly weakening authority
+- "relatively larger separation" — "relatively" is also somewhat vague
+- The caustics reference shows technical knowledge but the hedging language is conspicuous
+- "will in turn allow for" is moderately assertive
+
+**Rating: 3** — Technical terminology with lensing concepts, but multiple hedging phrases ("on the whole," "relatively," "as one might reasonably expect") undermine authority.
+
+---
+
+**11. Debater A: [Argument 2] (Right Side)**
+
+Claim 1: "The presence of a second deflector enables models in which one single source can produce 6 observed images."
+Claim 2: "Single-AGN models remain consistent with all available data, making the dual-AGN model unnecessary."
+
+- "enables models in which one single source can produce 6 observed images" — states a capability confidently
+- "remain consistent with all available data" — sweeping, confident claim
+- "making the dual-AGN model unnecessary" — strong evaluative conclusion
+- "all available data" is a bold, unqualified claim
+- Parsimony argument is a recognized scientific principle, giving this methodological authority
+- Clear, direct, no hedging
+
+**Rating: 4** — Confident claims, sweeping data consistency assertion, methodological parsimony argument, no hedging.
+
+---
+
+**12. Debater B: [Response 2] (Right Side)**
+
+Claim 1: "A single source being lensed to produce 6 images requires a specific morphology which has never been observed before."
+Claim 2: "A dual-AGN is an observed phenomenon that does not invoke overcomplicated hypotheses or unobserved morphologies."
+
+- "requires a specific morphology which has never been observed before" — strong empirical claim
+- "never been observed before" is a sweeping statement (bold)
+- "does not invoke overcomplicated hypotheses or unobserved morphologies" — invokes Occam's Razor principle authoritatively
+- "overcomplicated hypotheses" is slightly informal but evaluative
+- Both claims are assertive and comparative in nature
+- Invoking the novelty/observation criterion is a standard scientific authority move
+
+**Rating: 4** — Appeals to observational record and parsimony, confident assertions, evaluative framing without hedging.
+
+---
+
+**13. Debater A: [Argument 3] (Right Side)**
+
+Claim 1: "Light curves for all 6 lensed images display the same variations with brief offsets (e.g. 35 days between D and E), and the same redshifts. But C. S. M. et al. claim that D and E correspond to AGN that are 6 kiloparsecs away from each other."
+Claim 2: "Light curves this similar can only be generated by a single source."
+
+- Specific numerical values (35 days, 6 kiloparsecs) — highly authoritative precision
+- Names specific images (D and E) — shows intimate familiarity with the data
+- "But C. S. M. et al. claim" — sets up a direct contradiction with the source, confident framing
+- "can only be generated by a single source" — absolute, unhedged claim
+- The contrast between observed similarity and claimed spatial separation is a sharp logical argument
+- Very confident and data-rich
+
+**Rating: 5** — Multiple specific numerical values, named observational details, absolute causal claim, direct contradiction of opposing source — extremely authoritative.
+
+---
+
+**14. Debater B: [Response 3] (Right Side)**
+
+Claim 1: "Activity in one AGN can set off activity in the other AGN in a dual-AGN system, causing correlated emissions."
+Claim 2: "Correlated emissions can make two different objects look like a single object under some circumstances."
+
+- "can set off activity in the other AGN" — uses causal language but "can" is a possibility hedge
+- "correlated emissions" is a technical term (also defined in the glossary, which slightly reduces its impressiveness)
+- "under some circumstances" in Claim 2 is notably hedging
+- Both claims use "can" rather than assertive language — this significantly weakens authority
+- The argument is plausible but qualified throughout
+- Lacks specific quantification or definitive data references
+- Reads somewhat defensively
+
+**Rating: 2** — Both claims use possibility language ("can"), Claim 2 adds "under some circumstances" — the hedging is pervasive and undermines authority significantly.
+
+---
+
+RATINGS:
+A | Opening | [[3]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[4]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[5]]
+B | Opening | [[3]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[5]]
+B | Response 3 | [[2]]

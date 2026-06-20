@@ -1,0 +1,104 @@
+I'll analyze each turn for confidence language, then provide ratings.
+
+**1. Debater A: [Opening] (Left)**
+"LRDs are best explained by black hole accretion in active galactic nuclei (AGN)"
+- "best explained" is assertive but implicitly comparative rather than absolute
+- No hedging language; direct claim with source citation
+- Overall: confident, definitive statement
+**Rating: 4**
+
+**2. Debater B: [Argument 1] (Left)**
+- Claim 1: "LRD spectra show a Balmer break...matching galaxy-only or dust-reddened models" — factual, assertive
+- Claim 2: "can be cleanly explained" — "can" is slightly hedging, but "cleanly" adds confidence
+- Mix of assertive factual claim and a capability claim with mild hedging
+**Rating: 4**
+
+**3. Debater A: [Response 1] (Left)**
+- Claim 1: "are associated with absorption from dense gas" — definitive assertion
+- Claim 2: "may not be needed" — explicit hedging with "may not"
+- One firm claim paired with a notably hedged one
+**Rating: 3**
+
+**4. Debater B: [Argument 2] (Left)**
+- Claim 1: "Postulating something other than typical AGN is warranted" — assertive; "is warranted" is definitive
+- Claim 2: "show, on the whole, significantly weaker variability" — "on the whole" is a mild qualifier, but "significantly" adds force
+- Mostly assertive with minor qualification
+**Rating: 4**
+
+**5. Debater A: [Response 2] (Left)**
+- Claim 1: "has been observed in highly active AGN" — factual and assertive
+- Claim 2: "show that super-Eddington accretion can produce X-ray weak AGN...This aligns with observations" — "can produce" is slightly hedged capability, but "aligns" is confident
+- Generally confident with minor hedging from "can"
+**Rating: 4**
+
+**6. Debater B: [Argument 3] (Left)**
+- Claim 1: "We do not have long-term observational data" — definitive statement of absence
+- Claim 2: "is not sound" — strong, definitive evaluative judgment; "while lacking critical evidence" reinforces
+- Very assertive, critical language
+**Rating: 5**
+
+**7. Debater A: [Response 3] (Left)**
+- Claim 1: "We know that super-Eddington accretion was much more prevalent" — "We know" is highly confident
+- Claim 2: "The observed data...supports the...hypothesis. The inability to perform additional tests does not provide evidence against" — both parts stated definitively
+- Very confident throughout
+**Rating: 5**
+
+**8. Debater B: [Opening] (Right)**
+"LRDs are best explained by photospheric emission of supermassive stars (SMS)"
+- "best explained" — assertive comparative; direct claim with citation
+- No hedging
+**Rating: 4**
+
+**9. Debater A: [Argument 1] (Right)**
+- Claim 1: "are theoretical objects which to date have never actually been confirmed" — definitive factual assertion
+- Claim 2: "exhibit particularly short main-sequence lifetimes" — definitive, with "particularly" adding emphasis
+- Both claims stated firmly with no hedging
+**Rating: 5**
+
+**10. Debater B: [Response 1] (Right)**
+- Claim 1: "It is almost certain that supermassive stars existed" — "almost certain" is strong but not absolute; notable confidence with slight qualification
+- Claim 2: "has an LRD-like spectrum for around 1000 years, making...a valid candidate" — "around" is mild hedge; "valid candidate" is moderately confident
+- Mix: one near-certain claim, one moderate claim
+**Rating: 3**
+
+**11. Debater A: [Argument 2] (Right)**
+- Claim 1: "is theorized to generate black hole seeds" — "theorized" is a hedge
+- Claim 2: "would be too high compared to observed SMBHs" — "would be" is conditional/hedging
+- Both claims contain hedging language
+**Rating: 2**
+
+**12. Debater B: [Response 2] (Right)**
+- Claim 1: "provides outward pressure that can help stabilize" — "can help" is hedged
+- Claim 2: "will reduce the number...to acceptable numbers" — "will" is definitive; but "Including it in the SMS model" is conditional on a model update
+- Mixed: one hedged claim, one assertive
+**Rating: 3**
+
+**13. Debater A: [Argument 3] (Right)**
+- Claim 1: "do not actually provide an estimate" — definitive negative statement; "actually" adds emphasis
+- Claim 2: "is not yet rigorous enough to be conclusive" — "not yet" acknowledges possible future change; "to be conclusive" is firm judgment
+- Mostly assertive with slight temporal qualification ("not yet")
+**Rating: 4**
+
+**14. Debater B: [Response 3] (Right)**
+- Claim 1: "already fits the key observed properties...across multiple cosmic epochs" — "already" and "key" are confident; factual assertion
+- Claim 2: "will not appreciably alter the framework's overall fit" — "will not" is definitive; "appreciably" is a slight qualifier
+- Very confident overall, with only minor qualification from "appreciably"
+**Rating: 4**
+
+---
+
+RATINGS:
+A | Opening | [[4]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[4]]
+A | Response 2 | [[4]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[5]]
+B | Opening | [[4]]
+A | Argument 1 | [[5]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[4]]

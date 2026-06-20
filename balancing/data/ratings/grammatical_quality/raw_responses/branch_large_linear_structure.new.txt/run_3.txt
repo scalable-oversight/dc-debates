@@ -1,0 +1,157 @@
+I'll analyze each turn for grammatical quality, identifying errors and well-constructed passages before assigning ratings.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The best plausible theoretical model to describe this system is a runaway supermassive black hole (SMBH) ([P. D. et al.])."
+
+This is a clean, well-formed sentence. The citation format is consistent with the debate's style. No grammatical, spelling, or punctuation errors detected.
+
+**Rating: 5**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "Supermassive black holes are typically located within a few parsecs of the center of their host galaxies."
+Claim 2: "If this hypothesis were true, the SMBH would have to be located ~40 kiloparsecs away from its host galaxy."
+
+Both sentences are grammatically well-formed. Correct use of subjunctive ("were true") in Claim 2. No errors detected.
+
+**Rating: 5**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: "SMBH recoil can eject SMBHs from the centers of their host galaxy during a merger."
+Claim 2: "The galaxy shows signs of a recent merger ([P. D. et al.]), which supports the hypothesis that the linear structure could be a trail of star formation left in the wake of a recoiling SMBH."
+
+Claim 1 has a minor number agreement issue: "from the centers of their host galaxy" — "centers" (plural) paired with "host galaxy" (singular) is slightly inconsistent; "host galaxies" would be more consistent. Claim 2 is well-constructed. Overall, only a very minor issue.
+
+**Rating: 4**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: "Globular clusters are old, massive and compact structures that travel through the circumgalactic medium (CGM)."
+Claim 2: "If the passage of a black hole through the CGM caused star formation, we would observe similar trails for globular clusters, but in practice we do not."
+
+Both sentences are grammatically correct and well-formed. The comma after "massive" and before "and" is optional but not incorrect. No errors.
+
+**Rating: 5**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: "The SMBH in this model is traveling at supersonic speeds along its trajectory."
+Claim 2: "The bow shock due to this supersonic travel would cause star formation along the way. Globular clusters do not form a bow shock in the CGM, and thus would not have star forming trails."
+
+Claim 2 contains "star forming trails" — "star-forming" should be hyphenated as a compound modifier. This is a minor punctuation/hyphenation issue. Otherwise, sentences are well-formed.
+
+**Rating: 4**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "[Figure 1] in [M. M. et al.] shows that the color of the stars along the hypothesised wake fluctuates."
+Claim 2: "If the star formation was caused by the bow shock of a passing SMBH, the age of the stars would monotonically decrease along the structure, but the fluctuating color does not support that."
+
+"Hypothesised" uses British spelling (vs. American "hypothesized") — not an error per se, just a spelling variant. Both sentences are grammatically sound. No significant errors.
+
+**Rating: 5**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: "While a broad age gradient is expected along the wake, the color fluctuations can be explained by alternating red and blue supergiants in the trail."
+Claim 2: "Star formation will not only occur at the bow shock, but after the passage of the SMBH as well, which would also add fluctuations to the stellar age."
+
+Both sentences are grammatically correct. Claim 2's "not only...but...as well" construction is slightly non-standard (typically "not only...but also"), but it is not a grammatical error. No mechanical issues detected.
+
+**Rating: 5**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The best plausible theoretical model to describe this system is a bulgeless edge-on galaxy ([J. S. A. et al.])."
+
+Clean, well-formed sentence. No errors.
+
+**Rating: 5**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "The line ratio of the linear object ([OIII]/H𝜷) far exceeds the ratio expected from a typical galaxy."
+Claim 2: "Additionally, the structure is not entirely linear, which would be expected if it were a bulgeless edge-on galaxy."
+
+Both sentences are well-constructed. Correct use of subjunctive ("were") in Claim 2. No errors.
+
+**Rating: 5**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "The Tully-Fisher relation is used to classify objects as galaxies based on their estimated stellar mass and maximum rotational velocity."
+Claim 2: "The linear object satisfies the Tully-Fisher relation, making it a strong candidate for a bulgeless edge-on galaxy ([Figure 2] in [J. S. A. et al.])."
+
+Both sentences are grammatically correct and well-formed. No errors.
+
+**Rating: 5**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "Satisfying the Tully-Fisher relation is not sufficient to classify an object as a galaxy given observational inconsistencies."
+Claim 2: "The velocity gradient near the edge of the object is too large for it to be classified as a galaxy ([Figure 1], [Figure 5] in [P. D. et al.])."
+
+Both sentences are grammatically correct and well-structured. No errors.
+
+**Rating: 5**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "IC5249 is an observationally confirmed bulgeless edge-on galaxy."
+Claim 2: "The position vs rotational velocity gradient of the stars in the structure resembles the gradient of IC5249 ([Figure 1] in [J. S. A. et al.]), directly suggesting that they're in the same class of objects."
+
+"they're" is an informal contraction; in formal writing "they are" would be preferred, but this is not a grammatical error. "position vs rotational velocity" could use a hyphen or "vs." with a period, but this is minor. No significant grammatical errors.
+
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "The velocity and flux gradient of IC5249 are much smoother than those of the object in the figure you present."
+Claim 2: "The linear object has a structure in line emission strongly resembling a bow shock at its tip ([Figure 3] in [P. D. et al.]) that IC5249 does not have. This implies that the object is not a galaxy."
+
+Claim 1 has a subject-verb agreement issue: "The velocity and flux gradient...are" — with a compound subject joined by "and," "are" is grammatically correct. However, "gradient" is singular, so "The velocity and flux gradient...are" could be read as treating two separate gradients (velocity gradient and flux gradient) with a shared noun "gradient" — in that case "are" is acceptable. Actually, this is fine. Both sentences are well-formed. No errors.
+
+**Rating: 5**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "The magnitude of the line emission seen in the figure you present is in the range expected of shocks produced by supernovae within ordinary galaxies."
+Claim 2: "It is well established that distorted galaxies often have rather clumpy and irregular UV emission arising from heterogeneous star formation."
+
+Both sentences are grammatically correct and well-constructed. No errors.
+
+**Rating: 5**
+
+---
+
+RATINGS:
+A | Opening | [[5]]
+B | Argument 1 | [[5]]
+A | Response 1 | [[4]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[4]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[5]]
+B | Opening | [[5]]
+A | Argument 1 | [[5]]
+B | Response 1 | [[5]]
+A | Argument 2 | [[5]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[5]]
+B | Response 3 | [[5]]

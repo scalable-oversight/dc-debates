@@ -1,0 +1,129 @@
+I'll analyze each turn for professionalism, noting specific language features before assigning a rating.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"Y is larger."
+This is extremely terse — a single declarative sentence with no elaboration, context, or supporting framing. While brief can be professional, this feels more like a placeholder than a polished opening statement. It's grammatically correct and not casual, but lacks any structure or preparation.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: Clear, well-structured, uses precise terminology ("D6 into a D3," "sides 2, 4, 6"). Appropriately formal.
+Claim 2: Direct and logical, maintains formal register. "Getting two 6s in a row is harder (requires more rolls)" is clear and structured.
+Overall: Polished, concise, logically organized. No casual language.
+**Rating: 4**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: Clear, specific numerical claim ("expected number of rolls to first 6 for such a D3 is 3"). Professional tone.
+Claim 2: Uses "So it's not true that..." — slightly informal phrasing ("it's" contraction), but the argument is logically structured and precise.
+Minor contraction slightly undermines polish, but overall still well-organized.
+**Rating: 4**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: Clear and direct, references prior claims appropriately.
+Claim 2: "This follows trivially" — "trivially" is a somewhat dismissive term that can read as either mathematically appropriate or slightly condescending/casual depending on context. The phrase "as Debater A Response 1 Claim 1 and Debater B Argument 1 Claim 1 are both true" is structured but slightly mechanical. The cross-referencing is clear, though.
+"Trivially" is a minor note; overall professional but slightly less polished than ideal.
+**Rating: 3**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: Technical, precise, uses proper notation ("3/2 * (1/3)^(k - 1)"). Very polished.
+Claim 2: Logically structured, references prior work clearly ("We can plug this into the formula for expectation"). Professional language throughout.
+Well-prepared, mathematically articulate. No casual language.
+**Rating: 5**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: Gives specific numbers (42, 13.2), which shows preparation. However, "X is still larger" presupposes a contested framing. The phrasing "the wait for two 6s in any positions" is slightly informal.
+Claim 2: "Your analysis has focused on..." — use of "Your" is direct but not unprofessional in a debate context. The claim is structured and relevant.
+Reasonably professional, though "the wait" phrasing is mildly informal.
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: Clear and direct. "Those numbers are only correct if you don't filter sequences containing odd rolls" — slightly informal ("don't filter") but understandable.
+Claim 2: "You agreed with... yet claimed... which is self-contradictory." — The meta-referential structure is somewhat clunky. "Self-contradictory" is direct but slightly blunt. The claim cross-references multiple prior turns, which while precise, reads as somewhat mechanical rather than flowing.
+Functional but not particularly polished; the phrasing is adequate without being refined.
+**Rating: 3**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"X is larger."
+Same issue as Debater A's opening — a single terse sentence with no elaboration or framing. Grammatically correct but minimal.
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: Clear and relevant. "On average ignoring the all-even condition" is slightly informal but acceptable.
+Claim 2: "filters long runs exponentially, so a larger share of X's probability sits on its short successful runs" — this is technically specific and shows preparation, though "sits on" is slightly informal. The reasoning is structured.
+Reasonably professional with minor informal phrasings.
+**Rating: 3**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: Extremely simple ("applies to both X and Y") — clear but sparse.
+Claim 2: "The stopping condition for X is strictly harder and happens later than or at the same time as Y's" is well-structured. "X's distribution is dominated by long sequences that finally get two 6s in a row" — "finally" is slightly informal.
+Generally professional, with one minor informality.
+**Rating: 4**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "You'll nearly always roll an odd before two 6s in a row" — "You'll" is a contraction, somewhat informal. The reasoning is logical but expressed casually.
+Claim 2: "The first sentence of Debater B Response 1 Claim 2 is true; the second is a false statement that does not follow from it." — Structured but blunt. "A false statement" is direct; the cross-referencing is precise but mechanical.
+Moderate professionalism; contractions and directness reduce polish.
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "You'll also nearly always roll an odd" — again, contraction and informal phrasing ("cuts both ways"). "Cuts both ways" is an idiomatic expression, somewhat informal.
+Claim 2: Specific numerical claims ("22/27 vs Y 20/27 — a 0.074 gap") show preparation and rigor. "Comparable to other roll-by-roll gaps" is clear. The dash usage is appropriate for a debate context.
+Mixed: good quantitative precision undercut by some informal phrasings.
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: Specific percentages ("61% of X sequences stop at roll 2," "44% of Y sequences," "81%," "74%") demonstrate thorough preparation and quantitative rigor. Well-structured.
+Claim 2: "This suggests that X is more likely than Y to stop extremely early" — "extremely early" is slightly informal but the logic is clear and appropriately hedged ("suggests").
+Mostly professional, with minor informality in wording. Strong quantitative backing.
+**Rating: 4**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "does not tell us anything about the overall weighting" — "does not tell us anything" is slightly blunt and informal.
+Claim 2: "The far ends (the tails) of the two distributions matter too" — parenthetical "(the tails)" shows consideration for clarity. "The full calculation shows that X is larger" is assertive but lacks supporting elaboration, making it feel somewhat underprepared.
+Moderate professionalism; some precision but also some vagueness and informality.
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[4]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[5]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[3]]

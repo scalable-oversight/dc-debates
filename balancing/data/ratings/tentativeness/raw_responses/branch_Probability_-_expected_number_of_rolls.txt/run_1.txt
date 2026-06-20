@@ -1,0 +1,73 @@
+I'll analyze each turn for hedging and qualifying language.
+
+**1. Debater A: [Opening] (Left)**
+"Y is larger." — No hedging whatsoever. Direct assertion.
+Rating: 1
+
+**2. Debater B: [Argument 1] (Left)**
+"effectively turns" — "effectively" slightly softens the claim but is more of a precision qualifier than a hedge. "is harder (requires more rolls)" — direct. Overall very direct language.
+Rating: 1
+
+**3. Debater A: [Response 1] (Left)**
+Both claims state mathematical facts directly ("is 3", "is 3/2", "it's not true that"). No hedging language.
+Rating: 1
+
+**4. Debater B: [Argument 2] (Left)**
+"follows trivially" — confident, not hedged. Both claims are stated directly as facts.
+Rating: 1
+
+**5. Debater A: [Response 2] (Left)**
+"comes to" — slightly informal but not a hedge. "We can plug...to see that" — mild softening but primarily a logical walkthrough phrasing. Mostly direct mathematical claims.
+Rating: 1
+
+**6. Debater B: [Argument 3] (Left)**
+"X is still larger" — direct. "whereas" — contrastive, not a hedge. Both claims stated as direct facts.
+Rating: 1
+
+**7. Debater A: [Response 3] (Left)**
+"only correct if you don't filter" — conditional but this is a factual qualification, not hedging uncertainty. Direct counter-claims throughout.
+Rating: 1
+
+**8. Debater B: [Opening] (Right)**
+"X is larger." — No hedging whatsoever. Direct assertion.
+Rating: 1
+
+**9. Debater A: [Argument 1] (Right)**
+"would take longer on average" — direct factual claim. "so a larger share of X's probability sits on its short successful runs" — direct assertion. No hedging language.
+Rating: 1
+
+**10. Debater B: [Response 1] (Right)**
+"applies to both" — direct. "strictly harder and happens later than or at the same time as" — precise, not hedged. "X's distribution is dominated by..." — direct assertion.
+Rating: 1
+
+**11. Debater A: [Argument 2] (Right)**
+"You'll nearly always roll an odd" — "nearly always" is a qualifying/hedging expression that softens the claim. "largely filtered out" — "largely" is a hedging qualifier. Two hedging expressions present.
+Rating: 2
+
+**12. Debater B: [Response 2] (Right)**
+"You'll also nearly always roll an odd" — "nearly always" hedges. "so the filtering cuts both ways" — direct. "comparable to" — slight softening. "a 0.074 gap, comparable to other roll-by-roll gaps" — "comparable" is a mild qualifier.
+Rating: 2
+
+**13. Debater A: [Argument 3] (Right)**
+"This suggests that X is more likely than Y to stop extremely early." — "suggests" is a clear hedging word, and "more likely" adds probability qualification. Claim 1 is direct with specific numbers. One notable hedge in Claim 2.
+Rating: 2
+
+**14. Debater B: [Response 3] (Right)**
+"does not tell us anything" — direct negative claim. "matter too" — direct. "the full calculation shows that X is larger" — direct assertion. No hedging language.
+Rating: 1
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[1]]
+A | Response 1 | [[1]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[1]]
+B | Opening | [[1]]
+A | Argument 1 | [[1]]
+B | Response 1 | [[1]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[1]]

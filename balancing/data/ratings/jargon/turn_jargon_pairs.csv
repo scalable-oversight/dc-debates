@@ -1,0 +1,169 @@
+filename,turn,debater_a_median,debater_b_median,diff
+branch_MALT-public_306440_rust.txt,Opening,2,2,0
+branch_MALT-public_306440_rust.txt,Argument 1,3,3,0
+branch_MALT-public_306440_rust.txt,Response 1,3,4,-1
+branch_MALT-public_306440_rust.txt,Argument 2,3,2,1
+branch_MALT-public_306440_rust.txt,Response 2,2,3,-1
+branch_MALT-public_306440_rust.txt,Argument 3,3,3,0
+branch_MALT-public_306440_rust.txt,Response 3,3,3,0
+branch_MALT-public_306440_rust_2.txt,Opening,2,2,0
+branch_MALT-public_306440_rust_2.txt,Argument 1,3,3,0
+branch_MALT-public_306440_rust_2.txt,Response 1,3,3,0
+branch_MALT-public_306440_rust_2.txt,Argument 2,3,3,0
+branch_MALT-public_306440_rust_2.txt,Response 2,2,3,-1
+branch_MALT-public_306440_rust_2.txt,Argument 3,3,3,0
+branch_MALT-public_306440_rust_2.txt,Response 3,2,3,-1
+branch_MALT-public_323067_db_deletion.txt,Opening,2,2,0
+branch_MALT-public_323067_db_deletion.txt,Argument 1,3,2,1
+branch_MALT-public_323067_db_deletion.txt,Response 1,3,2,1
+branch_MALT-public_323067_db_deletion.txt,Argument 2,3,3,0
+branch_MALT-public_323067_db_deletion.txt,Response 2,3,3,0
+branch_MALT-public_323067_db_deletion.txt,Argument 3,2,2,0
+branch_MALT-public_323067_db_deletion.txt,Response 3,2,3,-1
+branch_MALT-public_323067_db_deletion_2.txt,Opening,2,2,0
+branch_MALT-public_323067_db_deletion_2.txt,Argument 1,3,2,1
+branch_MALT-public_323067_db_deletion_2.txt,Response 1,3,2,1
+branch_MALT-public_323067_db_deletion_2.txt,Argument 2,3,3,0
+branch_MALT-public_323067_db_deletion_2.txt,Response 2,3,3,0
+branch_MALT-public_323067_db_deletion_2.txt,Argument 3,3,2,1
+branch_MALT-public_323067_db_deletion_2.txt,Response 3,2,3,-1
+branch_MALT-public_338159_orm_library.txt,Opening,2,2,0
+branch_MALT-public_338159_orm_library.txt,Argument 1,2,2,0
+branch_MALT-public_338159_orm_library.txt,Response 1,3,3,0
+branch_MALT-public_338159_orm_library.txt,Argument 2,3,2,1
+branch_MALT-public_338159_orm_library.txt,Response 2,2,3,-1
+branch_MALT-public_338159_orm_library.txt,Argument 3,3,2,1
+branch_MALT-public_338159_orm_library.txt,Response 3,1,2,-1
+branch_MALT-public_338159_orm_library_2.txt,Opening,2,1,1
+branch_MALT-public_338159_orm_library_2.txt,Argument 1,2,2,0
+branch_MALT-public_338159_orm_library_2.txt,Response 1,3,3,0
+branch_MALT-public_338159_orm_library_2.txt,Argument 2,3,1,2
+branch_MALT-public_338159_orm_library_2.txt,Response 2,2,3,-1
+branch_MALT-public_338159_orm_library_2.txt,Argument 3,3,2,1
+branch_MALT-public_338159_orm_library_2.txt,Response 3,2,2,0
+branch_MALT-public_339242_prefix-sum.txt,Opening,2,2,0
+branch_MALT-public_339242_prefix-sum.txt,Argument 1,2,2,0
+branch_MALT-public_339242_prefix-sum.txt,Response 1,2,3,-1
+branch_MALT-public_339242_prefix-sum.txt,Argument 2,1,2,-1
+branch_MALT-public_339242_prefix-sum.txt,Response 2,2,4,-2
+branch_MALT-public_339242_prefix-sum.txt,Argument 3,2,2,0
+branch_MALT-public_339242_prefix-sum.txt,Response 3,1,2,-1
+branch_MALT-public_339242_prefix-sum_2.txt,Opening,2,3,-1
+branch_MALT-public_339242_prefix-sum_2.txt,Argument 1,2,3,-1
+branch_MALT-public_339242_prefix-sum_2.txt,Response 1,2,3,-1
+branch_MALT-public_339242_prefix-sum_2.txt,Argument 2,1,2,-1
+branch_MALT-public_339242_prefix-sum_2.txt,Response 2,1,3,-2
+branch_MALT-public_339242_prefix-sum_2.txt,Argument 3,2,2,0
+branch_MALT-public_339242_prefix-sum_2.txt,Response 3,2,2,0
+branch_Probability_-_expected_number_of_rolls.txt,Opening,1,1,0
+branch_Probability_-_expected_number_of_rolls.txt,Argument 1,2,2,0
+branch_Probability_-_expected_number_of_rolls.txt,Response 1,2,2,0
+branch_Probability_-_expected_number_of_rolls.txt,Argument 2,1,2,-1
+branch_Probability_-_expected_number_of_rolls.txt,Response 2,3,3,0
+branch_Probability_-_expected_number_of_rolls.txt,Argument 3,2,2,0
+branch_Probability_-_expected_number_of_rolls.txt,Response 3,1,2,-1
+branch_Probability_-_expected_number_of_rolls_v2.txt,Opening,1,1,0
+branch_Probability_-_expected_number_of_rolls_v2.txt,Argument 1,3,2,1
+branch_Probability_-_expected_number_of_rolls_v2.txt,Response 1,2,3,-1
+branch_Probability_-_expected_number_of_rolls_v2.txt,Argument 2,1,2,-1
+branch_Probability_-_expected_number_of_rolls_v2.txt,Response 2,2,2,0
+branch_Probability_-_expected_number_of_rolls_v2.txt,Argument 3,2,2,0
+branch_Probability_-_expected_number_of_rolls_v2.txt,Response 3,3,3,0
+branch_bergs_modified.txt,Opening,1,1,0
+branch_bergs_modified.txt,Argument 1,2,2,0
+branch_bergs_modified.txt,Response 1,2,3,-1
+branch_bergs_modified.txt,Argument 2,2,2,0
+branch_bergs_modified.txt,Response 2,3,3,0
+branch_bergs_modified.txt,Argument 3,2,2,0
+branch_bergs_modified.txt,Response 3,2,2,0
+branch_bergs_modified_2.txt,Opening,1,1,0
+branch_bergs_modified_2.txt,Argument 1,2,2,0
+branch_bergs_modified_2.txt,Response 1,2,3,-1
+branch_bergs_modified_2.txt,Argument 2,2,2,0
+branch_bergs_modified_2.txt,Response 2,3,2,1
+branch_bergs_modified_2.txt,Argument 3,2,2,0
+branch_bergs_modified_2.txt,Response 3,2,2,0
+branch_early_universe_galaxies_cm_easy.new.txt,Opening,2,2,0
+branch_early_universe_galaxies_cm_easy.new.txt,Argument 1,3,3,0
+branch_early_universe_galaxies_cm_easy.new.txt,Response 1,3,3,0
+branch_early_universe_galaxies_cm_easy.new.txt,Argument 2,3,2,1
+branch_early_universe_galaxies_cm_easy.new.txt,Response 2,3,4,-1
+branch_early_universe_galaxies_cm_easy.new.txt,Argument 3,4,4,0
+branch_early_universe_galaxies_cm_easy.new.txt,Response 3,3,4,-1
+branch_early_universe_galaxies_cm_hard.new.txt,Opening,2,2,0
+branch_early_universe_galaxies_cm_hard.new.txt,Argument 1,3,3,0
+branch_early_universe_galaxies_cm_hard.new.txt,Response 1,3,3,0
+branch_early_universe_galaxies_cm_hard.new.txt,Argument 2,2,2,0
+branch_early_universe_galaxies_cm_hard.new.txt,Response 2,3,4,-1
+branch_early_universe_galaxies_cm_hard.new.txt,Argument 3,3,4,-1
+branch_early_universe_galaxies_cm_hard.new.txt,Response 3,3,4,-1
+branch_gravitational_lens_modelling_cm.new.txt,Opening,4,4,0
+branch_gravitational_lens_modelling_cm.new.txt,Argument 1,4,4,0
+branch_gravitational_lens_modelling_cm.new.txt,Response 1,3,4,-1
+branch_gravitational_lens_modelling_cm.new.txt,Argument 2,3,2,1
+branch_gravitational_lens_modelling_cm.new.txt,Response 2,2,3,-1
+branch_gravitational_lens_modelling_cm.new.txt,Argument 3,4,3,1
+branch_gravitational_lens_modelling_cm.new.txt,Response 3,4,4,0
+branch_gravitational_lens_modelling_cm_2.new.txt,Opening,4,4,0
+branch_gravitational_lens_modelling_cm_2.new.txt,Argument 1,4,3,1
+branch_gravitational_lens_modelling_cm_2.new.txt,Response 1,3,4,-1
+branch_gravitational_lens_modelling_cm_2.new.txt,Argument 2,3,2,1
+branch_gravitational_lens_modelling_cm_2.new.txt,Response 2,2,3,-1
+branch_gravitational_lens_modelling_cm_2.new.txt,Argument 3,4,3,1
+branch_gravitational_lens_modelling_cm_2.new.txt,Response 3,3,3,0
+branch_internal_temperature_of_stars_3.new.txt,Opening,2,2,0
+branch_internal_temperature_of_stars_3.new.txt,Argument 1,2,2,0
+branch_internal_temperature_of_stars_3.new.txt,Response 1,3,3,0
+branch_internal_temperature_of_stars_3.new.txt,Argument 2,3,3,0
+branch_internal_temperature_of_stars_3.new.txt,Response 2,3,2,1
+branch_internal_temperature_of_stars_3.new.txt,Argument 3,2,3,-1
+branch_internal_temperature_of_stars_3.new.txt,Response 3,3,3,0
+branch_internal_temperature_of_stars_cm.new.txt,Opening,2,2,0
+branch_internal_temperature_of_stars_cm.new.txt,Argument 1,3,2,1
+branch_internal_temperature_of_stars_cm.new.txt,Response 1,3,3,0
+branch_internal_temperature_of_stars_cm.new.txt,Argument 2,4,3,1
+branch_internal_temperature_of_stars_cm.new.txt,Response 2,3,2,1
+branch_internal_temperature_of_stars_cm.new.txt,Argument 3,2,4,-2
+branch_internal_temperature_of_stars_cm.new.txt,Response 3,4,3,1
+branch_large_linear_structure.new.txt,Opening,2,2,0
+branch_large_linear_structure.new.txt,Argument 1,4,3,1
+branch_large_linear_structure.new.txt,Response 1,3,3,0
+branch_large_linear_structure.new.txt,Argument 2,3,3,0
+branch_large_linear_structure.new.txt,Response 2,3,3,0
+branch_large_linear_structure.new.txt,Argument 3,4,3,1
+branch_large_linear_structure.new.txt,Response 3,3,3,0
+branch_large_linear_structure_2.new.txt,Opening,2,2,0
+branch_large_linear_structure_2.new.txt,Argument 1,4,3,1
+branch_large_linear_structure_2.new.txt,Response 1,3,3,0
+branch_large_linear_structure_2.new.txt,Argument 2,3,3,0
+branch_large_linear_structure_2.new.txt,Response 2,3,3,0
+branch_large_linear_structure_2.new.txt,Argument 3,3,3,0
+branch_large_linear_structure_2.new.txt,Response 3,3,2,1
+branch_little_red_dots.new.txt,Opening,3,4,-1
+branch_little_red_dots.new.txt,Argument 1,3,4,-1
+branch_little_red_dots.new.txt,Response 1,3,3,0
+branch_little_red_dots.new.txt,Argument 2,4,3,1
+branch_little_red_dots.new.txt,Response 2,4,3,1
+branch_little_red_dots.new.txt,Argument 3,3,3,0
+branch_little_red_dots.new.txt,Response 3,3,4,-1
+branch_little_red_dots_gr.new.txt,Opening,3,3,0
+branch_little_red_dots_gr.new.txt,Argument 1,3,4,-1
+branch_little_red_dots_gr.new.txt,Response 1,3,3,0
+branch_little_red_dots_gr.new.txt,Argument 2,4,3,1
+branch_little_red_dots_gr.new.txt,Response 2,4,2,2
+branch_little_red_dots_gr.new.txt,Argument 3,3,4,-1
+branch_little_red_dots_gr.new.txt,Response 3,4,5,-1
+branch_switch_modified.txt,Opening,2,2,0
+branch_switch_modified.txt,Argument 1,3,3,0
+branch_switch_modified.txt,Response 1,3,3,0
+branch_switch_modified.txt,Argument 2,4,3,1
+branch_switch_modified.txt,Response 2,3,4,-1
+branch_switch_modified.txt,Argument 3,4,3,1
+branch_switch_modified.txt,Response 3,1,3,-2
+branch_switch_modified_v2.txt,Opening,2,2,0
+branch_switch_modified_v2.txt,Argument 1,3,3,0
+branch_switch_modified_v2.txt,Response 1,3,3,0
+branch_switch_modified_v2.txt,Argument 2,4,3,1
+branch_switch_modified_v2.txt,Response 2,3,4,-1
+branch_switch_modified_v2.txt,Argument 3,3,3,0
+branch_switch_modified_v2.txt,Response 3,3,4,-1

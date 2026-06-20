@@ -1,0 +1,211 @@
+I'll analyze each turn for authoritative tone, examining language choices, confidence, and expert-like presentation.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The speed stays the same when we model the car as a point mass. It decreases slightly when modeled as a rigid body."
+
+- Direct, declarative sentences with no hedging language
+- Uses technical framing ("model the car as a point mass," "rigid body") — signals domain knowledge
+- "slightly" introduces a minor qualification but doesn't undermine authority much
+- Concise and confident; presents two distinct conclusions cleanly
+- The structured conditional framing (point mass vs. rigid body) signals analytical sophistication
+
+**Rating: 4**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "A ball on a string spins faster when its radius is reduced, and the same principle applies as the car transitions to a tighter radius."
+Claim 2: "The connecting track provides a radially inward force that accelerates the car tangentially."
+
+- Uses an analogy (ball on a string) — accessible but somewhat informal; can undermine expert tone slightly
+- "the same principle applies" is assertive but lacks precision
+- Claim 2 uses technical vocabulary ("radially inward force," "accelerates the car tangentially") — sounds knowledgeable
+- However, the analogy-first approach is less commanding than direct technical argumentation
+- "accelerates the car tangentially" is a confident technical claim
+
+**Rating: 3**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: "The string does work because, as the ball spirals inward, its velocity has a radial component aligned with the tension."
+Claim 2: "The fixed frictionless track exerts only a normal constraint force perpendicular to the car's velocity, so unlike the string it does no work."
+
+- Precise technical language: "radial component aligned with the tension," "normal constraint force perpendicular to the car's velocity"
+- "does no work" — a confident, definitive conclusion using physics terminology
+- Uses a contrastive structure ("unlike the string") to show analytical control
+- "spirals inward" is accurate and specific
+- Both claims are crisp, logically connected, and use expert vocabulary throughout
+
+**Rating: 5**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: "Curvature changes continuously along the connecting arc, causing the direction of the constraint force to rotate."
+Claim 2: "This rotation means the force cannot remain perfectly perpendicular to velocity."
+
+- "Curvature changes continuously" — mathematically precise language
+- "constraint force to rotate" — technical and accurate
+- "cannot remain perfectly perpendicular to velocity" — definitive and uses exact geometric language
+- The argument is crisp and builds logically from Claim 1 to Claim 2
+- Slightly indirect (making an inference rather than stating from first principles), but still confident and technical
+
+**Rating: 4**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: "The car's velocity is tangent to the track at every point. The constraint force is normal to the track, hence perpendicular to velocity."
+Claim 2: "At every instant, the force and velocity rotate together. Perpendicularity is maintained even as curvature changes."
+
+- "at every point" and "at every instant" — language of mathematical universality, very confident
+- "hence perpendicular to velocity" — logical, deductive phrasing
+- "rotate together" is intuitive and vivid without losing precision
+- "Perpendicularity is maintained even as curvature changes" — assertive and technically specific
+- Short, declarative sentences throughout; no hedging
+
+**Rating: 5**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "On a changing-curvature path, the constraint force must adjust in both magnitude and direction."
+Claim 2: "The centripetal acceleration behaves differently on the connecting track than it does on either circular section."
+
+- "must adjust in both magnitude and direction" — technically confident
+- "centripetal acceleration behaves differently" — somewhat vague; "behaves differently" is not a precise technical expression
+- Claim 1 is stronger and more authoritative than Claim 2
+- The turn is less incisive than previous turns — the second claim trails off without specifying *how* it behaves differently
+- Some authority, but diluted by imprecision in Claim 2
+
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: "The force adjusts direction to maintain perpendicularity; it rotates to stay normal as velocity rotates to stay tangent."
+Claim 2: "Centripetal force remains perpendicular to the velocity throughout, regardless of how its magnitude varies."
+
+- "rotates to stay normal as velocity rotates to stay tangent" — elegant, parallel technical phrasing
+- "regardless of how its magnitude varies" — a confident qualification that shows awareness of the counterargument while dismissing it
+- Both claims are crisp and declarative
+- "maintain perpendicularity" and "stay normal" — precise geometric vocabulary
+- Slightly repetitive of earlier claims, which may signal that the argument is running out of new ground, but tone remains authoritative
+
+**Rating: 4**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The speed increases if we model the car as a point mass. It also increases if we model it as a rigid body."
+
+- Mirrors the structure of Debater A's opening, which itself was authoritative
+- Equally direct and declarative
+- Uses the same technical framing (point mass vs. rigid body)
+- "It also increases" — confident, no hedging
+- Concise and clear
+
+**Rating: 4**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "On a frictionless track, the rails' constraint force does no work, so kinetic energy (KE) is conserved and speed cannot increase."
+Claim 2: "There is simply nothing on a fixed frictionless track that can add energy to the car."
+
+- Claim 1: Technical and logical — "constraint force does no work," "kinetic energy is conserved" — very authoritative
+- Claim 2: "There is simply nothing" — colloquial and somewhat dismissive; undermines the technical register slightly
+- "simply nothing" is casual and less expert-sounding compared to Claim 1
+- Strong start, weaker finish
+
+**Rating: 3**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "If the rails truly do no work, a point-mass car will not lose speed on the smaller track."
+Claim 2: "Yet if kinetic energy is conserved while the rails do no work, a rigid body on a frictionless track does not slow down, contradicting Debater A's Opening."
+
+- "if the rails truly do no work" — the word "truly" is slightly hedging/rhetorical, but can also signal skeptical precision
+- Claim 2 is a logical contradiction argument — structured and assertive
+- "contradicting Debater A's Opening" — direct and confident, names the inconsistency explicitly
+- The logical structure (if…then, contradiction) lends an air of analytical authority
+- Both claims are tightly reasoned
+
+**Rating: 4**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "A rigid body has translational and rotational kinetic energy; a point mass has only translational."
+Claim 2: "On a tighter track, rotational kinetic energy increases at the expense of translational kinetic energy."
+
+- Claim 1 is a clean, textbook-level distinction — confident and precise
+- Claim 2 is a strong mechanistic claim: "increases at the expense of" — cause-and-effect language
+- "at the expense of" is a standard physics framing, adding authority
+- Together the claims form a coherent, expert-sounding argument
+- No hedging, no qualifications
+
+**Rating: 4**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "This holds only when the body is mechanically constrained to yaw with the track curvature (rigid link between axles and body), which has not been established."
+Claim 2: "Without that constraint, total KE stays translational and the speed does not fall."
+
+- "mechanically constrained to yaw with the track curvature" — highly technical vocabulary; "yaw" is domain-specific
+- "which has not been established" — a precise epistemological challenge, sounds analytically sharp
+- Claim 2 follows logically and uses technical language ("total KE stays translational")
+- Both claims together show sophisticated mechanical reasoning
+- Very authoritative overall
+
+**Rating: 5**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "Both axles are constrained to the rails, so the body's orientation is pinned by the chord between the two axle positions."
+Claim 2: "On a curved section, this geometry causes the body to yaw as it advances."
+
+- "pinned by the chord between the two axle positions" — highly specific geometric language; sounds expert
+- "yaw as it advances" — uses engineering/mechanics vocabulary precisely
+- Claim 1 is particularly strong — visualizes the mechanical constraint clearly and technically
+- Claim 2 follows naturally and uses the domain-specific term "yaw"
+- No hedging; confident mechanical reasoning
+
+**Rating: 5**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "A car whose axles are rigidly fixed parallel to its body cannot roll without slipping on a curved track."
+Claim 2: "The curvature differs at the front and rear contact points on the connecting track, with consequences for yaw and speed."
+
+- Claim 1 uses precise mechanical language: "axles are rigidly fixed parallel," "cannot roll without slipping" — authoritative
+- Claim 2: "The curvature differs at the front and rear contact points" — specific and technical
+- "with consequences for yaw and speed" — somewhat vague at the end; doesn't specify what the consequences are, which weakens authority slightly
+- Overall, technically grounded but Claim 2 trails off without full precision
+
+**Rating: 4**
+
+---
+
+RATINGS:
+A | Opening | [[4]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[5]]
+B | Argument 2 | [[4]]
+A | Response 2 | [[5]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[4]]
+B | Opening | [[4]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[5]]
+A | Argument 3 | [[5]]
+B | Response 3 | [[4]]

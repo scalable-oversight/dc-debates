@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch modified</title>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 2em;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            color: #34495e;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+        
+        h3 {
+            color: #34495e;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        
+        .question-section {
+            margin-bottom: 40px;
+        }
+        
+        .question-section p {
+            margin-bottom: 15px;
+        }
+        
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .references-section {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+        }
+        
+        .references-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .reference-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: white;
+            border-left: 4px solid #3498db;
+            border-radius: 4px;
+        }
+        
+        .reference-item strong {
+            color: #2c3e50;
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        .reference-quote {
+            color: #666;
+            font-style: italic;
+            margin-top: 8px;
+        }
+        
+        .debate-container {
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .debate-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .debate-table thead {
+            background-color: #34495e;
+            color: white;
+        }
+        
+        .debate-table th {
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .debate-table td {
+            padding: 12px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .debate-table tbody tr:hover {
+            background-color: #f8f9fa;
+        }
+        
+        .liz-turn {
+            background-color: #e8f5e9;
+        }
+        
+        .bob-turn {
+            background-color: #fff3e0;
+        }
+        
+        .turn-label {
+            font-weight: 600;
+            color: #2c3e50;
+            width: 100px;
+            white-space: nowrap;
+        }
+        
+        .turn-content {
+            line-height: 1.8;
+        }
+        
+        .task-block {
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+            line-height: 1.6;
+        }
+        
+        pre {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 15px;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+        
+        code {
+            font-family: "Consolas", "Monaco", "Courier New", monospace;
+            font-size: 0.9em;
+        }
+        
+        pre code {
+            display: block;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        
+        .ref-link {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .ref-link:hover {
+            text-decoration: underline;
+        }
+        
+        .flyout {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: white;
+        }
+        
+        .flyout-header {
+            padding: 15px 20px;
+            cursor: pointer;
+            user-select: none;
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #ddd;
+            font-weight: 600;
+            color: #2c3e50;
+            transition: background-color 0.2s ease;
+        }
+        
+        .flyout-header:hover {
+            background-color: #e9ecef;
+        }
+        
+        .flyout-header::before {
+            content: "▶";
+            display: inline-block;
+            margin-right: 10px;
+            transition: transform 0.2s ease;
+            font-size: 0.8em;
+        }
+        
+        .flyout.expanded .flyout-header::before {
+            transform: rotate(90deg);
+        }
+        
+        .flyout-content {
+            display: none;
+            padding: 20px;
+        }
+        
+        .flyout.expanded .flyout-content {
+            display: block;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+            
+            .debate-table {
+                font-size: 0.9em;
+            }
+            
+            .debate-table th,
+            .debate-table td {
+                padding: 8px;
+            }
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add click handlers to flyout headers
+            document.querySelectorAll('.flyout-header').forEach(function(header) {
+                header.addEventListener('click', function() {
+                    var flyout = this.parentElement;
+                    flyout.classList.toggle('expanded');
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Switch modified</h1>
+        
+        <div class="flyout">
+            <div class="flyout-header">Question</div>
+            <div class="flyout-content">
+                <div class="question-section">
+                    <p>A train car is freely coasting around a large circular track. It is then switched to a smaller circular track. How does its speed change? Assume no friction.</p>
+<br>
+<div class="image-container"><img src="../images/switch.png" alt="Image"></div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="flyout">
+            <div class="flyout-header">Manual debates</div>
+            <div class="flyout-content">
+                <div class="debate-container">
+<h3>Debate: Liz (Initiator) vs Bob (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.0</td>
+    <td class="turn-content">The rails only exert forces perpendicular to the car&#x27;s velocity, so they do no work on a point mass model; kinetic energy stays constant, so the speed stays the same. A small slowdown might be possible if the question author wants us to consider the car a rigid body rather than a point mass.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.0</td>
+    <td class="turn-content">It doesn&#x27;t seem right to say that the rails only exert forces perpendicular to the car&#x27;s velocity. Doesn&#x27;t the instantaneous direction the train travels vary constantly while the train is transitioning tracks?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.1</td>
+    <td class="turn-content">The direction of velocity changes continuously along the transition curve. In this case the car exactly follows the path of the rail and so the direction of the applied force is always perfectly perpendicular to the velocity, as long as the track is smooth and frictionless.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.1</td>
+    <td class="turn-content">Does the direction of the applied force, or the car&#x27;s velocity, differ from the front to the rear of the car?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.2</td>
+    <td class="turn-content">For a point mass model, no. In a rigid body model, the local track tangent differs from front to rear, so front/rear wheels have slightly different velocities, and each contact force remains perpendicular to its contact point&#x27;s instantaneous velocity, so forces still do no work.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.2</td>
+    <td class="turn-content">This seems to contradict your claim that &quot;a small slowdown might be possible&quot;: if each contact force remains perfectly perpendicular to its contact point&#x27;s instantaneous velocity, wouldn&#x27;t the car&#x27;s speed stay exactly the same?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.3</td>
+    <td class="turn-content">On a rigid body model, because the constraints enforce ω = v/R, tighter curvature demands higher ω. Total KE is conserved (per Liz.2), so increased rotational KE must come from translational KE, slightly reducing speed.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<div class="debate-container">
+<h3>Debate: Bob (Initiator) vs Liz (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.0</td>
+    <td class="turn-content">It will speed up. Picture someone spinning a ball on a string; the ball spins faster as they pull the string in. It&#x27;s not a perfect analogy, but the same principle applies.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.0</td>
+    <td class="turn-content">It speeds up on a string only because pulling the string inward moves the ball inward while the tension pulls inward too, so there is a force component in the ball&#x27;s direction of travel. On a frictionless fixed track, the force is sideways; where does the energy needed to increase speed come from?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.1</td>
+    <td class="turn-content">The curvature of the connecting track changes as it transitions from approximating the curvature of the outer track to that of the inner track. So the force is not perpendicular to the direction of travel. The train gains speed while on the connecting path, which it maintains in the inner track.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.1</td>
+    <td class="turn-content">On a frictionless fixed track, the car&#x27;s velocity is always tangent to the path, and the track&#x27;s contact force is perpendicular to that velocity at every instant. Can you point to any point where the track&#x27;s contact force isn&#x27;t perpendicular to the car&#x27;s instantaneous velocity at the contact point?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.2</td>
+    <td class="turn-content">This is true of *every* point on the connecting track. The difference from perpendicular at any single point is infinitesimally small, but they add up when you integrate over the length of the connecting track.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.2</td>
+    <td class="turn-content">Infinitesimal work is defined locally: dW = F · dr <a href="#ref-work_energy_theorem" class="ref-link">[work_energy_theorem]</a>. On a frictionless track dr is tangent and the contact force is normal, so F · dr = 0 at every point; integrating zeroes stays zero. What nonzero F_tangent are you integrating?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.3</td>
+    <td class="turn-content">Curvature changes, so the contact force can&#x27;t stay perpendicular; you can&#x27;t just ignore the amount of curvature in such problems (see <a href="#ref-normal_force" class="ref-link">[normal_force]</a> for example). In this case dW = F · dr becomes positive.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+                <div class="references-section">
+<h2>References</h2>
+<ul class="references-list">
+  <li class="reference-item">
+    <strong id="ref-work_energy_theorem"><a href="https://openstax.org/books/university-physics-volume-1/pages/7-3-work-energy-theorem" target="_blank">https://openstax.org/books/university-physics-volume-1/pages/7-3-work-energy-theorem</a></strong>
+    <p class="reference-quote">Let&#x27;s start by looking at the net work done on a particle as it moves over an infinitesimal displacement, which is the dot product of the net force and the displacement: \(dW_{\text{net}} = \vec{F}_{\text{net}} \cdot d\vec{r}\).</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-normal_force"><a href="https://www.youtube.com/watch?v=Ec6btKP4qfg" target="_blank">https://www.youtube.com/watch?v=Ec6btKP4qfg</a></strong>
+    <p class="reference-quote">...the normal force is the sum of the centripetal force and the weight force mg. Now I need to give you the radius of curvature. So let&#x27;s say it&#x27;s two meters for A and B. With that information, go ahead and calculate the normal force.</p>
+  </li>
+</ul>
+</div>
+
+            </div>
+        </div>
+        
+                <div class="flyout">
+            <div class="flyout-header">Gemini 3 Pro Debates</div>
+            <div class="flyout-content">
+                <div class="debate-container">
+<h3>Debate: Liz (Initiator) vs Bob (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.0</td>
+    <td class="turn-content">The train&#x27;s speed remains unchanged. The only horizontal force acting on the car is the normal force from the track. Since this force is always perpendicular to the car&#x27;s velocity, it does zero work. By the Work-Energy Theorem, zero work means zero change in kinetic energy.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.0</td>
+    <td class="turn-content">That ignores rotational dynamics. This is a classic conservation of angular momentum case (\(L=mvr\)). As the car moves to a smaller radius \(r\), shouldn&#x27;t its speed \(v\) increase to conserve \(L\), just like a figure skater pulling in their arms?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.1</td>
+    <td class="turn-content">No. The skater pulls their arms in using internal muscles. Here, the track exerts an external normal force on the car. During the spiral switch, this normal force creates a net torque about the center, actively changing the angular momentum.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.1</td>
+    <td class="turn-content">The normal force points to the center of curvature. On a smooth curve, isn&#x27;t this force effectively radial? A radial force exerts zero torque (\(\tau = r \times F\)). If torque is zero, isn&#x27;t angular momentum strictly conserved?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.2</td>
+    <td class="turn-content">That holds only for a circle. In the spiral section, the path&#x27;s tangent is not perpendicular to the radius vector from the center. Consequently, the normal force (perpendicular to the tangent) does not point to the center. It exerts a torque, reducing \(L\) without doing work.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.2</td>
+    <td class="turn-content">If the track reduces the radius, it acts exactly like a string pulling a weight inward. Shortening the string speeds up the weight. Why is the rigid track different from the string?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.3</td>
+    <td class="turn-content">The string pulls along the radius, doing work (\(F \cdot dr > 0\)). The track pushes perpendicular to the motion. As <a href="#ref-phys_classroom" class="ref-link">[phys_classroom]</a> confirms for coaster cars, the normal force is &quot;directed perpendicular to the motion... and thus is incapable of doing any work.&quot;</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<div class="debate-container">
+<h3>Debate: Bob (Initiator) vs Liz (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.0</td>
+    <td class="turn-content">The speed must increase. We are &quot;freely coasting&quot; to a smaller radius. By the conservation of angular momentum, \(v_1 r_1 = v_2 r_2\). Since \(r_2 < r_1\), \(v_2\) must be greater. This is fundamental orbital and rotational mechanics.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.0</td>
+    <td class="turn-content">Conservation of angular momentum requires zero external torque. Since the track&#x27;s normal force is the mechanism moving the car inward, how can you be certain it exerts zero torque relative to the center of rotation?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.1</td>
+    <td class="turn-content">The track just constrains the path; it doesn&#x27;t apply tangential thrust. In the absence of tangential forces (like friction), the &quot;swirl&quot; effect dominates. <a href="#ref-lumen_L" class="ref-link">[lumen_L]</a> notes that without a net external torque, \(L\) remains constant. The track is just a passive guide.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.1</td>
+    <td class="turn-content">But if the speed increases, kinetic energy increases (\(K=1/2mv^2\)). Where does this extra energy come from? The normal force is perpendicular to motion, so it cannot add energy to the system.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.2</td>
+    <td class="turn-content">The energy arises from the work done by the centripetal constraint. Just as a skater does work to pull arms in, the track&#x27;s geometric constraint forces the car into a higher energy state by compressing the radius. The constraint converts position to speed.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.2</td>
+    <td class="turn-content">A skater does work by displacing their arms radially against force. A rigid track cannot displace against the car; the car moves tangentially along it. Since \(\vec{F} \perp \vec{v}\), isn&#x27;t Power \(P=0\)?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.3</td>
+    <td class="turn-content">You are ignoring the kinematic reality. The constraint is absolute: the car must satisfy the tighter radius. The geometry forces the acceleration, similar to how a nozzle accelerates fluid flow. The system trades radius for velocity.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+                <div class="references-section">
+<h2>References</h2>
+<ul class="references-list">
+  <li class="reference-item">
+    <strong id="ref-phys_classroom"><a href="https://www.physicsclassroom.com/mmedia/energy/ce.cfm" target="_blank">https://www.physicsclassroom.com/mmedia/energy/ce.cfm</a></strong>
+    <p class="reference-quote">The normal force of the track pushing up on the cars... is at all times directed perpendicular to the motion of the cars and thus is incapable of doing any work.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-lumen_L"><a href="https://courses.lumenlearning.com/suny-osuniversityphysics/chapter/11-2-conservation-of-angular-momentum/" target="_blank">https://courses.lumenlearning.com/suny-osuniversityphysics/chapter/11-2-conservation-of-angular-momentum/</a></strong>
+    <p class="reference-quote">The angular momentum of a system of particles... is conserved if there is no net external torque... L = constant... Figure 11.18 shows an ice skater executing a spin.</p>
+  </li>
+</ul>
+</div>
+
+            </div>
+        </div>
+        <div class="flyout">
+            <div class="flyout-header">GPT 5.2 Debates</div>
+            <div class="flyout-content">
+                <div class="debate-container">
+<h3>Debate: Liz (Initiator) vs Bob (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.0</td>
+    <td class="turn-content">Speed stays the same: on a fixed frictionless rail, the normal force is perpendicular to motion, so it does no work and can’t change kinetic energy—only direction.<a href="#ref-pc_work" class="ref-link">[pc_work]</a><a href="#ref-openstax_normal" class="ref-link">[openstax_normal]</a></td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.0</td>
+    <td class="turn-content">If both circles share a center, why isn’t L about that center conserved? With a purely radial rail force, torque is zero<a href="#ref-torque_openstax" class="ref-link">[torque_openstax]</a>, so L is constant<a href="#ref-angmom_wiki" class="ref-link">[angmom_wiki]</a>. Since L=mrv, when r drops, v rises—why not?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.1</td>
+    <td class="turn-content">At the switch the contact force isn’t aimed through the common center, so τ=r×F≠0 about that center and L about it can change. But the constraint is frictionless, so it does no work and |v| stays fixed.<a href="#ref-work_wiki" class="ref-link">[work_wiki]</a></td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.1</td>
+    <td class="turn-content">With v fixed, centripetal accel jumps to v²/r. How does the rail suddenly provide a larger inward force without also changing v?<a href="#ref-pc_work" class="ref-link">[pc_work]</a></td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.2</td>
+    <td class="turn-content">Nothing forbids that: F=mv²/r. Same v with smaller r simply requires a larger normal force. A force perpendicular to v changes direction, not speed.<a href="#ref-pc_work" class="ref-link">[pc_work]</a></td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.2</td>
+    <td class="turn-content">During the merge, what guarantees the rail’s impulse is perpendicular to the instantaneous velocity? Work is ∫F·ds<a href="#ref-work_libretexts" class="ref-link">[work_libretexts]</a>; what makes that integral exactly zero through the switching region?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.3</td>
+    <td class="turn-content">For an ideal smooth fixed track, displacement is along the tangent and the contact force is normal, so F·ds=0 everywhere on the path.<a href="#ref-work_wiki" class="ref-link">[work_wiki]</a><a href="#ref-openstax_normal" class="ref-link">[openstax_normal]</a> The impulse redirects momentum; |v| stays unchanged.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<div class="debate-container">
+<h3>Debate: Bob (Initiator) vs Liz (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.0</td>
+    <td class="turn-content">Speed increases. About the shared center, if the switch guides the car with a force along the radius, torque about that center is zero<a href="#ref-torque_openstax" class="ref-link">[torque_openstax]</a>, so L is conserved<a href="#ref-angmom_wiki" class="ref-link">[angmom_wiki]</a>. With L=mrv, moving to smaller r forces v up.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.0</td>
+    <td class="turn-content">Where does the extra kinetic energy come from? A normal/centripetal force does zero work and cannot change speed<a href="#ref-pc_work" class="ref-link">[pc_work]</a><a href="#ref-openstax_normal" class="ref-link">[openstax_normal]</a>. What force does positive work on the car?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.1</td>
+    <td class="turn-content">The switch involves inward displacement. When a guiding force has any component along that displacement, it does work W=∫F·ds<a href="#ref-work_libretexts" class="ref-link">[work_libretexts]</a> and can raise KE while leaving L about the center intact.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.1</td>
+    <td class="turn-content">But on a frictionless fixed track, the contact force is normal to the path, hence perpendicular to v, so F·v=0.<a href="#ref-work_wiki" class="ref-link">[work_wiki]</a> How do you get a component along displacement without friction or a moving switch?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.2</td>
+    <td class="turn-content">A real switch is a shaped, multi-contact constraint; it can transmit a tangential impulse during re-guiding. OpenStax notes normal contact can do work on non-point systems via internal displacement/deformation.<a href="#ref-openstax_normal" class="ref-link">[openstax_normal]</a> Why treat the car as an ideal point here?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.2</td>
+    <td class="turn-content">The problem models an ideal car on a fixed, frictionless rail; fixed constraints do no work.<a href="#ref-work_wiki" class="ref-link">[work_wiki]</a> Under that model, torque can change L, but energy can’t—so why doesn’t v stay constant?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.3</td>
+    <td class="turn-content">The word “switched” implies an active constraint. If the switch hardware moves or the guiding contact isn’t workless, KE can change while friction stays zero. With shared center and near-zero torque, L logic still selects higher v.<a href="#ref-angmom_wiki" class="ref-link">[angmom_wiki]</a></td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+                <div class="references-section">
+<h2>References</h2>
+<ul class="references-list">
+  <li class="reference-item">
+    <strong id="ref-pc_work"><a href="https://www.physicsclassroom.com/Class/circles/U6L1c.cfm" target="_blank">https://www.physicsclassroom.com/Class/circles/U6L1c.cfm</a></strong>
+    <p class="reference-quote">Thus, the work done by the centripetal force in the case of uniform circular motion is 0 Joules... For this reason, the kinetic energy and therefore, the speed of the object will remain constant.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-work_wiki"><a href="https://en.wikipedia.org/wiki/Work_%28physics%29" target="_blank">https://en.wikipedia.org/wiki/Work_%28physics%29</a></strong>
+    <p class="reference-quote">...the velocity in the direction of the constraint is limited to 0, so that the constraint forces do not perform work on the system... Fixed, frictionless constraint forces do not perform work on the system, as the angle between the motion and the constraint forces is always 90°.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-angmom_wiki"><a href="https://en.wikipedia.org/wiki/Angular_momentum" target="_blank">https://en.wikipedia.org/wiki/Angular_momentum</a></strong>
+    <p class="reference-quote">Unlike linear momentum, angular momentum depends on where this origin is chosen... angular momentum is conserved if there is no external torque... Therefore, for a closed system (where there is no net external torque)... the total angular momentum of the system is constant.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-openstax_normal"><a href="https://openstax.org/books/university-physics-volume-1/pages/7-1-work" target="_blank">https://openstax.org/books/university-physics-volume-1/pages/7-1-work</a></strong>
+    <p class="reference-quote">The normal force never does work under these circumstances. (Note that if the displacement did have a relative component perpendicular to the surface... there would no longer be any normal contact force... However, if the object is more than a particle... the normal contact force can do work on it...)</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-torque_openstax"><a href="https://openstax.org/books/college-physics-ap-courses/pages/9-2-the-second-condition-for-equilibrium" target="_blank">https://openstax.org/books/college-physics-ap-courses/pages/9-2-the-second-condition-for-equilibrium</a></strong>
+    <p class="reference-quote">Vector F _{B} is parallel to the line connecting the point of application of force and the pivot point. As a result, it does not provide an ability to rotate the object and, subsequently, its torque is zero.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-work_libretexts"><a href="https://phys.libretexts.org/Workbench/Physics_3A/02%3A_Applying_Models_to_Mechanical_Phenomena/2.03%3A_Work" target="_blank">https://phys.libretexts.org/Workbench/Physics_3A/02%3A_Applying_Models_to_Mechanical_Phenomena/2.03%3A_Work</a></strong>
+    <p class="reference-quote">Work, \(W\), is a transfer of energy... Only the part of the force that acts parallel to the displacement contributes to work... \[ W = \int \limits_A^B \overrightarrow F_{net} \cdot \overrightarrow {ds}\]</p>
+  </li>
+</ul>
+</div>
+
+            </div>
+        </div>
+        <div class="flyout">
+            <div class="flyout-header">Claude 4.5 Opus Debates</div>
+            <div class="flyout-content">
+                <div class="debate-container">
+<h3>Debate: Liz (Initiator) vs Bob (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.0</td>
+    <td class="turn-content">The speed stays the same. On a frictionless track, the only force from the track is the normal force, perpendicular to motion. Since work W=F·d·cos(θ), and θ=90°, no work is done<a href="#ref-wiki_work" class="ref-link">[wiki_work]</a>. With zero work, kinetic energy (½mv²) is conserved, so speed is unchanged.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.0</td>
+    <td class="turn-content">But angular momentum L=mvr is conserved when there&#x27;s no external torque. When the train transitions to a smaller radius, doesn&#x27;t it speed up just like an ice skater pulling in her arms? How do you explain the skater analogy?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.1</td>
+    <td class="turn-content">The skater analogy fails. A skater&#x27;s arms move via internal forces. The train is externally constrained by a fixed track that exerts forces producing torque about the center. During the switch, the redirecting force isn&#x27;t purely radial—it changes angular momentum while conserving KE<a href="#ref-feynman_work" class="ref-link">[feynman_work]</a>.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.1</td>
+    <td class="turn-content">The centripetal force points toward the center and creates no torque. The constraint force is always perpendicular to motion, so it can only change direction, not speed. Why would angular momentum change while energy stays constant?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.2</td>
+    <td class="turn-content">During the switch, the constraint force is perpendicular to velocity but NOT radial to either circle&#x27;s center. A force perpendicular to velocity but not through a point still exerts torque about that point<a href="#ref-wiki_angular" class="ref-link">[wiki_angular]</a>. Angular momentum changes; kinetic energy doesn&#x27;t.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.2</td>
+    <td class="turn-content">Energy arguments miss the physical reality. When constrained to a smaller circle, the train must complete the loop faster. The tangential velocity has to increase to match the higher required angular velocity. How can speed stay constant?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.3</td>
+    <td class="turn-content">No—the train simply has higher angular velocity on the smaller circle. ω=v/r, so if v stays constant and r decreases, ω increases. That&#x27;s consistent with unchanging speed. No law requires matching any particular ω. The track constraint conserves KE, not L<a href="#ref-wiki_work" class="ref-link">[wiki_work]</a>.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<div class="debate-container">
+<h3>Debate: Bob (Initiator) vs Liz (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.0</td>
+    <td class="turn-content">The speed increases. When the train moves to the smaller track, angular momentum L=mvr must be conserved since the centripetal force points toward the center, producing zero torque<a href="#ref-wiki_angular" class="ref-link">[wiki_angular]</a>. With smaller r and constant L, velocity v must increase—just like an ice skater spinning faster when pulling arms in<a href="#ref-openstax_cons" class="ref-link">[openstax_cons]</a>.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.0</td>
+    <td class="turn-content">But the track constraint force does no work—it&#x27;s perpendicular to motion<a href="#ref-wiki_work" class="ref-link">[wiki_work]</a>. If no work is done, how can kinetic energy (½mv²) increase? Where does the extra energy come from in a frictionless system with no engine?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.1</td>
+    <td class="turn-content">Energy can redistribute without external work. The skater adds kinetic energy by pulling her arms inward—the work she does becomes rotational KE<a href="#ref-openstax_cons" class="ref-link">[openstax_cons]</a>. Similarly, the track does work on the train during the transition by redirecting it inward, converting potential configuration into kinetic energy.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.1</td>
+    <td class="turn-content">The skater does work via muscular effort—an internal force. A fixed, frictionless track exerts only a normal force. Feynman states &quot;no work is done by the constraint because the forces of constraint are always at right angles to the motion&quot;<a href="#ref-feynman_work" class="ref-link">[feynman_work]</a>. How can speed change?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.2</td>
+    <td class="turn-content">During the spiral transition, the constraint force has a component along the train&#x27;s inward displacement. This is analogous to pulling a ball on a string inward—work is done by the tension. The track&#x27;s redirecting force isn&#x27;t purely perpendicular during the curved switch.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.2</td>
+    <td class="turn-content">A ball being pulled requires active tension with a radial component—that&#x27;s pulling along the string. But here, the track is fixed; the train merely coasts onto it. OpenStax confirms normal force &quot;never does any work, because it&#x27;s perpendicular to the displacement&quot;<a href="#ref-openstax_normal" class="ref-link">[openstax_normal]</a>. Isn&#x27;t this definitive?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.3</td>
+    <td class="turn-content">NASA confirms angular momentum L=mvr is conserved: &quot;if radius decreased, velocity must increase&quot;<a href="#ref-nasa_angular" class="ref-link">[nasa_angular]</a>. The physical mechanism is real—as the train spirals in, geometry requires higher tangential speed to maintain the conserved angular momentum about the center.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+                <div class="references-section">
+<h2>References</h2>
+<ul class="references-list">
+  <li class="reference-item">
+    <strong id="ref-wiki_work"><a href="https://en.wikipedia.org/wiki/Work_(physics)" target="_blank">https://en.wikipedia.org/wiki/Work_(physics)</a></strong>
+    <p class="reference-quote">Fixed, frictionless constraint forces do not perform work on the system, as the angle between the motion and the constraint forces is always 90°.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-wiki_angular"><a href="https://en.wikipedia.org/wiki/Angular_momentum" target="_blank">https://en.wikipedia.org/wiki/Angular_momentum</a></strong>
+    <p class="reference-quote">If the net force on some body is directed always toward some point, the center, then there is no torque on the body with respect to the center, as all of the force is directed along the radius vector</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-openstax_cons"><a href="https://openstax.org/books/university-physics-volume-1/pages/11-3-conservation-of-angular-momentum" target="_blank">https://openstax.org/books/university-physics-volume-1/pages/11-3-conservation-of-angular-momentum</a></strong>
+    <p class="reference-quote">This work causes an increase in the rotational kinetic energy, while her angular momentum remains constant. Since she is in a frictionless environment, no energy escapes the system.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-nasa_angular"><a href="https://www.nasa.gov/wp-content/uploads/2024/01/classroom-connection-angular-momentum-final-v508c.pdf" target="_blank">https://www.nasa.gov/wp-content/uploads/2024/01/classroom-connection-angular-momentum-final-v508c.pdf</a></strong>
+    <p class="reference-quote">When the radius increased, the circular motion of the yo-yo slowed to a prolonged rotation...Angular momentum (L) is defined as L=mvr</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-feynman_work"><a href="https://www.feynmanlectures.caltech.edu/I_14.html" target="_blank">https://www.feynmanlectures.caltech.edu/I_14.html</a></strong>
+    <p class="reference-quote">In motion with a fixed frictionless constraint, no work is done by the constraint because the forces of constraint are always at right angles to the motion.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-openstax_normal"><a href="https://openstax.org/books/university-physics-volume-1/pages/7-3-work-energy-theorem" target="_blank">https://openstax.org/books/university-physics-volume-1/pages/7-3-work-energy-theorem</a></strong>
+    <p class="reference-quote">Constant or not, for motion along a surface, the normal force never does any work, because it&#x27;s perpendicular to the displacement.</p>
+  </li>
+</ul>
+</div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

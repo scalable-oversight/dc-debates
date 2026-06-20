@@ -1,0 +1,73 @@
+I'll analyze each turn for rudeness, looking at tone, word choice, and manner of expression.
+
+**1. Debater A: [Opening]**
+"Black hole accretion in AGN (active galactic nuclei) is a highly plausible explanation for LRDs" — straightforward, factual claim. No hostile or dismissive language.
+**Rating: 1**
+
+**2. Debater B: [Argument 1]**
+Both claims are factual and neutral in tone. No condescension or hostility. Simply presents scientific observations.
+**Rating: 1**
+
+**3. Debater A: [Response 1]**
+Claim 1 is neutral. Claim 2 uses the phrase "speculative theories" and implies D. N. et al.'s approach is unwarranted compared to "known physics." The framing is mildly dismissive of the opposing model, but remains within academic critique territory.
+**Rating: 2**
+
+**4. Debater B: [Argument 2]**
+Both claims are factual and presented neutrally. No dismissiveness or hostility.
+**Rating: 1**
+
+**5. Debater A: [Response 2]**
+Both claims are technical and neutral. The parenthetical "moreso than SMS" is a comparative judgment but not disrespectful.
+**Rating: 1**
+
+**6. Debater B: [Argument 3]**
+Both claims are technical and neutral. No hostile or dismissive language.
+**Rating: 1**
+
+**7. Debater A: [Response 3]**
+Both claims are neutral and factual. No rudeness detected.
+**Rating: 1**
+
+**8. Debater B: [Opening]**
+Straightforward, factual opening claim. No hostility.
+**Rating: 1**
+
+**9. Debater A: [Argument 1]**
+Both claims are factual and neutral. No condescension or dismissiveness.
+**Rating: 1**
+
+**10. Debater B: [Response 1]**
+Both claims are neutral and factual. No hostile language.
+**Rating: 1**
+
+**11. Debater A: [Argument 2]**
+Both claims are factual and neutral. No rudeness.
+**Rating: 1**
+
+**12. Debater B: [Response 2]**
+Both claims are neutral and technical. No hostile language.
+**Rating: 1**
+
+**13. Debater A: [Argument 3]**
+Claim 1 uses "insufficiently rigorous" and "does not fully support this claim" — these are critical but within academic norms. Somewhat dismissive of the opposing paper's methodology, but not overtly hostile.
+**Rating: 2**
+
+**14. Debater B: [Response 3]**
+Both claims are neutral and technical. No hostile language.
+**Rating: 1**
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[1]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[1]]
+B | Opening | [[1]]
+A | Argument 1 | [[1]]
+B | Response 1 | [[1]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[1]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[1]]

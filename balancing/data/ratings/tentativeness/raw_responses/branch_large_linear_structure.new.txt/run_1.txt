@@ -1,0 +1,73 @@
+I'll analyze each turn for hedging and qualifying language, then provide ratings.
+
+**1. Debater A: [Opening] (Left)**
+"The best plausible theoretical model" — "plausible" is a mild hedge, but this is essentially a direct assertion. No other hedging language present.
+→ Minimal tentativeness. Rating: **2**
+
+**2. Debater B: [Argument 1] (Left)**
+"If this hypothesis were true" — conditional framing hedges the second claim. Otherwise both claims are stated directly ("typically located," "would have to be").
+→ Minimal tentativeness. Rating: **2**
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1 is a direct assertion. Claim 2 uses "shows signs of" (mild hedge) and "could be" ("could be a trail"). "Could" is a clear hedge. Otherwise direct.
+→ Minimal tentativeness. Rating: **2**
+
+**4. Debater B: [Argument 2] (Left)**
+Both claims are stated directly. "In practice we do not" is a direct negative assertion. No hedging language detected.
+→ No tentativeness. Rating: **1**
+
+**5. Debater A: [Response 2] (Left)**
+Both claims stated directly. "Would cause," "would not have" are conditional but not hedging expressions — they follow logically from the stated mechanism. No qualifying words like "might" or "perhaps."
+→ No tentativeness. Rating: **1**
+
+**6. Debater B: [Argument 3] (Left)**
+"Hypothesised wake" — "hypothesised" qualifies the structure. "Would monotonically decrease" is conditional logic rather than hedging. "Does not support" is direct. One mild hedge.
+→ Minimal tentativeness. Rating: **2**
+
+**7. Debater A: [Response 3] (Left)**
+"While a broad age gradient is expected" — "while" concedes and qualifies. "Can be explained by" — "can" is a hedging modal. "Will not only occur... but after... as well" — "will" is direct here. "Would also add" — "would" is a mild hedge.
+→ Moderate tentativeness. Rating: **3**
+
+**8. Debater B: [Opening] (Right)**
+"The best plausible theoretical model" — "plausible" is a mild hedge. Otherwise a direct assertion.
+→ Minimal tentativeness. Rating: **2**
+
+**9. Debater A: [Argument 1] (Right)**
+Both claims stated directly. "Far exceeds," "would be expected," "is not entirely linear" — "would be expected" is conditional but not a personal hedge. "Additionally" is additive. No personal hedging expressions.
+→ No tentativeness. Rating: **1**
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1 is definitional and direct. Claim 2: "making it a strong candidate" — "strong candidate" is a hedge, softening from a definitive classification.
+→ Minimal tentativeness. Rating: **2**
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1 uses "is not sufficient" — direct negation. Claim 2 is a direct assertion. No hedging language.
+→ No tentativeness. Rating: **1**
+
+**12. Debater B: [Response 2] (Right)**
+Both claims are stated directly. "Directly suggesting that they're in the same class" — "suggesting" is a mild hedge softening from definitive conclusion.
+→ Minimal tentativeness. Rating: **2**
+
+**13. Debater A: [Argument 3] (Right)**
+Both claims stated directly. "Strongly resembling" is direct comparative language. "Implies that the object is not a galaxy" — "implies" is a slight hedge rather than stating outright.
+→ Minimal tentativeness. Rating: **2**
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "in the range expected of" — mild qualifying phrase. Claim 2: "It is well established" — framing device, but the claim itself is direct. "Often have rather clumpy" — "often" and "rather" are both hedging qualifiers.
+→ Minimal-to-moderate tentativeness. Rating: **2**
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[1]]
+B | Response 1 | [[2]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[2]]

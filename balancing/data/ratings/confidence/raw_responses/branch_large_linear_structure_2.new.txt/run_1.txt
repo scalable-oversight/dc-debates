@@ -1,0 +1,73 @@
+I'll analyze each turn for confidence signals, then provide ratings.
+
+**1. Debater A: [Opening] (Left)**
+"The best plausible theoretical model" — "plausible" introduces slight hedging, but "best" is assertive. The overall statement is direct and definitive. The citation adds authority.
+**Rating: 4** — Mostly assertive with only minor hedging ("plausible").
+
+**2. Debater B: [Argument 1] (Left)**
+"are typically found" — hedged with "typically." "would have to be" is conditionally assertive. Both claims are stated factually and directly, with one hedge.
+**Rating: 4** — Mostly assertive; "typically" is the only meaningful hedge.
+
+**3. Debater A: [Response 1] (Left)**
+"can eject" — modal verb introduces possibility rather than certainty. "shows signs of" — hedged observation. "could be a trail" — "could" is notably tentative. Multiple hedges present.
+**Rating: 3** — Mix of assertive and tentative language; "can," "shows signs of," and "could be" all hedge the claims.
+
+**4. Debater B: [Argument 2] (Left)**
+"are old, massive and compact structures" — definitive. "If the passage...caused star formation, we would observe" — conditional framing. "but in practice we do not" — definitive conclusion. Mostly assertive overall.
+**Rating: 4** — Conditional setup but confident conclusion; minimal hedging.
+
+**5. Debater A: [Response 2] (Left)**
+"is traveling at supersonic speeds" — definitive. "would cause star formation" — conditional but assertive. "do not form a bow shock" and "would not have" — confident negations. Mostly definitive.
+**Rating: 4** — Assertive throughout; modal "would" is standard conditional, not a hedge.
+
+**6. Debater B: [Argument 3] (Left)**
+"shows that" — definitive. "would monotonically decrease" — conditional but stated confidently. "does not support that" — definitive conclusion. No meaningful hedging.
+**Rating: 5** — Entirely assertive and definitive; no hedging language.
+
+**7. Debater A: [Response 3] (Left)**
+"can be explained by" — "can" introduces possibility. "will not only occur...but after...as well" — assertive. "would also add" — conditional. Mix of confident and slightly hedged language.
+**Rating: 3** — "can be explained" and "would also add" hedge the claims somewhat; mixed confidence.
+
+**8. Debater B: [Opening] (Right)**
+"The best plausible theoretical model" — same phrasing as Debater A's opening; "plausible" hedges slightly but "best" is assertive. Direct and confident.
+**Rating: 4** — Mostly assertive with minor hedging from "plausible."
+
+**9. Debater A: [Argument 1] (Right)**
+"far exceeds the ratio expected" — emphatic and definitive. "is not entirely linear" — somewhat hedged with "not entirely." "would be expected if it were" — conditional. Mostly assertive.
+**Rating: 4** — Strong claims with only minor hedging ("not entirely").
+
+**10. Debater B: [Response 1] (Right)**
+"is used to classify" — definitive. "satisfies the Tully-Fisher relation" — definitive. "making it a strong candidate" — "strong candidate" is confident but not absolute. Minor qualification.
+**Rating: 4** — Mostly assertive; "strong candidate" acknowledges some uncertainty but is still confident.
+
+**11. Debater A: [Argument 2] (Right)**
+"is not sufficient" — definitive. "is too large" — definitive. Both claims stated firmly with citation support.
+**Rating: 5** — Entirely assertive with no hedging; definitive language throughout.
+
+**12. Debater B: [Response 2] (Right)**
+"is an observationally confirmed" — highly assertive, appeals to empirical confirmation. "resembles the gradient" — "resembles" slightly softens the comparison. "suggesting that they're the same class" — "suggesting" is a meaningful hedge.
+**Rating: 3** — Strong opening claim but "resembles" and "suggesting" introduce notable tentativeness.
+
+**13. Debater A: [Argument 3] (Right)**
+"appear smoother than" — "appear" slightly hedges. "does not match" — definitive. Mix of slight hedge and confident conclusion.
+**Rating: 4** — Mostly assertive; "appear" is a minor hedge but the overall tone is confident.
+
+**14. Debater B: [Response 3] (Right)**
+"also appears to include" — "appears" hedges significantly. "with velocity measurements close to 0" — factual observation. "can leave extended trails" — "can" introduces possibility. "offering an alternative explanation" — "offering" and "alternative explanation" both hedge. Multiple hedges throughout.
+**Rating: 2** — Frequent hedging with "appears," "can," "offering an alternative explanation"; mostly tentative.
+
+RATINGS:
+A | Opening | [[4]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[4]]
+A | Response 2 | [[4]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[3]]
+B | Opening | [[4]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[5]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[2]]

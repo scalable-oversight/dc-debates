@@ -1,0 +1,157 @@
+I'll analyze each turn for confidence signals, then provide ratings.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The Einstein zig-zag lens model ([F. D. et al.]) with two deflectors... at different redshifts, and one AGN which produces 6 lensed images after being lensed by both deflectors."
+
+This is a straightforward declarative statement with no hedging. No qualifiers like "possibly," "likely," or "might." It states the model as the answer without reservation.
+
+**Rating: 5**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "The Einstein zig-zag lens model is overfit, due to the modeling decisions made..."
+Claim 2: "F. D. et al. do not quantify or report chi-squared error, an important index..."
+
+Both claims are stated definitively. "Is overfit" is unqualified; "do not quantify" is factual and absolute. "An important index" adds assertive framing. No hedging language present.
+
+**Rating: 5**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: "The mass profile of the second deflector **appears likely** to have a significant effect..."
+Claim 2: "Taking galaxy positions into account **allows one to** more accurately model a more complex mass distribution..."
+
+Claim 1 contains "appears likely" — a notable double hedge ("appears" + "likely"). Claim 2 is more assertive but uses "allows one to" rather than stating outright superiority. The double hedging in Claim 1 meaningfully lowers the overall confidence.
+
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: "This fails to reveal that the model has 30 total parameters, compared to 12 parameters..."
+Claim 2: "This provides an enormous degree of modelling flexibility and **results in** overfitting."
+
+Claim 1 is factual and absolute ("fails to reveal," specific numbers). Claim 2 uses "results in" — assertive causation — and "enormous degree" is emphatic. No hedging present.
+
+**Rating: 5**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: "A simpler model is **not necessarily** a correct or accurate model..."
+Claim 2: "Fifteen parameters in our model are **only partially constrained**, and therefore **should not count** as full degrees of freedom."
+
+"Not necessarily" is a mild hedge but is used as a logical qualifier rather than uncertainty about the claim itself. "Should not count" is assertive normative language. Overall, the tone is relatively firm.
+
+**Rating: 4**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "Constraints don't actually fix them in place: they are themselves determined via different models that come with their own errors and uncertainties."
+Claim 2: "...all galaxy positions and redshifts except for the main deflector **can vary considerably**, adding even more freedom..."
+
+Claim 1 is stated definitively ("don't actually fix"). "Can vary considerably" in Claim 2 uses "can" which is slightly less absolute than "do vary," but still assertive. Overall confident tone.
+
+**Rating: 4**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: "Direct spectroscopy of the second deflector **pins down** its distance (its redshift) **tightly**, **regardless of** the lens model."
+Claim 2: "Hubble imaging **fixes** the on-sky positions to a fraction of an arcsecond."
+
+Strong, assertive language throughout: "pins down tightly," "regardless of," "fixes." No hedging. Very confident framing.
+
+**Rating: 5**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The gravitationally lensed dual-AGN model ([C. S. M. et al.]), with the first AGN corresponding to the four brightest images and the second AGN corresponding to the two dim images next to the extended red arcs."
+
+Straightforward declarative, no hedging. States the model as the answer definitively.
+
+**Rating: 5**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "Spectroscopy **constrains** the redshift of the lensed red galaxy to be 1.88, which **places it** between the main deflector and alleged dual-AGN."
+Claim 2: "The dual-AGN model's lens model **should** include the mass profile of the red galaxy in order to be valid, but it does not."
+
+Claim 1 is factual and assertive. Claim 2 uses "should" (normative assertion) and "does not" (definitive). "Alleged" is interesting — slightly undermining the dual-AGN claim. Overall highly assertive.
+
+**Rating: 5**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "Inclusion of the red galaxy in the lens model **will, on the whole**, produce **only minor** changes in the caustics..."
+Claim 2: "The added mass **will in turn allow** for a relatively larger separation between the two AGN, **as one might reasonably expect**."
+
+"On the whole" and "only minor" slightly qualify Claim 1. "As one might reasonably expect" in Claim 2 is a hedging phrase. "Will" is assertive but the qualifiers moderate confidence somewhat.
+
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "The presence of a second deflector **enables** models in which one single source can produce 6 observed images."
+Claim 2: "Single-AGN models **remain consistent** with all available data, making the dual-AGN model **unnecessary**."
+
+Claim 1 is factual and assertive. Claim 2 is strong: "remain consistent with **all** available data" and calling the dual-AGN "unnecessary" are confident, absolute statements. No hedging.
+
+**Rating: 5**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "A single source being lensed to produce 6 images **requires** a specific morphology which has **never been observed before**."
+Claim 2: "A dual-AGN is an observed phenomenon that **does not invoke** overcomplicated hypotheses or unobserved morphologies."
+
+"Requires," "never been observed before," and "does not invoke" are all strong, definitive statements. No hedging whatsoever.
+
+**Rating: 5**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "Light curves for all 6 lensed images display the same variations with brief offsets (e.g. 35 days between D and E), and the same redshifts. But C. S. M. et al. **claim** that D and E correspond to AGN that are 6 kiloparsecs away from each other."
+Claim 2: "Light curves this similar **can only** be generated by a single source."
+
+"Claim" (used for the opponent) implies skepticism. "Can only" is an absolute statement. Very assertive overall.
+
+**Rating: 5**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "Activity in one AGN **can** set off activity in the other AGN in a dual-AGN system, causing correlated emissions."
+Claim 2: "Correlated emissions **can** make two different objects look like a single object **under some circumstances**."
+
+"Can" in both claims and "under some circumstances" are significant hedges. This is notably more tentative than other turns — the speaker is not claiming this definitely happens, only that it's possible.
+
+**Rating: 2**
+
+---
+
+RATINGS:
+A | Opening | [[5]]
+B | Argument 1 | [[5]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[4]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[5]]
+B | Opening | [[5]]
+A | Argument 1 | [[5]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[5]]
+B | Response 2 | [[5]]
+A | Argument 3 | [[5]]
+B | Response 3 | [[2]]

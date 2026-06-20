@@ -1,0 +1,172 @@
+I'll analyze each turn for technical jargon, then provide ratings.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+- "Einstein zig-zag lens model" – specialized astrophysics term
+- "deflectors" – technical lens modeling term
+- "redshifts" – astrophysics term (defined but still jargon)
+- "AGN" – acronym for Active Galactic Nuclei
+- "lensed images" – gravitational lensing jargon
+
+Multiple specialized terms in a single sentence; a layperson would struggle without the definitions. **Rating: 4**
+
+---
+
+**2. Debater B: [Argument 1]**
+- "overfit" – statistical/modeling term, somewhat accessible but technical
+- "second deflector" – lens modeling jargon
+- "chi-squared error" – statistical jargon, opaque to layperson
+- "image reconstruction error" – technical modeling phrase
+
+Contains several technical terms, particularly "chi-squared." **Rating: 3**
+
+---
+
+**3. Debater A: [Response 1]**
+- "mass profile" – astrophysics/modeling jargon
+- "second deflector" – lens modeling term
+- "optical axis" – technical optics term
+- "mass distribution" – somewhat technical
+- "shear" – gravitational lensing jargon
+
+Multiple technical terms across both claims. **Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2]**
+- "parameters" – mildly technical, accessible in context
+- "modelling flexibility" – general enough
+- "overfitting" – statistical/modeling jargon
+
+Mostly accessible language; "overfitting" is the main jargon term. **Rating: 2**
+
+---
+
+**5. Debater A: [Response 2]**
+- "constrained" – technical modeling term (partially constrained parameters)
+- "degrees of freedom" – statistical jargon, opaque to many laypersons
+- "parameters" – mildly technical
+
+"Degrees of freedom" is notable jargon; otherwise fairly accessible. **Rating: 2**
+
+---
+
+**6. Debater B: [Argument 3]**
+- "constraints" – technical modeling term
+- "redshifts" – astrophysics jargon
+- "deflector" – lens modeling term
+- "galaxy positions" – accessible
+
+Moderate use of technical terms. **Rating: 3**
+
+---
+
+**7. Debater A: [Response 3]**
+- "spectroscopy" – scientific technique, jargon to layperson
+- "redshift" – astrophysics term
+- "lens model" – technical
+- "Hubble imaging" – recognizable but technical
+- "arcsecond" – astronomical unit of measurement, jargon
+
+Several technical terms but sentences are relatively clear. **Rating: 3**
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+- "gravitationally lensed" – astrophysics jargon
+- "dual-AGN model" – specialized term
+- "AGN" – acronym
+- "images" – used in technical lensing sense
+- "extended red arcs" – technical observational term
+
+Dense with specialized terms. **Rating: 4**
+
+---
+
+**9. Debater A: [Argument 1]**
+- "Spectroscopy" – scientific technique
+- "redshift" – astrophysics term
+- "main deflector" – lens modeling jargon
+- "dual-AGN" – specialized term
+- "lens model" – technical
+- "mass profile" – astrophysics jargon
+- "red galaxy" – observational term, accessible
+
+Multiple technical terms across both claims. **Rating: 4**
+
+---
+
+**10. Debater B: [Response 1]**
+- "lens model" – technical
+- "caustics" – specialized gravitational lensing term
+- "redshift" – astrophysics jargon
+- "dual-AGN" – specialized term
+- "mass" – accessible
+- "separation" – accessible in context
+
+"Caustics" is highly specialized; combined with other terms makes this moderately heavy. **Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2]**
+- "second deflector" – lens modeling jargon
+- "lensed images" – gravitational lensing term
+- "single-AGN models" – specialized
+- "dual-AGN model" – specialized
+
+Multiple technical terms but sentences are fairly structured. **Rating: 3**
+
+---
+
+**12. Debater B: [Response 2]**
+- "single source" – mildly technical
+- "lensed" – gravitational lensing term
+- "morphology" – biological/scientific term used technically
+- "dual-AGN" – specialized term
+- "overcomplicated hypotheses" – general language
+
+"Morphology" and "dual-AGN" are jargon; otherwise moderately accessible. **Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3]**
+- "light curves" – astrophysics jargon
+- "lensed images" – technical
+- "redshifts" – astrophysics term
+- "dual-AGN" – specialized
+- "kiloparsecs" – astronomical unit, jargon
+- "AGN" – acronym
+
+Multiple specialized terms, particularly "light curves" and "kiloparsecs." **Rating: 4**
+
+---
+
+**14. Debater B: [Response 3]**
+- "AGN" – acronym
+- "dual-AGN system" – specialized
+- "correlated emissions" – technical physics term
+
+"Correlated emissions" is defined in the glossary but is still jargon. Moderate density. **Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[4]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[3]]
+B | Opening | [[4]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[3]]

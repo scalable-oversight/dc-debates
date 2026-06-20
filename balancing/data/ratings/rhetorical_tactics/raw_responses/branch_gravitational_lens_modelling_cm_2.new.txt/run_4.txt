@@ -1,0 +1,77 @@
+I'll analyze each turn for rhetorical/persuasive tactics before rating.
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+Simply states the model with a citation. No emotional appeals, no loaded language, no framing devices. Pure factual claim.
+Rating: 1
+
+**2. Debater B: [Argument 1]**
+Claim 1 uses "overfit" as a technical term, not loaded framing. Claim 2 notes absence of chi-squared reporting — factual criticism. The word "important" in Claim 2 slightly frames the missing metric as critical, but this is mild. Overall substantive.
+Rating: 1
+
+**3. Debater A: [Response 1]**
+Both claims are straightforward technical rebuttals about mass profiles and galaxy positions. No rhetorical devices detected.
+Rating: 1
+
+**4. Debater B: [Argument 2]**
+Claim 1 uses a stark numerical contrast (30 vs. 12 parameters) — this is factual but the framing emphasizes disparity for persuasive effect. "Enormous degree of modelling flexibility" in Claim 2 uses slightly loaded language to characterize the opponent's model negatively. Minor rhetorical shaping.
+Rating: 2
+
+**5. Debater A: [Response 2]**
+Claim 1 is a general epistemic principle (simpler ≠ correct), which is substantive but also functions as a mild rhetorical deflection. Claim 2 introduces a nuanced technical point about partial constraints. Mostly substantive with slight rhetorical framing in Claim 1.
+Rating: 2
+
+**6. Debater B: [Argument 3]**
+Both claims are technical and substantive. "Considerably" in Claim 2 adds slight emphasis but doesn't rise to rhetorical manipulation.
+Rating: 1
+
+**7. Debater A: [Response 3]**
+Both claims are straightforward technical responses citing specific methods (spectroscopy, Hubble imaging). No rhetorical devices. "Pins down" and "tightly" are slightly emphatic but remain substantive.
+Rating: 1
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+A plain description of the model with a citation. No rhetorical devices.
+Rating: 1
+
+**9. Debater A: [Argument 1]**
+Both claims are technical. Claim 2 uses "in order to be valid" which is slightly loaded (implying invalidity), but this is a substantive point about model completeness, not mere framing.
+Rating: 1
+
+**10. Debater B: [Response 1]**
+Claim 1 uses "on the whole" and "only minor changes" to downplay the omission — this is rhetorical minimization. Claim 2 uses "as one might reasonably expect" which appeals to common sense to make the claim seem obvious, a mild persuasive framing. Some rhetorical softening present.
+Rating: 2
+
+**11. Debater A: [Argument 2]**
+Claim 2 uses "unnecessary" which frames the dual-AGN model negatively with loaded language implying it's superfluous. "Making the dual-AGN model unnecessary" is a rhetorical conclusion that goes beyond what the evidence strictly shows. Otherwise substantive.
+Rating: 2
+
+**12. Debater B: [Response 2]**
+Claim 1 notes the model "has never been observed before" — an appeal to novelty/rarity that functions rhetorically to make the opponent's model seem implausible. Claim 2 contrasts with "does not invoke overcomplicated hypotheses" — this is loaded framing (invoking Occam's razor implicitly) and characterizes the opposing model as needlessly complex. These are noticeable rhetorical devices.
+Rating: 3
+
+**13. Debater A: [Argument 3]**
+Both claims are largely substantive. The construction of Claim 1 (presenting the similarity of light curves then noting the 6 kpc separation) uses contrast for rhetorical effect, implying internal contradiction in the opponent's model. Claim 2 ("can only be generated") is a strong absolute claim. Mild rhetorical framing.
+Rating: 2
+
+**14. Debater B: [Response 3]**
+Both claims are straightforward technical explanations about correlated emissions in dual-AGN systems. "Under some circumstances" hedges appropriately. Mostly substantive.
+Rating: 1
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[1]]
+A | Response 1 | [[1]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[1]]
+B | Opening | [[1]]
+A | Argument 1 | [[1]]
+B | Response 1 | [[2]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[1]]

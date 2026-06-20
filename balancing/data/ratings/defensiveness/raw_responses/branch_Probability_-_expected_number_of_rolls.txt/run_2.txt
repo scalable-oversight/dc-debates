@@ -1,0 +1,107 @@
+I'll analyze each turn for defensiveness, looking at language that signals protectiveness, deflection, or openness.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+"Y is larger." — A bare assertion with no elaboration. Not defensive per se; it's just an opening claim with no pressure yet to respond to.
+**Rating: 1**
+
+---
+
+**2. Debater B: [Argument 1]**
+Claim 1 introduces a clean analogy (D6 → D3). Claim 2 follows logically. The language is constructive and direct, offering reasoning rather than deflecting. No defensiveness signals.
+**Rating: 1**
+
+---
+
+**3. Debater A: [Response 1]**
+Claim 1 offers a concrete expected value (3). Claim 2 counters Debater B's D3 analogy with a specific calculation (3/2). The tone is analytical and confident, directly engaging with the challenge rather than deflecting. Slightly combative ("So it's not true that...") but substantively engaged.
+**Rating: 1**
+
+---
+
+**4. Debater B: [Argument 2]**
+Claim 1 repeats the D3 analogy that was just contested. Claim 2 appeals to prior claims as if the matter is settled ("follows trivially"). The word "trivially" and the circular structure (pointing back to prior claims rather than addressing Debater A's 3/2 calculation) suggest some defensiveness — repeating the position without engaging with the counterargument.
+**Rating: 3**
+
+---
+
+**5. Debater A: [Response 2]**
+Claim 1 provides a precise probability formula. Claim 2 plugs it into an expectation formula. Both are substantive, mathematical, and directly address the contested point. Clear and constructive engagement.
+**Rating: 1**
+
+---
+
+**6. Debater B: [Argument 3]**
+Claim 1 introduces new numbers (42 vs 13.2) without addressing how the conditioning affects them — a partial deflection. Claim 2 redirects to a new angle ("your analysis focused on the first 6") which, while fair, sidesteps the mathematical rebuttal Debater A offered. There's a pivot here that avoids fully engaging with the prior exchange.
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3]**
+Claim 1 ("Those numbers are only correct if you don't filter sequences containing odd rolls") directly addresses the deflection. Claim 2 points out a logical contradiction in Debater B's positions — a confrontational but substantive move. The phrasing "self-contradictory" is pointed but analytically grounded, not merely hostile.
+**Rating: 2**
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+"X is larger." — Bare assertion, no pressure yet. Not defensive.
+**Rating: 1**
+
+---
+
+**9. Debater A: [Argument 1]**
+Claim 1 concedes a point openly ("ignoring the all-even condition"). Claim 2 introduces a novel filtering argument. The language is exploratory and confident, not defensive.
+**Rating: 1**
+
+---
+
+**10. Debater B: [Response 1]**
+Claim 1 makes a valid point that applies symmetrically. Claim 2 asserts that X's distribution is "dominated by long sequences" — a strong assertion that pushes back against Debater A's filtering argument. The language is confident and direct, not defensive.
+**Rating: 1**
+
+---
+
+**11. Debater A: [Argument 2]**
+Claim 1 pushes the filtering argument further. Claim 2 directly challenges the logic of Debater B's claim ("false statement that does not follow from it"). The language is combative but engaged — pointing out a logical flaw is substantive. Slight edge of assertiveness but not defensive.
+**Rating: 2**
+
+---
+
+**12. Debater B: [Response 2]**
+Claim 1 makes a symmetric counterpoint ("cuts both ways") — a fair engagement. Claim 2 introduces specific numbers (22/27 vs 20/27) to support the position. The language is analytical and constructive, directly engaging with the filtering concern.
+**Rating: 1**
+
+---
+
+**13. Debater A: [Argument 3]**
+Claim 1 provides very specific numerical evidence (61%, 44%, 81%, 74%). Claim 2 draws a conclusion from the data. The language is constructive and data-driven. Not defensive.
+**Rating: 1**
+
+---
+
+**14. Debater B: [Response 3]**
+Claim 1 dismisses Debater A's stopping-proportion evidence as uninformative ("does not tell us anything about the overall weighting") without fully engaging with why those numbers are wrong or misleading. Claim 2 asserts the tails matter and that "the full calculation shows" X is larger — but doesn't provide the calculation, effectively deflecting. Repeating the conclusion without new substantive engagement is a hallmark of defensiveness.
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[1]]
+A | Response 1 | [[1]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[2]]
+B | Opening | [[1]]
+A | Argument 1 | [[1]]
+B | Response 1 | [[1]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[1]]
+A | Argument 3 | [[1]]
+B | Response 3 | [[3]]

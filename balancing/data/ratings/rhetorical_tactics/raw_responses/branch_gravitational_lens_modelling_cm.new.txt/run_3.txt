@@ -1,0 +1,77 @@
+I'll analyze each turn for rhetorical or persuasive tactics.
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+The opening is a straightforward description of the Einstein zig-zag lens model, citing a source. No emotional appeals, loaded language, or framing devices. Pure factual claim.
+Rating: 1
+
+**2. Debater B: [Argument 1]**
+Claim 1 uses "on closer inspection" which subtly implies the opponent missed something obvious — a mild framing device suggesting superficiality in the opposing view. "Overfit" and "various modeling decisions" carry slightly critical connotations. Claim 2 is straightforward factual critique. Overall, mild rhetorical framing.
+Rating: 2
+
+**3. Debater A: [Response 1]**
+Both claims are stated as straightforward technical points about mass profiles and galaxy positions. No loaded language or emotional appeals. Purely substantive.
+Rating: 1
+
+**4. Debater B: [Argument 2]**
+Claim 1 uses "This fails to reveal" — a framing device implying deliberate concealment or negligence on the opponent's part. "Enormous degree" in Claim 2 is mildly loaded language amplifying the concern. These are noticeable rhetorical touches but the substance is present.
+Rating: 2
+
+**5. Debater A: [Response 2]**
+Both claims are substantive logical points. "A simpler model is not necessarily a correct model" is a clean logical counter without rhetorical embellishment. No persuasive devices beyond straightforward argument.
+Rating: 1
+
+**6. Debater B: [Argument 3]**
+Both claims are technical and substantive. "Considerably" in Claim 2 is mildly amplifying but not meaningfully rhetorical. The argument relies on factual/logical substance.
+Rating: 1
+
+**7. Debater A: [Response 3]**
+Both claims cite specific instruments and precise measurements (NIRSpec spectroscopy, HST imaging, sub-arcsecond precision). Appeals to authoritative instrumentation could be seen as mild appeals to authority, but these are substantive technical citations rather than rhetorical appeals.
+Rating: 1
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+Straightforward description of the dual-AGN model with source citation. No rhetorical devices.
+Rating: 1
+
+**9. Debater A: [Argument 1]**
+Claim 1 uses "we would normally expect" — a subtle appeal to convention/normalcy that frames the opponent's model as abnormal. Claim 2 presents factual data but the juxtaposition of "same variations" against the "6 kiloparsecs" claim is structured to highlight apparent contradiction. Mild rhetorical structuring.
+Rating: 2
+
+**10. Debater B: [Response 1]**
+Both claims are technical and factual, addressing detection thresholds and magnification. No rhetorical devices beyond straightforward scientific reasoning.
+Rating: 1
+
+**11. Debater A: [Argument 2]**
+Claim 1 is factual. Claim 2 uses "directly against your hypothesis" — confrontational framing that's slightly rhetorical but mostly substantive. "Biased towards" is technical language used correctly. Mild rhetorical element.
+Rating: 2
+
+**12. Debater B: [Response 2]**
+Both claims are factual and logical, pointing to sampling bias in existing studies. Clean substantive argument with no notable rhetorical devices.
+Rating: 1
+
+**13. Debater A: [Argument 3]**
+Claim 1 uses "most plausible morphology" — framing that subtly loads the dice against the opponent's position by implying implausibility. Claim 2 uses "remains very low" with the qualifier "even conditioned on" — this is a legitimate probabilistic argument but the framing emphasizes improbability rhetorically.
+Rating: 2
+
+**14. Debater B: [Response 3]**
+Both claims are factual and substantive about high-redshift galaxy properties. "Compactness and quiescence are not mutually exclusive" is a direct logical rebuttal. No significant rhetorical devices.
+Rating: 1
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[1]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[1]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[1]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[1]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[1]]

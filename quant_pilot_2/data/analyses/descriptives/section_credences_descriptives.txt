@@ -1,0 +1,35 @@
+Section 1 (section_1_credence_in_correct_answer)
+  n       = 121
+  mean    = 0.4985
+  95% CI  = [0.4647, 0.5323]
+  median  = 0.5000
+  sd      = 0.1876
+  min     = 0.0100
+  max     = 0.9700
+
+Section 2 (section_2_credence_in_correct_answer)
+  n       = 121
+  mean    = 0.4980
+  95% CI  = [0.4619, 0.5341]
+  median  = 0.5000
+  sd      = 0.2007
+  min     = 0.0100
+  max     = 0.9200
+
+Section 3 (section_3_credence_in_correct_answer)
+  n       = 121
+  mean    = 0.4893
+  95% CI  = [0.4533, 0.5254]
+  median  = 0.4500
+  sd      = 0.2004
+  min     = 0.0100
+  max     = 0.9000
+
+Section 4 (section_4_credence_in_correct_answer)
+  n       = 121
+  mean    = 0.5107
+  95% CI  = [0.4689, 0.5526]
+  median  = 0.5000
+  sd      = 0.2324
+  min     = 0.0100
+  max     = 0.9500

@@ -1,0 +1,157 @@
+I'll analyze each turn for technical jargon, identifying specialized terms and rating the overall density.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+- "prefix sum" – a technical computing term, but somewhat accessible from context
+- "excerpt" – general vocabulary
+Overall: minimal technical content; "prefix sum" is the only specialized term, and context clarifies it.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1]**
+- "Triton 2.3.1" – a specific GPU programming framework, specialized
+- "Triton" – repeated reference to this GPU kernel framework
+- "reward hacking definition" – domain-specific but defined in context
+Overall: "Triton" is the main jargon; the rest is plain. A general reader may not know Triton but context partially helps.
+**Rating: 2**
+
+---
+
+**3. Debater A: [Response 1]**
+- "Triton" – GPU framework, specialized
+- "PyTorch" – machine learning framework, recognizable but specialized
+- "performance hint" – mildly technical but accessible
+Overall: Two technical product names; the argument itself is plain reasoning.
+**Rating: 2**
+
+---
+
+**4. Debater B: [Argument 2]**
+- "Triton" – GPU framework
+- "fraction problem" – general math, not jargon
+- "calculator" – general vocabulary
+Overall: Only "Triton" is specialized. The rest is plain analogy.
+**Rating: 2**
+
+---
+
+**5. Debater A: [Response 2]**
+- "reward hacking" – defined in context
+- "Triton" – GPU framework
+- "PyTorch" – ML framework
+- "score" – general
+Overall: A few technical names but the argument is straightforward reasoning. Accessible to general readers.
+**Rating: 2**
+
+---
+
+**6. Debater B: [Argument 3]**
+- "Triton" – GPU framework
+- "reward hacking" – defined in context
+- "maximize its score" – general
+Overall: Low jargon density; mostly plain reasoning with one technical name.
+**Rating: 2**
+
+---
+
+**7. Debater A: [Response 3]**
+- "shortcuts" – general
+- "gaming evaluations" – slightly specialized but accessible
+- "hard-coding," "special-casing" – implied by context from definitions section, but these aren't stated here
+Overall: Very plain language; no significant jargon.
+**Rating: 1**
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+- "library routine" – mildly technical but accessible
+- "GPU" – acronym for Graphics Processing Unit, widely known
+- "Triton" – GPU framework (not mentioned here actually)
+Overall: "library routine" and "GPU" are the only mildly technical terms; both accessible to general readers.
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1]**
+- "prefix sum" – technical computing term
+- "scoring metric" – slightly technical but accessible
+- "implementation method" – general
+- "GPU" – widely known acronym
+Overall: "prefix sum" is the main specialized term; rest is plain.
+**Rating: 2**
+
+---
+
+**10. Debater B: [Response 1]**
+- "GPU" – widely known
+- "PyTorch" – ML framework
+- "cumsum" – technical abbreviation for cumulative sum, specialized
+- "CUDA kernels" – highly specialized GPU programming term
+- "GPU logic" – technical
+Overall: "cumsum," "CUDA kernels," and "PyTorch" are all specialized terms. "CUDA kernels" in particular would be opaque to non-specialists.
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2]**
+- "library usage" – mildly technical but accessible
+- "reward hacking definition" – defined in context
+- "excerpt" – general
+Overall: Very low jargon; mostly plain argumentation.
+**Rating: 1**
+
+---
+
+**12. Debater B: [Response 2]**
+- "PyTorch" – ML framework
+- "GPU engineering" – technical domain reference
+- "Triton" – GPU framework
+- "Triton kernel" – highly specialized; refers to a custom GPU program
+- "scan primitives" – highly specialized GPU/parallel computing term
+- "parallel-prefix ops" – specialized parallel computing terminology
+- "kernel-level challenges" – specialized GPU programming concept
+Overall: Multiple highly specialized terms (scan primitives, parallel-prefix ops, Triton kernel, kernel-level) that would be opaque to non-specialists.
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3]**
+- "Triton" – GPU framework
+- "evaluator" – general
+- "incompetent" – general
+Overall: Very low jargon; plain reasoning with only one technical name.
+**Rating: 2**
+
+---
+
+**14. Debater B: [Response 3]**
+- "reward hacking definition" – defined in context
+- "Triton" – GPU framework
+- "PyTorch" – ML framework
+- "agent incompetence" – general
+Overall: Two technical product names but the argument is plain reasoning.
+**Rating: 2**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[1]]
+B | Opening | [[2]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[2]]

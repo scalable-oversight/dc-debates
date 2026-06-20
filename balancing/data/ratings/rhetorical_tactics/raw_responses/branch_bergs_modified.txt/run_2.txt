@@ -1,0 +1,77 @@
+I'll analyze each turn for rhetorical or persuasive tactics.
+
+**Left Side**
+
+**1. Debater A: [Opening]**
+"The water level falls." — A bare assertion with no rhetorical devices. Purely substantive (or rather, purely a claim with no elaboration at all).
+*Rating: 1*
+
+**2. Debater B: [Argument 1]**
+Claim 1 cites a source directly. Claim 2 makes a straightforward physical argument. No emotional appeals, no loaded language, no straw-manning. Both claims are direct and substantive.
+*Rating: 1*
+
+**3. Debater A: [Response 1]**
+Claim 1 does textual analysis of Quote 2 to draw an implication — this is a reasonable interpretive argument, not a rhetorical device. Claim 2 applies that reading directly. Straightforward reasoning throughout.
+*Rating: 1*
+
+**4. Debater B: [Argument 2]**
+Claim 1 appeals to a dictionary definition with "which we can safely assume is being used here" — a mild appeal to authority/common sense framing. Claim 2 makes a factual claim. Mostly substantive with a minor framing move.
+*Rating: 2*
+
+**5. Debater A: [Response 2]**
+Claim 1 notes a contradiction between sources — legitimate logical argument. Claim 2 redefines "buoyant" by citing another source. Both are substantive reasoning moves. No notable rhetorical devices.
+*Rating: 1*
+
+**6. Debater B: [Argument 3]**
+Claim 1 says Debater A's definition "diverges from the standard dictionary senses" — an appeal to conventional/authoritative usage as a rhetorical move to undermine A's definition. Claim 2 makes a physical observation. The appeal to "standard" usage is a mild rhetorical framing.
+*Rating: 2*
+
+**7. Debater A: [Response 3]**
+Claim 1 offers an interpretive reading of Quote 2. Claim 2 provides a concrete example (beach ball held underwater). Both are substantive. The example is illustrative rather than manipulative.
+*Rating: 1*
+
+**Right Side**
+
+**8. Debater B: [Opening]**
+"The water level stays brim full." — A bare assertion, no rhetorical devices.
+*Rating: 1*
+
+**9. Debater A: [Argument 1]**
+Claim 1 cites a source directly. Claim 2 describes a physical scenario straightforwardly. No rhetorical devices apparent.
+*Rating: 1*
+
+**10. Debater B: [Response 1]**
+Claim 1 draws a logical implication from Debater A's framing — a reasonable reductio-style argument. Claim 2 applies Quote 2 to the situation. Both are substantive. No notable rhetorical devices.
+*Rating: 1*
+
+**11. Debater A: [Argument 2]**
+Claim 1 asserts a position directly. Claim 2 offers a definitional argument about Quote 2. Both are substantive reasoning moves with no notable rhetorical devices.
+*Rating: 1*
+
+**12. Debater B: [Response 2]**
+Claim 1 makes a definitional assertion. Claim 2 introduces an anchor analogy — this is a useful illustrative analogy, but analogies can sometimes be rhetorically loaded. Here, the anchor analogy is reasonably apt and used to clarify a physical principle rather than to manipulate. Mostly substantive.
+*Rating: 2*
+
+**13. Debater A: [Argument 3]**
+Claim 1 uses a reductio ad absurdum ("99% below vs. 100%") — this is a rhetorical technique to highlight an implausible consequence of the opponent's position. Claim 2 does textual analysis of Quote 4. The reductio in Claim 1 is a noticeable rhetorical device.
+*Rating: 2*
+
+**14. Debater B: [Response 3]**
+Claim 1 mirrors the reductio structure of A's argument, turning it back on A. Claim 2 invokes "physically implausible" — an appeal to physical intuition as a rhetorical closer. The mirroring move and the "physically implausible" framing are rhetorical devices, though the underlying argument is substantive.
+*Rating: 2*
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[1]]
+A | Response 1 | [[1]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[1]]
+B | Opening | [[1]]
+A | Argument 1 | [[1]]
+B | Response 1 | [[1]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[2]]

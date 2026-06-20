@@ -1,0 +1,15 @@
+Loading primary-fit.nc (8000 draws).
+
+Harder group:
+  group transcripts: Bergs 1, Bergs 2, Database deletion 15, Database deletion 16
+
+Easier group:
+  group transcripts: Early Universe Galaxies 3, Early Universe Galaxies 4, Internal Temperature of Stars 7, Internal Temperature of Stars 8
+
+Delta = mean(delta_v in {Bergs, Database deletion})
+      - mean(delta_v in {EUG, ITS})
+
+  posterior mean   : +0.721
+  posterior median : +0.723
+  95% HDI          : [+0.448, +0.994]
+  P(Delta > 0)     : 1.000

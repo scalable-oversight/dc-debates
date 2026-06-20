@@ -1,0 +1,88 @@
+I'll analyze each turn for hedging and qualifying language.
+
+**1. Debater A: [Opening] (Left)**
+"The speed stays the same when we model the car as a point mass. It decreases slightly when modeled as a rigid body."
+- "slightly" is a mild qualifier softening the magnitude of decrease.
+- Otherwise direct assertions.
+Rating: 2
+
+**2. Debater B: [Argument 1] (Left)**
+"A ball on a string spins faster when its radius is reduced, and the same principle applies as the car transitions to a tighter radius." / "The connecting track provides a radially inward force that accelerates the car tangentially."
+- No hedging language. Both claims are stated as direct facts.
+Rating: 1
+
+**3. Debater A: [Response 1] (Left)**
+"The string does work because, as the ball spirals inward, its velocity has a radial component aligned with the tension." / "The fixed frictionless track exerts only a normal constraint force perpendicular to the car's velocity, so unlike the string it does no work."
+- No hedging language. Both claims are stated directly and confidently.
+Rating: 1
+
+**4. Debater B: [Argument 2] (Left)**
+"Curvature changes continuously along the connecting arc, causing the direction of the constraint force to rotate." / "This rotation means the force cannot remain perfectly perpendicular to velocity."
+- No explicit hedging words. Direct assertions.
+Rating: 1
+
+**5. Debater A: [Response 2] (Left)**
+"The car's velocity is tangent to the track at every point. The constraint force is normal to the track, hence perpendicular to velocity." / "At every instant, the force and velocity rotate together. Perpendicularity is maintained even as curvature changes."
+- No hedging language. Very direct assertions using "at every point," "at every instant."
+Rating: 1
+
+**6. Debater B: [Argument 3] (Left)**
+"On a changing-curvature path, the constraint force must adjust in both magnitude and direction." / "The centripetal acceleration behaves differently on the connecting track than it does on either circular section."
+- No hedging expressions. Direct statements.
+Rating: 1
+
+**7. Debater A: [Response 3] (Left)**
+"The force adjusts direction to maintain perpendicularity; it rotates to stay normal as velocity rotates to stay tangent." / "Centripetal force remains perpendicular to the velocity throughout, regardless of how its magnitude varies."
+- No hedging language. Direct assertions.
+Rating: 1
+
+**8. Debater B: [Opening] (Right)**
+"The speed increases if we model the car as a point mass. It also increases if we model it as a rigid body."
+- No hedging language. Completely direct.
+Rating: 1
+
+**9. Debater A: [Argument 1] (Right)**
+"On a frictionless track, the rails' constraint force does no work, so kinetic energy (KE) is conserved and speed cannot increase." / "There is simply nothing on a fixed frictionless track that can add energy to the car."
+- "simply" is an intensifier rather than a hedge. No hedging language present.
+Rating: 1
+
+**10. Debater B: [Response 1] (Right)**
+"If the rails truly do no work, a point-mass car will not lose speed on the smaller track." / "Yet if kinetic energy is conserved while the rails do no work, a rigid body on a frictionless track does not slow down, contradicting Debater A's Opening."
+- "truly" in "If the rails truly do no work" introduces slight conditionality/skepticism, but both claims are framed as conditional logical statements ("if...then"), which is more logical structure than hedging.
+Rating: 1
+
+**11. Debater A: [Argument 2] (Right)**
+"A rigid body has translational and rotational kinetic energy; a point mass has only translational." / "On a tighter track, rotational kinetic energy increases at the expense of translational kinetic energy."
+- No hedging language. Direct factual claims.
+Rating: 1
+
+**12. Debater B: [Response 2] (Right)**
+"This holds only when the body is mechanically constrained to yaw with the track curvature (rigid link between axles and body), which has not been established." / "Without that constraint, total KE stays translational and the speed does not fall."
+- "This holds only when..." qualifies the scope of the prior claim conditionally. "which has not been established" introduces a limiting qualification. "Without that constraint..." is conditional framing. These are logical conditionals but do carry some qualifying force.
+Rating: 2
+
+**13. Debater A: [Argument 3] (Right)**
+"Both axles are constrained to the rails, so the body's orientation is pinned by the chord between the two axle positions." / "On a curved section, this geometry causes the body to yaw as it advances."
+- No hedging language. Direct assertions.
+Rating: 1
+
+**14. Debater B: [Response 3] (Right)**
+"A car whose axles are rigidly fixed parallel to its body cannot roll without slipping on a curved track." / "The curvature differs at the front and rear contact points on the connecting track, with consequences for yaw and speed."
+- "with consequences for yaw and speed" is slightly vague/non-committal about what exactly the consequences are, but this is minimal.
+Rating: 2
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[1]]
+A | Response 1 | [[1]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[1]]
+B | Opening | [[1]]
+A | Argument 1 | [[1]]
+B | Response 1 | [[1]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[1]]
+B | Response 3 | [[2]]

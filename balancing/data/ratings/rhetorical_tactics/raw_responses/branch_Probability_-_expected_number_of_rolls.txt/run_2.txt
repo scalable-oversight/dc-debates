@@ -1,0 +1,49 @@
+I'll analyze each turn for rhetorical or persuasive tactics.
+
+**Left Side:**
+
+**1. Debater A: [Opening]** — "Y is larger." Pure claim, no rhetorical devices. Rating: 1
+
+**2. Debater B: [Argument 1]** — Uses an analogy ("effectively turns the D6 into a D3") which is a framing choice. Claim 2 is a straightforward comparative statement. Mostly substantive. Rating: 2
+
+**3. Debater A: [Response 1]** — Both claims are mathematical statements. No rhetorical devices. Rating: 1
+
+**4. Debater B: [Argument 2]** — Claim 2 uses "follows trivially" — a mild appeal to obviousness designed to discourage scrutiny. Otherwise substantive. Rating: 2
+
+**5. Debater A: [Response 2]** — Both claims are mathematical derivations. No rhetorical devices. Rating: 1
+
+**6. Debater B: [Argument 3]** — Claim 1 states specific numbers (42 vs 13.2) without derivation, asserting them as fact. Claim 2 redirects by suggesting Debater A's analysis is off-topic, a mild framing tactic. Rating: 2
+
+**7. Debater A: [Response 3]** — Claim 2 uses a "self-contradictory" accusation, which is a rhetorical move to undermine credibility rather than purely engaging the substance. Claim 1 is a direct substantive rebuttal. Rating: 2
+
+**Right Side:**
+
+**8. Debater B: [Opening]** — "X is larger." Pure claim, no rhetorical devices. Rating: 1
+
+**9. Debater A: [Argument 1]** — Claim 1 is straightforward. Claim 2 introduces "filters long runs exponentially" — evocative language used to make the filtering effect sound decisive, somewhat framing-heavy but still substantive. Rating: 2
+
+**10. Debater B: [Response 1]** — Claim 1 is neutral. Claim 2 uses "strictly harder" and "dominated by long sequences" — loaded framing designed to make the conclusion feel inevitable rather than derived. Rating: 2
+
+**11. Debater A: [Argument 2]** — Claim 1 uses "nearly always" without support, which is an unsubstantiated assertion. Claim 2 accuses the opponent of making a "false statement that does not follow" — a dismissive characterization rather than a direct refutation. Rating: 3
+
+**12. Debater B: [Response 2]** — Claim 1 mirrors Debater A's "nearly always" framing as a tu quoque rhetorical move. Claim 2 presents specific numbers (22/27 vs 20/27) to appear rigorous while the interpretation ("comparable") is a framing choice. Rating: 2
+
+**13. Debater A: [Argument 3]** — Both claims are based on stated numerical evidence. Claim 2 uses "suggests" appropriately. Mostly substantive with mild interpretive framing. Rating: 1
+
+**14. Debater B: [Response 3]** — Claim 1 dismisses Debater A's numerical evidence as irrelevant ("does not tell us anything"), a rhetorical move to sidestep the argument. Claim 2 appeals to "the full calculation shows" without providing it, a form of deferred authority/burden shifting. Rating: 3
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[1]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[2]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[2]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[1]]
+B | Response 3 | [[3]]

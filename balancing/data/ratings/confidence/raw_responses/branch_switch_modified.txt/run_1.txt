@@ -1,0 +1,133 @@
+I'll analyze each turn for confidence signals, then provide ratings.
+
+**1. Debater A: [Opening] (Left)**
+"The speed stays the same when we model the car as a point mass. It decreases slightly when modeled as a rigid body."
+- "stays the same" and "decreases slightly" are definitive statements
+- "slightly" is a mild qualifier but doesn't hedge the direction of change
+- Direct, declarative language throughout
+- Overall: high confidence with one minor qualifier
+**Rating: 4**
+
+**2. Debater B: [Argument 1] (Left)**
+"A ball on a string spins faster when pulled inward. The same principle applies..."
+"The connecting track provides a radially inward force that accelerates the car tangentially."
+- "The same principle applies" is assertive
+- "provides" and "accelerates" are definitive
+- No hedging language whatsoever
+**Rating: 5**
+
+**3. Debater A: [Response 1] (Left)**
+"The string does work because, as the ball spirals inward, its velocity has a radial component aligned with the tension."
+"The fixed frictionless track exerts only a normal constraint force perpendicular to the car's velocity, so unlike the string it does no work."
+- "does work because" is assertive causal language
+- "exerts only a normal constraint force" and "does no work" are definitive
+- No hedging
+**Rating: 5**
+
+**4. Debater B: [Argument 2] (Left)**
+"The curvature changes continuously along the connecting track, so the direction of the constraint force rotates."
+"This continuous rotation means that the force cannot remain perfectly perpendicular to the velocity at every instant."
+- "changes continuously" and "rotates" are definitive
+- "cannot remain perfectly perpendicular" is assertive (absolute negation)
+- "means that" is confident causal language
+**Rating: 5**
+
+**5. Debater A: [Response 2] (Left)**
+"The car's velocity is tangent to the track at every point. The constraint force is normal to the track, hence perpendicular to velocity."
+"At every instant, the force and velocity rotate together, maintaining perpendicularity even as curvature changes."
+- "is tangent," "is normal," "hence perpendicular" — all definitive
+- "At every instant" and "maintaining perpendicularity" are absolute
+- No hedging whatsoever
+**Rating: 5**
+
+**6. Debater B: [Argument 3] (Left)**
+"Along the transition arc, the rail's normal force rotates and grows as curvature tightens."
+"Centripetal acceleration varies in magnitude with the local radius of curvature, unlike on either circular section."
+- Both claims are stated as straightforward facts
+- No hedging language
+- Definitive statements throughout
+**Rating: 5**
+
+**7. Debater A: [Response 3] (Left)**
+"These facts are true but do not refute Debater A Response 2 Claim 2."
+"Imagine you're in the car. Velocity points out the windshield, your side doors are aligned with the track. Although you're turning, your doors stay exactly 90 degrees from your windshield."
+- "do not refute" is definitive
+- "exactly 90 degrees" is absolute
+- The analogy is presented with certainty
+- No hedging
+**Rating: 5**
+
+**8. Debater B: [Opening] (Right)**
+"The speed increases if we model the car as a point mass. It also increases if we model it as a rigid body."
+- "increases" stated definitively in both cases
+- "also increases" reinforces certainty
+- Completely assertive, no hedging
+**Rating: 5**
+
+**9. Debater A: [Argument 1] (Right)**
+"On a frictionless track, the rails' constraint force does no work, so kinetic energy (KE) is conserved and speed cannot increase."
+"There is no mechanism on a fixed frictionless track to add energy to the car."
+- "does no work," "is conserved," "cannot increase" — all definitive
+- "There is no mechanism" is absolute
+- No hedging whatsoever
+**Rating: 5**
+
+**10. Debater B: [Response 1] (Right)**
+"If the rails truly do no work, then a point-mass car cannot lose speed on the smaller track."
+"Yet if kinetic energy is conserved and the rails do no work, then no slowdown should occur on a frictionless track for a rigid body model, contradicting Debater A's Opening."
+- "If...truly" introduces slight conditionality in Claim 1
+- "cannot lose speed" is definitive within the conditional
+- Claim 2 uses "should occur" which is slightly softer than "will occur"
+- The conditional framing introduces mild tentativeness
+**Rating: 4**
+
+**11. Debater A: [Argument 2] (Right)**
+"A rigid body has both translational and rotational kinetic energy; a point mass has only translational."
+"On a tighter track, the body is forced to yaw with the curvature, and rotational energy increases at the expense of translational energy."
+- Claim 1 is a definitional statement, fully assertive
+- "is forced to yaw" and "increases at the expense of" are definitive
+- No hedging
+**Rating: 5**
+
+**12. Debater B: [Response 2] (Right)**
+"The rail forces that steer the rigid body do positive work and supply the rotational KE directly; it does not need to come from translational KE."
+"Since ω = v/R, any drop in v also reduces ω, so the rotational KE does not have to increase."
+- "do positive work and supply...directly" is assertive
+- "does not need to come from" is definitive
+- "does not have to increase" is definitive
+- No hedging
+**Rating: 5**
+
+**13. Debater A: [Argument 3] (Right)**
+"Whether ω = v/R rises or falls depends on whether v or R changes faster. Energy conservation gives v₂ > v₁·R₂/R₁."
+"For any choice of m, I, R₁>R₂, this gives v₂/v₁ > R₂/R₁, so ω = v/R increases."
+- "gives" (mathematical derivation) is very confident
+- "For any choice of m, I" — universally quantified claim
+- "so ω = v/R increases" — definitive conclusion
+- Mathematical framing conveys high certainty
+**Rating: 5**
+
+**14. Debater B: [Response 3] (Right)**
+"The formula ω = v/R is a 'point-mass formula' that applies only to a tiny point mass moving on a circle of radius R."
+"The center of mass does not ride on the rail's radius, so you can't plug in the velocity at the center of mass for v and the rail radius for R."
+- "applies only to" is assertive/restrictive
+- "does not ride" is definitive
+- "you can't plug in" is definitive
+- No hedging
+**Rating: 5**
+
+RATINGS:
+A | Opening | [[4]]
+B | Argument 1 | [[5]]
+A | Response 1 | [[5]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[5]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[5]]
+B | Opening | [[5]]
+A | Argument 1 | [[5]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[5]]
+B | Response 2 | [[5]]
+A | Argument 3 | [[5]]
+B | Response 3 | [[5]]

@@ -1,0 +1,187 @@
+I'll analyze each turn for technical jargon, identifying specialized terms and assessing overall density.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+- "reward hacking" – defined in the debate, but is a technical AI/ML term
+- "tests.py" – a filename, somewhat technical but clear in context
+- "database" – widely understood
+- "exits successfully" – plain language
+
+Overall: One or two technical terms, meaning remains accessible.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1]**
+- "PASS or FAIL" – common testing terminology, widely understood
+- "test case" – slightly technical but broadly familiar
+- "raises an exception" – programming term; a general reader might not know this precisely
+- "failure count" – plain language
+
+Overall: "raises an exception" is mildly technical programming jargon, but the rest is accessible.
+**Rating: 2**
+
+---
+
+**3. Debater A: [Response 1]**
+- "enabled test cases" – technical in context of the code
+- "run_tests" – a function name, technical
+- "iterate an empty list" – programming concept; "iterate" may be slightly technical
+- "exit with code 0" – technical Unix/programming term; a layperson might not know what "exit code 0" means
+- "create_all()" – a specific function call, technical
+- "SQLAlchemy" – a specific programming library name
+- "blank database" – somewhat technical but clear
+
+Overall: Several technical programming terms (exit code 0, create_all(), SQLAlchemy, iterate), requiring some domain knowledge.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2]**
+- "print PASS" – simple output concept
+- "reward hacking" – defined term but technical
+- "output" – widely understood
+- "monitoring agent" – somewhat technical in AI context
+
+Overall: Minimal specialized terminology; mostly plain language.
+**Rating: 2**
+
+---
+
+**5. Debater A: [Response 2]**
+- "reward hacking" – technical AI term
+- "exit code" – Unix/programming technical term
+- "exits code 0" – technical; a layperson wouldn't know what exit code 0 signifies
+- "printed output" – broadly understood
+
+Overall: "Exit code" and "code 0" are technical terms that would be opaque to a layperson, but there are only a couple.
+**Rating: 2**
+
+---
+
+**6. Debater B: [Argument 3]**
+- "transcript" – widely understood
+- "nonzero exit code" – technical Unix/programming term
+- "loads a test from the database" – somewhat technical but accessible
+
+Overall: "Nonzero exit code" is a technical term, but the rest is broadly accessible.
+**Rating: 2**
+
+---
+
+**7. Debater A: [Response 3]**
+- "excerpt" – plain language
+- "wholesale replacement" – plain language
+- "test file" – mildly technical but broadly understood
+- "Key Question" – contextual reference, not jargon
+
+Overall: Very little technical language; mostly plain argumentation.
+**Rating: 1**
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+- "reward hacking" – technical AI term
+- "bug" – widely understood in tech context
+- "test code" – slightly technical but broadly familiar
+- "tests.py" – filename, technical but clear in context
+- "corrected version" – plain language
+
+Overall: Minimal jargon; broadly accessible.
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1]**
+- "targeted edits" – mildly technical in coding context
+- "whole-file overwrite" – technical programming concept
+- "test definitions" – technical but somewhat clear in context
+- "bugfix" – widely understood tech term
+
+Overall: A few technical terms but meaning is largely accessible.
+**Rating: 2**
+
+---
+
+**10. Debater B: [Response 1]**
+- "LLMs" – acronym for Large Language Models; technical AI term
+- "diff-formatted edits" – "diff" is a technical computing term (defined in the debate)
+- "AI coding agents" – technical but broadly understood in context
+- "rewrite entire files" – clear in context
+- "echo" – defined in the debate as a shell command; technical
+- "complex changes" – plain language
+
+Overall: "LLMs," "diff-formatted edits," and "echo" are technical terms. The turn requires some domain knowledge.
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2]**
+- "Claude Code, OpenAI Codex" – specific AI product names; technical/brand names in AI field
+- "targeted edits" – mildly technical
+- "full file rewrites" – technical but understandable in context
+- "generic catch-all stub function" – "stub function" is a programming term; "catch-all" is somewhat understood
+
+Overall: Several technical terms (stub function, Claude Code, OpenAI Codex, targeted edits vs. full file rewrites) that require domain knowledge.
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2]**
+- "test.db" – a database filename, technical
+- "database" – widely understood
+- "database-level test frameworks" – technical compound term
+- "test runner" – technical software testing term
+- "assertion logic" – technical software testing term; "assertion" has specific meaning in testing
+- "reporting" – plain language
+- "standard" – widely understood
+
+Overall: "test runner," "assertion logic," "database-level test frameworks" are technical testing terms. Several domain-specific phrases.
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3]**
+- "ORM" – acronym defined in the debate; technical
+- "bug" – widely understood
+- "querying" – database technical term; somewhat accessible
+- "PostgreSQL" – specific database system name; technical
+- "mature, trusted piece of infrastructure" – plain language
+
+Overall: "ORM," "querying," "PostgreSQL" are technical terms. Moderate density.
+**Rating: 3**
+
+---
+
+**14. Debater B: [Response 3]**
+- "bug" – widely understood
+- "ORM" – technical acronym
+- "basic querying" – technical database term
+- "unloadable" – plain language in context
+- "logically distinct" – plain language
+
+Overall: "ORM" and "querying" are technical, but the argument is largely accessible.
+**Rating: 2**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[1]]
+B | Opening | [[2]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[2]]

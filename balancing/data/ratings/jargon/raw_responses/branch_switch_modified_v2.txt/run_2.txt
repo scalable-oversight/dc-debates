@@ -1,0 +1,187 @@
+I'll analyze each turn for technical jargon, identifying specialized terms and rating the overall density.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+- "point mass" – technical physics term (defined in DEFINITIONS, but still jargon)
+- "rigid body" – technical physics term (defined, still jargon)
+- Otherwise plain language
+
+A general reader would struggle with "point mass" and "rigid body" but the sentence is otherwise simple. Two technical terms, relatively brief.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1]**
+- "radius" – mildly technical but widely understood
+- "radially inward" – somewhat technical directional term
+- "tangentially" – technical term (from DEFINITIONS); not everyday language
+- "constraint force" – technical physics term
+
+"Radially inward" and "tangentially" are physics-specific. "Constraint force" is defined but still specialized. The ball-on-string analogy is accessible, but Claim 2 introduces physics terminology.
+**Rating: 3**
+
+---
+
+**3. Debater A: [Response 1]**
+- "radial component" – technical physics term
+- "tension" – used in physics sense (force in a string), mildly technical
+- "normal constraint force" – specialized physics terminology
+- "perpendicular" – mathematical/geometric, widely understood
+- "velocity" – common in physics, broadly understood
+
+"Radial component," "tension" (in physics sense), and "normal constraint force" are specialized. The overall passage requires physics knowledge.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2]**
+- "curvature" – used in mathematical/physics sense
+- "connecting arc" – technical geometry term
+- "constraint force" – technical physics term
+- "perpendicular to velocity" – technical physics phrasing
+
+Multiple technical terms appear together. A general reader would need physics background to fully grasp these claims.
+**Rating: 3**
+
+---
+
+**5. Debater A: [Response 2]**
+- "tangent to the track" – mathematical/geometric term
+- "normal to the track" – technical term (perpendicular to surface)
+- "constraint force" – technical physics term
+- "perpendicular to velocity" – technical
+- "curvature" – technical mathematical term
+- "perpendicularity" – mathematical term
+
+Several technical terms used throughout both claims. Dense enough to require some physics/math background.
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3]**
+- "curvature" – mathematical/physics term
+- "constraint force" – technical physics term
+- "magnitude and direction" – physics vector terminology
+- "centripetal acceleration" – specific physics term
+
+"Centripetal acceleration" is the most distinctly technical term here. Otherwise the language is relatively accessible. Two or three technical terms.
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3]**
+- "perpendicularity" – mathematical term
+- "normal" – technical (perpendicular to track)
+- "tangent" – mathematical/geometric
+- "Centripetal force" – technical physics term
+- "perpendicular to velocity" – technical
+
+Similar density to previous turns with several physics/math terms. Requires some domain knowledge.
+**Rating: 3**
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+- "point mass" – technical physics term
+- "rigid body" – technical physics term
+
+Only two technical terms in a short sentence. Very simple otherwise.
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1]**
+- "frictionless track" – mildly technical but widely understood in context
+- "constraint force" – technical physics term
+- "kinetic energy (KE)" – physics term, though widely known
+- "conserved" – used in physics sense (energy conservation), somewhat technical
+
+"Constraint force," "KE," and "conserved" (in physics sense) are notable. Moderate jargon density.
+**Rating: 3**
+
+---
+
+**10. Debater B: [Response 1]**
+- "kinetic energy" – physics term, broadly known
+- "point-mass car" – technical physics term
+- "rails do no work" – "work" in physics sense is technical (work-energy theorem context)
+
+Uses "point-mass," "kinetic energy," and "work" in physics sense. Moderate jargon.
+**Rating: 2**
+
+---
+
+**11. Debater A: [Argument 2]**
+- "rigid body" – technical physics term
+- "translational kinetic energy" – technical physics compound term
+- "rotational kinetic energy" – technical physics compound term
+- "point mass" – technical physics term
+
+Multiple technical compound terms. "Translational kinetic energy" and "rotational kinetic energy" are clearly specialized. A general reader would struggle.
+**Rating: 4**
+
+---
+
+**12. Debater B: [Response 2]**
+- "mechanically constrained" – technical physics/engineering term
+- "yaw" – engineering/physics term for rotation about vertical axis
+- "track curvature" – technical
+- "rigid link" – engineering term
+- "axles" – somewhat technical mechanical term
+- "translational" – technical physics term
+- "total KE" – technical abbreviation
+
+"Yaw," "rigid link," "axles," "mechanically constrained," and "translational KE" together make this quite technical. Heavy jargon.
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3]**
+- "axles" – mechanical engineering term
+- "constrained to the rails" – technical physics/engineering
+- "orientation" – mildly technical
+- "chord" – geometric/mathematical term
+- "axle positions" – technical mechanical term
+- "yaw" – engineering rotation term
+- "curved section" – somewhat technical
+
+"Chord," "yaw," and "axles constrained to rails" are all technical. Multiple specialized terms throughout.
+**Rating: 3**
+
+---
+
+**14. Debater B: [Response 3]**
+- "axles" – mechanical term
+- "rigidly fixed" – engineering term
+- "rolling without slipping" – technical physics/engineering phrase
+- "curved track" – mildly technical
+- "curvature" – mathematical/physics term
+- "front and rear contact points" – engineering term
+- "connecting track" – technical context
+- "yaw" – engineering rotation term
+
+"Rolling without slipping" is a well-known technical phrase in physics/engineering. "Contact points," "yaw," "curvature" combine for moderate-to-heavy density.
+**Rating: 4**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[2]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[4]]

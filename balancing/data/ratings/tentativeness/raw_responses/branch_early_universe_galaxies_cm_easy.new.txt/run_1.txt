@@ -1,0 +1,100 @@
+I'll analyze each turn for hedging and qualifying language, then provide ratings.
+
+**1. Debater A: [Opening] (Left)**
+"The brightness of early universe galaxies is **weak evidence towards** falsifying the existence of dark matter."
+- "weak evidence towards" is a significant qualifier, softening the claim considerably.
+- Rating: **2** — One notable hedge ("weak evidence towards"), but the claim is otherwise direct.
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "**broadly speaking**, strongly and reliably correlated"
+- "broadly speaking" is a mild hedge.
+Claim 2: Direct statement about what S.S.M. shows — no hedging.
+- Rating: **2** — One incidental hedge.
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: "a **top-heavy** mix... **predicts** a brighter galaxy" — direct.
+Claim 2: "**Assuming** a top-heavy IMF **substantially improves**" — "assuming" frames it conditionally, but the claim is still fairly direct.
+- Rating: **2** — "Assuming" introduces mild conditionality, but overall mostly direct.
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: Direct statement about empirical data — no hedging.
+Claim 2: "**Assuming** a different IMF... is **not justified by the data available**" — "assuming" is conditional framing, but the conclusion is direct.
+- Rating: **2** — "Assuming" is the only hedging element.
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: "**Current methods do not allow us to** empirically calculate" — direct negation, no hedging.
+Claim 2: "**will result in** the formation of more massive stars" — direct causal claim.
+- Rating: **1** — Both claims are stated directly without hedging.
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "**obtain solid residuals**" — direct.
+Claim 2: "**while** metallicity **does** decrease... the **magnitude** of the change **cannot justify** invoking a top-heavy IMF" — direct.
+- Rating: **1** — No hedging language present.
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: "**will be** more severe" — direct assertion.
+Claim 2: "**by itself**, does **not** mean their results **generalize**" — "by itself" is a qualifier limiting the scope of the claim.
+- Rating: **2** — "By itself" is one qualifying phrase limiting the scope of Claim 2.
+
+**8. Debater B: [Opening] (Right)**
+"The brightness of early universe galaxies is **strong evidence towards** falsifying the existence of dark matter."
+- "strong evidence towards" is a qualifier (though it amplifies rather than hedges), but "towards" softens the claim slightly.
+- Rating: **1** — The claim is essentially direct; "strong evidence towards" is assertive language.
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "The **typical argument** for **this is that** MOND-based models **predict** high-redshift galaxy masses **more naturally** than Lambda-CDM."
+- "typical argument" distances the speaker from the claim; "more naturally" is a soft comparative.
+Claim 2: "**Unlike** MOND-based models, **however**, Lambda-CDM **successfully** explains the **vast majority** of cosmological observations."
+- "vast majority" is a qualifier (not all).
+- Rating: **3** — "Typical argument," "more naturally," and "vast majority" together constitute several hedging/qualifying expressions.
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "Lambda-CDM **relies on** dark matter, which has **never been directly observed**, and dark energy, which is **theorized** to create negative pressure."
+- "theorized" is a hedge; "never been directly observed" is factual but emphasizes uncertainty.
+Claim 2: "MOND-based models are **simpler** and **can** explain the relevant cosmological phenomena without **unproven** forms of matter."
+- "can" is a mild hedge; "unproven" qualifies dark matter.
+- Rating: **3** — Multiple hedging expressions ("theorized," "can," "unproven," "never been directly observed").
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "MOND **can't** fully explain gravitational lensing without **ad hoc** fixes that **undermine** its simplicity."
+- Direct negative claim; "ad hoc" characterizes the fixes but isn't a hedge.
+Claim 2: "Falsifying dark matter **would require** reworking the theory of general relativity, leading to modifications across **many areas** of astrophysics."
+- "would require" is conditional; "many areas" is a qualifier.
+- Rating: **2** — "Would require" introduces conditionality, "many areas" qualifies scope.
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "Relativistic extensions of MOND, such as TeVeS, **generally do manage to** reproduce gravitational lensing effects without invoking dark matter."
+- "generally" and "manage to" are hedges.
+Claim 2: Direct statement about H.S.Z. et al. findings — "adequately fits" is a mild qualifier.
+- Rating: **3** — "Generally," "manage to," and "adequately" are noticeable hedges.
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "TeVeS was designed with handling gravitational lensing as **one of its principal motivations**." — Direct.
+Claim 2: "**Even so**, Bullet Cluster lensing **cannot be explained** by TeVeS, nor **can some of** H.S.Z. et al's examples..."
+- "Even so" is a concessive; "some of" limits scope.
+- Rating: **2** — "Even so" and "some of" are mild qualifiers.
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "TeVeS together with 2 eV neutrinos **has been shown to** reproduce Bullet Cluster lensing **rather well** without the need for dark matter."
+- "has been shown to" attributes to evidence rather than asserting directly; "rather well" is a mild qualifier.
+Claim 2: "As it stands, the various outliers in H.S.Z. et al. **can in fact** be fit using many-parameter interpolation functions **instead of** single parameters."
+- "as it stands" and "can in fact" are mild hedges.
+- Rating: **2** — Several mild hedges but none dominating.
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[2]]
+B | Opening | [[1]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[2]]

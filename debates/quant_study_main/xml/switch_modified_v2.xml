@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debate>
+<title>Switch</title>
+
+<defs>
+  <def id="point_mass">Point mass - An idealized object with mass but no spatial extent, used to simplify analysis by ignoring rotation and internal structure.</def>
+
+  <def id="rigid_body">Rigid body - An idealized solid object in which the distance between every pair of points remains constant, so it can rotate as well as translate.</def>
+
+  <def id="tangent">Tangent - A straight line that touches a curve at exactly one point and points in the direction the curve is heading at that point.</def>
+
+  <def id="radially">Radially - In the direction pointing toward or away from the center of a circular path.</def>
+
+  <def id="tangentially">Tangentially - In the direction along the instantaneous velocity of an object moving on a curved path, i.e. perpendicular to the radial direction.</def>
+
+  <def id="normal">Normal - Perpendicular to a surface or line at a given point.</def>
+
+  <def id="constraint_force">Constraint force - A force exerted by a surface, track, or other boundary that restricts an object's motion to a particular path.</def>
+
+  <def id="ke">Kinetic energy (KE) - The energy an object possesses due to its motion, equal to ½mv² for an object of mass m moving at speed v.</def>
+</defs>
+
+<question id="claim_0">
+  A train car is freely coasting around a large circular track. It is then switched to a smaller circular track. How does its speed change? Assume no friction.
+
+  <answer id="claim_1" speaker="H" honest_response="Yes" dishonest_response="No">
+    The speed stays the same when we model the car as a <a xdef="point_mass">point mass</a>. It decreases slightly when modeled as a <a xdef="rigid_body">rigid body</a>.
+    <answer id="claim_3" speaker="D" honest_response="No" dishonest_response="Yes">
+      A ball on a string spins faster when its radius is reduced, and the same principle applies as the car transitions to a tighter radius.
+      <answer id="claim_9" speaker="H" honest_response="Yes" dishonest_response="Yes">The string does work because, as the ball spirals inward, its velocity has a radial component aligned with the tension.</answer>
+      <answer id="claim_10" speaker="H" honest_response="Yes" dishonest_response="No">
+        The fixed frictionless track exerts only a normal constraint force perpendicular to the car's velocity, so unlike the string it does no work.
+        <answer id="claim_12" speaker="D" honest_response="Yes" dishonest_response="Yes">Curvature changes continuously along the connecting arc, causing the direction of the constraint force to rotate.</answer>
+        <answer id="claim_13" speaker="D" honest_response="No" dishonest_response="Yes">
+          This rotation means the force cannot remain perfectly perpendicular to velocity.
+          <answer id="claim_15" speaker="H" honest_response="Yes" dishonest_response="No">The car's velocity is <a xdef="tangent">tangent</a> to the track at every point. The constraint force is <a xdef="normal">normal</a> to the track, hence perpendicular to velocity.</answer>
+          <answer id="claim_16" speaker="H" honest_response="Yes" dishonest_response="No">
+            At every instant, the force and velocity rotate together. Perpendicularity is maintained even as curvature changes.
+            <answer id="claim_18" speaker="D" honest_response="Yes but omits key info" dishonest_response="Yes">On a changing-curvature path, the constraint force must adjust in both magnitude and direction.</answer>
+            <answer id="claim_19" speaker="D" honest_response="Yes but omits key info" dishonest_response="Yes">The centripetal acceleration behaves differently on the connecting track than it does on either circular section.</answer>
+            <answer id="claim_41" speaker="D" honest_response="No" dishonest_response="Yes">
+              Therefore, you should reject <xref rid="claim_16"/>.
+              <answer id="claim_33" speaker="H" honest_response="Yes" dishonest_response="No">The force adjusts direction to maintain perpendicularity; it rotates to stay normal as velocity rotates to stay tangent.</answer>
+              <answer id="claim_34" speaker="H" honest_response="Yes" dishonest_response="Yes but omits key info">Centripetal force remains perpendicular to the velocity throughout, regardless of how its magnitude varies.</answer>
+              <answer id="claim_42" speaker="H" honest_response="Yes" dishonest_response="No">Therefore, you should reject [None].</answer>
+            </answer>
+          </answer>
+          <answer id="claim_43" speaker="H" honest_response="Yes">Therefore, you should reject <xref rid="claim_13"/>.</answer>
+        </answer>
+        <answer id="claim_44" speaker="D" dishonest_response="Yes">Therefore, you should reject <xref rid="claim_10"/>.</answer>
+      </answer>
+      <answer id="claim_45" speaker="H" honest_response="Yes">Therefore, you should reject <xref rid="claim_3"/>.</answer>
+    </answer>
+    <answer id="claim_4" speaker="D" honest_response="No" dishonest_response="Yes">The connecting track provides a <a xdef="radially">radially</a> inward force that accelerates the car <a xdef="tangentially">tangentially</a>.</answer>
+    <answer id="claim_46" speaker="D" dishonest_response="Yes">Therefore, you should reject <xref rid="claim_1"/>.</answer>
+  </answer>
+  <answer id="claim_2" speaker="D" honest_response="No" dishonest_response="Yes">
+    The speed increases if we model the car as a <a xdef="point_mass">point mass</a>. It also increases if we model it as a <a xdef="rigid_body">rigid body</a>.
+    <answer id="claim_6" speaker="H" honest_response="Yes" dishonest_response="No">
+      On a frictionless track, the rails' <a xdef="constraint_force">constraint force</a> does no work, so <a xdef="ke">kinetic energy (KE)</a> is conserved and speed cannot increase.
+      <answer id="claim_24" speaker="D" honest_response="Yes" dishonest_response="Yes">If the rails truly do no work, a point-mass car will not lose speed on the smaller track.</answer>
+      <answer id="claim_25" speaker="D" honest_response="No" dishonest_response="Yes">
+        Yet if kinetic energy is conserved while the rails do no work, a rigid body on a frictionless track does not slow down, contradicting <xref rid="claim_1"/>.
+        <answer id="claim_27" speaker="H" honest_response="Yes" dishonest_response="Yes">A rigid body has translational and rotational kinetic energy; a point mass has only translational.</answer>
+        <answer id="claim_28" speaker="H" honest_response="Yes" dishonest_response="No">
+          On a tighter track, rotational kinetic energy increases at the expense of translational kinetic energy.
+          <answer id="claim_30" speaker="D" honest_response="No" dishonest_response="Yes">
+            This holds only when the body is mechanically constrained to yaw with the track curvature (rigid link between axles and body), which has not been established.
+            <answer id="claim_36" speaker="H" honest_response="Yes" dishonest_response="Yes but omits key info">Both axles are constrained to the rails, so the body's orientation is pinned by the chord between the two axle positions.</answer>
+            <answer id="claim_37" speaker="H" honest_response="Yes" dishonest_response="Yes but omits key info">On a curved section, this geometry causes the body to yaw as it advances.</answer>
+            <answer id="claim_47" speaker="H" honest_response="Yes" dishonest_response="No">
+              Therefore, you should reject <xref rid="claim_30"/>.
+              <answer id="claim_39" speaker="D" honest_response="Yes but omits key info" dishonest_response="Yes">A car whose axles are rigidly fixed parallel to its body cannot roll without slipping on a curved track.</answer>
+              <answer id="claim_40" speaker="D" honest_response="No" dishonest_response="Yes">The curvature differs at the front and rear contact points on the connecting track, with consequences for yaw and speed.</answer>
+              <answer id="claim_48" speaker="D" honest_response="No" dishonest_response="Yes">Therefore, you should reject [None].</answer>
+            </answer>
+          </answer>
+          <answer id="claim_31" speaker="D" honest_response="No" dishonest_response="Yes">Without that constraint, total KE stays translational and the speed does not fall.</answer>
+          <answer id="claim_49" speaker="D" dishonest_response="Yes">Therefore, you should reject <xref rid="claim_28"/>.</answer>
+        </answer>
+        <answer id="claim_50" speaker="H" honest_response="Yes">Therefore, you should reject <xref rid="claim_25"/>.</answer>
+      </answer>
+      <answer id="claim_51" speaker="D" dishonest_response="Yes">Therefore, you should reject <xref rid="claim_6"/>.</answer>
+    </answer>
+    <answer id="claim_7" speaker="H" honest_response="Yes" dishonest_response="No">There is simply nothing on a fixed frictionless track that can add energy to the car.</answer>
+    <answer id="claim_52" speaker="H" honest_response="Yes">Therefore, you should reject <xref rid="claim_2"/>.</answer>
+  </answer>
+</question>
+</debate>

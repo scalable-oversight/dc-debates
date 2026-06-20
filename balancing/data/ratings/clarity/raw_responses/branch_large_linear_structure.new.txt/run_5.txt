@@ -1,0 +1,158 @@
+I'll analyze each turn for clarity to a layperson, identifying elements that help or hinder understanding.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+- "Runaway supermassive black hole" is a vivid term that hints at meaning
+- "SMBH" abbreviation introduced alongside full term — acceptable
+- Very brief, but the claim is essentially a label without explanation
+- A layperson can grasp the basic claim but has no context for why
+**Rating: 3**
+
+---
+
+**2. Debater B: [Argument 1]**
+- "Parsecs" and "kiloparsecs" are technical astronomical units unfamiliar to laypeople
+- "Within a few parsecs" vs "~40 kiloparsecs" — the contrast is meaningful but the units are opaque
+- The overall logic (black holes are normally close to galaxies; this one would be far away) is clear in structure
+- The numbers convey scale difference but a layperson won't know how far 40 kiloparsecs actually is
+**Rating: 3**
+
+---
+
+**3. Debater A: [Response 1]**
+- "SMBH recoil" is defined in the definitions section, which helps
+- "Ejected from the centers of their host galaxy during a merger" — fairly accessible
+- "Trail of star formation left in the wake of a recoiling SMBH" — vivid and reasonably understandable
+- "Signs of a recent merger" is accessible language
+- Overall quite comprehensible with minor technical terms
+**Rating: 4**
+
+---
+
+**4. Debater B: [Argument 2]**
+- "Globular clusters" defined in definitions — helpful
+- "Circumgalactic medium (CGM)" is technical jargon not defined elsewhere
+- The analogy logic (if X caused Y, we'd see similar Y for similar X, but we don't) is logically clear
+- "Old, massive and compact structures that travel through the circumgalactic medium" — partially accessible
+- CGM is unexplained and may confuse laypeople
+**Rating: 3**
+
+---
+
+**5. Debater A: [Response 2]**
+- "Supersonic speeds" — very accessible concept
+- "Bow shock" — somewhat technical but the concept of a shockwave from supersonic travel is familiar enough
+- The logic chain (supersonic → bow shock → star formation; globular clusters don't do this) is fairly clear
+- "CGM" reused without explanation
+- Reasonably clear overall
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3]**
+- References a specific figure and paper — this is opaque to laypeople
+- "Color of the stars fluctuates" — accessible
+- "Monotonically decrease" is somewhat technical phrasing
+- The logic (if caused by bow shock, age should decrease consistently along structure) is understandable once parsed
+- "Monotonically" might trip up some readers
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3]**
+- "Broad age gradient" — somewhat technical
+- "Alternating red and blue supergiants" — partially accessible; "supergiants" is jargon
+- Second claim about star formation continuing after SMBH passage is logical and accessible
+- The explanation for color fluctuations is somewhat technical
+**Rating: 3**
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+- "Bulgeless edge-on galaxy" is defined in definitions
+- The claim is brief and uses defined terminology
+- A layperson can follow with the definition provided
+**Rating: 4**
+
+---
+
+**9. Debater A: [Argument 1]**
+- "[OIII]/H𝜷" is highly technical spectroscopic notation — very opaque to laypeople
+- "Line ratio" is jargon without explanation
+- "Not entirely linear" is accessible
+- The first claim is largely incomprehensible to a layperson due to the spectroscopic notation
+- Second claim is accessible
+**Rating: 2**
+
+---
+
+**10. Debater B: [Response 1]**
+- "Tully-Fisher relation" is defined in definitions — helpful
+- "Stellar mass and maximum rotational velocity" — partially accessible
+- The logic (object satisfies this relation → candidate for galaxy) is clear
+- Reference to a figure is opaque
+- Overall fairly accessible given the definition provided
+**Rating: 4**
+
+---
+
+**11. Debater A: [Argument 2]**
+- "Satisfying the Tully-Fisher relation is not sufficient" — accessible given prior context
+- "Observational inconsistencies" — vague jargon
+- "Velocity gradient near the edge of the object is too large" — velocity gradient is defined, helpful
+- Reference to specific figures adds opacity
+- Reasonably clear overall
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2]**
+- "IC5249" is a specific galaxy name — unfamiliar to laypeople but used as a comparison object
+- "Observationally confirmed bulgeless edge-on galaxy" — accessible with definitions
+- "Position vs rotational velocity gradient" — somewhat technical
+- The comparison logic (resembles a known example → same class) is clear
+- Moderately accessible
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3]**
+- "Velocity and flux gradient" — "flux" is technical
+- "IC5249" comparison continues from prior context
+- "Line emission strongly resembling a bow shock at its tip" — "line emission" is jargon
+- "Bow shock" was used earlier
+- Multiple technical terms without full explanation
+**Rating: 2**
+
+---
+
+**14. Debater B: [Response 3]**
+- "Line emission" and "shocks produced by supernovae" — partially accessible
+- "Supernovae" is a widely known term
+- "Clumpy and irregular UV emission arising from heterogeneous star formation" — "heterogeneous" and "UV emission" add jargon
+- "Distorted galaxies" is accessible
+- Moderately accessible but with some technical vocabulary
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[3]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[4]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[3]]
+B | Opening | [[4]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[3]]

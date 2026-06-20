@@ -1,0 +1,215 @@
+I'll analyze each turn for authoritative tone, considering word choice, confidence, expertise signaling, and overall impression.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The best plausible theoretical model to describe this system is a runaway supermassive black hole (SMBH) ([P. D. et al.])."
+
+- "best plausible theoretical model" — confident framing, direct assertion
+- Cites a source immediately, signaling familiarity with literature
+- The word "plausible" slightly hedges, but overall the sentence is direct and assertive
+- Brief and declarative; commands attention without elaboration
+
+**Rating: 4**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "Supermassive black holes are typically found within a few parsecs of the center of galaxies."
+Claim 2: "If this hypothesis were true, the SMBH would have to be located ~40 kiloparsecs away from its host galaxy."
+
+- "typically found" is confident, stated as established fact
+- Use of precise technical units ("parsecs," "kiloparsecs") signals domain expertise
+- The conditional "If this hypothesis were true" is logically structured and confident
+- "~40 kiloparsecs" — use of approximate but specific quantification conveys command of the data
+- Overall, sounds like someone who knows the field well
+
+**Rating: 4**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: "SMBH recoil can eject SMBHs from the centers of their host galaxy during a merger."
+Claim 2: "The galaxy shows signs of a recent merger ([P. D. et al.]), which supports the hypothesis that the linear structure could be a trail of star formation left in the wake of a recoiling SMBH."
+
+- "SMBH recoil can eject SMBHs" — confident, factual-sounding statement
+- Cites source for evidence, anchoring the claim in literature
+- "could be a trail of star formation left in the wake of a recoiling SMBH" — "could be" hedges slightly, but the overall construction is technically rich
+- "wake of a recoiling SMBH" — domain-specific, authoritative phrasing
+
+**Rating: 4**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: "Globular clusters are old, massive and compact structures that travel through the circumgalactic medium (CGM)."
+Claim 2: "If the passage of a black hole through the CGM caused star formation, we would observe similar trails for globular clusters, but in practice we do not."
+
+- "circumgalactic medium (CGM)" — technical terminology used confidently
+- "in practice we do not" — assertive empirical claim
+- The logical structure (if X then Y, but not Y) is clean and confident
+- Somewhat pedagogical in tone; "old, massive and compact" is accurate but reads slightly like a definition
+- "in practice" adds a grounded, empirical feel
+
+**Rating: 4**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: "The SMBH in this model is traveling at supersonic speeds along its trajectory."
+Claim 2: "The bow shock due to this supersonic travel would cause star formation along the way. Globular clusters do not form a bow shock in the CGM, and thus would not have star forming trails."
+
+- "supersonic speeds," "bow shock," "CGM" — technical vocabulary used fluently
+- "and thus would not have star forming trails" — logical conclusion stated confidently
+- The mechanistic explanation (supersonic → bow shock → star formation) is presented with authority
+- "along the way" is slightly informal, mildly undermining
+- Overall very technically assured
+
+**Rating: 4**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "[Figure 1] in [M. M. et al.] shows that the color of the stars along the hypothesised wake fluctuates."
+Claim 2: "If the star formation was caused by the bow shock of a passing SMBH, the age of the stars would monotonically decrease along the structure, but the observed fluctuating color does not support that."
+
+- Cites specific figure and source — signals careful reading of literature
+- "monotonically decrease" — precise mathematical/scientific language, very authoritative
+- "but the observed fluctuating color does not support that" — direct, empirical refutation
+- "hypothesised wake" — slight hedge embedded in terminology, but doesn't undermine
+- Clean logical structure; confident use of predictive reasoning
+
+**Rating: 5**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: "While a broad age gradient is expected along the wake, the color fluctuations can be explained by alternating red and blue supergiants in the trail."
+Claim 2: "Star formation will not only occur at the bow shock, but after the passage of the SMBH as well, which would also add fluctuations to the stellar age."
+
+- "alternating red and blue supergiants" — specific astrophysical terminology, authoritative
+- "a broad age gradient is expected" — confident predictive framing
+- "Star formation will not only occur at the bow shock, but after the passage" — nuanced mechanistic explanation
+- "which would also add fluctuations to the stellar age" — logical extension, confident
+- Some complexity in the explanation may slightly obscure authority for a lay audience, but for the context it's impressive
+
+**Rating: 4**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The best plausible theoretical model to describe this system is a bulgeless edge-on galaxy ([J. S. A. et al.])."
+
+- Direct, assertive opening matching the format
+- Cites source immediately
+- "bulgeless edge-on galaxy" — specific technical term used confidently
+- "best plausible" — same slight hedge as Debater A's opening, but still assertive
+- Mirrors the confidence level of the opposing opening
+
+**Rating: 4**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "The line ratio of the linear object ([OIII]/H𝜷) far exceeds the ratio expected from a galaxy."
+Claim 2: "Additionally, the structure is not entirely linear, which would be expected if it were a bulgeless edge-on galaxy."
+
+- "[OIII]/H𝜷" — highly specific spectroscopic notation; signals deep technical knowledge
+- "far exceeds the ratio expected" — confident comparative claim
+- "not entirely linear, which would be expected if it were" — logical conditional, well-structured
+- Cites source for the line ratio claim
+- Very technically grounded
+
+**Rating: 4**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "The Tully-Fisher relation is used to classify objects as galaxies based on their estimated stellar mass and maximum rotational velocity."
+Claim 2: "The linear object satisfies the Tully-Fisher relation, making it a strong candidate for a bulgeless edge-on galaxy ([Figure 2] in [J. S. A. et al.])."
+
+- "Tully-Fisher relation" — well-known astrophysical concept invoked with authority
+- "estimated stellar mass and maximum rotational velocity" — precise technical descriptors
+- "making it a strong candidate" — confident conclusion
+- Cites specific figure and source
+- Claim 1 reads somewhat definitional (explaining what the relation is), which is slightly less assertive, but Claim 2 compensates strongly
+
+**Rating: 4**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "Satisfying the Tully-Fisher relation is not sufficient to classify an object as a galaxy given observational inconsistencies."
+Claim 2: "The velocity gradient near the edge of the object is too large for it to be classified as a galaxy ([Figure 1], [Figure 5] in [P. D. et al.])."
+
+- "not sufficient to classify" — confident, logical negation of the opposing claim
+- "observational inconsistencies" — somewhat vague but sounds technical
+- "velocity gradient near the edge" — precise observational language
+- "too large for it to be classified" — direct, assertive dismissal
+- Cites two specific figures — shows familiarity with primary literature
+- "observational inconsistencies" is slightly vague and could undermine slightly
+
+**Rating: 4**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "IC5249 is an observationally confirmed bulgeless edge-on galaxy."
+Claim 2: "The position vs rotational velocity gradient of the stars in the structure resembles the gradient of IC5249 ([Figure 1] in [J. S. A. et al.]), suggesting that they're the same class of objects."
+
+- "IC5249" — specific named astronomical object; grounds claim in real data
+- "observationally confirmed" — strong epistemic qualifier
+- "position vs rotational velocity gradient" — technical, precise
+- "suggesting that they're the same class of objects" — "suggesting" hedges slightly
+- "they're" — slightly informal contraction
+- Cites figure and source; overall confident and grounded
+
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "The velocity and flux gradients of IC5249 appear smoother than those of the object in your figure."
+Claim 2: "Additionally, the position vs rotational velocity curve you present is only part of the entire linear structure. The full gradient of the object ([Figure 10] in [P. D. et al.]) does not match that of a galaxy."
+
+- "velocity and flux gradients" — technical dual-variable comparison
+- "appear smoother" — "appear" introduces slight softening
+- "only part of the entire linear structure" — confident critique of opponent's evidence scope
+- "The full gradient... does not match" — direct, assertive
+- Cites specific figure; challenges the completeness of opponent's evidence
+- "in your figure" — slightly adversarial but within debate norms
+
+**Rating: 4**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "The fitted function that you present here also appears to include a part of the galaxy on the left side, with velocity measurements close to 0 on the far left."
+Claim 2: "Galactic mergers can leave extended trails of star formation between merging galaxies, offering an alternative explanation for the galaxy hypothesis."
+
+- "fitted function" — technical language
+- "appears to include" — "appears" hedges, somewhat undermining
+- "velocity measurements close to 0 on the far left" — specific observational detail
+- "Galactic mergers can leave extended trails of star formation" — confident mechanistic claim
+- "offering an alternative explanation for the galaxy hypothesis" — somewhat hedged ("alternative explanation"), suggesting less certainty
+- The turn introduces a new mechanism somewhat abruptly at the end, which feels slightly less tightly argued
+
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[4]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[4]]
+B | Argument 2 | [[4]]
+A | Response 2 | [[4]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[4]]
+B | Opening | [[4]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[3]]

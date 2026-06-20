@@ -1,0 +1,231 @@
+================================================================================
+KEY QUESTION
+================================================================================
+
+Key Question: What is the best theoretical model to describe this system?
+
+<img src='../images/astrophysical_system.png'/>
+
+================================================================================
+DEFINITIONS
+================================================================================
+
+Gravitational lensing: An astrophysical phenomenon where a massive galaxy present in between the observer and the source bends light being emitted by the source, such that the observer sees distorted (weakly lensed) or multiple (strongly lensed) images of the same source.
+
+<img src='../images/gravitational_lensing.png'/>
+
+Einstein zig-zag lens: A gravitational lens system with two lenses, where two light rays from the source cross the optical path between the lenses.
+
+<img src='../images/einstein_zig_zag.png'/>
+
+AGN: Active Galactic Nuclei are galaxies with an actively accreting (consuming matter) supermassive black hole (SMBH) at their center. The matter forms a very bright (one of the brightest phenomena in the universe) accretion disc as it spirals into the SMBH. An AGN might also contain twin jets of gas and dust ejected from the center of the galaxy that can rival the galaxy's own size. High redshift AGN are often referred to as quasars.
+
+<img src='../images/agn.png'/>
+
+Redshift (denoted by z): As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift => object is further away => we are looking further back in time as we are seeing light that left the object millions or billions of years ago.
+
+SIS/SIE/PEMD: All of these are separate models for the mass distribution in a galaxy. SIS is the simplest model for a spherical galaxy where mass falls off by a power of 2. SIE adds two parameters to SIS for ellipticity. PEMD adds one additional parameter to SIE for the slope of the mass distribution power law.
+
+Shear: Adds two parameters to add ellipticity to any model without having to align it with the elliptical shape of the galaxy observed in the optical data. This is usually used if the lens is a part of a cluster, or to describe galaxies using an SIS+shear model instead of an SIE. An SIE+shear model is usually used to model an elliptical galaxy in a cluster to model angular properties from the lens galaxy and uncorrelated angular properties from surrounding matter.
+
+Parsecs (pc) and kiloparsecs (kpc): Units of distance used in astrophysics. 1 pc is approximately 3.26 light years. 1 kpc is approximately 3,260 light-years, that is, it takes light about 3,260 years to cross 1 kpc.
+
+Caustics: Curves in the source plane of a gravitational lens where the magnification of a point source formally diverges. The shape and location of the caustics depend on the lens's mass distribution; a source crossing a caustic produces a sudden change in the number and brightness of lensed images.
+
+Correlated emissions: Variations in the light output of two physically separate sources that change in lockstep, typically because activity in one source influences the other (e.g., through a shared accretion flow or radiation feedback in a dual-AGN system).
+
+================================================================================
+SOURCES
+================================================================================
+
+F. D. et al. — “Year and title blinded from debate judges.”
+
+C. S. M. et al. — “Year and title blinded from debate judges.”
+
+--------------------------------------------------------------------------------
+Note: Exactly one of these debater's answers matches the answer of the expert who wrote the Key Question. Scroll to the top of this webpage to view the Key Question in full.
+--------------------------------------------------------------------------------
+
+================================================================================
+DEBATE — LEFT SIDE OF TABLE  (with reactions from the other debater)
+================================================================================
+
+────────────────────────────────────────────────────────────
+Debater A: [Opening]
+────────────────────────────────────────────────────────────
+
+The Einstein zig-zag lens model ([F. D. et al.]) with two deflectors (white galaxy and red galaxy behind it) at different redshifts, and one AGN which produces 6 lensed images after being lensed by both deflectors.
+
+   → ✘ Debater B objects
+
+Recursed on: Claim 1
+
+────────────────────────────────────────────────────────────
+Debater B: [Argument 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: The Einstein zig-zag lens model is overfit, due to the modeling decisions made for the second deflector and the galaxies in the first deflector's plane.
+   → ✘ Debater A objects
+
+Claim 2: Also, F. D. et al. do not quantify or report chi-squared error, an important index of image reconstruction error.
+   → ✔ Debater A fully agrees
+
+Recursed on: Claim 1
+
+────────────────────────────────────────────────────────────
+Debater A: [Response 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: The mass profile of the second deflector appears likely to have a significant effect on the modelling when it is close to the optical axis.
+   → ✔ 🚩 Debater B agrees but thinks this omits key info
+
+Claim 2: Taking galaxy positions into account allows one to more accurately model a more complex mass distribution than a simple shear.
+   → ✔ 🚩 Debater B agrees but thinks this omits key info
+
+   → ✘ Debater B objects to the idea that these claims refute their argument
+
+Recursed on: the meta-claim
+
+────────────────────────────────────────────────────────────
+Debater B: [Argument 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: This fails to reveal that the model has 30 total parameters, compared to 12 parameters used in other work.
+   → ✔ Debater A fully agrees
+
+Claim 2: This provides an enormous degree of modelling flexibility and results in overfitting.
+   → ✘ Debater A objects
+
+Recursed on: Claim 2
+
+────────────────────────────────────────────────────────────
+Debater A: [Response 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: A simpler model is not necessarily a correct or accurate model of the system in question.
+   → ✔ 🚩 Debater B agrees but thinks this omits key info
+
+Claim 2: Fifteen parameters in our model are only partially constrained, and therefore should not count as full degrees of freedom.
+   → ✔ 🚩 Debater B agrees but thinks this omits key info
+
+   → ✘ Debater B objects to the idea that these claims refute their argument
+
+Recursed on: the meta-claim
+
+────────────────────────────────────────────────────────────
+Debater B: [Argument 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: Constraints don't actually fix them in place: they are themselves determined via different models that come with their own errors and uncertainties.
+   → ✔ Debater A fully agrees
+
+Claim 2: Furthermore, all galaxy positions and redshifts except for the main deflector can vary considerably, adding even more freedom to an already complex model.
+   → ✘ Debater A objects
+
+Recursed on: Claim 2
+
+────────────────────────────────────────────────────────────
+Debater A: [Response 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: Direct spectroscopy of the second deflector pins down its distance (its redshift) tightly, regardless of the lens model.
+   → ✔ 🚩 Debater B agrees but thinks this omits key info
+
+Claim 2: On top of that, Hubble imaging fixes the on-sky positions to a fraction of an arcsecond.
+   → ✔ 🚩 Debater B agrees but thinks this omits key info
+
+   → ✘ Debater B objects to the idea that these claims refute their argument
+
+Recursed on: the meta-claim
+
+================================================================================
+DEBATE — RIGHT SIDE OF TABLE  (with reactions from the other debater)
+================================================================================
+
+────────────────────────────────────────────────────────────
+Debater B: [Opening]
+────────────────────────────────────────────────────────────
+
+The gravitationally lensed dual-AGN model ([C. S. M. et al.]), with the first AGN corresponding to the four brightest images and the second AGN corresponding to the two dim images next to the extended red arcs.
+
+   → ✘ Debater A objects
+
+Recursed on: Claim 1
+
+────────────────────────────────────────────────────────────
+Debater A: [Argument 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: Spectroscopy constrains the redshift of the lensed red galaxy to be 1.88, which places it between the main deflector and alleged dual-AGN.
+   → ✔ Debater B fully agrees
+
+Claim 2: The dual-AGN model's lens model should include the mass profile of the red galaxy in order to be valid, but it does not.
+   → ✘ Debater B objects
+
+Recursed on: Claim 2
+
+────────────────────────────────────────────────────────────
+Debater B: [Response 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: Inclusion of the red galaxy in the lens model will, on the whole, produce only minor changes in the caustics at the redshift of the dual-AGN.
+   → ✔ 🚩 Debater A agrees but thinks this omits key info
+
+Claim 2: The added mass will in turn allow for a relatively larger separation between the two AGN, as one might reasonably expect.
+   → ✔ 🚩 Debater A agrees but thinks this omits key info
+
+   → ✘ Debater A objects to the idea that these claims refute their argument
+
+Recursed on: the meta-claim
+
+────────────────────────────────────────────────────────────
+Debater A: [Argument 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: The presence of a second deflector enables models in which one single source can produce 6 observed images.
+   → ✔ Debater B fully agrees
+
+Claim 2: Single-AGN models remain consistent with all available data, making the dual-AGN model unnecessary.
+   → ✘ Debater B objects
+
+Recursed on: Claim 2
+
+────────────────────────────────────────────────────────────
+Debater B: [Response 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: A single source being lensed to produce 6 images requires a specific morphology which has never been observed before.
+   → ✔ 🚩 Debater A agrees but thinks this omits key info
+
+Claim 2: A dual-AGN is an observed phenomenon that does not invoke overcomplicated hypotheses or unobserved morphologies.
+   → ✔ 🚩 Debater A agrees but thinks this omits key info
+
+   → ✘ Debater A objects to the idea that these claims refute their argument
+
+Recursed on: the meta-claim
+
+────────────────────────────────────────────────────────────
+Debater A: [Argument 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: Light curves for all 6 lensed images display the same variations with brief offsets (e.g. 35 days between D and E), and the same redshifts. But C. S. M. et al. claim that D and E correspond to AGN that are 6 kiloparsecs away from each other.
+   → ✔ Debater B fully agrees
+
+Claim 2: Light curves this similar can only be generated by a single source.
+   → ✘ Debater B objects
+
+Recursed on: Claim 2
+
+────────────────────────────────────────────────────────────
+Debater B: [Response 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: Activity in one AGN can set off activity in the other AGN in a dual-AGN system, causing correlated emissions.
+   → ✔ 🚩 Debater A agrees but thinks this omits key info
+
+Claim 2: Correlated emissions can make two different objects look like a single object under some circumstances.
+   → ✔ 🚩 Debater A agrees but thinks this omits key info
+
+   → ✘ Debater A objects to the idea that these claims refute their argument
+
+Recursed on: the meta-claim

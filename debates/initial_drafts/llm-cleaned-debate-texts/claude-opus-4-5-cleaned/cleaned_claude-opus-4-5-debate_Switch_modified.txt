@@ -1,0 +1,87 @@
+Let me search for more specific references that Liz can use in her arguments about the physics of this problem.
+I found the excellent Feynman Lectures reference. Now let me search for additional sources that Liz can cite.
+I have excellent references now. The Feynman Lectures reference (22-1 to 22-8) is perfect for Liz's argument about constraint forces doing no work. Let me now verify the quotes and compile the revised debates.
+
+Now let me analyze the debates and make appropriate revisions:
+
+**Analysis of issues:**
+
+1. **Issue (1) - Concession**: Looking at the debates, I don't see explicit concessions from either party saying their arguments are false. Bob is arguing confidently throughout.
+
+2. **Issue (2) - Confidence**: Bob's questions in the first debate use "doesn't", "why", etc. which seem confident. However, in Bob question="2", "Energy arguments seem abstract" could be seen as a mild hedge. Let me check if revisions are needed.
+
+3. **Issue (3) - Refutations**: Liz could more strongly refute Bob's claim that the constraint force during the spiral transition has a radial component that does work (Bob claim="2" in debate 2). The key issue is that a *fixed* frictionless track always has its normal force perpendicular to velocity.
+
+4. **Character limits**: 
+   - Liz claim="1" in debate 1 is 334 characters - needs shortening
+   - Liz claim="2" in debate 1 is 332 characters - needs shortening
+
+5. **Reference balance**: Liz has 1 ref (wiki_work), Bob has 3 refs. I need to add 2 references for Liz.
+
+Let me add references for Liz from Feynman Lectures and OpenStax, and revise the debates accordingly.
+
+<debate initiator="Liz" questioner="Bob">
+<speaker name="Liz" claim="0">The speed stays the same. On a frictionless track, the only force from the track is the normal force, perpendicular to motion. Since work W=F·d·cos(θ), and θ=90°, no work is done<ref id="wiki_work"/>. With zero work, kinetic energy (½mv²) is conserved, so speed is unchanged.</speaker>
+<speaker name="Bob" question="0">But angular momentum L=mvr is conserved when there's no external torque. When the train transitions to a smaller radius, doesn't it speed up just like an ice skater pulling in her arms? How do you explain the skater analogy?</speaker>
+<speaker name="Liz" claim="1">The skater analogy fails. A skater's arms move via internal forces. The train is externally constrained by a fixed track that exerts forces producing torque about the center. During the switch, the redirecting force isn't purely radial—it changes angular momentum while conserving kinetic energy<ref id="feynman_work"/>.</speaker>
+<speaker name="Bob" question="1">The centripetal force points toward the center and creates no torque. The constraint force is always perpendicular to motion, so it can only change direction, not speed. Why would angular momentum change while energy stays constant?</speaker>
+<speaker name="Liz" claim="2">During the switch, the constraint force is perpendicular to velocity, but NOT radial to either circle's center. A force perpendicular to velocity but not passing through a point still exerts torque about that point<ref id="wiki_angular"/>. Angular momentum changes; kinetic energy doesn't.</speaker>
+<speaker name="Bob" question="2">Energy arguments miss the physical reality. When constrained to a smaller circle, the train must complete the loop faster. The tangential velocity has to increase to maintain the required angular velocity. How can velocity stay constant?</speaker>
+<speaker name="Liz" claim="3">No—the train simply has lower angular velocity on the smaller circle. ω=v/r, so if v stays constant and r decreases, ω increases. That's consistent with unchanging speed. No law requires matching any particular ω. The track constraint conserves KE, not L<ref id="wiki_work"/>.</speaker>
+</debate>
+
+<debate initiator="Bob" questioner="Liz">
+<speaker name="Bob" claim="0">The speed increases. When the train moves to the smaller track, angular momentum L=mvr must be conserved since the centripetal force points toward the center, producing zero torque<ref id="wiki_angular"/>. With smaller r and constant L, velocity v must increase—just like an ice skater spinning faster when pulling arms in<ref id="openstax_cons"/>.</speaker>
+<speaker name="Liz" question="0">But the track constraint force does no work—it's perpendicular to motion<ref id="wiki_work"/>. If no work is done, how can kinetic energy (½mv²) increase? Where does the extra energy come from in a frictionless system with no engine?</speaker>
+<speaker name="Bob" claim="1">Energy can redistribute without external work. The skater adds kinetic energy by pulling her arms inward—the work she does becomes rotational KE<ref id="openstax_cons"/>. Similarly, the track does work on the train during the transition by redirecting it inward, converting potential configuration into kinetic energy.</speaker>
+<speaker name="Liz" question="1">The skater does work via muscular effort—an internal force. A fixed, frictionless track exerts only a normal force. Feynman states "no work is done by the constraint because the forces of constraint are always at right angles to the motion"<ref id="feynman_work"/>. How can speed change?</speaker>
+<speaker name="Bob" claim="2">During the spiral transition, the constraint force has a component along the train's inward displacement. This is analogous to pulling a ball on a string inward—work is done by the tension. The track's redirecting force isn't purely perpendicular during the curved switch.</speaker>
+<speaker name="Liz" question="2">A ball being pulled requires active tension with a radial component—that's pulling along the string. But here, the track is fixed; the train merely coasts onto it. OpenStax confirms normal force on curved surfaces "never does any work, because it's perpendicular to displacement"<ref id="openstax_normal"/>. Isn't this definitive?</speaker>
+<speaker name="Bob" claim="3">NASA confirms angular momentum L=mvr is conserved: "if radius decreased, velocity must increase"<ref id="nasa_angular"/>. The physical mechanism is real—as the train spirals in, the geometry requires higher tangential speed to maintain the conserved angular momentum about the center.</speaker>
+</debate>
+
+<refs>
+<cite id="wiki_work" quote="Fixed, frictionless constraint forces do not perform work on the system, as the angle between the motion and the constraint forces is always 90°." url="https://en.wikipedia.org/wiki/Work_(physics)"/>
+<cite id="wiki_angular" quote="If the net force on some body is directed always toward some point, the center, then there is no torque on the body with respect to the center, as all of the force is directed along the radius vector" url="https://en.wikipedia.org/wiki/Angular_momentum"/>
+<cite id="openstax_cons" quote="This work causes an increase in the rotational kinetic energy, while her angular momentum remains constant. Since she is in a frictionless environment, no energy escapes the system." url="https://openstax.org/books/university-physics-volume-1/pages/11-3-conservation-of-angular-momentum"/>
+<cite id="nasa_angular" quote="When the radius increased, the circular motion of the yo-yo slowed to a prolonged rotation...Angular momentum (L) is defined as L=mvr" url="https://www.nasa.gov/wp-content/uploads/2024/01/classroom-connection-angular-momentum-final-v508c.pdf"/>
+<cite id="feynman_work" quote="In motion with a fixed frictionless constraint, no work is done by the constraint because the forces of constraint are always at right angles to the motion." url="https://www.feynmanlectures.caltech.edu/I_14.html"/>
+<cite id="openstax_normal" quote="Constant or not, for motion along a surface, the normal force never does any work, because it's perpendicular to the displacement." url="https://openstax.org/books/university-physics-volume-1/pages/7-3-work-energy-theorem"/>
+</refs>
+
+Let me verify the character counts for the revised turns:
+
+- Liz claim="1" in debate 1: "The skater analogy fails. A skater's arms move via internal forces. The train is externally constrained by a fixed track that exerts forces producing torque about the center. During the switch, the redirecting force isn't purely radial—it changes angular momentum while conserving kinetic energy" = 297 characters ✓
+
+- Liz claim="2" in debate 1: "During the switch, the constraint force is perpendicular to velocity, but NOT radial to either circle's center. A force perpendicular to velocity but not passing through a point still exerts torque about that point. Angular momentum changes; kinetic energy doesn't." = 268 characters ✓
+
+Now let me output the final revised debates:
+
+<debate initiator="Liz" questioner="Bob">
+<speaker name="Liz" claim="0">The speed stays the same. On a frictionless track, the only force from the track is the normal force, perpendicular to motion. Since work W=F·d·cos(θ), and θ=90°, no work is done<ref id="wiki_work"/>. With zero work, kinetic energy (½mv²) is conserved, so speed is unchanged.</speaker>
+<speaker name="Bob" question="0">But angular momentum L=mvr is conserved when there's no external torque. When the train transitions to a smaller radius, doesn't it speed up just like an ice skater pulling in her arms? How do you explain the skater analogy?</speaker>
+<speaker name="Liz" claim="1">The skater analogy fails. A skater's arms move via internal forces. The train is externally constrained by a fixed track that exerts forces producing torque about the center. During the switch, the redirecting force isn't purely radial—it changes angular momentum while conserving KE<ref id="feynman_work"/>.</speaker>
+<speaker name="Bob" question="1">The centripetal force points toward the center and creates no torque. The constraint force is always perpendicular to motion, so it can only change direction, not speed. Why would angular momentum change while energy stays constant?</speaker>
+<speaker name="Liz" claim="2">During the switch, the constraint force is perpendicular to velocity but NOT radial to either circle's center. A force perpendicular to velocity but not through a point still exerts torque about that point<ref id="wiki_angular"/>. Angular momentum changes; kinetic energy doesn't.</speaker>
+<speaker name="Bob" question="2">Energy arguments miss the physical reality. When constrained to a smaller circle, the train must complete the loop faster. The tangential velocity has to increase to match the higher required angular velocity. How can speed stay constant?</speaker>
+<speaker name="Liz" claim="3">No—the train simply has higher angular velocity on the smaller circle. ω=v/r, so if v stays constant and r decreases, ω increases. That's consistent with unchanging speed. No law requires matching any particular ω. The track constraint conserves KE, not L<ref id="wiki_work"/>.</speaker>
+</debate>
+
+<debate initiator="Bob" questioner="Liz">
+<speaker name="Bob" claim="0">The speed increases. When the train moves to the smaller track, angular momentum L=mvr must be conserved since the centripetal force points toward the center, producing zero torque<ref id="wiki_angular"/>. With smaller r and constant L, velocity v must increase—just like an ice skater spinning faster when pulling arms in<ref id="openstax_cons"/>.</speaker>
+<speaker name="Liz" question="0">But the track constraint force does no work—it's perpendicular to motion<ref id="wiki_work"/>. If no work is done, how can kinetic energy (½mv²) increase? Where does the extra energy come from in a frictionless system with no engine?</speaker>
+<speaker name="Bob" claim="1">Energy can redistribute without external work. The skater adds kinetic energy by pulling her arms inward—the work she does becomes rotational KE<ref id="openstax_cons"/>. Similarly, the track does work on the train during the transition by redirecting it inward, converting potential configuration into kinetic energy.</speaker>
+<speaker name="Liz" question="1">The skater does work via muscular effort—an internal force. A fixed, frictionless track exerts only a normal force. Feynman states "no work is done by the constraint because the forces of constraint are always at right angles to the motion"<ref id="feynman_work"/>. How can speed change?</speaker>
+<speaker name="Bob" claim="2">During the spiral transition, the constraint force has a component along the train's inward displacement. This is analogous to pulling a ball on a string inward—work is done by the tension. The track's redirecting force isn't purely perpendicular during the curved switch.</speaker>
+<speaker name="Liz" question="2">A ball being pulled requires active tension with a radial component—that's pulling along the string. But here, the track is fixed; the train merely coasts onto it. OpenStax confirms normal force "never does any work, because it's perpendicular to the displacement"<ref id="openstax_normal"/>. Isn't this definitive?</speaker>
+<speaker name="Bob" claim="3">NASA confirms angular momentum L=mvr is conserved: "if radius decreased, velocity must increase"<ref id="nasa_angular"/>. The physical mechanism is real—as the train spirals in, geometry requires higher tangential speed to maintain the conserved angular momentum about the center.</speaker>
+</debate>
+
+<refs>
+<cite id="wiki_work" quote="Fixed, frictionless constraint forces do not perform work on the system, as the angle between the motion and the constraint forces is always 90°." url="https://en.wikipedia.org/wiki/Work_(physics)"/>
+<cite id="wiki_angular" quote="If the net force on some body is directed always toward some point, the center, then there is no torque on the body with respect to the center, as all of the force is directed along the radius vector" url="https://en.wikipedia.org/wiki/Angular_momentum"/>
+<cite id="openstax_cons" quote="This work causes an increase in the rotational kinetic energy, while her angular momentum remains constant. Since she is in a frictionless environment, no energy escapes the system." url="https://openstax.org/books/university-physics-volume-1/pages/11-3-conservation-of-angular-momentum"/>
+<cite id="nasa_angular" quote="When the radius increased, the circular motion of the yo-yo slowed to a prolonged rotation...Angular momentum (L) is defined as L=mvr" url="https://www.nasa.gov/wp-content/uploads/2024/01/classroom-connection-angular-momentum-final-v508c.pdf"/>
+<cite id="feynman_work" quote="In motion with a fixed frictionless constraint, no work is done by the constraint because the forces of constraint are always at right angles to the motion." url="https://www.feynmanlectures.caltech.edu/I_14.html"/>
+<cite id="openstax_normal" quote="Constant or not, for motion along a surface, the normal force never does any work, because it's perpendicular to the displacement." url="https://openstax.org/books/university-physics-volume-1/pages/7-3-work-energy-theorem"/>
+</refs>

@@ -1,0 +1,123 @@
+I'll analyze each turn for technical jargon, then provide ratings.
+
+---
+
+**Left Side**
+
+**1. Debater A: [Opening]**
+"Y is larger." — No technical terms. Plain English comparison.
+Rating: 1
+
+**2. Debater B: [Argument 1]**
+- "D6" and "D3": These are defined in the DEFINITIONS section (six-sided die, three-sided die) — domain shorthand, mildly technical but defined.
+- "sides 2, 4, 6": straightforward mathematical reference.
+- Overall accessible; D6/D3 are the only semi-technical terms and they're defined.
+Rating: 2
+
+**3. Debater A: [Response 1]**
+- "expected number of rolls": "expected" in the mathematical/probability sense (mean of a distribution) — this is a statistics term that a layperson might not fully grasp.
+- "D3", "D6": same as above.
+- "given that all rolls were even": conditional probability concept, but expressed in plain language.
+- Moderate use of probability terminology.
+Rating: 2
+
+**4. Debater B: [Argument 2]**
+- "expected number of rolls": mathematical expectation term.
+- References to prior claims by label ("Debater A Response 1 Claim 1", etc.) — meta-debate structure, not jargon per se.
+- "trivially": used in a mathematical sense meaning "obviously follows" — mildly technical.
+- Overall light on jargon.
+Rating: 2
+
+**5. Debater A: [Response 2]**
+- "probability that the first 6 arrives on roll k": probability/statistics language.
+- "(1/3)^(k - 1)": mathematical formula/notation — this is technical notation.
+- "expectation": technical statistics term (expected value).
+- "formula for expectation": explicit reference to a mathematical formula.
+- Contains a formula and probability terminology, making it moderately technical.
+Rating: 3
+
+**6. Debater B: [Argument 3]**
+- "expected wait": mathematical expectation concept.
+- Numbers like "42" and "13.2" presented as computed values without derivation — requires some background to evaluate.
+- "consecutive 6s" vs "any positions": clear enough in plain English.
+- Relatively accessible despite some probability framing.
+Rating: 2
+
+**7. Debater A: [Response 3]**
+- "filter sequences": slightly technical framing from the probability/statistics context.
+- References to prior claims by label — meta-structural, not jargon.
+- "self-contradictory": common English.
+- Mostly plain language with references to earlier technical claims.
+Rating: 1
+
+---
+
+**Right Side**
+
+**8. Debater B: [Opening]**
+"X is larger." — No technical terms.
+Rating: 1
+
+**9. Debater A: [Argument 1]**
+- "on average": plain English, though in a probabilistic sense.
+- "filters long runs exponentially": "exponentially" is used in a mathematical sense — technical usage.
+- "probability sits on its short successful runs": probability distribution language.
+- "all-even condition": domain-specific shorthand.
+- Moderate technical language.
+Rating: 2
+
+**10. Debater B: [Response 1]**
+- "stopping condition": slightly technical but generally understandable.
+- "X's distribution is dominated by long sequences": "distribution" is a statistics term.
+- "dominated" in the statistical/stochastic dominance sense is technical.
+- Moderate jargon.
+Rating: 2
+
+**11. Debater A: [Argument 2]**
+- "filtered out": plain English in context.
+- "does not follow from it": logical language, plain enough.
+- "false statement": plain.
+- Minimal jargon.
+Rating: 1
+
+**12. Debater B: [Response 2]**
+- "filtering cuts both ways": plain English metaphor.
+- "probability 22/27 vs Y 20/27": specific probability fractions — mathematical notation.
+- "conditioned distribution": technical statistics term ("conditioned" in the probability sense, "distribution" as a probability distribution).
+- "all-even stopped sequences": domain-specific phrase.
+- "0.074 gap": numerical precision suggesting technical calculation.
+- Moderate statistical terminology.
+Rating: 3
+
+**13. Debater A: [Argument 3]**
+- "all-even stopped sequences": domain-specific.
+- Percentage statistics (61%, 44%, 81%, 74%): numerical data from calculations.
+- "stop at roll 2", "stop by roll 3": plain enough.
+- Overall accessible with some statistical framing.
+Rating: 2
+
+**14. Debater B: [Response 3]**
+- "proportion": common word, slight statistical usage.
+- "overall weighting": mild statistics term.
+- "tails" of distributions: "tails" is a technical statistics term referring to the extremes of a probability distribution.
+- "full calculation": implies mathematical derivation.
+- Mild statistical jargon with "tails" being the most technical term.
+Rating: 2
+
+---
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[1]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[2]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[2]]

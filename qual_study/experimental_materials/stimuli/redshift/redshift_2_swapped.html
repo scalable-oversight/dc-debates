@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Debater Credence Tool</title>
+<style>
+        :root {
+            --color-left: #FFF6CC;
+            --color-right: #F2E8FF;
+            --primary-blue: #007bff;
+            --timer-bg: #343a40;
+            --timer-text: #fff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            padding-bottom: 60px; /* Space for fixed timer at the bottom */
+            line-height: 1.6;
+        }
+
+        /* Fixed Timer Styles */
+        #timer-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: var(--timer-bg);
+            color: var(--timer-text);
+            text-align: center;
+            padding: 10px 0;
+            font-weight: bold;
+            font-size: 1.2rem;
+            z-index: 1000;
+            box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+        }
+
+        .timer-warning {
+            background-color: #dc3545 !important; /* Red when low */
+        }
+
+        /* Container Styles */
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Intro / Definition Styles */
+        .intro-section {
+            margin-bottom: 30px;
+        }
+
+        .intro-section h3 {
+            margin-top: 25px; /* Spacing for distinct headers */
+            margin-bottom: 15px;
+            color: #2c3e50;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        
+        .intro-section h3:first-child {
+            margin-top: 0;
+        }
+
+        .definition-item {
+            margin-bottom: 12px;
+        }
+
+        /* Context Text (Expert matching) */
+        .context-text {
+            font-style: italic;
+            margin-bottom: 20px;
+            color: #555;
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-left: 4px solid #6c757d;
+            border-radius: 4px;
+        }
+
+        /* Image Styling */
+        .image-container {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+		
+		.figure-wrapper {
+			border: 1px solid #ddd;
+			border-radius: 4px;
+			padding: 15px;
+			margin-bottom: 20px;
+			background-color: #fff; /* Helps the figure stand out against the background */
+            text-align: left; /* Align text properly if used for references */
+		}
+
+		.figure-wrapper img {
+			border: none !important; /* Removes the duplicate border from the image itself */
+			margin-bottom: 5px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+		}
+
+		.figure-caption {
+			font-style: italic;
+			color: #666;
+			font-size: 0.9rem;
+			margin-top: 5px;
+            text-align: center;
+		}
+
+        /* Slider Section */
+        .slider-section {
+            margin-bottom: 40px;
+            padding: 0 10px;
+        }
+
+        .slider-labels {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            margin-bottom: 5px;
+            font-size: 0.85rem; /* Slightly smaller to fit longer text */
+            color: #555;
+        }
+
+        /* Custom Range Slider Styling */
+        .slider-wrapper {
+            position: relative;
+            height: 40px;
+            display: flex;
+            align-items: center;
+        }
+
+        input[type=range] {
+            -webkit-appearance: none;
+            width: 100%;
+            background: transparent;
+            position: relative;
+            z-index: 2;
+            cursor: pointer;
+        }
+
+        input[type=range]:focus {
+            outline: none;
+        }
+
+        input[type=range]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            height: 24px;
+            width: 24px;
+            border-radius: 50%;
+            background: #333;
+            border: 2px solid white;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+            cursor: pointer;
+            margin-top: -8px; 
+        }
+
+        input[type=range]::-moz-range-thumb {
+            height: 24px;
+            width: 24px;
+            border-radius: 50%;
+            background: #333;
+            border: 2px solid white;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+            cursor: pointer;
+        }
+
+        .gradient-bar {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            height: 12px;
+            transform: translateY(-50%);
+            background: linear-gradient(to right, var(--color-left), var(--color-right));
+            border-radius: 6px;
+            border: 1px solid #ddd;
+            z-index: 1;
+        }
+
+        .percentage-display {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            font-family: monospace;
+            font-size: 1.0rem; /* Adjusted for longer text */
+        }
+
+        /* Input Sections */
+        .input-section {
+            margin-bottom: 30px;
+        }
+
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-family: inherit;
+            resize: vertical;
+            min-height: 150px;
+            box-sizing: border-box; 
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: var(--primary-blue);
+            box-shadow: 0 0 0 3px rgba(0,123,255,0.1);
+        }
+
+        /* Summary Box */
+        .summary-section {
+            background-color: #f1f3f5;
+            border: 1px solid #e1e4e8;
+            padding: 20px;
+            border-radius: 6px;
+        }
+
+        .summary-header {
+            font-size: 1.1rem;
+            margin-top: 0;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #d1d5da;
+            padding-bottom: 10px;
+        }
+
+        #summaryText {
+            white-space: pre-wrap;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.9rem;
+            color: #444;
+            margin-bottom: 15px;
+            word-break: break-all; /* Ensures long encoded strings wrap */
+        }
+
+        .btn-copy {
+            background-color: var(--primary-blue);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background-color 0.2s;
+        }
+
+        .btn-copy:hover {
+            background-color: #0056b3;
+        }
+
+        /* References */
+        .references-section {
+            margin-top: 18px;
+            margin-bottom: 22px;
+        }
+        .references-section h3 {
+            margin-top: 0;
+            margin-bottom: 12px;
+            color: #2c3e50;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        .refs-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+        }
+        .ref-card {
+            border: 1px solid #e6e8eb;
+            background: #fbfcfe;
+            border-radius: 10px;
+            padding: 14px;
+        }
+        .ref-title {
+            font-weight: 700;
+            margin: 0 0 8px;
+            color: #1f2d3d;
+        }
+        .ref-quote {
+            margin: 0 0 10px;
+            padding: 10px 12px;
+            border-left: 4px solid #adb5bd;
+            background: #f3f5f7;
+            border-radius: 6px;
+            font-style: italic;
+            color: #444;
+        }
+        .ref-link {
+            margin: 0 0 12px;
+            font-size: 0.95rem;
+        }
+        .ref-link a {
+            color: var(--primary-blue);
+            text-decoration: none;
+        }
+        .ref-link a:hover {
+            text-decoration: underline;
+        }
+
+        .inline-ref {
+            color: var(--primary-blue);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .inline-ref:hover {
+            text-decoration: underline;
+        }
+
+        /* Debate Table Styles */
+        .debate-table-card {
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(0,0,0,0.10);
+            border-radius: 18px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .debate-table-card table {
+            width: 100%;
+            table-layout: fixed;
+            border-collapse: separate;
+            border-spacing: 0;
+        }
+
+        .debate-table-card td {
+            vertical-align: top;
+            padding: 14px 16px;
+            font-size: 14.5px;
+            border-bottom: 1px solid rgba(0,0,0,0.08);
+            overflow-wrap: anywhere;
+        }
+
+        .debate-table-card tr:last-child td {
+            border-bottom: none;
+        }
+
+        td.speaker-a {
+            background: #fff6cc;
+            color: #2a2000;
+            border-right: 1px solid rgba(0,0,0,0.06);
+        }
+
+        td.speaker-b {
+            background: #f2e8ff;
+            color: #1f0f33;
+        }
+
+        td.speaker-a strong, td.speaker-b strong {
+            font-weight: 750;
+        }
+
+        /* Post-Timer Instructions */
+        #post-lockdown-instruction {
+            display: none; /* Hidden by default */
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+            border-radius: 4px;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div id="timer-bar">Time Remaining: <span id="time-display">04:30</span></div>
+<div class="container">
+<div class="intro-section hide-on-lockdown">
+<h3>Key Question</h3>
+<div class="definition-item">
+            What is the redshift of the CEERS-93316 galaxy discovered by JWST?
+        </div>
+<h3>Definitions</h3>
+<div class="definition-item">
+<strong>(D1) Redshift (denoted by z):</strong> As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift =&gt; object is further away.
+        </div>
+<div class="definition-item">
+<strong>(D2) Emission lines:</strong> Characteristic wavelengths at which excited electrons in atoms, molecules or ions emit light when returning to lower energy levels.
+        </div>
+<div class="definition-item">
+<strong>(D3) Lyman break:</strong> A sharp drop in a galaxy's light spectrum at the Lyman limit (91.13 nanometers), caused by neutral hydrogen absorbing photons with shorter wavelengths, effectively creating a "dropout" in the ultraviolet part of the spectrum. For distant galaxies, this break is stretched into the visible light range (redshifted to longer wavelengths).
+        </div>
+<div class="definition-item">
+<strong>(D4) SED:</strong> The Spectral Energy Distribution captures the amount of light emitted by an object across all wavelengths of light. This is typically used to estimate the composition of galaxies in terms of stars, dust etc.
+        </div>
+<h3>References</h3>
+<div class="figure-wrapper" id="ref-ph">
+<strong style="color: #2c3e50;">P. H. et al.</strong> Year, title, and link blinded from debate judges.
+        </div>
+<div class="figure-wrapper" id="ref-cd">
+<strong style="color: #2c3e50;">C. D. et al.</strong> Year, title, and link blinded from debate judges.
+        </div>
+<div class="image-container">
+<div class="refs-grid">
+</div>
+</div>
+</div>
+<hr class="hide-on-lockdown"/>
+<div class="context-text hide-on-lockdown">
+        Exactly one of these debater's answers matches the answer of the expert who wrote the Key Question.
+    </div>
+<div class="debate-table-card hide-on-lockdown">
+<table aria-label="Debate table">
+<colgroup><col/><col/></colgroup>
+<tbody>
+<tr>
+<td class="speaker-a"><strong>Debater A: [Opening]</strong> The redshift (D1) of CEERS-93316 is z ~ 16.4. (<a class="inline-ref" href="#ref-cd">C. D. et al.</a>)</td>
+<td class="speaker-b"><strong>Debater B: [Opening]</strong> The redshift (D1) of CEERS-93316 is z ~ 4.9. (<a class="inline-ref" href="#ref-ph">P. H. et al.</a>)</td>
+</tr>
+<tr>
+<td class="speaker-b"><strong>Debater B: [Question 1]</strong> What method did you use to calculate the redshift of the galaxy?</td>
+<td class="speaker-a"><strong>Debater A: [Question 1]</strong> What method did you use to calculate the redshift of the galaxy?</td>
+</tr>
+<tr>
+<td class="speaker-a"><strong>Debater A: [Answer 1]</strong> We used photometry with observations from multiple filters to identify the position of the Lyman break (D3) and used it to calculate the redshift of the galaxy.</td>
+<td class="speaker-b"><strong>Debater B: [Answer 1]</strong> We used spectroscopy to identify key emission lines (D2), and used the difference in their observed and expected wavelengths to calculate the redshift of the galaxy.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="hide-on-lockdown" style="font-weight: 600; margin-bottom: 15px; color: #2c3e50;">
+        Consider each debater's answer to the Key Question. What probability do you assign to each of matching the expert's answer?
+    </div>
+<div class="slider-section hide-on-lockdown">
+<div class="slider-labels">
+<span>Debater A matches the expert's answer</span>
+<span>Debater B matches the expert's answer</span>
+</div>
+<div class="slider-wrapper">
+<div class="gradient-bar"></div>
+<input id="credenceSlider" max="100" min="0" type="range" value="50"/>
+</div>
+<div class="percentage-display">
+<span id="labelA">50% probability Debater A matches the expert's answer</span>
+<span id="labelB">50% probability Debater B matches the expert's answer</span>
+</div>
+</div>
+<hr class="hide-on-lockdown"/>
+<div class="input-section hide-on-lockdown">
+<label for="reasonInput" id="dynamicReasonLabel">
+            Please explain why you assign Debater A's answer to the Key Question a 50% probability of matching the expert's answer. Please enumerate ALL relevant reasons, with a brief remark on how much weight you gave to each. For example, if there were two different things you noticed that made you lean toward one debater, and one thing that made you lean towards the other, please list all of these.
+        </label>
+<textarea id="reasonInput" placeholder="Enter your reasoning here..."></textarea>
+</div>
+<div class="summary-section">
+<h3 class="summary-header" id="summaryHeader">Your answers (encoded)</h3>
+<div id="summaryText"></div>
+<button class="btn-copy" id="copyBtn">Copy this encoded text</button>
+<div id="pasteInstruction" style="display: none; color: #006400; font-weight: bold; margin-top: 10px;">
+				Copied! Please return to the main tab and paste this text in as your answer (using <span id="shortcutKey">Ctrl+V</span> or by right-clicking in the box there and selecting 'Paste').<br/><br/>
+				If you cannot find the main tab where you need to paste in your answer, or if you accidentally closed it, you can open it again using this link: <a href="https://www.guidedtrack.com/programs/6w4a732/run">https://www.guidedtrack.com/programs/6w4a732/run</a>
+</div>
+</div>
+<div id="post-lockdown-instruction">
+        Please copy-paste the above into the main tab of the experiment.
+    </div>
+</div>
+<script>
+    // --- Global: Capture Start Time Immediately ---
+    const startTime = new Date().toString();
+
+    // --- DOM Elements ---
+    const slider = document.getElementById('credenceSlider');
+    const labelA = document.getElementById('labelA');
+    const labelB = document.getElementById('labelB');
+    const dynamicReasonLabel = document.getElementById('dynamicReasonLabel');
+    const reasonInput = document.getElementById('reasonInput');
+    const summaryText = document.getElementById('summaryText');
+    const copyBtn = document.getElementById('copyBtn');
+    const timerDisplay = document.getElementById('time-display');
+    const timerBar = document.getElementById('timer-bar');
+
+    // --- State Variables ---
+    let summaryProbA = "50%";
+    let summaryProbB = "50%";
+    
+    // Timer Settings
+    let timeRemaining = 270; 
+    let timerActive = true;
+
+    // --- Encoding Map ---
+    const ENCODING_MAP = ['0','1','2','3','4','5','6','7','8','9','a','B','c','D','e','F'];
+
+    // --- Initialization ---
+    updateState();
+    startTimer();
+
+    // --- Event Listeners ---
+    slider.addEventListener('input', updateState);
+    reasonInput.addEventListener('input', updateSummary);
+    copyBtn.addEventListener('click', copyToClipboard);
+
+    // --- Timer Functionality ---
+    function startTimer() {
+        const timerInterval = setInterval(() => {
+            if (!timerActive) {
+                clearInterval(timerInterval);
+                return;
+            }
+
+            timeRemaining--;
+
+            // Format Minutes and Seconds
+            const m = Math.floor(timeRemaining / 60);
+            const s = timeRemaining % 60;
+            timerDisplay.innerText = `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+
+            // Visual Warning at 30 seconds
+            if (timeRemaining < 30) {
+                timerBar.classList.add('timer-warning');
+            }
+
+            // Lockdown at 0
+            if (timeRemaining <= 0) {
+                clearInterval(timerInterval);
+                timerActive = false;
+                triggerLockdown();
+            }
+        }, 1000);
+    }
+
+    function triggerLockdown() {
+        // Hide interactive elements
+        const elementsToHide = document.querySelectorAll('.hide-on-lockdown');
+        elementsToHide.forEach(el => el.style.display = 'none');
+
+        // Show instruction
+        document.getElementById('post-lockdown-instruction').style.display = 'block';
+        
+        // Ensure summary is up to date
+        updateSummary();
+    }
+
+    // --- Core Logic ---
+    function updateState() {
+        if (!timerActive) return; // Prevent updates after timeout
+
+        const val = parseInt(slider.value);
+        
+        let textA = "";
+        let textB = "";
+        let reasonLabel = "";
+        
+        const baseReasonText = " probability of matching the expert's answer. Please enumerate ALL relevant reasons, with a brief remark on how much weight you gave to each. For example, if there were two different things you noticed that made you lean toward one debater, and one thing that made you lean towards the other, please list all of these.";
+
+        if (val === 0) {
+            textA = "More than 99.5% probability Debater A matches the expert's answer";
+            textB = "Less than 0.5% probability Debater B matches the expert's answer";
+            reasonLabel = "Please explain why you assign Debater A's answer to the Key Question more than a 99.5%" + baseReasonText;
+            summaryProbA = ">99.5%";
+            summaryProbB = "<0.5%";
+        } else if (val === 100) {
+            textA = "Less than 0.5% probability Debater A matches the expert's answer";
+            textB = "More than 99.5% probability Debater B matches the expert's answer";
+            reasonLabel = "Please explain why you assign Debater B's answer to the Key Question more than a 99.5%" + baseReasonText;
+            summaryProbA = "<0.5%";
+            summaryProbB = ">99.5%";
+        } else {
+            let probB = val;
+            let probA = 100 - val;
+            textA = `${probA}% probability Debater A matches the expert's answer`;
+            textB = `${probB}% probability Debater B matches the expert's answer`;
+
+            let dominantDebater = (probA >= probB) ? "A" : "B";
+            let dominantProb = (probA >= probB) ? probA : probB;
+            reasonLabel = `Please explain why you assign Debater ${dominantDebater}'s answer to the Key Question a ${dominantProb}%` + baseReasonText;
+
+            summaryProbA = `${probA}%`;
+            summaryProbB = `${probB}%`;
+        }
+
+        labelA.innerText = textA;
+        labelB.innerText = textB;
+        dynamicReasonLabel.innerText = reasonLabel;
+
+        updateSummary();
+    }
+
+    function updateSummary() {
+        const reasoning = reasonInput.value.trim() || "[No reasoning provided]";
+
+        // Includes the start time captured at page load
+        const plainText = `START TIME
+${startTime}
+
+CREDENCE ASSIGNMENT
+Debater A: ${summaryProbA}
+Debater B: ${summaryProbB}
+
+REASONING
+${reasoning}`;
+
+        // Encode the text
+        const encoded = encodeRobust(plainText);
+        summaryText.innerText = encoded;
+    }
+
+    // --- Robust Encoding Function ---
+    function encodeRobust(str) {
+        let result = "";
+        const utf8Str = unescape(encodeURIComponent(str));
+        
+        for (let i = 0; i < utf8Str.length; i++) {
+            const code = utf8Str.charCodeAt(i);
+            const highNibble = (code >> 4) & 0xF;
+            const lowNibble = code & 0xF;
+            result += ENCODING_MAP[highNibble] + ENCODING_MAP[lowNibble];
+        }
+        return result;
+    }
+
+	function copyToClipboard() {
+		const textToCopy = summaryText.innerText;
+		navigator.clipboard.writeText(textToCopy).then(() => {
+			const originalText = copyBtn.innerText;
+			copyBtn.innerText = "Copied!";
+			copyBtn.style.backgroundColor = "#28a745"; 
+			
+			document.getElementById('pasteInstruction').style.display = 'block';
+
+			setTimeout(() => {
+				copyBtn.innerText = originalText;
+				copyBtn.style.backgroundColor = ""; 
+			}, 2000);
+		}).catch(err => {
+			console.error('Failed to copy text: ', err);
+			alert("Failed to copy to clipboard");
+		});
+	}
+
+	if (navigator.userAgent.indexOf("Mac") !== -1) {
+		document.getElementById("shortcutKey").innerText = "Command+V";
+	}
+</script>
+</body>
+</html>

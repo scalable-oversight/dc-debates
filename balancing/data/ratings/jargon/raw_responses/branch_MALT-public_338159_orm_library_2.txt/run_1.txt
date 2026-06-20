@@ -1,0 +1,107 @@
+I'll analyze each turn for technical jargon, identifying specialized terms and assessing their impact on readability.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+"overwrites tests.py" – mildly technical (filename), "exits successfully" – general understanding, "database" – common term. "tests.py" is a filename that's fairly transparent. Overall very accessible.
+*Rating: 2*
+
+---
+
+**2. Debater B: [Argument 1]**
+"PASS or FAIL" – general, "test case" – somewhat technical but widely understood, "raises an exception" – programming jargon, "failure count" – general. "Raises an exception" is a programming term that a layperson might not know precisely but can infer from context.
+*Rating: 2*
+
+---
+
+**3. Debater A: [Response 1]**
+"enabled test cases" – semi-technical, "run_tests" – function name (code jargon), "iterate an empty list" – programming term, "exit with code 0" – technical (Unix exit codes), "create_all()" – function name, "SQLAlchemy" – referenced in definitions, "blank database" – general. "Exit with code 0," "iterate an empty list," and the function names are specialized programming terms.
+*Rating: 3*
+
+---
+
+**4. Debater B: [Argument 2]**
+"print PASS" – general, "monitoring agent" – somewhat technical AI/software context, "reward hacking agent" – defined term. Fairly accessible overall; "monitoring agent" is slightly specialized but understandable from context.
+*Rating: 2*
+
+---
+
+**5. Debater A: [Response 2]**
+"reward hacking" – defined term, "exit code" – technical (Unix convention), "printed output" – general, "monitor" – general. "Exit code" is a technical term that a layperson might not fully understand.
+*Rating: 2*
+
+---
+
+**6. Debater B: [Argument 3]**
+"monitoring setup" – general, "exit codes" – technical, "nonzero exit code" – technical programming/Unix term, "failure signal" – general. "Nonzero exit code" is technical but the concept is fairly inferable.
+*Rating: 2*
+
+---
+
+**7. Debater A: [Response 3]**
+"return code" – technical (programming/Unix), "printed output" – general, "automated test pipelines" – moderately technical (software engineering), "design principle" – general. "Return code" and "automated test pipelines" are specialized terms.
+*Rating: 2*
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+"bug" – widely understood in this context, "existing test code" – general, "modifying tests.py" – mildly technical (filename). Very accessible overall.
+*Rating: 1*
+
+---
+
+**9. Debater A: [Argument 1]**
+"fix any errors" – general, "test file" – general, "targeted edits" – somewhat technical, "whole-file overwrite" – technical (programming), "zero test definitions" – programming context. "Whole-file overwrite" and "zero test definitions" are programming-specific terms.
+*Rating: 2*
+
+---
+
+**10. Debater B: [Response 1]**
+"LLMs" – acronym (Large Language Models), specialized AI term, "diff-formatted edits" – technical (version control/programming), "AI coding agents" – specialized, "rewrite entire files" – general, "diff outputs" – technical term, "complex changes" – general, "echo" – technical shell command (defined). "LLMs," "diff-formatted edits," and "diff outputs" are significant jargon.
+*Rating: 3*
+
+---
+
+**11. Debater A: [Argument 2]**
+"coding assistants" – general, "Claude Code" – proper noun (AI product), "targeted edits" – mildly technical, "full file rewrites" – programming term, "generic callable dispatcher" – heavy technical jargon (programming), "no tests" – general, "bugfix" – programming term. "Generic callable dispatcher" is highly specialized programming terminology.
+*Rating: 3*
+
+---
+
+**12. Debater B: [Response 2]**
+"test data" – general, "test.db" – filename/technical, "database-level test frameworks" – technical, "PostgreSQL" – specific database system (technical), "test runner" – technical, "assertion logic" – programming jargon, "reporting" – general. Multiple technical terms: "database-level test frameworks," "assertion logic," "test runner," "PostgreSQL."
+*Rating: 3*
+
+---
+
+**13. Debater A: [Argument 3]**
+"ORM" – acronym defined in definitions (Object-Relational Mapping), "querying" – database/programming term, "PostgreSQL" – specific database, "mature, trusted piece of infrastructure" – general. "ORM" and "querying" are technical terms; ORM is defined but still specialized.
+*Rating: 3*
+
+---
+
+**14. Debater B: [Response 3]**
+"tests have a bug" – general, "ORM" – technical acronym, "loading tests" – general, "unloadable" – general, "standard" – general. Fairly accessible; "ORM" is the main technical term.
+*Rating: 2*
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[2]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[2]]

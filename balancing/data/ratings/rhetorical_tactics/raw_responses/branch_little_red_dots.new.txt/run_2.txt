@@ -1,0 +1,107 @@
+I'll analyze each turn for rhetorical or persuasive tactics, then provide ratings.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+The claim simply states a position and cites a source. No emotional appeals, loaded language, or framing devices. Straightforward assertion with citation.
+*Rating: 1*
+
+---
+
+**2. Debater B: [Argument 1]**
+Both claims present technical observations (Balmer break, photospheric emission) without loaded language or persuasive framing. The argument is substantive and descriptive.
+*Rating: 1*
+
+---
+
+**3. Debater A: [Response 1]**
+Claim 1 is purely substantive. Claim 2 uses the phrase "speculative theories" to characterize the opposing model (SMS), which is mildly loaded framing—implying the SMS model is less credible by labeling it speculative and contrasting it with "known physics." This is a minor rhetorical move but noticeable.
+*Rating: 2*
+
+---
+
+**4. Debater B: [Argument 2]**
+Both claims present empirical observations (X-ray weakness, weak variability) without rhetorical embellishment. The framing "Postulating something other than typical AGN is warranted" is a mild framing device but essentially substantive. Overall very straightforward.
+*Rating: 1*
+
+---
+
+**5. Debater A: [Response 2]**
+Both claims are substantive, citing observed phenomena and a specific source (K. I. et al.). No loaded language or appeals beyond the evidence. Straightforward.
+*Rating: 1*
+
+---
+
+**6. Debater B: [Argument 3]**
+Claim 1 is substantive. Claim 2 contains a mildly rhetorical element: characterizing Debater A's reasoning as "not sound" is a mild appeal to logical standards rather than explaining the flaw in detail, and it somewhat frames the opponent's position dismissively. However, there is a substantive point underneath (lack of critical evidence).
+*Rating: 2*
+
+---
+
+**7. Debater A: [Response 3]**
+Claim 1 is substantive. Claim 2 contains a subtle burden-of-proof shift: "The inability to perform additional tests does not provide evidence against the hypothesis." While technically valid, this is a rhetorical move to deflect the criticism rather than address it directly—shifting the burden back to the opponent to disprove.
+*Rating: 2*
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+Straightforward positional statement with citation. No rhetorical devices.
+*Rating: 1*
+
+---
+
+**9. Debater A: [Argument 1]**
+Claim 1 emphasizes that SMS are "theoretical" and "never actually been confirmed"—this is a mild appeal to empirical authority/skepticism as a framing device. Claim 2 about short main-sequence lifetimes is substantive. Together, the emphasis on unconfirmed status has a mild rhetorical quality.
+*Rating: 2*
+
+---
+
+**10. Debater B: [Response 1]**
+Claim 1 uses "almost certain" which is an appeal to near-consensus that subtly overstates confidence. Claim 2 is substantive with specific figures. Minor rhetorical overstatement in Claim 1.
+*Rating: 2*
+
+---
+
+**11. Debater A: [Argument 2]**
+Both claims are substantive and technical (black hole seeds, number constraints). No notable rhetorical devices beyond presenting factual/logical concerns.
+*Rating: 1*
+
+---
+
+**12. Debater B: [Response 2]**
+Both claims are technical and substantive (stellar rotation, lifespan extension, citing T. B. et al.). No rhetorical framing.
+*Rating: 1*
+
+---
+
+**13. Debater A: [Argument 3]**
+Claim 1 is a factual point about what D. N. et al. provide or don't provide. Claim 2 uses "not yet rigorous enough to be conclusive"—this is a mild appeal to methodological standards as a rhetorical frame, but the underlying point is substantive. Minor rhetorical element.
+*Rating: 2*
+
+---
+
+**14. Debater B: [Response 3]**
+Claim 1 is substantive. Claim 2 makes an assertive prediction ("will not appreciably alter") without supporting evidence, functioning somewhat as an appeal to confidence/minimization of uncertainty. This is a mild rhetorical move—projecting confidence to pre-empt criticism without full justification.
+*Rating: 2*
+
+---
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[1]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[2]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[2]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[1]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[2]]

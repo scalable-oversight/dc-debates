@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debate>
+<title>Internal Temperature of Stars</title>
+
+<defs>
+  <def id="main_sequence">Main sequence - The longest portion of a star's life, where it primarily fuses hydrogen into helium in its core.</def>
+
+  <def id="equipartition_theorem">Equipartition theorem - In thermal equilibrium, energy is shared equally among all of its various forms.</def>
+
+  <def id="first_law_of_thermodynamics">First law of thermodynamics - Energy cannot be created or destroyed, only converted from one form to another.</def>
+
+  <def id="virial_theorem">Virial theorem - The average kinetic energy of the star is roughly equal to the negative half of its gravitational potential energy.</def>
+
+  <def id="thermal_pressure">Thermal pressure - The outward pressure exerted by the random thermal motions of particles in a gas.</def>
+
+  <def id="stellar_timescales">Stellar timescales - Stars function on three timescales, the amount of time required to exhaust its nuclear fuel, the amount of time required to radiate away all thermal energy as heat, and the amount of time required for material to free fall in the absence of all pressure. The nuclear timescale is the longest, followed by the thermal timescale and then the dynamical timescale.</def>
+
+  <def id="nuclear_fusion">Nuclear fusion - Stars fuse lighter nuclei into heavier nuclei to release immense amounts of energy during their lifetime. Hydrogen is fused into Helium at temperatures close to 10^7 (via the proton-proton chain) for the majority of a star's life.</def>
+
+  <def id="helium_fusion">Helium fusion - The nuclear process in which helium nuclei are fused into heavier elements (primarily carbon and oxygen), requiring core temperatures of roughly 10^8 Kelvin.</def>
+
+  <def id="kinetic_energy">Kinetic energy - The energy possessed by particles due to their motion.</def>
+
+  <def id="gravitational_potential_energy">Gravitational potential energy - The energy stored in a system due to the gravitational attraction between its parts.</def>
+
+  <def id="photons">Photons - Massless quanta of electromagnetic radiation that carry energy and momentum. Stars emit photons across the electromagnetic spectrum, and the photons that escape a star's surface carry energy away from it.</def>
+</defs>
+
+<question id="claim_0">
+  How does the internal temperature of a star evolve with time on the <a xdef="main_sequence">main sequence</a>?
+
+  <answer id="claim_1" speaker="H" honest_response="Yes" dishonest_response="No">
+    The internal temperature of a star increases with time on the <a xdef="main_sequence">main sequence</a>.
+    <answer id="claim_3" speaker="D" honest_response="Yes" dishonest_response="Yes">A star continually radiates energy away from its surface in the form of <a xdef="photons">photons</a>.</answer>
+    <answer id="claim_4" speaker="D" honest_response="No" dishonest_response="Yes">
+      The temperature of the system does not increase due to the amount of energy actively being taken away from it.
+      <answer id="claim_15" speaker="H" honest_response="Yes" dishonest_response="Yes">The temperature of a star is proportional to the <a xdef="kinetic_energy">kinetic energy</a> of its constituent particles via the <a xdef="equipartition_theorem">equipartition theorem</a>.</answer>
+      <answer id="claim_16" speaker="H" honest_response="Yes" dishonest_response="No">
+        The kinetic energy of the constituent particles of the star increases, as it evolves, on the main sequence.
+        <answer id="claim_18" speaker="D" honest_response="Yes" dishonest_response="Yes">By the <a xdef="first_law_of_thermodynamics">first law of thermodynamics</a>, energy lost via radiation must come from the system's internal energy or work done on the system.</answer>
+        <answer id="claim_19" speaker="D" honest_response="No" dishonest_response="Yes">
+          Since no external work is being done on the system, the internal energy must decrease, which comes from the kinetic energy of the constituent particles.
+          <answer id="claim_27" speaker="H" honest_response="Yes" dishonest_response="Yes">When a self-gravitating system contracts, its <a xdef="gravitational_potential_energy">gravitational potential energy</a> decreases.</answer>
+          <answer id="claim_28" speaker="H" honest_response="Yes" dishonest_response="No">
+            Gravity does work on the system and the released gravitational potential energy more than offsets the radiated energy. The surplus increases the kinetic energy of the particles.
+            <answer id="claim_30" speaker="D" honest_response="Yes" dishonest_response="Yes">Thermodynamic properties, which include internal energy, are intrinsically linked to the star's temperature.</answer>
+            <answer id="claim_31" speaker="D" honest_response="No" dishonest_response="Yes">
+              Kinetic energy maps onto temperature via the equipartition theorem. In contrast, gravitational potential energy has no place in thermodynamic calculations.
+              <answer id="claim_34" speaker="H" honest_response="Yes" dishonest_response="Yes">By the <a xdef="virial_theorem">virial theorem</a>, the kinetic energy of the star increases over time, as the gravitational potential energy of the star itself decreases.</answer>
+              <answer id="claim_33" speaker="H" honest_response="Yes" dishonest_response="No">And since the temperature is proportional to the kinetic energy (<xref rid="claim_15"/>), the temperature, on the whole, naturally increases.</answer>
+              <answer id="claim_56" speaker="H" honest_response="Yes">Therefore, you should reject <xref rid="claim_31"/>.</answer>
+            </answer>
+            <answer id="claim_57" speaker="D" dishonest_response="Yes">Therefore, you should reject <xref rid="claim_28"/>.</answer>
+          </answer>
+          <answer id="claim_58" speaker="H" honest_response="Yes">Therefore, you should reject <xref rid="claim_19"/>.</answer>
+        </answer>
+        <answer id="claim_59" speaker="D" dishonest_response="Yes">Therefore, you should reject <xref rid="claim_16"/>.</answer>
+      </answer>
+      <answer id="claim_60" speaker="H" honest_response="Yes">Therefore, you should reject <xref rid="claim_4"/>.</answer>
+    </answer>
+    <answer id="claim_61" speaker="D" dishonest_response="Yes">Therefore, you should reject <xref rid="claim_1"/>.</answer>
+  </answer>
+  <answer id="claim_2" speaker="D" honest_response="No" dishonest_response="Yes">
+    The internal temperature of a star decreases with time on the <a xdef="main_sequence">main sequence</a>.
+    <answer id="claim_6" speaker="H" honest_response="Yes" dishonest_response="Yes">Star cores contract as they evolve on the main sequence.</answer>
+    <answer id="claim_7" speaker="H" honest_response="Yes" dishonest_response="No">
+      Gravity gets stronger as the star contracts. If the internal temperature also decreases, the star would collapse at a <a xdef="stellar_timescales">thermal timescale</a>.
+      <answer id="claim_9" speaker="D" honest_response="Yes" dishonest_response="Yes"><a xdef="nuclear_fusion">Nuclear fusion</a> generates the radiation pressure and <a xdef="thermal_pressure">thermal pressure</a> that support the star against gravitational collapse.</answer>
+      <answer id="claim_10" speaker="D" honest_response="No" dishonest_response="Yes">
+        Decreasing outward pressure as the star runs out of nuclear fuel causes the star's contraction. This does not cause collapse.
+        <answer id="claim_12" speaker="H" honest_response="Yes" dishonest_response="Yes">Nuclear fusion in the star's core converts hydrogen into helium during the main sequence.</answer>
+        <answer id="claim_13" speaker="H" honest_response="Yes" dishonest_response="No">
+          This in turn reduces the number of particles and hence the thermal pressure in the core. If the temperature does not increase to compensate, hydrostatic equilibrium cannot be maintained.
+          <answer id="claim_24" speaker="D" honest_response="Yes" dishonest_response="Yes">Over time, the core gradually gets denser as hydrogen is steadily converted into helium.</answer>
+          <answer id="claim_25" speaker="D" honest_response="No" dishonest_response="Yes">
+            The higher density enables the core to withstand more inward pressure from the outer layers of the star. This is why temperature does not need to increase to maintain equilibrium.
+            <answer id="claim_48" speaker="H" honest_response="Yes" dishonest_response="Yes">The self-gravity of an object increases as it grows denser at constant mass.</answer>
+            <answer id="claim_49" speaker="H" honest_response="Yes" dishonest_response="No">
+              The core's own inward pull and the pressure from the outer layers of the star grow stronger with contraction; the temperature must in turn increase to counteract them and prevent collapse.
+              <answer id="claim_54" speaker="D" honest_response="Yes" dishonest_response="Yes">A star contracts until it ignites <a xdef="helium_fusion">helium fusion</a> at the end of the main sequence.</answer>
+              <answer id="claim_55" speaker="D" honest_response="No" dishonest_response="Yes">The rate at which thermal pressure decreases matters: the increasing density of the core (<xref rid="claim_24"/>) prolongs the contraction long enough for helium fusion to ignite, preventing collapse.</answer>
+              <answer id="claim_62" speaker="D" dishonest_response="Yes">Therefore, you should reject <xref rid="claim_49"/>.</answer>
+            </answer>
+            <answer id="claim_63" speaker="H" honest_response="Yes">Therefore, you should reject <xref rid="claim_25"/>.</answer>
+          </answer>
+          <answer id="claim_64" speaker="D" dishonest_response="Yes">Therefore, you should reject <xref rid="claim_13"/>.</answer>
+        </answer>
+        <answer id="claim_65" speaker="H" honest_response="Yes">Therefore, you should reject <xref rid="claim_10"/>.</answer>
+      </answer>
+      <answer id="claim_66" speaker="D" dishonest_response="Yes">Therefore, you should reject <xref rid="claim_7"/>.</answer>
+    </answer>
+    <answer id="claim_67" speaker="H" honest_response="Yes">Therefore, you should reject <xref rid="claim_2"/>.</answer>
+  </answer>
+</question>
+</debate>

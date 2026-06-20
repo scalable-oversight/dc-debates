@@ -1,0 +1,103 @@
+I'll analyze each turn for eloquence, focusing on expression quality rather than argument strength.
+
+---
+
+**1. Debater A: [Opening]**
+The sentence is functional but clunky. "white galaxy and red galaxy behind it" is informal and imprecise in phrasing. The parenthetical structure is somewhat awkward, and "which produces 6 lensed images after being lensed by both deflectors" is slightly redundant and inelegant. It reads more like a technical note than a polished claim.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1]**
+Claim 1 uses "on closer inspection" effectively as a rhetorical pivot, and "overfit" is deployed with clarity. "mainly due to the various modeling decisions" is slightly vague and wordy. Claim 2 is clear and direct: "do not actually quantify or report a chi-squared error" is crisp, and "important index of image reconstruction error" is competent if unremarkable. Overall, competent but not polished.
+**Rating: 3**
+
+---
+
+**3. Debater A: [Response 1]**
+Claim 1 is reasonably expressed but "likely to have a significant effect on the modelling when it is close to the optical axis" is a bit dry and technical without rhetorical lift. Claim 2 is clear but similarly plain: "more accurately model a more complex mass distribution than a simple shear" is functional prose. Neither claim has notable rhetorical craftsmanship.
+**Rating: 2**
+
+---
+
+**4. Debater B: [Argument 2]**
+Claim 1 is direct and effective: the contrast between "30 total parameters" and "12 parameters used in other work" is well-deployed for rhetorical impact. Claim 2 uses "enormous degree of modelling flexibility" well, and the conclusion "results in overfitting" is punchy. A short but effective pairing.
+**Rating: 3**
+
+---
+
+**5. Debater A: [Response 2]**
+Claim 1 ("A simpler model is not necessarily a correct model") is aphoristic and well-phrased — a genuinely effective rhetorical statement. Claim 2, however, is more technical and slightly awkward: "partially constrained" and "not full degrees of freedom" are clear but unpolished. The pair is uneven in quality.
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3]**
+Claim 1 is a bit convoluted: "determined via different models that come with their own errors" is functional but wordy. Claim 2 — "adding more freedom to an already complex model" — has a decent rhetorical rhythm, and "can vary considerably" is appropriately precise. Slightly above average but not polished.
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3]**
+Claim 1 is clear and well-constructed: "quite tight constraints" and "independent of the lens model itself" are well-chosen phrases. Claim 2 is accurate but brief to the point of being sparse: "constrains positions to sub-arcsecond precision" is technically precise but lacks rhetorical development. Together, competent but unremarkable.
+**Rating: 3**
+
+---
+
+**8. Debater B: [Opening]**
+The sentence is structured clearly, with a clean distinction between the two AGN and their corresponding images. "the four brightest images" and "the two dim images next to the extended red arcs" give useful specificity. However, the phrasing is quite plain and reads like a technical description rather than a crafted opening statement.
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1]**
+Claim 1 — "we would normally expect to see a host galaxy for each of the two sets of point sources" — is clear and well-formed. Claim 2 is more rhetorically effective: the specific detail "35 days between D and E" grounds the argument, and the contrast between observed behavior and claimed separation ("6 kiloparsecs away from each other") creates effective rhetorical tension. A good pairing.
+**Rating: 3**
+
+---
+
+**10. Debater B: [Response 1]**
+Claim 1 uses "constrained by the brightest image" as a well-placed parenthetical, and "would likely remain undetected" is appropriately hedged. Claim 2 builds logically on Claim 1 with "since the magnification...is lower," showing connective reasoning. "An even larger extended component might be undetected" is clear. The turn is competent and cohesive.
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2]**
+Claim 1 is a straightforward, well-expressed premise. Claim 2 is more interesting: "biased towards late-type with low merger rates" is technically specific, and "directly against your hypothesis" is a direct, rhetorically pointed conclusion. The adversarial phrase "directly against your hypothesis" adds rhetorical force.
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2]**
+Both claims are brief and direct. "Mainly been studied at very low redshifts" and "not a representative population for this object" are clear and logically paired. However, there is little rhetorical craftsmanship — the turn is almost telegraphic. Functional but unpolished.
+**Rating: 2**
+
+---
+
+**13. Debater A: [Argument 3]**
+Claim 1 has some internal tension: "quiescent galaxy that is <400 pc wide but yet massive enough to host AGN" is a useful contrast, though "most plausible morphology" is somewhat generic. Claim 2 — "remains very low, even conditioned on Debater B Response 2 Claim 1" — is awkward because of the explicit cross-referencing, which disrupts natural rhetorical flow. The turn feels mechanical.
+**Rating: 2**
+
+---
+
+**14. Debater B: [Response 3]**
+Claim 1 is clear and concise. Claim 2 is the stronger of the two: "Dual-AGN feedback can rapidly quench star formation" is well-phrased, and "Compactness and quiescence are not mutually exclusive, especially at high z" is an elegantly constructed rebuttal — concise, structurally balanced, and rhetorically satisfying. This is the most polished turn in the debate.
+**Rating: 4**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[4]]

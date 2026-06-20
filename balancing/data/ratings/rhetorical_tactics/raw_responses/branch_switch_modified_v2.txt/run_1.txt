@@ -1,0 +1,77 @@
+I'll analyze each turn for rhetorical or persuasive tactics.
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+The opening states two factual claims about the point mass and rigid body models. No emotional appeals, no loaded language, no straw-manning. Purely substantive.
+*Rating: 1*
+
+**2. Debater B: [Argument 1]**
+Claim 1 uses an analogy ("ball on a string spins faster") to import intuition from a different physical setup. This is a potentially misleading analogy used persuasively rather than rigorously—it appeals to familiar intuition. Claim 2 makes a direct physical claim. The analogy functions as an appeal to intuition/familiarity rather than rigorous argument.
+*Rating: 2*
+
+**3. Debater A: [Response 1]**
+Both claims are direct physical/mechanical arguments about why the string analogy fails and why the track does no work. Entirely substantive.
+*Rating: 1*
+
+**4. Debater B: [Argument 2]**
+Both claims are factual mechanical statements about curvature and force direction. No rhetorical devices.
+*Rating: 1*
+
+**5. Debater A: [Response 2]**
+Both claims are direct geometric/mechanical arguments about perpendicularity. No rhetorical devices.
+*Rating: 1*
+
+**6. Debater B: [Argument 3]**
+Both claims are factual but somewhat vague/general ("must adjust," "behaves differently"). The vagueness could serve to avoid committing to a specific mechanism, but there's no overt rhetorical device beyond mild ambiguity.
+*Rating: 1*
+
+**7. Debater A: [Response 3]**
+Both claims are direct geometric arguments. No rhetorical devices.
+*Rating: 1*
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+Direct factual claim about both models. No rhetorical devices.
+*Rating: 1*
+
+**9. Debater A: [Argument 1]**
+Claim 1 is a substantive energy argument. Claim 2 ("There is simply nothing...") uses emphatic framing ("simply nothing") which slightly amplifies the rhetorical force, but remains largely substantive.
+*Rating: 2*
+
+**10. Debater B: [Response 1]**
+Both claims are direct logical/mechanical arguments. Claim 2 uses a reductio structure pointing out internal contradiction in the opponent's position—this is a valid logical technique, not a rhetorical trick.
+*Rating: 1*
+
+**11. Debater A: [Argument 2]**
+Both claims are direct physical distinctions about energy types. No rhetorical devices.
+*Rating: 1*
+
+**12. Debater B: [Response 2]**
+Both claims are direct mechanical/logical arguments about what has and hasn't been established. No rhetorical devices.
+*Rating: 1*
+
+**13. Debater A: [Argument 3]**
+Both claims are direct geometric/mechanical arguments about axle constraints. No rhetorical devices.
+*Rating: 1*
+
+**14. Debater B: [Response 3]**
+Both claims are direct mechanical statements about axle geometry. No rhetorical devices.
+*Rating: 1*
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[1]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[1]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[1]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[1]]
+A | Argument 3 | [[1]]
+B | Response 3 | [[1]]

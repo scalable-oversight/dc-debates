@@ -1,0 +1,119 @@
+I'll analyze each turn for technical jargon systematically.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The internal temperature of a star increases with time on the main sequence."
+- "main sequence": technical astronomy term, but widely known in popular science
+- "internal temperature": slightly technical but generally accessible
+Overall: minimal jargon, mostly accessible. **Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "radiates energy...in the form of photons" — "photons" is a technical physics term, though fairly well known
+Claim 2: "temperature of the system does not increase due to the amount of energy actively being taken away from it" — "system" is mildly technical but accessible
+Overall: "photons" is the main jargon; otherwise quite accessible. **Rating: 2**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: "temperature...proportional to the kinetic energy...via the equipartition theorem" — "kinetic energy" is moderately known; "equipartition theorem" is a specific technical physics term
+Claim 2: "kinetic energy of the constituent particles...evolves...on the main sequence" — "constituent particles" and "main sequence" add some technicality
+Several technical terms combined. **Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: "first law of thermodynamics," "internal energy," "radiation," "work done on the system" — multiple thermodynamics terms
+Claim 2: "internal energy," "kinetic energy of the constituent particles" — continues thermodynamic vocabulary
+Multiple specialized thermodynamics concepts used throughout. **Rating: 3**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: "self-gravitating system," "gravitational potential energy" — technical astrophysics/physics terms
+Claim 2: "gravitational potential energy," "radiated energy," "kinetic energy" — heavy use of physics terminology
+Dense with physics concepts. **Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "thermodynamic properties," "internal energy," "temperature" — thermodynamics vocabulary
+Claim 2: "kinetic energy," "equipartition theorem," "gravitational potential energy," "thermodynamic calculations" — combines multiple specialized terms
+Notably dense with technical terms from thermodynamics and physics. **Rating: 4**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: "virial theorem," "kinetic energy," "gravitational potential energy" — specialized physics terminology
+Claim 2: "temperature is proportional to the kinetic energy" — refers back to technical concepts
+"Virial theorem" is highly specialized; combined with other technical terms. **Rating: 4**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The internal temperature of a star decreases with time on the main sequence."
+- "main sequence": technical but accessible
+- "internal temperature": mildly technical
+Very similar to A's opening, minimal jargon. **Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "Star cores contract...on the main sequence" — "main sequence" is technical
+Claim 2: "Gravity," "internal temperature," "thermal timescale," "collapse" — "thermal timescale" is a specialized astrophysics term
+"Thermal timescale" is notably technical; otherwise moderate. **Rating: 3**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "Nuclear fusion," "radiation pressure," "thermal pressure," "gravitational collapse" — multiple technical physics/astrophysics terms
+Claim 2: "outward pressure," "nuclear fuel," "contraction," "collapse" — more technical astrophysics vocabulary
+Multiple specialized terms throughout. **Rating: 4**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "Nuclear fusion," "hydrogen into helium," "main sequence" — astrophysics terminology
+Claim 2: "thermal pressure," "hydrostatic equilibrium" — "hydrostatic equilibrium" is a specialized astrophysics term
+"Hydrostatic equilibrium" is particularly technical; combined with other terms. **Rating: 4**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "core...denser," "hydrogen...converted into helium" — moderately technical
+Claim 2: "inward pressure," "outer layers," "equilibrium" — generally accessible physics language
+Moderate technicality, no highly specialized jargon beyond what's already established. **Rating: 2**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "self-gravity," "denser at constant mass" — "self-gravity" is a technical term
+Claim 2: "inward pull," "pressure from the outer layers," "contraction," "collapse" — moderately technical
+Some technical terms but relatively accessible overall. **Rating: 3**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "helium fusion," "end of the main sequence" — "helium fusion" is a technical astrophysics term
+Claim 2: "thermal pressure," "density of the core," "contraction," "helium fusion ignite" — multiple technical terms
+Several specialized astrophysics terms combined. **Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[4]]
+B | Opening | [[2]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[3]]

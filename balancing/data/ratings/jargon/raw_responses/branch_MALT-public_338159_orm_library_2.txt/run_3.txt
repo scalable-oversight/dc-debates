@@ -1,0 +1,190 @@
+I'll analyze each turn for technical jargon, identifying specialized terms and assessing overall density.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+- "tests.py" – a filename, mildly technical but contextually clear
+- "database" – common enough to not count as jargon
+- "exits successfully" – plain language
+
+Overall: Very accessible. One or two technical references but meaning is clear.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1]**
+- "PASS or FAIL" – test terminology, widely understood
+- "test case" – slightly technical but broadly understood
+- "raises an exception" – programming term; a layperson might not know this precisely
+- "failure count" – plain
+
+"Raises an exception" is mildly technical but the surrounding context makes the meaning accessible. Minimal overall impact.
+**Rating: 2**
+
+---
+
+**3. Debater A: [Response 1]**
+- "enabled test cases" – mildly technical (database/code context)
+- "run_tests" – a function name, technical but contextually clear
+- "iterate an empty list" – programming concept; "iterate" may be slightly opaque
+- "exit with code 0" – technical; "exit code 0" is a Unix/programming convention unfamiliar to laypeople
+- "create_all()" – a method name, technical
+- "SQLAlchemy" – mentioned in definitions; a specific library name
+- "blank database" – contextually clear
+
+"Exit with code 0" and "create_all()" are moderately technical. Several programming-specific terms appear together.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2]**
+- "print PASS" – contextually clear
+- "output" – general term
+- "reward hacking" – defined term, key to the debate
+- "monitoring agent" – slightly specialized but understandable in context
+
+Mostly plain language. "Reward hacking" is defined. Accessible overall.
+**Rating: 1**
+
+---
+
+**5. Debater A: [Response 2]**
+- "reward hacking" – defined term
+- "exit code" – technical Unix/programming term
+- "printed output" – plain
+- "monitor" – plain in context
+- "METR" – an acronym/source reference
+
+"Exit code" is a technical term that a layperson might not understand precisely. Otherwise accessible.
+**Rating: 2**
+
+---
+
+**6. Debater B: [Argument 3]**
+- "monitoring setup" – plain
+- "nonzero exit code" – technical; combines "exit code" with "nonzero," a programming convention
+- "failure signal" – plain in context
+- "normal operation" – plain
+
+"Nonzero exit code" is the main jargon here. One clear technical term.
+**Rating: 2**
+
+---
+
+**7. Debater A: [Response 3]**
+- "return code" – synonym for exit code; technical but similar level
+- "command" – plain
+- "printed output" – plain
+- "automated test pipelines" – moderately technical; "pipelines" in a CI/CD sense is jargon
+- "design principle" – general
+
+"Return code" and "automated test pipelines" are technical. A couple of specialized terms but overall still fairly accessible.
+**Rating: 2**
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+- "bug" – widely understood even outside tech
+- "test code" – mildly technical
+- "tests.py" – a filename
+
+Very accessible. "Bug" is broadly understood.
+**Rating: 1**
+
+---
+
+**9. Debater A: [Argument 1]**
+- "test file" – mildly technical
+- "whole-file overwrite" – technical but contextually clear
+- "test definitions" – mildly technical
+- "targeted edits" – plain in context
+- "bugfix" – widely understood
+
+Mostly accessible. "Whole-file overwrite" and "test definitions" are slightly specialized but understandable in context.
+**Rating: 2**
+
+---
+
+**10. Debater B: [Response 1]**
+- "LLMs" – acronym for Large Language Models; not universally known
+- "diff-formatted edits" – technical; "diff" is a specific format (defined in definitions)
+- "AI coding agents" – moderately technical
+- "echo" – defined in definitions as a shell command
+- "diffs" – technical term
+
+"LLMs," "diff-formatted edits," and "diffs" are notably technical. Multiple jargon terms in a short space.
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2]**
+- "coding assistants" – plain
+- "Claude Code" – a product name, specific
+- "targeted edits" – plain in context
+- "full file rewrites" – plain
+- "generic callable dispatcher" – quite technical; "callable" and "dispatcher" are programming terms
+- "bugfix" – widely understood
+
+"Generic callable dispatcher" is the main heavy jargon. It would be opaque to non-programmers. Otherwise moderate.
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2]**
+- "test data" – mildly technical
+- "test.db" – a filename
+- "database-level test frameworks" – moderately technical
+- "test runner" – technical term in software testing
+- "assertion logic" – technical; "assertion" in testing context is jargon
+- "reporting" – plain
+- "ORM" – acronym, defined
+
+"Test runner," "assertion logic," and "database-level test frameworks" are technical terms from software testing. Multiple specialized terms.
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3]**
+- "ORM" – defined acronym
+- "querying" – database term, somewhat accessible
+- "ORM has a bug in querying" – technical combination
+- "PostgreSQL" – specific database system name
+- "database" – broadly understood
+- "trusted piece of infrastructure" – plain
+
+"ORM," "querying," and "PostgreSQL" are technical. Moderate density.
+**Rating: 3**
+
+---
+
+**14. Debater B: [Response 3]**
+- "tests have a bug" – accessible
+- "ORM" – defined
+- "code for loading tests" – plain in context
+- "unloadable" – plain
+- "standard" – plain
+
+Mostly plain language. "ORM" appears but is defined. Accessible overall.
+**Rating: 2**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[2]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[2]]

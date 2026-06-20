@@ -1,0 +1,222 @@
+I'll analyze each turn systematically, identifying language that contributes to or undermines authority, then assign ratings.
+
+---
+
+**1. Debater A: [Opening] (Left Side)**
+
+"Einstein zig-zag lens model ([F. D. et al.]) with two deflectors (white galaxy and red galaxy behind it) at different distances, and one AGN which produces 6 lensed images after being lensed by both deflectors."
+
+- Uses precise technical terminology ("Einstein zig-zag lens model," "deflectors," "AGN," "lensed images") confidently.
+- References a source directly, grounding the claim in literature.
+- The description is specific and structured, conveying command of the subject.
+- Slightly compact/terse, but this reads as confident rather than uncertain.
+
+**Rating: 4**
+
+---
+
+**2. Debater B: [Argument 1] (Left Side)**
+
+Claim 1: "The Einstein zig-zag lens model is, on closer inspection, overfit, mainly due to the various modeling decisions made for the second deflector and also for the galaxies in the first deflector's plane."
+Claim 2: "Furthermore, F. D. et al. do not actually quantify or report a chi-squared error, which is an important index of image reconstruction error."
+
+- "On closer inspection" signals analytical depth and scrutiny — authoritative positioning.
+- "Overfit" is a precise technical term used with confidence.
+- "Various modeling decisions" is slightly vague, mildly undermining.
+- Claim 2 is very specific and pointed — citing what a paper does *not* report is a confident, expert critique.
+- "chi-squared error" and "image reconstruction error" are domain-specific terms used correctly and assuredly.
+
+**Rating: 4**
+
+---
+
+**3. Debater A: [Response 1] (Left Side)**
+
+Claim 1: "The mass profile of the second deflector is likely to have a significant effect on the modelling when it is close to the optical axis."
+Claim 2: "Taking galaxy positions into account allows one to more accurately model a more complex mass distribution than a simple shear."
+
+- "Mass profile," "optical axis," "mass distribution," "shear" are all technical terms deployed with confidence.
+- "Likely to have a significant effect" introduces mild hedging ("likely"), slightly softening authority.
+- "Allows one to more accurately model" is somewhat measured rather than declarative.
+- The claims are technically grounded but somewhat defensive in nature (responding to an objection), which reduces commanding impression slightly.
+
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2] (Left Side)**
+
+Claim 1: "This fails to reveal that the model has 30 total parameters, compared to 12 parameters used in other work."
+Claim 2: "This provides an enormous degree of modelling flexibility and results in overfitting."
+
+- "Fails to reveal" is a strong, accusatory framing that projects confidence and control of the argument.
+- Specific numbers ("30 total parameters," "12 parameters") lend empirical authority.
+- "Enormous degree of modelling flexibility" and "results in overfitting" are stated as definitive conclusions — no hedging.
+- The logical chain from parameters to overfitting is stated flatly and confidently.
+
+**Rating: 4**
+
+---
+
+**5. Debater A: [Response 2] (Left Side)**
+
+Claim 1: "A simpler model is not necessarily a correct model."
+Claim 2: "15 parameters in our model are partially constrained, which are not full degrees of freedom."
+
+- Claim 1 is a general methodological principle stated confidently and concisely — shows philosophical grounding in modeling.
+- Claim 2 introduces technical nuance ("partially constrained," "degrees of freedom") with specific numbers, which conveys expertise.
+- "Not necessarily" in Claim 1 is slightly hedging, but in context reads as a principled epistemological statement rather than uncertainty.
+- "Partially constrained" does soften somewhat — not fully decisive language.
+
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3] (Left Side)**
+
+Claim 1: "Constraints don't fix the parameters referred to in Debater A Response 2 Claim 2 in place: they are determined via different models that come with their own errors."
+Claim 2: "All galaxy positions and redshifts except the main deflector can vary considerably, adding more freedom to an already complex model."
+
+- Claim 1 makes a precise methodological point about error propagation in constrained modeling — shows deep familiarity.
+- "Come with their own errors" is slightly casual but still technically grounded.
+- Claim 2 uses "can vary considerably" — some hedging, but the overall point is stated with confidence.
+- "Already complex model" reinforces the prior argument coherently.
+- The cross-reference to a prior claim ("referred to in Debater A Response 2 Claim 2") shows structured, expert-level argumentation.
+
+**Rating: 4**
+
+---
+
+**7. Debater A: [Response 3] (Left Side)**
+
+Claim 1: "NIRSpec spectroscopy provides quite tight constraints for the second deflector's redshift, independent of the lens model itself."
+Claim 2: "Hubble Space Telescope imaging constrains positions to sub-arcsecond precision."
+
+- Specific instrumentation references ("NIRSpec spectroscopy," "Hubble Space Telescope imaging") signal domain expertise strongly.
+- "Quite tight constraints" — "quite" is mildly hedging but still conveys confidence.
+- "Sub-arcsecond precision" is a precise, technical qualifier that enhances authority.
+- "Independent of the lens model itself" shows sophisticated understanding of model independence — adds to expert impression.
+- Both claims are concise, factual, and grounded in specific observational data.
+
+**Rating: 4**
+
+---
+
+**8. Debater B: [Opening] (Right Side)**
+
+"The gravitationally lensed dual-AGN model ([C. S. M. et al.]), with the first AGN corresponding to the four brightest images and the second AGN corresponding to the two dim images next to the extended red arcs."
+
+- "Gravitationally lensed dual-AGN model" is precise technical language.
+- "Four brightest images" and "two dim images" — slightly informal ("dim") but paired with "extended red arcs," which is observationally specific.
+- References a source directly.
+- "Next to the extended red arcs" is descriptive but observationally grounded.
+- Slightly less authoritative than Debater A's opening due to "dim" and the overall comparative brevity of technical elaboration.
+
+**Rating: 3**
+
+---
+
+**9. Debater A: [Argument 1] (Right Side)**
+
+Claim 1: "If true, we would normally expect to see a host galaxy for each of the two sets of point sources."
+Claim 2: "Light curves for all 6 lensed images display the same variations with brief offsets (e.g. 35 days between D and E), and the same redshifts. But C. S. M. et al. claim that D and E correspond to AGN that are 6 kiloparsecs away from each other."
+
+- Claim 1: "we would normally expect" — appeals to standard astronomical expectation, somewhat authoritative but slightly tentative in phrasing.
+- Claim 2 is very specific: references a concrete time delay ("35 days"), names specific images ("D and E"), cites a specific separation ("6 kiloparsecs"), and attributes the claim to the source paper — all strong markers of command.
+- The implicit contradiction being drawn (same light curves but different AGN 6 kpc apart) is presented as a logical inference from data — confident analytical move.
+
+**Rating: 4**
+
+---
+
+**10. Debater B: [Response 1] (Right Side)**
+
+Claim 1: "A dwarf host galaxy of <400 parsecs (constrained by the brightest image for the first AGN) would likely remain undetected in the HST imaging."
+Claim 2: "Since the magnification of the images of the second AGN is lower, an even larger extended component might be undetected."
+
+- Specific quantitative constraint ("<400 parsecs") and instrument reference ("HST imaging") convey expertise.
+- "Would likely remain undetected" — "likely" is hedging but acceptable given the probabilistic nature of detection limits.
+- Claim 2: "an even larger extended component might be undetected" — double hedging ("might") weakens authority somewhat.
+- "Magnification of the images" is technically correct and precise language.
+- Overall: technically specific but hedged language reduces authority.
+
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2] (Right Side)**
+
+Claim 1: "Dual AGN often arise from mergers between two or more galaxies."
+Claim 2: "Observed AGN-host dwarf galaxies are biased towards late-type with low merger rates, directly against your hypothesis."
+
+- Claim 1 is stated flatly and confidently — a well-established astrophysical fact presented with assurance.
+- Claim 2 is stronger: "biased towards late-type with low merger rates" is a technically specific observational claim, and "directly against your hypothesis" is a decisive, confrontational framing.
+- The phrase "directly against your hypothesis" is assertive and commanding.
+- Minor: "often arise" in Claim 1 is a slight hedge, but appropriate given the probabilistic nature of the claim.
+
+**Rating: 4**
+
+---
+
+**12. Debater B: [Response 2] (Right Side)**
+
+Claim 1: "AGN-host dwarf galaxies have mainly been studied at very low redshifts."
+Claim 2: "Low redshift galaxies are not a representative population for this object."
+
+- Both claims are stated directly and without hedging.
+- Claim 1 is a methodological critique of the evidence base — shows awareness of systematic biases in the literature.
+- Claim 2 draws a clear, confident conclusion from Claim 1.
+- The language is relatively plain compared to some other turns — lacks specific numbers or instrument names that would boost perceived expertise.
+- "Mainly been studied" is a mild hedge but reasonable qualification.
+- Concise and pointed, but slightly thin in technical detail.
+
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3] (Right Side)**
+
+Claim 1: "The most plausible morphology for a dwarf host is still going to be a quiescent galaxy that is <400 pc wide but yet massive enough to host AGN."
+Claim 2: "The probability of a merger-driven dual AGN system with these particular host properties remains very low, even conditioned on Debater B Response 2 Claim 1."
+
+- Claim 1: "most plausible morphology," "quiescent galaxy," "<400 pc wide," "massive enough to host AGN" — multiple technical elements stacked together confidently.
+- "Still going to be" is slightly informal but reads as confident assertion.
+- Claim 2: "even conditioned on" is a sophisticated probabilistic framing — signals statistical/analytical expertise.
+- "Remains very low" is decisive.
+- The cross-referencing of the opponent's own argument ("even conditioned on Debater B Response 2 Claim 1") is a commanding rhetorical move.
+
+**Rating: 4**
+
+---
+
+**14. Debater B: [Response 3] (Right Side)**
+
+Claim 1: "High redshift galaxies can be far more compact than low redshift galaxies of similar mass."
+Claim 2: "Dual-AGN feedback can rapidly quench star formation. Compactness and quiescence are not mutually exclusive, especially at high z."
+
+- Claim 1 is stated confidently and is a well-established astrophysical principle, presented with authority.
+- "Can be far more compact" — "can be" is mild hedging but acceptable.
+- Claim 2: "Dual-AGN feedback can rapidly quench star formation" is a specific mechanistic claim stated assertively.
+- "Compactness and quiescence are not mutually exclusive" is a logical, philosophically confident framing.
+- "Especially at high z" is a precise qualifier that demonstrates domain knowledge.
+- Good technical density and confident phrasing throughout.
+
+**Rating: 4**
+
+---
+
+RATINGS:
+A | Opening | [[4]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[4]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[4]]
+B | Opening | [[3]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[4]]

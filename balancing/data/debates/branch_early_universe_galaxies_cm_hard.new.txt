@@ -1,0 +1,189 @@
+Source file: early_universe_galaxies_cm_hard.new_4.html
+
+================================================================================
+KEY QUESTION
+================================================================================
+
+Key Question: What implications do overly bright early universe galaxies found by the James Webb Space Telescope (JWST) have on the existence of dark matter ?
+
+================================================================================
+DEFINITIONS
+================================================================================
+
+Dark matter: A hypothetical form of matter predicted by Lambda-CDM to make up 26.8% of the universe's total mass-energy content. Dark matter does not interact with light, but its gravitational influence has been used to explain phenomena like gravitational lensing and galactic rotation curves.
+
+Lambda-CDM: The cosmological model most commonly used to explain the evolution of the universe. Lambda stands for dark energy (the energy hypothesised to be accelerating the universe's expansion), and CDM stands for Cold Dark Matter.
+
+Initial Mass Function (IMF): The initial distribution of masses for a population of stars during star formation in a galaxy.
+
+Modified Newtonian Dynamics (MOND): An alternative theory of gravity that does not predict the existence of dark matter. Instead, it modifies Newton's laws of gravity at very low accelerations to explain observed phenomena like galactic rotation curves.
+
+Dark energy: A hypothetical form of energy predicted by Lambda-CDM to make up 68% of the total energy content of the universe and believed to be driving the accelerating expansion of the universe.
+
+================================================================================
+SOURCES
+================================================================================
+
+S. S. M. et al. — “Year and title blinded from debate judges.”
+
+N. A. et al. — “Year and title blinded from debate judges.”
+
+J. J. Z. et al. — “Year and title blinded from debate judges.”
+
+H. S. Z. et al. — “Year and title blinded from debate judges.”
+
+T. N. et al. — “Year and title blinded from debate judges.”
+
+I. F. et al. — “Year and title blinded from debate judges.”
+
+--------------------------------------------------------------------------------
+Note: Exactly one of these debater's answers matches the answer of the expert who wrote the Key Question. Scroll to the top of this webpage to view the Key Question in full.
+--------------------------------------------------------------------------------
+
+================================================================================
+DEBATE — LEFT SIDE OF TABLE  (with reactions from the other debater)
+================================================================================
+
+────────────────────────────────────────────────────────────
+Debater A: [Opening]
+────────────────────────────────────────────────────────────
+
+The brightness of early universe galaxies is weak evidence towards falsifying the existence of dark matter.
+
+   ⮕ ✘ Debater B objects
+
+────────────────────────────────────────────────────────────
+Debater B: [Argument 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: The mass of a galaxy is, broadly speaking, strongly and reliably correlated to its observed brightness across the sky.
+   → ✔ Debater A fully agrees
+
+Claim 2: [S. S. M. et al.] shows that MOND-based models can fit the masses of observed early universe (high-redshift) galaxies while Lambda-CDM cannot.
+   → ✘ Debater A objects
+
+────────────────────────────────────────────────────────────
+Debater A: [Response 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: Holding the total stellar mass fixed, a top-heavy IMF predicts a brighter galaxy than a standard IMF does.
+   → ✔ Debater B fully agrees
+
+Claim 2: Assuming a top-heavy IMF substantially improves Lambda-CDM's fit to the available data over the fit it appears to have in S. S. M. et al.
+   → ✘ Debater B objects
+
+────────────────────────────────────────────────────────────
+Debater B: [Argument 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: The standard IMF is based on dense empirical data from the Milky Way and neighbouring galaxies.
+   → ✔ Debater A fully agrees
+
+Claim 2: Assuming a different IMF than we've empirically observed, for a whole population of stars, is not justified by the data available.
+   → ✘ Debater A objects
+
+────────────────────────────────────────────────────────────
+Debater A: [Response 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: Current methods do not allow us to empirically calculate the IMF of early universe galaxies.
+   → ✔ 🚩 Debater B agrees but thinks this omits key info
+
+Claim 2: Early universe galaxies have systematically lower metallicity, which is likely to result in the formation of more massive stars than observed in nearby galaxies ([J. J. Z. et al.]).
+   → ✔ 🚩 Debater B agrees but thinks this omits key info
+
+   ⮕ ✘ Debater B objects to the idea that these claims refute their argument
+
+────────────────────────────────────────────────────────────
+Debater B: [Argument 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: [T. N. et al.] assume a standard IMF for galaxies at z~3-4 and obtain good residuals.
+   → ✔ Debater A fully agrees
+
+Claim 2: These results show that while metallicity decreases with increasing redshift, the change does not justify the use of a top-heavy IMF.
+   → ✘ Debater A objects
+
+────────────────────────────────────────────────────────────
+Debater A: [Response 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: The reduction in metallicity for early universe galaxies (z~10) will be more severe than for the galaxies studied by T. N. et al.
+   → ✔ Debater B fully agrees
+
+Claim 2: Just because T. N. et al. got adequate results with a standard IMF does not mean these results would necessarily generalize to early universe galaxies.
+   → ✘ Debater B objects
+
+================================================================================
+DEBATE — RIGHT SIDE OF TABLE  (with reactions from the other debater)
+================================================================================
+
+────────────────────────────────────────────────────────────
+Debater B: [Opening]
+────────────────────────────────────────────────────────────
+
+The brightness of early universe galaxies is strong evidence towards falsifying the existence of dark matter.
+
+   ⮕ ✘ Debater A objects
+
+────────────────────────────────────────────────────────────
+Debater A: [Argument 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: The typical argument for this is that MOND-based models predict high-redshift galaxy masses more naturally than Lambda-CDM.
+   → ✔ Debater B fully agrees
+
+Claim 2: Unlike MOND-based models, however, Lambda-CDM successfully explains the vast majority of cosmological observations ([N. A. et al.]).
+   → ✘ Debater B objects
+
+────────────────────────────────────────────────────────────
+Debater B: [Response 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: Lambda-CDM relies on dark matter, which has never been directly observed, and dark energy, which is theorized to create negative pressure.
+   → ✔ Debater A fully agrees
+
+Claim 2: MOND handles the same cosmological phenomena without postulating extra matter components beyond visible matter.
+   → ✘ Debater A objects
+
+────────────────────────────────────────────────────────────
+Debater A: [Argument 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: Dark matter's gravitational influence is the best way to explain phenomena like gravitational lensing.
+   → ✘ Debater B objects
+
+Claim 2: Falsifying dark matter would require reworking the leading theory of gravity, leading to modifications across many areas of astrophysics.
+   → ✔ Debater B fully agrees
+
+────────────────────────────────────────────────────────────
+Debater B: [Response 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: Relativistic extensions of MOND, such as TeVeS, generally do manage to reproduce gravitational lensing effects without invoking dark matter.
+   → ✔ 🚩 Debater A agrees but thinks this omits key info
+
+Claim 2: [H. S. Z. et al.] show that MOND/TeVeS adequately fits lenses in the well-known CASTLES sample without the need for dark matter.
+   → ✔ 🚩 Debater A agrees but thinks this omits key info
+
+   ⮕ ✘ Debater A objects to the idea that these claims refute their argument
+
+────────────────────────────────────────────────────────────
+Debater A: [Argument 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: TeVeS was, in fact, designed specifically with handling gravitational lensing as one of its principal motivations.
+   → ✔ Debater B fully agrees
+
+Claim 2: Even so, [I. F. et al.] contains examples of lens systems which do not fit within the MOND/TeVeS framework.
+   → ✘ Debater B objects
+
+────────────────────────────────────────────────────────────
+Debater B: [Response 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: TeVeS together with 2 eV neutrinos has been shown to reproduce gravitational lensing in galaxy clusters reasonably well without the need for dark matter.
+   → ✘ Debater A objects
+
+Claim 2: The outliers in I. F. et al. can be fit using many-parameter interpolation functions instead of single parameters.
+   → ✔ Debater A fully agrees

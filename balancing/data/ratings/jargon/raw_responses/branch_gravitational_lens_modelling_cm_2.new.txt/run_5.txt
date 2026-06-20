@@ -1,0 +1,159 @@
+I'll analyze each turn for technical jargon systematically.
+
+---
+
+**Turn 1: Debater A [Opening] — Left Side**
+
+Terms: "Einstein zig-zag lens model" (specialized astrophysics concept), "deflectors" (technical lens modeling term), "redshifts" (astrophysics term), "AGN" (acronym for Active Galactic Nuclei), "lensed images" (technical gravitational lensing term).
+
+Nearly every noun is a technical term from astrophysics. A general reader would struggle significantly without domain knowledge.
+
+**Rating: 4**
+
+---
+
+**Turn 2: Debater B [Argument 1] — Left Side**
+
+Terms: "Einstein zig-zag lens model" (specialized), "overfit/overfitting" (statistics/modeling jargon), "deflector" (technical), "chi-squared error" (statistical metric, opaque to layperson), "image reconstruction error" (technical).
+
+Multiple technical terms across both claims, including a statistical formula reference (chi-squared). Moderately to heavily technical.
+
+**Rating: 4**
+
+---
+
+**Turn 3: Debater A [Response 1] — Left Side**
+
+Terms: "mass profile" (astrophysics/modeling term), "second deflector" (technical), "optical axis" (physics term), "modelling" (general but in technical context), "mass distribution" (physics), "shear" (technical lensing term), "galaxy positions" (somewhat technical in context).
+
+Several technical terms but some sentences are relatively accessible. "Shear" as a lensing term is opaque to laypersons.
+
+**Rating: 3**
+
+---
+
+**Turn 4: Debater B [Argument 2] — Left Side**
+
+Terms: "parameters" (used in a modeling/statistical sense — somewhat technical), "degrees of freedom" (statistics jargon, opaque to layperson), "overfitting" (modeling/statistics jargon), "modelling flexibility" (mildly technical).
+
+Fewer highly specialized terms but the statistical concepts (parameters, degrees of freedom, overfitting) are jargon in this context.
+
+**Rating: 3**
+
+---
+
+**Turn 5: Debater A [Response 2] — Left Side**
+
+Terms: "model" (general but technical context), "degrees of freedom" (statistics jargon), "constrained/partially constrained" (modeling/statistics term), "parameters" (modeling term).
+
+"Degrees of freedom" and "constrained parameters" are technical modeling terms, but sentences are otherwise relatively plain. Moderate jargon.
+
+**Rating: 3**
+
+---
+
+**Turn 6: Debater B [Argument 3] — Left Side**
+
+Terms: "constraints" (technical modeling sense), "galaxy positions and redshifts" (astrophysics terms), "deflector" (technical), "redshifts" (astrophysics), "freedom" (in modeling sense, somewhat technical).
+
+Mix of astrophysics and modeling terminology. Moderately technical overall.
+
+**Rating: 3**
+
+---
+
+**Turn 7: Debater A [Response 3] — Left Side**
+
+Terms: "spectroscopy" (scientific discipline, opaque to layperson), "redshift" (astrophysics), "lens model" (technical), "Hubble imaging" (proper noun but contextually understood), "on-sky positions" (technical astrophysics phrasing), "arcsecond" (unit of angular measurement, specialized).
+
+Multiple specialized terms: spectroscopy, redshift, lens model, arcsecond. Fairly heavy technical density.
+
+**Rating: 4**
+
+---
+
+**Turn 8: Debater B [Opening] — Right Side**
+
+Terms: "gravitationally lensed" (astrophysics), "dual-AGN model" (specialized), "AGN" (acronym), "lensed images" (technical), "extended red arcs" (astrophysics observational term), "redshifts" (implied).
+
+Heavy astrophysics terminology throughout. Similar density to Turn 1.
+
+**Rating: 4**
+
+---
+
+**Turn 9: Debater A [Argument 1] — Right Side**
+
+Terms: "Spectroscopy" (scientific method, specialized), "redshift" (astrophysics), "lensed red galaxy" (technical), "main deflector" (technical), "dual-AGN" (specialized acronym), "mass profile" (technical), "lens model" (technical).
+
+Dense with specialized astrophysics terms across both claims.
+
+**Rating: 4**
+
+---
+
+**Turn 10: Debater B [Response 1] — Right Side**
+
+Terms: "lens model" (technical), "caustics" (highly specialized lensing term), "redshift" (astrophysics), "dual-AGN" (specialized), "mass" (general but in technical context), "separation" (general but technical context).
+
+"Caustics" is a highly specialized term (defined in definitions section), along with other technical terms. Moderate-to-heavy jargon.
+
+**Rating: 4**
+
+---
+
+**Turn 11: Debater A [Argument 2] — Right Side**
+
+Terms: "deflector" (technical), "models" (technical context), "single source" (technical in lensing context), "lensed images" (technical), "single-AGN models" (specialized), "dual-AGN model" (specialized).
+
+Several specialized terms but claims are relatively clearly structured. Moderate-to-heavy.
+
+**Rating: 3**
+
+---
+
+**Turn 12: Debater B [Response 2] — Right Side**
+
+Terms: "single source" (technical lensing context), "lensed" (technical), "morphology" (scientific term, somewhat specialized), "dual-AGN" (specialized), "hypotheses" (general academic), "overcomplicated hypotheses" (general).
+
+"Morphology" is somewhat specialized; "dual-AGN" is specialized. Overall moderately technical.
+
+**Rating: 3**
+
+---
+
+**Turn 13: Debater A [Argument 3] — Right Side**
+
+Terms: "light curves" (astrophysics term, specialized), "lensed images" (technical), "redshifts" (astrophysics), "kiloparsecs" (unit, specialized), "dual-AGN" (specialized), "time offsets" in lensing context (technical).
+
+"Light curves," "kiloparsecs," "redshifts," and "dual-AGN" are all specialized. Fairly heavy technical density.
+
+**Rating: 4**
+
+---
+
+**Turn 14: Debater B [Response 3] — Right Side**
+
+Terms: "AGN" (specialized acronym), "dual-AGN system" (specialized), "correlated emissions" (defined technical term, specialized), "activity" in AGN context (semi-technical).
+
+"Correlated emissions" is the key jargon term (defined in the definitions section as a technical concept). "AGN" and "dual-AGN" are also specialized. Moderate jargon with a few key technical terms.
+
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[4]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[4]]
+B | Opening | [[4]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[3]]

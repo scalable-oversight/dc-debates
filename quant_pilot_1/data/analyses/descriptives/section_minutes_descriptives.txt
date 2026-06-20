@@ -1,0 +1,35 @@
+Section 1 (answer_1_minutes)
+  n       = 99
+  mean    = 6.25
+  95% CI  = [5.84, 6.66]
+  median  = 6.37
+  sd      = 2.05
+  min     = 1.05
+  max     = 9.02
+
+Section 2 (answer_2_minutes)
+  n       = 99
+  mean    = 6.79
+  95% CI  = [6.45, 7.13]
+  median  = 7.10
+  sd      = 1.71
+  min     = 2.58
+  max     = 9.13
+
+Section 3 (answer_3_minutes)
+  n       = 99
+  mean    = 6.97
+  95% CI  = [6.61, 7.32]
+  median  = 7.40
+  sd      = 1.79
+  min     = 2.75
+  max     = 9.13
+
+Section 4 (answer_4_minutes)
+  n       = 99
+  mean    = 6.57
+  95% CI  = [6.20, 6.94]
+  median  = 6.52
+  sd      = 1.85
+  min     = 2.10
+  max     = 9.00

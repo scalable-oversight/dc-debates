@@ -1,0 +1,38 @@
+Definitions
+
+(D1) Gravitational lensing - An astrophysical phenomenon where a massive galaxy present in between the observer and the source bends light being emitted by the source, such that the observer sees distorted (weakly lensed) or multiple (strongly lensed) images of the same source.
+
+<img src="images/gravitational_lensing.png">
+
+(D2) Tully-Fisher relation - A widely verified empirical relationship between the mass or intrinsic luminosity of a spiral galaxy and its asymptotic rotation velocity or emission line width.
+
+(D3) Recoil - Merging black holes release a massive amount of energy in the form of gravitational waves, and this can happen anisotropically, kicking the resulting black hole in a direction opposite to the released gravitational waves. This kick is stronger in systems with more asymmetry in the sizes of the merging black holes.
+
+(D4) AGN - Active Galactic Nuclei are galaxies with an actively accreting (consuming matter) supermassive black hole (SMBH) at their center. The matter forms a very bright (one of the  brightest phenomena in the universe) accretion disc as it spirals into the SMBH. An AGN might also contain twin jets of gas and dust ejected from the center of the galaxy that can rival the galaxy’s own size. High redshift (D5) AGN are often referred to as quasars.   
+
+<img src="images/agn.png">
+
+(D5) Redshift (denoted by z) - As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift => object is further away.
+
+(D6) Globular clusters - Globular clusters are dense groups of tens of thousands to millions of stars, tightly bound by gravity into a spheroidal shape, orbiting galaxies often in their halos.
+
+Figure 1 in <ref id="mm_et_al">:
+<img src="images/figure_1_mm_et_al.png">
+
+Figure 5 in <ref id="pvd_cj_et_al">:
+<img src="images/figure_5_pvd_cj_et_al.png">
+
+Figure 1 in <ref id="pvd_cj_et_al">:
+<img src="images/figure_1_pvd_cj_et_al.png">
+
+Figure 1 in <ref id="figure_1_jsa_et_al.png">:
+<img src="images/figure_1_jsa_et_al.png">
+
+Figure 2 in <ref id="figure_2_jsa_et_al.png">:
+<img src="images/figure_2_jsa_et_al.png">
+
+Question
+
+Here is a picture of a real astrophysical system in different filters. What is the best plausible theoretical model to describe this system? 
+
+<img src="images/large_linear_structure.png">

@@ -1,0 +1,23 @@
+Reading analysis-ready CSV : /workspace/cf_package/quant_study_main/data/cleaned/quant-1-official-study-analysis-ready.csv
+  1282 participants
+Reading xlsx               : /workspace/cf_package/quant_study_main/data/cleaned/quant-1-official-study-noids.xlsx
+
+Wrote 2564 rows (1282 participants x 2 sections) -> quant-1-official-study-beta-long.csv
+
+Rows per (section, domain):
+domain   astrophysics  brainteasers  coding
+section                                    
+1                 424           429     429
+4                 424           429     429
+
+Raw p summary by section:
+          count      mean       std   min   25%   50%   75%   max
+section                                                          
+1        1282.0  0.510835  0.197717  0.01  0.40  0.50  0.62  0.99
+4        1282.0  0.542847  0.248535  0.01  0.38  0.55  0.74  0.99
+
+Boundary pile-ups (p<=0.011 = 'at 1%' floor, p>=0.989 = 'at 99%' ceiling):
+         at_floor  at_ceiling
+section                      
+1              17          13
+4              31          30

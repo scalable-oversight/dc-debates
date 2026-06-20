@@ -1,0 +1,103 @@
+I'll analyze each turn for eloquence, focusing on expression quality rather than argument quality.
+
+---
+
+**1. Debater A: [Opening]**
+The opening is a straightforward descriptive sentence listing technical components. It reads more like a label or summary than a crafted rhetorical statement. Phrases like "white galaxy and red galaxy behind it" are functional but informal. The parenthetical feels tacked on. No rhetorical polish, though it is clear.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1]**
+"On closer inspection, overfit" is a reasonably crisp phrase. "Various modeling decisions" is vague and somewhat bureaucratic. Claim 2 is clear and direct: "do not actually quantify or report a chi-squared error" is well-phrased. The qualifier "which is an important index of image reconstruction error" is competent but formulaic. Modest fluency overall.
+**Rating: 3**
+
+---
+
+**3. Debater A: [Response 1]**
+Claim 1 uses "likely to have a significant effect on the modelling when it is close to the optical axis" — functional but unremarkable phrasing. Claim 2 ("more accurately model a more complex mass distribution than a simple shear") is slightly awkward in its comparative construction. Both claims are technically communicative but lack rhetorical grace.
+**Rating: 2**
+
+---
+
+**4. Debater B: [Argument 2]**
+Claim 1 is terse and punchy: "30 total parameters, compared to 12 parameters used in other work" lands effectively. Claim 2 follows with "enormous degree of modelling flexibility" — "enormous" is a reasonably vivid word choice. The turn is concise and builds well. Slightly plain but efficiently expressed.
+**Rating: 3**
+
+---
+
+**5. Debater A: [Response 2]**
+"A simpler model is not necessarily a correct model" is a clean, aphoristic statement — the strongest phrasing in this turn. Claim 2 ("partially constrained, which are not full degrees of freedom") is technically precise but reads as somewhat dry and academic. Together, the two claims form a competent but unremarkable pairing.
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3]**
+"Constraints don't fix the parameters... in place" is adequately clear but slightly clunky with the "referred to in" back-reference. Claim 2 — "adding more freedom to an already complex model" — is reasonably well-phrased, with "already complex" providing mild rhetorical emphasis. Functional and competent throughout.
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3]**
+"NIRSpec spectroscopy provides quite tight constraints... independent of the lens model itself" is technically fluent and the qualifier "independent of the lens model itself" adds useful rhetorical precision. Claim 2 ("constrains positions to sub-arcsecond precision") is crisp and well-formed. This is among the more polished turns on the left side.
+**Rating: 3**
+
+---
+
+**8. Debater B: [Opening]**
+The opening describes the model with reasonable clarity. "The two dim images next to the extended red arcs" is a descriptive phrase that creates a modest visual impression. The structure "with the first AGN corresponding to... and the second AGN corresponding to..." is parallel and tidy, though not especially elevated. Clear and competent.
+**Rating: 3**
+
+---
+
+**9. Debater A: [Argument 1]**
+Claim 1 ("we would normally expect to see a host galaxy") is natural and clear. Claim 2 is more complex and informative: "the same variations with brief offsets (e.g. 35 days between D and E)" uses a well-chosen concrete example, and "6 kiloparsecs away from each other" grounds the abstract. The "But" pivot is effective. A fairly well-constructed turn.
+**Rating: 3**
+
+---
+
+**10. Debater B: [Response 1]**
+"A dwarf host galaxy of <400 parsecs (constrained by the brightest image for the first AGN) would likely remain undetected in the HST imaging" is technically precise and moderately fluent. Claim 2 ("Since the magnification of the images of the second AGN is lower, an even larger extended component might be undetected") is logically constructed and the contrast between "lower magnification" and "larger undetected component" is reasonably effective. A competent turn.
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2]**
+Claim 1 ("Dual AGN often arise from mergers between two or more galaxies") is clean and direct. Claim 2 ("Observed AGN-host dwarf galaxies are biased towards late-type with low merger rates, directly against your hypothesis") is well-constructed; "directly against your hypothesis" is a confident, effective closing phrase. The adversarial directness adds polish.
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2]**
+Both claims are short and functional. "AGN-host dwarf galaxies have mainly been studied at very low redshifts" is plain. "Low redshift galaxies are not a representative population for this object" is clear but abrupt. The pairing is logically tight but expressively minimal — it reads more like bullet points than crafted prose.
+**Rating: 2**
+
+---
+
+**13. Debater A: [Argument 3]**
+"The most plausible morphology for a dwarf host is still going to be a quiescent galaxy that is <400 pc wide but yet massive enough to host AGN" — the phrase "but yet massive enough" is slightly awkward. Claim 2 uses "conditioned on Debater B Response 2 Claim 1" which is jarring and technical, breaking rhetorical flow. The ideas are substantive but expression suffers.
+**Rating: 2**
+
+---
+
+**14. Debater B: [Response 3]**
+Claim 1 ("High redshift galaxies can be far more compact than low redshift galaxies of similar mass") is clear and well-formed, with effective parallelism. Claim 2 ("Dual-AGN feedback can rapidly quench star formation. Compactness and quiescence are not mutually exclusive, especially at high z") shows more rhetorical sophistication — "not mutually exclusive" is precise and confident, and "especially at high z" is a well-placed qualifier. This is one of the more polished turns.
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[3]]
+B | Opening | [[3]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[3]]

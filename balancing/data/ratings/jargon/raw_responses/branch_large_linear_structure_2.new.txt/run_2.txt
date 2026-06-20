@@ -1,0 +1,122 @@
+I'll analyze each turn for technical jargon systematically.
+
+---
+
+**Left Side**
+
+**1. Debater A: [Opening]**
+- "runaway supermassive black hole (SMBH)": technical astrophysics term, jargon
+- "SMBH": acronym, jargon
+Overall: Contains a couple of technical terms but the sentence is short and relatively accessible. Rating: 2
+
+**2. Debater B: [Argument 1]**
+- "parsecs": unit of astronomical distance, jargon
+- "kiloparsecs": jargon
+- "host galaxy": semi-technical but fairly common in popular science
+- "SMBH": acronym, jargon
+Overall: A few technical terms (parsecs, kiloparsecs, SMBH) but sentences remain largely understandable. Rating: 3
+
+**3. Debater A: [Response 1]**
+- "SMBH recoil": technical astrophysics concept, jargon
+- "SMBHs": acronym, jargon
+- "merger": used in astrophysical context, mild jargon
+- "linear structure": mildly technical
+- "trail of star formation": accessible
+- "recoiling SMBH": jargon
+Overall: Several technical terms but still readable. Rating: 3
+
+**4. Debater B: [Argument 2]**
+- "Globular clusters": technical astronomy term, jargon
+- "circumgalactic medium (CGM)": specialized astrophysics term, heavy jargon
+- "CGM": acronym, jargon
+- "black hole": widely known, borderline
+- "star formation": mildly technical but common
+Overall: CGM is quite specialized; globular clusters is technical. Moderate-to-heavy. Rating: 3
+
+**5. Debater A: [Response 2]**
+- "supersonic speeds": somewhat technical but widely understood
+- "bow shock": technical physics/astrophysics term, jargon
+- "CGM": acronym, jargon
+- "star forming trails": mildly technical
+Overall: "bow shock" and "CGM" are notable jargon terms. Rating: 3
+
+**6. Debater B: [Argument 3]**
+- "hypothesised wake": mildly technical
+- "bow shock": jargon
+- "SMBH": acronym, jargon
+- "monotonically decrease": mathematical/technical term, jargon
+- "color": used in astrophysical sense (stellar color as proxy for temperature/age)
+Overall: "Monotonically," "bow shock," "SMBH" are all jargon. Rating: 3
+
+**7. Debater A: [Response 3]**
+- "age gradient": mildly technical
+- "red and blue supergiants": technical stellar classification, jargon
+- "stellar age": mildly technical
+- "bow shock": jargon
+- "SMBH": acronym, jargon
+Overall: "Supergiants," "bow shock," "SMBH" are jargon. Moderate. Rating: 3
+
+---
+
+**Right Side**
+
+**8. Debater B: [Opening]**
+- "bulgeless edge-on galaxy": technical astronomy term, jargon
+Overall: One key technical term; short sentence. Rating: 2
+
+**9. Debater A: [Argument 1]**
+- "line ratio": spectroscopic technical term, jargon
+- "[OIII]/H𝛽": spectral line notation, heavy jargon
+- "bulgeless edge-on galaxy": jargon
+- "linear object": mildly technical
+Overall: "[OIII]/H𝛽" is dense notation; "line ratio" is specialized. Rating: 4
+
+**10. Debater B: [Response 1]**
+- "Tully-Fisher relation": technical astrophysics relation, jargon
+- "stellar mass": technical
+- "rotational velocity": technical
+- "bulgeless edge-on galaxy": jargon
+Overall: Multiple technical terms. Rating: 3
+
+**11. Debater A: [Argument 2]**
+- "Tully-Fisher relation": jargon
+- "observational inconsistencies": mildly technical
+- "velocity gradient": technical astrophysics term, jargon
+Overall: Two clear technical terms. Rating: 3
+
+**12. Debater B: [Response 2]**
+- "IC5249": specific galaxy designation, technical jargon
+- "bulgeless edge-on galaxy": jargon
+- "position vs rotational velocity gradient": technical astrophysics concept, jargon
+Overall: Several technical terms; fairly specialized. Rating: 3
+
+**13. Debater A: [Argument 3]**
+- "velocity and flux gradients": technical astrophysics terms, jargon
+- "IC5249": technical designation, jargon
+- "position vs rotational velocity curve": technical, jargon
+- "linear structure": mildly technical
+Overall: Multiple technical terms, moderately dense. Rating: 3
+
+**14. Debater B: [Response 3]**
+- "velocity measurements": mildly technical
+- "galactic mergers": somewhat technical
+- "extended trails of star formation": mildly technical
+Overall: Relatively accessible; fewer hard jargon terms. Rating: 2
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[2]]

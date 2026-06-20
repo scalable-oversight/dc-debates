@@ -1,0 +1,103 @@
+I'll analyze each turn for professionalism, considering language, structure, tone, and appropriateness for a formal context.
+
+---
+
+**1. Debater A: [Opening] (Left Side)**
+The opening is concise and technical, referencing a source and describing the model with appropriate terminology (deflectors, redshifts, lensed images). It reads as a clear, prepared statement. No casual language. Slightly compressed/telegraphic in style, but appropriate for a debate opening claim.
+**Rating: 4**
+
+---
+
+**2. Debater B: [Argument 1] (Left Side)**
+Claim 1 uses "overfit" and "modeling decisions" — appropriately technical. Claim 2 introduces chi-squared error as a critique and calls it "an important index," which is clear and professional. The two claims are structured and measured. No casual language. Well-organized critique.
+**Rating: 4**
+
+---
+
+**3. Debater A: [Response 1] (Left Side)**
+Claim 1 and Claim 2 are both technically sound and professionally worded. "Appears likely to have a significant effect" is slightly hedged but appropriate for scientific discourse. "More accurately model a more complex mass distribution" is clear. Both claims are structured and relevant.
+**Rating: 4**
+
+---
+
+**4. Debater B: [Argument 2] (Left Side)**
+Claim 1 presents a concrete comparison (30 vs. 12 parameters), which is precise and professional. Claim 2 draws the logical conclusion about overfitting. Both are concise and well-structured. "Enormous degree of modelling flexibility" is slightly emphatic but not unprofessional.
+**Rating: 4**
+
+---
+
+**5. Debater A: [Response 2] (Left Side)**
+Claim 1 is a measured philosophical point about model simplicity vs. accuracy. Claim 2 introduces the notion of "partially constrained" parameters — a technically meaningful distinction. Both are professional and appropriately hedged. No casual language.
+**Rating: 4**
+
+---
+
+**6. Debater B: [Argument 3] (Left Side)**
+Claim 1 makes a technically precise point about constraints and propagating uncertainties. Claim 2 uses "considerably" which is slightly vague, and "even more freedom to an already complex model" has a mildly emphatic tone, but overall the claims are well-structured and appropriate.
+**Rating: 4**
+
+---
+
+**7. Debater A: [Response 3] (Left Side)**
+Claim 1 references "direct spectroscopy" and "pins down... tightly" — the phrase "pins down" is slightly informal but not egregiously so. Claim 2 uses "a fraction of an arcsecond," which is appropriately technical. Overall professional, with only minor informality.
+**Rating: 4**
+
+---
+
+**8. Debater B: [Opening] (Right Side)**
+Clear, structured, and technical. References a source, identifies the model, and specifies the correspondence of images to AGN. Slightly telegraphic but appropriately formal for a debate opening.
+**Rating: 4**
+
+---
+
+**9. Debater A: [Argument 1] (Right Side)**
+Claim 1 is precise, citing a specific redshift value (1.88) and explaining its significance. Claim 2 draws a logical conclusion about the model's validity. Both are technically grounded and professionally worded. No casual language.
+**Rating: 4**
+
+---
+
+**10. Debater B: [Response 1] (Right Side)**
+Claim 1 uses "on the whole" which is slightly informal but acceptable in technical discourse. Claim 2 uses "one might reasonably expect," which is appropriately hedged and professional. Both claims are structured and measured.
+**Rating: 4**
+
+---
+
+**11. Debater A: [Argument 2] (Right Side)**
+Claim 1 is clear and technically sound. Claim 2 states that "single-AGN models remain consistent with all available data, making the dual-AGN model unnecessary" — this is concise and professionally worded. No casual language. Well-structured.
+**Rating: 4**
+
+---
+
+**12. Debater B: [Response 2] (Right Side)**
+Claim 1 makes a measured point about the novelty of the morphology. Claim 2 uses "overcomplicated hypotheses" which is slightly informal but acceptable. "Does not invoke" is a professional phrasing. Overall the tone is appropriate and structured.
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3] (Right Side)**
+Claim 1 is detailed, referencing specific data (35-day offsets, redshifts, kiloparsec separations) in a precise manner. However, "But C. S. M. et al. claim that..." — the use of "But" to start a sentence is slightly informal. Claim 2 is direct and clear. Overall professional with a minor stylistic informality.
+**Rating: 4**
+
+---
+
+**14. Debater B: [Response 3] (Right Side)**
+Claim 1 uses "set off activity" which is slightly informal phrasing ("trigger" would be more formal). Claim 2 uses "under some circumstances" which is appropriately hedged. Both claims are structured and technically relevant, but the phrasing "set off" slightly reduces the polish.
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[4]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[4]]
+B | Argument 2 | [[4]]
+A | Response 2 | [[4]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[4]]
+B | Opening | [[4]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[3]]

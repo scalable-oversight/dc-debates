@@ -1,0 +1,407 @@
+{
+  "nextId": 53,
+  "root": {
+    "id": 0,
+    "text": "Consider these two quantities:\n\nX: The expected number of rolls of a fair six-sided die until you roll two 6s in a row, given that all rolls were even.\n\nY: The expected number of rolls of a fair six-sided die until you roll the second 6 (not necessarily in a row), given that all rolls were even.\n\nTo understand exactly what is meant by \"the expected number of rolls... given that all rolls were even\" in this problem, think of it this way: Imagine you were to perform a billion sequences of die rolls, stopping each sequence when you roll two 6s in a row. Then you throw out all the sequences that contain an odd roll. The average number of rolls in the remaining sequences will be close to X. Next, perform a billion sequences of die rolls, stopping each sequence when you roll the second 6. Throw out all the sequences among these that contain an odd roll. The average number of rolls in the remaining sequences will be close to Y.\n\nWhich is larger, X or Y?",
+    "debater": "questioner",
+    "level": 0,
+    "parentId": null,
+    "honest_response": "",
+    "dishonest_response": "",
+    "children": [
+      {
+        "id": 1,
+        "text": "Y is larger.",
+        "debater": "honest",
+        "level": 1,
+        "parentId": 0,
+        "honest_response": "Yes",
+        "dishonest_response": "No",
+        "children": [
+          {
+            "id": 3,
+            "text": "The condition \"all rolls were even\" effectively turns the <a xdef=\"d6\">D6</a> into a <a xdef=\"d3\">D3</a> for purposes of this question (sides 2, 4, 6).",
+            "debater": "dishonest",
+            "level": 2,
+            "parentId": 1,
+            "honest_response": "No",
+            "dishonest_response": "Yes",
+            "children": [
+              {
+                "id": 15,
+                "text": "The expected number of rolls to first 6 for such a <a xdef=\"d3\">D3</a> is 3.",
+                "debater": "honest",
+                "level": 3,
+                "parentId": 3,
+                "honest_response": "Yes",
+                "dishonest_response": "Yes",
+                "children": []
+              },
+              {
+                "id": 16,
+                "text": "The expected number of rolls to the first 6 for a <a xdef=\"d6\">D6</a>, given that all rolls were even, is 3/2. So it's not true that the condition effectively turns the D6 to a D3.",
+                "debater": "honest",
+                "level": 3,
+                "parentId": 3,
+                "honest_response": "Yes",
+                "dishonest_response": "No",
+                "children": []
+              },
+              {
+                "id": 41,
+                "text": "Therefore, you should reject [3].",
+                "debater": "honest",
+                "level": 3,
+                "parentId": 3,
+                "honest_response": "Yes",
+                "dishonest_response": "No",
+                "children": [
+                  {
+                    "id": 18,
+                    "text": "[3] specifies that the D6 becomes a D3 for the purposes of this question. The expected number of rolls to the first 6 given all rolls even is a separate, irrelevant question.",
+                    "debater": "dishonest",
+                    "level": 4,
+                    "parentId": 41,
+                    "honest_response": "No",
+                    "dishonest_response": "Yes",
+                    "children": [
+                      {
+                        "id": 24,
+                        "text": "It is relevant for showing why arguments based on this claimed equivalence don't work.",
+                        "debater": "honest",
+                        "level": 5,
+                        "parentId": 18,
+                        "honest_response": "Yes",
+                        "dishonest_response": "No",
+                        "children": []
+                      },
+                      {
+                        "id": 25,
+                        "text": "It would be strange if a (2, 4, 6) D3 was equivalent to \"D6 given all rolls even\" for this question, but not when calculating expected number of rolls to the first 6.",
+                        "debater": "honest",
+                        "level": 5,
+                        "parentId": 18,
+                        "honest_response": "Yes",
+                        "dishonest_response": "No",
+                        "children": [
+                          {
+                            "id": 30,
+                            "text": "\"Expected number of rolls to the first 6\" is a fundamentally different quantity than the question asks for.",
+                            "debater": "dishonest",
+                            "level": 6,
+                            "parentId": 25,
+                            "honest_response": "Yes",
+                            "dishonest_response": "Yes",
+                            "children": []
+                          },
+                          {
+                            "id": 31,
+                            "text": "With one 6 needed, each roll's odds matter on their own. With two 6s, what counts is how often 6 turns up versus non-6 — non-6 is twice as likely here.",
+                            "debater": "dishonest",
+                            "level": 6,
+                            "parentId": 25,
+                            "honest_response": "No",
+                            "dishonest_response": "Yes",
+                            "children": [
+                              {
+                                "id": 39,
+                                "text": "X depends on adjacent 6s, while Y depends on where the second 6 occurs; e.g. '626' stops Y at roll 3 but doesn't stop X.",
+                                "debater": "honest",
+                                "level": 7,
+                                "parentId": 31,
+                                "honest_response": "Yes",
+                                "dishonest_response": "Yes",
+                                "children": []
+                              },
+                              {
+                                "id": 40,
+                                "text": "So order, not only relative frequency, is part of the stopping rule and affects the conditional expectation.",
+                                "debater": "honest",
+                                "level": 7,
+                                "parentId": 31,
+                                "honest_response": "Yes",
+                                "dishonest_response": "No",
+                                "children": []
+                              },
+                              {
+                                "id": 42,
+                                "text": "Therefore, you should reject [31].",
+                                "debater": "honest",
+                                "level": 7,
+                                "parentId": 31,
+                                "honest_response": "Yes",
+                                "dishonest_response": "",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "id": 43,
+                            "text": "Therefore, you should reject [25].",
+                            "debater": "dishonest",
+                            "level": 6,
+                            "parentId": 25,
+                            "honest_response": "",
+                            "dishonest_response": "Yes",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": 44,
+                        "text": "Therefore, you should reject [18].",
+                        "debater": "honest",
+                        "level": 5,
+                        "parentId": 18,
+                        "honest_response": "Yes",
+                        "dishonest_response": "",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 19,
+                    "text": "It is irrelevant because this question asks about cases involving two rolled 6s, not one.",
+                    "debater": "dishonest",
+                    "level": 4,
+                    "parentId": 41,
+                    "honest_response": "No",
+                    "dishonest_response": "Yes",
+                    "children": []
+                  },
+                  {
+                    "id": 45,
+                    "text": "Therefore, you should reject [None].",
+                    "debater": "dishonest",
+                    "level": 4,
+                    "parentId": 41,
+                    "honest_response": "",
+                    "dishonest_response": "Yes",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "On a D3, getting two 6s in a row is harder (requires more rolls) than getting two 6s not necessarily in a row.",
+            "debater": "dishonest",
+            "level": 2,
+            "parentId": 1,
+            "honest_response": "Yes",
+            "dishonest_response": "Yes",
+            "children": []
+          },
+          {
+            "id": 46,
+            "text": "Therefore, you should reject [1].",
+            "debater": "dishonest",
+            "level": 2,
+            "parentId": 1,
+            "honest_response": "",
+            "dishonest_response": "Yes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "X is larger.",
+        "debater": "dishonest",
+        "level": 1,
+        "parentId": 0,
+        "honest_response": "No",
+        "dishonest_response": "Yes",
+        "children": [
+          {
+            "id": 6,
+            "text": "X needs two 6s in a row, normally requiring a much longer run than Y's two 6s anywhere.",
+            "debater": "honest",
+            "level": 2,
+            "parentId": 2,
+            "honest_response": "Yes",
+            "dishonest_response": "Yes",
+            "children": []
+          },
+          {
+            "id": 7,
+            "text": "But \"given all rolls were even\" filters long runs exponentially, so X's probability mass is squeezed onto its short, lucky runs much more so than Y's.",
+            "debater": "honest",
+            "level": 2,
+            "parentId": 2,
+            "honest_response": "Yes",
+            "dishonest_response": "No",
+            "children": [
+              {
+                "id": 9,
+                "text": "\"Given all rolls were even\" applies to both X and Y.",
+                "debater": "dishonest",
+                "level": 3,
+                "parentId": 7,
+                "honest_response": "Yes",
+                "dishonest_response": "Yes",
+                "children": []
+              },
+              {
+                "id": 10,
+                "text": "The stopping condition for X is strictly harder and happens later than or at the same time as Y's. X's distribution is dominated by long sequences that finally get two 6s in a row.",
+                "debater": "dishonest",
+                "level": 3,
+                "parentId": 7,
+                "honest_response": "No",
+                "dishonest_response": "Yes",
+                "children": []
+              },
+              {
+                "id": 47,
+                "text": "Therefore, you should reject [7].",
+                "debater": "dishonest",
+                "level": 3,
+                "parentId": 7,
+                "honest_response": "No",
+                "dishonest_response": "Yes",
+                "children": [
+                  {
+                    "id": 21,
+                    "text": "[9] is true, but affects X more because you'll nearly always roll an odd before getting two 6s, so the long sequences will be largely filtered out.",
+                    "debater": "honest",
+                    "level": 4,
+                    "parentId": 47,
+                    "honest_response": "Yes",
+                    "dishonest_response": "No",
+                    "children": [
+                      {
+                        "id": 27,
+                        "text": "Y is affected similarly, because you will also nearly always roll an odd before getting two nonconsecutive 6s, so Y's runs are filtered just as harshly.",
+                        "debater": "dishonest",
+                        "level": 5,
+                        "parentId": 21,
+                        "honest_response": "No",
+                        "dishonest_response": "Yes",
+                        "children": []
+                      },
+                      {
+                        "id": 28,
+                        "text": "The net effect of the all-even condition is therefore similar for X and Y, and the D3 equivalence holds.",
+                        "debater": "dishonest",
+                        "level": 5,
+                        "parentId": 21,
+                        "honest_response": "No",
+                        "dishonest_response": "Yes",
+                        "children": [
+                          {
+                            "id": 33,
+                            "text": "Among the all-even stopped sequences, 61% of X sequences stop at roll 2, compared with 44% of Y sequences. By the end of roll 3, 81% of X sequences have stopped, compared with 74% of Y sequences.",
+                            "debater": "honest",
+                            "level": 6,
+                            "parentId": 28,
+                            "honest_response": "Yes",
+                            "dishonest_response": "Yes",
+                            "children": []
+                          },
+                          {
+                            "id": 34,
+                            "text": "This suggests that X is more likely than Y to stop extremely early.",
+                            "debater": "honest",
+                            "level": 6,
+                            "parentId": 28,
+                            "honest_response": "Yes",
+                            "dishonest_response": "No",
+                            "children": [
+                              {
+                                "id": 36,
+                                "text": "The total proportion of all-even stopped sequences that stop by roll 2 or 3 does not determine the overall weighting.",
+                                "debater": "dishonest",
+                                "level": 7,
+                                "parentId": 34,
+                                "honest_response": "Yes",
+                                "dishonest_response": "Yes",
+                                "children": []
+                              },
+                              {
+                                "id": 37,
+                                "text": "The tails of the two distributions matter as well, and the full computation yields X as the larger of the two values.",
+                                "debater": "dishonest",
+                                "level": 7,
+                                "parentId": 34,
+                                "honest_response": "No",
+                                "dishonest_response": "Yes",
+                                "children": []
+                              },
+                              {
+                                "id": 48,
+                                "text": "Therefore, you should reject [34].",
+                                "debater": "dishonest",
+                                "level": 7,
+                                "parentId": 34,
+                                "honest_response": "",
+                                "dishonest_response": "Yes",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "id": 49,
+                            "text": "Therefore, you should reject [28].",
+                            "debater": "honest",
+                            "level": 6,
+                            "parentId": 28,
+                            "honest_response": "Yes",
+                            "dishonest_response": "",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": 50,
+                        "text": "Therefore, you should reject [21].",
+                        "debater": "dishonest",
+                        "level": 5,
+                        "parentId": 21,
+                        "honest_response": "",
+                        "dishonest_response": "Yes",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 22,
+                    "text": "The first sentence of [10] is true, the second is a false statement that does not follow from it.",
+                    "debater": "honest",
+                    "level": 4,
+                    "parentId": 47,
+                    "honest_response": "Yes",
+                    "dishonest_response": "No",
+                    "children": []
+                  },
+                  {
+                    "id": 51,
+                    "text": "Therefore, you should reject [None].",
+                    "debater": "honest",
+                    "level": 4,
+                    "parentId": 47,
+                    "honest_response": "Yes",
+                    "dishonest_response": "",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 52,
+            "text": "Therefore, you should reject [2].",
+            "debater": "honest",
+            "level": 2,
+            "parentId": 2,
+            "honest_response": "Yes",
+            "dishonest_response": "",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "defs_and_sources": "<defs>\n  <def id=\"d6\">D6 - A six-sided die.</def>\n\n  <def id=\"d3\">D3 - A three-sided die.</def>\n</defs>"
+}

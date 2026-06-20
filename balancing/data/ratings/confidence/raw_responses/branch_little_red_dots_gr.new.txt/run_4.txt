@@ -1,0 +1,130 @@
+I'll analyze each turn for confidence signals, then provide ratings.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"Black hole accretion in AGN (active galactic nuclei) is a **highly plausible** explanation for LRDs"
+- "highly plausible" is a strong qualifier but still stops short of certainty — it's assertive but not absolute. The word "plausible" introduces some tentativeness while "highly" elevates confidence.
+- Overall: moderately high confidence, not extreme.
+**Rating: 3**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+- Claim 1: "LRDs **contain** Balmer breaks; these **are** associated with galaxy-only models or dusty star formation." — Definitive, no hedging.
+- Claim 2: "Prominent Balmer breaks **can be cleanly explained** by photospheric emission in supermassive stars." — "can be" introduces slight possibility framing, but "cleanly" adds assertiveness.
+- Overall: mostly assertive, minor hedging with "can be."
+**Rating: 4**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+- Claim 1: "Balmer breaks **are also** associated with absorption from dense gas in the line of sight in high-redshift AGN." — Stated as fact, no hedging.
+- Claim 2: "D. N. et al's use of **speculative** theories like supermassive stars to explain phenomena that **can be defined** by known physics **may not be warranted**." — "speculative," "may not be warranted" are significant qualifiers and hedges.
+- The two claims together mix a firm factual statement with a hedged normative claim.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+- Claim 1: "Postulating something other than typical AGN **is warranted**: LRDs **are** X-ray weak while AGN **are** typically strong in X-rays." — Definitive assertions throughout.
+- Claim 2: "LRDs **also show, on the whole, significantly** weaker variability than typical observed AGN." — Factual, assertive; "on the whole" is a mild qualifier but not strongly hedging.
+- Overall: high confidence, very assertive.
+**Rating: 4**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+- Claim 1: "At super-Eddington accretion rates, the plasma responsible for emitting X-rays **is** cooled down. This **results** in weak X-ray spectra." — Stated as established fact, no hedging.
+- Claim 2: "AGN variability amplitude **decreases** with increasing accretion rate, which **supports** super-Eddington accretion as an explanation for weak observed variability (**moreso than** SMS)." — Assertive with a comparative claim; "supports" is slightly softer than "proves" but still confident.
+- Overall: high confidence.
+**Rating: 4**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+- Claim 1: "The super-Eddington variability suppression mechanism **is theoretically predicted** but **rests on a small number** of empirical samples." — Acknowledges a theoretical basis and empirical limitation; this is a moderately qualified statement.
+- Claim 2: "SMS photospheres **lack** the stochastic accretion-driven variability mechanism that **characterises** AGN." — Definitive, no hedging.
+- The first claim explicitly acknowledges uncertainty/limitation; the second is firm.
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+- Claim 1: "The SMS in D. N. et al. **accretes at the rate of** 1000 Msol/yr. This **results** in turbulent flows, which **are** a known source of stochastic variability." — Factual, definitive.
+- Claim 2: "**However**, **none** of the variability associated with these turbulent flows **is modelled**." — Categorical ("none"), definitive.
+- Overall: high confidence, both claims stated assertively.
+**Rating: 4**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"Photospheric emission of supermassive stars (SMS) is a **highly plausible** explanation for LRDs"
+- Same language as Debater A's opening: "highly plausible" — assertive but not absolute. "Plausible" still hedges.
+**Rating: 3**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+- Claim 1: "Supermassive stars are **theoretical** objects that have **not been directly observed**." — Factual, definitive, but the content itself flags uncertainty about SMS.
+- Claim 2: "**Furthermore**, with characteristic masses above 10⁴ M☉, supermassive stars **have** short main-sequence lifetimes." — Stated as fact, no hedging.
+- Overall: confident in the claims as stated, even if the claims highlight theoretical uncertainty.
+**Rating: 4**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+- Claim 1: "It is **almost certain** that supermassive stars existed in the early universe, made up of pure hydrogen and helium." — "almost certain" is very high confidence but not absolute; the qualifier "almost" is notable.
+- Claim 2: "D. N. et al.'s SMS model **has** an LRD-like spectrum for around 1000 years, making a galaxy containing SMS **a valid candidate** for LRDs." — "a valid candidate" is moderately confident but not absolute.
+- Overall: moderately high confidence; "almost certain" elevates it but "valid candidate" softens.
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+- Claim 1: "Direct collapse of supermassive stars **is theorized** to generate black hole seeds for SMBH." — "is theorized" explicitly flags this as theoretical, introducing tentativeness.
+- Claim 2: "If the SMS model only resembles LRDs for 1000 years, the number of SMS required **would be** too high compared to observed SMBHs." — Conditional ("if...would be"), adding tentativeness.
+- Both claims carry significant hedging: "theorized," "if...would be."
+**Rating: 2**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+- Claim 1: "Stellar rotation, **in general**, provides additional outward pressure that **can help** stabilize stars against collapse over time." — "in general" and "can help" are mild qualifiers.
+- Claim 2: "Considering the effect of rotation **extends** SMS lifetimes. Including it in the SMS model **will**, in turn, **reduce** the number of SMS required to produce LRDs to acceptable numbers." — "will" is strong and definitive.
+- Mixed: first claim mildly hedged, second claim assertive. Overall moderate-to-high.
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+- Claim 1: "The modeling of rotation, radiative transfer, and related effects **appears** insufficiently rigorous to **fully** support this claim." — "appears" is a significant hedge; "fully" qualifies the support.
+- Claim 2: "**For example**, the paper **does not provide** an estimate for the lifespan of SMS with stellar rotation." — Factual and definitive (a specific observable absence).
+- The second claim is confident; the first uses "appears" as clear hedging.
+**Rating: 3**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+- Claim 1: "Modelling the evolution of rapidly accreting SMSs to the GR instability regime **is only feasible** with 1D stellar evolution." — "only feasible" is a strong, definitive claim.
+- Claim 2: "D. N. et al. **solve** radiative transfer with a one-dimensional streaming-pair scheme (a Feautrier / Λ-iteration solver)." — Factual, definitive.
+- Overall: high confidence, both claims stated definitively.
+**Rating: 4**
+
+---
+
+RATINGS:
+A | Opening | [[3]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[4]]
+A | Response 2 | [[4]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[4]]
+B | Opening | [[3]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[4]]

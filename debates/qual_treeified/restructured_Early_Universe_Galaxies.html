@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Debate Visualisation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,600;8..60,700&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet"/>
+<style>
+/* ── Reset & base ─────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --font-serif: 'Source Serif 4', Georgia, serif;
+  --font-sans: 'DM Sans', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --clr-bg:       #faf9f6;
+  --clr-surface:  #ffffff;
+  --clr-text:     #1a1a1a;
+  --clr-muted:    #6b6b6b;
+  --clr-border:   #e0ddd8;
+  --clr-accent:   #3d5a80;
+
+  --clr-h:        #e8f5e9;
+  --clr-h-border: #81c784;
+  --clr-d:        #e3f2fd;
+  --clr-d-border: #64b5f6;
+  --clr-fact:     #fff8e1;
+  --clr-fact-border: #ffe082;
+  --clr-note:     #800000;
+
+  --clr-def-bg:   #f3eee8;
+  --clr-def-tip:  #2c2c2c;
+
+  --radius:       6px;
+  --shadow-sm:    0 1px 3px rgba(0,0,0,.06);
+  --shadow-md:    0 4px 12px rgba(0,0,0,.08);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-serif);
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--clr-text);
+  background: var(--clr-bg);
+}
+
+/* ── Layout ───────────────────────────────── */
+.container {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 6rem;
+}
+
+h1 {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: -.02em;
+  margin-bottom: .25rem;
+  color: var(--clr-accent);
+}
+
+.subtitle {
+  font-family: var(--font-sans);
+  color: var(--clr-muted);
+  font-size: .95rem;
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 1.15rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--clr-muted);
+  border-bottom: 2px solid var(--clr-border);
+  padding-bottom: .35rem;
+  margin: 2.5rem 0 1rem;
+}
+
+/* ── Problem ──────────────────────────────── */
+.problem-section {
+  background: var(--clr-surface);
+  border: 1px solid var(--clr-border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 1rem;
+}
+
+.problem-section .inline-img {
+  max-width: 100%;
+  border-radius: var(--radius);
+  margin-top: .75rem;
+}
+
+/* ── Answers ──────────────────────────────── */
+.answers-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+  margin-top: .6rem;
+}
+
+.answer {
+  border-radius: var(--radius);
+  padding: .75rem 1rem;
+  position: relative;
+  box-shadow: var(--shadow-sm);
+}
+
+.answer-h {
+  background: var(--clr-h);
+  border-left: 4px solid var(--clr-h-border);
+}
+
+.answer-d {
+  background: var(--clr-d);
+  border-left: 4px solid var(--clr-d-border);
+}
+
+.speaker-label {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  display: inline-block;
+  margin-bottom: .3rem;
+  opacity: .7;
+}
+
+.answer-body {
+  font-size: .97rem;
+}
+
+/* ── Questions ────────────────────────────── */
+.question-block {
+  margin-bottom: 1rem;
+}
+
+.question-text {
+  font-weight: 600;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.q-speaker {
+  font-family: var(--font-sans);
+  font-size: .78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  padding: .15rem .5rem;
+  border-radius: 3px;
+  margin-right: .35rem;
+  vertical-align: middle;
+}
+.badge-h { background: var(--clr-h); color: #2e7d32; }
+.badge-d { background: var(--clr-d); color: #1565c0; }
+
+/* ── Sub-questions (details/summary) ──────── */
+.sub-questions {
+  margin-top: .75rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.sub-question {
+  border: 2px solid var(--clr-border);
+  border-radius: var(--radius);
+  background: var(--clr-surface);
+  box-shadow: var(--shadow-sm);
+  transition: border-color .2s;
+}
+
+.sub-question[open] {
+  border-color: var(--clr-accent);
+  box-shadow: var(--shadow-md);
+}
+
+.sub-q-summary {
+  cursor: pointer;
+  padding: .8rem 1rem;
+  font-weight: 600;
+  font-size: .98rem;
+  line-height: 1.55;
+  list-style: none;
+  position: relative;
+  padding-left: 2rem;
+  user-select: none;
+}
+
+.sub-q-summary::-webkit-details-marker { display: none; }
+
+.sub-q-summary::before {
+  content: '▶';
+  position: absolute;
+  left: .75rem;
+  top: .85rem;
+  font-size: .7rem;
+  color: var(--clr-accent);
+  transition: transform .2s;
+}
+
+.sub-question[open] > .sub-q-summary::before {
+  transform: rotate(90deg);
+}
+
+.sub-q-summary:hover {
+  background: rgba(61, 90, 128, .04);
+}
+
+.sub-q-body {
+  padding: .25rem 1rem 1rem 2rem;
+}
+
+.sub-count {
+  font-family: var(--font-sans);
+  font-size: .75rem;
+  font-weight: 500;
+  color: var(--clr-accent);
+  background: rgba(61, 90, 128, .08);
+  padding: .1rem .45rem;
+  border-radius: 3px;
+  margin-left: .4rem;
+  vertical-align: middle;
+}
+
+.sub-count.leaf {
+  color: var(--clr-muted);
+  background: rgba(0, 0, 0, .05);
+}
+
+/* ── Source links ──────────────────────────── */
+.source-link {
+  color: var(--clr-accent);
+  font-family: var(--font-sans);
+  font-size: .88em;
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px dashed var(--clr-accent);
+  transition: border-color .15s, color .15s;
+}
+.source-link:hover {
+  color: #2c4463;
+  border-bottom-style: solid;
+}
+
+/* ── Def links + tooltip ──────────────────── */
+.def-link {
+  color: #5d4037;
+  text-decoration: none;
+  border-bottom: 1px dotted #5d4037;
+  position: relative;
+  cursor: help;
+}
+
+.def-link:hover {
+  color: #3e2723;
+  border-bottom-style: solid;
+}
+
+.def-link[data-tooltip]:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: 380px;
+  background: var(--clr-def-tip);
+  color: #f5f5f5;
+  font-family: var(--font-sans);
+  font-size: .82rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: .6rem .85rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  z-index: 1000;
+  pointer-events: none;
+  white-space: normal;
+}
+
+.def-link[data-tooltip]:hover::before {
+  content: '';
+  position: absolute;
+  bottom: calc(100% + 2px);
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-top-color: var(--clr-def-tip);
+  z-index: 1001;
+  pointer-events: none;
+}
+
+/* ── Fact expansions ──────────────────────── */
+.fact-expansion {
+  background: var(--clr-fact);
+  border-left: 3px solid var(--clr-fact-border);
+  padding: .35rem .6rem;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  display: inline;
+  font-size: .94em;
+  line-height: 1.65;
+}
+
+.fact-ref-tag {
+  font-family: var(--font-mono);
+  font-size: .78em;
+  color: var(--clr-muted);
+}
+
+/* ── Notes ────────────────────────────────── */
+.note {
+  font-style: italic;
+  color: var(--clr-note);
+  font-size: .88em;
+  margin-top: .3rem;
+  padding-left: .3rem;
+  line-height: 1.55;
+}
+
+/* ── Definitions section ──────────────────── */
+.def-entry {
+  background: var(--clr-def-bg);
+  border-radius: var(--radius);
+  padding: .8rem 1rem;
+  margin-bottom: .5rem;
+  font-size: .93rem;
+  line-height: 1.6;
+  scroll-margin-top: 1rem;
+}
+
+.def-img {
+  display: block;
+  max-width: 100%;
+  max-height: 280px;
+  border-radius: var(--radius);
+  margin-top: .6rem;
+  object-fit: contain;
+}
+
+/* ── Sources section ──────────────────────── */
+.source-entry {
+  padding: .45rem 0;
+  border-bottom: 1px solid var(--clr-border);
+  font-size: .93rem;
+  scroll-margin-top: 1rem;
+}
+.source-entry:last-child { border-bottom: none; }
+.source-quote { color: var(--clr-muted); }
+
+/* ── Source figures ───────────────────────── */
+.source-figs {
+  margin-top: .35rem;
+}
+
+.source-fig-toggle {
+  margin-bottom: .3rem;
+}
+
+.source-fig-link {
+  font-family: var(--font-sans);
+  font-size: .85rem;
+  color: var(--clr-accent);
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 1px dashed var(--clr-accent);
+  transition: border-color .15s, color .15s;
+}
+.source-fig-link:hover {
+  color: #2c4463;
+  border-bottom-style: solid;
+}
+
+.source-fig-panel {
+  margin-top: .4rem;
+  margin-bottom: .5rem;
+}
+
+.source-fig-img {
+  display: block;
+  border-radius: var(--radius);
+  border: 1px solid var(--clr-border);
+}
+
+/* ── Stats table ──────────────────────────── */
+.stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-sans);
+  font-size: .9rem;
+}
+
+.stats-table th {
+  text-align: left;
+  padding: .5rem .75rem;
+  border-bottom: 2px solid var(--clr-border);
+  color: var(--clr-muted);
+  font-weight: 600;
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+.stats-table th:nth-child(2),
+.stats-table td:nth-child(2) {
+  text-align: right;
+  font-family: var(--font-mono);
+}
+
+.stats-table td {
+  padding: .4rem .75rem;
+  border-bottom: 1px solid var(--clr-border);
+}
+
+.stats-table .speaker-header td {
+  font-weight: 700;
+  padding-top: 1rem;
+  font-size: .95rem;
+  border-bottom: 1px solid var(--clr-text);
+}
+
+.stats-table .subtotal td {
+  font-weight: 600;
+  background: rgba(0, 0, 0, .02);
+}
+
+.stats-table .total td {
+  font-weight: 700;
+  background: rgba(0, 0, 0, .04);
+  border-bottom: 2px solid var(--clr-border);
+}
+
+/* ── Discrepancies ────────────────────────── */
+.discrepancy-explainer {
+  font-family: var(--font-sans);
+  font-size: .88rem;
+  color: var(--clr-muted);
+  margin-bottom: .75rem;
+}
+
+.discrepancy-list {
+  list-style: none;
+  padding: 0;
+}
+
+.discrepancy-list li {
+  font-family: var(--font-sans);
+  font-size: .9rem;
+  padding: .45rem .75rem;
+  margin-bottom: .35rem;
+  background: #fff3e0;
+  border-left: 3px solid #ff9800;
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+.discrepancy-list code {
+  font-family: var(--font-mono);
+  font-size: .85em;
+  background: rgba(0,0,0,.06);
+  padding: .1rem .3rem;
+  border-radius: 3px;
+}
+
+/* ── Broken refs ──────────────────────────── */
+.broken-ref {
+  color: #c62828;
+  font-family: var(--font-mono);
+  font-size: .85em;
+}
+
+/* ── QA id labels ────────────────────────── */
+.qa-id-label {
+  font-family: var(--font-mono);
+  font-size: .82em;
+  font-weight: 600;
+  color: var(--clr-accent);
+  opacity: .7;
+}
+
+/* ── QA cross-reference links ────────────── */
+.qa-ref-link {
+  color: var(--clr-accent);
+  font-family: var(--font-sans);
+  font-size: .88em;
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px dashed var(--clr-accent);
+  transition: border-color .15s, color .15s;
+}
+.qa-ref-link:hover {
+  color: #2c4463;
+  border-bottom-style: solid;
+}
+
+/* ── Source URLs ──────────────────────────── */
+.source-url {
+  color: var(--clr-accent);
+  font-size: .88em;
+  word-break: break-all;
+}
+
+/* ── Expand / contract toggle ────────────── */
+.expand-toggle {
+  display: inline-block;
+  margin: .5rem 0;
+  font-family: var(--font-sans);
+  font-size: .85rem;
+  font-weight: 500;
+  color: var(--clr-accent);
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 1px dashed var(--clr-accent);
+  transition: border-color .15s, color .15s;
+}
+.expand-toggle:hover {
+  color: #2c4463;
+  border-bottom-style: solid;
+}
+
+/* ── Task blocks ──────────────────────────── */
+.task-block {
+  display: inline-block;
+  margin: .5rem 0;
+  padding: .6rem .8rem;
+  border-radius: var(--radius);
+  background: #f3effc; /* very pale lavender */
+  border: 1px solid #e1d7f4;
+  font-family: var(--font-sans);
+  font-weight: 400;
+  font-size: .92rem;
+  line-height: 1.55;
+}
+
+/* ── Code blocks ──────────────────────────── */
+.code-block {
+  margin: .6rem 0;
+  padding: .75rem .9rem;
+  border-radius: var(--radius);
+  background: rgba(0, 0, 0, .035);
+  border: 1px solid var(--clr-border);
+  overflow-x: auto;
+  font-family: var(--font-mono);
+  font-size: .85rem;
+  line-height: 1.5;
+  white-space: pre;
+}
+
+/* ── Images ───────────────────────────────── */
+.inline-img {
+  max-width: 100%;
+  border-radius: var(--radius);
+}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+</head>
+<body>
+<div class="container">
+
+  <h1>Early Universe Galaxies</h1>
+  <p class="subtitle">Debate visualisation — Honest (H) vs Deceptive (D)</p>
+
+  
+
+  <h2>Debate</h2>
+  <div class="question-block top-level"><div class="question-text"><br/>
+What implications do overly bright early universe galaxies found by the James Webb Space Telescope (JWST) have on the existence of dark matter?<br/>
+<br/></div><a href="#" class="expand-toggle" onclick="toggleAll(this);return false;">Expand all</a><div class="answers-wrap"><div class="answer answer-h"><span class="speaker-label">Honest</span><div class="answer-body">The brightness of early universe galaxies is weak evidence towards falsifying the existence of <a href="#def-dark_matter" class="def-link" data-tooltip="Dark matter - A form of matter predicted to exist by the general theory of relativity that makes up 26.8% of the universe&#x27;s total mass-energy content. Dark matter does not interact with light but its gravitational influence is crucial for the existence of galaxies.">dark matter</a>. The observed brightness can be explained by revising assumptions about stellar populations in the early universe without modifying the underlying cosmology (<a href="#src-jjz_et_al" class="source-link">J. J. Z. et al.</a>).<div class="note">H&#x27;s position is that the observations are surprising but can be accommodated within the existing cosmological framework by adjusting smaller, less well-constrained assumptions about early-universe stellar populations.</div></div></div>
+<div class="answer answer-d"><span class="speaker-label">Deceptive</span><div class="answer-body">The brightness of early universe galaxies is strong evidence towards falsifying the existence of <a href="#def-dark_matter" class="def-link" data-tooltip="Dark matter - A form of matter predicted to exist by the general theory of relativity that makes up 26.8% of the universe&#x27;s total mass-energy content. Dark matter does not interact with light but its gravitational influence is crucial for the existence of galaxies.">dark matter</a>. <a href="#def-mond" class="def-link" data-tooltip="Modified Newtonian Dynamics (MOND) - An alternative theory of gravity that does not predict the existence of dark matter. Instead, it modifies Newton&#x27;s laws of gravity at very low accelerations to explain observed phenomena like galactic rotation curves.">MOND</a>-based models that do not contain dark matter produce a much better fit to the mass of the high-<a href="#def-redshift" class="def-link" data-tooltip="Redshift (denoted by z) - As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift =&gt; object is further away =&gt; we are looking further back in time as we are seeing light that left the object millions or billions of years ago.">redshift</a> galaxies than <a href="#def-lambda_cdm" class="def-link" data-tooltip="Lambda-CDM - The popular cosmological model used to explain the evolution of the universe. Lambda stands for dark energy (the energy hypothesised to be powering the universe&#x27;s expansion), and CDM stands for Cold Dark Matter.">Lambda-CDM</a>. (<a href="#src-ssm_et_al" class="source-link">S. S. M. et al.</a>)<div class="note">D&#x27;s position requires the judge to accept that a better fit to one subset of new data justifies abandoning a well-established cosmological model, without weighing the vast body of evidence supporting Lambda-CDM.</div></div></div></div><div class="sub-questions"><details class="sub-question depth-1"><summary class="sub-q-summary"><span class="q-speaker badge-d">Deceptive asks:</span> <br/>
+  Can <a href="#def-lambda_cdm" class="def-link" data-tooltip="Lambda-CDM - The popular cosmological model used to explain the evolution of the universe. Lambda stands for dark energy (the energy hypothesised to be powering the universe&#x27;s expansion), and CDM stands for Cold Dark Matter.">Lambda-CDM</a> explain the inferred masses of these high-<a href="#def-redshift" class="def-link" data-tooltip="Redshift (denoted by z) - As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift =&gt; object is further away =&gt; we are looking further back in time as we are seeing light that left the object millions or billions of years ago.">redshift</a> galaxies?<br/> <span class="sub-count">3 follow-ups — click to expand</span></summary><div class="sub-q-body"><div class="answers-wrap"><div class="answer answer-h"><span class="speaker-label">Honest</span><div class="answer-body">Yes. The galaxies would only appear overmassive if their light was being produced by a stellar population resembling that of low-redshift galaxies. Two well-motivated modifications can each independently reduce the inferred masses to fit within Lambda-CDM predictions. <span class="fact-expansion">First, assuming a top-heavy <a href="#def-imf" class="def-link" data-tooltip="Initial Mass Function (IMF) - An empirical function that describes the initial distribution of masses for a population of stars during star formation in a galaxy.">IMF</a> that accounts for a larger number of brighter stars brings down the mass estimate without changing the cosmology (<a href="#src-cls_et_al" class="source-link">C. L. S. et al.</a>).</span> <span class="fact-expansion">Second, assuming a lower metallicity for high-redshift galaxies can also explain the increased brightness of the high-redshift galaxies (<a href="#src-jjz_et_al" class="source-link">J. J. Z. et al.</a>) without the need for increased mass.</span><div class="note">H offers two independent mechanisms, either of which could resolve the discrepancy. This strengthens H&#x27;s case because the mechanisms can also combine, and both are physically well-motivated for the early universe.</div></div></div>
+<div class="answer answer-d"><span class="speaker-label">Deceptive</span><div class="answer-body">No. <span class="fact-expansion">Figure 6 in <a href="#src-ssm_et_al" class="source-link">S. S. M. et al.</a> shows the mass-<a href="#def-redshift" class="def-link" data-tooltip="Redshift (denoted by z) - As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift =&gt; object is further away =&gt; we are looking further back in time as we are seeing light that left the object millions or billions of years ago.">redshift</a> relationship predicted by Lambda-CDM. The white region represents the parameters expected of most galaxies by the model. The light grey region represents the parameter space in which galaxies are not expected by Lambda-CDM. The dark grey region is where Lambda-CDM predicts galaxies cannot exist. Most of the newly discovered galaxies lie in the &quot;unexpected&quot; region, and three of them even lie in the physically impossible region.</span><div class="note">The figure is visually compelling, but D does not address the possibility that the plotted mass values depend on modeling assumptions that may not hold in the early universe.</div></div></div></div><div class="sub-questions"><details class="sub-question depth-2"><summary class="sub-q-summary"><span class="q-speaker badge-d">Deceptive asks:</span> <br/>
+    Are the specific modifications to stellar population assumptions actually well-motivated?<br/> <span class="sub-count leaf">Leaf node — click to expand</span></summary><div class="sub-q-body"><div class="note">D tries to undermine the claims put forth by H.</div><div class="answers-wrap"><div class="answer answer-h"><span class="speaker-label">Honest</span><div class="answer-body">Yes. We cannot simply assume that the <a href="#def-imf" class="def-link" data-tooltip="Initial Mass Function (IMF) - An empirical function that describes the initial distribution of masses for a population of stars during star formation in a galaxy.">IMF</a> of these early universe galaxies is the same as low-redshift galaxies. Additionally, <span class="fact-expansion">early generations of stars enrich the gas in a galaxy with heavier metals through nucleosynthesis. Stars in the early universe formed before significant enrichment had occurred, and therefore have much lower <a href="#def-metallicity" class="def-link" data-tooltip="Metallicity - The abundance of elements present in a star that are heavier than Hydrogen and Helium.">metallicity</a> than stars observed at low <a href="#def-redshift" class="def-link" data-tooltip="Redshift (denoted by z) - As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift =&gt; object is further away =&gt; we are looking further back in time as we are seeing light that left the object millions or billions of years ago.">redshift</a>. Lower <a href="#def-metallicity" class="def-link" data-tooltip="Metallicity - The abundance of elements present in a star that are heavier than Hydrogen and Helium.">metallicity</a> affects stellar structure and evolution: at low metallicity, massive stars burn hotter and can be significantly more luminous, making a low-metallicity stellar population appear brighter for a given total mass.</span>.<div class="note">H explains the motivation for both modifications concisely.</div></div></div>
+<div class="answer answer-d"><span class="speaker-label">Deceptive</span><div class="answer-body">No. <span class="fact-expansion">Both proposals require assumptions that cannot currently be verified. </span> <span class="fact-expansion">The <a href="#def-imf" class="def-link" data-tooltip="Initial Mass Function (IMF) - An empirical function that describes the initial distribution of masses for a population of stars during star formation in a galaxy.">IMF</a> is empirically based on observations of the Milky Way and neighbouring galaxies, and current telescopes do not have the resolution to discern individual stars at high <a href="#def-redshift" class="def-link" data-tooltip="Redshift (denoted by z) - As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift =&gt; object is further away =&gt; we are looking further back in time as we are seeing light that left the object millions or billions of years ago.">redshifts</a>.</span> Assuming a different distribution of stars for a whole population of galaxies needs a lot more data supporting the composition. Similarly, verifying metallicity levels in early galaxies requires observations we do not yet have at those redshifts.<div class="note">D correctly notes that both mechanisms are not yet directly confirmed observationally. However, this applies equally to D&#x27;s own position: MOND lacks a complete cosmological theory and is far more speculative as a modification to established physics.</div></div></div></div><div class="sub-questions"></div></div></details>
+<details class="sub-question depth-2"><summary class="sub-q-summary"><span class="q-speaker badge-d">Deceptive asks:</span> <br/>
+    Is proposing modifications to multiple pieces of known physics more parsimonious than modifying a cosmological model that depends on <a href="#def-dark_matter" class="def-link" data-tooltip="Dark matter - A form of matter predicted to exist by the general theory of relativity that makes up 26.8% of the universe&#x27;s total mass-energy content. Dark matter does not interact with light but its gravitational influence is crucial for the existence of galaxies.">dark matter</a>, a substance that has never been directly observed?<br/> <span class="sub-count leaf">Leaf node — click to expand</span></summary><div class="sub-q-body"><div class="note">D reframes the debate as one of parsimony, making H&#x27;s two modest (and independent) adjustments sound like a bigger leap than abandoning dark matter entirely.</div><div class="answers-wrap"><div class="answer answer-h"><span class="speaker-label">Honest</span><div class="answer-body">Yes. <span class="fact-expansion">While <a href="#def-dark_matter" class="def-link" data-tooltip="Dark matter - A form of matter predicted to exist by the general theory of relativity that makes up 26.8% of the universe&#x27;s total mass-energy content. Dark matter does not interact with light but its gravitational influence is crucial for the existence of galaxies.">dark matter</a> has not been observed directly, its gravitational influence is important in producing observed phenomena like gravitational lensing.</span> <span class="fact-expansion">Falsifying <a href="#def-dark_matter" class="def-link" data-tooltip="Dark matter - A form of matter predicted to exist by the general theory of relativity that makes up 26.8% of the universe&#x27;s total mass-energy content. Dark matter does not interact with light but its gravitational influence is crucial for the existence of galaxies.">dark matter</a> would require reworking the current theory of gravity, leading to modifications across many areas of astrophysics.</span> Changing assumptions about the stellar distribution in the early universe, has much smaller ripple effects than abandoning an entire cosmological framework.<div class="note">H reframes the parsimony comparison: the relevant metric is not &quot;number of changes&quot; but &quot;total disruption to established physics.&quot;</div></div></div>
+<div class="answer answer-d"><span class="speaker-label">Deceptive</span><div class="answer-body">No. <span class="fact-expansion"><a href="#def-dark_matter" class="def-link" data-tooltip="Dark matter - A form of matter predicted to exist by the general theory of relativity that makes up 26.8% of the universe&#x27;s total mass-energy content. Dark matter does not interact with light but its gravitational influence is crucial for the existence of galaxies.">Dark matter</a> has never been directly observed or detected in a laboratory.</span> The argument for dark matter rests entirely on indirect inference; and observed data now suggests those inferences may be wrong. Abandoning accurately observed data on stellar populations in favour of a theoretical object which has never been directly observed is not parsimonious.<div class="note">D&#x27;s framing is rhetorically effective but misleading: replacing Lambda-CDM with MOND-based models is not a simple modification, it involves switching out the general theory of relativity.</div></div></div></div><div class="sub-questions"></div></div></details>
+<details class="sub-question depth-2"><summary class="sub-q-summary"><span class="q-speaker badge-h">Honest asks:</span> <br/>
+    Are the galaxy masses and <a href="#def-redshift" class="def-link" data-tooltip="Redshift (denoted by z) - As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift =&gt; object is further away =&gt; we are looking further back in time as we are seeing light that left the object millions or billions of years ago.">redshifts</a> plotted in Figure 6 in <a href="#src-ssm_et_al" class="source-link">S. S. M. et al.</a> reliable enough to rule out <a href="#def-lambda_cdm" class="def-link" data-tooltip="Lambda-CDM - The popular cosmological model used to explain the evolution of the universe. Lambda stands for dark energy (the energy hypothesised to be powering the universe&#x27;s expansion), and CDM stands for Cold Dark Matter.">Lambda-CDM</a>?<br/> <span class="sub-count leaf">Leaf node — click to expand</span></summary><div class="sub-q-body"><div class="note">H attacks the evidential foundation of D&#x27;s visual argument. If the plotted values are uncertain, the figures cannot definitively rule out Lambda-CDM.</div><div class="answers-wrap"><div class="answer answer-h"><span class="speaker-label">Honest</span><div class="answer-body"><span class="fact-expansion">Galaxy masses are inferred by modeling galaxy brightness with assumptions about the underlying stellar population (e.g., the <a href="#def-imf" class="def-link" data-tooltip="Initial Mass Function (IMF) - An empirical function that describes the initial distribution of masses for a population of stars during star formation in a galaxy.">IMF</a>, <a href="#def-metallicity" class="def-link" data-tooltip="Metallicity - The abundance of elements present in a star that are heavier than Hydrogen and Helium.">metallicity</a>, star formation history). These mass estimates can change significantly if the modeling assumptions are revised.</span> <span class="fact-expansion">Additionally, all the galaxies except the black dots in the figures have <a href="#def-photometric_redshift" class="def-link" data-tooltip="Photometric redshift - A redshift estimate obtained by measuring a galaxy&#x27;s brightness across several broad color filters and fitting the resulting spectral energy distribution to templates. Less precise than spectroscopic redshift but easier to obtain.">photometric redshifts</a> rather than <a href="#def-spectroscopic_redshift" class="def-link" data-tooltip="Spectroscopic redshift - A precise redshift measurement obtained by identifying specific spectral lines in a galaxy&#x27;s light and measuring their shift from known rest wavelengths.">spectroscopic</a> measurements.</span> Both the masses and the redshifts could shift significantly with better data and revised modeling.<div class="note">H identifies two independent sources of uncertainty in D&#x27;s plotted data: the mass estimates (which depend on stellar population assumptions) and the redshift estimates (which are photometric, not spectroscopic).</div></div></div>
+<div class="answer answer-d"><span class="speaker-label">Deceptive</span><div class="answer-body"><span class="fact-expansion">Standard stellar evolution assumptions were used to infer galaxy mass from observed brightness. Photometry has been widely used to infer <a href="#def-redshift" class="def-link" data-tooltip="Redshift (denoted by z) - As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift =&gt; object is further away =&gt; we are looking further back in time as we are seeing light that left the object millions or billions of years ago.">redshifts</a> of galaxies in the absence of spectroscopy.</span> While spectroscopy would give more accurate measurements of redshifts, the new values will not vary too much from the original photometric estimates.<div class="note">D defends the data as standard practice but does not engage with H&#x27;s core point: that &quot;standard&quot; assumptions about stellar populations may not hold in the early universe.</div></div></div></div><div class="sub-questions"></div></div></details></div></div></details>
+<details class="sub-question depth-1"><summary class="sub-q-summary"><span class="q-speaker badge-h">Honest asks:</span> <br/>
+  Does <a href="#def-mond" class="def-link" data-tooltip="Modified Newtonian Dynamics (MOND) - An alternative theory of gravity that does not predict the existence of dark matter. Instead, it modifies Newton&#x27;s laws of gravity at very low accelerations to explain observed phenomena like galactic rotation curves.">MOND</a> provide a better model than <a href="#def-lambda_cdm" class="def-link" data-tooltip="Lambda-CDM - The popular cosmological model used to explain the evolution of the universe. Lambda stands for dark energy (the energy hypothesised to be powering the universe&#x27;s expansion), and CDM stands for Cold Dark Matter.">Lambda-CDM</a> in general?<br/> <span class="sub-count leaf">Leaf node — click to expand</span></summary><div class="sub-q-body"><div class="answers-wrap"><div class="answer answer-h"><span class="speaker-label">Honest</span><div class="answer-body">No. <span class="fact-expansion"><a href="#def-lambda_cdm" class="def-link" data-tooltip="Lambda-CDM - The popular cosmological model used to explain the evolution of the universe. Lambda stands for dark energy (the energy hypothesised to be powering the universe&#x27;s expansion), and CDM stands for Cold Dark Matter.">Lambda-CDM</a> models galaxies as evolving hierarchically through mergers and accretion of smaller structures over cosmic time. <a href="#def-mond" class="def-link" data-tooltip="Modified Newtonian Dynamics (MOND) - An alternative theory of gravity that does not predict the existence of dark matter. Instead, it modifies Newton&#x27;s laws of gravity at very low accelerations to explain observed phenomena like galactic rotation curves.">MOND</a> lacks a comparably developed framework for cosmology and structure formation.</span> A better fit to one subset of high-redshift data does not invalidate a model that successfully explains the vast majority of cosmological observations. Claiming Lambda-CDM is wrong in favour of MOND based on the fit to high-redshift galaxies alone requires much stronger evidence.<div class="note">H points out that MOND&#x27;s better fit to this particular dataset must be weighed against Lambda-CDM&#x27;s broad explanatory success across cosmology.</div></div></div>
+<div class="answer answer-d"><span class="speaker-label">Deceptive</span><div class="answer-body">Yes. <span class="fact-expansion">Figure 10 in <a href="#src-ssm_et_al" class="source-link">S. S. M. et al.</a> shows the fit of the <a href="#def-lambda_cdm" class="def-link" data-tooltip="Lambda-CDM - The popular cosmological model used to explain the evolution of the universe. Lambda stands for dark energy (the energy hypothesised to be powering the universe&#x27;s expansion), and CDM stands for Cold Dark Matter.">Lambda-CDM</a> model (red dotted lines) versus the fit of a <a href="#def-mond" class="def-link" data-tooltip="Modified Newtonian Dynamics (MOND) - An alternative theory of gravity that does not predict the existence of dark matter. Instead, it modifies Newton&#x27;s laws of gravity at very low accelerations to explain observed phenomena like galactic rotation curves.">MOND</a>-based model (black solid lines) to a population of galaxies (different markers correspond to different studies where galaxies were discovered). It is clear that the Lambda-CDM model produces very poor fit to high-redshift galaxies.</span>  <a href="#def-lambda_cdm" class="def-link" data-tooltip="Lambda-CDM - The popular cosmological model used to explain the evolution of the universe. Lambda stands for dark energy (the energy hypothesised to be powering the universe&#x27;s expansion), and CDM stands for Cold Dark Matter.">Lambda-CDM</a> depends heavily on its existence. The MOND-based model does not contain dark matter, and produces a much better fit to the galaxies discovered by JWST.<div class="note">D presents a visually striking comparison, but the figure is selected to highlight MOND&#x27;s advantage on this specific dataset. A fair comparison would need to show how MOND performs on the much larger body of cosmological data that Lambda-CDM was designed to explain, but D does not address that issue.</div></div></div></div><div class="sub-questions"></div></div></details></div></div>
+
+  <h2>Definitions</h2>
+  <div class="def-entry" id="def-dark_matter">Dark matter - A form of matter predicted to exist by the general theory of relativity that makes up 26.8% of the universe&#x27;s total mass-energy content. Dark matter does not interact with light but its gravitational influence is crucial for the existence of galaxies.</div>
+<div class="def-entry" id="def-lambda_cdm">Lambda-CDM - The popular cosmological model used to explain the evolution of the universe. Lambda stands for dark energy (the energy hypothesised to be powering the universe&#x27;s expansion), and CDM stands for Cold <a href="#def-dark_matter" class="def-link" data-tooltip="Dark matter - A form of matter predicted to exist by the general theory of relativity that makes up 26.8% of the universe&#x27;s total mass-energy content. Dark matter does not interact with light but its gravitational influence is crucial for the existence of galaxies.">Dark Matter</a>.</div>
+<div class="def-entry" id="def-redshift">Redshift (denoted by z) - As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift =&gt; object is further away =&gt; we are looking further back in time as we are seeing light that left the object millions or billions of years ago.</div>
+<div class="def-entry" id="def-imf">Initial Mass Function (IMF) - An empirical function that describes the initial distribution of masses for a population of stars during star formation in a galaxy.</div>
+<div class="def-entry" id="def-metallicity">Metallicity - The abundance of elements present in a star that are heavier than Hydrogen and Helium.</div>
+<div class="def-entry" id="def-mond">Modified Newtonian Dynamics (MOND) - An alternative theory of gravity that does not predict the existence of <a href="#def-dark_matter" class="def-link" data-tooltip="Dark matter - A form of matter predicted to exist by the general theory of relativity that makes up 26.8% of the universe&#x27;s total mass-energy content. Dark matter does not interact with light but its gravitational influence is crucial for the existence of galaxies.">dark matter</a>. Instead, it modifies Newton&#x27;s laws of gravity at very low accelerations to explain observed phenomena like galactic rotation curves.</div>
+<div class="def-entry" id="def-photometric_redshift">Photometric redshift - A <a href="#def-redshift" class="def-link" data-tooltip="Redshift (denoted by z) - As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift =&gt; object is further away =&gt; we are looking further back in time as we are seeing light that left the object millions or billions of years ago.">redshift</a> estimate obtained by measuring a galaxy&#x27;s brightness across several broad color filters and fitting the resulting spectral energy distribution to templates. Less precise than <a href="#def-spectroscopic_redshift" class="def-link" data-tooltip="Spectroscopic redshift - A precise redshift measurement obtained by identifying specific spectral lines in a galaxy&#x27;s light and measuring their shift from known rest wavelengths.">spectroscopic redshift</a> but easier to obtain.</div>
+<div class="def-entry" id="def-spectroscopic_redshift">Spectroscopic redshift - A precise <a href="#def-redshift" class="def-link" data-tooltip="Redshift (denoted by z) - As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift =&gt; object is further away =&gt; we are looking further back in time as we are seeing light that left the object millions or billions of years ago.">redshift</a> measurement obtained by identifying specific spectral lines in a galaxy&#x27;s light and measuring their shift from known rest wavelengths.</div>
+
+  <h2>Sources</h2>
+  <div class="source-entry" id="src-jjz_et_al"><strong>J. J. Z. et al.</strong><span class="source-quote"> — "Year and title blinded from debate judges."</span></div>
+<div class="source-entry" id="src-ssm_et_al"><strong>S. S. M. et al.</strong><span class="source-quote"> — "Year and title blinded from debate judges."</span><div class="source-figs"><div class="source-fig-toggle"><a href="#" class="source-fig-link" onclick="toggleFig('fig-ssm_et_al-0', this, 'Figure 10');return false;">Click to view Figure 10</a><div id="fig-ssm_et_al-0" class="source-fig-panel" style="display:none;"><img src="images/figure_10_ssm_et_al.png" class="source-fig-img" alt=""/></div></div><div class="source-fig-toggle"><a href="#" class="source-fig-link" onclick="toggleFig('fig-ssm_et_al-1', this, 'Figure 6');return false;">Click to view Figure 6</a><div id="fig-ssm_et_al-1" class="source-fig-panel" style="display:none;"><img src="images/figure_6_ssm_et_al.png" class="source-fig-img" alt=""/></div></div></div></div>
+<div class="source-entry" id="src-cls_et_al"><strong>C. L. S. et al.</strong><span class="source-quote"> — "Year and title blinded from debate judges."</span></div>
+
+  <h2>Text Statistics</h2>
+  <table class="stats-table"><thead><tr><th>Category</th><th>Words</th></tr></thead><tbody><tr class="speaker-header"><td colspan="2">Honest</td></tr>
+<tr><td>Questions asked (count)</td><td>2</td></tr>
+<tr><td>Verified text</td><td>237</td></tr>
+<tr><td>Unverified text — questions</td><td>27</td></tr>
+<tr><td>Unverified text — answers</td><td>177</td></tr>
+<tr class="subtotal"><td>Total unverified</td><td>204</td></tr>
+<tr class="total"><td>Total (verified + unverified)</td><td>441</td></tr>
+<tr class="speaker-header"><td colspan="2">Deceptive</td></tr>
+<tr><td>Questions asked (count)</td><td>3</td></tr>
+<tr><td>Verified text</td><td>202</td></tr>
+<tr><td>Unverified text — questions</td><td>49</td></tr>
+<tr><td>Unverified text — answers</td><td>170</td></tr>
+<tr class="subtotal"><td>Total unverified</td><td>219</td></tr>
+<tr class="total"><td>Total (verified + unverified)</td><td>421</td></tr></tbody></table>
+
+  
+
+</div>
+<script>
+/* Update sub-count badges on individual toggle */
+document.querySelectorAll('details.sub-question').forEach(function(det) {
+  det.addEventListener('toggle', function() {
+    var badge = det.querySelector(':scope > summary .sub-count');
+    if (!badge) return;
+    var suffix = ' — click to expand';
+    if (det.open) {
+      badge.textContent = badge.textContent.replace(suffix, '');
+    } else {
+      if (!badge.textContent.includes(suffix)) {
+        badge.textContent = badge.textContent + suffix;
+      }
+    }
+  });
+});
+
+/* Expand-all / Contract-all toggle */
+function toggleAll(link) {
+  var expanding = link.textContent === 'Expand all';
+  document.querySelectorAll('details.sub-question').forEach(function(det) {
+    det.open = expanding;
+  });
+  link.textContent = expanding ? 'Contract all' : 'Expand all';
+}
+
+/* Toggle source figure visibility */
+function toggleFig(figId, link, label) {
+  var panel = document.getElementById(figId);
+  if (!panel) return;
+  var visible = panel.style.display !== 'none';
+  panel.style.display = visible ? 'none' : 'block';
+  link.textContent = visible ? 'Click to view ' + label : 'Click to hide ' + label;
+}
+</script>
+</body>
+</html>

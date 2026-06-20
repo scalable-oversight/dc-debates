@@ -1,0 +1,113 @@
+================================================================================
+KEY QUESTION
+================================================================================
+
+Consider these two quantities: X: The expected number of rolls of a fair six-sided die until you roll two 6s in a row, given that all rolls were even. Y: The expected number of rolls of a fair six-sided die until you roll the second 6 (not necessarily in a row), given that all rolls were even. To understand exactly what is meant by "the expected number of rolls... given that all rolls were even" in this problem, think of it this way: Imagine you were to perform a billion sequences of die rolls, stopping each sequence when you roll two 6s in a row. Then you throw out all the sequences that contain an odd roll. The average number of rolls in the remaining sequences will be close to X. Next, perform a billion sequences of die rolls, stopping each sequence when you roll the second 6. Throw out all the sequences among these that contain an odd roll. The average number of rolls in the remaining sequences will be close to Y. Which is larger, X or Y?
+
+================================================================================
+SOURCES
+================================================================================
+
+Wikipedia, Geometric distribution [URL blinded from debate judges.] — “The geometric distribution gives the probability that the first occurrence of success requires \(k\) independent trials, each with success probability \(p\). If the probability of success on each trial is \(p\), then the probability that the \(k\)-th trial is the first success is \[\Pr(X = k) = (1-p)^{k-1}p\] for \(k=1,2,3,4,\dots\) The above form of the geometric distribution is used for modeling the number of trials up to and including the first success.”
+
+Wikipedia, Conditional probability [URL blinded from debate judges.] — “If the event of interest is \(A\) and the event \(B\) is known or assumed to have occurred, 'the conditional probability of \(A\) given \(B\)', or 'the probability of \(A\) under the condition \(B\)', is usually written as \(P(A|B)\) or occasionally \(P_B(A)\). This can also be understood as the fraction of probability B that intersects with A, or the ratio of the probabilities of both events happening to the 'given' one happening (how many times A occurs rather than not assuming B has occurred): \[P(A \mid B) = \frac{P(A \cap B)}{P(B)}\]”
+
+Wikipedia, Expected value [URL blinded from debate judges.] — “Informally, the expectation of a random variable with a countably infinite set of possible outcomes is defined analogously as the weighted average of all possible outcomes, where the weights are given by the probabilities of realizing each given value. This is to say that \[\operatorname{E}[X] = \sum_{i=1}^\infty x_i\, p_i,\] where $x_1, x_2, \dots$ are the possible outcomes of the random variable $X$ and $p_1, p_2, \dots$ are their corresponding probabilities.”
+
+Wikipedia, Arithmetico-geometric sequence [URL blinded from debate judges.] — “In general, $ \sum_{k=1}^{\infty} {\color{blue} k} {\color{green} r^k} = \frac{r}{(1 - r)^2} \quad \text{for } -1 < r < 1 $”
+
+--------------------------------------------------------------------------------
+Note: Exactly one of these debater's answers matches the answer of the expert who wrote the Key Question.
+--------------------------------------------------------------------------------
+
+================================================================================
+DEBATE — LEFT SIDE OF TABLE
+================================================================================
+
+────────────────────────────────────────────────────────────
+Debater A: [Opening]
+────────────────────────────────────────────────────────────
+
+Y is larger. "Given all even" acts as a filter that deletes long sequences (probability of rolling odd increases quickly with sequence length), and two 6s in a row is hard to get without a long sequence, so X is biased toward very short, lucky runs.
+
+────────────────────────────────────────────────────────────
+Debater B: [Question 1]
+────────────────────────────────────────────────────────────
+
+Anytime you roll until reaching two 6s in a row, you will have also hit your second 6 at or before that moment. Since the stopping condition for X is strictly harder and happens later than or at the same time as Y, shouldn't X always be larger?
+
+────────────────────────────────────────────────────────────
+Debater A: [Answer 1]
+────────────────────────────────────────────────────────────
+
+'Strictly harder' means *shorter* since we're discarding sequences with odds. For X, if you roll 2 or 4 after 6, you've broken your streak; to fix it you keep rolling, which exposes you to high risk of rolling an odd and dying. Surviving seqs for X tend to be those that succeeded quickly.
+
+────────────────────────────────────────────────────────────
+Debater B: [Question 2]
+────────────────────────────────────────────────────────────
+
+You're describing the prob. of a sequence being valid, but the question asks for the expected # of rolls in valid sequences. Even if valid X-sequences are rarer, why would survivors be shorter? Shouldn't the distribution be dominated by long sequences that managed to finally get two 6s in a row?
+
+────────────────────────────────────────────────────────────
+Debater A: [Answer 2]
+────────────────────────────────────────────────────────────
+
+No. After 2 rolls the prob of a win for X & Y is equal. After 10 it's much lower for X, because any non-6 even roll breaks X's streak and forces a restart. The difference in distributions biases X towards short rolls (relative to Y).
+
+────────────────────────────────────────────────────────────
+Debater B: [Question 3]
+────────────────────────────────────────────────────────────
+
+If I roll 6, 4, 6, I have satisfied Y and I stop (3 rolls). For X, I am not done; I have to keep rolling, adding more length to the sequence. The per-roll probability of dying is 1/2 regardless of which condition we're tracking. Why would the filter affect them differently?
+
+────────────────────────────────────────────────────────────
+Debater A: [Answer 3]
+────────────────────────────────────────────────────────────
+
+Because X needs longer sequences on average, its sequences spend more time exposed to the risk of dying. Consider a 100-sided die: "100, 100" in a row is rare, so without getting it quickly you'll almost certainly hit an odd and die. Runs like 100, 24, 82, 100 are commoner for Y. Same logic on D6.
+
+================================================================================
+DEBATE — RIGHT SIDE OF TABLE
+================================================================================
+
+────────────────────────────────────────────────────────────
+Debater B: [Opening]
+────────────────────────────────────────────────────────────
+
+X is larger. The condition "all rolls were even" turns the D6 into a D3 for purposes of this question (sides 2, 4, 6). On a D3, getting two 6s in a row is harder than getting two 6s generally, so it takes more rolls.
+
+────────────────────────────────────────────────────────────
+Debater A: [Question 1]
+────────────────────────────────────────────────────────────
+
+If conditioning on all-even is equivalent to rolling a D3, then E[rolls to first 6] should match under both interpretations. On a D3 it's 3 (geometric distribution, [Wikipedia, Geometric distribution], success rate 1/3). E[rolls to first 6 | all even] = 3/2. Since 3 ≠ 3/2, doesn't this disprove the equivalence?
+
+────────────────────────────────────────────────────────────
+Debater B: [Answer 1]
+────────────────────────────────────────────────────────────
+
+(a) I don't believe you unless you prove it, and (b) I said it turns the D6 into a D3 *for purposes of this question*. You've substituted a different question. Even if conditioning and D3-rolling differ for the first-6 case, it doesn't follow they differ for the question at hand.
+
+────────────────────────────────────────────────────────────
+Debater A: [Question 2]
+────────────────────────────────────────────────────────────
+
+P(X|Y) = P(X & Y)/Pr(Y) ([Wikipedia, Conditional probability]). Numerator for P(first 6 on roll k|all rolls even): If k rolls to see first 6 & all rolls even, then the first k - 1 were all 2 or 4 & the kth was 6. Which has prob ((2/6)^k-1)*(1/6). Isn't the denominator = "prob that of {1,3,5,6}, 6 is the first to appear" = 1/4?
+
+────────────────────────────────────────────────────────────
+Debater B: [Answer 2]
+────────────────────────────────────────────────────────────
+
+Your formula states the denominator should be P(all rolls even), which is (2/6)^k. Also see my previous reply: it addresses the wrong question. And again, for any sequence, X's stopping condition is met at or after Y's, so X ≥ Y.
+
+────────────────────────────────────────────────────────────
+Debater A: [Question 3]
+────────────────────────────────────────────────────────────
+
+P(all even) can't depend on k, it's a marginal prob. Sum over sequence lengths and get 1/4. Numerator over denominator is (2/3)(1/3)^(k-1). Plug into [Wikipedia, Expected value], get sum(k=1->infinity) of k*(2/3)(1/3)^(k-1). Rewrite as (2/3)*(1/(1/3))*sum(k=1->infinity) of k*(1/3)^k, apply [Wikipedia, Arithmetico-geometric sequence] to get 3/2. So you concede?
+
+────────────────────────────────────────────────────────────
+Debater B: [Answer 3]
+────────────────────────────────────────────────────────────
+
+Marginal probs absolutely depend on the roll # of the first 6, so this is wrong. Also, this is about expected rolls to the first 6; the question asks about the second 6. The relationship between X and Y depends on how the two stopping conditions interact; this calculation doesn't address that.

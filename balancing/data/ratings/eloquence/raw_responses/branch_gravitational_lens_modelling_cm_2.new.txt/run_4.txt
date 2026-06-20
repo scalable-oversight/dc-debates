@@ -1,0 +1,103 @@
+I'll analyze each turn for eloquence, focusing on expression quality rather than argument soundness.
+
+---
+
+**1. Debater A: [Opening]**
+The sentence is functional but dense and list-like, with parenthetical asides that interrupt flow. "white galaxy and red galaxy behind it" is informal and slightly awkward. The technical content is crammed into one sentence without rhetorical grace.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1]**
+Claim 1 uses "overfit" and "modeling decisions" competently but the phrasing "due to the modeling decisions made for the second deflector and the galaxies in the first deflector's plane" is somewhat clunky. Claim 2 is cleaner and more direct: "do not quantify or report chi-squared error, an important index of image reconstruction error" is well-constructed and informative. Together, modest but readable.
+**Rating: 3**
+
+---
+
+**3. Debater A: [Response 1]**
+Claim 1 ("appears likely to have a significant effect on the modelling when it is close to the optical axis") is hedged but clear. Claim 2 ("Taking galaxy positions into account allows one to more accurately model a more complex mass distribution than a simple shear") is adequately expressed. Both claims are competent but unremarkable, with no particularly striking phrasing.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2]**
+Claim 1 is crisp and effective: the contrast of "30 total parameters" versus "12 parameters used in other work" is well-deployed. Claim 2 follows naturally: "enormous degree of modelling flexibility and results in overfitting" is cleanly expressed. The numerical contrast gives rhetorical punch. A solid, well-constructed turn.
+**Rating: 4**
+
+---
+
+**5. Debater A: [Response 2]**
+Claim 1 ("A simpler model is not necessarily a correct or accurate model") is a clean, well-worn logical counter. Claim 2 ("only partially constrained, and therefore should not count as full degrees of freedom") is technically precise but slightly awkward in its framing. Together, competent but not especially polished.
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3]**
+Claim 1 ("they are themselves determined via different models that come with their own errors and uncertainties") is fluent and builds a layered point well. Claim 2 ("can vary considerably, adding even more freedom to an already complex model") uses "even more freedom to an already complex model" effectively as a cumulative rhetorical move. A well-expressed turn.
+**Rating: 4**
+
+---
+
+**7. Debater A: [Response 3]**
+Claim 1 ("pins down its distance (its redshift) tightly, regardless of the lens model") is nicely expressed with the parenthetical clarification and the emphatic "tightly." Claim 2 ("Hubble imaging fixes the on-sky positions to a fraction of an arcsecond") is vivid and precise. "On top of that" is a smooth connector. This is one of the more eloquent turns on the left side.
+**Rating: 4**
+
+---
+
+**8. Debater B: [Opening]**
+The sentence is structured clearly, with "the four brightest images" and "the two dim images next to the extended red arcs" as effective descriptors that show observational grounding. Slightly list-like but more naturally flowing than Debater A's opening. Competent but plain.
+**Rating: 3**
+
+---
+
+**9. Debater A: [Argument 1]**
+Claim 1 uses "constrains the redshift... to be 1.88, which places it between the main deflector and alleged dual-AGN" well — "alleged" is a nicely loaded word choice. Claim 2 ("should include the mass profile of the red galaxy in order to be valid, but it does not") ends with a punchy short clause. A well-constructed argument turn.
+**Rating: 4**
+
+---
+
+**10. Debater B: [Response 1]**
+Claim 1 ("will, on the whole, produce only minor changes in the caustics at the redshift of the dual-AGN") is hedged but precise. Claim 2 ("The added mass will in turn allow for a relatively larger separation between the two AGN, as one might reasonably expect") uses "as one might reasonably expect" as an elegant closing phrase. Flows well overall.
+**Rating: 4**
+
+---
+
+**11. Debater A: [Argument 2]**
+Claim 1 ("enables models in which one single source can produce 6 observed images") is plain but clear. Claim 2 ("Single-AGN models remain consistent with all available data, making the dual-AGN model unnecessary") is direct and well-phrased, with "unnecessary" landing effectively as a conclusive judgment. Competent and clean.
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2]**
+Claim 1 ("requires a specific morphology which has never been observed before") is effective — "never been observed before" carries rhetorical weight. Claim 2 ("does not invoke overcomplicated hypotheses or unobserved morphologies") uses "overcomplicated hypotheses" and "unobserved morphologies" well, echoing scientific parsimony principles elegantly. A polished turn.
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3]**
+Claim 1 is notably complex, embedding observational data (35 days, redshifts, D and E labels, 6 kiloparsecs) into a single sentence that ends with "But C. S. M. et al. claim that D and E correspond to AGN that are 6 kiloparsecs away from each other" — the "But" pivot is rhetorically effective, though the sentence feels overloaded. Claim 2 ("Light curves this similar can only be generated by a single source") is admirably crisp and declarative. The contrast between the two claims works well.
+**Rating: 3**
+
+---
+
+**14. Debater B: [Response 3]**
+Claim 1 ("Activity in one AGN can set off activity in the other AGN in a dual-AGN system, causing correlated emissions") is clear though somewhat repetitive in structure ("AGN... AGN"). Claim 2 ("Correlated emissions can make two different objects look like a single object under some circumstances") is simple and plain — "under some circumstances" is a weak hedge. The turn is competent but unpolished.
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[4]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[4]]
+B | Opening | [[3]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[3]]

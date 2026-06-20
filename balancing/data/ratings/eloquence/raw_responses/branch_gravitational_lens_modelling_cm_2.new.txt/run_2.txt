@@ -1,0 +1,157 @@
+I'll analyze each turn for eloquence, focusing on expression quality rather than argument strength.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The Einstein zig-zag lens model ([F. D. et al.]) with two deflectors (white galaxy and red galaxy behind it) at different redshifts, and one AGN which produces 6 lensed images after being lensed by both deflectors."
+
+This is a functional sentence but reads as a fragment — no main verb anchors it as a complete statement. The parenthetical interruption "(white galaxy and red galaxy behind it)" breaks the flow somewhat. The phrase "after being lensed by both deflectors" is serviceable but not polished. Overall: competent but plainly expressed.
+
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "The Einstein zig-zag lens model is overfit, due to the modeling decisions made for the second deflector and the galaxies in the first deflector's plane."
+Claim 2: "Also, F. D. et al. do not quantify or report chi-squared error, an important index of image reconstruction error."
+
+Claim 1 is clearly structured. "Modeling decisions" is slightly vague but not awkward. Claim 2 opens with the weak connector "Also," which feels informal and slightly flat. "An important index of image reconstruction error" is a reasonable appositive. Together they're plain but functional.
+
+**Rating: 2**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: "The mass profile of the second deflector appears likely to have a significant effect on the modelling when it is close to the optical axis."
+Claim 2: "Taking galaxy positions into account allows one to more accurately model a more complex mass distribution than a simple shear."
+
+Claim 1 has an awkward hedging stack: "appears likely to have a significant effect" — several qualifiers piled together. Claim 2 uses "allows one to" which is slightly formal, and "more accurately model a more complex" contains an inelegant repetition of "more." Both claims are functional but unremarkable.
+
+**Rating: 2**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: "This fails to reveal that the model has 30 total parameters, compared to 12 parameters used in other work."
+Claim 2: "This provides an enormous degree of modelling flexibility and results in overfitting."
+
+Both claims open with "This," which is repetitive and anaphoric in a flat rather than rhetorical way. "Enormous degree of modelling flexibility" is reasonably vivid. The claims are concise and direct, but the construction is pedestrian.
+
+**Rating: 2**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: "A simpler model is not necessarily a correct or accurate model of the system in question."
+Claim 2: "Fifteen parameters in our model are only partially constrained, and therefore should not count as full degrees of freedom."
+
+Claim 1 is a clean, well-phrased rebuttal — clear and logically stated. "Not necessarily a correct or accurate model" is slightly redundant (correct and accurate overlap). Claim 2 is lucid and technical but readable. Together these are among the more competently expressed turns on the left side.
+
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "Constraints don't actually fix them in place: they are themselves determined via different models that come with their own errors and uncertainties."
+Claim 2: "Furthermore, all galaxy positions and redshifts except for the main deflector can vary considerably, adding even more freedom to an already complex model."
+
+Claim 1 uses a colon effectively to elaborate the point, and "fix them in place" is a pleasingly concrete phrase. Claim 2 opens with "Furthermore," a good transitional word, and "adding even more freedom to an already complex model" rounds the sentence well. This is one of the more rhetorically considered turns on the left side.
+
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: "Direct spectroscopy of the second deflector pins down its distance (its redshift) tightly, regardless of the lens model."
+Claim 2: "On top of that, Hubble imaging fixes the on-sky positions to a fraction of an arcsecond."
+
+"Pins down... tightly" is a confident, vivid phrase. "On top of that" is a natural, effective transition. "Fixes the on-sky positions to a fraction of an arcsecond" is precise and reads well. These two claims work together cohesively and are expressed with some flair. One of the stronger turns in the transcript.
+
+**Rating: 4**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The gravitationally lensed dual-AGN model ([C. S. M. et al.]), with the first AGN corresponding to the four brightest images and the second AGN corresponding to the two dim images next to the extended red arcs."
+
+Like Debater A's opening, this is a fragment — no main verb. The parallel construction ("the first AGN corresponding… the second AGN corresponding") is somewhat effective, but "two dim images" is plain, and "next to the extended red arcs" is a slightly clunky descriptor. Comparable in quality to the opposing opening.
+
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "Spectroscopy constrains the redshift of the lensed red galaxy to be 1.88, which places it between the main deflector and alleged dual-AGN."
+Claim 2: "The dual-AGN model's lens model should include the mass profile of the red galaxy in order to be valid, but it does not."
+
+Claim 1 is clearly stated; "alleged dual-AGN" is a pointed word choice with mild rhetorical effect. Claim 2 ends with "but it does not" — a short, punchy close that works well. Together these are competently expressed with a small touch of rhetorical sharpness.
+
+**Rating: 3**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "Inclusion of the red galaxy in the lens model will, on the whole, produce only minor changes in the caustics at the redshift of the dual-AGN."
+Claim 2: "The added mass will in turn allow for a relatively larger separation between the two AGN, as one might reasonably expect."
+
+"On the whole" is a smooth insertive phrase. "As one might reasonably expect" closes the second claim gracefully. Both claims are well-constructed, with a measured, confident tone. Among the more fluent turns in the right-side debate.
+
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "The presence of a second deflector enables models in which one single source can produce 6 observed images."
+Claim 2: "Single-AGN models remain consistent with all available data, making the dual-AGN model unnecessary."
+
+"One single source" is slightly redundant ("one" and "single" overlap). Claim 2 is clean and direct. The turn as a whole is functional but unremarkable in expression.
+
+**Rating: 2**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "A single source being lensed to produce 6 images requires a specific morphology which has never been observed before."
+Claim 2: "A dual-AGN is an observed phenomenon that does not invoke overcomplicated hypotheses or unobserved morphologies."
+
+"Overcomplicated hypotheses or unobserved morphologies" is a rhetorically effective phrase — clear and pointed. The parallel contrast between Claim 1 ("never observed") and Claim 2 ("observed phenomenon") is well-constructed. These two claims work together with some rhetorical elegance.
+
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "Light curves for all 6 lensed images display the same variations with brief offsets (e.g. 35 days between D and E), and the same redshifts. But C. S. M. et al. claim that D and E correspond to AGN that are 6 kiloparsecs away from each other."
+Claim 2: "Light curves this similar can only be generated by a single source."
+
+Claim 1 is detailed and reads somewhat like a technical list, though the pivot with "But" is effective — confrontational and clear. "Light curves this similar" in Claim 2 is a clean, direct phrase. The short, declarative Claim 2 provides a good rhetorical punch after the more information-dense Claim 1.
+
+**Rating: 3**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "Activity in one AGN can set off activity in the other AGN in a dual-AGN system, causing correlated emissions."
+Claim 2: "Correlated emissions can make two different objects look like a single object under some circumstances."
+
+"Set off activity" is a vivid, accessible phrase. Claim 2 — "make two different objects look like a single object" — is clear and effective in expressing the counterintuitive point. "Under some circumstances" is a mild hedge but not awkward. Both claims are cleanly expressed; the turn is competent and readable.
+
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[4]]
+B | Opening | [[2]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[3]]

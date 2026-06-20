@@ -1,0 +1,103 @@
+I'll analyze each turn for defensiveness, looking at language signals before providing ratings.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+The opening is a simple, confident assertion of a position with a citation. There is no challenge to respond to yet, so no defensive language is present. The tone is declarative and open.
+**Rating: 1**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Both claims present factual, neutral observations about SMBHs and the implied distance problem. The language is straightforward and analytical — no dismissiveness or protectiveness. This is a clean attack, not a defensive posture.
+**Rating: 1**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1 directly addresses the objection by explaining the recoil mechanism. Claim 2 introduces supporting evidence from a source. The response is constructive and engages with the challenge substantively. No deflection or irritation detected.
+**Rating: 1**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Both claims present a new analogy-based argument (globular clusters). The language is neutral and analytical. No signs of defensiveness — this is an offensive argumentative move, not a protective one.
+**Rating: 1**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1 introduces a new physical concept (supersonic travel/bow shock) to differentiate the SMBH from globular clusters. Claim 2 applies this reasoning. The response is substantive and introduces new reasoning rather than simply repeating prior assertions. No significant defensive language.
+**Rating: 1**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Both claims cite a specific figure to challenge the color/age prediction. The language is precise and evidentiary. No defensiveness — this is a well-structured attack.
+**Rating: 1**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1 offers an explanation for the color fluctuations (supergiants). Claim 2 adds another mechanism. Both claims engage substantively with the challenge and introduce new reasoning. The word "While" in Claim 1 concedes the expectation before explaining it away — a mild hedging signal, but not particularly defensive. Overall, the response is constructive.
+**Rating: 2**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+A simple, confident assertion with a citation. No challenge to respond to; no defensive language present.
+**Rating: 1**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Both claims present specific observational inconsistencies with the galaxy hypothesis. The language is assertive and evidence-based. No defensiveness.
+**Rating: 1**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1 defines the Tully-Fisher relation (neutral, factual). Claim 2 invokes it as supporting evidence. Both claims engage straightforwardly with the challenge and introduce new evidence. No defensive language.
+**Rating: 1**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1 concedes the Tully-Fisher point partially ("not sufficient") before pivoting. Claim 2 introduces new velocity gradient evidence. The language is measured and analytical. No real defensiveness.
+**Rating: 1**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1 introduces IC5249 as an analogous object. Claim 2 draws a comparison to support the galaxy hypothesis. The response engages with the velocity gradient challenge constructively by offering a comparable example. No defensive language.
+**Rating: 1**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1 directly addresses and concedes a minor point about IC5249 before noting a difference ("smoother"). Claim 2 introduces a fuller dataset to counter the partial figure comparison. The word "Additionally" signals a structured, calm argument. No defensiveness.
+**Rating: 1**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1 raises a potential methodological issue with the opponent's figure (the inclusion of galaxy data on the left). Claim 2 introduces an alternative explanation (galactic mergers). Both claims represent somewhat new reasoning, but Claim 1 has a slight character of deflecting the velocity gradient challenge by questioning the opponent's figure rather than fully addressing it. Claim 2 pivots to a new explanation rather than directly countering. There is a mild sense of shifting ground rather than fully engaging, but it's not strongly defensive.
+**Rating: 2**
+
+---
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[1]]
+A | Response 1 | [[1]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[2]]
+B | Opening | [[1]]
+A | Argument 1 | [[1]]
+B | Response 1 | [[1]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[1]]
+A | Argument 3 | [[1]]
+B | Response 3 | [[2]]

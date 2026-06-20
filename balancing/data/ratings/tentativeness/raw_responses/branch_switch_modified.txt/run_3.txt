@@ -1,0 +1,96 @@
+I'll analyze each turn for hedging and qualifying language, then provide ratings.
+
+**1. Debater A: [Opening] (Left)**
+"The speed stays the same when we model the car as a point mass. It decreases slightly when modeled as a rigid body."
+- "slightly" is a mild qualifier softening the degree of decrease.
+- "when we model" introduces a conditional framing, but this is more definitional than hedging.
+- Overall: one minor hedge ("slightly"). Mostly direct assertions.
+**Rating: 2**
+
+**2. Debater B: [Argument 1] (Left)**
+"A ball on a string spins faster when pulled inward. The same principle applies when the car transitions to a tighter radius." / "The connecting track provides a radially inward force that accelerates the car tangentially."
+- No hedging language. Both claims are stated as direct facts.
+**Rating: 1**
+
+**3. Debater A: [Response 1] (Left)**
+"The string does work because, as the ball spirals inward, its velocity has a radial component aligned with the tension." / "The fixed frictionless track exerts only a normal constraint force perpendicular to the car's velocity, so unlike the string it does no work."
+- No hedging language. Both claims are stated directly and confidently.
+**Rating: 1**
+
+**4. Debater B: [Argument 2] (Left)**
+"The curvature changes continuously along the connecting track, so the direction of the constraint force rotates." / "This continuous rotation means that the force cannot remain perfectly perpendicular to the velocity at every instant."
+- "cannot remain perfectly perpendicular" — "perfectly" could be seen as a slight qualifier, but it's used to strengthen rather than hedge. No true hedging language present.
+**Rating: 1**
+
+**5. Debater A: [Response 2] (Left)**
+"The car's velocity is tangent to the track at every point. The constraint force is normal to the track, hence perpendicular to velocity." / "At every instant, the force and velocity rotate together, maintaining perpendicularity even as curvature changes."
+- No hedging language. Claims are stated as geometric facts directly and confidently.
+**Rating: 1**
+
+**6. Debater B: [Argument 3] (Left)**
+"Along the transition arc, the rail's normal force rotates and grows as curvature tightens." / "Centripetal acceleration varies in magnitude with the local radius of curvature, unlike on either circular section."
+- No hedging language. Both claims are stated as direct observations.
+**Rating: 1**
+
+**7. Debater A: [Response 3] (Left)**
+"These facts are true but do not refute Debater A Response 2 Claim 2." / "Imagine you're in the car. Velocity points out the windshield, your side doors are aligned with the track. Although you're turning, your doors stay exactly 90 degrees from your windshield."
+- No hedging language. The analogy is presented directly and confidently.
+**Rating: 1**
+
+**8. Debater B: [Opening] (Right)**
+"The speed increases if we model the car as a point mass. It also increases if we model it as a rigid body."
+- "if we model" introduces conditional framing, similar to Debater A's opening. This is slightly hedging via conditional phrasing.
+- One mild instance of conditional framing.
+**Rating: 2**
+
+**9. Debater A: [Argument 1] (Right)**
+"On a frictionless track, the rails' constraint force does no work, so kinetic energy (KE) is conserved and speed cannot increase." / "There is no mechanism on a fixed frictionless track to add energy to the car."
+- No hedging language. Both claims are stated as direct logical conclusions.
+**Rating: 1**
+
+**10. Debater B: [Response 1] (Right)**
+"If the rails truly do no work, then a point-mass car cannot lose speed on the smaller track." / "Yet if kinetic energy is conserved and the rails do no work, then no slowdown should occur on a frictionless track for a rigid body model, contradicting Debater A's Opening."
+- "truly" in "if the rails truly do no work" adds a subtle skeptical qualifier.
+- "if...then" conditional structure appears in both claims, but these are logical conditionals rather than hedges about uncertainty.
+- "should occur" is a mild hedge compared to "will occur."
+- Overall: minimal hedging.
+**Rating: 2**
+
+**11. Debater A: [Argument 2] (Right)**
+"A rigid body has both translational and rotational kinetic energy; a point mass has only translational." / "On a tighter track, the body is forced to yaw with the curvature, and rotational energy increases at the expense of translational energy."
+- No hedging language. Both claims are stated as direct physical facts.
+**Rating: 1**
+
+**12. Debater B: [Response 2] (Right)**
+"The rail forces that steer the rigid body do positive work and supply the rotational KE directly; it does not need to come from translational KE." / "Since ω = v/R, any drop in v also reduces ω, so the rotational KE does not have to increase."
+- "does not need to come from" and "does not have to increase" — these are mild qualifiers indicating possibility rather than necessity, but they're used as logical counters rather than personal uncertainty hedges.
+- These phrases are mildly tentative in framing.
+**Rating: 2**
+
+**13. Debater A: [Argument 3] (Right)**
+"Whether ω = v/R rises or falls depends on whether v or R changes faster. Energy conservation gives v₂ > v₁·R₂/R₁." / "For any choice of m, I, R₁>R₂, this gives v₂/v₁ > R₂/R₁, so ω = v/R increases."
+- No hedging language. Claims are stated as mathematical results.
+**Rating: 1**
+
+**14. Debater B: [Response 3] (Right)**
+"The formula ω = v/R is a 'point-mass formula' that applies only to a tiny point mass moving on a circle of radius R." / "The center of mass does not ride on the rail's radius, so you can't plug in the velocity at the center of mass for v and the rail radius for R."
+- "tiny point mass" — "tiny" is descriptive but not a hedge.
+- "you can't plug in" is direct.
+- No true hedging language.
+**Rating: 1**
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[1]]
+A | Response 1 | [[1]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[1]]
+B | Opening | [[2]]
+A | Argument 1 | [[1]]
+B | Response 1 | [[2]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[1]]
+B | Response 3 | [[1]]

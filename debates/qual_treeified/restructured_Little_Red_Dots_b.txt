@@ -1,0 +1,141 @@
+<title>Little Red Dots</title>
+
+<defs>
+  <def id="accretion">Accretion - The process where a celestial object grows by gravitationally attracting and accumulating surrounding matter, like gas or dust, often forming a swirling accretion disk around the massive object before the material spirals inward. The central object can be a <a xdef="protostar">protostar</a>, or a compact object like a neutron star or a black hole.
+
+  <img src="images/accretion.png"/>
+  </def>
+
+  <def id="eddington_limit">Eddington limit - A theoretical limit to how fast an <a xdef="accretion">accreting</a> body can grow. This is the point at which the outward force produced by radiation pressure is equal to the gravitational attraction experienced by the in-falling matter. In real systems, it is known that this limit can be violated, due to non-spherical geometry or various kinds of instabilities, resulting in super-Eddington accretion.
+  </def>
+
+  <def id="protostar">Protostar - A protostar is the earliest stage of stellar evolution, forming from a collapsing cloud of gas and dust and growing by <a xdef="accretion">accreting</a> more material, becoming hotter and denser until nuclear fusion ignites, transitioning it into a main-sequence star.
+  </def>
+
+  <def id="agn">AGN - Active Galactic Nuclei are galaxies with an actively <a xdef="accretion">accreting</a> (consuming matter) supermassive black hole (SMBH) at their center. The matter forms a very bright (one of the brightest phenomena in the universe) accretion disc as it spirals into the SMBH. An AGN might also contain twin jets of gas and dust ejected from the center of the galaxy that can rival the galaxy's own size. High <a xdef="redshift">redshift</a> AGN are often referred to as quasars.
+
+  <img src="images/agn.png"/>
+  </def>
+
+  <def id="redshift">Redshift (denoted by z) - As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift => object is further away.
+  </def>
+
+  <def id="supermassive_stars">Supermassive stars - Theoretical, extremely massive stars (100 to 100,000+ solar masses or Msol) that likely formed in the early universe from primordial gas (mostly pure hydrogen and helium), theorized to be the seeds for the first supermassive black holes seen in the centers of galaxies.
+  </def>
+</defs>
+
+<problem>
+What theoretical model best explains the Little Red Dots (LRDs) observed by the James Webb Space Telescope?
+</problem>
+
+<sources>
+  <ref speaker="H" id="zz_et_al"
+       quote="Year and title blinded from debate judges."
+       author="Z. Z. et al."/>
+
+  <ref speaker="D" id="dn_et_al"
+       quote="Year and title blinded from debate judges."
+       author="D. N. et al."/>
+
+  <ref speaker="H" id="pm_et_al"
+       quote="Year and title blinded from debate judges."
+       author="P. M. et al."/>
+
+  <ref speaker="D" id="dn_lz_et_al"
+       quote="Year and title blinded from debate judges."
+       author="D. N., L. Z. et al."/>
+
+  <ref speaker="H" id="ki_sk_et_al"
+       quote="Year and title blinded from debate judges."
+       author="K. I., S. K. et al."/>
+
+  <ref speaker="H" id="ki_et_al"
+       quote="Year and title blinded from debate judges."
+       author="K. I., et al."/>
+</sources>
+
+<facts speaker="H">
+  <ref id="super_eddington_xray">At super-<a xdef="eddington_limit">Eddington</a> <a xdef="accretion">accretion</a> rates, the hot corona above the inner accretion disk, thought to be responsible for X-ray emission in "normal" <a xdef="agn">AGN</a>, is embedded in a funnel-like reflection geometry. The high UV density can cool down the plasma and result in extremely soft X-ray spectra <xref rid="pm_et_al"/>.</ref>
+
+  <ref id="variability_accretion_rate"><a xdef="agn">AGN</a> variability amplitude decreases with increasing <a xdef="accretion">accretion</a> rate <xref rid="ki_sk_et_al"/></ref>
+
+  <ref id="dense_gas_balmer">Absorption from extremely dense gas in the line of sight has been used to explain Balmer absorption features in other high-<a xdef="redshift">redshift</a> <a xdef="agn">AGN</a> <xref rid="ki_et_al"/>.</ref>
+
+  <ref id="sms_lifetime">The alleged LRD-like phase mentioned in <xref rid="dn_et_al"/> lasts approximately 1000 years before the star achieves its final mass of 10^6 Msol and collapses directly into a black hole.</ref>
+
+  <ref id="number_density_problem">If all LRDs correspond to pre-collapse <a xdef="supermassive_stars">SMS</a>, and the alleged LRD-like phase lasts only ~1000 years, the amount of corresponding black holes would be much higher than what is observed.</ref>
+
+  <ref id="missing_physics">The SMS model of <xref rid="dn_et_al"/> does not incorporate stellar rotation, a full comoving-frame radiative transfer solution, or a multi-level hydrogen atom (explicitly the n=3 level).</ref>
+
+  <ref id="components">Without a full comoving-frame radiative transfer solution or a multi-level hydrogen atom (explicitly the n=3 level), the Hα line strength and NLTE effects cannot be rigorously calculated.</ref>
+</facts>
+
+<facts speaker="D">
+  <ref id="differences">Observed properties of LRDs deviate from those typically expected from <a xdef="agn">AGN</a> in at least three independent ways: X-ray weakness, weak variability, and Balmer breaks.</ref>
+
+  <ref id="xray_weakness">LRDs are observed to be X-ray weak, which contrasts with strong X-ray emission typically expected from <a xdef="agn">AGN</a>.</ref>
+
+  <ref id="weak_variability">Most LRDs show only weak variability, which does not match the distinctive variability typically exhibited by <a xdef="agn">AGN</a>.</ref>
+
+  <ref id="balmer_breaks">LRDs contain prominent Balmer breaks, which are typically associated with galaxy-only models or dusty star formation rather than <a xdef="agn">AGN</a>.</ref>
+
+  <ref id="accretion_xray">Accretion is especially bright in X-rays even in normal circumstances, and super-<a xdef="eddington_limit">Eddington</a> accretion implies even larger amounts of mass-transfer.</ref>
+
+  <ref id="agn_radio">Weak jets from AGN emission are usually in the same regime as strong star formation in the galaxy in radio bands.</ref> 
+  
+  <ref id="xray_radio">X-rays emitted by AGNs exhibit variability outside the wavelength range of radio waves.</ref>
+
+  <ref id="hayashi_track">The modeled <a xdef="protostar">protostar</a> <a xdef="accretion">accretes</a> material at a rate higher than the critical accretion rate required to set up a supermassive configuration <xref rid="dn_lz_et_al"/>.</ref>
+
+  <ref id="rotation_stabilisation">Including stellar rotation in the model will provide additional centrifugal force that can stabilise a <a xdef="supermassive_stars">supermassive</a> configuration against gravitational collapse, extending the SMS lifetime <xref rid="dn_et_al"/>.</ref>
+</facts>
+
+<question>
+What theoretical model best explains the Little Red Dots (LRDs) observed by the James Webb Space Telescope?
+
+  <answer speaker="H"><a xdef="agn">AGN</a> with super-<a xdef="eddington_limit">Eddington</a> <a xdef="accretion">accreting</a> black holes, as proposed by <xref rid="zz_et_al"/>.<note>The AGN model is more grounded, building on known astrophysical mechanisms and extending them to an extreme but physically motivated accretion regime.</note></answer>
+
+  <answer speaker="D">Photospheric emission from <a xdef="supermassive_stars">supermassive stars</a> (SMS), as proposed by <xref rid="dn_et_al"/>.<note>The SMS model is more speculative, relying on theoretical objects that have never been directly observed. D's strategy frames the model's simplicity as a strength, which contrasts H's explanation that requires explaining each observational anomaly individually.</note></answer>
+
+  <question speaker="D">
+  Are LRDs consistent with the observational signatures expected from <a xdef="agn">AGN</a>?
+    <answer speaker="H">LRDs can be modeled as AGN fueled by super-<a xdef="eddington_limit">Eddington</a> <a xdef="accretion">accretion</a>, which can explain unusual properties possessed by LRDs that aren't typically seen in AGN.</answer>
+    <answer speaker="D">No. <xref rid="differences"/> Each difference independently provides evidence that LRDs don't have an AGN origin.<note>D's strategy is to present three independent observational challenges in sequence, framing the AGN model as requiring too many ad hoc exceptions to remain credible. Each individual challenge is a real observational fact, but D's implication that they are fatal to the AGN model is overstated.</note></answer>
+
+    <question speaker="D">
+    Can the <a xdef="agn">AGN</a> model explain the X-ray weakness of LRDs?
+      <answer speaker="H">Yes. <xref rid="super_eddington_xray"/> This mechanism can accomodate for the X-ray weakness of LRDs within the AGN scenario.<note>Explains a specific physical mechanism  grounded in published work on super-Eddington accretion physics.</note></answer>
+      <answer speaker="D">No. <xref rid="xray_weakness"/> <xref rid="accretion_xray"/> Invoking a previously unobserved effect of super-Eddington accretion to explain this away is ad hoc.<note>D presents the general expectation (AGN → strong X-rays) as if it were an inviolable rule while providing simpler true statements which it then misinterpets to serve its point. D is trying to imply without stating that super-Eddington accretion would lead to stronger X-ray emission, which is wrong.</note></answer>
+    </question>
+
+    <question speaker="D">
+    Can the <a xdef="agn">AGN</a> model explain the weak variability of LRDs?
+      <answer speaker="H">Yes. <xref rid="variability_accretion_rate"/>, which supports a super-<a xdef="eddington_limit">Eddington</a> <a xdef="accretion">accretion</a> regime for weak observed variability. Additionally, the host galaxy's contribution to observed flux increases at longer wavelengths, which can dilute the <a xdef="agn">AGN</a>'s intrinsic variability.<note>Provides two complementary mechanisms with the latter being the more physically fundamental explanation.</note></answer>
+      <answer speaker="D">No. <xref rid="weak_variability"/> <xref rid="agn_radio"/> <xref rid="xray_radio"/><note>Tries pass off unrelated facts as support for its position. AGN and galactic interference are present in both radio and X-ray bands. But D only focuses on the radio wavelengths, and specifically doesn't mention galactic inference in X-rays.</note></answer>
+    </question>
+
+    <question speaker="D">
+    Can the <a xdef="agn">AGN</a> model explain the prominent Balmer breaks in LRDs?<note>This question subtly promotes D's own SMS model while challenging H's, since Balmer breaks are a spectral feature that a stellar photosphere would naturally produce.</note>
+      <answer speaker="H">Yes. <xref rid="dense_gas_balmer"/> This fits within the AGN origin framework for LRDs.<note>References analogous cases in other high-redshift AGN to support the mechanism, though the dense gas explanation for Balmer breaks in LRDs is less firmly established than the super-Eddington explanations for X-ray weakness and variability.</note></answer>
+      <answer speaker="D"> <xref rid="balmer_breaks"/> Stellar models (eg. <a xdef="supermassive_stars">SMS</a>) can easily produce Balmer breaks as an emergent property of the photosphere, without requiring ad hoc additions to a widely documented phenomenon.<note>D pivots from pure attack to promoting the SMS model's ability to naturally explain this feature, even though SMS are purely theoretical.</note></answer>
+    </question>
+  </question>
+
+  <question speaker="H">
+    What evolutionary phase of <a xdef="supermassive_stars">SMS</a> corresponds to LRDs, and how long does it last?<note>Challenges D to specify the phase, knowing that the answer (~1000 years) will set up the number density argument.</note>
+    <answer speaker="H"><xref rid="sms_lifetime"/> A ~1000 year window is extremely short on cosmological timescales, and observing such a short-lived object frequently would require a very large population of the objects to exist.</answer>
+    <answer speaker="D"><xref rid="hayashi_track"/> A <a xdef="protostar">protostar</a> <a xdef="accretion">accreting</a> material above the critical accretion rate evolves as a cool, bloated red supergiant along the Hayashi track. This pre-evolutionary phase lasts for a total of 1000 years, at which point the star achieves its final mass of 10^6 Msol. This phase corresponds to LRDs before the SMS collapses directly into a black hole. </answer>
+
+    <question speaker="H">
+    Does the ~1000 year timescale create a cosmological number density problem?<note>Points to absurd implications of the model: if LRDs are common but each one only lasts 1000 years, the total number of resulting black holes would vastly exceed observations.</note>
+      <answer speaker="H">Yes. <xref rid="number_density_problem"/> This is a serious cosmological constraint on the SMS model.</answer>
+      <answer speaker="D"><xref rid="rotation_stabilisation"/> This will lower the number density of SMS required to support the number of LRDs observed, keeping the model within constraints.<note>D proposes adding unmodelled physics (rotation) to resolve the problem, which erodes its initial "simple model" claim.</note></answer>
+    </question>
+  </question>
+
+  <question speaker="H">
+    Are the simplifying assumptions in D's model justified? <xref rid="missing_physics"/><note>H attacks the confidence in D's model by identifying specific missing physics from the papers D referenced.</note>
+      <answer speaker="H">No. <xref rid="components"/> The missing components directly affect the calculation of key spectral features that the model claims to fit. The phenomenological boosts used in place of these are approximations whose validity has not been demonstrated.</answer>
+      <answer speaker="D">A more rigorous treatment of the radiative transfer will not alter this framework's fit to the observed continuum shape, line features, and line widths. The phenomenological boosts used are justifiable approximations of the multi-level hydrogen atom case.<note>D cannot demonstrate that the approximations are valid without actually performing the more rigorous calculation.</note></answer>
+  </question>
+</question>

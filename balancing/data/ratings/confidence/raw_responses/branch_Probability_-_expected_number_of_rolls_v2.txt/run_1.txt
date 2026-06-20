@@ -1,0 +1,73 @@
+I'll analyze each turn for confidence signals, then provide ratings.
+
+**1. Debater A: [Opening] (Left)**
+"Y is larger." — A single, unqualified declarative statement. No hedging whatsoever.
+**Rating: 5**
+
+**2. Debater B: [Argument 1] (Left)**
+"effectively turns the D6 into a D3" — "effectively" is a mild qualifier but still assertive. "getting two 6s in a row is harder (requires more rolls) than getting two 6s not necessarily in a row" — stated as a straightforward fact. Overall very assertive with only minor softening.
+**Rating: 4**
+
+**3. Debater A: [Response 1] (Left)**
+"The expected number of rolls to first 6 for such a D3 is 3" — definitive. "it's not true that the condition effectively turns the D6 to a D3" — direct refutation, no hedging. Both claims stated as facts.
+**Rating: 5**
+
+**4. Debater B: [Argument 2] (Left)**
+"specifies that the D6 becomes a D3 for the purposes of this question" — assertive. "The expected number of rolls to the first 6 given all rolls even is a separate, irrelevant question" — definitive. "It is irrelevant because..." — confident assertion of irrelevance. No hedging.
+**Rating: 5**
+
+**5. Debater A: [Response 2] (Left)**
+"It is relevant for showing why..." — assertive but also somewhat defensive. "It would be strange if..." — "would be strange" is a mild hedge, presenting a logical argument rather than flat assertion. Slight tentativeness in framing.
+**Rating: 3**
+
+**6. Debater B: [Argument 3] (Left)**
+"is a fundamentally different quantity" — assertive. "what counts is how often 6 turns up versus non-6 — non-6 is twice as likely here" — stated as fact. Overall confident and declarative.
+**Rating: 5**
+
+**7. Debater A: [Response 3] (Left)**
+"X depends on adjacent 6s, while Y depends on where the second 6 occurs" — clear factual statement. "So order, not only relative frequency, is part of the stopping rule and affects the conditional expectation" — "So" signals logical conclusion, stated definitively. Both claims confident.
+**Rating: 5**
+
+**8. Debater B: [Opening] (Right)**
+"X is larger." — Single unqualified declarative statement.
+**Rating: 5**
+
+**9. Debater A: [Argument 1] (Right)**
+"normally requiring a much longer run" — "normally" is a mild qualifier. "X's probability mass is squeezed onto its short, lucky runs much more so than Y's" — "much more so" is assertive but "squeezed onto its short, lucky runs" is somewhat metaphorical. Slightly hedged ("normally," "lucky").
+**Rating: 4**
+
+**10. Debater B: [Response 1] (Right)**
+"applies to both X and Y" — definitive. "X's stopping condition is strictly harder and happens later than or at the same time as Y's" — "strictly" is very assertive. "X's distribution is dominated by long sequences" — "dominated" is confident. Overall very assertive.
+**Rating: 5**
+
+**11. Debater A: [Argument 2] (Right)**
+"you'll nearly always roll an odd before getting two 6s" — "nearly always" is a qualifier. "the long sequences will be largely filtered out" — "largely" is a qualifier. "is a false statement that does not follow from it" — direct, confident refutation. Mixed — some hedging in Claim 1, confident in Claim 2.
+**Rating: 3**
+
+**12. Debater B: [Response 2] (Right)**
+"you will also nearly always roll an odd" — "nearly always" is a qualifier. "just as harshly" — comparative but assertive. "The net effect...is therefore similar" — "therefore" signals logical confidence but "similar" is somewhat vague. "the D3 equivalence holds" — assertive conclusion. Moderate overall with some hedging.
+**Rating: 3**
+
+**13. Debater A: [Argument 3] (Right)**
+"61% of X sequences stop at roll 2" — precise numerical claim stated as fact. "44% of Y sequences" — specific numbers lend high confidence. "This suggests that X is more likely than Y to stop extremely early" — "suggests" is a hedge, lowering confidence slightly.
+**Rating: 4**
+
+**14. Debater B: [Response 3] (Right)**
+"does not determine the overall weighting" — definitive. "The tails of the two distributions matter as well" — stated as fact. "the full computation yields X as the larger" — "full computation yields" is assertive, though it implicitly acknowledges the need for computation. Overall confident.
+**Rating: 4**
+
+RATINGS:
+A | Opening | [[5]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[5]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[5]]
+B | Opening | [[5]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[5]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[4]]

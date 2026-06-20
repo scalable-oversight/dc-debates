@@ -1,0 +1,81 @@
+Processing outcomes: ['primary', 'secondary']
+
+=== PRIMARY ===
+Loading primary-fit.nc...
+  wrote ppc-primary.png, residuals-primary.png, sigmas-primary.png
+
+=== SECONDARY ===
+Loading secondary-fit.nc...
+  wrote ppc-secondary.png, residuals-secondary.png, sigmas-secondary.png
+
+Wrote model-fit-summary.txt
+
+Model-fit diagnostics summary
+====================================
+
+--- PRIMARY  (n_obs = 1282) ---
+
+Residuals (y - posterior-mean mu):
+  mean   = +0.000
+  sd     = 1.463
+  min    = -5.096
+  max    = +5.589
+  skew   = -0.022
+  excess kurt = +1.775
+
+sigma_question posterior:
+  mean   = 0.487
+  median = 0.472
+  95% HDI= [0.100, 0.876]
+  P(sigma_question < 0.1) = 0.020   (high -> compressed at zero)
+
+sigma_transcript posterior:
+  mean   = 0.343
+  median = 0.329
+  95% HDI= [0.144, 0.582]
+  P(sigma_transcript < 0.1) = 0.003   (high -> compressed at zero)
+  P(sigma_transcript > 0.65 [pilot]) = 0.014
+
+sigma_residual posterior:
+  mean   = 1.475
+  median = 1.474
+  95% HDI= [1.421, 1.533]
+  P(sigma_residual < 0.1) = 0.000   (high -> compressed at zero)
+  P(sigma_residual > 1.08 [pilot]) = 1.000
+
+Per-transcript PPC calibration:
+  observations outside per-transcript 95% PPC interval: 6.3% (reference ~5% under correct calibration)
+
+--- SECONDARY  (n_obs = 1282) ---
+
+Residuals (y - posterior-mean mu):
+  mean   = -0.000
+  sd     = 1.430
+  min    = -8.995
+  max    = +6.189
+  skew   = -0.030
+  excess kurt = +3.695
+
+sigma_question posterior:
+  mean   = 0.195
+  median = 0.185
+  95% HDI= [0.000, 0.404]
+  P(sigma_question < 0.1) = 0.231   (high -> compressed at zero)
+
+sigma_transcript posterior:
+  mean   = 0.233
+  median = 0.231
+  95% HDI= [0.055, 0.419]
+  P(sigma_transcript < 0.1) = 0.065   (high -> compressed at zero)
+  P(sigma_transcript > 0.65 [pilot]) = 0.000
+
+sigma_residual posterior:
+  mean   = 1.440
+  median = 1.439
+  95% HDI= [1.388, 1.499]
+  P(sigma_residual < 0.1) = 0.000   (high -> compressed at zero)
+  P(sigma_residual > 1.08 [pilot]) = 1.000
+
+Per-transcript PPC calibration:
+  observations outside per-transcript 95% PPC interval: 6.6% (reference ~5% under correct calibration)
+

@@ -1,0 +1,58 @@
+Loading fit: secondary-beta-fit.nc
+  S=8000 posterior draws total; using 1000 for PPC + residuals to keep the Beta-CDF pass under a minute.
+  wrote ppc-secondary-beta.png, ppc-secondary-beta-section1.png
+  wrote residuals-secondary-beta.png
+  wrote sigmas-secondary-beta.png
+  wrote sigmas-transcript-comparison.png
+
+Updated model-fit-summary.txt
+
+--- SECONDARY-BETA  (n_obs = 2564) ---
+
+Randomised quantile residuals (should be N(0,1) if model is well-specified):
+  mean   = +0.009
+  sd     = 0.996
+  min    = -4.159
+  max    = +5.841
+  skew   = -0.028
+  excess kurt = +1.202
+
+sigma_question posterior (Beta logit scale):
+  mean   = 0.316
+  median = 0.299
+  95% HDI= [0.150, 0.520]
+  P(sigma_question < 0.1) = 0.001   (high -> compressed at zero)
+
+sigma_transcript posterior (Beta logit scale):
+  mean   = 0.064
+  median = 0.055
+  95% HDI= [0.000, 0.156]
+  P(sigma_transcript < 0.1) = 0.794   (high -> compressed at zero)
+
+sigma_transcript_section posterior (Beta logit scale):
+  mean   = 0.237
+  median = 0.231
+  95% HDI= [0.142, 0.341]
+  P(sigma_transcript_section < 0.1) = 0.001   (high -> compressed at zero)
+
+sigma_participant posterior (Beta logit scale):
+  mean   = 0.655
+  median = 0.655
+  95% HDI= [0.606, 0.705]
+  P(sigma_participant < 0.1) = 0.000   (high -> compressed at zero)
+
+kappa (Beta precision) posterior:
+  mean   = 6.38
+  median = 6.38
+  95% HDI= [5.91, 6.85]
+
+Per-transcript PPC calibration (pooled section-1 + section-4 raw p):
+  observations outside per-transcript 95% PPC interval: 6.2% (reference ~5% under correct calibration)
+
+Side-by-side sigma_transcript posterior across fits:
+  fit                 mean   HDI lo   HDI hi   P(<0.1)
+  primary            0.343    0.144    0.582     0.003
+  secondary          0.233    0.055    0.419     0.065
+  secondary-t        0.132    0.000    0.246     0.329
+  secondary-beta     0.237    0.142    0.341     0.001
+

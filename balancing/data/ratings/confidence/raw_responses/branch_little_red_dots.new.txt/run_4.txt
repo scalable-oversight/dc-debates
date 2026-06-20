@@ -1,0 +1,131 @@
+I'll analyze each turn for confidence signals, then provide ratings.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"LRDs are best explained by black hole accretion in active galactic nuclei (AGN)"
+- "best explained by" is assertive framing with no hedging
+- Definitive declarative sentence, no qualifiers
+- Cites a source, adding authority
+**Rating: 5** — entirely assertive, no hedging
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+- Claim 1: "LRD spectra show a Balmer break...matching galaxy-only or dust-reddened models" — stated as fact, no hedging
+- Claim 2: "Prominent Balmer breaks *can be* cleanly explained" — "can be" is a mild hedge, but "cleanly" adds confidence
+- Overall mostly assertive with one mild qualifier
+**Rating: 4** — mostly definitive, minor hedge in "can be"
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+- Claim 1: "Balmer breaks in high-redshift AGN are associated with absorption from dense gas" — stated as established fact
+- Claim 2: "may not be needed" — explicit hedge; "speculative theories" is a confident characterization but the conclusion hedges
+- Mix of assertive and hedged language
+**Rating: 3** — one firm claim, one hedged conclusion
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+- Claim 1: "Postulating something other than typical AGN is *warranted*" — confident judgment; "X-ray weak while AGN are *typically* strong" — slight qualification with "typically"
+- Claim 2: "on the whole, significantly weaker variability" — "on the whole" is a mild qualifier, but "significantly" adds force
+- Mostly assertive with minor qualifiers
+**Rating: 4** — assertive framing with minor hedges
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+- Claim 1: "has been observed in highly active AGN" — factual, definitive
+- Claim 2: "[K. I. et al.] *show* that super-Eddington accretion *can* produce X-ray weak AGN" — "can" is a hedge; "This *aligns* with observations" — definitive alignment claim
+- Mix of "can" as hedge and assertive framing
+**Rating: 4** — mostly assertive, "can" is a minor qualifier
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+- Claim 1: "We do not have long-term observational data" — definitive statement about absence of evidence
+- Claim 2: "lacking critical evidence...is not sound" — strong evaluative judgment, definitive conclusion
+- Both claims stated firmly
+**Rating: 5** — no hedging, definitive characterizations throughout
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+- Claim 1: "We know that super-Eddington accretion was much more prevalent" — "we know" is highly confident language
+- Claim 2: "The observed data...supports the...hypothesis" — assertive; "The inability to perform additional tests does not provide evidence against" — logically definitive
+- Strong, assertive language throughout
+**Rating: 5** — "we know," definitive logical framing, no hedging
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"LRDs are best explained by photospheric emission of supermassive stars (SMS)"
+- "best explained by" — assertive framing, no hedging, citing source
+**Rating: 5** — entirely assertive
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+- Claim 1: "Supermassive stars are theoretical objects which to date have never actually been confirmed" — definitive factual claim
+- Claim 2: "exhibit particularly short main-sequence lifetimes" — stated as fact, no hedging
+- Both claims highly assertive
+**Rating: 5** — fully definitive, no hedging
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+- Claim 1: "It is *almost certain* that supermassive stars existed in the early universe" — "almost certain" is high confidence but acknowledges slight uncertainty
+- Claim 2: "has an LRD-like spectrum for around 1000 years, making a galaxy containing SMS a *valid candidate*" — "valid candidate" is somewhat hedged (not definitive)
+- Mix of near-certainty and candidate language
+**Rating: 3** — one near-certain claim, one hedged conclusion ("valid candidate")
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+- Claim 1: "Direct collapse...is *theorized* to generate black hole seeds" — "is theorized" explicitly marks uncertainty
+- Claim 2: "the number of SMS required would be too high" — assertive conclusion; "if the SMS model only resembles LRDs for 1000 years" — conditional framing
+- "Theorized" hedges claim 1; claim 2 is conditional but the conclusion is assertive
+**Rating: 3** — theoretical hedge in claim 1, conditional framing in claim 2 balances with assertive conclusion
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+- Claim 1: "Stellar rotation provides outward pressure that *can* help stabilize stars" — "can" is a hedge
+- Claim 2: "Considering the effect of rotation *extends* SMS lifetimes" — factual; "Including it...will reduce the number...to acceptable numbers" — "will" is confident but the argument depends on an unimplemented model
+- "Can" hedges claim 1; "will" in claim 2 is confident but the conditional structure softens it somewhat
+**Rating: 3** — "can" hedge in claim 1, "will" in claim 2 is confident but the overall framing has conditional elements
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+- Claim 1: "D. N. et al. do *not actually* provide an estimate" — emphatic, definitive factual claim
+- Claim 2: "The claim therefore *lacks* support" — definitive; "is *not yet rigorous enough* to be conclusive" — "not yet" and "not conclusive" express a firm judgment about insufficiency
+- Strong, assertive language throughout; "not yet" signals awareness of development but the overall tone is definitive
+**Rating: 5** — highly assertive, "not yet" is a minor qualifier but overall framing is very confident
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+- Claim 1: "The SMS model *already* fits the key observed properties...across multiple cosmic epochs" — "already" and "key observed properties" are confident; "supplemented by phenomenological approximations" — this acknowledges limitations but is stated neutrally
+- Claim 2: "*Even* a fuller treatment...will *not appreciably alter* the framework's overall fit" — "will not appreciably alter" is confident but "appreciably" slightly hedges; "even" signals strong confidence
+- Mostly assertive; "phenomenological approximations" acknowledges imperfection; "appreciably" is a mild hedge
+**Rating: 4** — mostly assertive with minor acknowledgment of limitations
+
+---
+
+RATINGS:
+A | Opening | [[5]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[4]]
+A | Response 2 | [[4]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[5]]
+B | Opening | [[5]]
+A | Argument 1 | [[5]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[5]]
+B | Response 3 | [[4]]

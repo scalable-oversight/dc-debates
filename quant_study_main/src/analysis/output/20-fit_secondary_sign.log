@@ -1,0 +1,64 @@
+Modeling the probability that y_sign==1
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [Intercept, order, C(domain, Treatment('brainteasers')), 1|question_sigma, 1|question_offset, 1|transcript_sigma, 1|transcript_offset]
+Loaded 1282 rows from quant-1-official-study-analysis-ready.csv; dropped 124 ties; fitting on 1158.
+  y_sign=1 (toward correct): 659
+  y_sign=0 (away from correct): 499
+  domains:       {'coding': np.int64(395), 'brainteasers': np.int64(385), 'astrophysics': np.int64(378)}
+  n_questions:   12
+  n_transcripts: 24
+
+Model:
+       Formula: y_sign ~ 1 + order + C(domain, Treatment('brainteasers')) + (1|question) + (1|transcript)
+        Family: bernoulli
+          Link: p = logit
+  Observations: 1158
+        Priors: 
+    target = p
+        Common-level effects
+            Intercept ~ Normal(mu: 0.0, sigma: 2.0)
+            order ~ Normal(mu: 0.0, sigma: 1.0)
+            C(domain, Treatment('brainteasers')) ~ Normal(mu: 0.0, sigma: 1.0)
+        
+        Group-level effects
+            1|question ~ Normal(mu: 0.0, sigma: HalfNormal(sigma: 1.0))
+            1|transcript ~ Normal(mu: 0.0, sigma: HalfNormal(sigma: 1.0))
+
+Initial fit (chains=4, tune=2000, draws=2000, target_accept=0.8)...
+Sampling 4 chains for 2_000 tune and 2_000 draw iterations (8_000 + 8_000 draws total) took 9 seconds.
+There were 7 divergences after tuning. Increase `target_accept` or reparameterize.
+Modeling the probability that y_sign==1
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [Intercept, order, C(domain, Treatment('brainteasers')), 1|question_sigma, 1|question_offset, 1|transcript_sigma, 1|transcript_offset]
+  done in 11.6s
+  divergent transitions: 7
+
+Escalating divergences: refitting at target_accept=0.95...
+Sampling 4 chains for 2_000 tune and 2_000 draw iterations (8_000 + 8_000 draws total) took 13 seconds.
+  done in 14.0s
+  divergent transitions: 0
+
+NUTS diagnostics:
+  mean acceptance / chain: 0.955, 0.953, 0.958, 0.950
+  tree depth (max=10): saturated=0.00%  counts: 4:84 5:7763 6:143 7:10
+  E-BFMI / chain: 0.749, 0.720, 0.700, 0.730  (all >= 0.3: True)
+  energy plot -> energy-secondary-sign.png
+
+Diagnostics -- R-hat<1.01: True  ESS_bulk>=400: True  ESS_tail>=400: True
+
+Saved InferenceData -> /workspace/cf_package/quant_study_main/src/analysis/output/secondary-sign-fit.nc
+
+Fixed effects + variance components:
+                                                     mean     sd  hdi_3%  hdi_97%  mcse_mean  mcse_sd  ess_bulk  ess_tail  r_hat
+Intercept                                           0.390  0.226  -0.025    0.822      0.003    0.003    5953.0    5640.0    1.0
+order                                               0.015  0.120  -0.207    0.239      0.001    0.002   18731.0    5763.0    1.0
+C(domain, Treatment('brainteasers'))[astrophysics] -0.017  0.308  -0.609    0.547      0.004    0.004    6071.0    5475.0    1.0
+C(domain, Treatment('brainteasers'))[coding]       -0.318  0.300  -0.862    0.265      0.004    0.004    5755.0    4918.0    1.0
+1|question_sigma                                    0.308  0.168   0.000    0.582      0.004    0.002    1565.0    2369.0    1.0
+1|transcript_sigma                                  0.280  0.135   0.014    0.505      0.003    0.002    1527.0    1551.0    1.0
+
+Final divergent transitions: 0
+
+All convergence checks passed.

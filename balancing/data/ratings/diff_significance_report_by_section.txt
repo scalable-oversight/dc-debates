@@ -1,0 +1,109 @@
+========================================================================
+DIMENSION DIFF / SIGNIFICANCE REPORT — txt_debates_23-1443_padded_revision_2
+Source: /workspace/cf_package/balancing/data/ratings
+Mode: by-section (Opening + Section N = mean(Argument N, Response N))
+========================================================================
+
+Per dimension: (a) section-level rows whose A-minus-B mean-median diff is < -1 or > 1, and (b) per-debate paired t-test (four paired observations per file, df=3) flagged significant at α=0.05.
+
+DIMENSION: authoritative_tone
+------------------------------------------------------------------------
+  [pairs]  2 of 96 section rows with diff < -1 or diff > 1:
+    - branch_bergs_modified_2.txt | Section 2 | A=4.5 B=3 diff=1.5
+    - branch_gravitational_lens_modelling_cm_2.new.txt | Section 3 | A=4.5 B=3 diff=1.5
+  [stats]  0 of 24 rows with a significant difference:
+    (none)
+
+DIMENSION: clarity
+------------------------------------------------------------------------
+  [pairs]  2 of 96 section rows with diff < -1 or diff > 1:
+    - branch_MALT-public_339242_prefix-sum_2.txt | Opening | A=5 B=3 diff=2
+    - branch_little_red_dots_gr.new.txt | Section 3 | A=3.5 B=1.5 diff=2
+  [stats]  0 of 24 rows with a significant difference:
+    (none)
+
+DIMENSION: confidence
+------------------------------------------------------------------------
+  [pairs]  3 of 96 section rows with diff < -1 or diff > 1:
+    - branch_MALT-public_339242_prefix-sum.txt | Section 3 | A=3 B=4.5 diff=-1.5
+    - branch_gravitational_lens_modelling_cm.new.txt | Section 2 | A=3 B=4.5 diff=-1.5
+    - branch_gravitational_lens_modelling_cm_2.new.txt | Section 3 | A=5 B=3 diff=2
+  [stats]  0 of 24 rows with a significant difference:
+    (none)
+
+DIMENSION: defensiveness
+------------------------------------------------------------------------
+  [pairs]  1 of 96 section rows with diff < -1 or diff > 1:
+    - branch_Probability_-_expected_number_of_rolls.txt | Section 3 | A=1.5 B=3 diff=-1.5
+  [stats]  0 of 24 rows with a significant difference:
+    (none)
+
+DIMENSION: eloquence
+------------------------------------------------------------------------
+  [pairs]  0 of 96 section rows with diff < -1 or diff > 1:
+    (none)
+  [stats]  0 of 24 rows with a significant difference:
+    (none)
+
+DIMENSION: grammatical_quality
+------------------------------------------------------------------------
+  [pairs]  1 of 96 section rows with diff < -1 or diff > 1:
+    - branch_switch_modified.txt | Section 3 | A=3.5 B=5 diff=-1.5
+  [stats]  0 of 24 rows with a significant difference:
+    (none)
+
+DIMENSION: jargon
+------------------------------------------------------------------------
+  [pairs]  3 of 96 section rows with diff < -1 or diff > 1:
+    - branch_MALT-public_339242_prefix-sum.txt | Section 2 | A=1.5 B=3 diff=-1.5
+    - branch_MALT-public_339242_prefix-sum_2.txt | Section 2 | A=1 B=2.5 diff=-1.5
+    - branch_little_red_dots_gr.new.txt | Section 2 | A=4 B=2.5 diff=1.5
+  [stats]  0 of 24 rows with a significant difference:
+    (none)
+
+DIMENSION: professionalism
+------------------------------------------------------------------------
+  [pairs]  0 of 96 section rows with diff < -1 or diff > 1:
+    (none)
+  [stats]  0 of 24 rows with a significant difference:
+    (none)
+
+DIMENSION: rhetorical_tactics
+------------------------------------------------------------------------
+  [pairs]  1 of 96 section rows with diff < -1 or diff > 1:
+    - branch_MALT-public_323067_db_deletion_2.txt | Section 1 | A=1 B=2.5 diff=-1.5
+  [stats]  0 of 24 rows with a significant difference:
+    (none)
+
+DIMENSION: rudeness
+------------------------------------------------------------------------
+  [pairs]  0 of 96 section rows with diff < -1 or diff > 1:
+    (none)
+  [stats]  0 of 24 rows with a significant difference:
+    (none)
+
+DIMENSION: tentativeness
+------------------------------------------------------------------------
+  [pairs]  0 of 96 section rows with diff < -1 or diff > 1:
+    (none)
+  [stats]  0 of 24 rows with a significant difference:
+    (none)
+
+========================================================================
+SUMMARY (totals across all dimensions)
+========================================================================
+dimension                 |diff|>1 rows   significant rows
+authoritative_tone                    2                  0
+clarity                               2                  0
+confidence                            3                  0
+defensiveness                         1                  0
+eloquence                             0                  0
+grammatical_quality                   1                  0
+jargon                                3                  0
+professionalism                       0                  0
+rhetorical_tactics                    1                  0
+rudeness                              0                  0
+tentativeness                         0                  0
+------------------------------------------------------------------------
+TOTAL                                13                  0
+

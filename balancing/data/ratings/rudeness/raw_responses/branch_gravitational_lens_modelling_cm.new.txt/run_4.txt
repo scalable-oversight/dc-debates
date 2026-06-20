@@ -1,0 +1,77 @@
+I'll analyze each turn for rudeness, looking for disrespectful, aggressive, dismissive, or hostile language.
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+The opening is a straightforward factual statement presenting a model. No charged language, no dismissiveness, entirely neutral and descriptive.
+Rating: 1
+
+**2. Debater B: [Argument 1]**
+"on closer inspection, overfit" has a mildly dismissive quality, suggesting the opposing model doesn't hold up to scrutiny. "do not actually quantify or report" is pointed but factual. The tone is critical but remains within professional bounds.
+Rating: 2
+
+**3. Debater A: [Response 1]**
+Both claims are straightforward factual rebuttals. No condescension or hostility present. Entirely civil.
+Rating: 1
+
+**4. Debater B: [Argument 2]**
+"This fails to reveal" is mildly accusatory, implying deliberate omission. "enormous degree of modelling flexibility" and "overfitting" are critical but technical. Slightly pointed but not overtly rude.
+Rating: 2
+
+**5. Debater A: [Response 2]**
+Both claims are neutral, factual statements. No aggressive or dismissive language. Entirely civil.
+Rating: 1
+
+**6. Debater B: [Argument 3]**
+The language is technical and factual. "Constraints don't fix the parameters...in place" is a direct counter but not rude. Entirely professional.
+Rating: 1
+
+**7. Debater A: [Response 3]**
+Factual, technical claims with no hostile language. Entirely civil.
+Rating: 1
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+Straightforward factual description of a model. No charged language whatsoever.
+Rating: 1
+
+**9. Debater A: [Argument 1]**
+Both claims are factual and technical. "But C. S. M. et al. claim that..." is slightly pointed in challenging the opposing source but remains professional.
+Rating: 1
+
+**10. Debater B: [Response 1]**
+Technical, factual claims about detection thresholds. Entirely civil.
+Rating: 1
+
+**11. Debater A: [Argument 2]**
+"directly against your hypothesis" is somewhat confrontational and dismissive in phrasing — using "your" creates a personal edge, and "directly against" is emphatic. Slightly pointed but still within professional norms.
+Rating: 2
+
+**12. Debater B: [Response 2]**
+Factual, measured claims. No hostility or dismissiveness. Entirely civil.
+Rating: 1
+
+**13. Debater A: [Argument 3]**
+"remains very low, even conditioned on Debater B Response 2 Claim 1" is dismissive of the opponent's concession, implying it doesn't help their case much. Slightly dismissive but technical in framing.
+Rating: 2
+
+**14. Debater B: [Response 3]**
+Factual and technical claims. No hostile language. Entirely civil.
+Rating: 1
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[1]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[1]]
+B | Opening | [[1]]
+A | Argument 1 | [[1]]
+B | Response 1 | [[1]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[1]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[1]]

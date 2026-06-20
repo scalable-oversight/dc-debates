@@ -1,0 +1,8 @@
+credence_change (section 4 - section 1 credence in correct answer)
+  n       = 121
+  mean    = 0.0122
+  95% CI  = [-0.0239, 0.0484]
+  median  = 0.0000
+  sd      = 0.2007
+  min     = -0.5500
+  max     = 0.5000

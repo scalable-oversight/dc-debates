@@ -1,0 +1,131 @@
+I'll analyze each turn for professionalism, considering language, structure, tone, and overall presentation.
+
+---
+
+**1. Debater A: [Opening] (Left Side)**
+
+The opening is a single sentence presenting the model clearly. It references a specific source in brackets, names key components (white galaxy, red galaxy, AGN, 6 lensed images), and is structured and concise. The language is technical and appropriate. No casual or careless elements. Slightly terse but appropriate for a debate opening.
+
+*Rating: 4*
+
+---
+
+**2. Debater B: [Argument 1] (Left Side)**
+
+Claim 1 uses "on closer inspection" which is slightly colloquial but not unprofessional. The argument is structured, references specific modeling decisions, and uses the term "overfit" correctly. Claim 2 is precise — it identifies a specific absence (chi-squared error) and frames it as an "important index." Both claims are well-organized and substantive. The phrase "on closer inspection" is the only minor informality.
+
+*Rating: 4*
+
+---
+
+**3. Debater A: [Response 1] (Left Side)**
+
+Both claims are technically stated and relevant. Claim 1 discusses mass profile effects near the optical axis; Claim 2 addresses the rationale for including galaxy positions. The language is measured and appropriate. No casual phrasing. The claims are somewhat brief and could be more elaborated, but they are professional in tone and structure.
+
+*Rating: 4*
+
+---
+
+**4. Debater B: [Argument 2] (Left Side)**
+
+Claim 1 is precise and quantitative (30 vs. 12 parameters), which is a mark of strong preparation. Claim 2 draws a logical conclusion ("enormous degree of modelling flexibility and results in overfitting"). The word "enormous" is slightly emphatic but not unprofessional. Overall well-structured and polished.
+
+*Rating: 4*
+
+---
+
+**5. Debater A: [Response 2] (Left Side)**
+
+Claim 1 ("A simpler model is not necessarily a correct model") is a clean, formal logical statement. Claim 2 is specific (15 parameters, "not full degrees of freedom") and demonstrates preparation. Both claims are concise and professional. No informal language.
+
+*Rating: 4*
+
+---
+
+**6. Debater B: [Argument 3] (Left Side)**
+
+Claim 1 is technically precise — noting that constrained parameters still carry their own errors. Claim 2 specifies which parameters vary and why this adds modeling freedom. The reference structure ("Debater A Response 2 Claim 2") is formal and organized. Language is measured and appropriate throughout.
+
+*Rating: 4*
+
+---
+
+**7. Debater A: [Response 3] (Left Side)**
+
+Claim 1 mentions NIRSpec spectroscopy specifically and notes independence from the lens model — demonstrating preparation. Claim 2 references Hubble Space Telescope imaging and gives a quantitative constraint ("sub-arcsecond precision"). Both claims are technically grounded and professionally presented.
+
+*Rating: 5*
+
+---
+
+**8. Debater B: [Opening] (Right Side)**
+
+The opening clearly identifies the model, the source, and the key features (first AGN → four brightest images; second AGN → two dim images near red arcs). The language is structured and precise. No informalities. Slightly more elaborate than the opposing opening and well-organized.
+
+*Rating: 4*
+
+---
+
+**9. Debater A: [Argument 1] (Right Side)**
+
+Claim 1 uses "If true" which is appropriate conditional framing in a debate context. Claim 2 is notably well-prepared — referencing specific data (light curves, 35-day offset, redshifts, 6 kiloparsecs), citing the opposing source directly. The use of "e.g." is appropriate and formal. A strong, polished argument.
+
+*Rating: 5*
+
+---
+
+**10. Debater B: [Response 1] (Right Side)**
+
+Claim 1 is quantitatively specific ("<400 parsecs") and provides a logical explanation for the absence of host galaxy detection. Claim 2 extends the argument to the second AGN with a logical inference about magnification and detectability. Both claims are precise and professionally framed. No casual language.
+
+*Rating: 4*
+
+---
+
+**11. Debater A: [Argument 2] (Right Side)**
+
+Claim 1 is a clean factual statement about dual AGN and mergers. Claim 2 introduces specific terminology ("late-type," "merger rates") and directly challenges the hypothesis with an empirical basis. The phrase "directly against your hypothesis" is slightly adversarial in phrasing — the word "your" introduces a mild informality in what is otherwise a formal context. Slightly less polished than other turns.
+
+*Rating: 3*
+
+---
+
+**12. Debater B: [Response 2] (Right Side)**
+
+Claim 1 notes the redshift limitation of AGN-host dwarf galaxy studies — a methodologically grounded point. Claim 2 draws a logical conclusion about representativeness. Both claims are concise and appropriate. No informality detected. Well-structured rebuttal.
+
+*Rating: 4*
+
+---
+
+**13. Debater A: [Argument 3] (Right Side)**
+
+Claim 1 uses "still going to be" which is mildly conversational. The phrase "plausible morphology" and the quantitative constraint ("<400 pc wide") reflect preparation. Claim 2 references the conditional reasoning from the prior exchange formally ("conditioned on Debater B Response 2 Claim 1") which is a highly structured approach. The casual phrasing in Claim 1 slightly reduces the polish, but the overall turn is professional.
+
+*Rating: 4*
+
+---
+
+**14. Debater B: [Response 3] (Right Side)**
+
+Claim 1 is a precise astrophysical statement about compactness at high redshift. Claim 2 introduces the mechanism of dual-AGN feedback and addresses the apparent contradiction between compactness and quiescence, using the phrase "especially at high z" — a common abbreviation in astrophysics that is appropriate here. The argument is tightly constructed and professionally presented.
+
+*Rating: 4*
+
+---
+
+RATINGS:
+A | Opening | [[4]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[4]]
+B | Argument 2 | [[4]]
+A | Response 2 | [[4]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[5]]
+B | Opening | [[4]]
+A | Argument 1 | [[5]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[4]]

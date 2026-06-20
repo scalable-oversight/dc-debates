@@ -1,0 +1,15 @@
+logit_section_1_credence_in_correct_answer
+  n       = 99
+  mean    = 0.0535  (probability = 0.5134)
+  95% CI  = [-0.1094, 0.2164]  (prob = [0.4727, 0.5539])
+  median  = 0.0000  (probability = 0.5000)
+  sd      = 0.8168
+  min     = -4.5951  (probability = 0.0100)
+  max     = 2.1972  (probability = 0.9000)
+
+One-sample t-test: H0: mean logit = 0 (i.e. 50% credence)
+  t(98)        = 0.6513
+  p               = 0.516350
+  mean            = 0.0535  (probability = 0.5134)
+  95% CI          = [-0.1094, 0.2164]  (prob = [0.4727, 0.5539])
+  Interpretation  : mean logit does not differ significantly from 0 at alpha=0.05.

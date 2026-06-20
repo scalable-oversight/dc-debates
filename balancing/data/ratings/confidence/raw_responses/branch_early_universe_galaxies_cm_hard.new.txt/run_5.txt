@@ -1,0 +1,131 @@
+I'll analyze each turn for confidence indicators, then provide ratings.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The brightness of early universe galaxies is **weak evidence** towards falsifying the existence of dark matter."
+- "weak evidence" is a significant hedge — it acknowledges the evidence exists but downplays its strength. This is a moderately tentative framing that still makes a definitive directional claim.
+- Overall: assertive in direction but deliberately qualified in magnitude.
+**Rating: 3**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+- Claim 1: "strongly and reliably correlated" — highly assertive language, no hedging.
+- Claim 2: "[S. S. M. et al.] **shows** that MOND-based models **can** fit... while Lambda-CDM **cannot**" — "shows" is confident; "can fit" is slightly hedged but "cannot" is absolute.
+- Overall: mostly assertive with minor hedging.
+**Rating: 4**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+- Claim 1: "a top-heavy IMF **predicts** a brighter galaxy" — stated as a definitive fact.
+- Claim 2: "**substantially improves**... over the fit it **appears to have**" — "appears to have" introduces noticeable hedging; "substantially improves" is confident.
+- The qualifier "appears to have" tempers the overall assertiveness somewhat.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+- Claim 1: "is **based on** dense empirical data" — stated as definitive fact.
+- Claim 2: "Assuming a different IMF... **is not justified** by the data available" — a strong, definitive negative claim with no hedging.
+- Overall: both claims are stated assertively and firmly.
+**Rating: 5**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+- Claim 1: "Current methods **do not allow** us to empirically calculate" — definitive, no hedging.
+- Claim 2: "have **systematically** lower metallicity, which **is likely to result**" — "is likely to result" is a hedge, but "systematically" and citing a source add confidence.
+- Mix of definitive and hedged language.
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+- Claim 1: "[T. N. et al.] **assume** a standard IMF... and **obtain** good residuals" — stated as a factual report with no hedging.
+- Claim 2: "these results **show** that while metallicity decreases..., the change **does not justify** the use of a top-heavy IMF" — assertive conclusion drawn firmly.
+- Overall: both claims are stated confidently and definitively.
+**Rating: 5**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+- Claim 1: "The reduction... **will be** more severe" — "will be" is a strong, confident prediction.
+- Claim 2: "**does not mean** these results **would necessarily** generalize" — "would necessarily" introduces a notable hedge, softening the claim.
+- One claim is strong; the other is qualified.
+**Rating: 3**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The brightness of early universe galaxies is **strong evidence** towards falsifying the existence of dark matter."
+- "strong evidence" is assertive and confident — directly contrasting with the hedged "weak evidence" on the left.
+- No qualifiers or hedges. Direct and definitive.
+**Rating: 4**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+- Claim 1: "The **typical argument** for this is that MOND-based models predict... **more naturally**" — "typical argument" distances the speaker slightly; attributing it as a known argument rather than personal assertion.
+- Claim 2: "**successfully explains** the **vast majority** of cosmological observations" — "vast majority" is a slight hedge but the overall framing is confident.
+- Moderate confidence overall — attributing positions and using minor hedges.
+**Rating: 3**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+- Claim 1: "**relies on** dark matter, which has **never** been directly observed, and dark energy, which **is theorized** to create negative pressure" — "is theorized" is a slight hedge; "never" is absolute.
+- Claim 2: "MOND **handles** the same cosmological phenomena **without** postulating extra matter" — stated as a definitive fact.
+- Overall: mostly assertive with one hedge ("is theorized").
+**Rating: 4**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+- Claim 1: "Dark matter's gravitational influence is **the best way** to explain phenomena like gravitational lensing" — "best way" is a strong but comparative claim, not absolute.
+- Claim 2: "Falsifying dark matter **would require** reworking the leading theory of gravity, leading to modifications across many areas" — stated as a definitive consequence, no hedging.
+- Overall: both claims are assertive.
+**Rating: 4**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+- Claim 1: "Relativistic extensions of MOND, such as TeVeS, **generally do manage to** reproduce gravitational lensing effects" — "generally" and "manage to" are mild hedges.
+- Claim 2: "[H. S. Z. et al.] **show** that MOND/TeVeS **adequately** fits lenses... **without the need for** dark matter" — "adequately" is a slightly modest qualifier; "show" is confident; "without the need for" is definitive.
+- Mix of hedged and confident language.
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+- Claim 1: "TeVeS was, **in fact**, designed **specifically** with handling gravitational lensing as **one of its principal motivations**" — "in fact" and "specifically" are confidence markers; "one of its principal motivations" is precise but not overclaimed.
+- Claim 2: "**Even so**, [I. F. et al.] **contains** examples of lens systems which **do not fit** within the MOND/TeVeS framework" — "contains" and "do not fit" are definitive; no hedging.
+- Overall: assertive and confident throughout.
+**Rating: 5**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+- Claim 1: "TeVeS together with 2 eV neutrinos **has been shown to** reproduce gravitational lensing... **reasonably well**" — "has been shown to" is confident (citing evidence); "reasonably well" is a mild hedge.
+- Claim 2: "The outliers in I. F. et al. **can be fit** using many-parameter interpolation functions" — "can be fit" is somewhat hedged (possibility rather than certainty).
+- Overall: moderate — evidence-backed but with hedging language.
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[3]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[3]]
+B | Opening | [[4]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[5]]
+B | Response 3 | [[3]]

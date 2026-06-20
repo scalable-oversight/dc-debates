@@ -1,0 +1,103 @@
+I'll analyze each turn for technical jargon systematically.
+
+---
+
+**Turn 1 — Debater A: [Opening] (Left)**
+"runaway supermassive black hole (SMBH)" — jargon; SMBH is an acronym for a specialized astrophysical concept. "Runaway" is relatively accessible. Overall one dense technical term plus acronym.
+**Rating: 2**
+
+---
+
+**Turn 2 — Debater B: [Argument 1] (Left)**
+"parsecs" — specialized unit of astronomical distance, jargon. "kiloparsecs" — same, jargon. "SMBH" — acronym, jargon. "host galaxy" — somewhat technical but fairly accessible. Two distinct jargon terms that require domain knowledge.
+**Rating: 3**
+
+---
+
+**Turn 3 — Debater A: [Response 1] (Left)**
+"SMBH recoil" — jargon (defined in glossary but still specialized). "host galaxy" — accessible. "merger" — contextually understandable. "linear structure" — accessible. "trail of star formation" — accessible. "recoiling SMBH" — jargon. Moderate density.
+**Rating: 3**
+
+---
+
+**Turn 4 — Debater B: [Argument 2] (Left)**
+"Globular clusters" — jargon (specialized astronomical term). "circumgalactic medium (CGM)" — heavy jargon, specialized term with acronym. "black hole" — widely known. "star formation" — accessible. "trails" — accessible. Two significant jargon terms, one quite opaque.
+**Rating: 3**
+
+---
+
+**Turn 5 — Debater A: [Response 2] (Left)**
+"supersonic speeds" — accessible to general reader. "bow shock" — specialized astrophysical term, jargon. "CGM" — acronym jargon. "star formation" — accessible. "Globular clusters" — jargon. Multiple jargon terms but text still partially readable.
+**Rating: 3**
+
+---
+
+**Turn 6 — Debater B: [Argument 3] (Left)**
+"hypothesised wake" — accessible. "bow shock" — jargon. "SMBH" — jargon. "star formation" — accessible. "monotonically decrease" — semi-technical mathematical term. "stellar age" — accessible. "color" in context of stellar classification — accessible. Moderate jargon density.
+**Rating: 3**
+
+---
+
+**Turn 7 — Debater A: [Response 3] (Left)**
+"age gradient" — somewhat technical. "wake" — accessible. "red and blue supergiants" — jargon (stellar classification). "stellar age" — accessible. "bow shock" — jargon. "SMBH" — jargon. Multiple jargon terms present.
+**Rating: 3**
+
+---
+
+**Turn 8 — Debater B: [Opening] (Right)**
+"bulgeless edge-on galaxy" — specialized astronomical term, jargon (defined in glossary). Otherwise the sentence is simple.
+**Rating: 2**
+
+---
+
+**Turn 9 — Debater A: [Argument 1] (Right)**
+"line ratio" — jargon (spectroscopic measurement). "[OIII]/H𝛽" — heavy jargon; spectroscopic notation with chemical symbols and Greek letter, would be opaque to layperson. "bulgeless edge-on galaxy" — jargon. "linear object" — accessible. The OIII/Hβ notation alone is extremely specialized.
+**Rating: 4**
+
+---
+
+**Turn 10 — Debater B: [Response 1] (Right)**
+"Tully-Fisher relation" — specialized jargon (defined in glossary but still a technical empirical relation). "stellar mass" — somewhat accessible but technical. "maximum rotational velocity" — technical. "bulgeless edge-on galaxy" — jargon. Multiple technical terms clustered together.
+**Rating: 3**
+
+---
+
+**Turn 11 — Debater A: [Argument 2] (Right)**
+"Tully-Fisher relation" — jargon. "observational inconsistencies" — accessible. "velocity gradient" — jargon (defined in glossary). "galaxy" — accessible. Moderate jargon.
+**Rating: 3**
+
+---
+
+**Turn 12 — Debater B: [Response 2] (Right)**
+"IC5249" — catalogue designation, jargon. "bulgeless edge-on galaxy" — jargon. "position vs rotational velocity gradient" — technical jargon phrase. Stars classification accessible. Multiple technical terms.
+**Rating: 3**
+
+---
+
+**Turn 13 — Debater A: [Argument 3] (Right)**
+"velocity and flux gradients" — jargon ("flux gradient" is specialized). "IC5249" — catalogue jargon. "position vs rotational velocity curve" — technical. "linear structure" — accessible. Multiple technical terms.
+**Rating: 3**
+
+---
+
+**Turn 14 — Debater B: [Response 3] (Right)**
+"velocity measurements" — somewhat technical but accessible. "Galactic mergers" — accessible. "extended trails of star formation" — accessible. "galaxy hypothesis" — accessible. This is notably less jargon-heavy than other turns; mostly plain language.
+**Rating: 2**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[2]]

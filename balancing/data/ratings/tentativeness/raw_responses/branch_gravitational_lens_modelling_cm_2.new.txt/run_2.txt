@@ -1,0 +1,146 @@
+I'll analyze each turn for hedging and qualifying language, then provide ratings.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The Einstein zig-zag lens model...with two deflectors...at different redshifts, and one AGN which produces 6 lensed images after being lensed by both deflectors."
+No hedging language present. Every element is stated directly and with certainty.
+**Rating: 1**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "The Einstein zig-zag lens model is overfit, due to the modeling decisions made..."
+Claim 2: "F. D. et al. do not quantify or report chi-squared error, an important index..."
+Both claims are stated directly and assertively. No qualifying language detected.
+**Rating: 1**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: "The mass profile of the second deflector *appears likely* to have a significant effect..."
+"Appears likely" is a hedging phrase softening the certainty of the claim.
+Claim 2: "Taking galaxy positions into account *allows one to* more accurately model a more complex mass distribution than a simple shear."
+"Allows one to" is slightly indirect but not strongly hedging. The dominant hedging is in Claim 1.
+**Rating: 2**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: "This fails to reveal that the model has 30 total parameters, compared to 12 parameters used in other work."
+Claim 2: "This provides an enormous degree of modelling flexibility and results in overfitting."
+Both claims are stated directly and confidently. No hedging language present.
+**Rating: 1**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: "A simpler model is *not necessarily* a correct or accurate model of the system in question."
+"Not necessarily" is a qualifying phrase, softening what could have been an absolute negation.
+Claim 2: "Fifteen parameters in our model are *only partially* constrained, and therefore *should not count* as full degrees of freedom."
+"Only partially" is a qualifier; "should not count" has a normative/evaluative hedge rather than epistemic, but is still fairly direct.
+Overall, one clear hedging expression ("not necessarily") and one qualifier ("only partially").
+**Rating: 2**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "Constraints don't actually fix them in place: they are themselves determined via different models that come with their own errors and uncertainties."
+"Errors and uncertainties" describe properties of models, not hedges in the speaker's language. The claim is stated directly.
+Claim 2: "Furthermore, all galaxy positions and redshifts except for the main deflector *can vary considerably*, adding even more freedom to an already complex model."
+"Can vary" is a modal that introduces some softening, but it's describing actual variability rather than the speaker's uncertainty.
+**Rating: 1**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: "Direct spectroscopy of the second deflector pins down its distance (its redshift) tightly, regardless of the lens model."
+Stated directly. "Tightly" is a qualifier on precision but not a hedge on certainty.
+Claim 2: "On top of that, Hubble imaging fixes the on-sky positions to a fraction of an arcsecond."
+Stated directly, no hedging.
+**Rating: 1**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The gravitationally lensed dual-AGN model...with the first AGN corresponding to the four brightest images and the second AGN corresponding to the two dim images next to the extended red arcs."
+Stated directly and confidently. No hedging language.
+**Rating: 1**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "Spectroscopy constrains the redshift of the lensed red galaxy to be 1.88, which places it between the main deflector and alleged dual-AGN."
+"Alleged" is a subtle hedge/qualifier on the dual-AGN characterization, casting doubt on its status.
+Claim 2: "The dual-AGN model's lens model should include the mass profile of the red galaxy in order to be valid, but it does not."
+Direct and assertive. "Should" is normative but not epistemic hedging.
+One mild hedging word ("alleged").
+**Rating: 2**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "Inclusion of the red galaxy in the lens model will, *on the whole*, produce *only minor* changes in the caustics at the redshift of the dual-AGN."
+"On the whole" and "only minor" are qualifiers that limit and soften the claim.
+Claim 2: "The added mass will in turn allow for a *relatively* larger separation between the two AGN, as *one might reasonably expect*."
+"Relatively" is a qualifier; "as one might reasonably expect" is a hedging phrase expressing moderated confidence.
+Several hedging expressions across both claims.
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "The presence of a second deflector enables models in which one single source can produce 6 observed images."
+"Can produce" is a modal, slightly softening, but it's describing capability rather than expressing uncertainty.
+Claim 2: "Single-AGN models remain consistent with all available data, making the dual-AGN model unnecessary."
+Stated directly and assertively.
+Minimal hedging at most.
+**Rating: 1**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "A single source being lensed to produce 6 images requires a specific morphology which has never been observed before."
+Stated directly.
+Claim 2: "A dual-AGN is an observed phenomenon that does not invoke overcomplicated hypotheses or unobserved morphologies."
+Stated directly and assertively.
+No hedging language detected.
+**Rating: 1**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "Light curves for all 6 lensed images display the same variations with brief offsets (e.g. 35 days between D and E), and the same redshifts. But C. S. M. et al. *claim* that D and E correspond to AGN that are 6 kiloparsecs away from each other."
+"Claim" distances the speaker from C. S. M. et al.'s assertion, acting as a subtle hedge/skepticism marker.
+Claim 2: "Light curves this similar *can only* be generated by a single source."
+"Can only" is actually a strong assertion rather than a hedge.
+One mild hedging element ("claim").
+**Rating: 2**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "Activity in one AGN *can* set off activity in the other AGN in a dual-AGN system, causing correlated emissions."
+"Can" is a modal that softens the claim — it says this is possible, not certain.
+Claim 2: "Correlated emissions *can* make two different objects look like a single object *under some circumstances*."
+"Can" again introduces possibility rather than certainty; "under some circumstances" is an explicit qualifier limiting the scope.
+Two "can" modals and one explicit circumstantial qualifier across two claims — noticeable but not dominant hedging.
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[1]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[1]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[1]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[3]]

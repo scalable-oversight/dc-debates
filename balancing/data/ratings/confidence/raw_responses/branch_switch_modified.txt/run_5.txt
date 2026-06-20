@@ -1,0 +1,117 @@
+I'll analyze each turn for confidence signals, then provide ratings.
+
+**1. Debater A: [Opening] (Left)**
+"The speed stays the same... It decreases slightly when modeled as a rigid body."
+- "stays the same" — definitive
+- "decreases slightly" — "slightly" is a mild qualifier but not a hedge on whether it decreases
+- Overall: assertive, direct statements with no real hedging language
+**Rating: 4**
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "A ball on a string spins faster when pulled inward. The same principle applies..."
+- "The same principle applies" — assertive analogy, no hedging
+Claim 2: "The connecting track provides a radially inward force that accelerates the car tangentially."
+- Stated as a direct fact, no qualification
+**Rating: 5**
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: "The string does work because, as the ball spirals inward, its velocity has a radial component aligned with the tension."
+- Stated definitively, causal "because"
+Claim 2: "The fixed frictionless track exerts only a normal constraint force perpendicular to the car's velocity, so unlike the string it does no work."
+- "only a normal constraint force" — definitive; "so... does no work" — conclusive
+**Rating: 5**
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: "The curvature changes continuously along the connecting track, so the direction of the constraint force rotates."
+- Direct, factual, no hedging
+Claim 2: "This continuous rotation means that the force cannot remain perfectly perpendicular to the velocity at every instant."
+- "cannot remain" — assertive negation, no hedging
+**Rating: 5**
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: "The car's velocity is tangent to the track at every point. The constraint force is normal to the track, hence perpendicular to velocity."
+- Geometric statements stated as certainties; "hence" signals logical necessity
+Claim 2: "At every instant, the force and velocity rotate together, maintaining perpendicularity even as curvature changes."
+- "At every instant" — universal, no hedging
+**Rating: 5**
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "Along the transition arc, the rail's normal force rotates and grows as curvature tightens."
+- Direct factual statement
+Claim 2: "Centripetal acceleration varies in magnitude with the local radius of curvature, unlike on either circular section."
+- Stated as fact, "unlike on either circular section" adds emphasis
+**Rating: 5**
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: "These facts are true but do not refute Debater A Response 2 Claim 2."
+- Assertive, concedes facts but firmly holds position
+Claim 2: "Imagine you're in the car. Velocity points out the windshield, your side doors are aligned with the track. Although you're turning, your doors stay exactly 90 degrees from your windshield."
+- "exactly 90 degrees" — precise and definitive; analogy presented with certainty
+**Rating: 5**
+
+**8. Debater B: [Opening] (Right)**
+"The speed increases if we model the car as a point mass. It also increases if we model it as a rigid body."
+- Both statements are flat assertions with no hedging whatsoever
+**Rating: 5**
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "On a frictionless track, the rails' constraint force does no work, so kinetic energy (KE) is conserved and speed cannot increase."
+- "does no work," "is conserved," "cannot increase" — all definitive
+Claim 2: "There is no mechanism on a fixed frictionless track to add energy to the car."
+- "There is no mechanism" — absolute negation
+**Rating: 5**
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "If the rails truly do no work, then a point-mass car cannot lose speed on the smaller track."
+- "If...truly" — mild conditional hedge on the premise, but conclusion is firm
+Claim 2: "Yet if kinetic energy is conserved and the rails do no work, then no slowdown should occur on a frictionless track for a rigid body model, contradicting Debater A's Opening."
+- Another conditional ("if...then"), but conclusion stated firmly; "contradicting" is assertive
+- The repeated "if" conditionals introduce slight tentativeness
+**Rating: 4**
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "A rigid body has both translational and rotational kinetic energy; a point mass has only translational."
+- Statement of physics fact, no hedging
+Claim 2: "On a tighter track, the body is forced to yaw with the curvature, and rotational energy increases at the expense of translational energy."
+- "is forced," "increases at the expense of" — definitive causal claims
+**Rating: 5**
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "The rail forces that steer the rigid body do positive work and supply the rotational KE directly; it does not need to come from translational KE."
+- "do positive work," "does not need to come from" — assertive, no hedging
+Claim 2: "Since ω = v/R, any drop in v also reduces ω, so the rotational KE does not have to increase."
+- "Since," "any drop," "so...does not have to" — logical chain, though "does not have to" is slightly less absolute than "cannot"
+**Rating: 4**
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "Whether ω = v/R rises or falls depends on whether v or R changes faster. Energy conservation gives v₂ > v₁·R₂/R₁."
+- "depends on" introduces a conditional framing, but the energy conservation result is stated as definite
+Claim 2: "For any choice of m, I, R₁>R₂, this gives v₂/v₁ > R₂/R₁, so ω = v/R increases."
+- "For any choice" and "so ω = v/R increases" — universal and conclusive
+- Overall very confident despite the conditional framing in Claim 1
+**Rating: 5**
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "The formula ω = v/R is a 'point-mass formula' that applies only to a tiny point mass moving on a circle of radius R."
+- "applies only" — restrictive and definitive
+Claim 2: "The center of mass does not ride on the rail's radius, so you can't plug in the velocity at the center of mass for v and the rail radius for R."
+- "does not ride," "you can't plug in" — assertive negations
+**Rating: 5**
+
+---
+
+RATINGS:
+A | Opening | [[4]]
+B | Argument 1 | [[5]]
+A | Response 1 | [[5]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[5]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[5]]
+B | Opening | [[5]]
+A | Argument 1 | [[5]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[5]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[5]]
+B | Response 3 | [[5]]

@@ -1,0 +1,221 @@
+I'll analyze each turn for technical jargon systematically.
+
+---
+
+**Turn 1 – Debater A: [Opening] (Left)**
+"The speed stays the same when we model the car as a point mass. It decreases slightly when modeled as a rigid body."
+
+- "point mass": technical physics term (idealized object with no spatial extent) — jargon
+- "rigid body": technical physics term — jargon
+- These are the only two technical terms; the rest is plain language. A general reader might not know these terms but the sentence is still largely intelligible.
+
+**Rating: 2**
+
+---
+
+**Turn 2 – Debater B: [Argument 1] (Left)**
+Claim 1: "A ball on a string spins faster when pulled inward. The same principle applies when the car transitions to a tighter radius."
+Claim 2: "The connecting track provides a radially inward force that accelerates the car tangentially."
+
+- "radially inward": technical directional term from physics — jargon
+- "tangentially": technical directional term — jargon
+- "radius": fairly common but used technically here — borderline, not opaque
+- Claim 1 is accessible; Claim 2 uses two technical adverbs that may confuse a layperson.
+
+**Rating: 3**
+
+---
+
+**Turn 3 – Debater A: [Response 1] (Left)**
+Claim 1: "The string does work because, as the ball spirals inward, its velocity has a radial component aligned with the tension."
+Claim 2: "The fixed frictionless track exerts only a normal constraint force perpendicular to the car's velocity, so unlike the string it does no work."
+
+- "does work": physics technical usage (work = force × displacement) — jargon
+- "radial component": technical vector/physics term — jargon
+- "tension": somewhat technical in this context — mild jargon
+- "normal constraint force": heavy physics jargon — "normal" here means perpendicular (not everyday "normal"), "constraint force" is specialized
+- "perpendicular to the car's velocity": technical but somewhat accessible
+- Multiple technical terms across both claims.
+
+**Rating: 3**
+
+---
+
+**Turn 4 – Debater B: [Argument 2] (Left)**
+Claim 1: "The curvature changes continuously along the connecting track, so the direction of the constraint force rotates."
+Claim 2: "This continuous rotation means that the force cannot remain perfectly perpendicular to the velocity at every instant."
+
+- "curvature": mathematical/physics term for how sharply a curve bends — mild jargon
+- "constraint force": physics jargon — jargon
+- "perpendicular to the velocity": technical but somewhat accessible
+- Moderate density; accessible overall but some technical vocabulary.
+
+**Rating: 3**
+
+---
+
+**Turn 5 – Debater A: [Response 2] (Left)**
+Claim 1: "The car's velocity is tangent to the track at every point. The constraint force is normal to the track, hence perpendicular to velocity."
+Claim 2: "At every instant, the force and velocity rotate together, maintaining perpendicularity even as curvature changes."
+
+- "tangent to the track": mathematical term — jargon
+- "constraint force": physics jargon — jargon
+- "normal to the track": "normal" as perpendicular — jargon (non-standard usage)
+- "perpendicularity": technical geometric term — jargon
+- "curvature": mathematical term — jargon
+- Multiple technical terms, but sentences remain structured accessibly.
+
+**Rating: 3**
+
+---
+
+**Turn 6 – Debater B: [Argument 3] (Left)**
+Claim 1: "Along the transition arc, the rail's normal force rotates and grows as curvature tightens."
+Claim 2: "Centripetal acceleration varies in magnitude with the local radius of curvature, unlike on either circular section."
+
+- "transition arc": technical geometry/physics term — jargon
+- "normal force": physics jargon — jargon
+- "curvature": mathematical term — jargon
+- "centripetal acceleration": physics jargon — jargon
+- "radius of curvature": mathematical term — jargon
+- "magnitude": technical physics/math usage — mild jargon
+- Both claims are dense with technical terms.
+
+**Rating: 4**
+
+---
+
+**Turn 7 – Debater A: [Response 3] (Left)**
+Claim 1: "These facts are true but do not refute Debater A Response 2 Claim 2."
+Claim 2: "Imagine you're in the car. Velocity points out the windshield, your side doors are aligned with the track. Although you're turning, your doors stay exactly 90 degrees from your windshield."
+
+- "velocity": mild physics term — borderline jargon but widely understood
+- "90 degrees": common usage, not jargon
+- Claim 2 uses an analogy in plain language; Claim 1 is meta-commentary.
+- Largely accessible.
+
+**Rating: 2**
+
+---
+
+**Turn 8 – Debater B: [Opening] (Right)**
+"The speed increases if we model the car as a point mass. It also increases if we model it as a rigid body."
+
+- "point mass": technical physics term — jargon
+- "rigid body": technical physics term — jargon
+- Same as Turn 1 in structure; two technical terms, otherwise plain.
+
+**Rating: 2**
+
+---
+
+**Turn 9 – Debater A: [Argument 1] (Right)**
+Claim 1: "On a frictionless track, the rails' constraint force does no work, so kinetic energy (KE) is conserved and speed cannot increase."
+Claim 2: "There is no mechanism on a fixed frictionless track to add energy to the car."
+
+- "frictionless": physics idealization — mild jargon
+- "constraint force": physics jargon — jargon
+- "does no work": physics technical usage — jargon
+- "kinetic energy (KE)": physics jargon with acronym — jargon
+- "conserved": physics technical term (conservation of energy) — jargon
+- Multiple technical terms; a layperson might struggle with several of these.
+
+**Rating: 3**
+
+---
+
+**Turn 10 – Debater B: [Response 1] (Right)**
+Claim 1: "If the rails truly do no work, then a point-mass car cannot lose speed on the smaller track."
+Claim 2: "Yet if kinetic energy is conserved and the rails do no work, then no slowdown should occur on a frictionless track for a rigid body model, contradicting Debater A's Opening."
+
+- "do no work": physics technical usage — jargon
+- "point-mass": technical physics term — jargon
+- "kinetic energy is conserved": physics jargon — jargon
+- "frictionless": physics idealization — mild jargon
+- "rigid body model": physics jargon — jargon
+- Several technical terms across both claims, but sentences are structured logically.
+
+**Rating: 3**
+
+---
+
+**Turn 11 – Debater A: [Argument 2] (Right)**
+Claim 1: "A rigid body has both translational and rotational kinetic energy; a point mass has only translational."
+Claim 2: "On a tighter track, the body is forced to yaw with the curvature, and rotational energy increases at the expense of translational energy."
+
+- "rigid body": physics jargon — jargon
+- "translational kinetic energy": physics jargon — jargon
+- "rotational kinetic energy": physics jargon — jargon
+- "point mass": physics jargon — jargon
+- "yaw": technical motion/engineering term — jargon
+- "curvature": mathematical term — jargon
+- Heavy concentration of technical terms; most sentences contain jargon.
+
+**Rating: 4**
+
+---
+
+**Turn 12 – Debater B: [Response 2] (Right)**
+Claim 1: "The rail forces that steer the rigid body do positive work and supply the rotational KE directly; it does not need to come from translational KE."
+Claim 2: "Since ω = v/R, any drop in v also reduces ω, so the rotational KE does not have to increase."
+
+- "positive work": physics technical term — jargon
+- "rigid body": physics jargon — jargon
+- "rotational KE": physics jargon with acronym — jargon
+- "translational KE": physics jargon — jargon
+- "ω = v/R": mathematical formula with Greek letter (angular velocity equation) — jargon
+- "ω" (omega, angular velocity): physics notation — jargon
+- "v/R": algebraic notation — jargon
+- Dense with technical terms and includes a formula with specialized notation.
+
+**Rating: 4**
+
+---
+
+**Turn 13 – Debater A: [Argument 3] (Right)**
+Claim 1: "Whether ω = v/R rises or falls depends on whether v or R changes faster. Energy conservation gives v₂ > v₁·R₂/R₁."
+Claim 2: "For any choice of m, I, R₁>R₂, this gives v₂/v₁ > R₂/R₁, so ω = v/R increases."
+
+- "ω = v/R": formula with Greek letter — jargon
+- "Energy conservation": physics principle — jargon
+- "v₂ > v₁·R₂/R₁": algebraic inequality with subscripts — jargon
+- "m": mass variable — jargon notation
+- "I": moment of inertia variable — jargon (especially opaque; "I" for moment of inertia is highly specialized)
+- "R₁>R₂": algebraic notation — jargon
+- "v₂/v₁ > R₂/R₁": ratio inequality — jargon
+- Very dense with formulas, variables, and technical notation.
+
+**Rating: 5**
+
+---
+
+**Turn 14 – Debater B: [Response 3] (Right)**
+Claim 1: "The formula ω = v/R is a 'point-mass formula' that applies only to a tiny point mass moving on a circle of radius R."
+Claim 2: "The center of mass does not ride on the rail's radius, so you can't plug in the velocity at the center of mass for v and the rail radius for R."
+
+- "ω = v/R": formula — jargon
+- "point-mass formula": physics jargon — jargon
+- "point mass": physics jargon — jargon
+- "center of mass": physics technical term — jargon
+- "radius": mathematical term — mild jargon
+- Multiple technical terms including a formula; the "center of mass" concept is somewhat accessible but still technical.
+
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[2]]
+B | Opening | [[2]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[5]]
+B | Response 3 | [[3]]

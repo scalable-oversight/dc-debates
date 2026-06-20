@@ -1,0 +1,73 @@
+I'll analyze each turn for hedging and qualifying language.
+
+**1. Debater A: [Opening] (Left)**
+"The water level falls." — A direct, unhedged assertion. No qualifying language whatsoever.
+**Rating: 1**
+
+**2. Debater B: [Argument 1] (Left)**
+"so its displacement is volume-based, in line with [Quote 2]" — "in line with" is mildly softening but primarily a citation. "the ice's meltwater replaces the ice's displacement" — direct. No clear hedging expressions.
+**Rating: 1**
+
+**3. Debater A: [Response 1] (Left)**
+"implying that these are different things" — "implying" is a hedging word, suggesting the interpretation is inferred rather than stated. "so its initial displacement is weight-based" — direct. One hedging instance.
+**Rating: 2**
+
+**4. Debater B: [Argument 2] (Left)**
+"which we can safely assume is being used here" — "safely assume" is a hedging phrase, acknowledging that this is an assumption. "so it is buoyant" — direct. One notable hedging expression.
+**Rating: 2**
+
+**5. Debater A: [Response 2] (Left)**
+"under any reading where" — qualifies the scope of the contradiction. "i.e, if fully submerged on its own, the upward buoyant force from the fluid would meet or exceed the object's weight" — the "would" is a conditional/modal hedge. Two hedging instances.
+**Rating: 2**
+
+**6. Debater B: [Argument 3] (Left)**
+"diverges from the standard dictionary senses" — "standard dictionary senses" is fairly direct. "for an object whose density falls below that of water, the full volume is not *typically* underwater" — "typically" is a hedge. One hedging word.
+**Rating: 2**
+
+**7. Debater A: [Response 3] (Left)**
+"[Quote 2] is pointing out that objects with density less than water, but which *do* have their full volumes underwater, will displace their full volumes" — direct assertion. "A beach ball held underwater is an example of this" — direct. No hedging language.
+**Rating: 1**
+
+**8. Debater B: [Opening] (Right)**
+"The water level stays brim full." — A direct, unhedged assertion.
+**Rating: 1**
+
+**9. Debater A: [Argument 1] (Right)**
+"The floating system displaces water equal to its total weight" — direct. "since it is no longer weighed down by the spike" — direct. No hedging language.
+**Rating: 1**
+
+**10. Debater B: [Response 1] (Right)**
+"Treating ice and spike as one 'floating system' implies that" — "implies" is a mild hedge. "the ice floats on its own (weight-based displacement)" — direct. One hedging instance ("implies").
+**Rating: 2**
+
+**11. Debater A: [Argument 2] (Right)**
+"the spike and the ice are initially part of the same floating system" — direct. "[Quote 2]'s 'buoyant submerged object' means one that is fully underwater but less dense than water" — direct definitional claim. No hedging language.
+**Rating: 1**
+
+**12. Debater B: [Response 2] (Right)**
+"Because the spike is floating entirely below the waterline, it qualifies as a 'buoyant submerged object'" — direct. "yet it experiences a buoyant force equal to the weight of the water it displaces" — direct. No hedging language.
+**Rating: 1**
+
+**13. Debater A: [Argument 3] (Right)**
+"This would mean displacement is weight-based when 99% is below the waterline, but volume-based at 100%" — "would mean" is a conditional/hypothetical hedge. "The source never defines 'submerged' as 'fully below the waterline'; in fact, it distinguishes 'submerged' from 'fully submerged'" — direct. One hedging instance ("would mean").
+**Rating: 2**
+
+**14. Debater B: [Response 3] (Right)**
+"Your definition... gives a weight-based regime when the spike is 1% attached to the ice, and volume-based at 0%" — direct. "Such a discontinuous switch in the regime is physically implausible" — direct assertion (no hedging, "implausible" is a strong evaluative claim, not a hedge).
+**Rating: 1**
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[1]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[1]]
+B | Opening | [[1]]
+A | Argument 1 | [[1]]
+B | Response 1 | [[2]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[1]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[1]]

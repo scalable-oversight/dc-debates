@@ -1,0 +1,73 @@
+I'll analyze each turn for confidence language, then provide ratings.
+
+**1. Debater A: [Opening] (Left)**
+"The speed stays the same... It decreases slightly..." — Assertive statements with no hedging, though "slightly" softens the second claim mildly. The word "slightly" is the only qualification. Overall very definitive.
+**Rating: 4**
+
+**2. Debater B: [Argument 1] (Left)**
+"spins faster when pulled inward" — definitive. "The same principle applies" — assertive. "provides a radially inward force that accelerates the car tangentially" — stated as fact with no hedging.
+**Rating: 5**
+
+**3. Debater A: [Response 1] (Left)**
+"The string does work because..." — definitive causal claim. "the fixed frictionless track exerts only a normal constraint force... so unlike the string it does no work" — stated with certainty, using "only" as an absolute qualifier reinforcing confidence.
+**Rating: 5**
+
+**4. Debater B: [Argument 2] (Left)**
+"the curvature changes continuously" — factual, definitive. "cannot remain perfectly perpendicular" — "cannot" is absolute, though "perfectly" slightly qualifies. Overall assertive with strong modal language.
+**Rating: 4**
+
+**5. Debater A: [Response 2] (Left)**
+"The car's velocity is tangent to the track at every point" — definitive. "hence perpendicular to velocity" — logical certainty. "at every instant" — absolute scope. "maintaining perpendicularity even as curvature changes" — assertive conclusion. No hedging at all.
+**Rating: 5**
+
+**6. Debater B: [Argument 3] (Left)**
+"the rail's normal force rotates and grows as curvature tightens" — stated as fact. "Centripetal acceleration varies in magnitude with the local radius of curvature" — stated as physical fact. Both claims are definitive with no hedging.
+**Rating: 5**
+
+**7. Debater A: [Response 3] (Left)**
+"These facts are true but do not refute..." — confident rebuttal. The analogy ("Imagine you're in the car...") is vivid and presented with certainty: "your doors stay exactly 90 degrees." "Exactly" is an absolute qualifier reinforcing confidence.
+**Rating: 5**
+
+**8. Debater B: [Opening] (Right)**
+"The speed increases if we model... It also increases if we model it as a rigid body" — both claims stated definitively with no hedging whatsoever. Fully assertive.
+**Rating: 5**
+
+**9. Debater A: [Argument 1] (Right)**
+"the rails' constraint force does no work, so kinetic energy (KE) is conserved and speed cannot increase" — definitive, uses "cannot." "There is no mechanism... to add energy" — absolute negation. No hedging.
+**Rating: 5**
+
+**10. Debater B: [Response 1] (Right)**
+"If the rails truly do no work, then a point-mass car cannot lose speed" — conditional "if" introduces slight tentativeness but is used as a logical deduction tool. "Yet if kinetic energy is conserved... then no slowdown should occur" — again conditional logic, "should" is slightly softer than "does." Minor hedging via conditionals.
+**Rating: 4**
+
+**11. Debater A: [Argument 2] (Right)**
+"A rigid body has both translational and rotational kinetic energy; a point mass has only translational" — stated as established fact. "the body is forced to yaw... rotational energy increases at the expense of translational energy" — definitive causal language, "forced" and "increases" are assertive.
+**Rating: 5**
+
+**12. Debater B: [Response 2] (Right)**
+"The rail forces... do positive work and supply the rotational KE directly; it does not need to come from translational KE" — assertive, "does not need" is definitive. "any drop in v also reduces ω, so the rotational KE does not have to increase" — "does not have to" is slightly softer, but the overall tone is confident.
+**Rating: 4**
+
+**13. Debater A: [Argument 3] (Right)**
+"Whether ω = v/R rises or falls depends on..." — introduces a condition but then resolves it definitively. "Energy conservation gives v₂ > v₁·R₂/R₁" — states as derived fact. "For any choice of m, I, R₁>R₂, this gives v₂/v₁ > R₂/R₁, so ω = v/R increases" — "for any choice" is universal quantifier, very assertive conclusion.
+**Rating: 5**
+
+**14. Debater B: [Response 3] (Right)**
+"The formula ω = v/R is a 'point-mass formula' that applies only to a tiny point mass" — definitive, "only" is absolute. "The center of mass does not ride on the rail's radius, so you can't plug in..." — "does not" and "can't" are absolute negations. Very assertive.
+**Rating: 5**
+
+RATINGS:
+A | Opening | [[4]]
+B | Argument 1 | [[5]]
+A | Response 1 | [[5]]
+B | Argument 2 | [[4]]
+A | Response 2 | [[5]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[5]]
+B | Opening | [[5]]
+A | Argument 1 | [[5]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[5]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[5]]
+B | Response 3 | [[5]]

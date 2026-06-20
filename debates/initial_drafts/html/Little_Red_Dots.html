@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Red Dots</title>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 2em;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            color: #34495e;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+        
+        h3 {
+            color: #34495e;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        
+        .question-section {
+            margin-bottom: 40px;
+        }
+        
+        .question-section p {
+            margin-bottom: 15px;
+        }
+        
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .references-section {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+        }
+        
+        .references-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .reference-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: white;
+            border-left: 4px solid #3498db;
+            border-radius: 4px;
+        }
+        
+        .reference-item strong {
+            color: #2c3e50;
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        .reference-quote {
+            color: #666;
+            font-style: italic;
+            margin-top: 8px;
+        }
+        
+        .debate-container {
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .debate-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .debate-table thead {
+            background-color: #34495e;
+            color: white;
+        }
+        
+        .debate-table th {
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .debate-table td {
+            padding: 12px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .debate-table tbody tr:hover {
+            background-color: #f8f9fa;
+        }
+        
+        .liz-turn {
+            background-color: #e8f5e9;
+        }
+        
+        .bob-turn {
+            background-color: #fff3e0;
+        }
+        
+        .turn-label {
+            font-weight: 600;
+            color: #2c3e50;
+            width: 100px;
+            white-space: nowrap;
+        }
+        
+        .turn-content {
+            line-height: 1.8;
+        }
+        
+        .task-block {
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+            line-height: 1.6;
+        }
+        
+        pre {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 15px;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+        
+        code {
+            font-family: "Consolas", "Monaco", "Courier New", monospace;
+            font-size: 0.9em;
+        }
+        
+        pre code {
+            display: block;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        
+        .ref-link {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .ref-link:hover {
+            text-decoration: underline;
+        }
+        
+        .flyout {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: white;
+        }
+        
+        .flyout-header {
+            padding: 15px 20px;
+            cursor: pointer;
+            user-select: none;
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #ddd;
+            font-weight: 600;
+            color: #2c3e50;
+            transition: background-color 0.2s ease;
+        }
+        
+        .flyout-header:hover {
+            background-color: #e9ecef;
+        }
+        
+        .flyout-header::before {
+            content: "▶";
+            display: inline-block;
+            margin-right: 10px;
+            transition: transform 0.2s ease;
+            font-size: 0.8em;
+        }
+        
+        .flyout.expanded .flyout-header::before {
+            transform: rotate(90deg);
+        }
+        
+        .flyout-content {
+            display: none;
+            padding: 20px;
+        }
+        
+        .flyout.expanded .flyout-content {
+            display: block;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+            
+            .debate-table {
+                font-size: 0.9em;
+            }
+            
+            .debate-table th,
+            .debate-table td {
+                padding: 8px;
+            }
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add click handlers to flyout headers
+            document.querySelectorAll('.flyout-header').forEach(function(header) {
+                header.addEventListener('click', function() {
+                    var flyout = this.parentElement;
+                    flyout.classList.toggle('expanded');
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Little Red Dots</h1>
+        
+        <div class="flyout">
+            <div class="flyout-header">Question</div>
+            <div class="flyout-content">
+                <div class="question-section">
+                    <p>Definitions</p>
+<br>
+<p>(D1) Accretion - The process where a celestial object grows by gravitationally attracting and accumulating surrounding matter, like gas or dust, often forming a swirling accretion disk around the massive object before the material spirals inward. The central object can be a protostar, or a compact object like a neutron star or a black hole.</p>
+<br>
+<div class="image-container"><img src="../images/accretion.png" alt="Image"></div>
+<br>
+<p>(D2) Eddington limit - A theoretical limit to how fast an accreting body can grow. This is the point at which the outward force produced by radiation pressure is equal to the gravitational attraction experienced by the in-falling matter. In real systems, it is known that this limit can be violated, due to non-spherical geometry or various kinds of instabilities, resulting in super-Eddington accretion.</p>
+<br>
+<p>(D3) Protostar - A protostar is the earliest stage of stellar evolution, forming from a collapsing cloud of gas and dust and growing by accreting more material, becoming hotter and denser until nuclear fusion ignites, transitioning it into a main-sequence star.</p>
+<br>
+<p>(D4) AGN - Active Galactic Nuclei are galaxies with an actively accreting (consuming matter) supermassive black hole (SMBH) at their center. The matter forms a very bright (one of the  brightest phenomena in the universe) accretion disc as it spirals into the SMBH. An AGN might also contain twin jets of gas and dust ejected from the center of the galaxy that can rival the galaxy’s own size. High redshift (D5) AGN are often referred to as quasars.</p>
+<br>
+<div class="image-container"><img src="../images/agn.png" alt="Image"></div>
+<br>
+<p>(D5) Redshift (denoted by z) - As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift =&gt; object is further away.</p>
+<br>
+<p>(D6) Supermassive stars - Theoretical, extremely massive stars (100 to 100,000+ solar masses or Msol) that likely formed in the early universe from primordial gas (mostly pure hydrogen and helium), theorized to be the seeds for the first supermassive black holes seen in the centers of galaxies.</p>
+<br>
+<p>Question</p>
+<br>
+<p>What theoretical model best explains the Little Red Dots (LRDs) observed by the James Webb Space Telescope?</p>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="flyout">
+            <div class="flyout-header">Manual debates</div>
+            <div class="flyout-content">
+                <div class="debate-container">
+<h3>Debate: Liz (Initiator) vs Bob (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.0</td>
+    <td class="turn-content">LRDs can be explained by accretion (D1) of black holes in AGNs (D4) <a href="#ref-zz_et_al" class="ref-link">[zz_et_al]</a>.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.0</td>
+    <td class="turn-content">Accretion in AGNs leads to strong X-ray emission, which does not align with the X-ray weakness of LRDs. How does your model explain this?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.1</td>
+    <td class="turn-content">The X-ray weakness of the LRDs can be explained by super-Eddington (D2) accretion in black holes without contradicting the AGN scenario. At super-Eddington rates, the hot corona above the inner accretion disks that is thought to be responsible for the emission of X-rays in &quot;normal&quot; AGNs is embedded in a funnel-like reflection geometry. The high UV density cools down the plasma and results in extremely soft X-ray spectra like those observed in LRDs <a href="#ref-pm_et_al" class="ref-link">[pm_et_al]</a>.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.1</td>
+    <td class="turn-content">AGNs also exhibit distinctive variability compared to galaxies, but most LRDs in your sample only show weak variability. How does your model explain this?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.2</td>
+    <td class="turn-content">Multiple mechanisms could contribute to the weak variability observed. The host galaxy&#x27;s contribution increases for longer wavelengths, which would dilute the AGN&#x27;s intrinsic variability. More importantly, AGN variability amplitude decreases with increasing accretion rate, and super-Eddington accretion will also explain the lack of variability observed in LRDs <a href="#ref-ki_sk_et_al" class="ref-link">[ki_sk_et_al]</a>.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.2</td>
+    <td class="turn-content">LRDs contain prominent Balmer breaks which correspond to galaxy-only models or dusty star formation. How does your AGN scenario explain the presence of a Balmer break without a stellar component?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.3</td>
+    <td class="turn-content">The observed Balmer break in LRDs can be explained by absorption from extremely dense gas in the line of sight. Such dense gas has been used to explain Balmer absorption features in other high-redshift AGNs <a href="#ref-ki_et_al" class="ref-link">[ki_et_al]</a>, and fits within the AGN origin framework we build for LRDs.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<div class="debate-container">
+<h3>Debate: Bob (Initiator) vs Liz (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.0</td>
+    <td class="turn-content">LRDs can be explained by photospheric emission of supermassive stars (SMS) (D6) <a href="#ref-dn_et_al" class="ref-link">[dn_et_al]</a>.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.0</td>
+    <td class="turn-content">Supermassive stars are theorised to be very short-lived, what evolutionary phase in your model corresponds to LRDs?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.1</td>
+    <td class="turn-content">The protostar (D3) in our model accretes material at a rate higher than the critical accretion rate to set up a supermassive configuration <a href="#ref-dn_lz_et_al" class="ref-link">[dn_lz_et_al]</a>. It evolves as a cool, bloated red supergiant along the Hayashi track. The intense surface accretion forces the outer layers to expand dramatically, which lasts for a total of 1000 years, at which point the star achieves its final mass of 10^6 Msol. This pre-evolutionary phase corresponds to LRDs before the SMS collapses directly into a black hole.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.1</td>
+    <td class="turn-content">The time for which your model resembles an LRD (1000 years) is very small. If all LRDs correspond to pre-collapse SMS, the resulting number density of 10^6 Msol black holes would be much larger than what we observe. How do you reconcile this cosmological constraint with your model?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.2</td>
+    <td class="turn-content">Our base estimates do not incorporate stellar rotation into the model. Adding stellar rotation would provide additional centrifugal force to stabilize the supermassive configuration against gravitational collapse, increasing the lifetime of the SMS and lowering the number density required to support the amount of LRDs observed, while keeping within the constraints imposed by observed 10^6 Msol black holes.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.2</td>
+    <td class="turn-content">In addition to stellar rotation, your model doesn&#x27;t use a full comoving-frame radiative transfer solution, or a multi-level hydrogen atom (explicitly the n=3 level). How do you calculate the Hα line strength and NLTE effects without assuming phenomenological boosts?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.3</td>
+    <td class="turn-content">A more rigorous treatment of the radiative transfer will not alter this framework&#x27;s fit to the observed continuum shape, line features, and line widths. Additionally, the phenomenological boosts we have used are justifiable approximations of the multi-level hydrogen atom case. Our model cleanly fits the observed data as emergent properties from a single stellar object.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+                <div class="references-section">
+<h2>References</h2>
+<ul class="references-list">
+  <li class="reference-item">
+    <strong id="ref-zz_et_al">Z. Z. et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-dn_et_al">D. N. et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-pm_et_al">P. M. et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-dn_lz_et_al">D. N., L. Z. et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-ki_sk_et_al">K. I., S. K. et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-ki_et_al">K. I., et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+</ul>
+</div>
+
+            </div>
+        </div>
+        
+                <div class="flyout">
+            <div class="flyout-header">Gemini 3 Pro Debates</div>
+            <div class="flyout-content">
+                <div class="debate-container">
+<h3>Debate: Liz (Initiator) vs Bob (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.0</td>
+    <td class="turn-content">The Little Red Dots (LRDs) are best explained as dust-reddened Active Galactic Nuclei (D4). These objects are compact point sources, which rules out extended galaxies. Crucially, they exhibit broad H-alpha emission lines with velocities exceeding 2000 km/s. As shown by <a href="#ref-jm_et_al" class="ref-link">[jm_et_al]</a>, these velocities indicate gas orbiting in the deep potential well of a Supermassive Black Hole (SMBH), characteristic of the Broad Line Regions seen in Type 1 AGN.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.0</td>
+    <td class="turn-content">Standard AGN should be X-ray bright, yet LRDs are famously faint. Their &quot;V-shaped&quot; SED—blue UV, red optical—fits the photosphere of a Supermassive Star (D6) perfectly. Why force a convoluted &quot;reddened disk + scattered blue light&quot; model when the Supermassive Star explains the spectrum naturally without fine-tuning?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.1</td>
+    <td class="turn-content">The X-ray faintness is a feature of super-Eddington accretion (D2). In this regime, the accretion disk puffs up, shielding the X-ray corona. As <a href="#ref-fp_et_al" class="ref-link">[fp_et_al]</a> demonstrate, super-Eddington accretion naturally suppresses observed X-rays while maintaining the broad optical lines. The V-shape is simply a dust-reddened AGN seen alongside some unobscured star formation from the host.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.1</td>
+    <td class="turn-content">Invisibility is a convenient excuse. <a href="#ref-dn_et_al" class="ref-link">[dn_et_al]</a> show that a Supermassive Star of \(10^6 M_{\odot}\) naturally produces the V-shape via its intrinsic photospheric Balmer break, without needing ad-hoc dust geometries. Why postulate a hidden, silent black hole when a visible Supermassive Star explains the spectrum and the lack of X-rays directly?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.2</td>
+    <td class="turn-content">Because SMSs are transient &quot;seeds&quot; (D6) that collapse quickly. We see too many LRDs for them all to be in this fleeting phase; the number density aligns with the growth phase of SMBHs. Furthermore, the broad lines in LRDs are persistent. An SMS would have broad lines due to winds, but the velocity profiles in LRDs match the Keplerian motion of an accretion disk (D1).</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.2</td>
+    <td class="turn-content">The profiles are not strictly Keplerian. Broad wings arise from electron scattering in the dense formation cocoon. Crucially, as noted by <a href="#ref-pg_et_al" class="ref-link">[pg_et_al]</a>, LRDs lack the mid-IR &quot;bump&quot; characteristic of the hot dust torus found in all Type 1 AGN. If they are AGN, where is the torus?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.3</td>
+    <td class="turn-content">The torus is a feature of mature, low-z AGN. At high redshift, the dust geometry is chaotic and likely covers a larger solid angle. The &quot;red&quot; continuum in LRDs is the hot dust emission, just attenuated. We know super-Eddington accretion (D2) happens; positing a population of exotic, never-observed stars to explain known accretion physics violates Occam&#x27;s Razor.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<div class="debate-container">
+<h3>Debate: Bob (Initiator) vs Liz (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.0</td>
+    <td class="turn-content">The LRDs are the first observational evidence of Supermassive Stars (D6). These objects—primordial gas clouds collapsed into \(10^5\)-\(10^6 M_{\odot}\) stars—cleanly explain the observables: they are compact, X-ray silent, and their cool, vast photospheres naturally create the &quot;V-shaped&quot; SED that AGN models struggle to reproduce without ad-hoc adjustments.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.0</td>
+    <td class="turn-content">Your model fails the kinematics. LRDs show H-alpha lines with widths suggesting gas moving at thousands of km/s. In an AGN, this is gravity (D1). In a star, this requires winds. How does a hydrostatic star maintain a wind of 4000 km/s without blowing itself apart instantly? <a href="#ref-jm_et_al" class="ref-link">[jm_et_al]</a> confirm these line widths imply compact masses consistent with Black Holes.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.1</td>
+    <td class="turn-content">Supermassive Stars are near the Eddington limit (D2) by definition, driving powerful, fast winds that broaden emission lines. <a href="#ref-dn_et_al" class="ref-link">[dn_et_al]</a> demonstrate that non-LTE effects in SMS atmospheres can reproduce these broad H-alpha wings and the &quot;absorption trough&quot; often seen in LRDs. We don&#x27;t need a singularity to get high velocities; we just need the deep potential well of the seed itself.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.1</td>
+    <td class="turn-content">If these are SMS seeds, they should be rare precursors. Yet LRDs are abundant—about 1% of the galaxy population at \(z \sim 5\). If every LRD is a Supermassive Star, where are the resulting descendants? We would overproduce the number of local supermassive black holes. The sheer abundance favors the idea that they are the growth phase (AGN) of black holes, not the seed.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.2</td>
+    <td class="turn-content">The abundance is a bigger problem for the AGN model. It implies a &quot;little monster&quot; in almost every early galaxy, growing at unsustainable rates. SMSs are sustained by rapid accretion (D1) from the host galaxy, extending their lifetime. SMSs offer a bridge: these are the heavy seeds forming now, explaining why we see them at high \(z\) and not locally.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.2</td>
+    <td class="turn-content">You claim the AGN model is unsustainable, but super-Eddington accretion (D2) is efficient and physically consistent. The &quot;V-shape&quot; you cite as stellar evidence is easily modeled as a reddened AGN (red) plus scattered light (blue). Why invent a new class of object (D6) when a dusty version of a known object (D4) fits the data?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.3</td>
+    <td class="turn-content">Because the &quot;known object&quot; (AGN) fails the X-ray test. Attributing the missing X-rays to &quot;super-Eddington geometry&quot; is a post-hoc patch. The Supermassive Star model predicts the lack of X-rays a priori because the object is cool (\(T \sim 10^4\) K). My model fits the data without excuses; yours requires invisible shields.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+                <div class="references-section">
+<h2>References</h2>
+<ul class="references-list">
+  <li class="reference-item">
+    <strong id="ref-jm_et_al">J. M. et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-fp_et_al">F. P. et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-dn_et_al">D. N. et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-pg_et_al">P. G. et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+</ul>
+</div>
+
+            </div>
+        </div>
+        <div class="flyout">
+            <div class="flyout-header">GPT 5.2 Debates</div>
+            <div class="flyout-content">
+                <div class="debate-container">
+<h3>Debate: Liz (Initiator) vs Bob (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.0</td>
+    <td class="turn-content">LRDs fit obscured AGN powered by rapidly accreting BH seeds: broad Hα (~2000 km/s) plus high-ionization UV (C IV/C III]) point to a compact, hard ionizing source; their red, compact NIR cores match buried nuclei.<a href="#ref-hba_et_al" class="ref-link">[hba_et_al]</a></td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.0</td>
+    <td class="turn-content">X-ray non-detections and low variability cut against AGN; accretion disks are intrinsically noisy. SMS photospheres reproduce the V-shaped Balmer break directly and avoid “hidden nucleus” add-ons. Why isn’t SMS the better default model?<a href="#ref-dn_et_al" class="ref-link">[dn_et_al]</a></td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.1</td>
+    <td class="turn-content">Compton-thick columns quench X-rays while reradiating in IR; variability is diluted by host light and reprocessing, yet a meaningful subset varies. SMS must invoke extreme winds/electron scattering to reach ~2000 km/s and still keep a clean photospheric break; that’s more tuning than obscuration.<a href="#ref-zz_et_al" class="ref-link">[zz_et_al]</a></td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.1</td>
+    <td class="turn-content">Your model needs dust thick enough for Compton-thick X-ray suppression, yet LRDs show blue UV slopes and strong UV lines. Where does that UV escape without undoing the reddening? And why treat broad lines as BH evidence when high-z line regions aren’t calibrated?<a href="#ref-mk_et_al" class="ref-link">[mk_et_al]</a></td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.2</td>
+    <td class="turn-content">Geometry solves that: polar holes + scattering let blue/line photons escape while equatorial columns stay Compton-thick. Line widths don’t require low-z BLR scaling—~2000 km/s already implies a deep, compact potential. In a studied LRD, UV is extended but the NIR core is unresolved/red, matching host + buried nucleus.<a href="#ref-mk_et_al" class="ref-link">[mk_et_al]</a></td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.2</td>
+    <td class="turn-content">SMS fits the key Balmer-break diagnostic with one physical engine, while your picture stacks host+disk+torus+scattering. Why call that parsimony? And SMS phases can last up to ~10^6 yr; what blocks them from explaining the observed counts?<a href="#ref-dn_et_al" class="ref-link">[dn_et_al]</a></td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.3</td>
+    <td class="turn-content">Parsimony counts assumptions, not components. AGN+obscuration is observed physics and simultaneously explains broad Balmer, high-ionization UV, red compact cores, and X-ray weakness. SMS requires forming many 10^5–10^6 Msun stars, keeping them stable, and generating AGN-like ionization/broadening without accretion—harder to realize and populate at the observed level.<a href="#ref-hba_et_al" class="ref-link">[hba_et_al]</a></td>
+  </tr>
+</tbody>
+</table>
+</div>
+<div class="debate-container">
+<h3>Debate: Bob (Initiator) vs Liz (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.0</td>
+    <td class="turn-content">LRDs are best explained as supermassive stars (SMS) with star-like photospheres: their smooth red SEDs and V-shaped Balmer breaks look photospheric, and widespread X-ray weakness/low variability is exactly expected. Detailed SMS atmosphere+wind models reproduce the hallmark break and Balmer-line behavior without invoking hidden AGN.<a href="#ref-dn_et_al" class="ref-link">[dn_et_al]</a></td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.0</td>
+    <td class="turn-content">Broad Hα (~2000 km/s) and UV lines like C IV/C III] usually require a hard ionizing continuum near a deep potential. What stellar mechanism produces both at once? And when an LRD is modeled as obscured AGN plus star-forming host with a compact red NIR core, what observation decisively rejects that for the class?<a href="#ref-hba_et_al" class="ref-link">[hba_et_al]</a></td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.1</td>
+    <td class="turn-content">The “BH-only” framing is wrong. In SMS, dense radiation-driven winds plus electron scattering broaden Balmer lines to thousands of km/s, and hot inner layers/winds can photoionize carbon. The continuum is decisive: SMS yields the V-break intrinsically, while AGN needs carefully balanced disk/torus/host components to imitate it.<a href="#ref-dn_et_al" class="ref-link">[dn_et_al]</a></td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.1</td>
+    <td class="turn-content">A multi-epoch study finds a nontrivial variable subset—doesn’t compact accretion explain that cleanly? If hot inner layers drive C IV, why doesn’t that overionize/erase the photospheric break? And with SMS lifetimes often quoted 10^4–10^6 yr, what number-density argument shows enough SMS to match LRD counts?<a href="#ref-zz_et_al" class="ref-link">[zz_et_al]</a></td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.2</td>
+    <td class="turn-content">Variability doesn’t single out AGN: SMS envelopes can pulsate or undergo episodic mass loss, so rare variability is expected. Ionization arises in winds/inner layers while the observed continuum is set by the extended photosphere, so the break survives. Formation in dense, pristine halos at high z can be common; ~10^6 yr visibility already yields ample counts without hiding AGN in most objects.<a href="#ref-dn_et_al" class="ref-link">[dn_et_al]</a></td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.2</td>
+    <td class="turn-content">What NIRSpec discriminator picks SMS over obscured AGN—polarization, line ratios (He II/C IV), spatially resolved color gradients? In the z~4.53 case, UV is extended but the NIR is a compact red core. How does a single SMS produce that two-component morphology rather than a buried nucleus plus host?<a href="#ref-mk_et_al" class="ref-link">[mk_et_al]</a></td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.3</td>
+    <td class="turn-content">SMS predicts star-like observables: photospheric continua with specific non-LTE Balmer absorption/emission structure, modest high-ionization lines from winds, and essentially no hard X-rays—without requiring Compton-thick columns. The compact NIR core can be a luminous SMS (or SMS cluster) embedded in a larger UV-bright host, which is cleaner than assuming most LRDs hide AGN with finely tuned escape paths.<a href="#ref-dn_et_al" class="ref-link">[dn_et_al]</a></td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+                <div class="references-section">
+<h2>References</h2>
+<ul class="references-list">
+  <li class="reference-item">
+    <strong id="ref-mk_et_al">M. K., et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-hba_et_al">H. B. A., et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-zz_et_al">Z. Z., et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-dn_et_al">D. N., et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+</ul>
+</div>
+
+            </div>
+        </div>
+        <div class="flyout">
+            <div class="flyout-header">Claude 4.5 Opus Debates</div>
+            <div class="flyout-content">
+                <div class="debate-container">
+<h3>Debate: Liz (Initiator) vs Bob (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.0</td>
+    <td class="turn-content">The leading model for LRDs is obscured AGN with accreting supermassive black holes embedded in dense gas. Research shows 70-80% of LRDs display broad Balmer emission lines with gas velocities exceeding 1000 km/s—a definitive signature of black hole accretion <a href="#ref-kocevski" class="ref-link">[kocevski]</a>. The &quot;black hole star&quot; model explains both AGN features and X-ray absence: dense gas envelopes thermalize radiation, producing stellar-like spectra while absorbing X-rays <a href="#ref-degraaff" class="ref-link">[degraaff]</a>.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.0</td>
+    <td class="turn-content">If LRDs were AGN, they should emit X-rays—that&#x27;s &quot;one of the most reliable indicators of AGN activity&quot; <a href="#ref-ananna" class="ref-link">[ananna]</a>. Stacked Chandra observations found LRD X-ray emission is ~1 dex below typical AGN <a href="#ref-ananna" class="ref-link">[ananna]</a>. This is not a minor discrepancy—it&#x27;s an order of magnitude! How does the AGN hypothesis explain this fundamental absence? And why do LRDs show very weak time variability, unlike typical AGN <a href="#ref-kokubo" class="ref-link">[kokubo]</a>?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.1</td>
+    <td class="turn-content">The X-ray weakness is precisely why the embedded AGN/&quot;black hole star&quot; model emerged. Super-Eddington accretion creates dense gas cocoons that absorb X-rays <a href="#ref-degraaff" class="ref-link">[degraaff]</a>. The Cliff forced astronomers &quot;to go back to the drawing board&quot; and showed spectra best explained by AGN surrounded by thermalizing gas envelopes <a href="#ref-degraaff" class="ref-link">[degraaff]</a>. SMS cannot explain observed gas kinematics: velocities of 2 million mph require gravitational acceleration from a compact massive object.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.1</td>
+    <td class="turn-content">The SMS model addresses kinematics—theoretical work shows supermassive stars of ~10^6 solar masses match LRD spectral signatures, including broad Hβ emission <a href="#ref-nandal" class="ref-link">[nandal]</a>. Furthermore, MIRI flux densities are &quot;considerably fainter than expected from the ordinary AGN dust torus model&quot; <a href="#ref-setton" class="ref-link">[setton]</a>. This multiple-signature mismatch points to SMS as the simpler explanation—how does the AGN model explain the missing hot dust emission?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.2</td>
+    <td class="turn-content">SMS models remain purely theoretical—no supermassive star has ever been observed. Meanwhile, spectroscopic confirmation of AGN in LRDs is direct. CAPERS-LRD-z9 at z=9.288—the most distant broad-line AGN known—shows &quot;strong evidence in support of the &#x27;dense-gas-enshrouded AGN&#x27;&quot; model <a href="#ref-taylor" class="ref-link">[taylor]</a>. Local analogs of LRDs were found in Green Pea galaxies hosting AGN with V-shaped SEDs, not supermassive stars <a href="#ref-lin" class="ref-link">[lin]</a>. The evidence points to AGN, not theoretical SMS.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.2</td>
+    <td class="turn-content">LRDs also lack the typical AGN radio emission and show very weak variability. If AGN explains everything, why do researchers continue proposing SMS alternatives? The July 2025 SMS model &quot;closely match the spectrum features and luminosity of LRD&quot; <a href="#ref-nandal" class="ref-link">[nandal]</a>. The AGN model requires inventing exotic &quot;black hole stars&quot; to explain what SMS explains naturally—why add complexity when a simpler model fits?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.3</td>
+    <td class="turn-content">Scientific debate doesn&#x27;t mean equal validity. The AGN model is the &quot;current leading theory&quot; precisely because it&#x27;s supported by the most evidence <a href="#ref-kocevski" class="ref-link">[kocevski]</a>. SMS models lack observational confirmation while AGN signatures are directly detected in 80% of LRDs. The black hole star variant unifies AGN evidence with X-ray absence through physical mechanisms. It&#x27;s the best-supported model with specific observational predictions being tested.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<div class="debate-container">
+<h3>Debate: Bob (Initiator) vs Liz (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.0</td>
+    <td class="turn-content">The best model for LRDs is supermassive primordial stars (SMS). These ~10^6 solar mass stars match LRD observations: SMS &quot;closely match the spectrum features and luminosity of LRD, including the presence of a strong, broad Hβ emission line&quot; <a href="#ref-nandal" class="ref-link">[nandal]</a>. Unlike AGN, SMS naturally explain why LRDs lack X-ray, radio emission, and show weak variability <a href="#ref-kokubo" class="ref-link">[kokubo]</a>—stellar photospheres don&#x27;t produce these. SMS also serve as SMBH progenitors, connecting LRDs to early black hole seeds.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.0</td>
+    <td class="turn-content">If SMS best explains LRDs, how do you account for the gas velocities? Research shows 70-80% of LRDs have gas &quot;rapidly orbiting two million miles per hour&quot;—&quot;a strong indicator of black hole accretion&quot; <a href="#ref-kocevski" class="ref-link">[kocevski]</a>. Stellar photospheres don&#x27;t accelerate gas to 1000 km/s. And why does AGN remain the &quot;current leading theory&quot; if SMS fits better <a href="#ref-kocevski" class="ref-link">[kocevski]</a>?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.1</td>
+    <td class="turn-content">Broad emission lines in SMS arise from non-LTE effects in extended stellar atmospheres, not just gravitational acceleration <a href="#ref-nandal" class="ref-link">[nandal]</a>. The AGN model faces a critical problem: LRDs show X-ray emission &quot;∼1 dex lower than expected&quot; from typical Type I AGN <a href="#ref-ananna" class="ref-link">[ananna]</a>. Additionally, MIRI flux is &quot;considerably fainter than expected from the ordinary AGN dust torus model&quot; <a href="#ref-setton" class="ref-link">[setton]</a>. SMS naturally produces these properties without requiring ad-hoc explanations.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.1</td>
+    <td class="turn-content">CAPERS-LRD-z9 was spectroscopically confirmed as a broad-line AGN at z=9.288 with &quot;a supermassive black hole shrouded in a shell of dusty gas&quot; <a href="#ref-taylor" class="ref-link">[taylor]</a>. This is direct AGN confirmation. How does the SMS model explain this? And why would purely stellar atmospheres produce the specific broad Balmer line profiles observed, which match AGN broad-line regions?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.2</td>
+    <td class="turn-content">Individual objects may have AGN components, but the key question is what best explains the population. The SMS model reproduces not just spectral features but the V-shaped Balmer break as &quot;an intrinsic photospheric effect&quot; <a href="#ref-nandal" class="ref-link">[nandal]</a>. The lack of variability is striking—LRDs &quot;buck the trend by showing little-to-no such fluctuation&quot; unlike typical AGN. SMS stellar photospheres are intrinsically stable, explaining this naturally.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.2</td>
+    <td class="turn-content">Local analogs of LRDs have been identified as Green Pea galaxies hosting AGN with V-shaped SEDs <a href="#ref-lin" class="ref-link">[lin]</a>. These nearby objects allow detailed study and consistently show AGN, not supermassive stars. Given that no SMS has ever been observed anywhere, isn&#x27;t proposing SMS for LRDs speculative compared to invoking known AGN physics with modified geometry?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.3</td>
+    <td class="turn-content">Local analogs exist at much lower redshifts where conditions differ from the primordial universe. SMS form only in metal-free early-universe conditions, so we wouldn&#x27;t expect local examples. The AGN model requires adding &quot;black hole stars&quot; to explain observations, while SMS matches LRD spectra from first principles <a href="#ref-nandal" class="ref-link">[nandal]</a>. LRDs themselves were unknown until 2022—JWST reveals the unexpected. SMS provides the simplest unified explanation.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+                <div class="references-section">
+<h2>References</h2>
+<ul class="references-list">
+  <li class="reference-item">
+    <strong id="ref-kocevski">D. D. K., et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-degraaff">A. d. G., et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-ananna">T. T. A., et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-nandal">D. N., et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-taylor">A. J. T., et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-lin">X. L., et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-kokubo">M. K., et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-setton">D. J. S., et al.</strong>
+    <p class="reference-quote">Year and title blinded from debate judges.</p>
+  </li>
+</ul>
+</div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

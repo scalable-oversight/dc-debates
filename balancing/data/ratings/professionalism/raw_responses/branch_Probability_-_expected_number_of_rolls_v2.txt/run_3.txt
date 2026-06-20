@@ -1,0 +1,105 @@
+I'll analyze each turn for professionalism, considering language, structure, tone, and overall presentation.
+
+---
+
+**1. Debater A: [Opening] (Left Side)**
+"Y is larger."
+This is a bare, minimal opening with no explanation or framing. While concise, it reads as abrupt and entirely unelaborated. It doesn't demonstrate preparation or polish beyond stating a position.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1]**
+Claim 1: Clear, structured mapping of the condition to a D3. Claim 2: Straightforward comparative claim. Both claims are logically presented, use precise language, and are appropriate for a formal debate. No casual language detected.
+**Rating: 4**
+
+---
+
+**3. Debater A: [Response 1]**
+Claim 1: States a specific numerical value cleanly. Claim 2: The phrasing "So it's not true that the condition effectively turns the D6 to a D3" is direct but slightly confrontational in tone. The use of "So it's not true" is mildly informal but not egregiously so. The argument is structured but the second claim reads as a somewhat blunt dismissal.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2]**
+Claim 1: References a prior claim by label, which is structured but slightly awkward in phrasing ("Debater B Argument 1 Claim 1 specifies..."). The phrasing "a separate, irrelevant question" is somewhat dismissive. Claim 2: The word "irrelevant" appears again; the reasoning is minimal. The labeling convention is formal, but the content is thin and slightly peremptory.
+**Rating: 3**
+
+---
+
+**5. Debater A: [Response 2]**
+Claim 1: "It is relevant for showing why arguments based on this claimed equivalence don't work." The phrase "don't work" is slightly informal. Claim 2: Uses "it would be strange if..." which is a somewhat colloquial framing, though not severely so. The overall tone is slightly casual but still reasonably structured.
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3]**
+Claim 1: Precise and clean. Claim 2: "what counts is how often 6 turns up versus non-6 — non-6 is twice as likely here" uses informal phrasing ("turns up," "twice as likely here"). The em-dash construction gives a somewhat conversational feel. Moderately professional overall.
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3]**
+Claim 1: Concrete example ('626') is clearly presented. Claim 2: "So order, not only relative frequency..." — uses "So" to begin a claim which is slightly informal. Overall, both claims are logically structured and use mostly formal language, with only minor informality.
+**Rating: 3**
+
+---
+
+**8. Debater B: [Opening] (Right Side)**
+"X is larger."
+Same pattern as Debater A's opening — bare and minimal. No elaboration or framing. Abrupt but not unprofessional in register.
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1]**
+Claim 1: Clear and well-phrased. Claim 2: "probability mass is squeezed onto its short, lucky runs" — "squeezed" and "lucky runs" are somewhat informal/colloquial metaphors. The overall claim is intelligible but slightly casual in metaphor choice. "much more so" is also mildly informal.
+**Rating: 3**
+
+---
+
+**10. Debater B: [Response 1]**
+Claim 1: Clean and direct. Claim 2: "X's distribution is dominated by long sequences that finally get two 6s in a row" — "finally" adds a slightly casual tone. Otherwise, the structure is sound and the language mostly formal.
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2]**
+Claim 1: "you'll nearly always roll an odd before getting two 6s, so the long sequences will be largely filtered out" — "you'll" is a contraction (informal), "nearly always" is imprecise. Claim 2: "is a false statement that does not follow from it" — this is blunt and slightly dismissive, though not unprofessional in content. Contractions and imprecision lower the professionalism.
+**Rating: 2**
+
+---
+
+**12. Debater B: [Response 2]**
+Claim 1: "you will also nearly always roll an odd before getting two nonconsecutive 6s, so Y's runs are filtered just as harshly" — "just as harshly" is colloquial; "you will" is better than "you'll" but still conversational. Claim 2: "the net effect... is therefore similar" and "D3 equivalence holds" — reasonably formal. Mixed register overall.
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3]**
+Claim 1: Presents specific numerical data (61%, 44%, 81%, 74%) in a structured way. This is precise and well-prepared. Claim 2: "This suggests that X is more likely than Y to stop extremely early" — "extremely early" is slightly informal but the sentence is otherwise clean. The use of data elevates the professionalism significantly.
+**Rating: 4**
+
+---
+
+**14. Debater B: [Response 3]**
+Claim 1: Precise and well-structured. Claim 2: "The tails of the two distributions matter as well, and the full computation yields X as the larger of the two values" — formal, precise, and well-constructed. This is among the most polished turns in the debate.
+**Rating: 4**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[4]]

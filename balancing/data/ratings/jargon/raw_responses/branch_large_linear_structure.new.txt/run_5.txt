@@ -1,0 +1,103 @@
+I'll analyze each turn for technical jargon, identifying specialized terms and assessing overall density.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"runaway supermassive black hole (SMBH)" — SMBH is a technical acronym; "supermassive black hole" is familiar to many but still specialized. "Runaway" in this context is semi-technical. Overall, just one main technical concept introduced briefly.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+"parsecs" — unit of astronomical distance, jargon. "Kiloparsecs" — same, more specific. "Host galaxies" — somewhat technical but fairly accessible. "SMBH" — acronym from definitions. Two distinct technical terms (parsecs, kiloparsecs) that a layperson would not know. The meaning is partially accessible but these units would be opaque.
+**Rating: 3**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+"SMBH recoil" — technical concept defined in glossary. "Host galaxy," "merger," "linear structure," "trail of star formation," "recoiling SMBH" — several astrophysics terms. "Wake" in context of a recoiling black hole is technical. Multiple specialized terms, though some are somewhat accessible.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+"Globular clusters" — defined in glossary, but specialized. "Circumgalactic medium (CGM)" — highly technical acronym, jargon. "Black hole," "star formation," "trails" — moderately technical. CGM in particular is very specialized. Two technical terms alongside the concept.
+**Rating: 3**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+"Supersonic speeds" — somewhat familiar to general readers. "Bow shock" — technical term from astrophysics/fluid dynamics, would be opaque to layperson. "CGM" — technical acronym. "Star forming trails" — semi-technical. "Bow shock" is the key jargon here, moderately dense.
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+"Color of the stars" — accessible. "Hypothesised wake" — semi-technical in context. "Bow shock of a passing SMBH" — technical. "Monotonically decrease" — mathematical/technical term that a layperson may not know. "Stellar age," "structure" — moderately technical. "Monotonically" is notable jargon for a general reader.
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+"Age gradient" — technical. "Color fluctuations" — accessible but contextually technical. "Red and blue supergiants" — astrophysics classification, jargon. "Stellar age," "bow shock," "SMBH" — multiple technical terms. "Supergiants" is specialized terminology.
+**Rating: 3**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"Bulgeless edge-on galaxy" — defined in glossary but highly specialized term. Otherwise fairly accessible. One main technical concept.
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+"Line ratio" — technical spectroscopic term. "[OIII]/Hβ" — chemical/spectroscopic notation, highly specialized (acronyms for oxygen III and hydrogen beta emission lines). "Bulgeless edge-on galaxy" — specialized. The spectroscopic notation [OIII]/Hβ is extremely technical and would be incomprehensible to a layperson.
+**Rating: 4**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+"Tully-Fisher relation" — defined in glossary but highly specialized empirical relation. "Stellar mass" — moderately technical. "Maximum rotational velocity" — technical but somewhat accessible. "Bulgeless edge-on galaxy" — specialized. Multiple technical terms centered around a specialized empirical relationship.
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+"Tully-Fisher relation" — specialized. "Observational inconsistencies" — moderately technical. "Velocity gradient" — defined in glossary, technical. "Classified as a galaxy" — accessible. Two specialized terms, with velocity gradient being field-specific.
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+"IC5249" — specific named astronomical object, jargon (catalog designation). "Bulgeless edge-on galaxy" — specialized. "Position vs rotational velocity gradient" — technical. "Class of objects" — accessible. IC5249 as a catalog name and rotational velocity gradient are specialized.
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+"Velocity and flux gradient" — "flux" is a technical physics term; "gradient" is technical in context. "IC5249" — catalog name. "Line emission" — spectroscopic jargon. "Bow shock" — technical. "Tip" — accessible. Multiple technical terms: flux, line emission, bow shock.
+**Rating: 4**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+"Line emission" — spectroscopic jargon. "Shocks produced by supernovae" — "supernovae" is specialized. "UV emission" — acronym for ultraviolet, moderately technical. "Heterogeneous star formation" — technical. "Clumpy and irregular UV emission" — semi-technical. Multiple specialized terms.
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[3]]

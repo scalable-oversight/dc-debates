@@ -1,0 +1,99 @@
+I'll analyze each turn for hedging and qualifying language, then provide ratings.
+
+**1. Debater A: [Opening] (Left)**
+"The water level falls." — A single, direct, unqualified assertion. No hedging whatsoever.
+**Rating: 1**
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "its displacement is volume-based according to [Quote 2]" — direct, citing a source.
+Claim 2: "the spike's volume is unchanged, and the meltwater from the ice replaces the displacement the ice had before" — direct assertion.
+No hedging language present.
+**Rating: 1**
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: "[Quote 2] contrasts... implying that these are different things" — "implying" is a mild hedge, suggesting an inference rather than a direct statement.
+Claim 2: "so its initial displacement is weight-based" — direct.
+One hedging word ("implying") that softens the interpretive claim slightly.
+**Rating: 2**
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: "it counts as 'submerged' by the common dictionary definitions" — direct.
+Claim 2: "it is also floating, and is therefore buoyant" — direct logical chain.
+No hedging language.
+**Rating: 1**
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: "appear to contradict each other if 'buoyant' simply means 'floating'" — "appear to" is a hedging phrase, and "simply" qualifies the condition.
+Claim 2: "'Buoyant' here means..." with a technical definition — stated directly, though "i.e., if fully submerged on its own" is a conditional clarification rather than a hedge.
+"appear to" is a notable hedge. Otherwise fairly direct.
+**Rating: 2**
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "Standard dictionaries define 'buoyant' as 'the tendency of a body to float'" — direct citation.
+Claim 2: "an object less dense than water is rarely fully underwater, so 'buoyant' can't have anything to do with effective density here" — "rarely" is a mild qualifier; "can't have anything to do" is actually emphatic, not hedged.
+"Rarely" is one mild qualifier.
+**Rating: 2**
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: "[Quote 2] is pointing out that objects with effective density less than water, but which *do* have their full volumes underwater, will displace their full volumes" — direct assertion about what the quote means.
+Claim 2: "A beach ball held underwater is a clear example of this" — direct.
+No hedging language.
+**Rating: 1**
+
+**8. Debater B: [Opening] (Right)**
+"The water level stays brim full." — Direct, unqualified assertion.
+**Rating: 1**
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "The floating system displaces water equal to its total weight [Quote 1]" — direct.
+Claim 2: "When the spike falls out and is no longer weighing down the remaining ice, the remaining ice pops up higher (less of it is underwater), displacing less water than before" — direct causal chain.
+No hedging language.
+**Rating: 1**
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "Treating ice and spike as one 'floating system' implies that the 'below the waterline' phrase in the question is irrelevant" — "implies" is a mild hedge.
+Claim 2: "The ice floats on its own (weight-based displacement); the spike is a buoyant submerged object (volume-based displacement)" — direct.
+One instance of "implies."
+**Rating: 2**
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "If this were true, it would imply that..." — "If this were true" is a conditional hedge; "would imply" adds further tentativeness.
+Claim 2: "But the lead will pull more of the ice block underwater, so more water will be displaced" — direct.
+Notable hedging in Claim 1 with conditional framing.
+**Rating: 2**
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "Volume-based displacement applies only to the degree to which the ice is sinking rather than floating in the water, while weight-based displacement applies to the portion that is already floating freely" — "only to the degree to which" is a qualifying phrase, but it's definitional rather than hedging uncertainty.
+Claim 2: "the ice's own volume matters more, because much more of that ice is forced under the surface" — "matters more" is a comparative qualifier, slightly hedged.
+Mild qualifications present.
+**Rating: 2**
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "Submerged volume, not 'degree of floating', is what determines displacement" — direct and emphatic.
+Claim 2: "The lead block's weight pulls the ice lower, so more water gets displaced. If the lead fell out, the ice would pop up and displace less, just as in the spike case" — "If the lead fell out... would" is a conditional, though it's illustrative rather than expressing uncertainty about the main claim.
+Minimal hedging via the conditional illustration.
+**Rating: 1**
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "The combination of quotes 1 and 2 makes it clear that mass matters for floating objects and volume matters for buoyant submerged objects" — direct.
+Claim 2: "For anything in between, displacement will be partly mass-based and partly volume-based" — "partly... and partly" qualifies the claim but is describing a genuine middle-ground scenario rather than hedging uncertainty. It's more descriptive than tentative.
+No significant hedging language.
+**Rating: 1**
+
+---
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[1]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[1]]
+B | Opening | [[1]]
+A | Argument 1 | [[1]]
+B | Response 1 | [[2]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[1]]
+B | Response 3 | [[1]]

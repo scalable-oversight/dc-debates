@@ -1,0 +1,69 @@
+Extended model-fit diagnostics
+====================================
+
+--- PRIMARY ---
+  BFMI per chain    = 0.790, 0.782, 0.762, 0.760   (> 0.3 = healthy energy mixing)
+  PSIS-LOO elpd     = -2329.63  (se 34.92)
+  p_loo (eff. params) = 23.72
+  Pareto k median   = 0.005, max = 0.193
+  # obs with k > 0.5 (borderline) = 0
+  # obs with k > 0.7 (bad)        = 0
+
+--- SECONDARY ---
+  BFMI per chain    = 0.785, 0.713, 0.709, 0.662   (> 0.3 = healthy energy mixing)
+  PSIS-LOO elpd     = -2298.32  (se 43.08)
+  p_loo (eff. params) = 21.70
+  Pareto k median   = 0.015, max = 0.350
+  # obs with k > 0.5 (borderline) = 0
+  # obs with k > 0.7 (bad)        = 0
+
+--- SECONDARY-T ---
+  BFMI per chain    = 0.779, 0.771, 0.820, 0.699   (> 0.3 = healthy energy mixing)
+  PSIS-LOO elpd     = -2181.87  (se 38.40)
+  p_loo (eff. params) = 18.06
+  Pareto k median   = 0.000, max = 0.214
+  # obs with k > 0.5 (borderline) = 0
+  # obs with k > 0.7 (bad)        = 0
+
+--- LOO COMPARISON: secondary (Normal) vs secondary-t (Student-t) ---
+             rank     elpd_loo      p_loo   elpd_diff    weight         se        dse  warning scale
+secondary-t     0 -2181.874193  18.060994    0.000000  0.979045  38.400916   0.000000    False   log
+secondary       1 -2298.320017  21.702086  116.445824  0.020955  43.075479  21.739936    False   log
+
+Interpretation: 'rank' 0 is the preferred model. elpd_diff is the
+expected log predictive density difference relative to the top model;
+dse is the standard error of that difference. |elpd_diff| > 2*dse is
+the conventional threshold for a meaningful preference.
+
+--- SECONDARY-SIGN (Bernoulli) ---
+  n_obs fitted       = 1158
+  ties dropped       = 124
+  base rate (y=1)    = 0.5691
+  BFMI per chain     = 0.749, 0.720, 0.700, 0.730   (> 0.3 = healthy energy mixing)
+
+  PSIS-LOO:
+    elpd            = -782.85  (se 7.04)
+    p_loo           = 17.23
+    Pareto k median = -0.011, max = 0.139
+    # obs k > 0.5   = 0
+    # obs k > 0.7   = 0
+
+  Discrimination:
+    AUC                = 0.6231
+    Accuracy @ 0.5     = 0.6157   (baseline 0.5691)
+    Brier score        = 0.2344   (baseline 0.2452; skill +0.0439)
+    Log loss           = 0.6612   (baseline 0.6836; skill +0.0328)
+
+  Aggregate PPC Bayesian p-value (total y_rep=1) = 0.487   (0.5 = perfect)
+
+  Calibration (10 quantile bins of predicted p):
+    pred_mean=0.433  obs_rate=0.404  n=99
+    pred_mean=0.480  obs_rate=0.387  n=119
+    pred_mean=0.512  obs_rate=0.495  n=111
+    pred_mean=0.543  obs_rate=0.551  n=127
+    pred_mean=0.557  obs_rate=0.586  n=99
+    pred_mean=0.573  obs_rate=0.571  n=140
+    pred_mean=0.587  obs_rate=0.592  n=98
+    pred_mean=0.620  obs_rate=0.692  n=117
+    pred_mean=0.643  obs_rate=0.620  n=121
+    pred_mean=0.708  obs_rate=0.756  n=127

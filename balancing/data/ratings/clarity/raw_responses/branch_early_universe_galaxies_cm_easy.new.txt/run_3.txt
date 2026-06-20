@@ -1,0 +1,157 @@
+I'll analyze each turn for clarity to a layperson, then provide ratings.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The brightness of early universe galaxies is weak evidence towards falsifying the existence of dark matter."
+
+- **Easier**: Short, direct sentence. Most words are common.
+- **Harder**: "Falsifying" is a scientific/philosophical term a layperson may not know. The logical relationship between brightness and dark matter is not explained.
+- **Rating**: 3 — The sentence is grammatically simple but the logical leap (why would brightness tell us anything about dark matter?) is unexplained, and "falsifying" is a technical term.
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: Galaxy mass correlates with observed brightness.
+Claim 2: MOND-based models can fit early universe galaxy masses while Lambda-CDM cannot.
+
+- **Easier**: Claim 1 is intuitive and clearly phrased. "High-redshift" is explained in parentheses.
+- **Harder**: "MOND-based models," "Lambda-CDM," and "redshift" are specialist terms. "Fit the masses" is slightly technical. The logical connection between the two claims isn't spelled out.
+- **Rating**: 3 — Claim 1 is accessible; Claim 2 introduces multiple technical terms with minimal explanation.
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: A top-heavy IMF predicts a brighter galaxy for the same stellar mass.
+Claim 2: Assuming a top-heavy IMF substantially improves Lambda-CDM's fit over S. S. M. et al.
+
+- **Easier**: The parenthetical explanation of "top-heavy IMF" in Claim 1 helps.
+- **Harder**: "IMF," "top-heavy," "stellar mass," "Lambda-CDM," and "fit" are all technical. The concept that changing star mass distribution affects brightness requires background knowledge.
+- **Rating**: 2 — Multiple specialist terms appear with only partial explanation; the overall argument is hard to follow without background knowledge.
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: The standard IMF is based on dense empirical data from the Milky Way and neighbouring galaxies.
+Claim 2: Assuming a different IMF than empirically observed isn't justified by available data.
+
+- **Easier**: Relatively plain language. The logic (don't deviate from what's observed without good reason) is intuitive.
+- **Harder**: "IMF" and "empirically" may trip up laypeople. "Dense empirical data" is slightly jargon-heavy.
+- **Rating**: 3 — The core argument is accessible, but "IMF" remains unexplained here and "empirical" may not be universally understood.
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: We can't empirically calculate the IMF of early universe galaxies.
+Claim 2: Early universe galaxies have lower metallicity, leading to more massive star formation.
+
+- **Easier**: Claim 1 is simply stated.
+- **Harder**: "IMF," "metallicity," "redshift" (implied), and "more massive stars" as a consequence of lower metallicity all require specialist knowledge. The causal chain in Claim 2 is not explained for laypeople.
+- **Rating**: 2 — The claims are stated clearly in structure but rely heavily on unexplained technical concepts.
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: T. N. et al. assume a standard IMF for galaxies at z~3-4 and get solid residuals.
+Claim 2: While metallicity decreases with redshift, the change doesn't justify a top-heavy IMF.
+
+- **Easier**: Claim 2 has a logical structure a layperson could follow partially.
+- **Harder**: "z~3-4" (redshift notation), "solid residuals," "metallicity," "redshift," and "top-heavy IMF" are all technical. "Solid residuals" is particularly opaque.
+- **Rating**: 2 — Technical language accumulates; "solid residuals" is especially unclear to non-specialists.
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: Redshift reduction in metallicity for early universe galaxies (z=8-16) is more severe than T. N. et al. studied.
+Claim 2: T. N. et al.'s findings don't necessarily generalize to early universe galaxies.
+
+- **Easier**: Claim 2 makes a broadly logical point about generalization that laypeople can grasp.
+- **Harder**: "Redshifts of 8-16," "metallicity," referencing a prior paper — all require specialist knowledge or having followed the debate closely.
+- **Rating**: 3 — Claim 2 is intuitive; Claim 1 uses technical notation but the general point (earlier = more extreme) is followable.
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The brightness of early universe galaxies is strong evidence towards falsifying the existence of dark matter."
+
+- Same structure as A's opening, just "strong" instead of "weak."
+- Same accessibility issues: "falsifying" is technical, the logical link is unexplained.
+- **Rating**: 3
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: MOND-based models predict high-redshift galaxy masses more naturally than Lambda-CDM.
+Claim 2: Lambda-CDM successfully explains the vast majority of cosmological observations.
+
+- **Easier**: Both claims are stated in relatively plain language. The contrast is clear.
+- **Harder**: "MOND-based models," "high-redshift," "Lambda-CDM," and "cosmological observations" are technical. "More naturally" is vague.
+- **Rating**: 3 — The argument structure is clear; technical terms reduce full accessibility.
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: Lambda-CDM relies on dark matter (never directly observed) and dark energy (theorized negative pressure).
+Claim 2: MOND-based models are simpler and explain phenomena without unproven matter.
+
+- **Easier**: "Never been directly observed" and "unproven forms of matter" are accessible critiques. The simplicity argument is intuitive.
+- **Harder**: "Negative pressure" is counterintuitive and unexplained. "Relevant cosmological phenomena" is vague.
+- **Rating**: 3 — Mostly accessible but "negative pressure" is a stumbling block.
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: MOND can't fully explain gravitational lensing without ad hoc fixes.
+Claim 2: Falsifying dark matter would require reworking general relativity.
+
+- **Easier**: "Ad hoc fixes" is a somewhat common phrase. The scope of Claim 2 (reworking a major theory) conveys magnitude.
+- **Harder**: "Gravitational lensing," "general relativity," "ad hoc" — multiple technical/Latin terms. The connection between dark matter and general relativity is not explained.
+- **Rating**: 3 — Ideas are stated clearly in structure but several terms need explanation.
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: Relativistic extensions of MOND (e.g., TeVeS) can reproduce gravitational lensing without dark matter.
+Claim 2: H. S. Z. et al. show MOND/TeVeS fits lenses in the CASTLES sample without dark matter.
+
+- **Easier**: The parenthetical "such as TeVeS" gives an example.
+- **Harder**: "TeVeS," "relativistic extensions," "CASTLES sample," "lenses" (in the astrophysical sense) — all highly technical. A layperson would struggle to know what CASTLES is or what "fitting lenses" means here.
+- **Rating**: 2 — Very technical; even with the parenthetical, most laypeople would be lost.
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: TeVeS was designed with gravitational lensing as a principal motivation.
+Claim 2: Even so, Bullet Cluster lensing cannot be explained by TeVeS, nor can some of H. S. Z. et al's lens examples outside clusters.
+
+- **Easier**: The logical structure (designed for it but still fails) is clear.
+- **Harder**: "TeVeS," "Bullet Cluster," "lensing," "lens systems," "clusters" — all technical. A layperson doesn't know what the Bullet Cluster is without explanation.
+- **Rating**: 2 — The logical structure is sound but too many unexplained technical references.
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: TeVeS with 2 eV neutrinos reproduces Bullet Cluster lensing without dark matter.
+Claim 2: Outliers in H. S. Z. et al. can be fit using many-parameter interpolation functions.
+
+- **Easier**: Claim 2's conclusion (outliers can be explained) is broadly followable.
+- **Harder**: "2 eV neutrinos," "many-parameter interpolation functions," and all the prior technical references make both claims very dense. "Many-parameter interpolation functions" is particularly opaque.
+- **Rating**: 1 — Both claims are highly technical and would be nearly incomprehensible to a layperson.
+
+---
+
+RATINGS:
+A | Opening | [[3]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[3]]
+B | Opening | [[3]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[1]]

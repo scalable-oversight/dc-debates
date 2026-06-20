@@ -1,0 +1,86 @@
+I'll analyze each turn for hedging and qualifying language, then provide ratings.
+
+**1. Debater A: [Opening] (Left)**
+"The brightness of early universe galaxies is **weak evidence** towards falsifying the existence of dark matter."
+- "weak evidence" qualifies the strength of the claim, softening the assertion.
+- One hedging expression, but it's meaningful. Rating: **2**
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "broadly speaking" softens the correlation claim.
+Claim 2: Direct factual claim about what a source shows. No hedging.
+- One hedging phrase ("broadly speaking"). Rating: **2**
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: Direct assertion about IMF and brightness. No hedging.
+Claim 2: "substantially improves" is direct; "appears to have" is a mild hedge suggesting uncertainty about the fit in the source.
+- One hedging phrase ("appears to have"). Rating: **2**
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: Direct factual claim. No hedging.
+Claim 2: "not justified by the data available" is direct. "we've empirically observed" is direct.
+- No hedging language. Rating: **1**
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: Direct assertion about current methods. No hedging.
+Claim 2: "**is likely to** result in the formation of more massive stars" — "is likely to" is a clear hedge expressing probability rather than certainty.
+- One hedging expression ("is likely to"). Rating: **2**
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: Direct factual claim about what the source does/finds. No hedging.
+Claim 2: "**while** metallicity decreases... the change **does not justify**" — direct assertion. No hedging language.
+- No hedging language. Rating: **1**
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: Direct factual comparison. No hedging.
+Claim 2: "**does not mean** these results would **necessarily** generalize" — "necessarily" is a hedging qualifier limiting the scope of the claim.
+- One hedging expression ("necessarily"). Rating: **2**
+
+**8. Debater B: [Opening] (Right)**
+"The brightness of early universe galaxies is **strong** evidence towards falsifying the existence of dark matter."
+- No hedging. The word "strong" is an intensifier, not a hedge. Rating: **1**
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "The **typical** argument for this is that..." — "typical" slightly qualifies the characterization of the argument.
+Claim 2: Direct assertion. No hedging.
+- One mild hedging expression ("typical"). Rating: **2**
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: Direct factual claims about Lambda-CDM. "is theorized to create" — "is theorized" acknowledges the speculative nature.
+Claim 2: Direct assertion about MOND. No hedging.
+- One hedging expression ("is theorized"). Rating: **2**
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "Dark matter's gravitational influence is the **best way** to explain..." — "best way" is a comparative but not a hedge; direct assertion.
+Claim 2: Direct assertion. No hedging.
+- No hedging language. Rating: **1**
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "**generally do manage** to reproduce" — "generally" hedges the universality of the claim.
+Claim 2: "**adequately** fits" — "adequately" slightly qualifies the quality of the fit.
+- Two hedging expressions ("generally," "adequately"). Rating: **2**
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "**in fact**" is an intensifier, not a hedge. "**as one of its principal motivations**" is direct.
+Claim 2: Direct assertion about what the source contains. No hedging.
+- No hedging language. Rating: **1**
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "**has been shown** to reproduce gravitational lensing... **reasonably well**" — "has been shown" is factual framing; "reasonably well" qualifies the quality of the fit (mild hedge).
+Claim 2: "**can be fit** using many-parameter interpolation functions" — "can be" introduces possibility/ability rather than certainty, a mild hedge.
+- Two hedging expressions ("reasonably well," "can be"). Rating: **2**
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[2]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[2]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[1]]
+B | Response 3 | [[2]]

@@ -1,0 +1,26 @@
+<debate initiator="Liz" questioner="Bob">
+  <speaker name="Liz" claim="0">b) level falls. While floating, ice+spike must displace water whose weight equals the whole object’s weight<ref id="flotation1"/>. After melting, the spike is sunken and displaces only its volume, so less water is displaced.</speaker>
+  <speaker name="Bob" question="0">Melting floating ice usually leaves the level unchanged. Since the ice turns into water, what physical volume disappears to make the waterline drop?</speaker>
+  <speaker name="Liz" claim="1">Before: V_before=(m_ice+m_spike)/rho_w. After: V_after=m_ice/rho_w+V_spike because a sunken object displaces its full volume<ref id="floatvsun1"/>. With rho_spike&gt;rho_w, V_before&gt;V_after, so level falls.</speaker>
+  <speaker name="Bob" question="1">The spike’s 50 cm^3 volume was already inside the ice. Why doesn’t the tub just “see” that same volume both times if buoyant force equals displaced-fluid weight<ref id="buoyant1"/>?</speaker>
+  <speaker name="Liz" claim="2">Because for floating, displaced-fluid weight equals total weight<ref id="flotation1"/>. The spike’s weight forces extra submergence of the ice beyond V_spike: rho_w g V_before=(m_ice+m_spike)g<ref id="buoyant1"/>.</speaker>
+  <speaker name="Bob" question="2">Compute deltaV=V_before-V_after using Archimedes, not intuition. What do you get for deltaV in terms of V_spike and densities, and why is its sign fixed?<ref id="shape1"/></speaker>
+  <speaker name="Liz" claim="3">deltaV=m_spike/rho_w-V_spike=(rho_spike/rho_w-1)V_spike. Since rho_spike&gt;rho_w, deltaV&gt;0, so after melting less water is displaced and the level falls.<ref id="buoyant1"/></speaker>
+</debate>
+
+<debate initiator="Bob" questioner="Liz">
+  <speaker name="Bob" claim="0">a) stays brim full. Principle of flotation: the floating ice+spike already displaced its own weight in water<ref id="flotation1"/>. When the ice melts, that weight becomes water in the tub; nothing demands a net level change.</speaker>
+  <speaker name="Liz" question="0">Your rule used the spike’s weight too. Once the spike separates and is no longer part of a floating body, doesn’t “sunken object... entire volume displaces water”<ref id="floatvsun1"/> apply, making the level fall?</speaker>
+  <speaker name="Bob" claim="1">The spike still feels buoyancy equal to displaced-water weight<ref id="buoyant1"/>. Since its volume is present in the tub both before and after, the meltwater occupies the space the ice used to displace; why doesn’t that keep the brim the same?</speaker>
+  <speaker name="Liz" question="1">Flotation says floating displacement tracks total weight<ref id="flotation1"/>; floatvsun says a sunken object displaces only its volume<ref id="floatvsun1"/>. With steel density far above water, why doesn’t shifting from m_spike/rho_w to V_spike force a drop?</speaker>
+  <speaker name="Bob" claim="2">Because floatvsun also says only the submerged volume displaces water<ref id="floatvsun1"/>. The spike is submerged both before and after, so its contribution is V_spike either way; the rest is the classic ice-to-water cancellation. What step makes that wrong?</speaker>
+  <speaker name="Liz" question="2">Your Bob.2 ignores that spike mass forces extra ice submergence. Since buoyant force equals displaced-fluid weight<ref id="buoyant1"/>, why doesn’t adding m_spike raise V_before by m_spike/rho_w?</speaker>
+  <speaker name="Bob" claim="3">The expected multiple-choice lesson is flotation1: floating ice melting doesn’t change the level<ref id="flotation1"/>. The spike detail is a distractor; its 50 cm^3 volume exists either way, so the marked answer is (a).</speaker>
+</debate>
+
+<refs>
+  <cite id="buoyant1" quote="Archimedes' principle states that the upward buoyant force ... is equal to the weight of the fluid that the body displaces." url="https://en.wikipedia.org/wiki/Archimedes%27_principle"/>
+  <cite id="flotation1" quote="Any floating object displaces its own weight of fluid." url="https://en.wikipedia.org/wiki/Archimedes%27_principle"/>
+  <cite id="floatvsun1" quote="For a floating object, only the submerged volume displaces water. For a sunken object, the entire volume displaces water..." url="https://en.wikipedia.org/wiki/Archimedes%27_principle"/>
+  <cite id="shape1" quote="...whatever the shape of the submerged body, the buoyant force is equal to the weight of the displaced fluid." url="https://en.wikipedia.org/wiki/Archimedes%27_principle"/>
+</refs>

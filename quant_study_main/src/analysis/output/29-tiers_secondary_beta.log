@@ -1,0 +1,133 @@
+/workspace/cf_package/quant_study_main/src/analysis/derive_tiers_secondary_beta.py:115: FutureWarning: hdi currently interprets 2d data as (draw, shape) but this will change in a future release to (chain, draw) for coherence with other functions
+  hdi = az.hdi(delta, hdi_prob=0.95)
+/workspace/cf_package/quant_study_main/src/analysis/derive_tiers_secondary_beta.py:145: FutureWarning: hdi currently interprets 2d data as (draw, shape) but this will change in a future release to (chain, draw) for coherence with other functions
+  "hdi_lo": az.hdi(tier_mean_per_draw, hdi_prob=0.95)[:, 0],
+/workspace/cf_package/quant_study_main/src/analysis/derive_tiers_secondary_beta.py:146: FutureWarning: hdi currently interprets 2d data as (draw, shape) but this will change in a future release to (chain, draw) for coherence with other functions
+  "hdi_hi": az.hdi(tier_mean_per_draw, hdi_prob=0.95)[:, 1],
+/workspace/cf_package/quant_study_main/src/analysis/derive_tiers_secondary_beta.py:156: FutureWarning: hdi currently interprets 2d data as (draw, shape) but this will change in a future release to (chain, draw) for coherence with other functions
+  "diff_hdi_lo": az.hdi(adj, hdi_prob=0.95)[:, 0],
+/workspace/cf_package/quant_study_main/src/analysis/derive_tiers_secondary_beta.py:157: FutureWarning: hdi currently interprets 2d data as (draw, shape) but this will change in a future release to (chain, draw) for coherence with other functions
+  "diff_hdi_hi": az.hdi(adj, hdi_prob=0.95)[:, 1],
+/workspace/cf_package/quant_study_main/src/analysis/derive_tiers_secondary_beta.py:115: FutureWarning: hdi currently interprets 2d data as (draw, shape) but this will change in a future release to (chain, draw) for coherence with other functions
+  hdi = az.hdi(delta, hdi_prob=0.95)
+/workspace/cf_package/quant_study_main/src/analysis/derive_tiers_secondary_beta.py:145: FutureWarning: hdi currently interprets 2d data as (draw, shape) but this will change in a future release to (chain, draw) for coherence with other functions
+  "hdi_lo": az.hdi(tier_mean_per_draw, hdi_prob=0.95)[:, 0],
+/workspace/cf_package/quant_study_main/src/analysis/derive_tiers_secondary_beta.py:146: FutureWarning: hdi currently interprets 2d data as (draw, shape) but this will change in a future release to (chain, draw) for coherence with other functions
+  "hdi_hi": az.hdi(tier_mean_per_draw, hdi_prob=0.95)[:, 1],
+/workspace/cf_package/quant_study_main/src/analysis/derive_tiers_secondary_beta.py:156: FutureWarning: hdi currently interprets 2d data as (draw, shape) but this will change in a future release to (chain, draw) for coherence with other functions
+  "diff_hdi_lo": az.hdi(adj, hdi_prob=0.95)[:, 0],
+/workspace/cf_package/quant_study_main/src/analysis/derive_tiers_secondary_beta.py:157: FutureWarning: hdi currently interprets 2d data as (draw, shape) but this will change in a future release to (chain, draw) for coherence with other functions
+  "diff_hdi_hi": az.hdi(adj, hdi_prob=0.95)[:, 1],
+Computed delta_v for secondary-beta model: 8000 draws x 24 transcripts.
+
+[4-tier] Per-transcript classification (sorted easiest -> hardest):
+ transcript                      question       domain  delta_mean  delta_hdi_lo  delta_hdi_hi  modal_tier  P_tier1  P_tier2  P_tier3  P_tier4
+          7 Internal Temperature of Stars brainteasers      -0.443        -0.706        -0.170           1    0.992    0.008    0.000    0.000
+         14                          Rust       coding      -0.221        -0.489         0.019           1    0.748    0.213    0.038    0.002
+          8 Internal Temperature of Stars brainteasers      -0.214        -0.471         0.024           1    0.734    0.224    0.042    0.001
+          2                         Bergs brainteasers      -0.180        -0.426         0.058           1    0.627    0.307    0.064    0.002
+         24                        Switch brainteasers      -0.153        -0.414         0.094           1    0.531    0.348    0.111    0.010
+         21            Probability puzzle brainteasers      -0.115        -0.347         0.145           2    0.406    0.410    0.168    0.016
+         11               Little Red Dots astrophysics      -0.110        -0.359         0.142           2    0.384    0.417    0.181    0.018
+         19                    Prefix-sum       coding      -0.072        -0.320         0.172           2    0.265    0.444    0.257    0.034
+          9        Large Linear Structure astrophysics      -0.072        -0.324         0.176           2    0.263    0.447    0.253    0.038
+          3       Early Universe Galaxies astrophysics      -0.054        -0.305         0.196           2    0.214    0.427    0.309    0.049
+          5   Graviational Lens Modelling astrophysics      -0.040        -0.294         0.208           2    0.196    0.404    0.338    0.062
+         10        Large Linear Structure astrophysics      -0.033        -0.282         0.210           2    0.173    0.406    0.348    0.073
+         12               Little Red Dots astrophysics      -0.020        -0.275         0.216           3    0.137    0.389    0.395    0.078
+          1                         Bergs brainteasers      -0.019        -0.265         0.217           3    0.140    0.388    0.390    0.082
+         13                          Rust       coding       0.024        -0.228         0.258           3    0.071    0.315    0.458    0.156
+         18                   ORM library       coding       0.043        -0.197         0.286           3    0.052    0.262    0.493    0.193
+         17                   ORM library       coding       0.063        -0.179         0.296           3    0.035    0.225    0.503    0.237
+          4       Early Universe Galaxies astrophysics       0.109        -0.134         0.354           3    0.015    0.133    0.469    0.384
+          6   Graviational Lens Modelling astrophysics       0.136        -0.117         0.381           4    0.009    0.099    0.403    0.489
+         15             Database deletion       coding       0.171        -0.076         0.435           4    0.004    0.065    0.320    0.611
+         20                    Prefix-sum       coding       0.174        -0.079         0.429           4    0.005    0.059    0.317    0.619
+         16             Database deletion       coding       0.307         0.058         0.579           4    0.000    0.006    0.075    0.918
+         22            Probability puzzle brainteasers       0.346         0.092         0.608           4    0.000    0.002    0.042    0.955
+         23                        Switch brainteasers       0.376         0.125         0.644           4    0.000    0.001    0.026    0.973
+
+[4-tier] Tier means:
+ tier   mean  hdi_lo  hdi_hi
+    1 -0.268  -0.387  -0.132
+    2 -0.075  -0.188   0.033
+    3  0.060  -0.046   0.175
+    4  0.283   0.160   0.422
+
+[4-tier] Adjacent-tier differences:
+tier_pair  diff_mean  diff_hdi_lo  diff_hdi_hi
+      2-1      0.193        0.106        0.280
+      3-2      0.135        0.067        0.205
+      4-3      0.224        0.124        0.322
+
+[4-tier] Per-question pairing (sorted by P(same tier) desc):
+                     question  transcript_a  transcript_b  P_same_tier  within_q_diff_mean  within_q_diff_hdi_lo  within_q_diff_hdi_hi
+Internal Temperature of Stars             7             8        0.730              -0.229                -0.537                 0.083
+            Database deletion            15            16        0.577              -0.137                -0.459                 0.165
+                  ORM library            17            18        0.313               0.019                -0.292                 0.312
+       Large Linear Structure             9            10        0.283              -0.039                -0.344                 0.281
+              Little Red Dots            11            12        0.262              -0.090                -0.397                 0.208
+      Early Universe Galaxies             3             4        0.208              -0.163                -0.490                 0.138
+                        Bergs             1             2        0.207               0.161                -0.145                 0.465
+  Graviational Lens Modelling             5             6        0.179              -0.177                -0.491                 0.134
+                         Rust            13            14        0.126               0.245                -0.069                 0.551
+                   Prefix-sum            19            20        0.109              -0.246                -0.565                 0.070
+           Probability puzzle            21            22        0.020              -0.462                -0.798                -0.137
+                       Switch            23            24        0.012               0.529                 0.187                 0.862
+
+[4-tier] Wrote: tier-classification-secondary-beta.csv, tier-summary-secondary-beta.csv, question-pair-secondary-beta.csv
+
+[3-tier] Per-transcript classification (sorted easiest -> hardest):
+ transcript                      question       domain  delta_mean  delta_hdi_lo  delta_hdi_hi  modal_tier  P_tier1  P_tier2  P_tier3
+          7 Internal Temperature of Stars brainteasers      -0.443        -0.706        -0.170           1    0.998    0.002    0.000
+         14                          Rust       coding      -0.221        -0.489         0.019           1    0.858    0.134    0.008
+          8 Internal Temperature of Stars brainteasers      -0.214        -0.471         0.024           1    0.847    0.147    0.006
+          2                         Bergs brainteasers      -0.180        -0.426         0.058           1    0.770    0.219    0.011
+         24                        Switch brainteasers      -0.153        -0.414         0.094           1    0.686    0.284    0.030
+         21            Probability puzzle brainteasers      -0.115        -0.347         0.145           1    0.569    0.382    0.049
+         11               Little Red Dots astrophysics      -0.110        -0.359         0.142           1    0.543    0.403    0.054
+         19                    Prefix-sum       coding      -0.072        -0.320         0.172           2    0.423    0.489    0.089
+          9        Large Linear Structure astrophysics      -0.072        -0.324         0.176           2    0.414    0.494    0.091
+          3       Early Universe Galaxies astrophysics      -0.054        -0.305         0.196           2    0.354    0.521    0.125
+          5   Graviational Lens Modelling astrophysics      -0.040        -0.294         0.208           2    0.315    0.540    0.145
+         10        Large Linear Structure astrophysics      -0.033        -0.282         0.210           2    0.293    0.544    0.163
+         12               Little Red Dots astrophysics      -0.020        -0.275         0.216           2    0.249    0.571    0.180
+          1                         Bergs brainteasers      -0.019        -0.265         0.217           2    0.252    0.559    0.189
+         13                          Rust       coding       0.024        -0.228         0.258           2    0.149    0.546    0.306
+         18                   ORM library       coding       0.043        -0.197         0.286           2    0.111    0.528    0.361
+         17                   ORM library       coding       0.063        -0.179         0.296           2    0.078    0.500    0.422
+          4       Early Universe Galaxies astrophysics       0.109        -0.134         0.354           3    0.038    0.368    0.594
+          6   Graviational Lens Modelling astrophysics       0.136        -0.117         0.381           3    0.025    0.290    0.685
+         15             Database deletion       coding       0.171        -0.076         0.435           3    0.014    0.211    0.776
+         20                    Prefix-sum       coding       0.174        -0.079         0.429           3    0.013    0.209    0.778
+         16             Database deletion       coding       0.307         0.058         0.579           3    0.001    0.034    0.966
+         22            Probability puzzle brainteasers       0.346         0.092         0.608           3    0.000    0.017    0.983
+         23                        Switch brainteasers       0.376         0.125         0.644           3    0.000    0.008    0.991
+
+[3-tier] Tier means:
+ tier   mean  hdi_lo  hdi_hi
+    1 -0.231  -0.345  -0.106
+    2 -0.009  -0.117   0.099
+    3  0.240   0.120   0.361
+
+[3-tier] Adjacent-tier differences:
+tier_pair  diff_mean  diff_hdi_lo  diff_hdi_hi
+      2-1      0.222        0.135        0.308
+      3-2      0.249        0.151        0.343
+
+[3-tier] Per-question pairing (sorted by P(same tier) desc):
+                     question  transcript_a  transcript_b  P_same_tier  within_q_diff_mean  within_q_diff_hdi_lo  within_q_diff_hdi_hi
+Internal Temperature of Stars             7             8        0.845              -0.229                -0.537                 0.083
+            Database deletion            15            16        0.756              -0.137                -0.459                 0.165
+       Large Linear Structure             9            10        0.386              -0.039                -0.344                 0.281
+                  ORM library            17            18        0.382               0.019                -0.292                 0.312
+              Little Red Dots            11            12        0.352              -0.090                -0.397                 0.208
+                        Bergs             1             2        0.301               0.161                -0.145                 0.465
+      Early Universe Galaxies             3             4        0.263              -0.163                -0.490                 0.138
+  Graviational Lens Modelling             5             6        0.241              -0.177                -0.491                 0.134
+                         Rust            13            14        0.200               0.245                -0.069                 0.551
+                   Prefix-sum            19            20        0.165              -0.246                -0.565                 0.070
+           Probability puzzle            21            22        0.052              -0.462                -0.798                -0.137
+                       Switch            23            24        0.031               0.529                 0.187                 0.862
+
+[3-tier] Wrote: tier3-classification-secondary-beta.csv, tier3-summary-secondary-beta.csv, tier3-question-pair-secondary-beta.csv

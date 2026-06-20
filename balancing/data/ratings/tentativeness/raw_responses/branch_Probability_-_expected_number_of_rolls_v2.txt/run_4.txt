@@ -1,0 +1,73 @@
+I'll analyze each turn for hedging and qualifying language, then provide ratings.
+
+**1. Debater A: [Opening] — "Y is larger."**
+No hedging. Direct assertion.
+Rating: 1
+
+**2. Debater B: [Argument 1] — Claims 1 & 2**
+"effectively turns" — "effectively" is a mild qualifier. "is harder" is direct. "for purposes of this question" limits scope but isn't classic hedging. Minimal hedging overall.
+Rating: 2
+
+**3. Debater A: [Response 1] — Claims 1 & 2**
+"it's not true that" is assertive. "So it's not true" is direct. No hedging expressions present.
+Rating: 1
+
+**4. Debater B: [Argument 2] — Claims 1 & 2**
+"separate, irrelevant question" and "It is irrelevant because" are direct assertions. No hedging language.
+Rating: 1
+
+**5. Debater A: [Response 2] — Claims 1 & 2**
+"It is relevant" — direct. "It would be strange if" — this is a mild hedge/hypothetical framing that softens the claim rather than asserting outright.
+Rating: 2
+
+**6. Debater B: [Argument 3] — Claims 1 & 2**
+"fundamentally different" is direct. "what counts is" is direct. "on their own" is direct. No hedging.
+Rating: 1
+
+**7. Debater A: [Response 3] — Claims 1 & 2**
+"e.g." introduces an example (not hedging). "not only" is assertive. "affects the conditional expectation" is direct. No hedging.
+Rating: 1
+
+**8. Debater B: [Opening] — "X is larger."**
+No hedging. Direct assertion.
+Rating: 1
+
+**9. Debater A: [Argument 1] — Claims 1 & 2**
+"normally requiring" — "normally" is a qualifier. "so X's probability mass is squeezed" is assertive. "much more so than Y's" is direct. One mild qualifier.
+Rating: 2
+
+**10. Debater B: [Response 1] — Claims 1 & 2**
+"strictly harder" and "dominated by" are direct assertions. No hedging language present.
+Rating: 1
+
+**11. Debater A: [Argument 2] — Claims 1 & 2**
+"nearly always roll an odd" — "nearly always" is a qualifier. "so the long sequences will be largely filtered out" — "largely" is a qualifier. Two hedging expressions.
+Rating: 2
+
+**12. Debater B: [Response 2] — Claims 1 & 2**
+"nearly always roll an odd" — "nearly always" is a qualifier. "just as harshly" is direct. "therefore similar" — "similar" softens the claim slightly. "the D3 equivalence holds" is direct. Two hedging instances.
+Rating: 2
+
+**13. Debater A: [Argument 3] — Claims 1 & 2**
+"This suggests that" — "suggests" is a hedging expression that explicitly marks uncertainty. The statistics in Claim 1 are stated directly. One notable hedging expression.
+Rating: 2
+
+**14. Debater B: [Response 3] — Claims 1 & 2**
+"does not determine" is direct. "matter as well" is direct. "the full computation yields X as the larger" is direct. No hedging.
+Rating: 1
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[1]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[1]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[1]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[1]]

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Debater Credence Tool</title>
+<script>
+  MathJax = {
+    tex: { inlineMath: [['\\(','\\)'],['$','$']], displayMath: [['\\[','\\]'],['$$','$$']] },
+    options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code'] }
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+<style>
+    :root {
+        --color-left: #FFF6CC;
+        --color-right: #F2E8FF;
+        --primary-blue: #007bff;
+        --timer-bg: #343a40;
+        --timer-text: #fff;
+        --clr-accent: #3d5a80;
+    }
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        padding-bottom: 60px;
+        line-height: 1.6;
+    }
+    .container {
+        background: white; padding: 30px; border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .intro-section { margin-bottom: 30px; }
+    .intro-section h3 {
+        margin-top: 25px; margin-bottom: 15px; color: #2c3e50;
+        border-bottom: 2px solid #eee; padding-bottom: 10px;
+    }
+    .intro-section h3:first-child { margin-top: 0; }
+    .definition-item { margin-bottom: 12px; }
+    .context-text {
+        font-style: italic; margin-bottom: 20px; color: #555;
+        background-color: #f8f9fa; padding: 10px;
+        border-left: 4px solid #6c757d; border-radius: 4px;
+    }
+    .image-container { text-align: center; margin-bottom: 20px; }
+    .image-container img {
+        max-width: 100%; height: auto;
+        border: 1px solid #ddd; border-radius: 4px;
+    }
+    .figure-wrapper {
+        border: 1px solid #ddd; border-radius: 4px; padding: 15px;
+        margin-bottom: 20px; background-color: #fff; text-align: left;
+    }
+    .figure-wrapper img {
+        border: none !important; margin-bottom: 5px;
+        display: block; margin-left: auto; margin-right: auto;
+    }
+    .figure-caption {
+        font-style: italic; color: #666; font-size: 0.9rem;
+        margin-top: 5px; text-align: center;
+    }
+    label {
+        display: block; font-weight: 600;
+        margin-bottom: 10px; color: #2c3e50;
+    }
+    textarea:focus {
+        outline: none; border-color: var(--primary-blue);
+        box-shadow: 0 0 0 3px rgba(0,123,255,0.1);
+    }
+    .btn-copy:hover { background-color: #0056b3; }
+    /* Source link styling */
+    .source-link {
+        color: var(--clr-accent); text-decoration: none;
+        border-bottom: 1px dashed var(--clr-accent);
+        font-weight: 600;
+    }
+    .source-link:hover {
+        border-bottom-style: solid; text-decoration: none;
+    }
+    .missing-source {
+        background-color: #fdd; color: #900; font-weight: 600;
+        padding: 0 3px; border-radius: 3px;
+    }
+    /* Definition link + tooltip */
+    .def-link {
+        color: #5d4037; text-decoration: none;
+        border-bottom: 1px dotted #5d4037;
+        position: relative; cursor: help;
+    }
+    .def-link:hover {
+        color: #3e2723; border-bottom-style: solid;
+    }
+    .def-tooltip {
+        position: absolute;
+        width: max-content; max-width: 380px;
+        background: #2c2c2c; color: #f5f5f5;
+        font-size: .82rem; font-weight: 400;
+        line-height: 1.5; padding: .6rem .85rem;
+        border-radius: 4px;
+        box-shadow: 0 4px 12px rgba(0,0,0,.08);
+        z-index: 1000; pointer-events: none;
+        white-space: normal;
+    }
+    .def-tooltip-arrow {
+        position: absolute;
+        width: 0; height: 0;
+        border: 6px solid transparent;
+        border-top-color: #2c2c2c;
+        z-index: 1001; pointer-events: none;
+    }
+    /* Source entry styling */
+    .source-entry {
+        padding: 0.7rem 1rem; border-bottom: 1px solid #e0ddd8;
+        font-size: 0.95rem; line-height: 1.55;
+    }
+    .source-entry:last-child { border-bottom: none; }
+    .source-entry strong { color: #1a1a1a; }
+    .source-url {
+        color: var(--clr-accent); word-break: break-all;
+        font-size: 0.85rem; display: block; margin-top: 2px;
+    }
+    .source-quote {
+        color: #6b6b6b; font-style: italic;
+    }
+    /* Debate table */
+    .debate-table-card {
+        background: rgba(255,255,255,0.04);
+        border: 1px solid rgba(0,0,0,0.10);
+        border-radius: 18px; overflow: visible; margin-bottom: 20px;
+    }
+    .debate-table-card table {
+        width: 100%; table-layout: fixed;
+        border-collapse: separate; border-spacing: 0;
+    }
+    .debate-table-card td {
+        vertical-align: top; padding: 14px 16px;
+        font-size: 14.5px;
+        border-bottom: 1px solid rgba(0,0,0,0.08);
+        overflow-wrap: anywhere;
+    }
+    .debate-table-card tr:last-child td { border-bottom: none; }
+    .debate-table-card tr:first-child td:first-child { border-top-left-radius: 18px; }
+    .debate-table-card tr:first-child td:last-child { border-top-right-radius: 18px; }
+    .debate-table-card tr:last-child td:first-child { border-bottom-left-radius: 18px; }
+    .debate-table-card tr:last-child td:last-child { border-bottom-right-radius: 18px; }
+    td.speaker-a {
+        background: #fff6cc; color: #2a2000;
+        border-right: 1px solid rgba(0,0,0,0.06);
+    }
+    td.speaker-b { background: #f2e8ff; color: #1f0f33; }
+    td.speaker-a strong, td.speaker-b strong { font-weight: 750; }
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="intro-section">
+<h3>Key Question</h3>
+<div class="definition-item">How does the internal temperature of a star evolve with time on the main sequence?</div>
+<h3>Definitions</h3>
+<div class="definition-item"><strong>Main sequence:</strong> The longest portion of a star's life, where it primarily fuses hydrogen into helium in its core.</div>
+<div class="definition-item"><strong>Equipartition theorem:</strong> In thermal equilibrium, energy is shared equally among all of its various forms.</div>
+<div class="definition-item"><strong>First law of thermodynamics:</strong> Energy cannot be created or destroyed, only converted from one form to another.</div>
+<div class="definition-item"><strong>Virial theorem:</strong> The average kinetic energy of the star is roughly equal to the negative half of its gravitational potential energy.</div>
+<div class="definition-item"><strong>Second law of thermodynamics:</strong> The total entropy of an isolated system can only increase over time.</div>
+<h3>Sources</h3>
+<div class="source-entry" id="src-fact_01"><strong>Confirmed Fact 1</strong><span class="source-quote"> &mdash; &ldquo;A star continually radiates energy away from its surface in the form of photons.&rdquo;</span></div>
+<div class="source-entry" id="src-fact_02"><strong>Confirmed Fact 2</strong><span class="source-quote"> &mdash; &ldquo;Star cores contract as they evolve on the main sequence.&rdquo;</span></div>
+<div class="source-entry" id="src-fact_03"><strong>Confirmed Fact 3</strong><span class="source-quote"> &mdash; &ldquo;As nuclear fusion converts hydrogen to helium, the core's mean molecular weight rises and free particle count falls, reducing core pressure.&rdquo;</span></div>
+<div class="source-entry" id="src-fact_04"><strong>Confirmed Fact 4</strong><span class="source-quote"> &mdash; &ldquo;Radiation pressure from nuclear fusion in a star's core is one of the forces that supports the star against gravitational collapse.&rdquo;</span></div>
+<div class="source-entry" id="src-fact_05"><strong>Confirmed Fact 5</strong><span class="source-quote"> &mdash; &ldquo;The energy output of the proton-proton chain (dominant in smaller stars) and CNO cycle (dominant in larger stars) both have strong positive dependence on temperature.&rdquo;</span></div>
+<div class="source-entry" id="src-fact_06"><strong>Confirmed Fact 6</strong><span class="source-quote"> &mdash; &ldquo;When a self-gravitating system contracts, its gravitational potential energy decreases.&rdquo;</span></div>
+<div class="source-entry" id="src-fact_07"><strong>Confirmed Fact 7</strong><span class="source-quote"> &mdash; &ldquo;The equipartition theorem links average kinetic energy in thermal equilibrium to temperature: when a star's atomic kinetic energy increases, so does its temperature.&rdquo;</span></div>
+<div class="source-entry" id="src-fact_08"><strong>Confirmed Fact 8</strong><span class="source-quote"> &mdash; &ldquo;Due to the first law of thermodynamics, the total energy of the system must be conserved.&rdquo;</span></div>
+<div class="source-entry" id="src-fact_09"><strong>Confirmed Fact 9</strong><span class="source-quote"> &mdash; &ldquo;Temperature is a property of the collection of particles in the star.&rdquo;</span></div>
+<div class="source-entry" id="src-fact_10"><strong>Confirmed Fact 10</strong><span class="source-quote"> &mdash; &ldquo;Stars contract gradually over the main sequence until the core becomes dense enough to ignite helium fusion.&rdquo;</span></div>
+
+</div>
+<hr/>
+<div class="context-text">
+    Exactly one of these debater's answers matches the answer of the expert who wrote the Key Question.
+</div>
+<div class="debate-table-card">
+<table aria-label="Debate table">
+<colgroup><col/><col/></colgroup>
+<tbody>
+<tr>
+<td class="speaker-a"><strong>Debater A: [Opening]</strong> The internal temperature of a star increases with time on the <a class="def-link" data-tooltip="Main sequence - The longest portion of a star&#x27;s life, where it primarily fuses hydrogen into helium in its core.">main sequence</a>.</td>
+<td class="speaker-b"><strong>Debater B: [Opening]</strong> The internal temperature of a star decreases with time on the <a class="def-link" data-tooltip="Main sequence - The longest portion of a star&#x27;s life, where it primarily fuses hydrogen into helium in its core.">main sequence</a>.</td>
+</tr>
+<tr>
+<td class="speaker-b"><strong>Debater B: [Question 1]</strong> A star continually radiates energy away from its surface in the form of photons (<a class="source-link" href="#src-fact_01">Confirmed Fact 1</a>). How can the temperature of a system increase when energy is actively being taken away from it?</td>
+<td class="speaker-a"><strong>Debater A: [Question 1]</strong> Star cores contract as they evolve on the main sequence (<a class="source-link" href="#src-fact_02">Confirmed Fact 2</a>). How can decreasing internal temperature stabilize a contracting star against gravitational collapse?</td>
+</tr>
+<tr>
+<td class="speaker-a"><strong>Debater A: [Answer 1]</strong> As nuclear fusion converts hydrogen to helium, the core's mean molecular weight rises and free particle count falls, reducing core pressure (<a class="source-link" href="#src-fact_03">Confirmed Fact 3</a>). This causes the core to contract to maintain pressure equilibrium. The contraction then heats the star via the <a class="def-link" data-tooltip="Virial theorem - The average kinetic energy of the star is roughly equal to the negative half of its gravitational potential energy.">virial theorem</a>.</td>
+<td class="speaker-b"><strong>Debater B: [Answer 1]</strong> Radiation pressure from nuclear fusion in a star's core is one of the forces that supports the star against gravitational collapse (<a class="source-link" href="#src-fact_04">Confirmed Fact 4</a>). The energy output of the proton-proton chain (dominant in smaller stars) and CNO cycle (dominant in larger stars) both have strong positive dependence on temperature (<a class="source-link" href="#src-fact_05">Confirmed Fact 5</a>). The internal thermal pressure of the gas particles supports the star against gravitational collapse. The contraction is slow and gradual.</td>
+</tr>
+<tr>
+<td class="speaker-b"><strong>Debater B: [Question 2]</strong> The mechanism you describe implies that the star has negative heat capacity, i.e. the star's temperature increases as energy is taken away from it. How does this not violate the <a class="def-link" data-tooltip="First law of thermodynamics - Energy cannot be created or destroyed, only converted from one form to another.">first law of thermodynamics</a>?</td>
+<td class="speaker-a"><strong>Debater A: [Question 2]</strong> Your mechanism frames the temperature decrease as resulting from energy being radiated away. What would cause the internal temperature of the star to begin decreasing?</td>
+</tr>
+<tr>
+<td class="speaker-a"><strong>Debater A: [Answer 2]</strong> When a self-gravitating system contracts, its gravitational potential energy decreases (<a class="source-link" href="#src-fact_06">Confirmed Fact 6</a>), increasing kinetic energy via the <a class="def-link" data-tooltip="Virial theorem - The average kinetic energy of the star is roughly equal to the negative half of its gravitational potential energy.">virial theorem</a>. The <a class="def-link" data-tooltip="Equipartition theorem - In thermal equilibrium, energy is shared equally among all of its various forms.">equipartition theorem</a> links average kinetic energy in thermal equilibrium to temperature: when a star's atomic kinetic energy increases, so does its temperature (<a class="source-link" href="#src-fact_07">Confirmed Fact 7</a>). Energy is conserved: it is converted from gravitational potential energy to kinetic energy, not created from nothing.</td>
+<td class="speaker-b"><strong>Debater B: [Answer 2]</strong> The total energy of the system must be conserved (<a class="source-link" href="#src-fact_08">Confirmed Fact 8</a>) (<a class="def-link" data-tooltip="First law of thermodynamics - Energy cannot be created or destroyed, only converted from one form to another.">first law </a>). The energy being radiated away by the star has to be compensated by a decrease in the thermal energy of the star, causing the temperature to decrease.</td>
+</tr>
+<tr>
+<td class="speaker-b"><strong>Debater B: [Question 3]</strong> Since temperature is a property of the collection of particles in the star (<a class="source-link" href="#src-fact_09">Confirmed Fact 9</a>), gravitational potential energy should not be a part of the thermodynamic calculations. The <a class="def-link" data-tooltip="Second law of thermodynamics - The total entropy of an isolated system can only increase over time.">second law of thermodynamics</a> states that entropy always increases, what happens to the star's entropy in the mechanism you describe?</td>
+<td class="speaker-a"><strong>Debater A: [Question 3]</strong> The mechanism you describe would lead to runaway contraction of the star as gravity gets stronger and radiation pressure gets weaker with the star's contraction. Evolution on the main sequence will not be possible with contraction at this timescale. How does the star remain in equilibrium with these unbalanced forces?</td>
+</tr>
+<tr>
+<td class="speaker-a"><strong>Debater A: [Answer 3]</strong> The entropy of the star decreases as it contracts and heats up. However, the star is not an isolated system. A star is an open system: the entropy of radiated photons can exceed any entropy decrease within the star, so the universe's total entropy still increases. The <a class="def-link" data-tooltip="Second law of thermodynamics - The total entropy of an isolated system can only increase over time.">second law </a> applies to isolated systems; the total entropy of the universe (star + radiated photons) increases, so there is no violation.</td>
+<td class="speaker-b"><strong>Debater B: [Answer 3]</strong> Stars contract gradually over the main sequence until the core becomes dense enough to ignite helium fusion (<a class="source-link" href="#src-fact_10">Confirmed Fact 10</a>). The internal thermal pressure of the gas particles is what supports the star against gravitational collapse. As the star radiates energy, the thermal energy and thus thermal pressure of the particles must decrease. The contraction you describe is a consequence of this thermal pressure decrease, not a source of additional heating.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<script>
+(function() {
+    var tip = null, arrow = null;
+    var table = document.querySelector('.debate-table-card');
+    document.querySelectorAll('.def-link[data-tooltip]').forEach(function(link) {
+        link.addEventListener('mouseenter', function() {
+            if (tip) tip.remove();
+            if (arrow) arrow.remove();
+            tip = document.createElement('div');
+            tip.className = 'def-tooltip';
+            tip.textContent = link.getAttribute('data-tooltip');
+            document.body.appendChild(tip);
+            arrow = document.createElement('div');
+            arrow.className = 'def-tooltip-arrow';
+            document.body.appendChild(arrow);
+
+            var lr = link.getBoundingClientRect();
+            var tr = table ? table.getBoundingClientRect()
+                           : { left: 0, right: document.documentElement.clientWidth };
+            var tipW = tip.offsetWidth;
+            var tipH = tip.offsetHeight;
+
+            var top = lr.top + window.scrollY - tipH - 10;
+            tip.style.top = top + 'px';
+
+            var idealLeft = lr.left + window.scrollX + lr.width / 2 - tipW / 2;
+            var minLeft = tr.left + window.scrollX;
+            var maxLeft = tr.right + window.scrollX - tipW;
+            var left = Math.max(minLeft, Math.min(maxLeft, idealLeft));
+            tip.style.left = left + 'px';
+
+            var arrowLeft = lr.left + window.scrollX + lr.width / 2 - 6;
+            arrow.style.top = (lr.top + window.scrollY - 12) + 'px';
+            arrow.style.left = arrowLeft + 'px';
+        });
+        link.addEventListener('mouseleave', function() {
+            if (tip) { tip.remove(); tip = null; }
+            if (arrow) { arrow.remove(); arrow = null; }
+        });
+    });
+})();
+</script>
+</body>
+</html>

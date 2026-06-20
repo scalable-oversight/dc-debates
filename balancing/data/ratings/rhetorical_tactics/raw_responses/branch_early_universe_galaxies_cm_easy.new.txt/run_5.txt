@@ -1,0 +1,79 @@
+I'll analyze each turn for rhetorical or persuasive tactics.
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+"The brightness of early universe galaxies is weak evidence towards falsifying the existence of dark matter."
+The word "weak" does some framing work, pre-emptively downplaying the significance of the evidence. Otherwise, this is a straightforward claim. Minimal rhetorical loading.
+Rating: 2
+
+**2. Debater B: [Argument 1]**
+Claim 1 states a general empirical correlation. Claim 2 cites a source to assert MOND fits better than Lambda-CDM. Both are substantive claims without notable rhetorical devices. Straightforward.
+Rating: 1
+
+**3. Debater A: [Response 1]**
+Both claims are technical and substantive—discussing IMF and how a top-heavy IMF improves Lambda-CDM's fit. No notable rhetorical devices.
+Rating: 1
+
+**4. Debater B: [Argument 2]**
+Claim 1 appeals to "dense empirical data" (mild appeal to established authority/empiricism as framing). Claim 2 says assuming a different IMF "is not justified by the data available"—this is substantive but slightly frames the opponent's position as unjustified without fully engaging the counterargument. Minor rhetorical framing.
+Rating: 2
+
+**5. Debater A: [Response 2]**
+Both claims are technical and substantive, citing empirical constraints and a source. No notable rhetorical devices.
+Rating: 1
+
+**6. Debater B: [Argument 3]**
+Claim 1 cites a source with "solid residuals"—"solid" is mildly loaded but otherwise substantive. Claim 2 concludes the "magnitude of the change cannot justify" a top-heavy IMF—fairly substantive. Minor positive framing with "solid."
+Rating: 2
+
+**7. Debater A: [Response 3]**
+Both claims are technical and substantive, noting the redshift difference and the limits of generalization. No notable rhetorical devices.
+Rating: 1
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+"The brightness of early universe galaxies is strong evidence towards falsifying the existence of dark matter."
+The word "strong" frames the evidence favorably. This mirrors A's framing but in the opposite direction. Minimal rhetorical loading beyond this word choice.
+Rating: 2
+
+**9. Debater A: [Argument 1]**
+Claim 1 characterizes MOND's argument as "typical" and that it predicts masses "more naturally"—mild framing that slightly diminishes MOND. Claim 2 invokes Lambda-CDM explaining "the vast majority of cosmological observations"—this is an appeal to breadth/authority of the model, which is a rhetorical framing device (implying one counterexample shouldn't undermine an otherwise successful theory). Some rhetorical framing present but also substantive.
+Rating: 2
+
+**10. Debater B: [Response 1]**
+Claim 1 highlights that dark matter has "never been directly observed" and dark energy "creates negative pressure"—these framings emphasize the speculative nature of Lambda-CDM components to cast doubt. "Unproven forms of matter" in Claim 2 is loaded language. Claim 2 invokes Occam's Razor implicitly ("simpler"). These are rhetorical devices (appeal to simplicity, loaded language about "unproven").
+Rating: 3
+
+**11. Debater A: [Argument 2]**
+Claim 1 says MOND "can't fully explain" lensing without "ad hoc fixes that undermine its simplicity"—"ad hoc" is loaded language implying MOND's fixes are arbitrary. Claim 2 notes falsifying dark matter would require "reworking general relativity"—this is a form of appeal to consequences/status quo bias. Both claims contain rhetorical framing.
+Rating: 3
+
+**12. Debater B: [Response 2]**
+Both claims are technical and cite a specific source (H. S. Z. et al.). "Generally do manage to reproduce" is careful but substantive language. The phrase "without invoking dark matter" appears twice, slightly emphasizing the contrast, but overall the turn is mostly substantive.
+Rating: 2
+
+**13. Debater A: [Argument 3]**
+Claim 1 notes TeVeS was designed with lensing "as one of its principal motivations"—this subtly frames TeVeS as purpose-built for this problem, implying its success there is expected/limited. Claim 2 cites Bullet Cluster as a counterexample. The framing in Claim 1 is a mild rhetorical setup. Mostly substantive.
+Rating: 2
+
+**14. Debater B: [Response 3]**
+Claim 1 appeals to a specific technical result (2 eV neutrinos reproducing Bullet Cluster lensing). Claim 2 notes outliers "can in fact be fit" with many-parameter interpolation. Both are substantive technical claims. "Rather well" in Claim 1 is mild positive framing. Minimal rhetorical content.
+Rating: 1
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[1]]
+A | Response 1 | [[1]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[1]]
+B | Opening | [[2]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[1]]

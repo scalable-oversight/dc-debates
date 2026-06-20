@@ -1,0 +1,20 @@
+Comparing on 8000 paired draws, 24 transcripts each.
+
+Kendall's tau between primary and secondary delta_v vectors:
+  posterior mean   : +0.402
+  posterior median : +0.406
+  95% HDI          : [+0.167, +0.609]
+  P(tau > 0)       : 1.000
+  tau on posterior-mean delta_v: +0.536
+
+Modal tier cross-tab (rows = primary, cols = secondary):
+secondary  1  2  3  4
+primary              
+1          3  2  0  0
+2          1  4  2  1
+3          0  3  1  0
+4          0  1  1  5
+
+Exact-tier agreement: 54.2% (13/24 transcripts)
+
+Wrote tier-crosstab.csv

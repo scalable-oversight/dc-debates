@@ -1,0 +1,131 @@
+I'll analyze each turn for hedging and qualifying language, then provide ratings.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The brightness of early universe galaxies is **weak evidence towards** falsifying the existence of dark matter."
+- "weak evidence towards" qualifies the strength of the claim significantly — it softens what could be a direct assertion of falsification.
+- One notable hedge, but the sentence is otherwise direct.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+- Claim 1: "broadly speaking" is a mild qualifier. "strongly and reliably" are actually intensifiers rather than hedges.
+- Claim 2: No hedging language; stated directly.
+- One minor hedge ("broadly speaking").
+**Rating: 2**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+- Claim 1: No hedging; states a direct factual claim.
+- Claim 2: "substantially improves" and "it appears to have" — "appears to have" is a hedge, softening the characterization of S. S. M. et al.'s fit.
+- One instance of hedging ("appears to have").
+**Rating: 2**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+- Claim 1: "based on dense empirical data" — direct, no hedging.
+- Claim 2: "than we've empirically observed" — direct; "is not justified by the data available" — direct assertion.
+- No hedging language present.
+**Rating: 1**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+- Claim 1: "do not allow us" — direct statement.
+- Claim 2: "which is **likely to** result in the formation of more massive stars" — "likely to" is a clear hedge expressing probability rather than certainty.
+- One hedging expression ("likely to").
+**Rating: 2**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+- Claim 1: "obtain good residuals" — direct.
+- Claim 2: "while metallicity decreases with increasing redshift, the change **does not justify**" — direct assertion; no hedging.
+- No hedging language.
+**Rating: 1**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+- Claim 1: "will be more severe" — direct assertion.
+- Claim 2: "does not mean these results would **necessarily** generalize" — "necessarily" is a hedge that limits the scope of the claim.
+- One hedging expression ("necessarily").
+**Rating: 2**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The brightness of early universe galaxies is **strong** evidence towards falsifying the existence of dark matter."
+- "towards falsifying" could be seen as slightly softened compared to outright "falsifies," but this is more a substantive claim about direction of evidence than a hedge.
+- No clear hedging language; "strong evidence towards" is a direct positive assertion.
+**Rating: 1**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+- Claim 1: "The **typical** argument for this is that" — "typical argument" frames this as a common view rather than Debater A's own direct assertion, functioning as mild distancing/hedging. "more **naturally** than" is evaluative but not a hedge per se.
+- Claim 2: "**successfully** explains the **vast majority** of" — "vast majority" is a mild qualifier (not claiming all observations), but it also functions as a strong positive claim.
+- "typical argument" is the clearest hedge (attributing the claim to others rather than asserting it directly); "vast majority" mildly qualifies.
+**Rating: 2**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+- Claim 1: "which has **never** been directly observed" and "**theorized** to create negative pressure" — "theorized" acknowledges the speculative nature; these are more factual framings than hedges.
+- Claim 2: "**without postulating** extra matter components" — direct.
+- No significant hedging language; claims are stated directly.
+**Rating: 1**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+- Claim 1: "is the **best way** to explain" — this is an evaluative superlative but not a hedge.
+- Claim 2: "**would** require reworking" — "would" introduces a conditional/hypothetical, which is mild hedging. "**leading** theory of gravity" — direct.
+- One mild hedge ("would require").
+**Rating: 2**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+- Claim 1: "**generally do manage to** reproduce" — "generally" and "manage to" both soften the claim; "generally" means not always, and "manage to" implies it's not straightforward.
+- Claim 2: "**adequately** fits" — "adequately" is a mild qualifier (not "perfectly" or "fully").
+- Two hedging expressions ("generally," "manage to," "adequately") — moderate hedging present.
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+- Claim 1: "was, **in fact**, designed specifically" — "in fact" is an intensifier, not a hedge; direct claim.
+- Claim 2: "**contains examples of** lens systems which **do not fit within**" — "contains examples of" is specific and direct (not claiming all systems fail); no hedging.
+- No hedging language.
+**Rating: 1**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+- Claim 1: "has been shown to reproduce gravitational lensing in galaxy clusters **reasonably well**" — "reasonably well" is a hedge, softening the claim from "perfectly" or "fully."
+- Claim 2: "**can be fit** using many-parameter interpolation functions" — "can be" is a possibility hedge (not "are fit" or "are definitively explained").
+- Two hedging expressions ("reasonably well," "can be fit").
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[2]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[1]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[1]]
+B | Response 3 | [[3]]

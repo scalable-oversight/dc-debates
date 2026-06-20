@@ -1,0 +1,147 @@
+I'll analyze each turn for technical jargon systematically.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The internal temperature of a star increases with time on the main sequence."
+- "main sequence": technical astronomical term, but defined in the debate. Still jargon for a layperson.
+- "internal temperature": mildly technical but accessible.
+- Overall: one key jargon term. **Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+- "photons": technical physics term (defined in definitions).
+- "radiates energy": slightly technical but broadly understood.
+- "temperature of the system": system in thermodynamic sense, but accessible.
+- One clear jargon term (photons), rest is accessible. **Rating: 2**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+- "equipartition theorem": technical thermodynamics concept, defined but specialized.
+- "kinetic energy": somewhat technical but broadly known from school.
+- "constituent particles": scientific phrasing but fairly accessible.
+- "main sequence": as before.
+- Two notable jargon terms (equipartition theorem, constituent particles in this context). **Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+- "first law of thermodynamics": named scientific law, technical.
+- "internal energy": thermodynamics term.
+- "kinetic energy": broadly known.
+- "radiation": accessible.
+- Multiple technical terms from thermodynamics. **Rating: 3**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+- "self-gravitating system": technical astrophysics term.
+- "gravitational potential energy": physics term, somewhat known from school.
+- "kinetic energy": broadly known.
+- "contracts": accessible.
+- Two to three technical terms, moderately dense. **Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+- "thermodynamic properties": technical.
+- "internal energy": thermodynamics jargon.
+- "equipartition theorem": specialized.
+- "gravitational potential energy": physics term.
+- "kinetic energy": broadly known.
+- Multiple technical terms across both claims. **Rating: 4**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+- "virial theorem": highly specialized astrophysics/physics term.
+- "kinetic energy": broadly known.
+- "gravitational potential energy": physics term.
+- The virial theorem is particularly opaque jargon. **Rating: 3**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The internal temperature of a star decreases with time on the main sequence."
+- "main sequence": astronomical jargon (defined).
+- "internal temperature": mildly technical.
+- Similar to Turn 1. **Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+- "Star cores": accessible.
+- "main sequence": jargon.
+- "thermal timescale": specialized astrophysical term (defined in definitions but still technical).
+- "gravity": accessible.
+- "contracts": accessible.
+- "thermal timescale" is notable jargon. **Rating: 2**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+- "nuclear fusion": technical but widely known.
+- "radiation pressure": technical physics term.
+- "thermal pressure": technical (defined).
+- "gravitational collapse": somewhat technical but guessable.
+- "nuclear fuel": accessible metaphor.
+- Several technical terms clustered together. **Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+- "nuclear fusion": technical but known.
+- "core": accessible.
+- "hydrogen into helium": accessible chemistry.
+- "main sequence": jargon.
+- "thermal pressure": technical (defined).
+- "hydrostatic equilibrium": highly technical astrophysics term.
+- "hydrostatic equilibrium" is dense jargon; several other technical terms present. **Rating: 4**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+- "core": accessible.
+- "hydrogen is converted into helium": accessible.
+- "density/denser": accessible.
+- "inward pressure": accessible.
+- "equilibrium": accessible in context.
+- Relatively plain language, minimal jargon. **Rating: 2**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+- "self-gravity": slightly technical but guessable.
+- "inward pull": accessible.
+- "contracts": accessible.
+- "thermal pressure" implied but not stated.
+- Fairly plain language with one mildly technical term. **Rating: 2**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+- "helium fusion": technical (defined).
+- "main sequence": jargon.
+- "thermal pressure": technical.
+- "density": accessible.
+- Multiple technical terms but the text remains somewhat followable. **Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[3]]

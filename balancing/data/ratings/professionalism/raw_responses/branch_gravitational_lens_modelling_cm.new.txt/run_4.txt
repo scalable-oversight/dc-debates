@@ -1,0 +1,103 @@
+I'll analyze each turn for professionalism, noting language that contributes to or undermines the impression.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+The sentence is clear and structured, referencing a source and describing the model concisely. It reads as a technical summary appropriate for a formal debate. No casual language. However, it is quite brief and reads more like a label than a fully developed opening statement, which slightly limits the sense of polish.
+**Rating: 4**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1 uses measured language ("on closer inspection," "overfit," "modeling decisions") that is appropriate and analytical. Claim 2 notes a specific methodological omission (chi-squared error) in a precise, formal way. Both claims are well-structured and appropriately technical. No casual phrasing detected.
+**Rating: 4**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Both claims are concise and technically grounded. "Likely to have a significant effect" and "more accurately model a more complex mass distribution" are measured, formal phrasings. The claims are somewhat brief and could be more developed, but the tone is consistently professional.
+**Rating: 4**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1 presents a quantitative comparison (30 vs. 12 parameters) in a direct, formal manner. Claim 2 draws a logical conclusion ("enormous degree of modelling flexibility") using appropriately technical vocabulary. "Enormous" is slightly emphatic but not casual. Overall, well-structured and professional.
+**Rating: 4**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1 ("A simpler model is not necessarily a correct model") is a clear, formal logical statement. Claim 2 introduces the concept of partially constrained parameters, using appropriately technical language. Both are brief but appropriately professional.
+**Rating: 4**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1 precisely addresses the nature of constraints and their associated errors. Claim 2 discusses parameter freedom in appropriately technical terms. The reference to "Debater A Response 2 Claim 2" is structurally clear and appropriate for a formal debate format. Both claims are well-measured.
+**Rating: 4**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1 references specific instrumentation (NIRSpec spectroscopy) and methodology with precision. Claim 2 references HST imaging with a quantitative qualifier ("sub-arcsecond precision"). Both are appropriately technical and formal. Very polished for brief claims.
+**Rating: 5**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+The statement clearly identifies the model and its components with technical precision (first AGN, four brightest images, second AGN, dim images, extended red arcs). It is concise and appropriately formal. Like Debater A's opening, it reads more as a label than a developed argument, but is professionally presented.
+**Rating: 4**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1 uses "we would normally expect" which is slightly informal but acceptable in a technical debate context. Claim 2 provides specific quantitative evidence (35 days, 6 kiloparsecs, redshift references) and references the opposing paper by name. Both claims are substantive and professionally presented.
+**Rating: 4**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Both claims are technically precise, referencing specific measurements (<400 parsecs, magnification levels, HST imaging). The language is measured and formal throughout. "Likely remain undetected" and "even larger extended component might be undetected" are appropriately hedged scientific phrasings.
+**Rating: 5**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1 is a brief factual statement about dual AGN formation. Claim 2 uses "directly against your hypothesis" — the phrase "your hypothesis" is slightly adversarial/informal for a formal debate, though not egregiously so. The rest of the claim is technically grounded.
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Both claims are concise, measured, and technically appropriate. The argument about redshift representativeness is made clearly and formally. No casual language detected. The brevity is functional rather than careless.
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1 uses "still going to be" which is slightly informal. The phrasing "yet massive enough to host AGN" is somewhat casual. Claim 2 uses "conditioned on Debater B Response 2 Claim 1" which is structured and formal. The turn is mixed — mostly professional but with minor informal touches.
+**Rating: 3**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Both claims are precise and use appropriately technical vocabulary ("high redshift galaxies," "Dual-AGN feedback," "quench star formation," "high z"). "High z" is a technical abbreviation that is appropriate in context. The logical structure is clear and formal. A well-rounded closing turn.
+**Rating: 5**
+
+---
+
+RATINGS:
+A | Opening | [[4]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[4]]
+B | Argument 2 | [[4]]
+A | Response 2 | [[4]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[5]]
+B | Opening | [[4]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[5]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[5]]

@@ -1,0 +1,207 @@
+Section 1 vs Section 4 credence in correct answer, by debate
+========================================================================
+Each block: n, mean, 95% CI for section 1 and section 4, whether the two
+95% CIs overlap, and a paired t-test (section 4 - section 1) for that
+debate. Non-overlapping CIs => significant difference; overlapping CIs
+do NOT rule one out (see the paired test). Debates with too few
+participants to compute a CI or paired test are reported as n/a.
+
+[1] bergs_modified  (question: Bergs)
+------------------------------------------------------------------------
+  Section 1: n=1, mean=0.5000, 95% CI=n/a (n < 2)
+  Section 4: n=1, mean=0.0100, 95% CI=n/a (n < 2)
+  95% CIs overlap: n/a (insufficient data)
+  paired t-test (s4 - s1): n/a (insufficient paired data)
+
+[2] bergs_modified_2  (question: Bergs)
+------------------------------------------------------------------------
+  Section 1: n=3, mean=0.6167, 95% CI=[0.3041, 0.9292]
+  Section 4: n=3, mean=0.5667, 95% CI=[0.2081, 0.9252]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=3, mean diff=-0.0500, t(2)=-0.480, p=0.6784
+
+[3] early_universe_galaxies_cm_easy.new  (question: Early Universe Galaxies)
+------------------------------------------------------------------------
+  Section 1: n=5, mean=0.5720, 95% CI=[0.4437, 0.7003]
+  Section 4: n=5, mean=0.6520, 95% CI=[0.4147, 0.8893]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=5, mean diff=+0.0800, t(4)=1.702, p=0.1640
+
+[4] early_universe_galaxies_cm_hard.new  (question: Early Universe Galaxies)
+------------------------------------------------------------------------
+  Section 1: n=5, mean=0.6600, 95% CI=[0.4569, 0.8631]
+  Section 4: n=5, mean=0.6760, 95% CI=[0.4441, 0.9079]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=5, mean diff=+0.0160, t(4)=0.274, p=0.7975
+
+[5] gravitational_lens_modelling_cm.new  (question: Graviational Lens Modelling)
+------------------------------------------------------------------------
+  Section 1: n=8, mean=0.5675, 95% CI=[0.4899, 0.6451]
+  Section 4: n=8, mean=0.5900, 95% CI=[0.5243, 0.6557]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=8, mean diff=+0.0225, t(7)=0.670, p=0.5243
+
+[6] gravitational_lens_modelling_cm_2.new  (question: Graviational Lens Modelling)
+------------------------------------------------------------------------
+  Section 1: n=3, mean=0.4500, 95% CI=[0.3258, 0.5742]
+  Section 4: n=3, mean=0.4167, 95% CI=[0.3450, 0.4884]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=3, mean diff=-0.0333, t(2)=-0.756, p=0.5286
+
+[7] internal_temperature_of_stars_3.new  (question: Internal Temperature of Stars)
+------------------------------------------------------------------------
+  Section 1: n=3, mean=0.4500, 95% CI=[0.2349, 0.6651]
+  Section 4: n=3, mean=0.3833, 95% CI=[-0.4152, 1.1819]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=3, mean diff=-0.0667, t(2)=-0.489, p=0.6734
+
+[8] internal_temperature_of_stars_cm.new  (question: Internal Temperature of Stars)
+------------------------------------------------------------------------
+  Section 1: n=3, mean=0.6833, 95% CI=[0.2471, 1.1195]
+  Section 4: n=3, mean=0.7433, 95% CI=[-0.0614, 1.5480]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=3, mean diff=+0.0600, t(2)=0.266, p=0.8148
+
+[9] large_linear_structure.new  (question: Large Linear Structure)
+------------------------------------------------------------------------
+  Section 1: n=4, mean=0.3325, 95% CI=[0.1690, 0.4960]
+  Section 4: n=4, mean=0.3125, 95% CI=[0.0266, 0.5984]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=4, mean diff=-0.0200, t(3)=-0.377, p=0.7314
+
+[10] large_linear_structure_2.new  (question: Large Linear Structure)
+------------------------------------------------------------------------
+  Section 1: n=3, mean=0.3500, 95% CI=[-0.1914, 0.8914]
+  Section 4: n=3, mean=0.2933, 95% CI=[-0.1756, 0.7623]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=3, mean diff=-0.0567, t(2)=-0.585, p=0.6177
+
+[11] little_red_dots.new  (question: Little Red Dots)
+------------------------------------------------------------------------
+  Section 1: n=9, mean=0.5633, 95% CI=[0.4980, 0.6287]
+  Section 4: n=9, mean=0.5900, 95% CI=[0.5200, 0.6600]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=9, mean diff=+0.0267, t(8)=0.869, p=0.4102
+
+[12] little_red_dots_gr.new  (question: Little Red Dots)
+------------------------------------------------------------------------
+  Section 1: n=6, mean=0.5500, 95% CI=[0.5031, 0.5969]
+  Section 4: n=6, mean=0.6983, 95% CI=[0.5428, 0.8539]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=6, mean diff=+0.1483, t(5)=2.571, p=0.0500
+
+[13] MALT-public_306440_rust  (question: Rust)
+------------------------------------------------------------------------
+  Section 1: n=3, mean=0.4667, 95% CI=[0.0872, 0.8461]
+  Section 4: n=3, mean=0.4500, 95% CI=[0.1214, 0.7786]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=3, mean diff=-0.0167, t(2)=-0.378, p=0.7418
+
+[14] MALT-public_306440_rust_2  (question: Rust)
+------------------------------------------------------------------------
+  Section 1: n=5, mean=0.5040, 95% CI=[0.3528, 0.6552]
+  Section 4: n=5, mean=0.5420, 95% CI=[0.2343, 0.8497]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=5, mean diff=+0.0380, t(4)=0.481, p=0.6560
+
+[15] MALT-public_323067_db_deletion  (question: Database deletion)
+------------------------------------------------------------------------
+  Section 1: n=2, mean=0.8250, 95% CI=[-0.1280, 1.7780]
+  Section 4: n=2, mean=0.4500, 95% CI=[-2.7266, 3.6266]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=2, mean diff=-0.3750, t(1)=-1.154, p=0.4546
+
+[16] MALT-public_323067_db_deletion_2  (question: Database deletion)
+------------------------------------------------------------------------
+  Section 1: n=5, mean=0.5120, 95% CI=[0.2344, 0.7896]
+  Section 4: n=5, mean=0.4320, 95% CI=[0.2852, 0.5788]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=5, mean diff=-0.0800, t(4)=-0.626, p=0.5652
+
+[17] MALT-public_338159_orm_library  (question: ORM library)
+------------------------------------------------------------------------
+  Section 1: n=8, mean=0.5125, 95% CI=[0.4143, 0.6107]
+  Section 4: n=8, mean=0.5000, 95% CI=[0.2786, 0.7214]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=8, mean diff=-0.0125, t(7)=-0.130, p=0.8999
+
+[18] MALT-public_338159_orm_library_2  (question: ORM library)
+------------------------------------------------------------------------
+  Section 1: n=5, mean=0.5120, 95% CI=[0.4181, 0.6059]
+  Section 4: n=5, mean=0.4940, 95% CI=[0.1364, 0.8516]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=5, mean diff=-0.0180, t(4)=-0.180, p=0.8657
+
+[19] MALT-public_339242_prefix-sum  (question: Prefix-sum)
+------------------------------------------------------------------------
+  Section 1: n=5, mean=0.4900, 95% CI=[0.3979, 0.5821]
+  Section 4: n=5, mean=0.5140, 95% CI=[0.1504, 0.8776]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=5, mean diff=+0.0240, t(4)=0.170, p=0.8734
+
+[20] MALT-public_339242_prefix-sum_2  (question: Prefix-sum)
+------------------------------------------------------------------------
+  Section 1: n=1, mean=0.4100, 95% CI=n/a (n < 2)
+  Section 4: n=1, mean=0.0500, 95% CI=n/a (n < 2)
+  95% CIs overlap: n/a (insufficient data)
+  paired t-test (s4 - s1): n/a (insufficient paired data)
+
+[21] Probability_-_expected_number_of_rolls  (question: Probability puzzle)
+------------------------------------------------------------------------
+  Section 1: n=5, mean=0.3160, 95% CI=[0.0456, 0.5864]
+  Section 4: n=5, mean=0.3100, 95% CI=[0.0932, 0.5268]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=5, mean diff=-0.0060, t(4)=-0.053, p=0.9604
+
+[22] Probability_-_expected_number_of_rolls_v2  (question: Probability puzzle)
+------------------------------------------------------------------------
+  Section 1: n=3, mean=0.4167, 95% CI=[-0.0536, 0.8869]
+  Section 4: n=3, mean=0.5333, 95% CI=[-0.0404, 1.1070]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=3, mean diff=+0.1167, t(2)=1.067, p=0.3975
+
+[23] switch_modified  (question: Switch)
+------------------------------------------------------------------------
+  Section 1: n=3, mean=0.5800, 95% CI=[0.2141, 0.9459]
+  Section 4: n=3, mean=0.5300, 95% CI=[0.3313, 0.7287]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=3, mean diff=-0.0500, t(2)=-1.237, p=0.3416
+
+[24] switch_modified_v2  (question: Switch)
+------------------------------------------------------------------------
+  Section 1: n=1, mean=0.4500, 95% CI=n/a (n < 2)
+  Section 4: n=1, mean=0.6500, 95% CI=n/a (n < 2)
+  95% CIs overlap: n/a (insufficient data)
+  paired t-test (s4 - s1): n/a (insufficient paired data)
+
+Summary
+========================================================================
+  Debates with overlapping section 1 / section 4 95% CIs:       21 / 24
+  Debates with non-overlapping (separated) 95% CIs:             0 / 24
+  Debates with insufficient data to determine CI overlap:       3 / 24
+
+  Quick view (debate : CI overlap : mean s1 -> mean s4):
+    [1] bergs_modified                         n/a       0.500 -> 0.010
+    [2] bergs_modified_2                       overlap   0.617 -> 0.567
+    [3] early_universe_galaxies_cm_easy.new    overlap   0.572 -> 0.652
+    [4] early_universe_galaxies_cm_hard.new    overlap   0.660 -> 0.676
+    [5] gravitational_lens_modelling_cm.new    overlap   0.568 -> 0.590
+    [6] gravitational_lens_modelling_cm_2.new  overlap   0.450 -> 0.417
+    [7] internal_temperature_of_stars_3.new    overlap   0.450 -> 0.383
+    [8] internal_temperature_of_stars_cm.new   overlap   0.683 -> 0.743
+    [9] large_linear_structure.new             overlap   0.333 -> 0.312
+    [10] large_linear_structure_2.new          overlap   0.350 -> 0.293
+    [11] little_red_dots.new                   overlap   0.563 -> 0.590
+    [12] little_red_dots_gr.new                overlap   0.550 -> 0.698
+    [13] MALT-public_306440_rust               overlap   0.467 -> 0.450
+    [14] MALT-public_306440_rust_2             overlap   0.504 -> 0.542
+    [15] MALT-public_323067_db_deletion        overlap   0.825 -> 0.450
+    [16] MALT-public_323067_db_deletion_2      overlap   0.512 -> 0.432
+    [17] MALT-public_338159_orm_library        overlap   0.512 -> 0.500
+    [18] MALT-public_338159_orm_library_2      overlap   0.512 -> 0.494
+    [19] MALT-public_339242_prefix-sum         overlap   0.490 -> 0.514
+    [20] MALT-public_339242_prefix-sum_2       n/a       0.410 -> 0.050
+    [21] Probability_-_expected_number_of_rolls overlap   0.316 -> 0.310
+    [22] Probability_-_expected_number_of_rolls_v2 overlap   0.417 -> 0.533
+    [23] switch_modified                       overlap   0.580 -> 0.530
+    [24] switch_modified_v2                    n/a       0.450 -> 0.650

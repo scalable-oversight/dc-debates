@@ -1,0 +1,129 @@
+I'll analyze each turn for confidence markers, then provide ratings.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The Einstein zig-zag lens model...with two deflectors...at different redshifts, and one AGN which produces 6 lensed images after being lensed by both deflectors."
+- No hedging language whatsoever. Stated as a flat, definitive claim. The speaker presents this as the straightforward answer with complete certainty.
+- **Rating: 5**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "The Einstein zig-zag lens model is overfit, due to the modeling decisions..."
+Claim 2: "F. D. et al. do not quantify or report chi-squared error..."
+- Both claims are stated definitively. "Is overfit" is a strong assertion. "Do not quantify or report" is a factual statement with no hedging.
+- **Rating: 5**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: "The mass profile of the second deflector **appears likely** to have a significant effect..."
+Claim 2: "Taking galaxy positions into account **allows one to** more accurately model a more complex mass distribution..."
+- "Appears likely" is a meaningful hedge introducing uncertainty. "Allows one to" is mildly hedged but still relatively confident. The first claim is notably tentative.
+- **Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: "This fails to reveal that the model has 30 total parameters, compared to 12..."
+Claim 2: "This provides an enormous degree of modelling flexibility and results in overfitting."
+- Both claims are stated as definitive facts. "Fails to reveal," "provides," and "results in" are all assertive. No hedging at all.
+- **Rating: 5**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: "A simpler model is not **necessarily** a correct or accurate model..."
+Claim 2: "Fifteen parameters in our model are **only partially constrained**, and therefore **should not count** as full degrees of freedom."
+- "Not necessarily" is a hedge, though it's used to assert a logical point. "Should not count" is fairly assertive. The overall tone is moderately confident — making arguments but acknowledging some nuance.
+- **Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "Constraints don't **actually** fix them in place: they are themselves determined via different models that come with their own errors and uncertainties."
+Claim 2: "Furthermore, all galaxy positions and redshifts **except for** the main deflector **can vary considerably**, adding **even more** freedom to an already complex model."
+- "Don't actually fix them" is assertive. "Can vary considerably" is somewhat hedged (possibility rather than certainty). Overall fairly confident and forceful.
+- **Rating: 4**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: "Direct spectroscopy of the second deflector **pins down** its distance (its redshift) **tightly**, regardless of the lens model."
+Claim 2: "Hubble imaging **fixes** the on-sky positions to a fraction of an arcsecond."
+- "Pins down tightly" and "fixes" are very assertive, strong language. No hedging. Very definitive claims.
+- **Rating: 5**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The gravitationally lensed dual-AGN model...with the first AGN corresponding to the four brightest images and the second AGN corresponding to the two dim images..."
+- Stated with complete certainty and no hedging. Flat, definitive assertion of the model.
+- **Rating: 5**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "Spectroscopy **constrains** the redshift of the lensed red galaxy to be 1.88, which **places** it between the main deflector and alleged dual-AGN."
+Claim 2: "The dual-AGN model's lens model **should** include the mass profile of the red galaxy in order to be valid, but it **does not**."
+- "Constrains" is slightly softer than "proves," but "places it" and "should include" are quite assertive. "Does not" is definitive. Overall high confidence.
+- **Rating: 4**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "Inclusion of the red galaxy in the lens model will, **on the whole**, produce **only minor** changes in the caustics..."
+Claim 2: "The added mass **will in turn** allow for a **relatively larger** separation between the two AGN, as **one might reasonably expect**."
+- "On the whole" and "only minor" qualify the claim. "As one might reasonably expect" is a hedge. "Will" is confident but the qualifiers soften the overall tone to moderate.
+- **Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "The presence of a second deflector **enables** models in which one single source **can** produce 6 observed images."
+Claim 2: "Single-AGN models **remain consistent** with all available data, making the dual-AGN model **unnecessary**."
+- "Enables" and "can produce" introduce some possibility language. "Remain consistent" and "unnecessary" are assertive. Mixed but leaning confident.
+- **Rating: 4**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "A single source being lensed to produce 6 images **requires** a specific morphology which **has never been observed before**."
+Claim 2: "A dual-AGN is an observed phenomenon that **does not invoke** overcomplicated hypotheses or unobserved morphologies."
+- "Requires," "has never been observed," and "does not invoke" are all definitive assertions. No hedging language. Very confident.
+- **Rating: 5**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "Light curves for all 6 lensed images **display** the same variations with brief offsets (e.g. 35 days between D and E), and the same redshifts."
+Claim 2: "Light curves this similar **can only be** generated by a single source."
+- "Display" is factual and assertive. "Can only be" is an absolute statement — a very strong, definitive claim with no hedging.
+- **Rating: 5**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "Activity in one AGN **can** set off activity in the other AGN in a dual-AGN system, causing correlated emissions."
+Claim 2: "Correlated emissions **can** make two different objects look like a single object **under some circumstances**."
+- "Can" (twice) and "under some circumstances" are significant hedges — these are possibility statements, not certainties. The speaker is being notably cautious about the strength of the mechanism.
+- **Rating: 2**
+
+---
+
+RATINGS:
+A | Opening | [[5]]
+B | Argument 1 | [[5]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[5]]
+B | Opening | [[5]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[5]]
+A | Argument 3 | [[5]]
+B | Response 3 | [[2]]

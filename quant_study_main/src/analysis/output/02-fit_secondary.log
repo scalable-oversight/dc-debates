@@ -1,0 +1,87 @@
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [sigma, Intercept, order, C(domain, Treatment('brainteasers')), 1|question_sigma, 1|question_offset, 1|transcript_sigma, 1|transcript_offset]
+Loaded 1282 rows from quant-1-official-study-analysis-ready.csv
+  domains:       {'coding': np.int64(429), 'brainteasers': np.int64(429), 'astrophysics': np.int64(424)}
+  n_questions:   12
+  n_transcripts: 24
+
+Model:
+       Formula: y_secondary ~ 1 + order + C(domain, Treatment('brainteasers')) + (1|question) + (1|transcript)
+        Family: gaussian
+          Link: mu = identity
+  Observations: 1282
+        Priors: 
+    target = mu
+        Common-level effects
+            Intercept ~ Normal(mu: 0.0, sigma: 2.0)
+            order ~ Normal(mu: 0.0, sigma: 1.0)
+            C(domain, Treatment('brainteasers')) ~ Normal(mu: 0.0, sigma: 1.0)
+        
+        Group-level effects
+            1|question ~ Normal(mu: 0.0, sigma: HalfNormal(sigma: 1.0))
+            1|transcript ~ Normal(mu: 0.0, sigma: HalfNormal(sigma: 1.0))
+        
+        Auxiliary parameters
+            sigma ~ HalfNormal(sigma: 1.0)
+
+Initial fit (chains=4, tune=2000, draws=2000, target_accept=0.8)...
+/usr/local/lib/python3.11/dist-packages/pymc/step_methods/hmc/quadpotential.py:316: RuntimeWarning: overflow encountered in dot
+  return 0.5 * np.dot(x, v_out)
+/usr/local/lib/python3.11/dist-packages/pymc/step_methods/hmc/quadpotential.py:316: RuntimeWarning: overflow encountered in dot
+  return 0.5 * np.dot(x, v_out)
+Sampling 4 chains for 2_000 tune and 2_000 draw iterations (8_000 + 8_000 draws total) took 6 seconds.
+There were 11 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [sigma, Intercept, order, C(domain, Treatment('brainteasers')), 1|question_sigma, 1|question_offset, 1|transcript_sigma, 1|transcript_offset]
+  done in 8.2s
+  divergent transitions: 11
+
+Escalating divergences: refitting at target_accept=0.95...
+/usr/local/lib/python3.11/dist-packages/pymc/step_methods/hmc/quadpotential.py:316: RuntimeWarning: overflow encountered in dot
+  return 0.5 * np.dot(x, v_out)
+/usr/local/lib/python3.11/dist-packages/pymc/step_methods/hmc/quadpotential.py:316: RuntimeWarning: overflow encountered in dot
+  return 0.5 * np.dot(x, v_out)
+/usr/local/lib/python3.11/dist-packages/pymc/step_methods/hmc/quadpotential.py:316: RuntimeWarning: overflow encountered in dot
+  return 0.5 * np.dot(x, v_out)
+Sampling 4 chains for 2_000 tune and 2_000 draw iterations (8_000 + 8_000 draws total) took 10 seconds.
+There were 2 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [sigma, Intercept, order, C(domain, Treatment('brainteasers')), 1|question_sigma, 1|question_offset, 1|transcript_sigma, 1|transcript_offset]
+  done in 11.9s
+  divergent transitions: 2
+
+Escalating divergences: refitting at target_accept=0.99...
+/usr/local/lib/python3.11/dist-packages/pymc/step_methods/hmc/quadpotential.py:316: RuntimeWarning: overflow encountered in dot
+  return 0.5 * np.dot(x, v_out)
+/usr/local/lib/python3.11/dist-packages/pymc/step_methods/hmc/quadpotential.py:316: RuntimeWarning: overflow encountered in dot
+  return 0.5 * np.dot(x, v_out)
+Sampling 4 chains for 2_000 tune and 2_000 draw iterations (8_000 + 8_000 draws total) took 14 seconds.
+  done in 15.1s
+  divergent transitions: 0
+
+NUTS diagnostics:
+  mean acceptance / chain: 0.990, 0.987, 0.988, 0.987
+  tree depth (max=10): saturated=0.00%  counts: 5:130 6:7658 7:201 8:11
+  E-BFMI / chain: 0.785, 0.713, 0.709, 0.662  (all >= 0.3: True)
+  energy plot -> energy-secondary.png
+
+Diagnostics -- R-hat<1.01: True  ESS_bulk>=400: True  ESS_tail>=400: True
+
+Saved InferenceData -> /workspace/cf_package/quant_study_main/src/analysis/output/secondary-fit.nc
+
+Fixed effects + variance components:
+                                                     mean     sd  hdi_3%  hdi_97%  mcse_mean  mcse_sd  ess_bulk  ess_tail  r_hat
+sigma                                               1.440  0.028   1.388    1.495      0.000    0.000   14815.0    5545.0    1.0
+Intercept                                           0.267  0.159  -0.029    0.573      0.002    0.002    4911.0    5166.0    1.0
+order                                               0.025  0.080  -0.128    0.169      0.001    0.001   15031.0    6077.0    1.0
+C(domain, Treatment('brainteasers'))[astrophysics] -0.105  0.214  -0.513    0.295      0.003    0.003    4893.0    4792.0    1.0
+C(domain, Treatment('brainteasers'))[coding]       -0.205  0.212  -0.591    0.207      0.003    0.003    4581.0    5241.0    1.0
+1|question_sigma                                    0.195  0.119   0.000    0.389      0.003    0.002    1479.0    2405.0    1.0
+1|transcript_sigma                                  0.233  0.089   0.057    0.402      0.002    0.001    1657.0    1314.0    1.0
+
+Final divergent transitions: 0
+
+All convergence checks passed.

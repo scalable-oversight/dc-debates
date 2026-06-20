@@ -1,0 +1,115 @@
+I'll analyze each turn for hedging and qualifying language, then provide ratings.
+
+---
+
+**1. Debater A: [Opening]**
+"The Einstein zig-zag lens model... with two deflectors... and one AGN which produces 6 lensed images after being lensed by both deflectors."
+No hedging language present. Every element is stated as a direct fact. Rating: **1**
+
+---
+
+**2. Debater B: [Argument 1]**
+Claim 1: "on closer inspection, overfit, mainly due to..." — "mainly" is a mild qualifier.
+Claim 2: "do not actually quantify or report a chi-squared error" — direct assertion.
+Only one mild qualifier ("mainly"). The claims are otherwise direct. Rating: **2**
+
+---
+
+**3. Debater A: [Response 1]**
+Claim 1: "is likely to have a significant effect" — "likely" is a clear hedge.
+Claim 2: "allows one to more accurately model a more complex mass distribution" — "more accurately" is comparative but not a hedge per se; the claim is fairly direct.
+One hedging word ("likely"). Rating: **2**
+
+---
+
+**4. Debater B: [Argument 2]**
+Claim 1: "This fails to reveal that the model has 30 total parameters" — direct.
+Claim 2: "provides an enormous degree of modelling flexibility and results in overfitting" — direct assertion, no hedging.
+No hedging language. Rating: **1**
+
+---
+
+**5. Debater A: [Response 2]**
+Claim 1: "not necessarily a correct model" — "not necessarily" is a hedging phrase.
+Claim 2: "15 parameters in our model are partially constrained, which are not full degrees of freedom" — "partially" is a qualifying word.
+Two hedging/qualifying expressions. Rating: **2**
+
+---
+
+**6. Debater B: [Argument 3]**
+Claim 1: "Constraints don't fix the parameters... in place: they are determined via different models that come with their own errors" — direct.
+Claim 2: "can vary considerably" — "can" is a mild hedge.
+One mild hedge ("can"). Rating: **2**
+
+---
+
+**7. Debater A: [Response 3]**
+Claim 1: "provides quite tight constraints" — "quite" is a mild qualifier.
+Claim 2: "constrains positions to sub-arcsecond precision" — direct.
+One mild qualifier. Rating: **2**
+
+---
+
+**8. Debater B: [Opening]**
+"The gravitationally lensed dual-AGN model... with the first AGN corresponding to the four brightest images and the second AGN corresponding to the two dim images next to the extended red arcs."
+No hedging language. Every claim is direct. Rating: **1**
+
+---
+
+**9. Debater A: [Argument 1]**
+Claim 1: "we would normally expect to see a host galaxy" — "normally expect" is a soft hedging phrase.
+Claim 2: "C. S. M. et al. claim that D and E correspond to AGN that are 6 kiloparsecs away" — attributing to others is not self-hedging; otherwise direct.
+One hedging expression ("would normally expect"). Rating: **2**
+
+---
+
+**10. Debater B: [Response 1]**
+Claim 1: "would likely remain undetected" — "would likely" is a double hedge (conditional + likelihood).
+Claim 2: "an even larger extended component might be undetected" — "might" is a clear hedge.
+Two hedging expressions ("would likely," "might"), both prominent. Rating: **3**
+
+---
+
+**11. Debater A: [Argument 2]**
+Claim 1: "Dual AGN often arise from mergers" — "often" is a qualifier.
+Claim 2: "directly against your hypothesis" — direct.
+One qualifier ("often"). Rating: **2**
+
+---
+
+**12. Debater B: [Response 2]**
+Claim 1: "have mainly been studied at very low redshifts" — "mainly" is a mild qualifier.
+Claim 2: "are not a representative population for this object" — direct.
+One mild qualifier. Rating: **2**
+
+---
+
+**13. Debater A: [Argument 3]**
+Claim 1: "The most plausible morphology for a dwarf host is still going to be a quiescent galaxy" — "most plausible" is a hedging phrase (not stating it IS, but that it's the most plausible option).
+Claim 2: "remains very low, even conditioned on..." — "remains very low" is direct but probabilistic framing.
+One notable hedging phrase ("most plausible"). Rating: **2**
+
+---
+
+**14. Debater B: [Response 3]**
+Claim 1: "can be far more compact" — "can" is a hedge.
+Claim 2: "can rapidly quench star formation" — "can" again; "are not mutually exclusive, especially at high z" — "especially" qualifies scope.
+Two instances of "can" plus a qualifier. Rating: **2**
+
+---
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[2]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[2]]

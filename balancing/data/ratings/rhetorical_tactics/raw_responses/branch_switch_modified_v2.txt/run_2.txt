@@ -1,0 +1,107 @@
+I'll analyze each turn for rhetorical or persuasive tactics, then provide ratings.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+The statement presents two distinct conclusions (point mass vs. rigid body) in a straightforward, factual manner. No emotional appeals, loaded language, or rhetorical devices. Pure substantive claim.
+*Rating: 1*
+
+---
+
+**2. Debater B: [Argument 1]**
+Claim 1 uses an analogy ("ball on a string") which functions as a persuasive comparison — analogies can obscure relevant disanalogies and are a mild rhetorical device. The phrase "same principle applies" asserts equivalence without fully justifying it. Claim 2 is a direct physical claim with no rhetorical embellishment. Overall mostly substantive but the analogy serves a persuasive framing function.
+*Rating: 2*
+
+---
+
+**3. Debater A: [Response 1]**
+Both claims are direct physical arguments explaining why the analogy fails (Claim 1) and why the track does no work (Claim 2). No rhetorical devices detected — this is a clean substantive rebuttal.
+*Rating: 1*
+
+---
+
+**4. Debater B: [Argument 2]**
+Both claims are straightforward physical observations about curvature changes and force direction rotation. No rhetorical devices; purely substantive.
+*Rating: 1*
+
+---
+
+**5. Debater A: [Response 2]**
+Both claims make direct physical arguments about perpendicularity of constraint force and velocity. Clear, substantive, no rhetorical devices.
+*Rating: 1*
+
+---
+
+**6. Debater B: [Argument 3]**
+Both claims are stated as straightforward physical observations. No rhetorical devices — just mechanics claims about constraint force behavior and centripetal acceleration.
+*Rating: 1*
+
+---
+
+**7. Debater A: [Response 3]**
+Both claims are direct physical rebuttals about perpendicularity maintenance. Clean, substantive. No rhetorical devices.
+*Rating: 1*
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+A plain factual assertion about speed change under two models. No rhetorical devices.
+*Rating: 1*
+
+---
+
+**9. Debater A: [Argument 1]**
+Claim 1 is a clean physics argument invoking energy conservation. Claim 2 uses the phrase "there is simply nothing" — "simply" is a mild rhetorical intensifier that subtly dismisses alternatives and implies the conclusion is obvious, but it's minor. Overall mostly substantive.
+*Rating: 2*
+
+---
+
+**10. Debater B: [Response 1]**
+Claim 1 is a conditional logical statement, purely substantive. Claim 2 uses a framing technique: it highlights a contradiction in Debater A's position ("contradicting Debater A's Opening"), which functions as a mild rhetorical move to undermine credibility rather than purely address physics. However, this is also a legitimate logical point. Mostly substantive.
+*Rating: 2*
+
+---
+
+**11. Debater A: [Argument 2]**
+Both claims are direct, factual physics statements about translational vs. rotational KE. No rhetorical devices.
+*Rating: 1*
+
+---
+
+**12. Debater B: [Response 2]**
+Both claims invoke a conditional ("holds only when...," "without that constraint") to challenge the premise. This is a straightforward logical challenge — no rhetorical devices.
+*Rating: 1*
+
+---
+
+**13. Debater A: [Argument 3]**
+Both claims are direct physical/geometric observations about axle constraints and yaw. No rhetorical devices.
+*Rating: 1*
+
+---
+
+**14. Debater B: [Response 3]**
+Both claims are direct physical observations about rolling constraints and curvature differences. No rhetorical devices.
+*Rating: 1*
+
+---
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[1]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[1]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[2]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[1]]
+A | Argument 3 | [[1]]
+B | Response 3 | [[1]]

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Debater Credence Tool</title>
+<script>
+  MathJax = {
+    tex: { inlineMath: [['\\(','\\)'],['$','$']], displayMath: [['\\[','\\]'],['$$','$$']] },
+    options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code'] }
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+<style>
+    :root {
+        --color-left: #FFF6CC;
+        --color-right: #F2E8FF;
+        --primary-blue: #007bff;
+        --timer-bg: #343a40;
+        --timer-text: #fff;
+        --clr-accent: #3d5a80;
+    }
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        padding-bottom: 60px;
+        line-height: 1.6;
+    }
+    .container {
+        background: white; padding: 30px; border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .intro-section { margin-bottom: 30px; }
+    .intro-section h3 {
+        margin-top: 25px; margin-bottom: 15px; color: #2c3e50;
+        border-bottom: 2px solid #eee; padding-bottom: 10px;
+    }
+    .intro-section h3:first-child { margin-top: 0; }
+    .definition-item { margin-bottom: 12px; }
+    .context-text {
+        font-style: italic; margin-bottom: 20px; color: #555;
+        background-color: #f8f9fa; padding: 10px;
+        border-left: 4px solid #6c757d; border-radius: 4px;
+    }
+    .image-container { text-align: center; margin-bottom: 20px; }
+    .image-container img {
+        max-width: 100%; height: auto;
+        border: 1px solid #ddd; border-radius: 4px;
+    }
+    .figure-wrapper {
+        border: 1px solid #ddd; border-radius: 4px; padding: 15px;
+        margin-bottom: 20px; background-color: #fff; text-align: left;
+    }
+    .figure-wrapper img {
+        border: none !important; margin-bottom: 5px;
+        display: block; margin-left: auto; margin-right: auto;
+    }
+    .figure-caption {
+        font-style: italic; color: #666; font-size: 0.9rem;
+        margin-top: 5px; text-align: center;
+    }
+    label {
+        display: block; font-weight: 600;
+        margin-bottom: 10px; color: #2c3e50;
+    }
+    textarea:focus {
+        outline: none; border-color: var(--primary-blue);
+        box-shadow: 0 0 0 3px rgba(0,123,255,0.1);
+    }
+    .btn-copy:hover { background-color: #0056b3; }
+    /* Source link styling */
+    .source-link {
+        color: var(--clr-accent); text-decoration: none;
+        border-bottom: 1px dashed var(--clr-accent);
+        font-weight: 600;
+    }
+    .source-link:hover {
+        border-bottom-style: solid; text-decoration: none;
+    }
+    .missing-source {
+        background-color: #fdd; color: #900; font-weight: 600;
+        padding: 0 3px; border-radius: 3px;
+    }
+    /* Definition link + tooltip */
+    .def-link {
+        color: #5d4037; text-decoration: none;
+        border-bottom: 1px dotted #5d4037;
+        position: relative; cursor: help;
+    }
+    .def-link:hover {
+        color: #3e2723; border-bottom-style: solid;
+    }
+    .def-tooltip {
+        position: absolute;
+        width: max-content; max-width: 380px;
+        background: #2c2c2c; color: #f5f5f5;
+        font-size: .82rem; font-weight: 400;
+        line-height: 1.5; padding: .6rem .85rem;
+        border-radius: 4px;
+        box-shadow: 0 4px 12px rgba(0,0,0,.08);
+        z-index: 1000; pointer-events: none;
+        white-space: normal;
+    }
+    .def-tooltip-arrow {
+        position: absolute;
+        width: 0; height: 0;
+        border: 6px solid transparent;
+        border-top-color: #2c2c2c;
+        z-index: 1001; pointer-events: none;
+    }
+    /* Source entry styling */
+    .source-entry {
+        padding: 0.7rem 1rem; border-bottom: 1px solid #e0ddd8;
+        font-size: 0.95rem; line-height: 1.55;
+    }
+    .source-entry:last-child { border-bottom: none; }
+    .source-entry strong { color: #1a1a1a; }
+    .source-url {
+        color: var(--clr-accent); word-break: break-all;
+        font-size: 0.85rem; display: block; margin-top: 2px;
+    }
+    .source-quote {
+        color: #6b6b6b; font-style: italic;
+    }
+    /* Debate table */
+    .debate-table-card {
+        background: rgba(255,255,255,0.04);
+        border: 1px solid rgba(0,0,0,0.10);
+        border-radius: 18px; overflow: visible; margin-bottom: 20px;
+    }
+    .debate-table-card table {
+        width: 100%; table-layout: fixed;
+        border-collapse: separate; border-spacing: 0;
+    }
+    .debate-table-card td {
+        vertical-align: top; padding: 14px 16px;
+        font-size: 14.5px;
+        border-bottom: 1px solid rgba(0,0,0,0.08);
+        overflow-wrap: anywhere;
+    }
+    .debate-table-card tr:last-child td { border-bottom: none; }
+    .debate-table-card tr:first-child td:first-child { border-top-left-radius: 18px; }
+    .debate-table-card tr:first-child td:last-child { border-top-right-radius: 18px; }
+    .debate-table-card tr:last-child td:first-child { border-bottom-left-radius: 18px; }
+    .debate-table-card tr:last-child td:last-child { border-bottom-right-radius: 18px; }
+    td.speaker-a {
+        background: #fff6cc; color: #2a2000;
+        border-right: 1px solid rgba(0,0,0,0.06);
+    }
+    td.speaker-b { background: #f2e8ff; color: #1f0f33; }
+    td.speaker-a strong, td.speaker-b strong { font-weight: 750; }
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="intro-section">
+<h3>Key Question</h3>
+<div class="definition-item">Consider these two quantities:
+<br/><br/>
+X: The expected number of rolls of a fair six-sided die until you roll two 6s in a row, given that all rolls were even.
+Y: The expected number of rolls of a fair six-sided die until you roll the second 6 (not necessarily in a row), given that all rolls were even.
+<br/><br/>
+To understand exactly what is meant by "the expected number of rolls... given that all rolls were even" in this problem, think of it this way: Imagine you were to perform a billion sequences of die rolls, stopping each sequence when you roll two 6s in a row. Then you throw out all the sequences that contain an odd roll. The average number of rolls in the remaining sequences will be close to X. Next, perform a billion sequences of die rolls, stopping each sequence when you roll the second 6. Throw out all the sequences among these that contain an odd roll. The average number of rolls in the remaining sequences will be close to Y.
+<br/><br/>
+Which is larger, X or Y?</div>
+
+<h3>Sources</h3>
+<div class="source-entry" id="src-geometric_dist"><strong>Wikipedia, Geometric distribution</strong> <em>[URL blinded from debate judges.]</em><span class="source-quote"> &mdash; &ldquo;The geometric distribution gives the probability that the first occurrence of success requires \(k\) independent trials, each with success probability \(p\). If the probability of success on each trial is \(p\), then the probability that the \(k\)-th trial is the first success is \[\Pr(X = k) = (1-p)^{k-1}p\] for \(k=1,2,3,4,\dots\) The above form of the geometric distribution is used for modeling the number of trials up to and including the first success.&rdquo;</span></div>
+<div class="source-entry" id="src-conditional_prob_definition"><strong>Wikipedia, Conditional probability</strong> <em>[URL blinded from debate judges.]</em><span class="source-quote"> &mdash; &ldquo;If the event of interest is \(A\) and the event \(B\) is known or assumed to have occurred, 'the conditional probability of \(A\) given \(B\)', or 'the probability of \(A\) under the condition \(B\)', is usually written as \(P(A|B)\) or occasionally \(P_B(A)\). This can also be understood as the fraction of probability B that intersects with A, or the ratio of the probabilities of both events happening to the 'given' one happening (how many times A occurs rather than not assuming B has occurred): \[P(A \mid B) = \frac{P(A \cap B)}{P(B)}\]&rdquo;</span></div>
+<div class="source-entry" id="src-expected_val"><strong>Wikipedia, Expected value</strong> <em>[URL blinded from debate judges.]</em><span class="source-quote"> &mdash; &ldquo;Informally, the expectation of a random variable with a countably infinite set of possible outcomes is defined analogously as the weighted average of all possible outcomes, where the weights are given by the probabilities of realizing each given value. This is to say that \[\operatorname{E}[X] = \sum_{i=1}^\infty x_i\, p_i,\] where $x_1, x_2, \dots$ are the possible outcomes of the random variable $X$ and $p_1, p_2, \dots$ are their corresponding probabilities.&rdquo;</span></div>
+<div class="source-entry" id="src-arith_geo_seq"><strong>Wikipedia, Arithmetico-geometric sequence</strong> <em>[URL blinded from debate judges.]</em><span class="source-quote"> &mdash; &ldquo;In general, $ \sum_{k=1}^{\infty} {\color{blue} k} {\color{green} r^k} = \frac{r}{(1 - r)^2} \quad \text{for } -1 &lt; r &lt; 1 $&rdquo;</span></div>
+
+</div>
+<hr/>
+<div class="context-text">
+    Exactly one of these debater's answers matches the answer of the expert who wrote the Key Question.
+</div>
+<div class="debate-table-card">
+<table aria-label="Debate table">
+<colgroup><col/><col/></colgroup>
+<tbody>
+<tr>
+<td class="speaker-a"><strong>Debater A: [Opening]</strong> Y is larger. "Given all even" acts as a filter that deletes long sequences (probability of rolling odd increases quickly with sequence length), and two 6s in a row is hard to get without a long sequence, so X is biased toward very short, lucky runs.</td>
+<td class="speaker-b"><strong>Debater B: [Opening]</strong> X is larger. The condition "all rolls were even" turns the D6 into a D3 for purposes of this question (sides 2, 4, 6). On a D3, getting two 6s in a row is harder than getting two 6s generally, so it takes more rolls.</td>
+</tr>
+<tr>
+<td class="speaker-b"><strong>Debater B: [Question 1]</strong> Anytime you roll until reaching two 6s in a row, you will have also hit your second 6 at or before that moment. Since the stopping condition for X is strictly harder and happens later than or at the same time as Y, shouldn't X always be larger?</td>
+<td class="speaker-a"><strong>Debater A: [Question 1]</strong> If conditioning on all-even is equivalent to rolling a D3, then E[rolls to first 6] should match under both interpretations. On a D3 it's 3 (geometric distribution, <a class="source-link" href="#src-geometric_dist">Wikipedia, Geometric distribution</a>, success rate 1/3). E[rolls to first 6 | all even] = 3/2. Since 3 ≠ 3/2, doesn't this disprove the equivalence?</td>
+</tr>
+<tr>
+<td class="speaker-a"><strong>Debater A: [Answer 1]</strong> 'Strictly harder' means *shorter* since we're discarding sequences with odds. For X, if you roll 2 or 4 after 6, you've broken your streak; to fix it you keep rolling, which exposes you to high risk of rolling an odd and dying. Surviving seqs for X tend to be those that succeeded quickly.</td>
+<td class="speaker-b"><strong>Debater B: [Answer 1]</strong> (a) I don't believe you unless you prove it, and (b) I said it turns the D6 into a D3 *for purposes of this question*. You've substituted a different question. Even if conditioning and D3-rolling differ for the first-6 case, it doesn't follow they differ for the question at hand.</td>
+</tr>
+<tr>
+<td class="speaker-b"><strong>Debater B: [Question 2]</strong> You're describing the prob. of a sequence being valid, but the question asks for the expected # of rolls in valid sequences. Even if valid X-sequences are rarer, why would survivors be shorter? Shouldn't the distribution be dominated by long sequences that managed to finally get two 6s in a row?</td>
+<td class="speaker-a"><strong>Debater A: [Question 2]</strong> P(X|Y) = P(X &amp; Y)/Pr(Y) (<a class="source-link" href="#src-conditional_prob_definition">Wikipedia, Conditional probability</a>). Numerator for P(first 6 on roll k|all rolls even): If k rolls to see first 6 &amp; all rolls even, then the first k - 1 were all 2 or 4 &amp; the kth was 6. Which has prob ((2/6)^k-1)*(1/6). Isn't the denominator = "prob that of {1,3,5,6}, 6 is the first to appear" = 1/4?</td>
+</tr>
+<tr>
+<td class="speaker-a"><strong>Debater A: [Answer 2]</strong> No. After 2 rolls the prob of a win for X & Y is equal. After 10 it's much lower for X, because any non-6 even roll breaks X's streak and forces a restart. The difference in distributions biases X towards short rolls (relative to Y).</td>
+<td class="speaker-b"><strong>Debater B: [Answer 2]</strong> Your formula states the denominator should be P(all rolls even), which is (2/6)^k. Also see my previous reply: it addresses the wrong question. And again, for any sequence, X's stopping condition is met at or after Y's, so X ≥ Y.</td>
+</tr>
+<tr>
+<td class="speaker-b"><strong>Debater B: [Question 3]</strong> If I roll 6, 4, 6, I have satisfied Y and I stop (3 rolls). For X, I am not done; I have to keep rolling, adding more length to the sequence. The per-roll probability of dying is 1/2 regardless of which condition we're tracking. Why would the filter affect them differently?</td>
+<td class="speaker-a"><strong>Debater A: [Question 3]</strong> P(all even) can't depend on k, it's a marginal prob. Sum over sequence lengths and get 1/4. Numerator over denominator is (2/3)(1/3)^(k-1). Plug into <a class="source-link" href="#src-expected_val">Wikipedia, Expected value</a>, get sum(k=1->infinity) of k*(2/3)(1/3)^(k-1). Rewrite as (2/3)*(1/(1/3))*sum(k=1->infinity) of k*(1/3)^k, apply <a class="source-link" href="#src-arith_geo_seq">Wikipedia, Arithmetico-geometric sequence</a> to get 3/2. So you concede?</td>
+</tr>
+<tr>
+<td class="speaker-a"><strong>Debater A: [Answer 3]</strong> Because X needs longer sequences on average, its sequences spend more time exposed to the risk of dying. Consider a 100-sided die: "100, 100" in a row is rare, so without getting it quickly you'll almost certainly hit an odd and die. Runs like 100, 24, 82, 100 are commoner for Y. Same logic on D6.</td>
+<td class="speaker-b"><strong>Debater B: [Answer 3]</strong> Marginal probs absolutely depend on the roll # of the first 6, so this is wrong. Also, this is about expected rolls to the first 6; the question asks about the second 6. The relationship between X and Y depends on how the two stopping conditions interact; this calculation doesn't address that.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<script>
+(function() {
+    var tip = null, arrow = null;
+    var table = document.querySelector('.debate-table-card');
+    document.querySelectorAll('.def-link[data-tooltip]').forEach(function(link) {
+        link.addEventListener('mouseenter', function() {
+            if (tip) tip.remove();
+            if (arrow) arrow.remove();
+            tip = document.createElement('div');
+            tip.className = 'def-tooltip';
+            tip.textContent = link.getAttribute('data-tooltip');
+            document.body.appendChild(tip);
+            arrow = document.createElement('div');
+            arrow.className = 'def-tooltip-arrow';
+            document.body.appendChild(arrow);
+
+            var lr = link.getBoundingClientRect();
+            var tr = table ? table.getBoundingClientRect()
+                           : { left: 0, right: document.documentElement.clientWidth };
+            var tipW = tip.offsetWidth;
+            var tipH = tip.offsetHeight;
+
+            var top = lr.top + window.scrollY - tipH - 10;
+            tip.style.top = top + 'px';
+
+            var idealLeft = lr.left + window.scrollX + lr.width / 2 - tipW / 2;
+            var minLeft = tr.left + window.scrollX;
+            var maxLeft = tr.right + window.scrollX - tipW;
+            var left = Math.max(minLeft, Math.min(maxLeft, idealLeft));
+            tip.style.left = left + 'px';
+
+            var arrowLeft = lr.left + window.scrollX + lr.width / 2 - 6;
+            arrow.style.top = (lr.top + window.scrollY - 12) + 'px';
+            arrow.style.left = arrowLeft + 'px';
+        });
+        link.addEventListener('mouseleave', function() {
+            if (tip) { tip.remove(); tip = null; }
+            if (arrow) { arrow.remove(); arrow = null; }
+        });
+    });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<title>Probability - expected number of rolls</title>
+
+<sources>
+  <ref speaker="H" id="geometric_dist"
+       quote="The geometric distribution gives the probability that the first occurrence of success requires &lt;math&gt;k&lt;/math&gt; independent trials, each with success probability &lt;math&gt;p&lt;/math&gt;. If the probability of success on each trial is &lt;math&gt;p&lt;/math&gt;, then the probability that the &lt;math&gt;k&lt;/math&gt;-th trial is the first success is &lt;math display='block'&gt;\Pr(X = k) = (1-p)^{k-1}p&lt;/math&gt; for &lt;math&gt;k=1,2,3,4,\dots&lt;/math&gt; The above form of the geometric distribution is used for modeling the number of trials up to and including the first success."
+       author="Wikipedia, Geometric distribution"
+       url="https://en.wikipedia.org/wiki/Geometric_distribution"/>
+
+  <ref speaker="H" id="expected_val"
+       quote="Informally, the expectation of a random variable with a countably infinite set of possible outcomes is defined analogously as the weighted average of all possible outcomes, where the weights are given by the probabilities of realizing each given value. This is to say that &lt;math display='block'&gt;\operatorname{E}[X] = \sum_{i=1}^\infty x_i\, p_i,&lt;/math&gt; where $x_1, x_2, \dots$ are the possible outcomes of the random variable $X$ and $p_1, p_2, \dots$ are their corresponding probabilities."
+       author="Wikipedia, Expected value"
+       url="https://en.wikipedia.org/wiki/Expected_value"/>
+
+  <ref speaker="H" id="arith_geo_seq"
+       quote="In general, $ \sum_{k=1}^{\infty} {\color{blue} k} {\color{green} r^k} = \frac{r}{(1 - r)^2} \quad \text{for } -1 &lt; r &lt; 1 $"
+       author="Wikipedia, Arithmetico-geometric sequence"
+       url="https://en.wikipedia.org/wiki/Arithmetico-geometric_sequence"/>
+
+  <ref speaker="D" id="expected_val_caveat"
+       quote="However, there are some subtleties with infinite summation, so the above formula is not suitable as a mathematical definition. In particular, the Riemann series theorem of mathematical analysis illustrates that the value of certain infinite sums involving positive and negative summands depends on the order in which the summands are given. Since the outcomes of a random variable have no naturally given order, this creates a difficulty in defining expected value precisely."
+       author="Wikipedia, Expected value"
+       url="https://en.wikipedia.org/wiki/Expected_value"/>
+</sources>
+
+<question>
+Consider these two quantities:
+
+A: The expected number of rolls of a fair six-sided die until you roll two 6s in a row, given that all rolls were even.
+B: The expected number of rolls of a fair six-sided die until you roll the second 6 (not necessarily in a row), given that all rolls were even.
+
+To understand exactly what is meant by "the expected number of rolls... given that all rolls were even" in this problem, think of it this way: Imagine you were to perform a billion sequences of die rolls, stopping each sequence when you roll two 6s in a row. Then you throw out all the sequences that contain an odd roll. The average number of rolls in the remaining sequences will be close to A. Next, perform a billion sequences of die rolls, stopping each sequence when you roll the second 6. Throw out all the sequences among these that contain an odd roll. The average number of rolls in the remaining sequences will be close to B.
+
+Which is larger, A or B?
+
+  <answer speaker="H">B is larger. Conditioning on all-even exponentially penalizes long sequences; survival probability is (1/2)^k for a length-k sequence. Since A's stopping condition (two consecutive 6s) typically requires longer sequences than B's (any two 6s), A's surviving sequences are biased toward short, lucky runs like (6, 6) in just 2 rolls, pulling its conditional expectation below B's.<note>Correctly identifies the survivorship mechanism. The key insight is that conditioning on "all even" reweights sequences by (1/2)^k, dramatically favoring short ones.</note></answer>
+
+  <answer speaker="D">A is larger. The condition "all rolls were even" effectively turns the D6 into a D3 with faces {2, 4, 6}. On such a die, getting two 6s in a row is harder than getting two 6s in total, so A requires more rolls.<note>The "D3 reduction" is D's central error. It conflates conditioning (reweighting by (1/2)^k) with restriction (rolling a different die). D3-rolling weights all length-k sequences of {2, 4, 6} equally; conditioning on all-even does not.</note></answer>
+
+  <question speaker="D">
+  For any given sequence of D6 rolls, A's stopping condition (two 6s in a row) is met at or after B's stopping condition (second 6 total). Doesn't this guarantee that A is at least as large as B?
+    <answer speaker="H">No. That holds per-sequence, but A and B are conditional expectations over different surviving populations. The all-even filter removes sequences at rate 1-(1/2)^k, so it disproportionately kills A's longer sequences. This can reverse the per-sequence ordering when we take the average over survivors.<note>Correctly distinguishes between a per-sequence property and a property of conditional expectations computed over surviving populations.</note></answer>
+    <answer speaker="D" id="A_order">Yes. Since every A-sequence must also satisfy B's condition along the way, A takes at least as many rolls. The conditioning on "all even" doesn't change this fundamental ordering; it merely filters both sets of sequences equally.<note>The final clause — "filters both sets equally" — is the error. The per-roll kill probability is the same, but A-sequences are typically longer and therefore killed at a higher rate.</note></answer>
+
+    <question speaker="H">
+    Since survival probability is (1/2)^k, doesn't the filter preferentially remove long sequences, shifting A's distribution toward short runs?
+      <answer speaker="H">Yes. At 2 rolls both can win with (6, 6). For longer sequences A's win probability drops faster since any non-6 even roll breaks the streak. After filtering, A's survivors are disproportionately short lucky runs where consecutive 6s came immediately.</answer>
+      <answer speaker="D">Even if surviving A-sequences are rare, the expected length should be dominated by the long sequences that managed to finally get two 6s in a row. Rarity of a sequence doesn't determine the average length among survivors.<note>Sounds plausible but is wrong. Exponential decay in survival probability makes long sequences' contributions to the conditional expectation negligible, not just rare.</note></answer>
+
+      <question speaker="D">
+      The per-roll probability of "dying" (rolling an odd) is 1/2, regardless of whether we are tracking stopping condition A or stopping condition B. Why would the filter affect them differently?
+        <answer speaker="H">Same per-roll death rate, but A needs longer sequences on average, so more total exposure to risk. Imagine a 100-sided die: two consecutive 100s is so rare that you'll almost certainly hit an odd first. But B-type sequences like (100, 24, 82, 100) can survive because B doesn't require consecutive successes.<note>The 100-sided die analogy amplifies the mechanism to make it viscerally obvious.</note></answer>
+        <answer speaker="D">Since each roll has the same probability of killing the sequence regardless of which condition we're tracking, the filter treats A-sequences and B-sequences identically at every step. The die doesn't "know" which condition you're waiting for.<note>True at the per-roll level, but misleading at the sequence level. The stopping rules determine the length distributions, and the filter acts on whole sequences.</note></answer>
+      </question>
+    </question>
+  </question>
+
+  <question speaker="D">
+  Does conditioning on "all rolls even" effectively reduce the D6 to a fair D3 (uniform over {2, 4, 6})?
+    <answer speaker="H">No. E[rolls to first 6] on a D3 with p=1/3 is 3 (<xref rid="geometric_dist"/>), but E[rolls to first 6 | all even] = 3/2 (<xanswer rid="A_calc"/>). Since 3/2 != 3, conditioning is not equivalent to D3-rolling.<note>H's mathematical "smoking gun." The worked example directly refutes D's core assumption. If conditioning = D3, both quantities would be 3.</note></answer>
+    <answer speaker="D">Yes, for purposes of this question. Once you know all rolls were even, the only outcomes that occurred were 2, 4, and 6, each equally likely on every roll. This is exactly a D3.<note>Sounds right for a single roll, but for multi-roll sequences the conditioning also changes the distribution over sequence lengths via the (1/2)^k survival factor. Conditioning is not the same as restriction.</note></answer>
+
+    <question speaker="H">
+    Is E[rolls to first 6 | all even] = 3/2?
+      <answer speaker="H" id="A_calc">Yes. P(first 6 on roll k AND all even) = (2/6)^(k-1) × (1/6), since rolls 1..k-1 must be 2 or 4 and roll k must be 6. P(all even) = 1/4: the sequence is all-even iff 6 appears before any of {1,3,5}, probability 1/4 by symmetry. Dividing: P(first 6 on roll k | all even) = (2/3)(1/3)^(k-1). Via <xref rid="expected_val"/> and <xref rid="arith_geo_seq"/>: E = (2/3) × 9/4 = 3/2.<note>The calculation is correct. The result 3/2 != 3 proves conditioning fundamentally alters the distribution.</note></answer>
+      <answer speaker="D">I doubt its validity (<xquestion rid="Q_valid"/>), and regardless it addresses a different question than A vs B (<xquestion rid="Q_relevance"/>).<note>D cannot identify a specific error because the calculation is correct. The strategy is to cast doubt and redirect. However, the calculation's purpose is to disprove D's core assumption (conditioning = D3); if it fails for the simplest case, D's entire argument collapses.</note></answer>
+
+      <question speaker="D" id="Q_relevance">
+      Does this calculation about the first 6 actually bear on the original question about A and B?
+        <answer speaker="H">Yes. D's core claim is that conditioning on all-even is equivalent to D3-rolling. This disproves it: 3/2 != 3. The mechanism — (1/2)^k reweighting of sequence probabilities — applies regardless of which stopping condition is used.</answer>
+        <answer speaker="D">No. The original question involves two 6s (in a row or in total), not just one. Even if conditioning and D3-rolling differ for the first-6 problem, they might not differ for the actual problem. And regardless, <xanswer rid="A_order"/>.<note>The first part is extremely unlikely: the (1/2)^k reweighting mechanism is the same regardless of stopping condition. The second part retreats to the "strictly harder" argument, which conflates per-sequence ordering with conditional-expectation ordering.</note></answer>
+      </question>
+
+      <question speaker="D" id="Q_valid">
+      Is the calculation mathematically valid? Wikipedia itself notes that the expected value formula "is not suitable as a mathematical definition." <xref rid="expected_val_caveat"/>
+        <answer speaker="H">Yes. That caveat concerns the Riemann rearrangement theorem, which applies to conditionally convergent series with positive and negative terms. Here every term is non-negative, so convergence is absolute.<note>Correctly identifies why the caveat is inapplicable.</note></answer>
+        <answer speaker="D">Wikipedia notes subtleties with infinite summation that make the formula unreliable as a definition (<xref rid="expected_val_caveat"/>). This is reason to doubt the result.<note>D quotes a real passage but misapplies it. The passage warns about series with positive AND negative terms. All terms here are positive, so the concern is irrelevant.</note></answer>
+      </question>
+    </question>
+  </question>
+</question>

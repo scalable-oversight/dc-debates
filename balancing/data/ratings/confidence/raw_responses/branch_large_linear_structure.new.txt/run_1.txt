@@ -1,0 +1,73 @@
+I'll analyze each turn for confidence signals, then provide ratings.
+
+**1. Debater A: [Opening] (Left)**
+"The best plausible theoretical model" — "best plausible" introduces slight hedging (not "the correct model"), but the overall statement is direct and assertive with a citation. Mostly confident with minor qualification.
+**Rating: 4**
+
+**2. Debater B: [Argument 1] (Left)**
+"are typically located" — hedges slightly with "typically." "would have to be located" — uses conditional framing. Both claims are stated as factual/logical consequences without extensive hedging, but "typically" moderates Claim 1.
+**Rating: 4**
+
+**3. Debater A: [Response 1] (Left)**
+"can eject" — "can" is slightly permissive but not strongly hedged. "shows signs of" — mild tentativeness. "could be a trail" — "could" is a notable hedge. Overall: one strong claim, one hedged claim.
+**Rating: 3**
+
+**4. Debater B: [Argument 2] (Left)**
+"are old, massive and compact" — definitive. "we would observe... but in practice we do not" — strong logical/empirical assertion. Very confident throughout.
+**Rating: 5**
+
+**5. Debater A: [Response 2] (Left)**
+"is traveling at supersonic speeds" — definitive. "would cause star formation" — conditional but fairly assertive. "do not form a bow shock... and thus would not have" — strong logical deduction. High confidence overall.
+**Rating: 4**
+
+**6. Debater B: [Argument 3] (Left)**
+"shows that the color... fluctuates" — direct factual claim. "would monotonically decrease... but the fluctuating color does not support that" — strong logical assertion. Very definitive language throughout.
+**Rating: 5**
+
+**7. Debater A: [Response 3] (Left)**
+"can be explained by" — "can" hedges slightly. "will not only occur... but after... as well" — "will" is confident. "would also add fluctuations" — conditional. Mix of hedged and assertive language.
+**Rating: 3**
+
+**8. Debater B: [Opening] (Right)**
+"The best plausible theoretical model" — same phrasing as A's opening; "best plausible" is a mild hedge but overall assertive with citation.
+**Rating: 4**
+
+**9. Debater A: [Argument 1] (Right)**
+"far exceeds the ratio expected" — strong, definitive. "is not entirely linear" — direct observation stated as fact. Both claims confident and assertive.
+**Rating: 5**
+
+**10. Debater B: [Response 1] (Right)**
+"is used to classify" — definitive statement of method. "satisfies the Tully-Fisher relation, making it a strong candidate" — "strong candidate" is somewhat hedged rather than conclusive, but confident. Moderate-high confidence.
+**Rating: 4**
+
+**11. Debater A: [Argument 2] (Right)**
+"is not sufficient to classify" — definitive negation. "is too large for it to be classified" — strong, definitive. Very assertive throughout.
+**Rating: 5**
+
+**12. Debater B: [Response 2] (Right)**
+"is an observationally confirmed" — very definitive. "resembles the gradient... directly suggesting" — "resembles" is slightly hedged but "directly suggesting" is confident. Overall high confidence.
+**Rating: 4**
+
+**13. Debater A: [Argument 3] (Right)**
+"are much smoother than" — definitive comparison. "has a structure... strongly resembling a bow shock... that IC5249 does not have. This implies" — "strongly resembling" and "implies" are slightly hedged but overall assertive.
+**Rating: 4**
+
+**14. Debater B: [Response 3] (Right)**
+"is in the range expected of" — definitive factual claim. "It is well established that" — strong epistemic marker of certainty. Very confident language throughout.
+**Rating: 5**
+
+RATINGS:
+A | Opening | [[4]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[4]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[3]]
+B | Opening | [[4]]
+A | Argument 1 | [[5]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[5]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[5]]

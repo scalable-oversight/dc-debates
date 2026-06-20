@@ -1,0 +1,157 @@
+I'll analyze each turn for grammatical quality, identifying errors and notable constructions before assigning a rating.
+
+---
+
+**1. Debater A: [Opening] (Left Side)**
+"The best plausible theoretical model to describe this system is a runaway supermassive black hole (SMBH) ([P. D. et al.])."
+
+Clean, well-formed sentence. Citation format is consistent with the debate's conventions. No grammatical errors detected.
+
+**Rating: 5**
+
+---
+
+**2. Debater B: [Argument 1] (Left Side)**
+Claim 1: "Supermassive black holes are typically found within a few parsecs of the center of galaxies."
+Claim 2: "If this hypothesis were true, the SMBH would have to be located ~40 kiloparsecs away from its host galaxy."
+
+Both claims are grammatically correct. Proper use of subjunctive ("were true"). Tilde (~) used appropriately as an approximation symbol. No errors detected.
+
+**Rating: 5**
+
+---
+
+**3. Debater A: [Response 1] (Left Side)**
+Claim 1: "SMBH recoil can eject SMBHs from the centers of their host galaxy during a merger."
+Claim 2: "The galaxy shows signs of a recent merger ([P. D. et al.]), which supports the hypothesis that the linear structure could be a trail of star formation left in the wake of a recoiling SMBH."
+
+Claim 1 has a minor number agreement issue: "centers of their host galaxy" — "centers" (plural) paired with "host galaxy" (singular) is slightly awkward; it should arguably be "centers of their host galaxies" or "center of its host galaxy." Claim 2 is well-formed. Minor issue only.
+
+**Rating: 4**
+
+---
+
+**4. Debater B: [Argument 2] (Left Side)**
+Claim 1: "Globular clusters are old, massive and compact structures that travel through the circumgalactic medium (CGM)."
+Claim 2: "If the passage of a black hole through the CGM caused star formation, we would observe similar trails for globular clusters, but in practice we do not."
+
+Both claims are grammatically correct. Claim 2 uses proper conditional structure. No errors detected.
+
+**Rating: 5**
+
+---
+
+**5. Debater A: [Response 2] (Left Side)**
+Claim 1: "The SMBH in this model is traveling at supersonic speeds along its trajectory."
+Claim 2: "The bow shock due to this supersonic travel would cause star formation along the way. Globular clusters do not form a bow shock in the CGM, and thus would not have star forming trails."
+
+Claim 2 contains two sentences, both grammatically sound. "Star forming" could be hyphenated ("star-forming") as a compound modifier, but this is a minor stylistic point. Otherwise clean.
+
+**Rating: 4**
+
+---
+
+**6. Debater B: [Argument 3] (Left Side)**
+Claim 1: "[Figure 1] in [M. M. et al.] shows that the color of the stars along the hypothesised wake fluctuates."
+Claim 2: "If the star formation was caused by the bow shock of a passing SMBH, the age of the stars would monotonically decrease along the structure, but the observed fluctuating color does not support that."
+
+"Hypothesised" is the British spelling, which is consistent and acceptable. Claim 2 is well-constructed. No mechanical errors.
+
+**Rating: 5**
+
+---
+
+**7. Debater A: [Response 3] (Left Side)**
+Claim 1: "While a broad age gradient is expected along the wake, the color fluctuations can be explained by alternating red and blue supergiants in the trail."
+Claim 2: "Star formation will not only occur at the bow shock, but after the passage of the SMBH as well, which would also add fluctuations to the stellar age."
+
+Claim 2 uses "not only... but... as well" — this construction is slightly unusual (standard would be "not only... but also"), but it is not ungrammatical. Both claims are clear and well-formed.
+
+**Rating: 4**
+
+---
+
+**8. Debater B: [Opening] (Right Side)**
+"The best plausible theoretical model to describe this system is a bulgeless edge-on galaxy ([J. S. A. et al.])."
+
+Clean, well-formed sentence. Mirrors the structure of Debater A's opening. No errors.
+
+**Rating: 5**
+
+---
+
+**9. Debater A: [Argument 1] (Right Side)**
+Claim 1: "The line ratio of the linear object ([OIII]/H𝜷) far exceeds the ratio expected from a galaxy."
+Claim 2: "Additionally, the structure is not entirely linear, which would be expected if it were a bulgeless edge-on galaxy."
+
+Both claims are grammatically correct. Proper use of subjunctive ("if it were"). The use of the beta symbol (𝜷) in a chemical/spectral notation is appropriate. No errors.
+
+**Rating: 5**
+
+---
+
+**10. Debater B: [Response 1] (Right Side)**
+Claim 1: "The Tully-Fisher relation is used to classify objects as galaxies based on their estimated stellar mass and maximum rotational velocity."
+Claim 2: "The linear object satisfies the Tully-Fisher relation, making it a strong candidate for a bulgeless edge-on galaxy ([Figure 2] in [J. S. A. et al.])."
+
+Both claims are well-formed. No grammatical errors. Clear and precise language.
+
+**Rating: 5**
+
+---
+
+**11. Debater A: [Argument 2] (Right Side)**
+Claim 1: "Satisfying the Tully-Fisher relation is not sufficient to classify an object as a galaxy given observational inconsistencies."
+Claim 2: "The velocity gradient near the edge of the object is too large for it to be classified as a galaxy ([Figure 1], [Figure 5] in [P. D. et al.])."
+
+Both claims are grammatically correct. Well-structured sentences with no mechanical errors.
+
+**Rating: 5**
+
+---
+
+**12. Debater B: [Response 2] (Right Side)**
+Claim 1: "IC5249 is an observationally confirmed bulgeless edge-on galaxy."
+Claim 2: "The position vs rotational velocity gradient of the stars in the structure resembles the gradient of IC5249 ([Figure 1] in [J. S. A. et al.]), suggesting that they're the same class of objects."
+
+"they're" is a minor informality in an otherwise formal context (could be "they are"), and "vs" might conventionally take a period ("vs.") in formal writing, but neither constitutes a grammatical error. The contraction is acceptable. No significant errors.
+
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3] (Right Side)**
+Claim 1: "The velocity and flux gradients of IC5249 appear smoother than those of the object in your figure."
+Claim 2: "Additionally, the position vs rotational velocity curve you present is only part of the entire linear structure. The full gradient of the object ([Figure 10] in [P. D. et al.]) does not match that of a galaxy."
+
+Both claims are grammatically correct. "vs" again used without period (minor). Clear and well-constructed sentences.
+
+**Rating: 4**
+
+---
+
+**14. Debater B: [Response 3] (Right Side)**
+Claim 1: "The fitted function that you present here also appears to include a part of the galaxy on the left side, with velocity measurements close to 0 on the far left."
+Claim 2: "Galactic mergers can leave extended trails of star formation between merging galaxies, offering an alternative explanation for the galaxy hypothesis."
+
+Both claims are grammatically sound. "close to 0" could arguably be written as "close to zero" in formal prose, but using the numeral is not an error. No mechanical issues.
+
+**Rating: 5**
+
+---
+
+RATINGS:
+A | Opening | [[5]]
+B | Argument 1 | [[5]]
+A | Response 1 | [[4]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[4]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[4]]
+B | Opening | [[5]]
+A | Argument 1 | [[5]]
+B | Response 1 | [[5]]
+A | Argument 2 | [[5]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[5]]

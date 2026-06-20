@@ -1,0 +1,77 @@
+I'll analyze each turn for rhetorical/persuasive tactics before rating.
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+States that AGN is "highly plausible" and cites a source. This is a straightforward factual claim with a citation. The word "highly plausible" is mildly loaded but not significantly rhetorical. No emotional appeals, no straw-manning.
+Rating: 1
+
+**2. Debater B: [Argument 1]**
+Both claims are straightforward observational/theoretical statements about Balmer breaks and photospheric emission. No emotional language, no appeals to authority beyond the science itself, no framing devices. Pure substantive argument.
+Rating: 1
+
+**3. Debater A: [Response 1]**
+Claim 1 is a factual counter-point. Claim 2 uses the phrase "speculative theories" to characterize the SMS model—this is loaded framing that subtly delegitimizes the opposing position rather than engaging with its merits directly. The phrase "may not be warranted" also introduces vague burden-shifting.
+Rating: 2
+
+**4. Debater B: [Argument 2]**
+Both claims are empirical observations about X-ray weakness and variability in LRDs vs. AGN. These are substantive, evidence-based points with no rhetorical embellishment.
+Rating: 1
+
+**5. Debater A: [Response 2]**
+Both claims are mechanistic/physical explanations (super-Eddington cooling, accretion rate effects on variability). The parenthetical "moreso than SMS" in Claim 2 is a mild comparative framing but is substantively grounded. Overall very substantive.
+Rating: 1
+
+**6. Debater B: [Argument 3]**
+Claim 1 acknowledges limited empirical backing for the super-Eddington mechanism—a fair substantive point. Claim 2 makes a mechanistic distinction between SMS and AGN variability. Both are substantive, technical arguments. No rhetorical devices.
+Rating: 1
+
+**7. Debater A: [Response 3]**
+Both claims are technical observations about turbulent flows and modeling gaps. Straightforward and factual. No rhetorical devices detected.
+Rating: 1
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+States SMS photospheric emission is "highly plausible" and cites a source. Mirror of Debater A's opening. Similarly mild use of "highly plausible" but essentially a plain assertion with citation.
+Rating: 1
+
+**9. Debater A: [Argument 1]**
+Claim 1 notes SMS are unobserved theoretical objects—a factual point but framed to imply weakness in the SMS model (mild implied delegitimization). Claim 2 is a straightforward physical fact about lifetimes. Together, they use the "unobserved" framing as a rhetorical lever, but the substance is real.
+Rating: 2
+
+**10. Debater B: [Response 1]**
+Claim 1 uses "almost certain"—a strong epistemic claim that functions as an appeal to consensus/authority without citation. This is a notable rhetorical move. Claim 2 is a straightforward model-based argument.
+Rating: 2
+
+**11. Debater A: [Argument 2]**
+Both claims are factual/technical (SMBH seeding, number count argument). No rhetorical devices; purely substantive reasoning about observational constraints.
+Rating: 1
+
+**12. Debater B: [Response 2]**
+Both claims are physical/technical arguments about stellar rotation and its effects. Claim 2's "will, in turn, reduce... to acceptable numbers" is somewhat assertive without full justification, but this is a substantive prediction rather than a rhetorical device.
+Rating: 1
+
+**13. Debater A: [Argument 3]**
+Claim 1 uses "insufficiently rigorous" and "appears" — hedged language that frames the opposing work negatively without fully demonstrating the claim. This is mild but present framing/loaded language. Claim 2 is a specific factual critique. Together, moderate rhetorical framing in Claim 1.
+Rating: 2
+
+**14. Debater B: [Response 3]**
+Both claims are highly technical statements about computational methods (1D stellar evolution, Feautrier/Λ-iteration solver). Pure substantive argumentation with no rhetorical devices.
+Rating: 1
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[1]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[1]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[2]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[1]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[1]]

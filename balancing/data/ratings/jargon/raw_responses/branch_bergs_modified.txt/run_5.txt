@@ -1,0 +1,150 @@
+I'll analyze each turn for technical jargon systematically.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The water level falls."
+- No technical terms. Completely plain language.
+- Rating: **1**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+- "displacement" – physics term for volume/weight of fluid moved by an object; somewhat technical but commonly understood in context
+- "volume-based" – semi-technical phrase
+- "meltwater" – compound word, fairly intuitive
+- Overall: a couple of technical physics terms but meaning is accessible.
+- Rating: **2**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+- "floats on the surface" – plain
+- "buoyant submerged object" – physics terminology
+- "weight-based" / "displacement" – technical but contextually clear
+- Overall: a few technical terms, but the argument is largely readable.
+- Rating: **2**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+- "submerged" – used in a technical/dictionary sense, defined in the debate
+- "buoyant" – physics/technical term
+- "embedded" – plain
+- "floating" – plain
+- Overall: two key technical terms, but both are explained or contextualized.
+- Rating: **2**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+- "effective density" – technical physics term (ratio of mass to volume, specifically comparing to fluid)
+- "buoyant force" – standard physics term
+- "buoyant" – technical
+- "surrounding fluid" – semi-technical
+- The phrase "effective density is less than or equal to that of the surrounding fluid" is notably technical.
+- Rating: **3**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+- "dictionary senses" – plain
+- "buoyant" – technical
+- "density" – technical but widely known
+- "volume of the object" – plain
+- Overall: moderate, a few technical terms but sentences are clear.
+- Rating: **2**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+- "density less than water" – technical but common
+- "volumes underwater" – plain
+- "displace their full volumes" – technical physics phrasing
+- "beach ball held underwater" – plain illustrative example
+- Overall: light technical language, example aids comprehension.
+- Rating: **2**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The water level stays brim full."
+- No technical terms. Plain language.
+- Rating: **1**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+- "displaces water equal to its total weight" – Archimedes' principle phrasing, technical
+- "floating system" – semi-technical
+- "waterline" – common nautical/physics term
+- "displaces less water" – physics terminology
+- Overall: physics concepts throughout but explained accessibly.
+- Rating: **2**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+- "floating system" – semi-technical
+- "weight-based displacement" – technical physics
+- "volume-based displacement" – technical physics
+- "buoyant submerged object" – technical
+- Several technical phrases packed together.
+- Rating: **3**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+- "buoyant submerged object" – technical
+- "floating system" – semi-technical
+- "less dense than water" – technical but common
+- "fully underwater" – plain
+- Overall: moderate technical language, similar density to Response 1.
+- Rating: **3**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+- "floating entirely below the waterline" – plain/semi-technical
+- "buoyant submerged object" – technical
+- "buoyant force" – standard physics term
+- "weight of the water it displaces" – physics terminology
+- "volume-based" / "weight-based" – technical framing
+- Multiple technical physics terms but explained with a clear analogy.
+- Rating: **3**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+- "weight-based" / "volume-based" – technical framing
+- "submerged" / "fully submerged" – technical distinction
+- "below the waterline" – semi-technical
+- The claim about distinguishing "submerged" from "fully submerged" is a technical nuance.
+- Rating: **2**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+- "weight-based regime" / "volume-based" – technical framing with "regime" adding physics flavor
+- "discontinuous switch in the regime" – somewhat technical phrasing
+- "physically implausible" – semi-technical
+- Overall: moderate, the word "regime" and "discontinuous" add slight technicality.
+- Rating: **2**
+
+---
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[2]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[2]]

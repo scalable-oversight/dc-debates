@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debate>
+<title>Gravitational Lens Modelling</title>
+
+<defs>
+  <def id="einstein_zig_zag_lens">Einstein zig-zag lens - A <a xdef="gravitational_lensing">gravitational lens</a> system with two lenses, where two light rays from the source cross the optical path between the lenses. <xref rid="tec_et_al"/>
+
+  <img src="images/einstein_zig_zag.png"/>
+  </def>
+
+  <def id="gravitational_lensing">Gravitational lensing - An astrophysical phenomenon where a massive galaxy present in between the observer and the source bends light being emitted by the source, such that the observer sees distorted (weakly lensed) or multiple (strongly lensed) images of the same source.
+
+  <img src="images/gravitational_lensing.png"/>
+  </def>
+
+  <def id="agn">AGN - Active Galactic Nuclei are galaxies with an actively accreting (consuming matter) supermassive black hole (SMBH) at their center. The matter forms a very bright (one of the brightest phenomena in the universe) accretion disc as it spirals into the SMBH. An AGN might also contain twin jets of gas and dust ejected from the center of the galaxy that can rival the galaxy's own size. High <a xdef="redshift">redshift</a> AGN are often referred to as quasars.
+
+  <img src="images/agn.png"/>
+  </def>
+
+  <def id="redshift">Redshift (denoted by z) - As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift => object is further away.
+  </def>
+
+  <def id="flux">Flux - Amount of light captured by the camera. Higher flux results in a brighter image.
+  </def>
+
+  <def id="sis_sie_pemd">SIS/SIE/PEMD - All of these are separate models for the mass distribution in a galaxy. SIS is the simplest model for a spherical galaxy where mass falls off by a power of 2. SIE includes two additional parameters for ellipticity. PEMD adds two for ellipticity, and one additional parameter for the slope of the mass distribution power law.
+  </def>
+
+  <def id="shear">Shear - Adds two parameters to add ellipticity to any model without having to align it with the elliptical shape of the galaxy observed in the optical data. This is usually used if the lens is a part of a cluster, or to describe galaxies using an SIS+shear model instead of an <a xdef="sis_sie_pemd">SIE</a>. An SIE+shear model is usually used to model an elliptical galaxy in a cluster to model angular properties from the lens galaxy and uncorrelated angular properties from surrounding matter.
+  </def>
+
+  <def id="recoil">Recoil - Merging black holes release a massive amount of energy in the form of gravitational waves, and this can happen anisotropically, kicking the resulting black hole in a direction opposite to the released gravitational waves. This kick is stronger in systems with more asymmetry in the sizes of the merging black holes.
+  </def>
+</defs>
+
+<problem>
+Here is a picture of a real astrophysical system. What is the best plausible theoretical model to describe this system?
+
+<img src="images/astrophysical_system.png"/>
+</problem>
+
+<sources>
+  <ref id="fd_et_al"
+       quote="Year and title blinded from debate judges."
+       author="F. D. et al."/>
+
+  <ref id="csm_et_al"
+       quote="Year and title blinded from debate judges."
+       author="C. S. M. et al."/>
+
+  <ref id="tec_et_al"
+       quote="Year and title blinded from debate judges."
+       author="T. E. C. et al."/>
+
+  <ref id="mo_et_al"
+       quote="Year and title blinded from debate judges."
+       author="M. O. et al."/>
+
+  <ref id="cl_ta_et_al"
+       quote="Year and title blinded from debate judges."
+       author="C. L., T. A., et al."/>
+
+  <ref id="cl_mm_et_al"
+       quote="Year and title blinded from debate judges."
+       author="C. L., M. M., et al."/>
+
+  <ref id="cs_et_al"
+       quote="Year and title blinded from debate judges."
+       author="C. S. et al."/>
+
+  <ref id="jms_et_al"
+       quote="Year and title blinded from debate judges."
+       author="J. M. S. et al."/>
+</sources>
+
+<facts speaker="None">
+  <ref id="ezz_model"><xref rid="fd_et_al"/> used a Power-law Elliptical Mass Distribution (<a xdef="sis_sie_pemd">PEMD</a>) for the first deflector (<a xdef="redshift">redshift</a> z=1.84) and a Single Isothermal Sphere (SIS) with external <a xdef="shear">shear</a> for the second deflector (z=1.8845). Four SIS profiles for galaxies in the plane of the first deflector were also used, but they didn't affect convergence due to their distance from the optical axis. The quasar was modelled as a point source.</ref>
+
+  <ref id="glda_model"><xref rid="csm_et_al"/> used a Singular Isothermal Ellipsoid (SIE) plus external shear to model the mass distribution of the foreground lensing galaxy at a <a xdef="redshift">redshift</a> z=0.184. The two quasars were modelled as point sources at z=2.37, and the extended component was parameterized using a Sérsic profile.</ref>
+</facts>
+
+<facts speaker="H">
+  <ref id="host_galaxy_yes">Strongly lensed <a xdef="agn">quasar</a> images typically have an underlying extended stellar component.</ref>
+
+  <ref id="recoil_implies_interaction">The claim that the black hole was kicked out of its central position due to <a xdef="recoil">recoil</a> implies that the two galaxies are merging with each other, or have finished doing so (post-merger).</ref>
+
+  <ref id="spectroscopy">Spectroscopy constrains the red arc's <a xdef="redshift">redshift</a> to be ~1.8845 and the black hole's redshift to be ~2.38.</ref>
+
+  <ref id="logical_impossibility">Measured redshifts for a galaxy and its black hole would be approximately identical.</ref>
+
+  <ref id="light_curves">The light curves obtained via spectroscopy for all lensed images are very similar, displaying the same variations. For illustration, the curves of the bottom-most and right-most lensed images display the same variations with a 35-day offset.</ref>
+
+  <ref id="sis_plus_shear_yes">An <a xdef="sis_sie_pemd">SIE</a> profile is often degenerate with an SIS + <a xdef="shear">shear</a> profile at low radii, and has the same number of parameters.</ref>
+  
+  <ref id="constraints">the positions of the four foreground galaxies were constrained by optical data from HST, the position of the second deflector (being lensed by the first deflector) was constrained by modelling the red arc, and the <a xdef="redshift">redshifts</a> of the foreground galaxies and the second deflector were constrained by photometry (HST data) and spectroscopy (NIRSpec data) respectively</ref>
+
+  <ref id="four_sis_yes">Taking galaxy positions into account allows one to more accurately model a more complex mass distribution than a simple shear.</ref>
+  
+  <ref id="rmse">The RMSE for the positions of the six lensed images is 0.03" in <xref rid="fd_et_al"/>.</ref>
+</facts>
+
+<facts speaker="D">
+  <ref id="sis_plus_shear_no">Galaxies typically exhibit some degree of ellipticity.</ref>
+
+  <ref id="four_sis_no"><a xdef="sis_sie_pemd">SIE</a>+<a xdef="shear">shear</a> for a single deflector with two point sources at the same redshift (<xref rid="csm_et_al"/>) is 12 degrees of freedom. <a xdef="sis_sie_pemd">PEMD</a> for the first deflector, <a xdef="sis_sie_pemd">SIS</a>+<a xdef="shear">shear</a> for the second deflector, and a point source is 15 degrees of freedom. Additionally, if you consider the position and redshift of the second deflector and the four foreground galaxies as free parameters as well, the degrees of freedom for <xref rid="fd_et_al"/>'s model go up to 30.</ref>
+
+  <ref id="small_galaxy">A host galaxy of &lt; 400 pc (constrained by the brightest image for the first AGN) would likely remain undetected in the HST imaging.</ref>
+
+  <ref id="small_galaxy2">Since the magnification of the images of the second AGN is lower, an even larger extended component might be undetected.</ref>
+
+  <ref id="distance"><xref rid="csm_et_al"/>'s modelled separation between the <a xdef="agn">quasars</a> in the source plane was 6.5 kpc. 6.5 kpc is close enough to interact.</ref>
+
+  <ref id="vla_data">Radio data collected using VLA in addition to the optical HST data shows high radio emission. If the radio emission is assumed to come from star formation, it implies very high rates of star formation: approximately 850 solar masses/yr for the first host and 1150 for the second. Galaxy interactions and mergers are known to drive up star formation rates.</ref>
+
+  <ref id="correlated_emission">If two black holes are feeding from the same gas supply or affecting each other gravitationally, they can flare up and dim in a correlated manner ('correlated emissions') i.e. they can produce similar looking light curves.</ref>
+
+  <ref id="chisq">The reduced chi-squared error for the optical data is 2.11 in <xref rid="csm_et_al"/>, and was not calculated in <xref rid="fd_et_al"/>.</ref>
+
+</facts>
+
+<question>
+What is the best theoretical model to describe this system?
+
+  <answer speaker="H">The <a xdef="einstein_zig_zag_lens">Einstein zig-zag lens</a> model of <xref rid="fd_et_al"/> with two deflectors (white galaxy and red galaxy behind it) at different redshifts, and one <a xdef="agn">AGN</a> which produces 6 lensed images after being lensed by both deflectors. <xref rid="ezz_model"/><note>The presented model is complex but more correct.</note></answer>
+  <answer speaker="D">The <a xdef="gravitational_lensing">gravitationally lensed</a> dual-<a xdef="agn">AGN</a> model of <xref rid="csm_et_al"/>, with the first AGN corresponding to the four brightest images and the second AGN corresponding to the two dim images next to the extended red arcs. <xref rid="glda_model"/><note>The presented model is more approachable but incorrect.</note></answer>
+
+  <question speaker="D">
+  Is <xref rid="fd_et_al"/>'s model overfit to the data?
+    <answer speaker="H">No</answer>
+    <answer speaker="D">Yes<note>Subquestions start setting up context that the model is too complex, in order to support Occam's razor based argument.</note></answer>
+
+    <question speaker="D">
+    Would it have been better for <xref rid="fd_et_al"/> to describe the second deflector with an <a xdef="sis_sie_pemd">SIE</a> profile rather than an SIS + <a xdef="shear">shear</a> model?
+      <answer speaker="H">No: <xref rid="sis_plus_shear_yes"/><note>Points out irrelevance of the 'problem' highlighted by the opponent.</note></answer>
+      <answer speaker="D">Yes: <xref rid="sis_plus_shear_no"/><note>True but shown to be irrelevant by Honest's answer above. If Honest had more turns/words to work with they might spell this out in more detail.</note></answer>
+    </question>
+
+    <question speaker="D">
+    Would it have been better for <xref rid="fd_et_al"/> to handle the galaxies in the first deflector's plane with a shear to model the cumulative mass profile, rather than four SIS profiles?<note>Points to an inconsequential part of the modeling to frame it as a weakness. Setup for a "too many parameters" narrative.</note>
+      <answer speaker="H">No: <xref rid="four_sis_yes"/> More parameters increase complexity, but simplified approximations introduce accuracy risks of their own.</answer>
+      <answer speaker="D">Yes. Adding complexity to the model allows for more degrees of freedom: <xref rid="four_sis_no"/> This results in overfitting.<note>Claims overfitting, Occam's razor type argument.</note></answer>
+
+      <question speaker="H">
+      Should the extra 15 parameters mentioned for <xref rid="fd_et_al"/>'s model be treated as 'free' given that <xref rid="constraints"/>?<note>Presents rationale for increased model parameters. Names data sources and techniques explicitly to add to credibility.</note>
+        <answer speaker="H">No, they are all highly constrained.</answer>
+        <answer speaker="D">The extra parameters are not completely free, but constraints don't fix them in place, since they are also determined via different models that come with their own errors. Even if we fix the 5 extra <a xdef="redshift">redshifts</a>, the positions of the foreground galaxies and the second deflector can vary a significant amount within the constraints, and can still contribute to the overfitting of the lens model.</answer>
+      </question>
+    </question>
+  </question>
+
+  <question speaker="D">
+  How important is quantifying and reporting image reconstruction error?
+    <answer speaker="D">Important. The flux values per pixel in an image provide much richer constraints than fluxes and positions of 6 point sources. <xref rid="chisq"/><note>Tries to harm the opponent's credibility by pointing out that some statistical calculations were not provided in the reference paper.</note></answer>
+    <answer speaker="H">Important, though a lower error alone does not guarantee the correctness of a model. Additionally,  the RMSE of the image positions provides valuable information for AGNs because they are point sources. <xref rid="rmse"/></answer>
+  </question>
+
+  <question speaker="H">
+  If <xref rid="csm_et_al"/> were correct, aren't there some anomalies in the image that require explanation?
+    <answer speaker="H">Yes</answer>
+    <answer speaker="D">They are explainable</answer>
+
+    <question speaker="H">
+    If <xref rid="csm_et_al"/> were correct, shouldn't there be an extended arc corresponding to the host galaxy of the four large images?<note>Challenges theoretical assumptions made by the debater while asking for elaboration</note>
+      <answer speaker="H">Typically we would: <xref rid="host_galaxy_yes"/><note>Helps the judge interpret presented information correctly.</note></answer>
+      <answer speaker="D">Not necessarily: <xref rid="small_galaxy"/></answer>
+    </question>
+
+    <question speaker="H">
+    If <xref rid="csm_et_al"/> were correct, shouldn't there be an extended arc corresponding to the host galaxy of the two dimmer images?<note>Challenges theoretical assumptions made by the debater while asking for elaboration</note>
+      <answer speaker="H">Typically we would: <xref rid="host_galaxy_yes"/></answer>
+      <answer speaker="D">This could be the red arc or something obscured by it. If the red galaxy is the host galaxy of the second AGN, the offset from the center can be explained by <a xdef="recoil">SMBH recoil</a>.</answer>
+
+      <question speaker="H">
+      <xref rid="recoil_implies_interaction"/>Does the evidence support the claim that the system is interacting/has interacted?<note>Helps the judge interpret presented information correctly.</note>
+        <answer speaker="H">Inconclusive: The absence of visibly merging host galaxies for either of the AGNs makes it difficult to conclude that they are interacting.</answer>
+        <answer speaker="D">Yes: <xref rid="distance"/><xref rid="vla_data"/><note>Goes out of the way to mention data sources to strengthen credibility.</note></answer>
+      </question>
+
+      <question speaker="H">
+      <xref rid="spectroscopy"/> Does this rule out the possibility of the red lensed arc being the host galaxy for one of the AGN?<note>Presents new data in the question to make a smoking gun argument based on context (and judge understanding) established in the previous turns</note>
+        <answer speaker="H">Almost certainly: <xref rid="logical_impossibility"/> So they can't be the same object.</answer>
+        <answer speaker="D">Lowers probability, but <xref rid="csm_et_al"/> model is still more plausible. <xref rid="small_galaxy"/> <xref rid="small_galaxy2"/> It could also be obscured by the overlapping red galaxy.<note>Tries to refer to previous claims made by self and opponent to paint a plausible picture for the initially claimed dual-AGN. Removes the red arc from the argument entirely, to avoid contradicting itself.</note></answer>
+
+        <question speaker="H">
+        <xref rid="light_curves"/> Does this mean that all six images are of a single AGN?<note>Presents new data in the question to make a smoking gun argument based on context (and judge understanding) established in the previous turns</note>
+          <answer speaker="H">Almost certainly. The 35-day delay in the light curves can be explained by the time delay introduced by gravitational lensing. Two independent astrophysical objects having the same light curves is unheard of.</answer>
+          <answer speaker="D">Not necessarily. <xref rid="distance"/><xref rid="correlated_emission"/><note>Uses a true fact in a very misleading way that would be very easy to refute if Honest had another turn - but Dishonest knows that Honest doesn't. If Honest had another turn, they could point out that even if they are as close as 6.5 kpc apart, light (and gravity) would take about 21,200 years to travel between them, so this would not explain the near-identical light curves.</note></answer>
+        </question>
+      </question>
+    </question>
+  </question>
+</question>
+</debate>

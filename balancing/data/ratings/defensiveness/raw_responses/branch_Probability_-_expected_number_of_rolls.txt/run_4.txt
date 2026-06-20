@@ -1,0 +1,119 @@
+I'll analyze each turn for defensiveness, looking at language signals before assigning ratings.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+"Y is larger." — A bare assertion with no elaboration. Opening turns are typically neutral; this is a position statement, not defensive or open in any notable way.
+**Rating: 1**
+
+---
+
+**2. Debater B: [Argument 1]**
+Claim 1: Frames the condition as "effectively" turning D6 into D3 — a confident, constructive analogy.
+Claim 2: Builds logically on Claim 1. No deflection, no irritation; offers a substantive framing.
+**Rating: 1**
+
+---
+
+**3. Debater A: [Response 1]**
+Claim 1: Presents a concrete calculation (E = 3). Engages substantively.
+Claim 2: Directly contradicts Debater B's claim with a specific number (3/2 vs 3), framed as a logical correction rather than dismissal. No hostility, but there's a mild assertiveness in saying "it's not true that..."
+**Rating: 2**
+
+---
+
+**4. Debater B: [Argument 2]**
+Claim 1: Restates the D3 equivalence claim, pushed back on by A.
+Claim 2: "This follows trivially" — the word "trivially" is slightly dismissive of A's objection, suggesting A's challenge doesn't merit serious engagement. This is a mild defensive marker, repeating the prior position and framing the rebuttal as obvious.
+**Rating: 3**
+
+---
+
+**5. Debater A: [Response 2]**
+Claim 1: Provides a specific probability formula — constructive and mathematical.
+Claim 2: Builds on Claim 1 with a calculation. Both claims are substantive and offer new reasoning rather than repeating assertions. No defensive language.
+**Rating: 1**
+
+---
+
+**6. Debater B: [Argument 3]**
+Claim 1: Introduces new numbers (42 vs 13.2) — a substantive move.
+Claim 2: "Your analysis has focused on... while the problem concerns..." — this is a redirect/deflection. Rather than engaging directly with A's arithmetic showing E=3/2 vs 3, B pivots to suggesting A has been addressing the wrong thing. This is moderately defensive — sidestepping the contradiction rather than resolving it.
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3]**
+Claim 1: "Those numbers are only correct if you don't filter sequences containing odd rolls." — Direct, substantive counter. Not defensive.
+Claim 2: "You agreed with... yet claimed... which is self-contradictory." — Pointing out a logical contradiction in B's reasoning. While assertive and potentially confrontational, it's substantively engaging with B's inconsistency rather than deflecting. However, the framing has a slightly accusatory tone.
+**Rating: 2**
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+"X is larger." — Simple assertion, same as A's opening. Neutral.
+**Rating: 1**
+
+---
+
+**9. Debater A: [Argument 1]**
+Claim 1: Concedes the baseline (X takes longer ignoring the condition) — openly acknowledges a point against their position.
+Claim 2: Introduces the filtering argument as a novel mechanism. Constructive engagement.
+**Rating: 1**
+
+---
+
+**10. Debater B: [Response 1]**
+Claim 1: Acknowledges A's point ("Given all rolls were even" applies to both) — open and concessive.
+Claim 2: "X's distribution is dominated by long sequences" — asserts the conclusion confidently but without new reasoning to back it up beyond restating the original claim. Slight repetition of prior position.
+**Rating: 2**
+
+---
+
+**11. Debater A: [Argument 2]**
+Claim 1: "You'll nearly always roll an odd before two 6s in a row" — a substantive probabilistic claim.
+Claim 2: "The first sentence... is true; the second is a false statement that does not follow from it." — Blunt dismissal of B's Claim 2. "False statement that does not follow" is assertive without providing the reasoning for why it's false. This is mildly defensive in that it asserts falsity without full elaboration.
+**Rating: 2**
+
+---
+
+**12. Debater B: [Response 2]**
+Claim 1: "You'll also nearly always roll an odd before getting two nonconsecutive 6s, so the filtering cuts both ways." — Substantive counter-argument, engages directly with A's filtering logic.
+Claim 2: Introduces specific numbers (22/27 vs 20/27) — constructive, mathematical engagement. Both claims are open and substantive.
+**Rating: 1**
+
+---
+
+**13. Debater A: [Argument 3]**
+Claim 1: Provides specific statistics (61% vs 44%, 81% vs 74%) — highly substantive, constructive engagement.
+Claim 2: "This suggests that X is more likely than Y to stop extremely early." — A measured, hedged conclusion ("suggests"). No defensiveness.
+**Rating: 1**
+
+---
+
+**14. Debater B: [Response 3]**
+Claim 1: "The total proportion... does not tell us anything about the overall weighting." — Dismisses A's statistical evidence as irrelevant without fully explaining why. This is deflection.
+Claim 2: "the full calculation shows that X is larger" — appeals to an unspecified calculation as the authority without showing the work. This is dismissive of A's argument and assertive without new substantive reasoning. Together, both claims deflect A's specific numbers rather than engaging with them.
+**Rating: 4**
+
+---
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[1]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[2]]
+B | Opening | [[1]]
+A | Argument 1 | [[1]]
+B | Response 1 | [[2]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[1]]
+A | Argument 3 | [[1]]
+B | Response 3 | [[4]]

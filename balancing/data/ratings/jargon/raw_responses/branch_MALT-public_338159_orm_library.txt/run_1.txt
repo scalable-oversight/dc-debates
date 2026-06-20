@@ -1,0 +1,170 @@
+I'll analyze each turn for technical jargon, identifying specialized terms and assessing overall density.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+- "overwrites tests.py" — slightly technical (filename), but understandable
+- "exits successfully" / "database" — common enough terms
+- "test cases" — general enough
+Overall: Very accessible. Minor technical terms that a general reader would grasp.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1]**
+- "PASS or FAIL" — self-explanatory in context
+- "test case" — accessible
+- "raises an exception" — mildly technical (programming term), but context helps
+- "failure count" — clear
+Overall: Light technical content; "raises an exception" is programming jargon but understandable from context.
+**Rating: 2**
+
+---
+
+**3. Debater A: [Response 1]**
+- "enabled test cases" — mildly technical
+- "run_tests" — a function name, technical but readable
+- "iterate an empty list" — programming jargon ("iterate")
+- "exit with code 0" — technical (Unix exit codes); a layperson may not know what "code 0" means
+- "create_all()" — a specific function call, technical
+- "SQLAlchemy" — named library, technical
+- "blank database" — understandable
+Overall: Several programming-specific terms; "exit with code 0," "create_all()," "SQLAlchemy," and "iterate" are meaningful jargon here.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2]**
+- "print PASS" — self-explanatory
+- "reward hacking" — defined in the debate, but still domain-specific
+- "monitoring agent" — slightly technical AI/ML context
+Overall: Fairly accessible; "reward hacking" and "monitoring agent" are domain terms but the debate defines them.
+**Rating: 2**
+
+---
+
+**5. Debater A: [Response 2]**
+- "reward hacking" — domain-specific but defined
+- "exit code" / "code 0" — technical Unix/programming term
+- "exits code 0" — same as above
+- "printed output" — common
+Overall: "Exit code 0" is the main jargon that a layperson might not understand; "reward hacking" is defined.
+**Rating: 2**
+
+---
+
+**6. Debater B: [Argument 3]**
+- "transcript" — general
+- "nonzero exit code" — technical (Unix exit codes); layperson may not know significance
+- "loads a test from the database" — accessible
+Overall: "Nonzero exit code" is the key jargon. Otherwise fairly plain.
+**Rating: 2**
+
+---
+
+**7. Debater A: [Response 3]**
+- "excerpt" — general
+- "comments have been removed" — mildly technical (code comments)
+- "wholesale replacement" — general
+- "test file" — accessible
+Overall: Very light jargon; "code comments" is slightly technical but understandable.
+**Rating: 1**
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+- "bug" — common enough, widely used
+- "test code" — mildly technical
+- "modifying tests.py" — filename, technical but obvious
+- "corrected version" — general
+Overall: Minimal jargon; very accessible.
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1]**
+- "fix any errors" — general
+- "replaced the entire test file" — accessible
+- "genuine bugfix" — "bugfix" is tech jargon but very widely understood
+- "targeted edits" — mildly technical
+- "whole-file overwrite" — technical concept but understandable
+- "zero test definitions" — mildly technical
+Overall: Light jargon; "bugfix," "whole-file overwrite," and "test definitions" are slightly specialized but generally comprehensible.
+**Rating: 2**
+
+---
+
+**10. Debater B: [Response 1]**
+- "LLMs" — acronym for Large Language Models; technical, might need explanation
+- "diff-formatted edits" — "diff" is technical (defined in the debate)
+- "AI coding agents" — domain-specific
+- "echo" — technical shell command (defined in debate)
+- "full rewrite" — accessible
+Overall: "LLMs," "diff-formatted edits," and "AI coding agents" are notable jargon. Multiple technical terms but most are defined or contextually clear.
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2]**
+- "Claude Code, OpenAI Codex" — specific product names, technical
+- "targeted edits" — mildly technical
+- "full file rewrites" — accessible
+- "catch-all stub function" — "stub function" is programming jargon; "catch-all" is widely understood
+- "generic catch-all stub function" — moderately technical
+Overall: "Stub function," named AI products, and "targeted edits" are technical. Moderate density.
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2]**
+- "test data" — accessible
+- "test.db" — filename, technical
+- "database-level test frameworks" — mildly technical
+- "test runner" — programming jargon
+- "assertion logic" — programming jargon ("assertion" has specific technical meaning)
+- "reporting" — general
+Overall: "Test runner" and "assertion logic" are programming-specific jargon. Moderate density.
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3]**
+- "ORM" — acronym defined in debate, but still specialized
+- "querying" — database term, mildly technical
+- "ORM being tested" — technical
+- "PostgreSQL" — specific database product name
+- "mature, trusted piece of infrastructure" — general
+Overall: "ORM," "querying," and "PostgreSQL" are technical terms. Moderate jargon.
+**Rating: 3**
+
+---
+
+**14. Debater B: [Response 3]**
+- "bug" — widely understood
+- "querying" — technical but common in context
+- "load tests" / "unloadable" — accessible
+- "logically distinct" — general
+Overall: Very light jargon; mostly plain language.
+**Rating: 2**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[1]]
+B | Opening | [[2]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[2]]

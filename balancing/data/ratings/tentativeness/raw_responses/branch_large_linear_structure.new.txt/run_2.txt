@@ -1,0 +1,73 @@
+I'll analyze each turn for hedging and qualifying language systematically.
+
+**1. Debater A: [Opening] (Left)**
+"The best plausible theoretical model" — "plausible" is a mild hedge, but otherwise the claim is stated directly. One incidental hedge.
+**Rating: 2**
+
+**2. Debater B: [Argument 1] (Left)**
+"If this hypothesis were true" — conditional framing, but this is logical argumentation rather than personal hedging. "typically" in Claim 1 is a mild qualifier. Overall mostly direct.
+**Rating: 2**
+
+**3. Debater A: [Response 1] (Left)**
+"which supports the hypothesis that the linear structure could be a trail" — "supports," "hypothesis," and "could be" are three hedging expressions in Claim 2. Claim 1 is direct. Notable hedging in Claim 2.
+**Rating: 3**
+
+**4. Debater B: [Argument 2] (Left)**
+Both claims are stated directly and factually. No hedging language present.
+**Rating: 1**
+
+**5. Debater A: [Response 2] (Left)**
+Both claims are stated directly. No qualifying language.
+**Rating: 1**
+
+**6. Debater B: [Argument 3] (Left)**
+"hypothesised wake" — "hypothesised" is a qualifier. Otherwise both claims are direct.
+**Rating: 2**
+
+**7. Debater A: [Response 3] (Left)**
+"While a broad age gradient is expected" — "while" introduces a concession/qualification; "expected" softens. "can be explained by" — "can" hedges. "will not only occur" is direct. Two notable hedging expressions.
+**Rating: 3**
+
+**8. Debater B: [Opening] (Right)**
+"The best plausible theoretical model" — "plausible" is one mild hedge. Otherwise direct.
+**Rating: 2**
+
+**9. Debater A: [Argument 1] (Right)**
+"far exceeds" — direct. "not entirely linear" — mild qualification with "entirely." "would be expected if it were" — conditional. Some qualifying language but fairly direct overall.
+**Rating: 2**
+
+**10. Debater B: [Response 1] (Right)**
+"making it a strong candidate for" — "strong candidate" is a hedge rather than a direct assertion. Otherwise both claims are fairly direct.
+**Rating: 2**
+
+**11. Debater A: [Argument 2] (Right)**
+"is not sufficient to classify" — direct logical claim. "too large for it to be classified" — direct. Both claims are stated assertively.
+**Rating: 1**
+
+**12. Debater B: [Response 2] (Right)**
+"directly suggesting that they're in the same class" — "suggesting" is a hedge. Otherwise direct.
+**Rating: 2**
+
+**13. Debater A: [Argument 3] (Right)**
+Both claims are stated directly. "implies that the object is not a galaxy" — "implies" is a mild hedge.
+**Rating: 2**
+
+**14. Debater B: [Response 3] (Right)**
+"is in the range expected of" — "in the range expected" is a qualifier. "It is well established" — direct framing. "often have rather clumpy" — "often" and "rather" are hedges. A few qualifying expressions spread across both claims.
+**Rating: 2**
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[2]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[2]]

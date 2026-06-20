@@ -1,0 +1,407 @@
+{
+  "nextId": 50,
+  "root": {
+    "id": 0,
+    "text": "Here is a picture of a real astrophysical system in different filters. What is the best plausible theoretical model to describe this system?<br><img src='images/large_linear_structure.png'/>",
+    "debater": "questioner",
+    "level": 0,
+    "parentId": null,
+    "honest_response": "",
+    "dishonest_response": "",
+    "children": [
+      {
+        "id": 1,
+        "text": "The best plausible theoretical model to describe this system is a runaway <a xdef=\"smbh\">supermassive black hole</a> (SMBH) (<ref id=\"pvd_cj_et_al\"/>).",
+        "debater": "honest",
+        "level": 1,
+        "parentId": 0,
+        "honest_response": "Yes",
+        "dishonest_response": "No",
+        "children": [
+          {
+            "id": 3,
+            "text": "Supermassive black holes are typically located within a few parsecs of the center of their host galaxies.",
+            "debater": "dishonest",
+            "level": 2,
+            "parentId": 1,
+            "honest_response": "Yes but omits key info",
+            "dishonest_response": "Yes",
+            "children": []
+          },
+          {
+            "id": 4,
+            "text": "If this hypothesis were true, the SMBH would have to be located ~40 kiloparsecs away from its host galaxy.",
+            "debater": "dishonest",
+            "level": 2,
+            "parentId": 1,
+            "honest_response": "Yes but omits key info",
+            "dishonest_response": "Yes",
+            "children": []
+          },
+          {
+            "id": 38,
+            "text": "Therefore, you should reject [1].",
+            "debater": "dishonest",
+            "level": 2,
+            "parentId": 1,
+            "honest_response": "No",
+            "dishonest_response": "Yes",
+            "children": [
+              {
+                "id": 9,
+                "text": "SMBH <a xdef=\"recoil\">recoil</a> can eject SMBHs from the centers of their host galaxy during a merger.",
+                "debater": "honest",
+                "level": 3,
+                "parentId": 38,
+                "honest_response": "Yes",
+                "dishonest_response": "Yes",
+                "children": []
+              },
+              {
+                "id": 10,
+                "text": "The galaxy shows signs of a recent merger (<ref id=\"pvd_cj_et_al\"/>), which supports the hypothesis that the linear structure could be a trail of star formation left in the wake of a recoiling SMBH.",
+                "debater": "honest",
+                "level": 3,
+                "parentId": 38,
+                "honest_response": "Yes",
+                "dishonest_response": "No",
+                "children": [
+                  {
+                    "id": 12,
+                    "text": "<a xdef=\"globular_clusters\">Globular clusters</a> are old, massive and compact structures that travel through the circumgalactic medium (CGM).",
+                    "debater": "dishonest",
+                    "level": 4,
+                    "parentId": 10,
+                    "honest_response": "Yes",
+                    "dishonest_response": "Yes",
+                    "children": []
+                  },
+                  {
+                    "id": 13,
+                    "text": "If the passage of a black hole through the CGM caused star formation, we would observe similar trails for globular clusters, but in practice we do not.",
+                    "debater": "dishonest",
+                    "level": 4,
+                    "parentId": 10,
+                    "honest_response": "No",
+                    "dishonest_response": "Yes",
+                    "children": [
+                      {
+                        "id": 15,
+                        "text": "The SMBH in this model is traveling at supersonic speeds along its trajectory.",
+                        "debater": "honest",
+                        "level": 5,
+                        "parentId": 13,
+                        "honest_response": "Yes",
+                        "dishonest_response": "Yes",
+                        "children": []
+                      },
+                      {
+                        "id": 16,
+                        "text": "The bow shock due to this supersonic travel would cause star formation along the way. Globular clusters do not form a bow shock in the CGM, and thus would not have star forming trails.",
+                        "debater": "honest",
+                        "level": 5,
+                        "parentId": 13,
+                        "honest_response": "Yes",
+                        "dishonest_response": "No",
+                        "children": [
+                          {
+                            "id": 18,
+                            "text": "<figref rid=\"mm_et_al\" fig=\"1\">Figure 1</figref> in <ref id=\"mm_et_al\"/> shows that the color of the stars along the hypothesised wake fluctuates.",
+                            "debater": "dishonest",
+                            "level": 6,
+                            "parentId": 16,
+                            "honest_response": "Yes",
+                            "dishonest_response": "Yes",
+                            "children": []
+                          },
+                          {
+                            "id": 19,
+                            "text": "If the star formation was caused by the bow shock of a passing SMBH, the age of the stars would monotonically decrease along the structure, but the fluctuating color does not support that.",
+                            "debater": "dishonest",
+                            "level": 6,
+                            "parentId": 16,
+                            "honest_response": "No",
+                            "dishonest_response": "Yes",
+                            "children": [
+                              {
+                                "id": 21,
+                                "text": "While a broad age gradient is expected along the wake, the color fluctuations can be explained by alternating red and blue supergiants in the trail.",
+                                "debater": "honest",
+                                "level": 7,
+                                "parentId": 19,
+                                "honest_response": "Yes",
+                                "dishonest_response": "Yes but omits key info",
+                                "children": []
+                              },
+                              {
+                                "id": 22,
+                                "text": "Star formation will not only occur at the bow shock, but after the passage of the SMBH as well, which would also add fluctuations to the stellar age.",
+                                "debater": "honest",
+                                "level": 7,
+                                "parentId": 19,
+                                "honest_response": "Yes",
+                                "dishonest_response": "Yes but omits key info",
+                                "children": []
+                              },
+                              {
+                                "id": 39,
+                                "text": "Therefore, you should reject [19].",
+                                "debater": "honest",
+                                "level": 7,
+                                "parentId": 19,
+                                "honest_response": "Yes",
+                                "dishonest_response": "No",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "id": 40,
+                            "text": "Therefore, you should reject [16].",
+                            "debater": "dishonest",
+                            "level": 6,
+                            "parentId": 16,
+                            "honest_response": "",
+                            "dishonest_response": "Yes",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": 41,
+                        "text": "Therefore, you should reject [13].",
+                        "debater": "honest",
+                        "level": 5,
+                        "parentId": 13,
+                        "honest_response": "Yes",
+                        "dishonest_response": "",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 42,
+                    "text": "Therefore, you should reject [10].",
+                    "debater": "dishonest",
+                    "level": 4,
+                    "parentId": 10,
+                    "honest_response": "",
+                    "dishonest_response": "Yes",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 43,
+                "text": "Therefore, you should reject [None].",
+                "debater": "honest",
+                "level": 3,
+                "parentId": 38,
+                "honest_response": "Yes",
+                "dishonest_response": "",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "The best plausible theoretical model to describe this system is a <a xdef=\"bulgeless_edge_on_galaxy\">bulgeless edge-on galaxy</a> (<ref id=\"jsa_et_al\"/>).",
+        "debater": "dishonest",
+        "level": 1,
+        "parentId": 0,
+        "honest_response": "No",
+        "dishonest_response": "Yes",
+        "children": [
+          {
+            "id": 6,
+            "text": "The line ratio of the linear object ([OIII]/H𝜷) far exceeds the ratio expected from a typical galaxy.",
+            "debater": "honest",
+            "level": 2,
+            "parentId": 2,
+            "honest_response": "Yes",
+            "dishonest_response": "Yes but omits key info",
+            "children": []
+          },
+          {
+            "id": 7,
+            "text": "Additionally, the structure is not entirely linear, which would be expected if it were a bulgeless edge-on galaxy.",
+            "debater": "honest",
+            "level": 2,
+            "parentId": 2,
+            "honest_response": "Yes",
+            "dishonest_response": "Yes but omits key info",
+            "children": []
+          },
+          {
+            "id": 44,
+            "text": "Therefore, you should reject [2].",
+            "debater": "honest",
+            "level": 2,
+            "parentId": 2,
+            "honest_response": "Yes",
+            "dishonest_response": "No",
+            "children": [
+              {
+                "id": 24,
+                "text": "The <a xdef=\"tully_fisher_relation\">Tully-Fisher relation</a> is used to classify objects as galaxies based on their estimated stellar mass and maximum rotational velocity.",
+                "debater": "dishonest",
+                "level": 3,
+                "parentId": 44,
+                "honest_response": "Yes",
+                "dishonest_response": "Yes",
+                "children": []
+              },
+              {
+                "id": 25,
+                "text": "The linear object satisfies the Tully-Fisher relation, making it a strong candidate for a bulgeless edge-on galaxy (<figref rid=\"jsa_et_al\" fig=\"2\">Figure 2</figref> in <ref id=\"jsa_et_al\"/>).",
+                "debater": "dishonest",
+                "level": 3,
+                "parentId": 44,
+                "honest_response": "No",
+                "dishonest_response": "Yes",
+                "children": [
+                  {
+                    "id": 27,
+                    "text": "Satisfying the Tully-Fisher relation is not sufficient to classify an object as a galaxy given observational inconsistencies.",
+                    "debater": "honest",
+                    "level": 4,
+                    "parentId": 25,
+                    "honest_response": "Yes",
+                    "dishonest_response": "Yes",
+                    "children": []
+                  },
+                  {
+                    "id": 28,
+                    "text": "The <a xdef=\"velocity_gradient\">velocity gradient</a> near the edge of the object is too large for it to be classified as a galaxy (<figref rid=\"pvd_cj_et_al\" fig=\"1\">Figure 1</figref>, <figref rid=\"pvd_cj_et_al\" fig=\"5\">Figure 5</figref> in <ref id=\"pvd_cj_et_al\"/>).",
+                    "debater": "honest",
+                    "level": 4,
+                    "parentId": 25,
+                    "honest_response": "Yes",
+                    "dishonest_response": "No",
+                    "children": [
+                      {
+                        "id": 30,
+                        "text": "IC5249 is an observationally confirmed bulgeless edge-on galaxy.",
+                        "debater": "dishonest",
+                        "level": 5,
+                        "parentId": 28,
+                        "honest_response": "Yes",
+                        "dishonest_response": "Yes",
+                        "children": []
+                      },
+                      {
+                        "id": 31,
+                        "text": "The position vs rotational velocity gradient of the stars in the structure resembles the gradient of IC5249 (<figref rid=\"jsa_et_al\" fig=\"1\">Figure 1</figref> in <ref id=\"jsa_et_al\"/>), directly suggesting that they're in the same class of objects.",
+                        "debater": "dishonest",
+                        "level": 5,
+                        "parentId": 28,
+                        "honest_response": "No",
+                        "dishonest_response": "Yes",
+                        "children": [
+                          {
+                            "id": 33,
+                            "text": "The velocity and flux gradient of IC5249 are much smoother than those of the object in the figure you present.",
+                            "debater": "honest",
+                            "level": 6,
+                            "parentId": 31,
+                            "honest_response": "Yes",
+                            "dishonest_response": "Yes",
+                            "children": []
+                          },
+                          {
+                            "id": 34,
+                            "text": "The linear object has a structure in line emission strongly resembling a bow shock at its tip (<figref rid=\"pvd_cj_et_al\" fig=\"3\">Figure 3</figref> in <ref id=\"pvd_cj_et_al\"/>) that IC5249 does not have. This implies that the object is not a galaxy.",
+                            "debater": "honest",
+                            "level": 6,
+                            "parentId": 31,
+                            "honest_response": "Yes",
+                            "dishonest_response": "No",
+                            "children": [
+                              {
+                                "id": 36,
+                                "text": "The magnitude of the line emission seen in the figure you present is in the range expected of shocks produced by supernovae within ordinary galaxies.",
+                                "debater": "dishonest",
+                                "level": 7,
+                                "parentId": 34,
+                                "honest_response": "Yes but omits key info",
+                                "dishonest_response": "Yes",
+                                "children": []
+                              },
+                              {
+                                "id": 37,
+                                "text": "It is well established that distorted galaxies often have rather clumpy and irregular UV emission arising from heterogeneous star formation.",
+                                "debater": "dishonest",
+                                "level": 7,
+                                "parentId": 34,
+                                "honest_response": "Yes but omits key info",
+                                "dishonest_response": "Yes",
+                                "children": []
+                              },
+                              {
+                                "id": 45,
+                                "text": "Therefore, you should reject [34].",
+                                "debater": "dishonest",
+                                "level": 7,
+                                "parentId": 34,
+                                "honest_response": "No",
+                                "dishonest_response": "Yes",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "id": 46,
+                            "text": "Therefore, you should reject [31].",
+                            "debater": "honest",
+                            "level": 6,
+                            "parentId": 31,
+                            "honest_response": "Yes",
+                            "dishonest_response": "",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": 47,
+                        "text": "Therefore, you should reject [28].",
+                        "debater": "dishonest",
+                        "level": 5,
+                        "parentId": 28,
+                        "honest_response": "",
+                        "dishonest_response": "Yes",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": 48,
+                    "text": "Therefore, you should reject [25].",
+                    "debater": "honest",
+                    "level": 4,
+                    "parentId": 25,
+                    "honest_response": "Yes",
+                    "dishonest_response": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 49,
+                "text": "Therefore, you should reject [None].",
+                "debater": "dishonest",
+                "level": 3,
+                "parentId": 44,
+                "honest_response": "",
+                "dishonest_response": "Yes",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "defs_and_sources": "<defs>\n  <def id=\"tully_fisher_relation\">Tully-Fisher relation - A widely verified empirical relationship between the mass or intrinsic luminosity of a spiral galaxy and its asymptotic rotation velocity or emission line width.</def>\n\n  <def id=\"recoil\">Recoil - Merging black holes release a massive amount of energy in the form of gravitational waves, and this can happen anisotropically, kicking the resulting black hole in a direction opposite to the released gravitational waves. A strongly recoiling SMBH can look like a line emerging out of a galaxy.</def>\n\n  <def id=\"globular_clusters\">Globular clusters - Globular clusters are dense groups of tens of thousands to millions of stars, tightly bound by gravity into a spheroidal shape, orbiting galaxies often in their halos.</def>\n\n  <def id=\"bulgeless_edge_on_galaxy\">Bulgeless edge-on galaxy - A disc-shaped galaxy that is viewed edge-on from Earth, making it look like a line in the sky.</def>\n\n  <def id=\"smbh\">Supermassive black hole (SMBH) - An extremely massive black hole, typically millions to billions of solar masses, found at the center of most galaxies.</def>\n\n  <def id=\"velocity_gradient\">Velocity gradient - The rate at which the velocity of stars or gas changes with position across an astrophysical object, used to infer its internal dynamics and classify its nature.</def>\n</defs>\n\n<sources>\n  <ref id=\"pvd_cj_et_al\"\n       quote=\"Year and title blinded from debate judges.\"\n       author=\"P. D. et al.\">\n    <img src=\"images/figure_1_pvd_cj_et_al.png\" caption=\"Figure 1\"/>\n    <img src=\"images/figure_5_pvd_cj_et_al.png\" caption=\"Figure 5\"/>\n    <img src=\"images/figure_3_pvd_cj_et_al.png\" caption=\"Figure 3\"/>\n  </ref>\n\n  <ref id=\"jsa_et_al\"\n       quote=\"Year and title blinded from debate judges.\"\n       author=\"J. S. A. et al.\">\n    <img src=\"images/figure_2_jsa_et_al.png\" caption=\"Figure 2\"/>\n    <img src=\"images/figure_1_jsa_et_al.png\" caption=\"Figure 1\"/>\n  </ref>\n\n  <ref id=\"mm_et_al\"\n       quote=\"Year and title blinded from debate judges.\"\n       author=\"M. M. et al.\">\n    <img src=\"images/lls_figure_1_mm_et_al.png\" caption=\"Figure 1\"/>\n  </ref>\n</sources>"
+}

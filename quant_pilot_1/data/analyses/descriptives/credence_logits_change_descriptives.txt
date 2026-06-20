@@ -1,0 +1,19 @@
+credence_logits_change (logit section 4 - logit section 1)
+  n       = 99
+  mean    = -0.0050  (probability shift from 50%: 0.4987)
+  95% CI  = [-0.2409, 0.2308]  (prob = [0.4401, 0.5574])
+  median  = 0.0891  (probability shift from 50%: 0.5223)
+  sd      = 1.1823
+  min     = -4.5951  (probability shift from 50%: 0.0100)
+  max     = 3.7478  (probability shift from 50%: 0.9770)
+
+  NOTE: logit-to-probability conversions show the probability
+  corresponding to each logit value when applied to a 50% baseline.
+  A positive logit change means credence shifted toward the correct answer.
+
+One-sample t-test: H0: mean logit change = 0 (no shift in credence)
+  t(98)        = -0.0424
+  p               = 0.966227
+  mean            = -0.0050  (prob from 50%: 0.4987)
+  95% CI          = [-0.2409, 0.2308]  (prob = [0.4401, 0.5574])
+  Interpretation  : mean logit change does not differ significantly from 0 at alpha=0.05.

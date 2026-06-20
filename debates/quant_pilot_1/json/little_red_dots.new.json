@@ -1,0 +1,407 @@
+{
+  "nextId": 39,
+  "root": {
+    "id": 0,
+    "text": "What theoretical model best explains the Little Red Dots (LRDs) observed by the James Webb Space Telescope?",
+    "debater": "questioner",
+    "level": 0,
+    "parentId": null,
+    "honest_response": "",
+    "dishonest_response": "",
+    "children": [
+      {
+        "id": 1,
+        "text": "LRDs are best explained by black hole <a xdef=\"accretion\">accretion</a> in <a xdef=\"agn\">AGNs</a> (<ref id=\"zz_et_al\"/>)",
+        "debater": "honest",
+        "level": 1,
+        "parentId": 0,
+        "honest_response": "Yes",
+        "dishonest_response": "No (main objection)",
+        "children": [
+          {
+            "id": 2,
+            "text": "LRDs contain Balmer breaks that correspond to galaxy-only models or dusty star formation.",
+            "debater": "dishonest",
+            "level": 2,
+            "parentId": 1,
+            "honest_response": "Yes but omits key info",
+            "dishonest_response": "Yes",
+            "children": []
+          },
+          {
+            "id": 3,
+            "text": "Prominent Balmer breaks can be cleanly explained by photospheric emission in supermassive stars.",
+            "debater": "dishonest",
+            "level": 2,
+            "parentId": 1,
+            "honest_response": "Yes but omits key info",
+            "dishonest_response": "Yes",
+            "children": []
+          },
+          {
+            "id": 4,
+            "text": "Therefore, you should reject [1].",
+            "debater": "dishonest",
+            "level": 2,
+            "parentId": 1,
+            "honest_response": "No (main objection)",
+            "dishonest_response": "Yes",
+            "children": [
+              {
+                "id": 5,
+                "text": "Balmer breaks in <a xdef=\"redshift\">high-redshift</a> AGN are associated with absorption from dense gas in the line of sight.",
+                "debater": "honest",
+                "level": 3,
+                "parentId": 4,
+                "honest_response": "Yes",
+                "dishonest_response": "Yes",
+                "children": []
+              },
+              {
+                "id": 6,
+                "text": "D. N. et al's use of speculative theories like supermassive stars to explain phenomena that can be defined by known physics is unwarranted.",
+                "debater": "honest",
+                "level": 3,
+                "parentId": 4,
+                "honest_response": "Yes",
+                "dishonest_response": "No (main objection)",
+                "children": [
+                  {
+                    "id": 7,
+                    "text": "Postulating something other than typical AGN is warranted: LRDs are X-ray weak while AGN are typically strong in X-rays.",
+                    "debater": "dishonest",
+                    "level": 4,
+                    "parentId": 6,
+                    "honest_response": "Yes but omits key info",
+                    "dishonest_response": "Yes",
+                    "children": []
+                  },
+                  {
+                    "id": 8,
+                    "text": "LRDs also show significantly weaker variability than observed AGN.",
+                    "debater": "dishonest",
+                    "level": 4,
+                    "parentId": 6,
+                    "honest_response": "Yes but omits key info",
+                    "dishonest_response": "Yes",
+                    "children": []
+                  },
+                  {
+                    "id": 9,
+                    "text": "Therefore, you should reject [6].",
+                    "debater": "dishonest",
+                    "level": 4,
+                    "parentId": 6,
+                    "honest_response": "No (main objection)",
+                    "dishonest_response": "Yes",
+                    "children": [
+                      {
+                        "id": 10,
+                        "text": "Typical AGN accrete material below the <a xdef=\"eddington_limit\">Eddington limit</a>, and super-Eddington accretion has been observed in highly active AGN.",
+                        "debater": "honest",
+                        "level": 5,
+                        "parentId": 9,
+                        "honest_response": "Yes",
+                        "dishonest_response": "Yes",
+                        "children": []
+                      },
+                      {
+                        "id": 11,
+                        "text": "<ref id=\"ki_et_al\"/> show that super-Eddington accretion can produce X-ray weak AGN with weak variability. This aligns with observations of LRDS.",
+                        "debater": "honest",
+                        "level": 5,
+                        "parentId": 9,
+                        "honest_response": "Yes",
+                        "dishonest_response": "No (main objection)",
+                        "children": [
+                          {
+                            "id": 12,
+                            "text": "We do not have long-term observational data for events like a TDE to test if super-Eddington accretion is occurring in LRDs.",
+                            "debater": "dishonest",
+                            "level": 6,
+                            "parentId": 11,
+                            "honest_response": "Yes",
+                            "dishonest_response": "Yes",
+                            "children": []
+                          },
+                          {
+                            "id": 13,
+                            "text": "Using super-Eddington accretion to explain discrepancies while lacking critical evidence to support the hypothesis is not sound.",
+                            "debater": "dishonest",
+                            "level": 6,
+                            "parentId": 11,
+                            "honest_response": "No (main objection)",
+                            "dishonest_response": "Yes",
+                            "children": [
+                              {
+                                "id": 14,
+                                "text": "We know that super-Eddington accretion was much more prevalent in the early universe than the late universe.",
+                                "debater": "honest",
+                                "level": 7,
+                                "parentId": 13,
+                                "honest_response": "Yes",
+                                "dishonest_response": "Yes",
+                                "children": []
+                              },
+                              {
+                                "id": 15,
+                                "text": "The observed data for LRDs supports the super-Eddington accretion hypothesis. The inability to perform additional tests does not provide evidence against the hypothesis.",
+                                "debater": "honest",
+                                "level": 7,
+                                "parentId": 13,
+                                "honest_response": "Yes",
+                                "dishonest_response": "No (main objection)",
+                                "children": []
+                              },
+                              {
+                                "id": 16,
+                                "text": "Therefore, you should reject [13].",
+                                "debater": "honest",
+                                "level": 7,
+                                "parentId": 13,
+                                "honest_response": "Yes",
+                                "dishonest_response": "",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "id": 17,
+                            "text": "Therefore, you should reject [11].",
+                            "debater": "dishonest",
+                            "level": 6,
+                            "parentId": 11,
+                            "honest_response": "",
+                            "dishonest_response": "Yes",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": 18,
+                        "text": "Therefore, you should reject [9].",
+                        "debater": "honest",
+                        "level": 5,
+                        "parentId": 9,
+                        "honest_response": "Yes",
+                        "dishonest_response": "",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 19,
+                "text": "Therefore, you should reject [4].",
+                "debater": "honest",
+                "level": 3,
+                "parentId": 4,
+                "honest_response": "Yes",
+                "dishonest_response": "",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "text": "LRDs are best explained by <a xdef=\"photospheric_emission\">photospheric emission</a> of <a xdef=\"supermassive_stars\">supermassive stars</a> (SMS) (<ref id=\"dn_et_al\"/>).",
+        "debater": "dishonest",
+        "level": 1,
+        "parentId": 0,
+        "honest_response": "No (main objection)",
+        "dishonest_response": "Yes",
+        "children": [
+          {
+            "id": 21,
+            "text": "Supermassive stars are theoretical objects that have never been observed.",
+            "debater": "honest",
+            "level": 2,
+            "parentId": 20,
+            "honest_response": "Yes",
+            "dishonest_response": "Yes but omits key info",
+            "children": []
+          },
+          {
+            "id": 22,
+            "text": "Due to their size, supermassive stars have extremely short lifespans, even in theory.",
+            "debater": "honest",
+            "level": 2,
+            "parentId": 20,
+            "honest_response": "Yes",
+            "dishonest_response": "Yes but omits key info",
+            "children": []
+          },
+          {
+            "id": 23,
+            "text": "Therefore, you should reject [20].",
+            "debater": "honest",
+            "level": 2,
+            "parentId": 20,
+            "honest_response": "Yes",
+            "dishonest_response": "No (main objection)",
+            "children": [
+              {
+                "id": 24,
+                "text": "It is almost certain that supermassive stars existed in the early universe, made up of pure hydrogen and helium.",
+                "debater": "dishonest",
+                "level": 3,
+                "parentId": 23,
+                "honest_response": "Yes",
+                "dishonest_response": "Yes",
+                "children": []
+              },
+              {
+                "id": 25,
+                "text": "D. N. et al.'s SMS model has an LRD-like <a xdef=\"spectrum\">spectrum</a> for around 1000 years, making a galaxy containing SMS a valid candidate for LRDs.",
+                "debater": "dishonest",
+                "level": 3,
+                "parentId": 23,
+                "honest_response": "No (main objection)",
+                "dishonest_response": "Yes",
+                "children": [
+                  {
+                    "id": 26,
+                    "text": "Direct collapse of supermassive stars is theorized to generate black hole seeds for SMBH.",
+                    "debater": "honest",
+                    "level": 4,
+                    "parentId": 25,
+                    "honest_response": "Yes",
+                    "dishonest_response": "Yes but omits key info",
+                    "children": []
+                  },
+                  {
+                    "id": 27,
+                    "text": "If the SMS model only resembles LRDs for a 1000 years, the number of SMS required would be too high compared to observed SMBHs.",
+                    "debater": "honest",
+                    "level": 4,
+                    "parentId": 25,
+                    "honest_response": "Yes",
+                    "dishonest_response": "Yes but omits key info",
+                    "children": []
+                  },
+                  {
+                    "id": 28,
+                    "text": "Therefore, you should reject [25].",
+                    "debater": "honest",
+                    "level": 4,
+                    "parentId": 25,
+                    "honest_response": "Yes",
+                    "dishonest_response": "No (main objection)",
+                    "children": [
+                      {
+                        "id": 29,
+                        "text": "<a xdef=\"stellar_rotation\">Stellar rotation</a> provides outward pressure that can help stabilize stars against collapse.",
+                        "debater": "dishonest",
+                        "level": 5,
+                        "parentId": 28,
+                        "honest_response": "Yes",
+                        "dishonest_response": "Yes",
+                        "children": []
+                      },
+                      {
+                        "id": 30,
+                        "text": "Considering the effect of rotation extends SMS lifetimes (<ref id=\"tb_et_al\"/>). Including it in the SMS model will reduce the number of SMS required to produce LRDs to acceptable numbers.",
+                        "debater": "dishonest",
+                        "level": 5,
+                        "parentId": 28,
+                        "honest_response": "No (main objection)",
+                        "dishonest_response": "Yes",
+                        "children": [
+                          {
+                            "id": 31,
+                            "text": "D. N. et al. do not provide an estimate for the lifespan of the hypothesized LRD-like phase in SMS with stellar rotation.",
+                            "debater": "honest",
+                            "level": 6,
+                            "parentId": 30,
+                            "honest_response": "Yes",
+                            "dishonest_response": "Yes",
+                            "children": []
+                          },
+                          {
+                            "id": 32,
+                            "text": "There is a lack of sufficient rigorous modeling of SMS (rotation, radiative transfer etc.) to support this claim.",
+                            "debater": "honest",
+                            "level": 6,
+                            "parentId": 30,
+                            "honest_response": "Yes",
+                            "dishonest_response": "No (main objection)",
+                            "children": [
+                              {
+                                "id": 33,
+                                "text": "The SMS model can fit observed properties of LRDs from multiple cosmic epochs with the aid of phenomenological approximations.",
+                                "debater": "dishonest",
+                                "level": 7,
+                                "parentId": 32,
+                                "honest_response": "Yes",
+                                "dishonest_response": "Yes",
+                                "children": []
+                              },
+                              {
+                                "id": 34,
+                                "text": "A more rigorous treatment of radiative transfer or line strength will not alter the framework’s fit significantly.",
+                                "debater": "dishonest",
+                                "level": 7,
+                                "parentId": 32,
+                                "honest_response": "No (main objection)",
+                                "dishonest_response": "Yes",
+                                "children": []
+                              },
+                              {
+                                "id": 35,
+                                "text": "Therefore, you should reject [32].",
+                                "debater": "dishonest",
+                                "level": 7,
+                                "parentId": 32,
+                                "honest_response": "",
+                                "dishonest_response": "Yes",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "id": 36,
+                            "text": "Therefore, you should reject [30].",
+                            "debater": "honest",
+                            "level": 6,
+                            "parentId": 30,
+                            "honest_response": "Yes",
+                            "dishonest_response": "",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "id": 37,
+                        "text": "Therefore, you should reject [28].",
+                        "debater": "dishonest",
+                        "level": 5,
+                        "parentId": 28,
+                        "honest_response": "",
+                        "dishonest_response": "Yes",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 38,
+                "text": "Therefore, you should reject [23].",
+                "debater": "dishonest",
+                "level": 3,
+                "parentId": 23,
+                "honest_response": "",
+                "dishonest_response": "Yes",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "defs_and_sources": "<defs>\n  <def id=\"accretion\">Accretion - The process where a celestial object grows by gravitationally attracting and accumulating surrounding matter, like gas or dust, often forming a swirling accretion disk around the massive object before the material spirals inward. The central object can be a protostar, or a compact object like a neutron star or a black hole.</def>\n\n  <def id=\"eddington_limit\">Eddington limit - A theoretical limit to how fast an accreting body can grow. This is the point at which the outward force produced by radiation pressure is equal to the gravitational attraction experienced by the in-falling matter. In real systems, it is known that this limit can be violated, due to non-spherical geometry or various kinds of instabilities, resulting in super-Eddington accretion.</def>\n\n  <def id=\"protostar\">Protostar - A protostar is the earliest stage of stellar evolution, forming from a collapsing cloud of gas and dust and growing by accreting more material, becoming hotter and denser until nuclear fusion ignites, transitioning it into a main-sequence star.</def>\n\n  <def id=\"agn\">AGN - Active Galactic Nuclei are galaxies with an actively accreting (consuming matter) supermassive black hole (SMBH) at their center. The matter forms a very bright (one of the brightest phenomena in the universe) accretion disc as it spirals into the SMBH. An AGN might also contain twin jets of gas and dust ejected from the center of the galaxy that can rival the galaxy's own size. High redshift AGN are often referred to as quasars.</def>\n\n  <def id=\"photospheric_emission\">Photospheric emission - Radiation emitted from the photosphere (visible surface) of a star or stellar object, where the optical depth drops to roughly unity and photons can escape freely into space.</def>\n\n  <def id=\"redshift\">Redshift (denoted by z) - As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift => object is further away => we are looking further back in time as we are seeing light that left the object millions or billions of years ago.</def>\n\n  <def id=\"spectrum\">Spectrum - The distribution of light (or other electromagnetic radiation) from an object across different wavelengths, used to identify the object's composition, temperature, motion, and other physical properties.</def>\n\n  <def id=\"stellar_rotation\">Stellar rotation - The spinning of a star about its own axis. Rotation provides additional outward pressure that can help support the star against gravitational collapse and influence its structure and lifespan.</def>\n\n  <def id=\"supermassive_stars\">Supermassive stars - Theoretical, extremely massive stars (100 to 100,000+ solar masses or Msol) that likely formed in the early universe from primordial gas (mostly pure hydrogen and helium), theorized to be the seeds for the first supermassive black holes seen in the centers of galaxies.</def>\n</defs>\n\n<sources>\n  <ref id=\"zz_et_al\"\n       quote=\"Year and title blinded from debate judges.\"\n       author=\"Z. Z. et al.\"/>\n\n  <ref id=\"dn_et_al\"\n       quote=\"Year and title blinded from debate judges.\"\n       author=\"D. N. et al.\"/>\n\n  <ref id=\"ki_et_al\"\n       quote=\"Year and title blinded from debate judges.\"\n       author=\"K. I. et al.\"/>\n\n  <ref id=\"tb_et_al\"\n       quote=\"Year and title blinded from debate judges.\"\n       author=\"T. B. et al.\"/>\n</sources>"
+}

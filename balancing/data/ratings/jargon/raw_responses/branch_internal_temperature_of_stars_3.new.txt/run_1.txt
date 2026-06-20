@@ -1,0 +1,173 @@
+I'll analyze each turn for technical jargon systematically.
+
+---
+
+**1. Debater A: [Opening]**
+"The internal temperature of a star increases with time on the main sequence."
+- "main sequence": technical astronomy term (defined in glossary, but still jargon)
+- "internal temperature": slightly technical but accessible
+- Overall very accessible with just one key jargon term.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1]**
+Claim 1: "radiates energy away from its surface in the form of photons" — "photons" is a physics term, but widely known.
+Claim 2: "temperature of the system does not increase due to the amount of energy actively being taken away" — fairly plain language.
+- "photons": mild jargon, commonly known
+- "system": slightly technical but common
+- Overall quite accessible.
+**Rating: 2**
+
+---
+
+**3. Debater A: [Response 1]**
+Claim 1: "temperature of a star is proportional to the kinetic energy of its constituent particles via the equipartition theorem"
+- "kinetic energy": common physics term
+- "constituent particles": somewhat technical
+- "equipartition theorem": specialized physics/thermodynamics term, less commonly known
+Claim 2: "kinetic energy of the constituent particles of the star, on the whole, increases as it evolves on the main sequence"
+- "kinetic energy", "main sequence": jargon terms
+- Multiple technical terms, especially "equipartition theorem" which is specialized.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2]**
+Claim 1: "first law of thermodynamics, energy lost via radiation must come from the system's internal energy or work done on the system"
+- "first law of thermodynamics": specialized but widely taught
+- "internal energy": thermodynamics term
+- "work done on the system": physics/thermodynamics usage
+Claim 2: "internal energy must decrease, which comes from the constituent particles' kinetic energy"
+- "internal energy", "kinetic energy": technical terms
+- Several thermodynamics terms but mostly accessible to someone with basic physics education.
+**Rating: 3**
+
+---
+
+**5. Debater A: [Response 2]**
+Claim 1: "self-gravitating system contracts, its gravitational potential energy decreases"
+- "self-gravitating system": technical astrophysics term
+- "gravitational potential energy": physics term
+Claim 2: "Gravity does work on the system and the released gravitational potential energy more than offsets the radiated energy, with the surplus increasing the kinetic energy of the particles"
+- "gravitational potential energy", "kinetic energy": physics terms
+- "work on the system": thermodynamics usage
+- Multiple technical terms across both claims.
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3]**
+Claim 1: "Thermodynamic properties like internal energy are intrinsically linked to the temperature of the star"
+- "Thermodynamic properties": specialized term
+- "internal energy": thermodynamics jargon
+Claim 2: "Kinetic energy is related to temperature, but gravitational potential energy should not be included in thermodynamic calculations"
+- "Kinetic energy", "gravitational potential energy", "thermodynamic calculations": all technical
+- Dense with thermodynamics terminology.
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3]**
+Claim 1: "By the virial theorem, the kinetic energy of the star increases over time, as the gravitational potential energy of the star itself decreases"
+- "virial theorem": specialized astrophysics/mechanics term
+- "kinetic energy", "gravitational potential energy": physics terms
+Claim 2: "temperature is proportional to the kinetic energy"
+- "kinetic energy": physics term
+- "Virial theorem" is a fairly specialized term; combined with other physics terms makes this moderately jargon-heavy.
+**Rating: 3**
+
+---
+
+**8. Debater B: [Opening]**
+"The internal temperature of a star decreases with time on the main sequence."
+- "main sequence": astronomy jargon
+- Otherwise plain language.
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1]**
+Claim 1: "Star cores contract as they evolve on the main sequence"
+- "main sequence": astronomy jargon; otherwise plain
+Claim 2: "If pressure fails to keep pace with strengthening gravity as the star contracts, the star will undergo gravitational collapse"
+- "gravitational collapse": technical astrophysics term
+- "hydrostatic equilibrium" not mentioned but concept implied
+- "gravitational collapse" is the main jargon term.
+**Rating: 2**
+
+---
+
+**10. Debater B: [Response 1]**
+Claim 1: "Radiation pressure from nuclear fusion in a star's core is one of the forces that supports the star against gravitational collapse"
+- "Radiation pressure": physics/astrophysics term
+- "nuclear fusion": technical but widely known
+- "gravitational collapse": astrophysics term
+Claim 2: "combination of radiation pressure and thermal pressure prevents collapse even though thermal pressure decreases"
+- "radiation pressure", "thermal pressure": technical physics terms
+- Multiple specialized terms.
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2]**
+Claim 1: "temperature falls, radiation and thermal pressure are both going to fall accordingly"
+- "radiation pressure", "thermal pressure": technical terms
+Claim 2: "less pressure pushing outward, gravity would naturally get stronger because the mass is now more concentrated, in effect breaking hydrostatic equilibrium"
+- "hydrostatic equilibrium": technical astrophysics term
+- "hydrostatic equilibrium" is specialized jargon; combined with "thermal pressure" and "radiation pressure."
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2]**
+Claim 1: "Thermal pressure importantly depends on density as well as on temperature"
+- "Thermal pressure": technical term
+- "density": common but used technically here
+Claim 2: "As the core contracts, rising density partially offsets the falling temperature. So the pressure deficit stays small and the contraction is slow and gradual, not a runaway collapse"
+- "pressure deficit": technical usage
+- "runaway collapse": somewhat technical
+- Moderate jargon; mostly accessible with some technical terms.
+**Rating: 2**
+
+---
+
+**13. Debater A: [Argument 3]**
+Claim 1: "The contraction continues unchecked over time in this scenario because no mechanism breaks the feedback loop"
+- "feedback loop": somewhat technical but widely understood
+- Mostly plain language.
+Claim 2: "the collapse will occur at a thermal timescale"
+- "thermal timescale": specialized astrophysics term
+- "thermal timescale" is specialized but brief; overall moderate.
+**Rating: 2**
+
+---
+
+**14. Debater B: [Response 3]**
+Claim 1: "A star contracts until it ignites helium fusion at the end of the main sequence"
+- "helium fusion": technical astrophysics term
+- "main sequence": astronomy jargon
+Claim 2: "The rate at which thermal pressure decreases does matter: the increasing density of the core prolongs the contraction long enough for helium fusion to ignite"
+- "thermal pressure": technical term
+- "helium fusion": technical term
+- "density": used technically
+- Several technical terms but relatively accessible overall.
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[3]]

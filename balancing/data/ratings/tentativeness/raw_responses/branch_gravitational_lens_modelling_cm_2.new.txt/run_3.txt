@@ -1,0 +1,99 @@
+I'll analyze each turn for hedging and qualifying language, then provide ratings.
+
+**1. Debater A: [Opening]**
+"The Einstein zig-zag lens model... with two deflectors... and one AGN which produces 6 lensed images after being lensed by both deflectors."
+No hedging language present. Every element is stated directly and factually.
+**Rating: 1**
+
+**2. Debater B: [Argument 1]**
+"The Einstein zig-zag lens model is overfit... F. D. et al. do not quantify or report chi-squared error."
+No hedging language. Both claims are stated as direct assertions.
+**Rating: 1**
+
+**3. Debater A: [Response 1]**
+"The mass profile of the second deflector *appears likely* to have a significant effect..." — "appears likely" is a hedging phrase combining both epistemic uncertainty ("appears") and probability ("likely").
+"Taking galaxy positions into account *allows one to* more accurately model..." — "allows one to" is slightly softening but primarily functional rather than hedging.
+The phrase "appears likely" is a notable hedge, but the second claim is largely direct.
+**Rating: 2**
+
+**4. Debater B: [Argument 2]**
+"This fails to reveal that the model has 30 total parameters... This provides an enormous degree of modelling flexibility and *results in* overfitting."
+No hedging language. Both claims are stated directly and assertively.
+**Rating: 1**
+
+**5. Debater A: [Response 2]**
+"A simpler model is *not necessarily* a correct or accurate model..." — "not necessarily" is a qualifying hedge softening the claim.
+"Fifteen parameters in our model are *only partially* constrained, and therefore *should not count* as full degrees of freedom." — "only partially" qualifies the constraint, and "should not count" is slightly modal but functions more as a normative claim than a hedge.
+One clear hedge ("not necessarily") and one mild qualifier.
+**Rating: 2**
+
+**6. Debater B: [Argument 3]**
+"Constraints don't actually fix them in place: they are themselves determined via different models that come with their own errors and uncertainties."
+"...all galaxy positions and redshifts except for the main deflector can vary *considerably*, adding *even more* freedom..."
+"Can vary" is mildly modal but here describes actual model behavior rather than epistemic uncertainty. The language is largely direct and assertive.
+**Rating: 1**
+
+**7. Debater A: [Response 3]**
+"Direct spectroscopy of the second deflector *pins down* its distance (its redshift) *tightly*, regardless of the lens model."
+"Hubble imaging *fixes* the on-sky positions to a fraction of an arcsecond."
+Both claims are stated with confidence and directness. No hedging language present.
+**Rating: 1**
+
+**8. Debater B: [Opening]**
+"The gravitationally lensed dual-AGN model... with the first AGN corresponding to the four brightest images and the second AGN corresponding to the two dim images next to the extended red arcs."
+Entirely direct statement with no hedging.
+**Rating: 1**
+
+**9. Debater A: [Argument 1]**
+"Spectroscopy *constrains* the redshift of the lensed red galaxy to be 1.88, which *places* it between the main deflector and alleged dual-AGN." — "constrains" is somewhat softening (implies limits rather than pinning exactly), and "*alleged*" is a notable hedge casting doubt on the dual-AGN claim.
+"The dual-AGN model's lens model *should* include the mass profile... but it does not." — "should" is mildly modal.
+"Alleged" and "constrains" introduce some tentativeness; "should" is a mild hedge.
+**Rating: 2**
+
+**10. Debater B: [Response 1]**
+"Inclusion of the red galaxy in the lens model will, *on the whole*, produce *only minor* changes in the caustics..." — "on the whole" and "only minor" qualify the magnitude of the effect.
+"The added mass will in turn allow for a *relatively* larger separation between the two AGN, as *one might reasonably expect*." — "relatively" qualifies the size; "one might reasonably expect" is a clear hedging phrase combining epistemic ("might") and reasonableness.
+Multiple hedges: "on the whole," "only minor," "relatively," and especially "one might reasonably expect."
+**Rating: 3**
+
+**11. Debater A: [Argument 2]**
+"The presence of a second deflector *enables* models in which one single source can produce 6 observed images." — "enables" is factual; "can produce" is mildly modal.
+"Single-AGN models *remain consistent with* all available data, making the dual-AGN model *unnecessary*." — "remain consistent with" is a measured, somewhat softened claim rather than an assertive one.
+"Can produce" and "remain consistent with" are mild qualifiers, but the overall tone is fairly direct.
+**Rating: 2**
+
+**12. Debater B: [Response 2]**
+"A single source being lensed to produce 6 images requires a specific morphology which has *never been* observed before." — "never been observed" is a direct empirical claim, not a hedge.
+"A dual-AGN is an observed phenomenon that does not invoke *overcomplicated* hypotheses or *unobserved* morphologies." — Direct assertion with evaluative language, no hedges.
+No hedging language present.
+**Rating: 1**
+
+**13. Debater A: [Argument 3]**
+"Light curves for all 6 lensed images display the same variations with brief offsets (*e.g.* 35 days between D and E), and the same redshifts. But C. S. M. et al. *claim* that D and E correspond to AGN that are 6 kiloparsecs away from each other." — "claim" subtly distances the speaker from the assertion, attributing it skeptically.
+"Light curves this similar *can only* be generated by a single source." — "can only" is a strong direct assertion, not a hedge.
+The use of "claim" is a mild hedge; otherwise quite direct.
+**Rating: 2**
+
+**14. Debater B: [Response 3]**
+"Activity in one AGN *can* set off activity in the other AGN in a dual-AGN system, causing correlated emissions." — "can" is a modal hedge expressing possibility rather than certainty.
+"Correlated emissions *can* make two different objects look like a single object *under some circumstances*." — "can" again, plus "under some circumstances" is a notable qualifying phrase limiting the scope of the claim.
+Two instances of "can" (modal possibility) and "under some circumstances" (scope limiter) constitute meaningful hedging across both claims.
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[1]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[1]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[1]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[3]]

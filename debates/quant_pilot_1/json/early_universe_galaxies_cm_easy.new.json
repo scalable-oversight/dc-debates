@@ -1,0 +1,407 @@
+{
+  "nextId": 39,
+  "root": {
+    "id": 0,
+    "text": "What implications do overly bright early universe galaxies found by the James Webb Space Telescope (JWST) have on the existence of <a xdef=\"dark_matter\">dark matter</a>?",
+    "debater": "questioner",
+    "level": 0,
+    "parentId": null,
+    "honest_response": "",
+    "dishonest_response": "",
+    "children": [
+      {
+        "id": 1,
+        "text": "The brightness of early universe galaxies is weak evidence towards falsifying the existence of <a xdef=\"dark_matter\">dark matter</a>.",
+        "debater": "honest",
+        "level": 1,
+        "parentId": 0,
+        "honest_response": "Yes",
+        "dishonest_response": "No (main objection)",
+        "children": [
+          {
+            "id": 2,
+            "text": "The mass of a galaxy is strongly correlated to its brightness.",
+            "debater": "dishonest",
+            "level": 2,
+            "parentId": 1,
+            "honest_response": "Yes",
+            "dishonest_response": "Yes",
+            "children": []
+          },
+          {
+            "id": 3,
+            "text": "<ref id=\"ssm_et_al\"/> shows that <a xdef=\"mond\">MOND-based</a> models can fit the masses of observed early universe (high-redshift) galaxies while <a xdef=\"lambda_cdm\">Lambda-CDM</a> cannot.",
+            "debater": "dishonest",
+            "level": 2,
+            "parentId": 1,
+            "honest_response": "No (main objection)",
+            "dishonest_response": "Yes",
+            "children": [
+              {
+                "id": 4,
+                "text": "Total mass kept constant, a top-heavy <a xdef=\"imf\">IMF</a> predicts a higher galaxy brightness compared to a standard IMF.",
+                "debater": "honest",
+                "level": 3,
+                "parentId": 3,
+                "honest_response": "Yes",
+                "dishonest_response": "Yes",
+                "children": []
+              },
+              {
+                "id": 5,
+                "text": "Assuming a top-heavy IMF improves Lambda-CDM's fit to the data more than the fit presented in S. S. M. et al.",
+                "debater": "honest",
+                "level": 3,
+                "parentId": 3,
+                "honest_response": "Yes",
+                "dishonest_response": "No (main objection)",
+                "children": [
+                  {
+                    "id": 6,
+                    "text": "The standard IMF is based on dense empirical data from the Milky Way and neighbouring galaxies.",
+                    "debater": "dishonest",
+                    "level": 4,
+                    "parentId": 5,
+                    "honest_response": "Yes",
+                    "dishonest_response": "Yes",
+                    "children": []
+                  },
+                  {
+                    "id": 7,
+                    "text": "Assuming a different IMF than we've empirically observed, for a whole population of stars, is not justified by the data available.",
+                    "debater": "dishonest",
+                    "level": 4,
+                    "parentId": 5,
+                    "honest_response": "No (main objection)",
+                    "dishonest_response": "Yes",
+                    "children": [
+                      {
+                        "id": 8,
+                        "text": "Current methods do not allow us to empirically calculate the IMF of early universe galaxies.",
+                        "debater": "honest",
+                        "level": 5,
+                        "parentId": 7,
+                        "honest_response": "Yes",
+                        "dishonest_response": "Yes but omits key info",
+                        "children": []
+                      },
+                      {
+                        "id": 9,
+                        "text": "Early universe galaxies have systematically lower metallicity, which will result in the formation of more massive stars than observed in nearby galaxies (<ref id=\"jjz_et_al\"/>).",
+                        "debater": "honest",
+                        "level": 5,
+                        "parentId": 7,
+                        "honest_response": "Yes",
+                        "dishonest_response": "Yes but omits key info",
+                        "children": []
+                      },
+                      {
+                        "id": 10,
+                        "text": "Therefore, you should reject [7].",
+                        "debater": "honest",
+                        "level": 5,
+                        "parentId": 7,
+                        "honest_response": "Yes",
+                        "dishonest_response": "No (main objection)",
+                        "children": [
+                          {
+                            "id": 11,
+                            "text": "<ref id=\"tn_et_al\"/> assume a standard IMF for galaxies at z~3-4 and obtain good residuals.",
+                            "debater": "dishonest",
+                            "level": 6,
+                            "parentId": 10,
+                            "honest_response": "Yes",
+                            "dishonest_response": "Yes",
+                            "children": []
+                          },
+                          {
+                            "id": 12,
+                            "text": "These results show that while metallicity decreases with increasing redshift, the change does not justify the use of a top-heavy IMF.",
+                            "debater": "dishonest",
+                            "level": 6,
+                            "parentId": 10,
+                            "honest_response": "No (main objection)",
+                            "dishonest_response": "Yes",
+                            "children": [
+                              {
+                                "id": 13,
+                                "text": "The reduction in metallicity for early universe galaxies (which are at redshifts of 8-16) will be more severe than those studied by T. N. et al.",
+                                "debater": "honest",
+                                "level": 7,
+                                "parentId": 12,
+                                "honest_response": "Yes",
+                                "dishonest_response": "Yes",
+                                "children": []
+                              },
+                              {
+                                "id": 14,
+                                "text": "T. N. et al. having found adequate results with a standard IMF does not mean their results generalize to early universe galaxies.",
+                                "debater": "honest",
+                                "level": 7,
+                                "parentId": 12,
+                                "honest_response": "Yes",
+                                "dishonest_response": "No (main objection)",
+                                "children": []
+                              },
+                              {
+                                "id": 15,
+                                "text": "Therefore, you should reject [12].",
+                                "debater": "honest",
+                                "level": 7,
+                                "parentId": 12,
+                                "honest_response": "Yes",
+                                "dishonest_response": "",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "id": 16,
+                            "text": "Therefore, you should reject [10].",
+                            "debater": "dishonest",
+                            "level": 6,
+                            "parentId": 10,
+                            "honest_response": "",
+                            "dishonest_response": "Yes",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": 17,
+                    "text": "Therefore, you should reject [5].",
+                    "debater": "dishonest",
+                    "level": 4,
+                    "parentId": 5,
+                    "honest_response": "",
+                    "dishonest_response": "Yes",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 18,
+                "text": "Therefore, you should reject [3].",
+                "debater": "honest",
+                "level": 3,
+                "parentId": 3,
+                "honest_response": "Yes",
+                "dishonest_response": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "text": "Therefore, you should reject [1].",
+            "debater": "dishonest",
+            "level": 2,
+            "parentId": 1,
+            "honest_response": "",
+            "dishonest_response": "Yes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "text": "The brightness of early universe galaxies is strong evidence towards falsifying the existence of <a xdef=\"dark_matter\">dark matter</a>.",
+        "debater": "dishonest",
+        "level": 1,
+        "parentId": 0,
+        "honest_response": "No (main objection)",
+        "dishonest_response": "Yes",
+        "children": [
+          {
+            "id": 21,
+            "text": "The typical argument for this is that <a xdef=\"mond\">MOND-based</a> models predict high-redshift galaxy masses more naturally than <a xdef=\"lambda_cdm\">Lambda-CDM</a>.",
+            "debater": "honest",
+            "level": 2,
+            "parentId": 20,
+            "honest_response": "Yes",
+            "dishonest_response": "Yes",
+            "children": []
+          },
+          {
+            "id": 22,
+            "text": "Unlike MOND-based models, however, Lambda-CDM successfully explains the vast majority of cosmological observations (<ref id=\"na_et_al\"/>).",
+            "debater": "honest",
+            "level": 2,
+            "parentId": 20,
+            "honest_response": "Yes",
+            "dishonest_response": "No (main objection)",
+            "children": [
+              {
+                "id": 23,
+                "text": "Lambda-CDM relies on dark matter, which has never been directly observed, and <a xdef=\"dark_energy\">dark energy</a>, which is theorized to create negative pressure.",
+                "debater": "dishonest",
+                "level": 3,
+                "parentId": 22,
+                "honest_response": "Yes",
+                "dishonest_response": "Yes",
+                "children": []
+              },
+              {
+                "id": 24,
+                "text": "MOND-based models are much simpler, and can explain cosmological phenomena without invoking speculative forms of matter.",
+                "debater": "dishonest",
+                "level": 3,
+                "parentId": 22,
+                "honest_response": "No (main objection)",
+                "dishonest_response": "Yes",
+                "children": [
+                  {
+                    "id": 25,
+                    "text": "MOND can't fully explain gravitational lensing without ad hoc fixes that undermine its simplicity.",
+                    "debater": "honest",
+                    "level": 4,
+                    "parentId": 24,
+                    "honest_response": "Yes",
+                    "dishonest_response": "No (main objection)",
+                    "children": [
+                      {
+                        "id": 26,
+                        "text": "Relativistic extensions of MOND, such as TeVeS, reproduce gravitational lensing effects without invoking dark matter.",
+                        "debater": "dishonest",
+                        "level": 5,
+                        "parentId": 25,
+                        "honest_response": "Yes but omits key info",
+                        "dishonest_response": "Yes",
+                        "children": []
+                      },
+                      {
+                        "id": 27,
+                        "text": "<ref id=\"hsz_et_al\"/> show that MOND/TeVeS adequately fits lenses in the well-known CASTLES sample without the need for dark matter.",
+                        "debater": "dishonest",
+                        "level": 5,
+                        "parentId": 25,
+                        "honest_response": "Yes but omits key info",
+                        "dishonest_response": "Yes",
+                        "children": []
+                      },
+                      {
+                        "id": 28,
+                        "text": "Therefore, you should reject [25].",
+                        "debater": "dishonest",
+                        "level": 5,
+                        "parentId": 25,
+                        "honest_response": "No (main objection)",
+                        "dishonest_response": "Yes",
+                        "children": [
+                          {
+                            "id": 29,
+                            "text": "TeVeS was designed with handling gravitational lensing as one of its principal motivations.",
+                            "debater": "honest",
+                            "level": 6,
+                            "parentId": 28,
+                            "honest_response": "Yes",
+                            "dishonest_response": "Yes",
+                            "children": []
+                          },
+                          {
+                            "id": 30,
+                            "text": "Even so, Bullet Cluster lensing (<ref id=\"dc_et_al\"/>) cannot be explained by TeVeS, nor can some of H. S. Z. et al's examples of lens systems that aren't part of clusters.",
+                            "debater": "honest",
+                            "level": 6,
+                            "parentId": 28,
+                            "honest_response": "Yes",
+                            "dishonest_response": "No (main objection)",
+                            "children": [
+                              {
+                                "id": 31,
+                                "text": "TeVeS with 2 eV neutrinos has been shown to reproduce Bullet Cluster lensing without the need for dark matter.",
+                                "debater": "dishonest",
+                                "level": 7,
+                                "parentId": 30,
+                                "honest_response": "No (main objection)",
+                                "dishonest_response": "Yes",
+                                "children": []
+                              },
+                              {
+                                "id": 32,
+                                "text": "The outliers in H. S. Z. et al. can be fit using many-parameter interpolation functions instead of single parameters.",
+                                "debater": "dishonest",
+                                "level": 7,
+                                "parentId": 30,
+                                "honest_response": "Yes",
+                                "dishonest_response": "Yes",
+                                "children": []
+                              },
+                              {
+                                "id": 33,
+                                "text": "Therefore, you should reject [30].",
+                                "debater": "dishonest",
+                                "level": 7,
+                                "parentId": 30,
+                                "honest_response": "",
+                                "dishonest_response": "Yes",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "id": 34,
+                            "text": "Therefore, you should reject [28].",
+                            "debater": "honest",
+                            "level": 6,
+                            "parentId": 28,
+                            "honest_response": "Yes",
+                            "dishonest_response": "",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": 35,
+                    "text": "Falsifying dark matter would require reworking the theory of general relativity, leading to modifications across many areas of astrophysics.",
+                    "debater": "honest",
+                    "level": 4,
+                    "parentId": 24,
+                    "honest_response": "Yes",
+                    "dishonest_response": "Yes",
+                    "children": []
+                  },
+                  {
+                    "id": 36,
+                    "text": "Therefore, you should reject [24].",
+                    "debater": "honest",
+                    "level": 4,
+                    "parentId": 24,
+                    "honest_response": "Yes",
+                    "dishonest_response": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 37,
+                "text": "Therefore, you should reject [22].",
+                "debater": "dishonest",
+                "level": 3,
+                "parentId": 22,
+                "honest_response": "",
+                "dishonest_response": "Yes",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 38,
+            "text": "Therefore, you should reject [20].",
+            "debater": "honest",
+            "level": 2,
+            "parentId": 20,
+            "honest_response": "Yes",
+            "dishonest_response": "",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "defs_and_sources": "<defs>\n  <def id=\"dark_matter\">Dark matter - A hypothetical form of matter predicted by Lambda-CDM to make up 26.8% of the universe's total mass-energy content. Dark matter does not interact with light, but its gravitational influence has been used to explain phenomena like gravitational lensing and galactic rotation curves.</def>\n\n  <def id=\"lambda_cdm\">Lambda-CDM - The cosmological model most commonly used to explain the evolution of the universe. Lambda stands for dark energy (the energy hypothesised to be accelerating the universe's expansion), and CDM stands for Cold Dark Matter.</def>\n\n  <def id=\"redshift\">Redshift (denoted by z) - As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift => object is further away => we are looking further back in time as we are seeing light that left the object millions or billions of years ago.</def>\n\n  <def id=\"imf\">Initial Mass Function (IMF) - The initial distribution of masses for a population of stars during star formation in a galaxy.</def>\n\n  <def id=\"metallicity\">Metallicity - The abundance of elements present in a star that are heavier than Hydrogen and Helium.</def>\n\n  <def id=\"mond\">Modified Newtonian Dynamics (MOND) - An alternative theory of gravity that does not predict the existence of dark matter. Instead, it modifies Newton's laws of gravity at very low accelerations to explain observed phenomena like galactic rotation curves.</def>\n\n  <def id=\"photometric_redshift\">Photometric redshift - A redshift estimate obtained by measuring a galaxy's brightness across several broad color filters and fitting the resulting spectral energy distribution to templates. Less precise than spectroscopic redshift but easier to obtain.</def>\n\n  <def id=\"dark_energy\">Dark energy - A hypothetical form of energy predicted by Lambda-CDM to make up 68% of the total energy content of the universe and believed to be driving the accelerating expansion of the universe.</def>\n\n  <def id=\"spectroscopic_redshift\">Spectroscopic redshift - A precise redshift measurement obtained by identifying specific spectral lines in a galaxy's light and measuring their shift from known rest wavelengths.</def>\n</defs>\n\n<sources>\n  <ref id=\"ssm_et_al\"\n       quote=\"Year and title blinded from debate judges.\"\n       author=\"S. S. M. et al.\"/>\n\n  <ref id=\"na_et_al\"\n       quote=\"Year and title blinded from debate judges.\"\n       author=\"N. A. et al.\"/>\n\n  <ref id=\"jjz_et_al\"\n       quote=\"Year and title blinded from debate judges.\"\n       author=\"J. J. Z. et al.\"/>\n\n  <ref id=\"hsz_et_al\"\n       quote=\"Year and title blinded from debate judges.\"\n       author=\"H. S. Z. et al.\"/>\n\n  <ref id=\"tn_et_al\"\n       quote=\"Year and title blinded from debate judges.\"\n       author=\"T. N. et al.\"/>\n\n  <ref id=\"dc_et_al\"\n       quote=\"Year and title blinded from debate judges.\"\n       author=\"D. C. et al.\"/>\n</sources>"
+}

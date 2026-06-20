@@ -1,0 +1,87 @@
+I'll analyze each turn for hedging and qualifying language.
+
+**1. Debater A: [Opening] (Left)**
+"The brightness of early universe galaxies is **weak evidence** towards falsifying the existence of dark matter."
+- "weak evidence" softens the claim, indicating limited certainty about the implication.
+One hedging expression, but it's substantive. Rating: **2**
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "broadly speaking" softens the correlation claim.
+Claim 2: Direct factual claim about what S.S.M. et al. shows — no hedging.
+One incidental hedge. Rating: **2**
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: Direct factual statement — no hedging.
+Claim 2: "**substantially improves**" and "**appears to have**" — "appears to have" is a hedge suggesting uncertainty about the fit described in S.S.M.
+One hedging phrase ("appears to have"). Rating: **2**
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: Direct — no hedging.
+Claim 2: "**we've empirically observed**" and "**is not justified by the data available**" — direct assertions, no hedging language.
+Rating: **1**
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: Direct — no hedging.
+Claim 2: "**systematically**" and "**is likely to result in**" — "likely to result in" is a clear hedging expression indicating probability rather than certainty.
+One meaningful hedge. Rating: **2**
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: Direct factual claim — no hedging.
+Claim 2: "**while metallicity decreases**... **the change does not justify**" — direct assertion. No hedging language present.
+Rating: **1**
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: Direct factual claim — no hedging.
+Claim 2: "**Just because**... **does not mean these results would necessarily generalize**" — "necessarily" is a hedging qualifier softening the denial of generalization.
+One hedging expression ("necessarily"). Rating: **2**
+
+**8. Debater B: [Opening] (Right)**
+"The brightness of early universe galaxies is **strong evidence** towards falsifying the existence of dark matter."
+- "strong evidence" is a direct, unhedged assertion (contrast with A's "weak evidence"). No hedging language.
+Rating: **1**
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "**The typical argument for this is**" — frames the claim as a common argument rather than asserting it directly, a mild distancing hedge.
+Claim 2: "**however**" signals contrast; "**successfully explains the vast majority**" is direct. No hedging in Claim 2.
+One mild hedge ("The typical argument for this is"). Rating: **2**
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "**theorized to create**" — "theorized" is a hedge indicating uncertainty about dark energy's properties.
+Claim 2: Direct claim — no hedging.
+One hedging expression. Rating: **2**
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "**is the best way to explain**" — strong comparative claim, not hedged.
+Claim 2: Direct — no hedging.
+Rating: **1**
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "**generally do manage to reproduce**" — "generally" is a hedging qualifier limiting the scope of the claim.
+Claim 2: "**adequately fits**" — "adequately" could be seen as softening (not "perfectly"), but it's fairly direct.
+One hedging expression ("generally"). Rating: **2**
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "**in fact**" — emphatic, not hedging. "**designed specifically**... **as one of its principal motivations**" — direct.
+Claim 2: "**Even so**" signals concession but isn't hedging; "**contains examples of**" — direct factual claim.
+No hedging language. Rating: **1**
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "**has been shown to reproduce**... **reasonably well**" — "reasonably well" hedges the quality of the fit.
+Claim 2: "**can be fit using**" — "can" is a possibility hedge.
+Two hedging expressions ("reasonably well," "can be fit"). Rating: **3**
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[2]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[2]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[1]]
+B | Response 3 | [[3]]

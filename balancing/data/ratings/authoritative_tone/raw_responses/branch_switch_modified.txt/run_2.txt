@@ -1,0 +1,199 @@
+I'll analyze each turn for authoritative tone, examining language choices, confidence, and expertise signals.
+
+---
+
+**1. Debater A: [Opening] (Left Side)**
+
+"The speed stays the same when we model the car as a point mass. It decreases slightly when modeled as a rigid body."
+
+- Authoritative elements: Uses technical terminology ("point mass," "rigid body") that signals physics expertise. The declarative, unhedged structure conveys confidence.
+- Slight undermining: "slightly" is a vague qualifier that somewhat weakens precision.
+- Overall: Concise, technically framed, and confident. The two-model distinction shows command of the problem's nuance.
+
+**Rating: 4**
+
+---
+
+**2. Debater B: [Argument 1] (Left Side)**
+
+Claim 1: "A ball on a string spins faster when pulled inward. The same principle applies when the car transitions to a tighter radius."
+Claim 2: "The connecting track provides a radially inward force that accelerates the car tangentially."
+
+- Authoritative elements: Uses domain vocabulary ("radially inward," "tangentially"). The analogy to a ball on a string is a recognizable physics reference.
+- Undermining elements: The analogy is invoked loosely ("the same principle applies") without careful analysis of whether it truly applies. Claim 2 asserts a tangential acceleration from a radially inward force, which is a conceptual leap stated without justification — this could read as confident but imprecise. The reasoning feels asserted rather than derived.
+- Overall: Some technical language but the reasoning is loose and the analogy is applied uncritically, reducing the impression of deep expertise.
+
+**Rating: 3**
+
+---
+
+**3. Debater A: [Response 1] (Left Side)**
+
+Claim 1: "The string does work because, as the ball spirals inward, its velocity has a radial component aligned with the tension."
+Claim 2: "The fixed frictionless track exerts only a normal constraint force perpendicular to the car's velocity, so unlike the string it does no work."
+
+- Authoritative elements: "radial component aligned with the tension" is precise mechanical language. "Normal constraint force" and the work-energy reasoning are technically grounded. The contrast drawn between the string and the track is analytically sharp.
+- Undermining elements: Very little undermines authority here. The reasoning is clean and uses proper physics terminology.
+- Overall: Highly technical, precise, and logically structured. Reads as expert-level physics reasoning.
+
+**Rating: 5**
+
+---
+
+**4. Debater B: [Argument 2] (Left Side)**
+
+Claim 1: "The curvature changes continuously along the connecting track, so the direction of the constraint force rotates."
+Claim 2: "This continuous rotation means that the force cannot remain perfectly perpendicular to the velocity at every instant."
+
+- Authoritative elements: "Curvature changes continuously," "constraint force rotates" — these are technically phrased observations. The argument builds a logical chain.
+- Undermining elements: Claim 2 is the conclusion, but it doesn't follow necessarily from Claim 1 — the normal to a curve is always perpendicular to the tangent by definition. The argument has a conceptual flaw, and an expert reader would sense the weakness. However, in terms of *tone*, the language is confident and uses technical vocabulary.
+- Overall: The language sounds reasonably authoritative, but the logical gap slightly undermines the impression of deep expertise.
+
+**Rating: 3**
+
+---
+
+**5. Debater A: [Response 2] (Left Side)**
+
+Claim 1: "The car's velocity is tangent to the track at every point. The constraint force is normal to the track, hence perpendicular to velocity."
+Claim 2: "At every instant, the force and velocity rotate together, maintaining perpendicularity even as curvature changes."
+
+- Authoritative elements: "velocity is tangent to the track at every point" — this is a precise, definitional statement. "Normal to the track, hence perpendicular to velocity" is rigorous. Claim 2 generalizes the argument cleanly.
+- Undermining elements: Very little. The language is concise and precise throughout. This reads as a clear, confident rebuttal grounded in geometry.
+- Overall: Clean, rigorous, expert-sounding. One of the stronger turns in terms of authoritative tone.
+
+**Rating: 5**
+
+---
+
+**6. Debater B: [Argument 3] (Left Side)**
+
+Claim 1: "Along the transition arc, the rail's normal force rotates and grows as curvature tightens."
+Claim 2: "Centripetal acceleration varies in magnitude with the local radius of curvature, unlike on either circular section."
+
+- Authoritative elements: "Local radius of curvature," "centripetal acceleration varies in magnitude" — these are technically precise phrases. The reference to the transition arc as a distinct mechanical region shows some nuance.
+- Undermining elements: These claims, while true, don't obviously support B's position in the debate. They come across more as technical observations than as a decisive argument. The relevance to the speed-change question is unclear, which slightly undermines the impression of focused expertise.
+- Overall: Technically sound language, but the argumentative purpose is murky, which somewhat weakens the authoritative impression.
+
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3] (Left Side)**
+
+Claim 1: "These facts are true but do not refute Debater A Response 2 Claim 2."
+Claim 2: "Imagine you're in the car. Velocity points out the windshield, your side doors are aligned with the track. Although you're turning, your doors stay exactly 90 degrees from your windshield."
+
+- Authoritative elements: Claim 1 is confident and dismissive in a measured way. Claim 2 uses an intuitive but effective analogy (the car interior) to make a geometric point.
+- Undermining elements: The analogy in Claim 2, while clever, is informal and colloquial ("windshield," "side doors"). This shifts away from technical language toward everyday speech, which reduces the expert register somewhat. "Imagine you're in the car" is accessible but not authoritative.
+- Overall: Mixed — confident dismissal in Claim 1 but informal analogy in Claim 2. Moderately authoritative overall.
+
+**Rating: 3**
+
+---
+
+**8. Debater B: [Opening] (Right Side)**
+
+"The speed increases if we model the car as a point mass. It also increases if we model it as a rigid body."
+
+- Authoritative elements: Uses the same technical modeling framework ("point mass," "rigid body") as Debater A. Declarative and unhedged.
+- Undermining elements: Very brief. The two-sentence structure is confident but doesn't elaborate or demonstrate knowledge beyond the bare claim.
+- Overall: Competently stated but minimal. Less impressive than A's opening because A's two-model distinction implied more nuance, whereas B simply asserts both increase. Still sounds confident and technically framed.
+
+**Rating: 3**
+
+---
+
+**9. Debater A: [Argument 1] (Right Side)**
+
+Claim 1: "On a frictionless track, the rails' constraint force does no work, so kinetic energy (KE) is conserved and speed cannot increase."
+Claim 2: "There is no mechanism on a fixed frictionless track to add energy to the car."
+
+- Authoritative elements: "Constraint force does no work," "kinetic energy is conserved" — these are standard physics principles stated with authority. Claim 2 reinforces with a declarative "no mechanism" statement. Uses parenthetical "(KE)" showing comfort with standard notation.
+- Undermining elements: Very little. The reasoning is clean and draws on first principles.
+- Overall: Highly authoritative — clear, principled reasoning stated confidently.
+
+**Rating: 4**
+
+---
+
+**10. Debater B: [Response 1] (Right Side)**
+
+Claim 1: "If the rails truly do no work, then a point-mass car cannot lose speed on the smaller track."
+Claim 2: "Yet if kinetic energy is conserved and the rails do no work, then no slowdown should occur on a frictionless track for a rigid body model, contradicting Debater A's Opening."
+
+- Authoritative elements: Uses conditional/logical structure ("if...then") to construct a reductio-style argument. "Kinetic energy is conserved" and "no slowdown" are technically framed.
+- Undermining elements: "If the rails truly do no work" — the word "truly" slightly hedges. The argument is more of a logical challenge than a demonstration of physical knowledge. It's reactive rather than constructive. The phrase "contradicting Debater A's Opening" is debater-speak rather than physics.
+- Overall: Logically structured but relies more on logical pressure than physical insight. Moderately authoritative.
+
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2] (Right Side)**
+
+Claim 1: "A rigid body has both translational and rotational kinetic energy; a point mass has only translational."
+Claim 2: "On a tighter track, the body is forced to yaw with the curvature, and rotational energy increases at the expense of translational energy."
+
+- Authoritative elements: "Translational and rotational kinetic energy" is precise. "Yaw with the curvature" is specific mechanical language. The energy redistribution argument is physically grounded.
+- Undermining elements: "Is forced to yaw" — while vivid, "yaw" is slightly informal in this context. The claim that rotational energy increases "at the expense of" translational energy is stated as if it's obvious but is the actual contested point. An expert might be expected to justify this more carefully.
+- Overall: Good technical language, with a slightly assumptive conclusion. Reasonably authoritative.
+
+**Rating: 4**
+
+---
+
+**12. Debater B: [Response 2] (Right Side)**
+
+Claim 1: "The rail forces that steer the rigid body do positive work and supply the rotational KE directly; it does not need to come from translational KE."
+Claim 2: "Since ω = v/R, any drop in v also reduces ω, so the rotational KE does not have to increase."
+
+- Authoritative elements: "Positive work," "rotational KE," and "ω = v/R" are all properly technical. Citing a specific equation lends a mathematical precision.
+- Undermining elements: "Do positive work" — this is the key contested claim and is asserted without derivation. Using ω = v/R to argue against a speed drop is somewhat circular (it assumes the formula's applicability). The reasoning, while technically phrased, has logical gaps.
+- Overall: Technical language throughout, but the arguments have unexamined assumptions. Moderately to highly authoritative in tone, slightly undermined by logical gaps.
+
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3] (Right Side)**
+
+Claim 1: "Whether ω = v/R rises or falls depends on whether v or R changes faster. Energy conservation gives v₂ > v₁·R₂/R₁."
+Claim 2: "For any choice of m, I, R₁>R₂, this gives v₂/v₁ > R₂/R₁, so ω = v/R increases."
+
+- Authoritative elements: Mathematical notation (v₂, v₁, R₁, R₂, m, I), use of inequalities, referencing moment of inertia I, deriving a quantitative conclusion — all of these signal strong technical authority. The generality claim ("for any choice of m, I") is particularly impressive.
+- Undermining elements: Very little in terms of tone. The reasoning is compact and mathematical.
+- Overall: The most mathematically rigorous turn in the debate. Highly authoritative.
+
+**Rating: 5**
+
+---
+
+**14. Debater B: [Response 3] (Right Side)**
+
+Claim 1: "The formula ω = v/R is a 'point-mass formula' that applies only to a tiny point mass moving on a circle of radius R."
+Claim 2: "The center of mass does not ride on the rail's radius, so you can't plug in the velocity at the center of mass for v and the rail radius for R."
+
+- Authoritative elements: "Point-mass formula" is a precise categorization. "Center of mass does not ride on the rail's radius" is a specific geometric claim. The critique of substituting incompatible quantities (center-of-mass velocity vs. rail radius) shows technical sophistication.
+- Undermining elements: "You can't plug in" is slightly colloquial. The scare quotes around 'point-mass formula' are slightly informal. The argument, while valid, is presented in fairly plain language.
+- Overall: Technically grounded with a specific, expert-level critique. The colloquial phrasing slightly reduces the register but the substance is sharp.
+
+**Rating: 4**
+
+---
+
+RATINGS:
+A | Opening | [[4]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[5]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[5]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[3]]
+B | Opening | [[3]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[5]]
+B | Response 3 | [[4]]

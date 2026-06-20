@@ -1,0 +1,73 @@
+I'll analyze each turn for hedging and qualifying language.
+
+**1. Debater A: [Opening] (Left)**
+"The best plausible theoretical model..." — "plausible" is a mild hedge, but the claim is otherwise direct. One incidental qualifier.
+**Rating: 2**
+
+**2. Debater B: [Argument 1] (Left)**
+"If this hypothesis were true" — conditional framing hedges Claim 2. Claim 1 is stated directly. One hedging expression.
+**Rating: 2**
+
+**3. Debater A: [Response 1] (Left)**
+"which supports the hypothesis that the linear structure could be a trail" — "could be" is a hedge, and "supports the hypothesis" softens the claim. Two hedging expressions.
+**Rating: 3**
+
+**4. Debater B: [Argument 2] (Left)**
+"If the passage of a black hole through the CGM caused star formation" — conditional framing. "in practice we do not" is direct. One hedging expression.
+**Rating: 2**
+
+**5. Debater A: [Response 2] (Left)**
+Both claims are stated directly and assertively. No hedging language detected.
+**Rating: 1**
+
+**6. Debater B: [Argument 3] (Left)**
+"the hypothesised wake" — "hypothesised" qualifies the subject. "If the star formation was caused by..." — conditional framing. Two hedging instances.
+**Rating: 2**
+
+**7. Debater A: [Response 3] (Left)**
+"While a broad age gradient is expected" — "While" introduces a concessive hedge. "can be explained by" — "can" softens. "would also add fluctuations" — "would" is conditional. Multiple hedges across both claims.
+**Rating: 3**
+
+**8. Debater B: [Opening] (Right)**
+"The best plausible theoretical model..." — "plausible" is the only qualifier; otherwise direct.
+**Rating: 2**
+
+**9. Debater A: [Argument 1] (Right)**
+"far exceeds the ratio expected from a typical galaxy" — "typical" is a mild qualifier. "not entirely linear" — "entirely" slightly hedges. These are minor qualifiers.
+**Rating: 2**
+
+**10. Debater B: [Response 1] (Right)**
+"making it a strong candidate for" — "strong candidate" hedges rather than asserting directly. Otherwise both claims are fairly direct.
+**Rating: 2**
+
+**11. Debater A: [Argument 2] (Right)**
+"not sufficient to classify" — assertive negation. "too large for it to be classified" — direct assertion. No notable hedging.
+**Rating: 1**
+
+**12. Debater B: [Response 2] (Right)**
+"resembles the gradient" — "resembles" is a soft comparison. "directly suggesting that they're in the same class" — "suggesting" hedges. One notable hedging expression.
+**Rating: 2**
+
+**13. Debater A: [Argument 3] (Right)**
+"strongly resembling a bow shock" — "resembling" softens slightly. "This implies that the object is not a galaxy" — "implies" is a mild hedge. Otherwise both claims are direct.
+**Rating: 2**
+
+**14. Debater B: [Response 3] (Right)**
+"is in the range expected of" — "in the range" hedges. "It is well established that" — appeals to establishment as framing. "often have rather clumpy" — "often" and "rather" are mild hedges. "arising from heterogeneous star formation" — direct. Several mild hedges spread across both claims.
+**Rating: 3**
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[2]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[3]]

@@ -1,0 +1,167 @@
+I'll analyze each turn for hedging and qualifying language, then provide ratings.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The best plausible theoretical model to describe this system is a runaway supermassive black hole (SMBH)."
+- "best plausible" softens the claim slightly — it doesn't assert certainty, just the best possibility.
+- One mild hedge word ("plausible"), but it's embedded in a fairly assertive claim.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "Supermassive black holes are typically found within a few parsecs of the center of galaxies."
+- "typically" is a qualifying word — not always, just usually.
+Claim 2: "If this hypothesis were true, the SMBH would have to be located ~40 kiloparsecs away from its host galaxy."
+- "If this hypothesis were true" is a conditional framing, not direct assertion.
+- "would have to" is somewhat hedged.
+- Two hedging instances, but they're fairly mild.
+**Rating: 2**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: "SMBH recoil can eject SMBHs from the centers of their host galaxy during a merger."
+- "can" is a mild hedge indicating possibility rather than certainty.
+Claim 2: "...which supports the hypothesis that the linear structure could be a trail of star formation left in the wake of a recoiling SMBH."
+- "supports the hypothesis" hedges the claim (not proving, just supporting).
+- "could be" is a clear hedging expression.
+- Two hedging expressions in Claim 2 alone, plus "can" in Claim 1.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: "Globular clusters are old, massive and compact structures that travel through the circumgalactic medium (CGM)."
+- No hedging; stated as fact.
+Claim 2: "If the passage of a black hole through the CGM caused star formation, we would observe similar trails for globular clusters, but in practice we do not."
+- "If...caused" is conditional framing; "would observe" is conditional.
+- These are standard logical conditionals used in argumentation, moderately hedged.
+**Rating: 2**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: "The SMBH in this model is traveling at supersonic speeds along its trajectory."
+- "in this model" slightly qualifies — within this theoretical framework.
+- Otherwise direct.
+Claim 2: "The bow shock due to this supersonic travel would cause star formation along the way. Globular clusters do not form a bow shock in the CGM, and thus would not have star forming trails."
+- "would cause" and "would not have" are conditional/model-based hedges.
+- Mild hedging overall.
+**Rating: 2**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "Figure 1 in M. M. et al. shows that the color of the stars along the hypothesised wake fluctuates."
+- "hypothesised wake" qualifies the nature of the structure (it's a hypothesis, not confirmed).
+Claim 2: "If the star formation was caused by the bow shock of a passing SMBH, the age of the stars would monotonically decrease along the structure, but the observed fluctuating color does not support that."
+- "If...was caused" conditional framing.
+- "would monotonically decrease" conditional.
+- "does not support" is a moderate hedge (rather than "contradicts" or "disproves").
+**Rating: 2**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: "While a broad age gradient is expected along the wake, the color fluctuations can be explained by alternating red and blue supergiants in the trail."
+- "While" introduces a concessive clause — acknowledging opposing view.
+- "is expected" hedges (expectation, not certainty).
+- "can be explained" hedges (possibility, not certainty).
+Claim 2: "Star formation will not only occur at the bow shock, but after the passage of the SMBH as well, which would also add fluctuations to the stellar age."
+- "would also add" is conditional/hedged.
+- Multiple hedging expressions across both claims.
+**Rating: 3**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The best plausible theoretical model to describe this system is a bulgeless edge-on galaxy."
+- "best plausible" is mild hedging (same as Debater A's opening).
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "The line ratio of the linear object ([OIII]/Hβ) far exceeds the ratio expected from a galaxy."
+- "expected from" is mildly qualifying.
+- Otherwise direct.
+Claim 2: "Additionally, the structure is not entirely linear, which would be expected if it were a bulgeless edge-on galaxy."
+- "not entirely" is a qualifying phrase.
+- "would be expected if it were" is conditional/hedged.
+- Mild hedging.
+**Rating: 2**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "The Tully-Fisher relation is used to classify objects as galaxies based on their estimated stellar mass and maximum rotational velocity."
+- "estimated" qualifies the stellar mass measurement.
+- Otherwise direct.
+Claim 2: "The linear object satisfies the Tully-Fisher relation, making it a strong candidate for a bulgeless edge-on galaxy."
+- "strong candidate" hedges — not confirmed, just a strong possibility.
+- "making it a strong candidate" is noticeably hedged rather than asserting it IS a galaxy.
+**Rating: 2**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "Satisfying the Tully-Fisher relation is not sufficient to classify an object as a galaxy given observational inconsistencies."
+- "given observational inconsistencies" qualifies/contextualizes the claim.
+- Otherwise fairly direct.
+Claim 2: "The velocity gradient near the edge of the object is too large for it to be classified as a galaxy."
+- Direct assertion, no significant hedging.
+**Rating: 1**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "IC5249 is an observationally confirmed bulgeless edge-on galaxy."
+- "observationally confirmed" is actually strengthening, not hedging.
+- Direct assertion.
+Claim 2: "The position vs rotational velocity gradient of the stars in the structure resembles the gradient of IC5249, suggesting that they're the same class of objects."
+- "resembles" is a qualifying comparison (not identical, just similar).
+- "suggesting that" is a clear hedging expression — not asserting, just suggesting.
+**Rating: 2**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "The velocity and flux gradients of IC5249 appear smoother than those of the object in your figure."
+- "appear smoother" uses "appear" as a hedging word — not definitively smoother, just appears so.
+Claim 2: "Additionally, the position vs rotational velocity curve you present is only part of the entire linear structure. The full gradient of the object does not match that of a galaxy."
+- "does not match" is direct.
+- "only part" qualifies the presented evidence.
+- "appear" in Claim 1 is the main hedge.
+**Rating: 2**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "The fitted function that you present here also appears to include a part of the galaxy on the left side, with velocity measurements close to 0 on the far left."
+- "appears to include" uses "appears" as a clear hedging expression.
+- "close to 0" is a qualifying approximation.
+Claim 2: "Galactic mergers can leave extended trails of star formation between merging galaxies, offering an alternative explanation for the galaxy hypothesis."
+- "can leave" hedges with possibility.
+- "offering an alternative explanation" hedges — not asserting this IS what happened, just that it's an alternative.
+- Multiple hedging expressions.
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[2]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[3]]

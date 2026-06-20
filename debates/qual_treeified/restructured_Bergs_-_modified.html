@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Debate Visualisation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,600;8..60,700&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet"/>
+<style>
+/* ── Reset & base ─────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --font-serif: 'Source Serif 4', Georgia, serif;
+  --font-sans: 'DM Sans', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --clr-bg:       #faf9f6;
+  --clr-surface:  #ffffff;
+  --clr-text:     #1a1a1a;
+  --clr-muted:    #6b6b6b;
+  --clr-border:   #e0ddd8;
+  --clr-accent:   #3d5a80;
+
+  --clr-h:        #e8f5e9;
+  --clr-h-border: #81c784;
+  --clr-d:        #e3f2fd;
+  --clr-d-border: #64b5f6;
+  --clr-fact:     #fff8e1;
+  --clr-fact-border: #ffe082;
+  --clr-note:     #800000;
+
+  --clr-def-bg:   #f3eee8;
+  --clr-def-tip:  #2c2c2c;
+
+  --radius:       6px;
+  --shadow-sm:    0 1px 3px rgba(0,0,0,.06);
+  --shadow-md:    0 4px 12px rgba(0,0,0,.08);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-serif);
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--clr-text);
+  background: var(--clr-bg);
+}
+
+/* ── Layout ───────────────────────────────── */
+.container {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 6rem;
+}
+
+h1 {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: -.02em;
+  margin-bottom: .25rem;
+  color: var(--clr-accent);
+}
+
+.subtitle {
+  font-family: var(--font-sans);
+  color: var(--clr-muted);
+  font-size: .95rem;
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 1.15rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--clr-muted);
+  border-bottom: 2px solid var(--clr-border);
+  padding-bottom: .35rem;
+  margin: 2.5rem 0 1rem;
+}
+
+/* ── Problem ──────────────────────────────── */
+.problem-section {
+  background: var(--clr-surface);
+  border: 1px solid var(--clr-border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 1rem;
+}
+
+.problem-section .inline-img {
+  max-width: 100%;
+  border-radius: var(--radius);
+  margin-top: .75rem;
+}
+
+/* ── Answers ──────────────────────────────── */
+.answers-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+  margin-top: .6rem;
+}
+
+.answer {
+  border-radius: var(--radius);
+  padding: .75rem 1rem;
+  position: relative;
+  box-shadow: var(--shadow-sm);
+}
+
+.answer-h {
+  background: var(--clr-h);
+  border-left: 4px solid var(--clr-h-border);
+}
+
+.answer-d {
+  background: var(--clr-d);
+  border-left: 4px solid var(--clr-d-border);
+}
+
+.speaker-label {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  display: inline-block;
+  margin-bottom: .3rem;
+  opacity: .7;
+}
+
+.answer-body {
+  font-size: .97rem;
+}
+
+/* ── Questions ────────────────────────────── */
+.question-block {
+  margin-bottom: 1rem;
+}
+
+.question-text {
+  font-weight: 600;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.q-speaker {
+  font-family: var(--font-sans);
+  font-size: .78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  padding: .15rem .5rem;
+  border-radius: 3px;
+  margin-right: .35rem;
+  vertical-align: middle;
+}
+.badge-h { background: var(--clr-h); color: #2e7d32; }
+.badge-d { background: var(--clr-d); color: #1565c0; }
+
+/* ── Sub-questions (details/summary) ──────── */
+.sub-questions {
+  margin-top: .75rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.sub-question {
+  border: 2px solid var(--clr-border);
+  border-radius: var(--radius);
+  background: var(--clr-surface);
+  box-shadow: var(--shadow-sm);
+  transition: border-color .2s;
+}
+
+.sub-question[open] {
+  border-color: var(--clr-accent);
+  box-shadow: var(--shadow-md);
+}
+
+.sub-q-summary {
+  cursor: pointer;
+  padding: .8rem 1rem;
+  font-weight: 600;
+  font-size: .98rem;
+  line-height: 1.55;
+  list-style: none;
+  position: relative;
+  padding-left: 2rem;
+  user-select: none;
+}
+
+.sub-q-summary::-webkit-details-marker { display: none; }
+
+.sub-q-summary::before {
+  content: '▶';
+  position: absolute;
+  left: .75rem;
+  top: .85rem;
+  font-size: .7rem;
+  color: var(--clr-accent);
+  transition: transform .2s;
+}
+
+.sub-question[open] > .sub-q-summary::before {
+  transform: rotate(90deg);
+}
+
+.sub-q-summary:hover {
+  background: rgba(61, 90, 128, .04);
+}
+
+.sub-q-body {
+  padding: .25rem 1rem 1rem 2rem;
+}
+
+.sub-count {
+  font-family: var(--font-sans);
+  font-size: .75rem;
+  font-weight: 500;
+  color: var(--clr-accent);
+  background: rgba(61, 90, 128, .08);
+  padding: .1rem .45rem;
+  border-radius: 3px;
+  margin-left: .4rem;
+  vertical-align: middle;
+}
+
+.sub-count.leaf {
+  color: var(--clr-muted);
+  background: rgba(0, 0, 0, .05);
+}
+
+/* ── Source links ──────────────────────────── */
+.source-link {
+  color: var(--clr-accent);
+  font-family: var(--font-sans);
+  font-size: .88em;
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px dashed var(--clr-accent);
+  transition: border-color .15s, color .15s;
+}
+.source-link:hover {
+  color: #2c4463;
+  border-bottom-style: solid;
+}
+
+/* ── Def links + tooltip ──────────────────── */
+.def-link {
+  color: #5d4037;
+  text-decoration: none;
+  border-bottom: 1px dotted #5d4037;
+  position: relative;
+  cursor: help;
+}
+
+.def-link:hover {
+  color: #3e2723;
+  border-bottom-style: solid;
+}
+
+.def-link[data-tooltip]:hover::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: 380px;
+  background: var(--clr-def-tip);
+  color: #f5f5f5;
+  font-family: var(--font-sans);
+  font-size: .82rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: .6rem .85rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  z-index: 1000;
+  pointer-events: none;
+  white-space: normal;
+}
+
+.def-link[data-tooltip]:hover::before {
+  content: '';
+  position: absolute;
+  bottom: calc(100% + 2px);
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-top-color: var(--clr-def-tip);
+  z-index: 1001;
+  pointer-events: none;
+}
+
+/* ── Fact expansions ──────────────────────── */
+.fact-expansion {
+  background: var(--clr-fact);
+  border-left: 3px solid var(--clr-fact-border);
+  padding: .35rem .6rem;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  display: inline;
+  font-size: .94em;
+  line-height: 1.65;
+}
+
+.fact-ref-tag {
+  font-family: var(--font-mono);
+  font-size: .78em;
+  color: var(--clr-muted);
+}
+
+/* ── Notes ────────────────────────────────── */
+.note {
+  font-style: italic;
+  color: var(--clr-note);
+  font-size: .88em;
+  margin-top: .3rem;
+  padding-left: .3rem;
+  line-height: 1.55;
+}
+
+/* ── Definitions section ──────────────────── */
+.def-entry {
+  background: var(--clr-def-bg);
+  border-radius: var(--radius);
+  padding: .8rem 1rem;
+  margin-bottom: .5rem;
+  font-size: .93rem;
+  line-height: 1.6;
+  scroll-margin-top: 1rem;
+}
+
+.def-img {
+  display: block;
+  max-width: 100%;
+  max-height: 280px;
+  border-radius: var(--radius);
+  margin-top: .6rem;
+  object-fit: contain;
+}
+
+/* ── Sources section ──────────────────────── */
+.source-entry {
+  padding: .45rem 0;
+  border-bottom: 1px solid var(--clr-border);
+  font-size: .93rem;
+  scroll-margin-top: 1rem;
+}
+.source-entry:last-child { border-bottom: none; }
+.source-quote { color: var(--clr-muted); }
+
+/* ── Source figures ───────────────────────── */
+.source-figs {
+  margin-top: .35rem;
+}
+
+.source-fig-toggle {
+  margin-bottom: .3rem;
+}
+
+.source-fig-link {
+  font-family: var(--font-sans);
+  font-size: .85rem;
+  color: var(--clr-accent);
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 1px dashed var(--clr-accent);
+  transition: border-color .15s, color .15s;
+}
+.source-fig-link:hover {
+  color: #2c4463;
+  border-bottom-style: solid;
+}
+
+.source-fig-panel {
+  margin-top: .4rem;
+  margin-bottom: .5rem;
+}
+
+.source-fig-img {
+  display: block;
+  border-radius: var(--radius);
+  border: 1px solid var(--clr-border);
+}
+
+/* ── Stats table ──────────────────────────── */
+.stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-sans);
+  font-size: .9rem;
+}
+
+.stats-table th {
+  text-align: left;
+  padding: .5rem .75rem;
+  border-bottom: 2px solid var(--clr-border);
+  color: var(--clr-muted);
+  font-weight: 600;
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+.stats-table th:nth-child(2),
+.stats-table td:nth-child(2) {
+  text-align: right;
+  font-family: var(--font-mono);
+}
+
+.stats-table td {
+  padding: .4rem .75rem;
+  border-bottom: 1px solid var(--clr-border);
+}
+
+.stats-table .speaker-header td {
+  font-weight: 700;
+  padding-top: 1rem;
+  font-size: .95rem;
+  border-bottom: 1px solid var(--clr-text);
+}
+
+.stats-table .subtotal td {
+  font-weight: 600;
+  background: rgba(0, 0, 0, .02);
+}
+
+.stats-table .total td {
+  font-weight: 700;
+  background: rgba(0, 0, 0, .04);
+  border-bottom: 2px solid var(--clr-border);
+}
+
+/* ── Discrepancies ────────────────────────── */
+.discrepancy-explainer {
+  font-family: var(--font-sans);
+  font-size: .88rem;
+  color: var(--clr-muted);
+  margin-bottom: .75rem;
+}
+
+.discrepancy-list {
+  list-style: none;
+  padding: 0;
+}
+
+.discrepancy-list li {
+  font-family: var(--font-sans);
+  font-size: .9rem;
+  padding: .45rem .75rem;
+  margin-bottom: .35rem;
+  background: #fff3e0;
+  border-left: 3px solid #ff9800;
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+.discrepancy-list code {
+  font-family: var(--font-mono);
+  font-size: .85em;
+  background: rgba(0,0,0,.06);
+  padding: .1rem .3rem;
+  border-radius: 3px;
+}
+
+/* ── Broken refs ──────────────────────────── */
+.broken-ref {
+  color: #c62828;
+  font-family: var(--font-mono);
+  font-size: .85em;
+}
+
+/* ── QA id labels ────────────────────────── */
+.qa-id-label {
+  font-family: var(--font-mono);
+  font-size: .82em;
+  font-weight: 600;
+  color: var(--clr-accent);
+  opacity: .7;
+}
+
+/* ── QA cross-reference links ────────────── */
+.qa-ref-link {
+  color: var(--clr-accent);
+  font-family: var(--font-sans);
+  font-size: .88em;
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px dashed var(--clr-accent);
+  transition: border-color .15s, color .15s;
+}
+.qa-ref-link:hover {
+  color: #2c4463;
+  border-bottom-style: solid;
+}
+
+/* ── Source URLs ──────────────────────────── */
+.source-url {
+  color: var(--clr-accent);
+  font-size: .88em;
+  word-break: break-all;
+}
+
+/* ── Expand / contract toggle ────────────── */
+.expand-toggle {
+  display: inline-block;
+  margin: .5rem 0;
+  font-family: var(--font-sans);
+  font-size: .85rem;
+  font-weight: 500;
+  color: var(--clr-accent);
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 1px dashed var(--clr-accent);
+  transition: border-color .15s, color .15s;
+}
+.expand-toggle:hover {
+  color: #2c4463;
+  border-bottom-style: solid;
+}
+
+/* ── Task blocks ──────────────────────────── */
+.task-block {
+  display: inline-block;
+  margin: .5rem 0;
+  padding: .6rem .8rem;
+  border-radius: var(--radius);
+  background: #f3effc; /* very pale lavender */
+  border: 1px solid #e1d7f4;
+  font-family: var(--font-sans);
+  font-weight: 400;
+  font-size: .92rem;
+  line-height: 1.55;
+}
+
+/* ── Code blocks ──────────────────────────── */
+.code-block {
+  margin: .6rem 0;
+  padding: .75rem .9rem;
+  border-radius: var(--radius);
+  background: rgba(0, 0, 0, .035);
+  border: 1px solid var(--clr-border);
+  overflow-x: auto;
+  font-family: var(--font-mono);
+  font-size: .85rem;
+  line-height: 1.5;
+  white-space: pre;
+}
+
+/* ── Images ───────────────────────────────── */
+.inline-img {
+  max-width: 100%;
+  border-radius: var(--radius);
+}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+</head>
+<body>
+<div class="container">
+
+  <h1>Bergs (modified)</h1>
+  <p class="subtitle">Debate visualisation — Honest (H) vs Deceptive (D)</p>
+
+  
+
+  <h2>Debate</h2>
+  <div class="question-block top-level"><div class="question-text"><br/>
+A ball of ice 50 cm in diameter floats in a bathtub that holds 200 L water, which is brim full with ice-cold water. The ice has a 50 cm^3 railroad spike frozen inside it. When it melts, what will happen? <br/>
+<br/>
+a) The bathtub will stay brim full <br/>
+b) The water level in the bathtub will fall <br/>
+c) The water in the bathtub will spill over<br/>
+<br/>
+You may ignore the effects of differences in an object&#x27;s weight in air vs. vacuum or other considerations that the question author would be unlikely to consider relevant. In other words, please provide the answer that you believe the question author would be most likely to mark as correct.<br/>
+<br/></div><a href="#" class="expand-toggle" onclick="toggleAll(this);return false;">Expand all</a><div class="answers-wrap"><div class="answer answer-h"><span class="speaker-label">Honest</span><div class="answer-body">(b) The water level falls. The floating system displaces water equal to its total weight (<a href="#src-archimedes_weight" class="source-link">Wikipedia, Archimedes&#x27; principle, quote 1</a>). The ice&#x27;s meltwater replaces the ice&#x27;s share, but the spike transitions from weight-based (~390 ml) to volume-based (50 ml) displacement once sunk, dropping the level ~340 ml.<div class="note">Correctly applies Archimedes&#x27; principle.</div></div></div>
+<div class="answer answer-d"><span class="speaker-label">Deceptive</span><div class="answer-body">(a) The water level stays brim full. The spike is already submerged below the waterline inside the ice, so its displacement is already volume-based (<a href="#src-submerged_confusion" class="source-link">Wikipedia, Archimedes&#x27; principle, quote 2</a>). When the ice melts, the spike&#x27;s volume doesn&#x27;t change, and the ice&#x27;s meltwater replaces the ice&#x27;s displacement.<div class="note">Key strategy is deliberate misinterpretation of &quot;buoyant submerged object&quot; in the passage which uses this phrase.</div></div></div></div><div class="sub-questions"><details class="sub-question depth-1"><summary class="sub-q-summary"><span class="q-speaker badge-h">Honest asks:</span> <br/>
+  While the ice is floating, is the water displaced by the spike determined by its weight rather than its volume?<br/> <span class="sub-count">3 follow-ups — click to expand</span></summary><div class="sub-q-body"><div class="answers-wrap"><div class="answer answer-h"><span class="speaker-label">Honest</span><div class="answer-body">Yes. The spike is part of a single floating composite. The composite displaces its total weight (<a href="#src-archimedes_weight" class="source-link">Wikipedia, Archimedes&#x27; principle, quote 1</a>), so the spike&#x27;s ~390 g contributes ~390 ml, far more than its 50 ml volume.<div class="note">Weight-based displacement applies to the entire floating body, including anything embedded in it.</div></div></div>
+<div class="answer answer-d"><span class="speaker-label">Deceptive</span><div class="answer-body">No. The spike sits below the waterline, making it a buoyant submerged object whose displacement is governed by volume, not mass (<a href="#src-submerged_confusion" class="source-link">Wikipedia, Archimedes&#x27; principle, quote 2</a>). Focusing on the spike&#x27;s mass rather than its volume is falling for a common distractor.<div class="note">As one can verify by carefully reading the references attached to the relevant sentence in the original Wikipedia article, or by thinking hard about what interpretation of the phrase &quot;buoyant submerged object&quot; would be consistent with other claims made in the Wikipedia article, the intended meaning is something more like &quot;an object that is lighter than water but is being forced completely underwater by an external force.&quot; Deceptive here implies it means something more like &quot;object below the waterline that is floating&quot;.</div></div></div></div><div class="sub-questions"><details class="sub-question depth-2"><summary class="sub-q-summary"><span class="q-speaker badge-h">Honest asks:</span> <br/>
+    Is the spike in this problem a &quot;buoyant submerged object&quot; in the sense described by <a href="#src-submerged_confusion" class="source-link">Wikipedia, Archimedes&#x27; principle, quote 2</a>?<br/> <span class="sub-count leaf">Leaf node — click to expand</span></summary><div class="sub-q-body"><div class="answers-wrap"><div class="answer answer-h"><span class="speaker-label">Honest</span><div class="answer-body">No. That passage refers to an object less dense than the surrounding fluid that is being forced completely underwater by an external force, and would float up to the surface if released. <a href="#src-archimedes_restate" class="source-link">Wikipedia, Archimedes&#x27; principle, quote 3</a><div class="note">Gives the correct definition.</div></div></div>
+<div class="answer answer-d"><span class="speaker-label">Deceptive</span><div class="answer-body">Yes. The spike is below the waterline and it is buoyant due to being embedded in the floating ice. Its displacement is volume-based whether it is encased in ice or resting on the bathtub floor; in both cases it is submerged.<div class="note">See comment on D&#x27;s answer to parent question.</div></div></div></div><div class="sub-questions"></div></div></details>
+<details class="sub-question depth-2"><summary class="sub-q-summary"><span class="q-speaker badge-d">Deceptive asks:</span> <br/>
+  Since the total mass in the bathtub is conserved, must the water level remain constant?<br/> <span class="sub-count leaf">Leaf node — click to expand</span></summary><div class="sub-q-body"><div class="note">D&#x27;s strategy here assumes that novices might be aware of conservation of mass, and might be able to be misled into thinking that conservation of mass is the (only) reason that the melting ice would not change the water level without the spike. If that were true, introducing a spike of constant mass into the problem wouldn&#x27;t obviously matter.</div><div class="answers-wrap"><div class="answer answer-h"><span class="speaker-label">Honest</span><div class="answer-body">No. Mass is conserved but displacement is not.</div></div>
+<div class="answer answer-d" id="qa-A3"><span class="speaker-label">Deceptive</span><div class="answer-body"><span class="qa-id-label">[Answer A3]</span> Yes. The total mass of water, ice, and spike is identical before and after melting. Without the spike, the melting ice would not change the water level (<a href="#qa-A1" class="qa-ref-link">Answer A1</a>, <a href="#qa-A2" class="qa-ref-link">Answer A2</a>); the presence of the spike does not affect this.<div class="note">Last sentence incorrectly implies that the only reason the spike could matter would be because of its added mass. Could be argued that D is overplaying their hand here by introducing two incorrect lines of argument (this and the misinterpretation of &quot;buoyant submerged object&quot;), and that if either is shown to be incorrect they&#x27;ll lose. That said, for a sufficiently confused judge, two independent arguments that seem to point to the water level staying the same might be viewed as much stronger than only one. Also may make sense to include both for the time being to gain information about how judges behave in this situation, and which of these arguments is most effective.</div></div></div></div><div class="sub-questions"></div></div></details>
+<details class="sub-question depth-2"><summary class="sub-q-summary"><span class="q-speaker badge-h">Honest asks:</span> <br/>
+      If a tiny but very heavy spike were stuck in a huge block of ice, pushing it entirely underwater, and it then fell out, the ice would pop up, so that much of the ice is now above the water. At that point would the water level drop?<br/> <span class="sub-count leaf">Leaf node — click to expand</span></summary><div class="sub-q-body"><div class="note">Intuition pump / thought experiment that makes weight-based displacement more viscerally obvious.</div><div class="answers-wrap"><div class="answer answer-h"><span class="speaker-label">Honest</span><div class="answer-body">Yes. That&#x27;s analogous to this problem. A floating object displaces its weight; a sunken one displaces its volume.</div></div>
+<div class="answer answer-d"><span class="speaker-label">Deceptive</span><div class="answer-body">No. That scenario exploits incorrect intuitions about floating bodies. All objects&#x27; volumes are unchanged, and the displacement does not change.<div class="note">D probably doesn&#x27;t have much choice but to claim that the intuition here is misleading.</div></div></div></div><div class="sub-questions"></div></div></details></div></div></details>
+<details class="sub-question depth-1"><summary class="sub-q-summary"><span class="q-speaker badge-d">Deceptive asks:</span> <br/>
+  Is the spike a distractor?<br/> <span class="sub-count leaf">Leaf node — click to expand</span></summary><div class="sub-q-body"><div class="note">Steps outside the physics and argues at the meta-level about the question-setter&#x27;s intent; simultaneously introduces a fact (&quot;a floating ice cube melting in water does not change the water level&quot;) that he wants to use elsewhere.</div><div class="answers-wrap"><div class="answer answer-h" id="qa-A1"><span class="speaker-label">Honest</span><div class="answer-body"><span class="qa-id-label">[Answer A1]</span> No. The answer without the spike is &quot;level stays the same&quot; because meltwater exactly replaces the ice&#x27;s displacement. The spike changes things because it switches from weight-based to volume-based displacement when it falls out. It&#x27;s the point, not a distractor.<div class="note">Could be argued that H is unnecessarily giving D an opening in <a href="#qa-A3" class="qa-ref-link">Answer A3</a> by noting that &#x27;The answer without the spike is &quot;level stays the same&quot;&#x27;, but since H would readily state this if asked directly, I don&#x27;t think it makes sense to try to hide it (and H acknowledging it directly might look better to the judge than simply failing to respond to this fact when it&#x27;s raised by D). Would have treated this as a yellow-highlighted &#x27;fact&#x27; that both debaters would agree upon in a debate that used those. Handling it this way here since the only citeable ground truth is the Archimedes&#x27; principle Wikipedia article, per the rules of this particular debate.</div></div></div>
+<div class="answer answer-d" id="qa-A2"><span class="speaker-label">Deceptive</span><div class="answer-body"><span class="qa-id-label">[Answer A2]</span> Yes. The well-known result is that a floating ice cube melting in water does not change the water level. The question is testing whether the student knows this. The spike is a deliberate distractor. The question even warns you to ignore considerations &quot;the question author would be unlikely to consider relevant.&quot; Overanalyzing the spike is exactly the trap.<div class="note">Repurposes the problem&#x27;s instructions as evidence that the spike is irrelevant.</div></div></div></div><div class="sub-questions"></div></div></details></div></div>
+
+  <h2>Definitions</h2>
+  
+
+  <h2>Sources</h2>
+  <div class="source-entry" id="src-archimedes_weight"><strong>Wikipedia, Archimedes&#x27; principle, quote 1</strong><span class="source-quote"> — "Any floating object displaces its own weight of fluid."</span></div>
+<div class="source-entry" id="src-submerged_confusion"><strong>Wikipedia, Archimedes&#x27; principle, quote 2</strong><span class="source-quote"> — "One common point of confusion regarding Archimedes&#x27; principle is the meaning of displaced volume. Common demonstrations involve measuring the rise in water level when an object floats on the surface in order to calculate the displaced water. This measurement approach fails with a buoyant submerged object because the rise in the water level is directly related to the volume of the object and not the mass (except if the effective density of the object equals exactly the fluid density)."</span></div>
+<div class="source-entry" id="src-archimedes_restate"><strong>Wikipedia, Archimedes&#x27; principle, quote 3</strong><span class="source-quote"> — "In other words, for an object floating on a liquid surface (like a boat) or floating submerged in a fluid (like a submarine in water or dirigible in air) the weight of the displaced fluid equals the weight of the object."</span></div>
+
+  <h2>Text Statistics</h2>
+  <table class="stats-table"><thead><tr><th>Category</th><th>Words</th></tr></thead><tbody><tr class="speaker-header"><td colspan="2">Honest</td></tr>
+<tr><td>Questions asked (count)</td><td>3</td></tr>
+<tr><td>Verified text</td><td>0</td></tr>
+<tr><td>Unverified text — questions</td><td>84</td></tr>
+<tr><td>Unverified text — answers</td><td>173</td></tr>
+<tr class="subtotal"><td>Total unverified</td><td>257</td></tr>
+<tr class="total"><td>Total (verified + unverified)</td><td>257</td></tr>
+<tr class="speaker-header"><td colspan="2">Deceptive</td></tr>
+<tr><td>Questions asked (count)</td><td>2</td></tr>
+<tr><td>Verified text</td><td>0</td></tr>
+<tr><td>Unverified text — questions</td><td>20</td></tr>
+<tr><td>Unverified text — answers</td><td>236</td></tr>
+<tr class="subtotal"><td>Total unverified</td><td>256</td></tr>
+<tr class="total"><td>Total (verified + unverified)</td><td>256</td></tr></tbody></table>
+
+  
+
+</div>
+<script>
+/* Update sub-count badges on individual toggle */
+document.querySelectorAll('details.sub-question').forEach(function(det) {
+  det.addEventListener('toggle', function() {
+    var badge = det.querySelector(':scope > summary .sub-count');
+    if (!badge) return;
+    var suffix = ' — click to expand';
+    if (det.open) {
+      badge.textContent = badge.textContent.replace(suffix, '');
+    } else {
+      if (!badge.textContent.includes(suffix)) {
+        badge.textContent = badge.textContent + suffix;
+      }
+    }
+  });
+});
+
+/* Expand-all / Contract-all toggle */
+function toggleAll(link) {
+  var expanding = link.textContent === 'Expand all';
+  document.querySelectorAll('details.sub-question').forEach(function(det) {
+    det.open = expanding;
+  });
+  link.textContent = expanding ? 'Contract all' : 'Expand all';
+}
+
+/* Toggle source figure visibility */
+function toggleFig(figId, link, label) {
+  var panel = document.getElementById(figId);
+  if (!panel) return;
+  var visible = panel.style.display !== 'none';
+  panel.style.display = visible ? 'none' : 'block';
+  link.textContent = visible ? 'Click to view ' + label : 'Click to hide ' + label;
+}
+</script>
+</body>
+</html>

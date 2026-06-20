@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debate>
+<title>Bergs</title>
+
+<sources>
+  <ref id="archimedes_weight" author="Wikipedia, Archimedes&#x27; principle, quote 1 [URL blinded from debate judges.]" quote="Any floating object displaces its own weight of fluid."/>
+  <ref id="submerged_confusion" author="Wikipedia, Archimedes&#x27; principle, quote 2 [URL blinded from debate judges.]" quote="One common point of confusion regarding Archimedes&#x27; principle is the meaning of displaced volume. Common demonstrations involve measuring the rise in water level when an object floats on the surface in order to calculate the displaced water. This measurement approach fails with a buoyant submerged object because the rise in the water level is directly related to the volume of the object and not the mass (except if the effective density of the object equals exactly the fluid density)."/>
+  <ref id="archimedes_restate" author="Wikipedia, Archimedes&#x27; principle, quote 3 [URL blinded from debate judges.]" quote="In other words, for an object floating on a liquid surface (like a boat) or floating submerged in a fluid (like a submarine in water or dirigible in air) the weight of the displaced fluid equals the weight of the object."/>
+</sources>
+
+<question>
+  A ball of ice 50 cm in diameter floats in a bathtub that holds 200 L water, which is brim full with ice-cold water. The ice has a 50 cm^3 railroad spike frozen inside it. When it melts, what will happen? The bathtub will stay brim full The water level in the bathtub will fall The water in the bathtub will spill over You may ignore the effects of differences in an object's weight in air vs. vacuum or other considerations that the question author would be unlikely to consider relevant. In other words, please provide the answer that you believe the question author would be most likely to mark as correct.
+
+  <side label="left">
+    <opening speaker="A">The water level will fall. The floating ice-and-spike system displaces water equal to its total weight (<ref id="archimedes_weight"/>). The ice's meltwater replaces the ice's share, but the spike goes from weight-based (~390 ml) to volume-based (50 ml) displacement once sunk, a ~340 ml drop.</opening>
+    <question speaker="B" round="Question 1">The spike is a "buoyant submerged object" (<ref id="submerged_confusion"/>) inside the ice. For such objects, water rise relates to "volume... not mass" (<ref id="submerged_confusion"/>). The spike's volume is unchanged after melting, so why would the level change?
+      <answer speaker="A" round="Answer 1">That passage describes an object less dense than the fluid being forced completely underwater, like a beach ball held below the surface (<ref id="archimedes_restate"/>). The spike is denser than water and not buoyant on its own. It's part of a floating composite, so weight-based displacement applies.</answer>
+    </question>
+    <question speaker="B" round="Question 2">We agree that if there were no spike, the level wouldn't change. And the spike's mass doesn't leave the system; it's conserved due to conservation of mass. If mass hasn't changed, why would the level drop?
+      <answer speaker="A" round="Answer 2">Mass is conserved, displacement isn't. A floating object displaces its weight; a sunken one displaces its volume. The spike transitions between these regimes. That's why mass conservation doesn't keep the level constant.</answer>
+    </question>
+    <question speaker="B" round="Question 3">You're confusing the container with the contents. The ice floats due to its low density; the spike is a high-density volume trapped inside it. Its displacement doesn't depend on whether it's frozen in or sitting on the bottom.
+      <answer speaker="A" round="Answer 3">The ice and spike are one floating body; there is no "container", just a composite object that displaces its total weight (<ref id="archimedes_weight"/>). Separating them into independent parts is the error.</answer>
+    </question>
+  </side>
+
+  <side label="right">
+    <opening speaker="B">The bath will stay brim full. A floating ice cube melting in water does not change the level; that's the well-known result. The spike is a deliberate distractor; the question even warns you to ignore considerations the author would consider irrelevant.</opening>
+    <question speaker="A" round="Question 1">Without the spike, meltwater exactly replaces the ice's displacement; that's why the level stays. The spike changes the problem: ~390 g floating contributes ~390 ml of displacement, but only 50 ml once sunk. Isn't that a ~340 ml drop?
+      <answer speaker="B" round="Answer 1">The spike is below the waterline and buoyant due to being embedded in the ice. Its displacement is volume-based whether encased in ice or on the tub floor (<ref id="submerged_confusion"/>). The 50 cm³ doesn't change, so the level doesn't change.</answer>
+    </question>
+    <question speaker="A" round="Question 2">If a tiny but very heavy spike were stuck in a huge block of ice, pushing it entirely underwater, and it then fell out, the ice would pop up, with much of the ice now above the water. At that point would the water level drop?
+      <answer speaker="B" round="Answer 2">That scenario is misleading. When the spike falls out, the ice rises, but the spike settles to the bottom. The ice displaces less, but the spike on the bottom displaces more. The two changes cancel out and the level stays the same.</answer>
+    </question>
+    <question speaker="A" round="Question 3">Does the floating ice-and-spike system displace water equal to its total weight (<ref id="archimedes_weight"/>)? If so, the spike's ~390 g contributes ~390 ml while floating, but only 50 ml once sunk. Where does the difference go?
+      <answer speaker="B" round="Answer 3">We cannot treat this as a single "floating ice-and-spike system": the ice floats on its own (weight-based displacement), the spike doesn't and is therefore a buoyant submerged object (volume-based displacement). (<ref id="submerged_confusion"/>)</answer>
+    </question>
+  </side>
+</question>
+</debate>

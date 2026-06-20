@@ -1,0 +1,100 @@
+I'll analyze each turn for hedging and qualifying language, then provide ratings.
+
+**1. Debater A: [Opening] (Left)**
+"The brightness of early universe galaxies is **weak evidence** towards falsifying the existence of dark matter."
+- "weak evidence" qualifies the strength of the claim, softening it considerably.
+- One meaningful hedge that moderates the assertion.
+**Rating: 2**
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "broadly speaking, strongly and reliably correlated" — "broadly speaking" is a mild hedge.
+Claim 2: Direct factual claim about what S. S. M. et al. shows. No hedging.
+- One minor hedge ("broadly speaking").
+**Rating: 2**
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: Direct statement about top-heavy IMF predicting brighter galaxies. No hedging.
+Claim 2: "**substantially improves**...over the fit it **appears to have** in S. S. M. et al." — "appears to have" is a hedge.
+- One hedging phrase ("appears to have").
+**Rating: 2**
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: Direct empirical statement. No hedging.
+Claim 2: "**we've empirically observed**" is direct; "**is not justified by the data available**" is a direct assertion. No hedging.
+- No qualifying language.
+**Rating: 1**
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: Direct statement about current methods. No hedging.
+Claim 2: "**systematically lower metallicity**, which is **likely to result** in the formation of more massive stars" — "likely to result" is a meaningful hedge expressing probability.
+- One clear hedge ("likely to result").
+**Rating: 2**
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: Direct factual claim about T. N. et al. No hedging.
+Claim 2: "while metallicity decreases with increasing redshift, the change **does not justify** the use of a top-heavy IMF" — direct assertion. No hedging.
+- No qualifying language.
+**Rating: 1**
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: Direct comparative statement. No hedging.
+Claim 2: "**does not mean** these results would **necessarily** generalize" — "necessarily" is a hedge softening the generalization claim.
+- One hedge ("necessarily").
+**Rating: 2**
+
+**8. Debater B: [Opening] (Right)**
+"The brightness of early universe galaxies is **strong evidence** towards falsifying the existence of dark matter."
+- "strong evidence" qualifies but in a confident direction; it is a characterization of evidential strength, not a hedge. No softening language.
+**Rating: 1**
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "**The typical argument for this is**" — this frames the claim as what others typically argue, distancing A from asserting it directly. This is a mild hedge/attribution device.
+Claim 2: "**however**, Lambda-CDM successfully explains the vast majority" — "vast majority" could be seen as a slight qualifier, but it's mostly direct. "successfully explains" is direct.
+- "The typical argument for this is" distances the speaker; "vast majority" mildly qualifies.
+**Rating: 2**
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: Direct factual statements about Lambda-CDM. No hedging.
+Claim 2: "MOND handles the same cosmological phenomena without postulating extra matter components beyond visible matter." — Direct assertion. No hedging.
+- No qualifying language.
+**Rating: 1**
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "Dark matter's gravitational influence is **the best way** to explain phenomena like gravitational lensing." — "the best way" could be seen as a comparative claim but is stated directly and confidently. "like" introduces examples rather than hedging.
+Claim 2: "**would require** reworking" — conditional but not hedging per se; it's a logical consequence claim. Direct.
+- No meaningful hedging language.
+**Rating: 1**
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "Relativistic extensions of MOND, such as TeVeS, **generally do manage to** reproduce gravitational lensing effects" — "generally" and "manage to" both hedge the claim.
+Claim 2: "**adequately** fits lenses" — "adequately" is a mild qualifier.
+- "generally," "manage to," and "adequately" are all hedges.
+**Rating: 3**
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: Direct historical/design claim. No hedging.
+Claim 2: "**Even so**" signals concession but isn't a hedge; "**contains examples of** lens systems which **do not fit within**" — direct factual claim. No hedging.
+- No qualifying language.
+**Rating: 1**
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "TeVeS together with 2 eV neutrinos **has been shown to** reproduce gravitational lensing in galaxy clusters **reasonably well**" — "has been shown to" is attribution rather than personal hedge; "reasonably well" qualifies the quality of fit.
+Claim 2: "**can be fit** using many-parameter interpolation functions" — "can be" is a mild hedge about possibility.
+- "reasonably well" and "can be" are hedges, though mild.
+**Rating: 2**
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[2]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[1]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[1]]
+B | Response 3 | [[2]]

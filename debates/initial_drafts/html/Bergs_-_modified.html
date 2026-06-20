@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bergs - modified</title>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 2em;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            color: #34495e;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+        
+        h3 {
+            color: #34495e;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        
+        .question-section {
+            margin-bottom: 40px;
+        }
+        
+        .question-section p {
+            margin-bottom: 15px;
+        }
+        
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .references-section {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+        }
+        
+        .references-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .reference-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: white;
+            border-left: 4px solid #3498db;
+            border-radius: 4px;
+        }
+        
+        .reference-item strong {
+            color: #2c3e50;
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        .reference-quote {
+            color: #666;
+            font-style: italic;
+            margin-top: 8px;
+        }
+        
+        .debate-container {
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .debate-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .debate-table thead {
+            background-color: #34495e;
+            color: white;
+        }
+        
+        .debate-table th {
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .debate-table td {
+            padding: 12px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .debate-table tbody tr:hover {
+            background-color: #f8f9fa;
+        }
+        
+        .liz-turn {
+            background-color: #e8f5e9;
+        }
+        
+        .bob-turn {
+            background-color: #fff3e0;
+        }
+        
+        .turn-label {
+            font-weight: 600;
+            color: #2c3e50;
+            width: 100px;
+            white-space: nowrap;
+        }
+        
+        .turn-content {
+            line-height: 1.8;
+        }
+        
+        .task-block {
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+            line-height: 1.6;
+        }
+        
+        pre {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 15px;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+        
+        code {
+            font-family: "Consolas", "Monaco", "Courier New", monospace;
+            font-size: 0.9em;
+        }
+        
+        pre code {
+            display: block;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        
+        .ref-link {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .ref-link:hover {
+            text-decoration: underline;
+        }
+        
+        .flyout {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: white;
+        }
+        
+        .flyout-header {
+            padding: 15px 20px;
+            cursor: pointer;
+            user-select: none;
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #ddd;
+            font-weight: 600;
+            color: #2c3e50;
+            transition: background-color 0.2s ease;
+        }
+        
+        .flyout-header:hover {
+            background-color: #e9ecef;
+        }
+        
+        .flyout-header::before {
+            content: "▶";
+            display: inline-block;
+            margin-right: 10px;
+            transition: transform 0.2s ease;
+            font-size: 0.8em;
+        }
+        
+        .flyout.expanded .flyout-header::before {
+            transform: rotate(90deg);
+        }
+        
+        .flyout-content {
+            display: none;
+            padding: 20px;
+        }
+        
+        .flyout.expanded .flyout-content {
+            display: block;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+            
+            .debate-table {
+                font-size: 0.9em;
+            }
+            
+            .debate-table th,
+            .debate-table td {
+                padding: 8px;
+            }
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add click handlers to flyout headers
+            document.querySelectorAll('.flyout-header').forEach(function(header) {
+                header.addEventListener('click', function() {
+                    var flyout = this.parentElement;
+                    flyout.classList.toggle('expanded');
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Bergs - modified</h1>
+        
+        <div class="flyout">
+            <div class="flyout-header">Question</div>
+            <div class="flyout-content">
+                <div class="question-section">
+                    <p>A ball of ice 50 cm in diameter floats in a bathtub that holds 200 L water, which is brim full with very cold water (0°). The ice has a 50 cm^3 railroad spike frozen inside it. When it melts, what will happen? </p>
+<br>
+<p>a) The bathtub will stay brim full </p>
+<p>b) The water level in the bathtub will fall </p>
+<p>c) The water in the bathtub will spill over</p>
+<br>
+<p>You may ignore the effects of differences in an object&#x27;s weight in air vs. vacuum or other considerations that the question author would be unlikely to consider relevant. In other words, please provide the answer that you believe the question author would be most likely to mark as correct.</p>
+<br>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="flyout">
+            <div class="flyout-header">Manual debates</div>
+            <div class="flyout-content">
+                <div class="debate-container">
+<h3>Debate: Liz (Initiator) vs Bob (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.0</td>
+    <td class="turn-content">The answer is (b). While floating, the heavy spike forces the ice to displace water equal to the spike&#x27;s weight. When the ice melts, the spike sinks to the bottom, where it displaces only its volume. Since iron is denser than water, it displaced much more water while floating.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.0</td>
+    <td class="turn-content">The low-density ice is floating and so displaces exactly its own weight in water <a href="#ref-archimedes_weight" class="ref-link">[archimedes_weight]</a>. The spike is a &quot;buoyant submerged object&quot; <a href="#ref-submerged_confusion" class="ref-link">[submerged_confusion]</a> inside the ice. Why treat the spike&#x27;s mass as what matters when water rise relates to &quot;volume... not mass&quot; <a href="#ref-submerged_confusion" class="ref-link">[submerged_confusion]</a> for submerged objects?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.1</td>
+    <td class="turn-content">The spike drops out of the ice as the ice melts. The ice, relieved of that load, pops up like an unloaded boat, lowering the water level. When the remaining ice melts the level stays at that new, lower point.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.1</td>
+    <td class="turn-content">The water level does not lower when a boat is unloaded. Since this is a closed system (the mass of the water, ice, and spike remains exactly the same before and after melting), and mass is conserved, why wouldn&#x27;t the water level remain constant?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.2</td>
+    <td class="turn-content">Mass is conserved, but displacement changes. Think of a huge Styrofoam cube with small, very heavy lead balls weighing it down: it displaces a lot of water. If dropped, the whole cube pops out of the water and very little water is displaced.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.2</td>
+    <td class="turn-content">If a system like this displaced water equal to its weight, wouldn&#x27;t that imply that a floating Styrofoam cube that starts to sink due to containing a 100 lb metal ball would displace ~10x as much water as a same-sized cube containing a same-sized 1,000 lb ball?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.3</td>
+    <td class="turn-content">Yes, provided the cube is large enough to keep the 1,000 lb ball afloat. That is exactly how buoyancy works <a href="#ref-archimedes_weight" class="ref-link">[archimedes_weight]</a>.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<div class="debate-container">
+<h3>Debate: Bob (Initiator) vs Liz (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.0</td>
+    <td class="turn-content">The answer is (a). The water level stays the same <a href="#ref-archimedes_weight" class="ref-link">[archimedes_weight]</a> for a &quot;floating object&quot;, but the spike isn&#x27;t &quot;floating&quot; in the required sense.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.0</td>
+    <td class="turn-content">Why not? A &quot;railroad spike&quot; implies significant weight (~400g). While floating, that weight displaces ~400ml of water. When sunken, it displaces only 50ml. Shouldn’t the water level drop ~350ml?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.1</td>
+    <td class="turn-content">The spike is effectively a &quot;buoyant submerged object&quot; <a href="#ref-submerged_confusion" class="ref-link">[submerged_confusion]</a> inside the ice system. The text warns that for such objects, water rise relates to &quot;volume... not mass&quot; <a href="#ref-submerged_confusion" class="ref-link">[submerged_confusion]</a> which does not change. By focusing on the spike&#x27;s mass, you are falling for the distractor.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.1</td>
+    <td class="turn-content"><a href="#ref-submerged_confusion" class="ref-link">[submerged_confusion]</a> warns that the displacement rule switches from mass-based to volume-based when an object becomes submerged. Since the spike transitions from floating (supported by ice/buoyancy) to submerged (supported by the tub floor), why wouldn&#x27;t the displacement switch too?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.2</td>
+    <td class="turn-content">You are confusing the container with the contents. The ice floats due to its low density; the spike is just a fixed volume trapped inside it.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.2</td>
+    <td class="turn-content">Imagine the spike is the size of a pin but super-heavy such that the ice is pushed almost entirely underwater to support it. If that pin-spike suddenly fell out, the ice would pop up and the water level would fall. At what weight does the answer switch from (b) to (a)?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.3</td>
+    <td class="turn-content">It doesn&#x27;t switch. That scenario exploits incorrect intuitions that some people have about floating bodies.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+                <div class="references-section">
+<h2>References</h2>
+<ul class="references-list">
+  <li class="reference-item">
+    <strong id="ref-archimedes_weight"><a href="https://en.wikipedia.org/wiki/Archimedes%27_principle" target="_blank">https://en.wikipedia.org/wiki/Archimedes%27_principle</a></strong>
+    <p class="reference-quote">Any floating object displaces its own weight of fluid.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-submerged_confusion"><a href="https://en.wikipedia.org/wiki/Archimedes%27_principle" target="_blank">https://en.wikipedia.org/wiki/Archimedes%27_principle</a></strong>
+    <p class="reference-quote">One common point of confusion regarding Archimedes&#x27; principle is the meaning of displaced volume. Common demonstrations involve measuring the rise in water level when an object floats on the surface in order to calculate the displaced water. This measurement approach fails with a buoyant submerged object because the rise in the water level is directly related to the volume of the object and not the mass (except if the effective density of the object equals exactly the fluid density).</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-archimedes_restate"><a href="https://en.wikipedia.org/wiki/Archimedes%27_principle" target="_blank">https://en.wikipedia.org/wiki/Archimedes%27_principle</a></strong>
+    <p class="reference-quote">In other words, for an object floating on a liquid surface (like a boat) or floating submerged in a fluid (like a submarine in water or dirigible in air) the weight of the displaced fluid equals the weight of the object.</p>
+  </li>
+</ul>
+</div>
+
+            </div>
+        </div>
+        
+                <div class="flyout">
+            <div class="flyout-header">Gemini 3 Pro Debates</div>
+            <div class="flyout-content">
+                <div class="debate-container">
+<h3>Debate: Liz (Initiator) vs Bob (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.0</td>
+    <td class="turn-content">The answer is B. Initially, the ice and spike float, displacing water equal to their total weight. Since the spike is dense steel, it weighs far more than the water it displaces by volume. When melted, the spike sinks and only displaces its volume. The water level falls.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.0</td>
+    <td class="turn-content">That sounds precise, but isn&#x27;t this the classic Archimedes puzzle? &quot;For a floating object, the weight of the displaced fluid equals the weight of the object&quot;<a href="#ref-archimedes_floating" class="ref-link">[archimedes_floating]</a>. The total mass in the tub (ice+spike+water) is constant. Why would the level change if the mass doesn&#x27;t?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.1</td>
+    <td class="turn-content">Mass is conserved, but displacement changes. &quot;The volume of displaced fluid is equivalent to the volume of an object fully immersed&quot;<a href="#ref-submerged" class="ref-link">[submerged]</a>. Floating, the spike forces the ice to displace the spike&#x27;s weight in water. Sunk, it displaces only the spike&#x27;s volume. The level falls.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.1</td>
+    <td class="turn-content">You&#x27;re separating them, but they are one system. The ice was the displacement mechanism. When the ice melts, it turns into water that exactly fills the volume it displaced for its own weight. The spike was just &quot;along for the ride&quot; and remains in the water. Why assume a &quot;deficit&quot;?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.2</td>
+    <td class="turn-content">Because steel is 8x denser than water. To float 1kg of steel, the ice must displace 1L of water. When that 1kg sinks, it only displaces ~0.125L. The tub loses 0.875L of displacement per kg of steel. That water level must drop to fill the void.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.2</td>
+    <td class="turn-content">I question your complexity. &quot;Archimedes&#x27; principle states that the upward buoyant force... is equal to the weight of the fluid that the body displaces&quot;<a href="#ref-archimedes_def" class="ref-link">[archimedes_def]</a>. The forces balance before. After melting, the mass is the same. Why wouldn&#x27;t the melted ice fill the void?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.3</td>
+    <td class="turn-content">The forces don&#x27;t balance on the water anymore. The tub floor now supports the spike&#x27;s excess weight. Since the water supports less weight, it is displaced less. The melted ice matches the ice&#x27;s displacement, but nothing replaces the displacement lost when the spike sinks.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<div class="debate-container">
+<h3>Debate: Bob (Initiator) vs Liz (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.0</td>
+    <td class="turn-content">The answer is A. The tub stays brim full. This is a standard application of Archimedes&#x27; principle. The floating system displaces its exact weight in water. When the ice melts, it turns into that exact weight of water, perfectly filling the volume it previously displaced.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.0</td>
+    <td class="turn-content">That applies to pure ice. But the spike is steel. &quot;If the object is denser than the fluid... the weight of the displaced fluid is less than the weight of the object&quot;<a href="#ref-denser" class="ref-link">[denser]</a>. Floating, it displaced its weight. Sunk, it displaces less. Doesn&#x27;t this mismatch lower the level?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.1</td>
+    <td class="turn-content">The spike is in the tub regardless. The question asks about the system&#x27;s effect on the water level. Since the mass of the spike is conserved and it remains in the water, its contribution to the volume is constant. The level stays brim full because the total matter in the tub is unchanged.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.1</td>
+    <td class="turn-content">Matter is conserved, but level depends on volume. A floating 1kg spike displaces 1L. A submerged 1kg spike displaces only ~0.13L. Since the submerged volume is so much smaller than the floating displacement, won&#x27;t the water level fall to fill the difference?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.2</td>
+    <td class="turn-content">You are confusing the object&#x27;s volume with its displacement. As long as the spike was part of the floating body, &quot;the weight of the displaced fluid equals the weight of the object&quot;<a href="#ref-archimedes_floating" class="ref-link">[archimedes_floating]</a>. The melting is just a state change; the system&#x27;s weight—and thus its footprint—remains constant.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.2</td>
+    <td class="turn-content">But the quote you cited applies only &quot;For a floating object.&quot; Once the ice melts, the spike is no longer a floating object; it is a submerged one. How can your reference apply when its fundamental condition—floating—is no longer met?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.3</td>
+    <td class="turn-content">Not practically. The water that results from the melted ice occupies the space that was previously providing the buoyancy. The &quot;lost&quot; buoyancy you describe is exactly filled by the volume of the water generated from the ice. The level holds steady.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+                <div class="references-section">
+<h2>References</h2>
+<ul class="references-list">
+  <li class="reference-item">
+    <strong id="ref-archimedes_def"><a href="https://en.wikipedia.org/wiki/Archimedes%27_principle" target="_blank">https://en.wikipedia.org/wiki/Archimedes%27_principle</a></strong>
+    <p class="reference-quote">Archimedes&#x27; principle states that the upward buoyant force that is exerted on a body immersed in a fluid, whether fully or partially submerged, is equal to the weight of the fluid that the body displaces.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-archimedes_floating"><a href="https://en.wikipedia.org/wiki/Archimedes%27_principle" target="_blank">https://en.wikipedia.org/wiki/Archimedes%27_principle</a></strong>
+    <p class="reference-quote">For a floating object, the weight of the displaced fluid equals the weight of the object.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-submerged"><a href="https://en.wikipedia.org/wiki/Archimedes%27_principle" target="_blank">https://en.wikipedia.org/wiki/Archimedes%27_principle</a></strong>
+    <p class="reference-quote">The volume of displaced fluid is equivalent to the volume of an object fully immersed in a fluid</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-denser"><a href="https://en.wikipedia.org/wiki/Archimedes%27_principle" target="_blank">https://en.wikipedia.org/wiki/Archimedes%27_principle</a></strong>
+    <p class="reference-quote">If the object is denser than the fluid, then ... the weight of the displaced fluid is less than the weight of the object.</p>
+  </li>
+</ul>
+</div>
+
+            </div>
+        </div>
+        <div class="flyout">
+            <div class="flyout-header">GPT 5.2 Debates</div>
+            <div class="flyout-content">
+                <div class="debate-container">
+<h3>Debate: Liz (Initiator) vs Bob (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.0</td>
+    <td class="turn-content">b) level falls. While floating, ice+spike must displace water whose weight equals the whole object’s weight<a href="#ref-flotation1" class="ref-link">[flotation1]</a>. After melting, the spike is sunken and displaces only its volume, so less water is displaced.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.0</td>
+    <td class="turn-content">Melting floating ice usually leaves the level unchanged. Since the ice turns into water, what physical volume disappears to make the waterline drop?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.1</td>
+    <td class="turn-content">Before: V_before=(m_ice+m_spike)/rho_w. After: V_after=m_ice/rho_w+V_spike because a sunken object displaces its full volume<a href="#ref-floatvsun1" class="ref-link">[floatvsun1]</a>. With rho_spike&gt;rho_w, V_before&gt;V_after, so level falls.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.1</td>
+    <td class="turn-content">The spike’s 50 cm^3 volume was already inside the ice. Why doesn’t the tub just “see” that same volume both times if buoyant force equals displaced-fluid weight<a href="#ref-buoyant1" class="ref-link">[buoyant1]</a>?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.2</td>
+    <td class="turn-content">Because for floating, displaced-fluid weight equals total weight<a href="#ref-flotation1" class="ref-link">[flotation1]</a>. The spike’s weight forces extra submergence of the ice beyond V_spike: rho_w g V_before=(m_ice+m_spike)g<a href="#ref-buoyant1" class="ref-link">[buoyant1]</a>.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.2</td>
+    <td class="turn-content">Compute deltaV=V_before-V_after using Archimedes, not intuition. What do you get for deltaV in terms of V_spike and densities, and why is its sign fixed?<a href="#ref-shape1" class="ref-link">[shape1]</a></td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.3</td>
+    <td class="turn-content">deltaV=m_spike/rho_w-V_spike=(rho_spike/rho_w-1)V_spike. Since rho_spike&gt;rho_w, deltaV&gt;0, so after melting less water is displaced and the level falls.<a href="#ref-buoyant1" class="ref-link">[buoyant1]</a></td>
+  </tr>
+</tbody>
+</table>
+</div>
+<div class="debate-container">
+<h3>Debate: Bob (Initiator) vs Liz (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.0</td>
+    <td class="turn-content">a) stays brim full. Principle of flotation: the floating ice+spike already displaced its own weight in water<a href="#ref-flotation1" class="ref-link">[flotation1]</a>. When the ice melts, that weight becomes water in the tub; nothing demands a net level change.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.0</td>
+    <td class="turn-content">Your rule used the spike’s weight too. Once the spike separates and is no longer part of a floating body, doesn’t “sunken object... entire volume displaces water”<a href="#ref-floatvsun1" class="ref-link">[floatvsun1]</a> apply, making the level fall?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.1</td>
+    <td class="turn-content">The spike still feels buoyancy equal to displaced-water weight<a href="#ref-buoyant1" class="ref-link">[buoyant1]</a>. Since its volume is present in the tub both before and after, the meltwater occupies the space the ice used to displace; why doesn’t that keep the brim the same?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.1</td>
+    <td class="turn-content">Flotation says floating displacement tracks total weight<a href="#ref-flotation1" class="ref-link">[flotation1]</a>; floatvsun says a sunken object displaces only its volume<a href="#ref-floatvsun1" class="ref-link">[floatvsun1]</a>. With steel density far above water, why doesn’t shifting from m_spike/rho_w to V_spike force a drop?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.2</td>
+    <td class="turn-content">Because floatvsun also says only the submerged volume displaces water<a href="#ref-floatvsun1" class="ref-link">[floatvsun1]</a>. The spike is submerged both before and after, so its contribution is V_spike either way; the rest is the classic ice-to-water cancellation. What step makes that wrong?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.2</td>
+    <td class="turn-content">Your Bob.2 ignores that spike mass forces extra ice submergence. Since buoyant force equals displaced-fluid weight<a href="#ref-buoyant1" class="ref-link">[buoyant1]</a>, why doesn’t adding m_spike raise V_before by m_spike/rho_w?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.3</td>
+    <td class="turn-content">The expected multiple-choice lesson is flotation1: floating ice melting doesn’t change the level<a href="#ref-flotation1" class="ref-link">[flotation1]</a>. The spike detail is a distractor; its 50 cm^3 volume exists either way, so the marked answer is (a).</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+                <div class="references-section">
+<h2>References</h2>
+<ul class="references-list">
+  <li class="reference-item">
+    <strong id="ref-buoyant1"><a href="https://en.wikipedia.org/wiki/Archimedes%27_principle" target="_blank">https://en.wikipedia.org/wiki/Archimedes%27_principle</a></strong>
+    <p class="reference-quote">Archimedes&#x27; principle states that the upward buoyant force ... is equal to the weight of the fluid that the body displaces.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-flotation1"><a href="https://en.wikipedia.org/wiki/Archimedes%27_principle" target="_blank">https://en.wikipedia.org/wiki/Archimedes%27_principle</a></strong>
+    <p class="reference-quote">Any floating object displaces its own weight of fluid.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-floatvsun1"><a href="https://en.wikipedia.org/wiki/Archimedes%27_principle" target="_blank">https://en.wikipedia.org/wiki/Archimedes%27_principle</a></strong>
+    <p class="reference-quote">For a floating object, only the submerged volume displaces water. For a sunken object, the entire volume displaces water...</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-shape1"><a href="https://en.wikipedia.org/wiki/Archimedes%27_principle" target="_blank">https://en.wikipedia.org/wiki/Archimedes%27_principle</a></strong>
+    <p class="reference-quote">...whatever the shape of the submerged body, the buoyant force is equal to the weight of the displaced fluid.</p>
+  </li>
+</ul>
+</div>
+
+            </div>
+        </div>
+        <div class="flyout">
+            <div class="flyout-header">Claude 4.5 Opus Debates</div>
+            <div class="flyout-content">
+                <div class="debate-container">
+<h3>Debate: Liz (Initiator) vs Bob (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.0</td>
+    <td class="turn-content">The answer is (b): water level falls. When floating, the ice-spike system displaces water equal to its total weight. The spike (density ~7.8 g/cm³) displaces much more water while supported by ice than its 50 cm³ volume. Once melted, the spike sinks and only displaces 50 cm³. Ice→water is neutral.<a href="#ref-floating" class="ref-link">[floating]</a></td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.0</td>
+    <td class="turn-content">But ice occupies more volume than the water it becomes—that&#x27;s why ice floats! When the bulky ice melts, doesn&#x27;t all that extra volume collapse, leaving less displacement and causing a level drop? Why focus on the tiny spike?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.1</td>
+    <td class="turn-content">Ice&#x27;s extra volume is above water, not displacing anything. A floating object displaces its weight, not volume<a href="#ref-prop5" class="ref-link">[prop5]</a>. Submerged ice equals the water it melts into. The spike is key: floating, it displaces ~390 g of water; sunken, only 50 cm³. That ~340 cm³ drop causes the fall.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.1</td>
+    <td class="turn-content">The spike only adds 50 cm³—trivial in 200 L! Wikipedia confirms &quot;for a sunken object, the entire volume displaces water&quot;<a href="#ref-sunken" class="ref-link">[sunken]</a>. When the spike sinks, it now displaces its full volume. How does adding volume cause a drop?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.2</td>
+    <td class="turn-content">You&#x27;re proving my point! When floating, the spike displaced ~390 cm³ (its weight in water). When sunken, it only displaces &quot;the entire volume&quot;—50 cm³. That&#x27;s a *decrease* of ~340 cm³. The sunken spike displaces LESS than when it floated because weight &gt; volume for dense objects.</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.Q.2</td>
+    <td class="turn-content">&quot;Only in the special case of floating does the buoyant force acting on an object equal the objects weight&quot;<a href="#ref-special" class="ref-link">[special]</a>—the spike wasn&#x27;t floating; it was cargo inside ice. Why would Archimedes&#x27; principle apply to internal components that never touched water?</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.3</td>
+    <td class="turn-content">The principle applies to the *system*. Total weight (ice+spike) determines displacement while floating. When ice melts, meltwater replaces ice&#x27;s contribution—but the spike shifts from &quot;displacing weight&quot; to &quot;displacing volume.&quot; Dense objects displace less sunken. Water level falls.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+<div class="debate-container">
+<h3>Debate: Bob (Initiator) vs Liz (Questioner)</h3>
+<table class="debate-table">
+<thead>
+<tr><th>Turn</th><th>Content</th></tr>
+</thead>
+<tbody>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.0</td>
+    <td class="turn-content">The answer is (c): water spills over. The ice ball floats partially submerged, but when it melts, the heavy spike sinks to the bottom. Wikipedia confirms: &quot;For a sunken object, the entire volume displaces water.&quot;<a href="#ref-sunken" class="ref-link">[sunken]</a> The spike now adds 50 cm³ of new displacement, causing overflow.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.0</td>
+    <td class="turn-content">But wasn&#x27;t the spike already displacing water while floating in the ice? A floating system displaces its total weight<a href="#ref-prop5" class="ref-link">[prop5]</a>. The 50 cm³ steel spike weighs ~390g—while floating it displaced ~390 cm³. How does sinking to displace only 50 cm³ cause overflow?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.1</td>
+    <td class="turn-content">&quot;When any boat displaces a weight of water equal to its own weight, it floats&quot;<a href="#ref-boat" class="ref-link">[boat]</a>—the ICE is the boat, floating by its own buoyancy. The spike was cargo that didn&#x27;t contact water. Now freed, it enters the water column and adds its full volume. New displacement causes overflow.</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.1</td>
+    <td class="turn-content">Archimedes says buoyant force equals weight of displaced fluid<a href="#ref-archimedes1" class="ref-link">[archimedes1]</a>. The ice-spike system floated because water displaced equaled total system weight. If the spike weren&#x27;t there, ice would float higher. The spike&#x27;s weight was already &quot;paid for&quot; by extra submersion—how can it add new displacement?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.2</td>
+    <td class="turn-content">&quot;Only in the special case of floating does the buoyant force acting on an object equal the objects weight&quot;<a href="#ref-special" class="ref-link">[special]</a>. The spike transitions from *hidden cargo* to an *independent submerged body*. Its 50 cm³ is now fully underwater—that&#x27;s 50 cm³ more than zero (when embedded in ice).</td>
+  </tr>
+  <tr class="liz-turn">
+    <td class="turn-label">Liz.Q.2</td>
+    <td class="turn-content">But it wasn&#x27;t &quot;zero&quot;—the spike caused the ice to ride lower, displacing ~390 cm³ extra. You admit sunken objects displace their volume (50 cm³). So displacement *drops* by 340 cm³ when it sinks. How does a decrease cause overflow?</td>
+  </tr>
+  <tr class="bob-turn">
+    <td class="turn-label">Bob.3</td>
+    <td class="turn-content">The spike didn&#x27;t displace 390 cm³—the ICE did, and ice melts into equivalent water. Consider: ice volume above waterline turns into water that fills that space. Meanwhile, the spike—now free—adds its volume below. Two additive effects, not subtractive. The tub overflows.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+                <div class="references-section">
+<h2>References</h2>
+<ul class="references-list">
+  <li class="reference-item">
+    <strong id="ref-archimedes1"><a href="https://en.wikipedia.org/wiki/Archimedes%27_principle" target="_blank">https://en.wikipedia.org/wiki/Archimedes%27_principle</a></strong>
+    <p class="reference-quote">Archimedes&#x27; principle states that the upward buoyant force that is exerted on a body immersed in a fluid, whether fully or partially, is equal to the weight of the fluid that the body displaces.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-prop5"><a href="https://en.wikipedia.org/wiki/Archimedes%27_principle" target="_blank">https://en.wikipedia.org/wiki/Archimedes%27_principle</a></strong>
+    <p class="reference-quote">Proposition 5 of Archimedes&#x27; treatise On Floating Bodies states that: Any floating object displaces its own weight of fluid.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-floating"><a href="https://en.wikipedia.org/wiki/Archimedes%27_principle" target="_blank">https://en.wikipedia.org/wiki/Archimedes%27_principle</a></strong>
+    <p class="reference-quote">For a floating object, only the submerged volume displaces water.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-sunken"><a href="https://en.wikipedia.org/wiki/Archimedes%27_principle" target="_blank">https://en.wikipedia.org/wiki/Archimedes%27_principle</a></strong>
+    <p class="reference-quote">For a sunken object, the entire volume displaces water, and there will be an additional force of reaction from the solid floor.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-special"><a href="https://en.wikipedia.org/wiki/Archimedes%27_principle" target="_blank">https://en.wikipedia.org/wiki/Archimedes%27_principle</a></strong>
+    <p class="reference-quote">Thus, only in the special case of floating does the buoyant force acting on an object equal the objects weight.</p>
+  </li>
+  <li class="reference-item">
+    <strong id="ref-boat"><a href="https://en.wikipedia.org/wiki/Archimedes%27_principle" target="_blank">https://en.wikipedia.org/wiki/Archimedes%27_principle</a></strong>
+    <p class="reference-quote">When any boat displaces a weight of water equal to its own weight, it floats.</p>
+  </li>
+</ul>
+</div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

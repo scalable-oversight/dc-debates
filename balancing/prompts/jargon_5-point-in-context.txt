@@ -1,0 +1,68 @@
+Your task is to rate, for every turn made in the debate transcript below, how much technical jargon it contains.
+
+"Technical jargon" means specialised vocabulary that would be unfamiliar to a general adult reader, such as discipline-specific terms, acronyms, formulae, or nomenclature drawn from a professional or academic field. Everyday words used in a slightly technical sense (e.g. "significant" in a statistics context) count as jargon only if the intended meaning would be opaque to a layperson.
+
+The text below is a debate transcript with the following structure:
+  - A KEY QUESTION section stating the topic.
+  - A DEFINITIONS section listing terms used in the debate.
+  - A SOURCES section listing references.
+  - Two debate branches (LEFT SIDE and RIGHT SIDE), each containing a sequence of turns by Debater A and Debater B.
+  - Each turn has a header line of the form "Debater A: [Opening]" or "Debater B: [Argument 1]" etc.
+  - Opening turns contain a single prose claim (one line of leading text after the turn header, with no "Claim N:" prefix).
+  - Argument and Response turns each contain two numbered claims ("Claim 1: ..." and "Claim 2: ...") which together make up the turn and should be rated jointly.
+  - Indented lines starting with "→" or "⮕" are reactions from the other debater; these are NOT part of the turn being rated and should not be rated.
+
+Here is the debate to rate:
+
+<text>
+{{TEXT}}
+</text>
+
+Rate each turn on the following scale:
+
+1 – No jargon: The text contains no specialised or technical terms. A general reader would understand every word without difficulty.
+2 – Minimal jargon: The text contains one or two technical terms, but they are either incidental or could be understood from context. The overall meaning remains accessible.
+3 – Moderate jargon: The text contains several technical terms or phrases. A general reader would need some domain knowledge or a dictionary to fully understand it.
+4 – Heavy jargon: The text is dominated by specialised terminology. Most sentences contain technical language that would be opaque to a non-specialist.
+5 – Extremely dense jargon: The text is almost entirely composed of technical terms, acronyms, or specialised notation. It would be incomprehensible to anyone outside the relevant field.
+
+For each turn, first identify any technical or specialised terms in the turn and briefly explain why each is or is not jargon. Then, considering the overall density and impact of jargon on readability in the turn, state your rating for that turn. For Argument and Response turns, consider Claim 1 and Claim 2 together as a single unit and assign a single rating to the turn as a whole.
+
+A standard debate file contains 14 turns to rate, in this order:
+
+  Left side of the table
+    1.  Debater A: [Opening]       — 1 claim (the opening prose line)
+    2.  Debater B: [Argument 1]    — Claim 1 + Claim 2
+    3.  Debater A: [Response 1]    — Claim 1 + Claim 2
+    4.  Debater B: [Argument 2]    — Claim 1 + Claim 2
+    5.  Debater A: [Response 2]    — Claim 1 + Claim 2
+    6.  Debater B: [Argument 3]    — Claim 1 + Claim 2
+    7.  Debater A: [Response 3]    — Claim 1 + Claim 2
+  Right side of the table
+    8.  Debater B: [Opening]       — 1 claim
+    9.  Debater A: [Argument 1]    — Claim 1 + Claim 2
+    10. Debater B: [Response 1]    — Claim 1 + Claim 2
+    11. Debater A: [Argument 2]    — Claim 1 + Claim 2
+    12. Debater B: [Response 2]    — Claim 1 + Claim 2
+    13. Debater A: [Argument 3]    — Claim 1 + Claim 2
+    14. Debater B: [Response 3]    — Claim 1 + Claim 2
+
+After you have rated every turn, append a single block at the very end of your response in this exact format (one line per turn, pipe-delimited, with the rating in double brackets). The first column is the debater (A or B) and the second is the turn label exactly as it appears in the header (e.g. "Opening", "Argument 1", "Response 1").
+
+RATINGS:
+A | Opening | [[N]]
+B | Argument 1 | [[N]]
+A | Response 1 | [[N]]
+B | Argument 2 | [[N]]
+A | Response 2 | [[N]]
+B | Argument 3 | [[N]]
+A | Response 3 | [[N]]
+B | Opening | [[N]]
+A | Argument 1 | [[N]]
+B | Response 1 | [[N]]
+A | Argument 2 | [[N]]
+B | Response 2 | [[N]]
+A | Argument 3 | [[N]]
+B | Response 3 | [[N]]
+
+Replace each "N" with the integer rating (1–5) you assigned to that turn. Do not change the order of lines or the surrounding formatting.

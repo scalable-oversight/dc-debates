@@ -1,0 +1,25 @@
+debate_id,debate_name,debate_question
+1,bergs_modified,Bergs
+2,bergs_modified_2,Bergs
+3,early_universe_galaxies_cm_easy.new,Early Universe Galaxies
+4,early_universe_galaxies_cm_hard.new,Early Universe Galaxies
+5,gravitational_lens_modelling_cm.new,Graviational Lens Modelling
+6,gravitational_lens_modelling_cm_2.new,Graviational Lens Modelling
+7,internal_temperature_of_stars_3.new,Internal Temperature of Stars
+8,internal_temperature_of_stars_cm.new,Internal Temperature of Stars
+9,large_linear_structure.new,Large Linear Structure
+10,large_linear_structure_2.new,Large Linear Structure
+11,little_red_dots.new,Little Red Dots
+12,little_red_dots_gr.new,Little Red Dots
+13,MALT-public_306440_rust,Rust
+14,MALT-public_306440_rust_2,Rust
+15,MALT-public_323067_db_deletion,Database deletion
+16,MALT-public_323067_db_deletion_2,Database deletion
+17,MALT-public_338159_orm_library,ORM library
+18,MALT-public_338159_orm_library_2,ORM library
+19,MALT-public_339242_prefix-sum,Prefix-sum
+20,MALT-public_339242_prefix-sum_2,Prefix-sum
+21,Probability_-_expected_number_of_rolls,Probability puzzle
+22,Probability_-_expected_number_of_rolls_v2,Probability puzzle
+23,switch_modified,Switch
+24,switch_modified_v2,Switch

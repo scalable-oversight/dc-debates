@@ -1,0 +1,147 @@
+I'll analyze each turn for confidence indicators, then provide ratings.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The best plausible theoretical model to describe this system is a runaway supermassive black hole (SMBH)"
+- "best plausible" introduces a slight hedge (not "the definitive model" or "certainly")
+- Otherwise stated directly and assertively with a citation
+- Overall: mostly assertive with one mild qualifier
+
+**Rating: 4**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+- Claim 1: "Supermassive black holes are typically located within a few parsecs" — "typically" is a hedge but standard factual qualifier
+- Claim 2: "would have to be located ~40 kiloparsecs away" — definitive conditional, no hedging
+- Both claims are stated as straightforward facts/logical deductions
+- Overall: confident, direct language
+
+**Rating: 4**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+- Claim 1: "SMBH recoil can eject SMBHs" — "can" is a mild hedge
+- Claim 2: "shows signs of a recent merger...which supports the hypothesis that the linear structure could be a trail" — "shows signs," "supports the hypothesis," "could be" all hedge
+- Multiple hedging terms throughout
+
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+- Claim 1: "are old, massive and compact structures that travel through" — stated as fact, no hedging
+- Claim 2: "If the passage...caused star formation, we would observe similar trails...but in practice we do not" — direct logical argument, "in practice we do not" is definitive
+- Confident, assertive language throughout
+
+**Rating: 5**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+- Claim 1: "The SMBH in this model is traveling at supersonic speeds" — definitive within model framing
+- Claim 2: "The bow shock due to this supersonic travel would cause star formation...Globular clusters do not form a bow shock...and thus would not have star forming trails" — confident causal claims, "would cause," "do not," "would not"
+- Mostly assertive with model-conditional framing
+
+**Rating: 4**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+- Claim 1: "shows that the color of the stars along the hypothesised wake fluctuates" — "hypothesised wake" hedges the nature of the object, but the observation itself is stated factually
+- Claim 2: "If the star formation was caused by...the age of the stars would monotonically decrease...but the fluctuating color does not support that" — conditional framing but conclusion is stated clearly
+- Moderate confidence; "hypothesised" and "does not support" (rather than "contradicts") slightly soften
+
+**Rating: 4**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+- Claim 1: "the color fluctuations can be explained by alternating red and blue supergiants" — "can be explained" is a hedge
+- Claim 2: "Star formation will not only occur at the bow shock, but after the passage...which would also add fluctuations" — "will" is confident but hedged by "also add"
+- Mix of confident assertions and hedging language
+
+**Rating: 3**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The best plausible theoretical model to describe this system is a bulgeless edge-on galaxy"
+- "best plausible" is a mild hedge, same as Debater A's opening
+- Otherwise direct and assertive with citation
+
+**Rating: 4**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+- Claim 1: "far exceeds the ratio expected from a typical galaxy" — "far exceeds" is confident; "typical" is standard qualifier
+- Claim 2: "the structure is not entirely linear, which would be expected if it were a bulgeless edge-on galaxy" — "not entirely linear" is somewhat hedged observation; conditional framing
+- Mix of assertive and mildly hedged language
+
+**Rating: 4**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+- Claim 1: "is used to classify objects as galaxies" — straightforward factual claim
+- Claim 2: "satisfies the Tully-Fisher relation, making it a strong candidate" — "strong candidate" is a hedge (not definitive classification)
+- One notably hedged phrase ("strong candidate") softens the overall confidence
+
+**Rating: 4**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+- Claim 1: "is not sufficient to classify an object as a galaxy given observational inconsistencies" — direct, confident dismissal
+- Claim 2: "is too large for it to be classified as a galaxy" — "too large" is a definitive claim
+- Both claims are assertive and direct
+
+**Rating: 5**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+- Claim 1: "IC5249 is an observationally confirmed bulgeless edge-on galaxy" — entirely definitive, factual
+- Claim 2: "resembles the gradient of IC5249...directly suggesting that they're in the same class of objects" — "resembles" is mild; "directly suggesting" is moderate (not "proves")
+- Mostly confident with one mild qualifier
+
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+- Claim 1: "are much smoother than those of the object" — definitive comparative claim
+- Claim 2: "has a structure in line emission strongly resembling a bow shock...that IC5249 does not have. This implies that the object is not a galaxy" — "strongly resembling" is somewhat hedged; "implies" is softer than "proves"
+- Confident overall with minor hedges
+
+**Rating: 4**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+- Claim 1: "is in the range expected of shocks produced by supernovae within ordinary galaxies" — definitive factual claim
+- Claim 2: "It is well established that distorted galaxies often have rather clumpy and irregular UV emission" — "well established" signals high confidence; "often" is a mild qualifier
+- Mostly assertive with "often" as minor hedge; "well established" boosts confidence
+
+**Rating: 4**
+
+---
+
+RATINGS:
+A | Opening | [[4]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[4]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[3]]
+B | Opening | [[4]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[5]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[4]]

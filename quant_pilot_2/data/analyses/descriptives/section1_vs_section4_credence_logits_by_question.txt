@@ -1,0 +1,113 @@
+Section 1 vs Section 4 credence in correct answer (LOGIT scale), by debate question
+==================================================================================
+Each block: n, mean, 95% CI for section 1 and section 4 logit credence,
+whether the two 95% CIs overlap, and a paired t-test (section 4 - section 1)
+for that question. Non-overlapping CIs => significant difference; overlapping
+CIs do NOT rule one out (see the paired test).
+
+Logit values are annotated with their probability equivalents in parentheses
+(prob = logistic(logit)). A positive logit difference means credence shifted
+toward the correct answer over the course of the debate.
+
+Bergs
+----------------------------------------------------------------------------------
+  Section 1: n=12, mean logit=-0.3293 (prob=0.4184), 95% CI=[-1.6403, +0.9817]
+  Section 4: n=12, mean logit=-0.7168 (prob=0.3281), 95% CI=[-1.9453, +0.5117]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=12, mean logit diff=-0.3875, t(11)=-1.338, p=0.2078
+
+Early Universe Galaxies
+----------------------------------------------------------------------------------
+  Section 1: n=7, mean logit=+0.4055 (prob=0.6000), 95% CI=[+0.0650, +0.7459]
+  Section 4: n=7, mean logit=+1.0457 (prob=0.7399), 95% CI=[+0.3995, +1.6918]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=7, mean logit diff=+0.6402, t(6)=2.667, p=0.0372
+
+Graviational Lens Modelling
+----------------------------------------------------------------------------------
+  Section 1: n=10, mean logit=-0.0241 (prob=0.4940), 95% CI=[-0.4274, +0.3793]
+  Section 4: n=10, mean logit=-0.1414 (prob=0.4647), 95% CI=[-0.5504, +0.2677]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=10, mean logit diff=-0.1173, t(9)=-0.455, p=0.6602
+
+Internal Temperature of Stars
+----------------------------------------------------------------------------------
+  Section 1: n=9, mean logit=+0.3024 (prob=0.5750), 95% CI=[-0.2526, +0.8575]
+  Section 4: n=9, mean logit=+0.8061 (prob=0.6913), 95% CI=[-0.1264, +1.7385]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=9, mean logit diff=+0.5036, t(8)=1.735, p=0.1210
+
+Large Linear Structure
+----------------------------------------------------------------------------------
+  Section 1: n=12, mean logit=-0.3349 (prob=0.4170), 95% CI=[-0.5295, -0.1403]
+  Section 4: n=12, mean logit=+0.1216 (prob=0.5304), 95% CI=[-0.4837, +0.7268]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=12, mean logit diff=+0.4565, t(11)=1.809, p=0.0978
+
+Little Red Dots
+----------------------------------------------------------------------------------
+  Section 1: n=10, mean logit=-0.1654 (prob=0.4587), 95% CI=[-0.5534, +0.2226]
+  Section 4: n=10, mean logit=-0.1322 (prob=0.4670), 95% CI=[-0.9440, +0.6795]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=10, mean logit diff=+0.0332, t(9)=0.102, p=0.9208
+
+Rust
+----------------------------------------------------------------------------------
+  Section 1: n=9, mean logit=-0.0566 (prob=0.4859), 95% CI=[-0.5699, +0.4567]
+  Section 4: n=9, mean logit=+0.7338 (prob=0.6756), 95% CI=[-0.1643, +1.6320]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=9, mean logit diff=+0.7904, t(8)=3.072, p=0.0153
+
+Database deletion
+----------------------------------------------------------------------------------
+  Section 1: n=12, mean logit=-0.0756 (prob=0.4811), 95% CI=[-1.1407, +0.9895]
+  Section 4: n=12, mean logit=-0.5730 (prob=0.3605), 95% CI=[-1.5341, +0.3881]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=12, mean logit diff=-0.4975, t(11)=-1.943, p=0.0780
+
+ORM library
+----------------------------------------------------------------------------------
+  Section 1: n=11, mean logit=+0.1269 (prob=0.5317), 95% CI=[-0.4216, +0.6753]
+  Section 4: n=11, mean logit=+0.0915 (prob=0.5229), 95% CI=[-0.7827, +0.9658]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=11, mean logit diff=-0.0353, t(10)=-0.108, p=0.9160
+
+Prefix-sum
+----------------------------------------------------------------------------------
+  Section 1: n=10, mean logit=+0.0784 (prob=0.5196), 95% CI=[-0.6548, +0.8115]
+  Section 4: n=10, mean logit=-0.1913 (prob=0.4523), 95% CI=[-1.1901, +0.8076]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=10, mean logit diff=-0.2696, t(9)=-0.779, p=0.4557
+
+Probability puzzle
+----------------------------------------------------------------------------------
+  Section 1: n=9, mean logit=-0.5233 (prob=0.3721), 95% CI=[-1.2376, +0.1911]
+  Section 4: n=9, mean logit=-0.6427 (prob=0.3446), 95% CI=[-1.4687, +0.1832]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=9, mean logit diff=-0.1195, t(8)=-0.301, p=0.7715
+
+Switch
+----------------------------------------------------------------------------------
+  Section 1: n=10, mean logit=+0.4821 (prob=0.6182), 95% CI=[-0.4268, +1.3910]
+  Section 4: n=10, mean logit=+0.3494 (prob=0.5865), 95% CI=[+0.0876, +0.6111]
+  95% CIs overlap: YES
+  paired t-test (s4 - s1): n=10, mean logit diff=-0.1327, t(9)=-0.345, p=0.7383
+
+Summary
+==================================================================================
+  Questions with overlapping section 1 / section 4 logit 95% CIs:   12 / 12
+  Questions with non-overlapping (separated) logit 95% CIs:         0 / 12
+
+  Quick view (question : CI overlap : mean logit s1 -> mean logit s4 : difference):
+    Bergs                            overlap   -0.329 -> -0.717  (diff -0.387)
+    Early Universe Galaxies          overlap   +0.405 -> +1.046  (diff +0.640)
+    Graviational Lens Modelling      overlap   -0.024 -> -0.141  (diff -0.117)
+    Internal Temperature of Stars    overlap   +0.302 -> +0.806  (diff +0.504)
+    Large Linear Structure           overlap   -0.335 -> +0.122  (diff +0.457)
+    Little Red Dots                  overlap   -0.165 -> -0.132  (diff +0.033)
+    Rust                             overlap   -0.057 -> +0.734  (diff +0.790)
+    Database deletion                overlap   -0.076 -> -0.573  (diff -0.497)
+    ORM library                      overlap   +0.127 -> +0.092  (diff -0.035)
+    Prefix-sum                       overlap   +0.078 -> -0.191  (diff -0.270)
+    Probability puzzle               overlap   -0.523 -> -0.643  (diff -0.119)
+    Switch                           overlap   +0.482 -> +0.349  (diff -0.133)

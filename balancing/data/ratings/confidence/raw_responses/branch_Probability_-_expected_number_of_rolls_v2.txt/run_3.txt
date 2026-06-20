@@ -1,0 +1,73 @@
+I'll analyze each turn for confidence indicators, then provide ratings.
+
+**1. Debater A: [Opening] (Left)**
+"Y is larger." — A single, unhedged declarative statement. No qualifications whatsoever.
+**Rating: 5**
+
+**2. Debater B: [Argument 1] (Left)**
+"effectively turns the D6 into a D3" — "effectively" is a mild hedge. "is harder (requires more rolls)" — stated definitively. Overall mostly assertive with one minor qualifier.
+**Rating: 4**
+
+**3. Debater A: [Response 1] (Left)**
+"The expected number of rolls to first 6 for such a D3 is 3." — definitive. "it's not true that the condition effectively turns the D6 to a D3." — definitive refutation. Both claims stated firmly with no hedging.
+**Rating: 5**
+
+**4. Debater B: [Argument 2] (Left)**
+"specifies that the D6 becomes a D3 for the purposes of this question" — definitive. "a separate, irrelevant question" — assertive. "It is irrelevant because..." — definitive. No hedging at all.
+**Rating: 5**
+
+**5. Debater A: [Response 2] (Left)**
+"It is relevant for showing why..." — definitive. "It would be strange if..." — uses "would be strange," which is a mild hedge/rhetorical framing rather than a direct assertion. Slightly less assertive.
+**Rating: 4**
+
+**6. Debater B: [Argument 3] (Left)**
+"is a fundamentally different quantity" — definitive. "what counts is how often 6 turns up versus non-6 — non-6 is twice as likely here." — stated definitively. No hedging.
+**Rating: 5**
+
+**7. Debater A: [Response 3] (Left)**
+"X depends on adjacent 6s, while Y depends on where the second 6 occurs" — definitive. "e.g. '626' stops Y at roll 3 but doesn't stop X" — concrete example, definitive. "So order, not only relative frequency, is part of the stopping rule and affects the conditional expectation." — "So" signals logical conclusion, stated firmly.
+**Rating: 5**
+
+**8. Debater B: [Opening] (Right)**
+"X is larger." — Single unhedged declarative. No qualifications.
+**Rating: 5**
+
+**9. Debater A: [Argument 1] (Right)**
+"normally requiring a much longer run" — "normally" is a slight hedge. "filters long runs exponentially, so X's probability mass is squeezed onto its short, lucky runs much more so than Y's." — assertive but "much more so" is a comparative claim without hedging qualifiers on the core mechanism. Mix of assertive and slightly hedged language.
+**Rating: 4**
+
+**10. Debater B: [Response 1] (Right)**
+"applies to both X and Y" — definitive. "The stopping condition for X is strictly harder and happens later than or at the same time as Y's." — "strictly" is emphatic. "X's distribution is dominated by long sequences" — assertive, definitive. No hedging.
+**Rating: 5**
+
+**11. Debater A: [Argument 2] (Right)**
+"is true, but affects X more because you'll nearly always roll an odd before getting two 6s" — "nearly always" is a mild hedge. "is a false statement that does not follow from it." — definitive. Mix with one hedge.
+**Rating: 4**
+
+**12. Debater B: [Response 2] (Right)**
+"Y is affected similarly, because you will also nearly always roll an odd" — "nearly always" mirrors the hedge. "just as harshly" — definitive comparison. "the net effect...is therefore similar" — "therefore" signals logical certainty. "the D3 equivalence holds." — definitive.
+**Rating: 4**
+
+**13. Debater A: [Argument 3] (Right)**
+"61% of X sequences stop at roll 2, compared with 44% of Y sequences" — precise numerical claims stated with certainty. "By the end of roll 3, 81%...74%" — again precise and definitive. "This suggests that X is more likely than Y to stop extremely early." — "suggests" is a notable hedge on the conclusion.
+**Rating: 4**
+
+**14. Debater B: [Response 3] (Right)**
+"does not determine the overall weighting." — definitive. "The tails of the two distributions matter as well" — definitive. "the full computation yields X as the larger of the two values." — stated with certainty, though "the full computation" implies an appeal to authority without showing work.
+**Rating: 5**
+
+RATINGS:
+A | Opening | [[5]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[5]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[4]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[5]]
+B | Opening | [[5]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[5]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[5]]

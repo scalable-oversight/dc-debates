@@ -1,0 +1,103 @@
+I'll analyze each turn for rhetorical or persuasive tactics, then provide ratings.
+
+---
+
+**1. Debater A: [Opening] (Left Side)**
+The opening simply states the model being defended—two deflectors, one AGN, six lensed images—with a citation. No emotional appeals, no loaded language, no straw-manning. Pure descriptive claim.
+**Rating: 1**
+
+---
+
+**2. Debater B: [Argument 1] (Left Side)**
+Claim 1 uses "overfit" as a characterization and says "on closer inspection," which subtly implies the opponent missed something obvious—a mild framing tactic. Claim 2 is a straightforward factual critique (no chi-squared reported). Overall mostly substantive with minor framing.
+**Rating: 2**
+
+---
+
+**3. Debater A: [Response 1] (Left Side)**
+Both claims make substantive points about why the second deflector's mass profile matters and why accounting for galaxy positions improves modeling. No loaded language or appeals to emotion. Straightforward.
+**Rating: 1**
+
+---
+
+**4. Debater B: [Argument 2] (Left Side)**
+Claim 1 is a factual comparison (30 vs. 12 parameters). Claim 2 draws the inference of overfitting. These are substantive arguments. "Enormous degree of modelling flexibility" is slightly emphatic but not particularly rhetorical. Overall straightforward.
+**Rating: 1**
+
+---
+
+**5. Debater A: [Response 2] (Left Side)**
+Claim 1 ("A simpler model is not necessarily a correct model") is a philosophical/logical point, not rhetorical. Claim 2 is a factual clarification about partially constrained parameters. Both are substantive.
+**Rating: 1**
+
+---
+
+**6. Debater B: [Argument 3] (Left Side)**
+Both claims are substantive: Claim 1 explains that constraints don't fully fix parameters; Claim 2 notes that galaxy positions and redshifts can vary. No emotional appeals or loaded framing. Straightforward technical argument.
+**Rating: 1**
+
+---
+
+**7. Debater A: [Response 3] (Left Side)**
+Claim 1 cites NIRSpec spectroscopy as providing "quite tight constraints"—this is a factual claim with mild emphasis ("quite tight"). Claim 2 cites HST imaging precision. Both are substantive references to observational evidence. Minimal rhetoric.
+**Rating: 1**
+
+---
+
+**8. Debater B: [Opening] (Right Side)**
+States the dual-AGN model with a citation. Descriptive and factual. No rhetorical devices.
+**Rating: 1**
+
+---
+
+**9. Debater A: [Argument 1] (Right Side)**
+Claim 1 uses "normally expect," which is a mild appeal to convention/authority of standard practice. Claim 2 is substantive—citing light curve data and redshifts with specific numbers (35 days, 6 kiloparsecs). The phrase "But C. S. M. et al. claim that..." creates a mild contrast to highlight an apparent inconsistency. Mostly substantive.
+**Rating: 2**
+
+---
+
+**10. Debater B: [Response 1] (Right Side)**
+Both claims make specific empirical points about detection limits (<400 parsecs, lower magnification). Factual and substantive throughout. No rhetorical devices.
+**Rating: 1**
+
+---
+
+**11. Debater A: [Argument 2] (Right Side)**
+Claim 1 is a factual statement about dual AGN and mergers. Claim 2 says observed AGN-host dwarf galaxies are "directly against your hypothesis"—the phrase "directly against your hypothesis" is emphatic framing, presenting the evidence as more damning than it might be. This is a mild rhetorical intensification.
+**Rating: 2**
+
+---
+
+**12. Debater B: [Response 2] (Right Side)**
+Both claims are substantive empirical points about selection bias in low-redshift studies. No emotional appeals or loaded language. Straightforward.
+**Rating: 1**
+
+---
+
+**13. Debater A: [Argument 3] (Right Side)**
+Claim 1 uses "most plausible morphology" and "yet massive enough to host AGN"—these are mild framing choices that present the constraints as tight and the scenario as implausible. Claim 2 explicitly says the probability "remains very low," which is an assertion of improbability without quantification, functioning as a rhetorical move to shift the burden of proof. Minor but notable rhetorical element.
+**Rating: 2**
+
+---
+
+**14. Debater B: [Response 3] (Right Side)**
+Claim 1 is a factual point about high-redshift galaxy compactness. Claim 2 makes a substantive point about dual-AGN feedback and quenching, with "especially at high z" adding mild emphasis. "Compactness and quiescence are not mutually exclusive" is a direct logical rebuttal. Mostly substantive.
+**Rating: 1**
+
+---
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[1]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[1]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[1]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[1]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[1]]

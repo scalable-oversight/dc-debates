@@ -1,0 +1,171 @@
+I'll analyze each turn for technical jargon, then provide ratings.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+- "early universe galaxies" – accessible phrase
+- "dark matter" – defined in the debate, but still a technical term familiar to many general readers
+- "falsifying" – slightly technical (philosophy of science), but broadly understood
+Overall: One or two mildly technical terms, meaning remains accessible.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1]**
+- "stellar mass" (implied) / "mass of a galaxy" – accessible in context
+- "MOND-based models" – technical acronym for Modified Newtonian Dynamics
+- "high-redshift" – astrophysics term; "redshift" is a technical concept not immediately obvious to laypeople
+- "Lambda-CDM" – technical cosmological model acronym
+Overall: Multiple technical terms (MOND, high-redshift, Lambda-CDM) that require domain knowledge.
+**Rating: 3**
+
+---
+
+**3. Debater A: [Response 1]**
+- "stellar mass" – mildly technical but fairly accessible
+- "top-heavy IMF" – "IMF" is defined but still jargon; "top-heavy" in this context is a technical descriptor
+- "standard IMF" – same as above
+- "Lambda-CDM" – technical acronym
+Overall: Several technical terms, particularly IMF (used repeatedly) and Lambda-CDM.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2]**
+- "standard IMF" – technical jargon (Initial Mass Function)
+- "empirical data" – slightly formal but broadly understood
+- "Milky Way" – widely known, not jargon
+- "population of stars" – accessible
+Overall: IMF is the main jargon term, used twice. Otherwise fairly accessible.
+**Rating: 2**
+
+---
+
+**5. Debater A: [Response 2]**
+- "empirically calculate the IMF" – IMF is jargon
+- "early universe galaxies" – accessible
+- "metallicity" – astrophysics-specific term; would be opaque to most laypeople
+- "low metallicity" / "more massive stars" – "metallicity" is clearly domain-specific
+Overall: Two notable jargon terms (IMF, metallicity); moderately technical.
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3]**
+- "standard IMF" – jargon (IMF)
+- "z~3-4" – "z" as redshift notation is technical astrophysics shorthand
+- "good residuals" – "residuals" is a technical/statistical term
+- "metallicity" – astrophysics jargon
+- "redshift" – technical term
+- "top-heavy IMF" – jargon
+Overall: Multiple technical terms including notation (z~3-4), residuals, metallicity, IMF.
+**Rating: 4**
+
+---
+
+**7. Debater A: [Response 3]**
+- "metallicity" – astrophysics jargon
+- "z~10" – technical redshift notation
+- "standard IMF" – jargon
+- "early universe galaxies" – accessible
+Overall: Several technical terms (metallicity, z~10 notation, IMF), though sentence structure is simple.
+**Rating: 3**
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+- "early universe galaxies" – accessible
+- "dark matter" – widely known term, defined here
+- "falsifying" – slightly technical but broadly understood
+Overall: Very similar to Debater A's opening; minimal technical content.
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1]**
+- "MOND-based models" – technical acronym
+- "high-redshift galaxy masses" – technical astrophysics phrase
+- "Lambda-CDM" – technical acronym
+- "cosmological observations" – moderately technical
+Overall: Multiple technical terms (MOND, Lambda-CDM, high-redshift), similar density to earlier turns.
+**Rating: 3**
+
+---
+
+**10. Debater B: [Response 1]**
+- "Lambda-CDM" – technical acronym
+- "dark matter" – widely known but technical
+- "dark energy" – technical concept
+- "negative pressure" – physics-specific concept; opaque to laypeople
+- "MOND" – technical acronym
+- "cosmological phenomena" – mildly technical
+- "visible matter" – accessible
+Overall: Several technical terms; "negative pressure" is particularly opaque to laypeople.
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2]**
+- "dark matter's gravitational influence" – accessible in context
+- "gravitational lensing" – technical astrophysics term; may be unfamiliar to laypeople
+- "falsifying dark matter" – slightly technical
+- "leading theory of gravity" – accessible
+- "astrophysics" – discipline name, broadly known
+Overall: "Gravitational lensing" is the main jargon term; otherwise fairly accessible.
+**Rating: 2**
+
+---
+
+**12. Debater B: [Response 2]**
+- "Relativistic extensions of MOND" – technical; "relativistic" is physics jargon
+- "TeVeS" – highly technical acronym (Tensor-Vector-Scalar gravity); very opaque to laypeople
+- "gravitational lensing effects" – technical but appeared before
+- "dark matter" – widely known
+- "CASTLES sample" – specific technical dataset name; opaque to non-specialists
+Overall: TeVeS and CASTLES are highly specialized terms; "relativistic extensions" adds further density.
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3]**
+- "TeVeS" – highly technical acronym
+- "gravitational lensing" – technical astrophysics
+- "principal motivations" – accessible
+- "MOND/TeVeS framework" – technical
+- "lens systems" – technical astrophysics term in this context
+Overall: TeVeS and MOND/TeVeS framework dominate; moderately to heavily technical.
+**Rating: 3**
+
+---
+
+**14. Debater B: [Response 3]**
+- "TeVeS" – highly technical acronym
+- "2 eV neutrinos" – "eV" (electronvolt) is physics unit; "neutrinos" is a technical particle physics term; the combination is very specialized
+- "gravitational lensing" – technical
+- "galaxy clusters" – mildly technical but fairly accessible
+- "interpolation functions" – mathematical/technical term
+- "single parameters" / "many-parameter" – technical but somewhat accessible
+Overall: "2 eV neutrinos" and TeVeS make this heavily technical; interpolation functions add further density.
+**Rating: 4**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[4]]

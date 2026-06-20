@@ -1,0 +1,131 @@
+I'll evaluate each turn systematically, identifying language that contributes to or undermines professionalism.
+
+---
+
+**1. Debater A: [Opening] (Left Side)**
+
+The opening is concise and structured, using technical terminology (Einstein zig-zag lens, AGN, deflectors, lensed images) appropriately. It references a source clearly. However, it reads more like a brief summary note than a fully developed formal opening statement — it's a single sentence without elaboration or framing language. Functional but minimal.
+
+**Rating: 3**
+
+---
+
+**2. Debater B: [Argument 1] (Left Side)**
+
+Claim 1 uses "overfit" and "on closer inspection" — the latter is slightly informal but not problematic. Claim 2 uses "do not actually quantify," with "actually" being mildly casual. Both claims are technically substantive and clearly structured. The argumentation is direct and appropriate. Minor informal touches slightly reduce polish.
+
+**Rating: 4**
+
+---
+
+**3. Debater A: [Response 1] (Left Side)**
+
+Both claims are clear, technically precise, and formally phrased. "The mass profile of the second deflector is likely to have a significant effect on the modelling when it is close to the optical axis" and "Taking galaxy positions into account allows one to more accurately model a more complex mass distribution than a simple shear" are well-composed, measured statements. No casual language detected.
+
+**Rating: 4**
+
+---
+
+**4. Debater B: [Argument 2] (Left Side)**
+
+Claim 1 is clear and factual. Claim 2 — "provides an enormous degree of modelling flexibility and results in overfitting" — is direct and technically appropriate. "Enormous" is slightly emphatic but not unprofessional. Both claims are well-structured and concise.
+
+**Rating: 4**
+
+---
+
+**5. Debater A: [Response 2] (Left Side)**
+
+Claim 1 ("A simpler model is not necessarily a correct model") is a succinct, well-known methodological point, phrased appropriately. Claim 2 is technically specific and measured. Both claims are professional in tone and structure, though brief. No casual language.
+
+**Rating: 4**
+
+---
+
+**6. Debater B: [Argument 3] (Left Side)**
+
+Claim 1 references "Debater A Response 2 Claim 2" explicitly — this cross-referencing language is functional within the debate format but feels somewhat mechanical and procedural rather than naturally flowing. Claim 2 ("All galaxy positions and redshifts except the main deflector can vary considerably") is clear and precise. Overall, the cross-referencing slightly disrupts fluency but does not harm professionalism significantly.
+
+**Rating: 4**
+
+---
+
+**7. Debater A: [Response 3] (Left Side)**
+
+Both claims are technically precise and well-phrased. "NIRSpec spectroscopy provides quite tight constraints" — "quite tight" is mildly informal but acceptable in technical discourse. "Hubble Space Telescope imaging constrains positions to sub-arcsecond precision" is impeccably formal. Overall very polished.
+
+**Rating: 4**
+
+---
+
+**8. Debater B: [Opening] (Right Side)**
+
+Similar in style to Debater A's opening — a single sentence with technical terminology, clear reference to a source. Structured and concise. Slightly more descriptive than Debater A's opening (describes which images correspond to which AGN). Still reads more as a summary note than a formal opening, but is appropriate.
+
+**Rating: 3**
+
+---
+
+**9. Debater A: [Argument 1] (Right Side)**
+
+Claim 1 is clear and uses "we would normally expect" — "we" is slightly informal in a formal debate context but common in scientific writing. Claim 2 contains specific technical data (35 days, 6 kiloparsecs) and is well-structured. The claim is detailed and substantive. "But C. S. M. et al. claim that" — "But" at the start is slightly informal. Overall, minor informalities amid solid technical content.
+
+**Rating: 4**
+
+---
+
+**10. Debater B: [Response 1] (Right Side)**
+
+Both claims are technically precise. "A dwarf host galaxy of <400 parsecs (constrained by the brightest image for the first AGN) would likely remain undetected in the HST imaging" is well-constructed. "Since the magnification of the images of the second AGN is lower, an even larger extended component might be undetected" follows logically and is formally phrased. No casual language. Well-structured.
+
+**Rating: 4**
+
+---
+
+**11. Debater A: [Argument 2] (Right Side)**
+
+Claim 1 is concise and appropriate. Claim 2 — "directly against your hypothesis" — uses "your," which is somewhat confrontational and informal for a professional debate context. This is the most notable instance of casual/direct address language in the transcript. Otherwise technically sound.
+
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2] (Right Side)**
+
+Both claims are clear and technically appropriate. "AGN-host dwarf galaxies have mainly been studied at very low redshifts" and "Low redshift galaxies are not a representative population for this object" are formally phrased and logically structured. No informal language detected.
+
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3] (Right Side)**
+
+Claim 1 uses "still going to be" which is mildly informal. "The most plausible morphology for a dwarf host is still going to be a quiescent galaxy" — slightly colloquial phrasing. Claim 2 references "Debater B Response 2 Claim 1" in the same mechanical cross-referencing style noted earlier, and uses "remains very low, even conditioned on" — the latter is technical and appropriate. Mixed: some informal phrasing alongside precise technical language.
+
+**Rating: 3**
+
+---
+
+**14. Debater B: [Response 3] (Right Side)**
+
+Both claims are well-phrased and technically precise. "High redshift galaxies can be far more compact than low redshift galaxies of similar mass" is clear and formal. "Dual-AGN feedback can rapidly quench star formation. Compactness and quiescence are not mutually exclusive, especially at high z" — "especially at high z" is standard shorthand in astrophysics, appropriate for the context. Well-structured and polished.
+
+**Rating: 4**
+
+---
+
+RATINGS:
+A | Opening | [[3]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[4]]
+B | Argument 2 | [[4]]
+A | Response 2 | [[4]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[4]]
+B | Opening | [[3]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[4]]

@@ -1,0 +1,240 @@
+"""Exploratory 3-tier classification (parallels derive_tiers.py, which
+produces the pre-registered 4-tier classification).
+
+For each posterior draw and each transcript v, computes:
+
+    e_v = beta_domain[d(v)] + u_question[q(v)] + u_transcript[v]
+    delta_v = -e_v                  # higher = harder
+
+(beta_domain = 0 for the reference domain, brainteasers.)
+
+Within each draw, the 24 transcripts are ranked in ascending delta_v and
+binned into 3 equal-sized tiers of 8 transcripts each:
+    Tier 1 (easiest): ranks  1-8
+    Tier 2          : ranks  9-16
+    Tier 3 (hardest): ranks 17-24
+
+Outputs (per outcome: primary / secondary):
+  data/tier3-classification-<outcome>.csv   per-transcript: delta_v mean+HDI,
+                                            tier probabilities, modal tier
+  data/tier3-summary-<outcome>.csv          tier means + adjacent-tier diffs
+  data/tier3-question-pair-<outcome>.csv    per-question: P(same tier) and
+                                            within-question delta_v difference
+
+Usage:  python3 derive_tiers_3.py [primary|secondary|secondary-t]   (default: primary)
+"""
+
+import os
+os.environ.setdefault("PYTENSOR_FLAGS", "cxx=,mode=NUMBA")
+
+import sys
+from pathlib import Path
+
+import arviz as az
+import numpy as np
+import pandas as pd
+
+DATA_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "cleaned"
+OUT_DIR = Path(os.environ.get("ANALYSIS_OUT_DIR", str(Path(__file__).resolve().parent / "output")))
+OUT_DIR.mkdir(exist_ok=True)
+
+outcome = sys.argv[1] if len(sys.argv) > 1 else "primary"
+if outcome not in {"primary", "secondary", "secondary-t"}:
+    sys.exit(
+        f"Unknown outcome '{outcome}'. "
+        f"Use 'primary', 'secondary', or 'secondary-t'."
+    )
+
+N_TIERS = 3
+N_TRANSCRIPTS = 24
+TIER_SIZE = N_TRANSCRIPTS // N_TIERS  # 8
+
+FIT = OUT_DIR / f"{outcome}-fit.nc"
+DATA = Path(os.environ.get("ANALYSIS_DATA_CSV", str(DATA_DIR / "quant-1-official-study-analysis-ready.csv")))
+OUT_TR = OUT_DIR / f"tier3-classification-{outcome}.csv"
+OUT_TIER = OUT_DIR / f"tier3-summary-{outcome}.csv"
+OUT_QP = OUT_DIR / f"tier3-question-pair-{outcome}.csv"
+
+DOMAIN_VAR = "C(domain, Treatment('brainteasers'))"
+DOMAIN_DIM = f"{DOMAIN_VAR}_dim"
+
+# ---------------------------------------------------------------------------
+# 1. Load fit + the transcript -> (question, domain) lookup.
+# ---------------------------------------------------------------------------
+idata = az.from_netcdf(FIT)
+post = idata.posterior
+
+df = pd.read_csv(DATA, encoding="utf-8")
+lookup = (
+    df[["transcript", "question", "domain"]]
+    .drop_duplicates()
+    .sort_values("transcript")
+    .reset_index(drop=True)
+)
+assert len(lookup) == N_TRANSCRIPTS, (
+    f"Expected {N_TRANSCRIPTS} transcripts, got {len(lookup)}"
+)
+
+post_transcripts = [str(t) for t in post["transcript__factor_dim"].values]
+post_questions = [str(q) for q in post["question__factor_dim"].values]
+post_domains = [str(d) for d in post[DOMAIN_DIM].values]
+
+# ---------------------------------------------------------------------------
+# 2. Build delta_v as an (n_draws, 24) array.
+# ---------------------------------------------------------------------------
+u_transcript = post["1|transcript"].stack(sample=("chain", "draw")).values
+u_question = post["1|question"].stack(sample=("chain", "draw")).values
+beta_domain = post[DOMAIN_VAR].stack(sample=("chain", "draw")).values
+
+n_draws = u_transcript.shape[1]
+delta = np.empty((n_draws, N_TRANSCRIPTS), dtype=float)
+for vi, row in lookup.iterrows():
+    v = str(row["transcript"])
+    q = row["question"]
+    d = row["domain"]
+
+    u_t = u_transcript[post_transcripts.index(v)]
+    u_q = u_question[post_questions.index(q)]
+    if d in post_domains:
+        b_d = beta_domain[post_domains.index(d)]
+    else:
+        b_d = np.zeros(n_draws)
+    e_v = b_d + u_q + u_t
+    delta[:, vi] = -e_v
+
+print(
+    f"Computed delta_v for {outcome} model "
+    f"(3-tier exploratory): {n_draws} draws x {N_TRANSCRIPTS} transcripts."
+)
+
+# ---------------------------------------------------------------------------
+# 3. Tier assignment per draw, then posterior tier-membership matrix.
+# ---------------------------------------------------------------------------
+order = np.argsort(delta, axis=1)
+ranks = np.empty_like(order)
+np.put_along_axis(
+    ranks,
+    order,
+    np.broadcast_to(np.arange(N_TRANSCRIPTS), order.shape),
+    axis=1,
+)
+tier_per_draw = ranks // TIER_SIZE + 1  # values in {1, ..., N_TIERS}
+
+tier_prob = np.zeros((N_TRANSCRIPTS, N_TIERS), dtype=float)
+for t in range(N_TIERS):
+    tier_prob[:, t] = (tier_per_draw == (t + 1)).mean(axis=0)
+modal_tier = tier_prob.argmax(axis=1) + 1
+
+# ---------------------------------------------------------------------------
+# 4. Per-transcript summary table.
+# ---------------------------------------------------------------------------
+delta_mean = delta.mean(axis=0)
+hdi = az.hdi(delta, hdi_prob=0.95)
+
+per_transcript_cols = {
+    "transcript": lookup["transcript"].values,
+    "question": lookup["question"].values,
+    "domain": lookup["domain"].values,
+    "delta_mean": delta_mean,
+    "delta_hdi_lo": hdi[:, 0],
+    "delta_hdi_hi": hdi[:, 1],
+}
+for t in range(N_TIERS):
+    per_transcript_cols[f"P_tier{t + 1}"] = tier_prob[:, t]
+per_transcript_cols["modal_tier"] = modal_tier
+per_transcript = (
+    pd.DataFrame(per_transcript_cols)
+    .sort_values("delta_mean")
+    .reset_index(drop=True)
+)
+per_transcript.to_csv(OUT_TR, index=False, encoding="utf-8")
+
+# ---------------------------------------------------------------------------
+# 5. Tier means + adjacent-tier differences (per draw, then summarised).
+# ---------------------------------------------------------------------------
+tier_mean_per_draw = np.empty((n_draws, N_TIERS), dtype=float)
+sorted_delta = np.take_along_axis(delta, order, axis=1)
+for t in range(N_TIERS):
+    tier_mean_per_draw[:, t] = sorted_delta[
+        :, t * TIER_SIZE:(t + 1) * TIER_SIZE
+    ].mean(axis=1)
+
+tier_mean_summary = pd.DataFrame({
+    "tier": list(range(1, N_TIERS + 1)),
+    "mean": tier_mean_per_draw.mean(axis=0),
+    "hdi_lo": az.hdi(tier_mean_per_draw, hdi_prob=0.95)[:, 0],
+    "hdi_hi": az.hdi(tier_mean_per_draw, hdi_prob=0.95)[:, 1],
+})
+
+adj = np.column_stack([
+    tier_mean_per_draw[:, t + 1] - tier_mean_per_draw[:, t]
+    for t in range(N_TIERS - 1)
+])
+adj_summary = pd.DataFrame({
+    "tier_pair": [f"{t + 1}-{t}" for t in range(1, N_TIERS)],
+    "diff_mean": adj.mean(axis=0),
+    "diff_hdi_lo": az.hdi(adj, hdi_prob=0.95)[:, 0],
+    "diff_hdi_hi": az.hdi(adj, hdi_prob=0.95)[:, 1],
+})
+
+with open(OUT_TIER, "w", encoding="utf-8", newline="") as f:
+    f.write("# Tier means\n")
+    tier_mean_summary.to_csv(f, index=False)
+    f.write("\n# Adjacent-tier differences\n")
+    adj_summary.to_csv(f, index=False)
+
+# ---------------------------------------------------------------------------
+# 6. Per-question: P(same tier) and within-question delta_v difference.
+# ---------------------------------------------------------------------------
+question_rows = []
+for q, sub in lookup.groupby("question", sort=False):
+    if len(sub) != 2:
+        sys.exit(
+            f"ERROR: question {q!r} has {len(sub)} transcripts; expected 2."
+        )
+    a_idx, b_idx = sub.index.tolist()
+    p_same = (tier_per_draw[:, a_idx] == tier_per_draw[:, b_idx]).mean()
+    diff = delta[:, a_idx] - delta[:, b_idx]
+    diff_hdi = az.hdi(diff, hdi_prob=0.95)
+    question_rows.append({
+        "question": q,
+        "transcript_a": int(sub.iloc[0]["transcript"]),
+        "transcript_b": int(sub.iloc[1]["transcript"]),
+        "P_same_tier": p_same,
+        "within_q_diff_mean": diff.mean(),
+        "within_q_diff_hdi_lo": diff_hdi[0],
+        "within_q_diff_hdi_hi": diff_hdi[1],
+    })
+question_summary = (
+    pd.DataFrame(question_rows)
+    .sort_values("P_same_tier", ascending=False)
+    .reset_index(drop=True)
+)
+question_summary.to_csv(OUT_QP, index=False, encoding="utf-8")
+
+# ---------------------------------------------------------------------------
+# 7. Console summary.
+# ---------------------------------------------------------------------------
+print(f"\nPer-transcript classification (sorted easiest -> hardest):")
+prob_cols = [f"P_tier{t + 1}" for t in range(N_TIERS)]
+display = per_transcript[
+    ["transcript", "question", "domain", "delta_mean",
+     "delta_hdi_lo", "delta_hdi_hi", "modal_tier", *prob_cols]
+].copy()
+for col in ["delta_mean", "delta_hdi_lo", "delta_hdi_hi", *prob_cols]:
+    display[col] = display[col].round(3)
+print(display.to_string(index=False))
+
+print(f"\nTier means:")
+print(tier_mean_summary.round(3).to_string(index=False))
+print(f"\nAdjacent-tier differences:")
+print(adj_summary.round(3).to_string(index=False))
+
+print(f"\nPer-question pairing (sorted by P(same tier) desc):")
+qd = question_summary.copy()
+for col in ["P_same_tier", "within_q_diff_mean",
+            "within_q_diff_hdi_lo", "within_q_diff_hdi_hi"]:
+    qd[col] = qd[col].round(3)
+print(qd.to_string(index=False))
+
+print(f"\nWrote: {OUT_TR.name}, {OUT_TIER.name}, {OUT_QP.name}")

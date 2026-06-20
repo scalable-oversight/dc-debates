@@ -1,0 +1,172 @@
+I'll analyze each turn for technical jargon, identifying specialized terms and rating the overall density.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+- "runaway supermassive black hole (SMBH)": Specialized astrophysics term, but "black hole" is widely known; "supermassive" and "runaway" add specificity that laypeople may not fully grasp.
+- Overall: One specialized concept, but partially accessible.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1]**
+- "parsecs": Unit of astronomical distance, jargon to a general reader.
+- "kiloparsecs": Extension of parsecs, equally jargon.
+- "host galaxies": Somewhat technical but contextually understandable.
+- "hypothesis": Common enough word.
+- Overall: Two clear jargon terms (parsecs, kiloparsecs) that a layperson would not know.
+**Rating: 3**
+
+---
+
+**3. Debater A: [Response 1]**
+- "SMBH recoil": Specialized astrophysics concept (gravitational recoil of black holes during merger).
+- "SMBHs": Acronym for supermassive black holes.
+- "merger": Used in astrophysical sense, somewhat technical.
+- "linear structure": Descriptive but contextually understandable.
+- "trail of star formation": Accessible phrase.
+- "recoiling SMBH": Combines jargon.
+- Overall: Several technical terms concentrated in two claims.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2]**
+- "Globular clusters": Specialized astronomical term.
+- "circumgalactic medium (CGM)": Highly specialized astrophysics term, acronym introduced.
+- "compact structures": Somewhat accessible.
+- "star formation": Accessible compound noun.
+- "trails": Accessible.
+- Overall: Two significant jargon terms, CGM being particularly opaque.
+**Rating: 3**
+
+---
+
+**5. Debater A: [Response 2]**
+- "supersonic speeds": Widely understood.
+- "trajectory": Accessible.
+- "bow shock": Technical astrophysics/fluid dynamics term; a layperson may not know this.
+- "star formation": Accessible.
+- "CGM": Acronym introduced earlier, still jargon.
+- "star forming trails": Accessible phrase.
+- Overall: "bow shock" and "CGM" are notable jargon, but the text is not overwhelmingly dense.
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3]**
+- "Figure 1": Reference notation, not jargon per se.
+- "color of the stars": Accessible.
+- "hypothesised wake": "Wake" used technically but understandable from context.
+- "bow shock": Technical term again.
+- "SMBH": Acronym.
+- "age of the stars would monotonically decrease": "Monotonically" is a technical/mathematical term opaque to laypeople.
+- "fluctuating color": Accessible.
+- Overall: "Bow shock," "SMBH," and "monotonically" contribute meaningful jargon.
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3]**
+- "age gradient": Semi-technical but understandable in context.
+- "wake": Technical usage but understandable.
+- "color fluctuations": Accessible.
+- "red and blue supergiants": "Supergiants" is an astronomical classification term; laypeople may not know it precisely.
+- "stellar age": "Stellar" is somewhat technical.
+- "bow shock": Technical term.
+- "SMBH": Acronym.
+- Overall: Several technical terms but none extremely dense; moderate jargon.
+**Rating: 3**
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+- "bulgeless edge-on galaxy": Specialized astronomical description; "bulgeless" and "edge-on" are technical descriptors in galaxy morphology.
+- Overall: One compound technical term that would be opaque to laypeople.
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1]**
+- "line ratio": Technical spectroscopy/astrophysics term.
+- "[OIII]/H𝜷": Highly specialized spectral line notation; OIII (doubly ionized oxygen) and H-beta are astrophysics spectroscopy terms, completely opaque to laypeople.
+- "bulgeless edge-on galaxy": Specialized morphological term.
+- "linear object": Accessible descriptive phrase.
+- Overall: "[OIII]/H𝜷" alone makes this heavily jargon-laden; multiple technical terms.
+**Rating: 4**
+
+---
+
+**10. Debater B: [Response 1]**
+- "Tully-Fisher relation": Named empirical relationship in astrophysics, specialized jargon.
+- "stellar mass": Technical astrophysics term.
+- "maximum rotational velocity": Semi-technical but accessible.
+- "bulgeless edge-on galaxy": Specialized morphological term.
+- "strong candidate": Accessible.
+- Overall: "Tully-Fisher relation" and "stellar mass" are clear jargon; moderately dense.
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2]**
+- "Tully-Fisher relation": Technical named relation.
+- "observational inconsistencies": Accessible.
+- "velocity gradient": Technical astrophysics term defined in glossary, but still jargon to laypeople.
+- "galaxy": Common word.
+- Overall: Two notable technical terms; moderate jargon.
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2]**
+- "IC5249": Catalog designation for a specific galaxy; highly specialized notation.
+- "bulgeless edge-on galaxy": Specialized morphological term.
+- "position vs rotational velocity gradient": Technical astrophysics concept.
+- "class of objects": Accessible.
+- Overall: Catalog name and velocity gradient terminology make this moderately to heavily jargon-laden.
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3]**
+- "velocity and flux gradient": Technical astrophysics terms; "flux" is a specialized physics term.
+- "IC5249": Catalog designation.
+- "line emission": Technical spectroscopy term.
+- "bow shock": Technical astrophysics/fluid dynamics term.
+- "IC5249": Repeated.
+- Overall: Multiple technical terms across both claims; heavy jargon density.
+**Rating: 4**
+
+---
+
+**14. Debater B: [Response 3]**
+- "line emission": Technical spectroscopy term.
+- "shocks produced by supernovae": "Supernovae" is a known astronomical term but somewhat technical.
+- "UV emission": Technical; ultraviolet emission in astronomical context.
+- "heterogeneous star formation": "Heterogeneous" is somewhat technical but partially accessible.
+- "distorted galaxies": Accessible in context.
+- "clumpy and irregular": Accessible.
+- Overall: Several technical terms but not overwhelmingly dense; moderate jargon.
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[3]]

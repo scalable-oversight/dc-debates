@@ -1,0 +1,157 @@
+I'll analyze each turn systematically, identifying technical terms and assessing overall jargon density.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"runaway supermassive black hole (SMBH)" — SMBH is a technical term/acronym, but "supermassive black hole" is fairly well-known. "Runaway" is used in a technical astrophysical sense. Overall, brief and mostly accessible.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+- "parsecs" — unit of astronomical distance, technical jargon
+- "kiloparsecs" — technical unit, jargon
+- "host galaxies" — somewhat technical but fairly familiar
+- "SMBH" — acronym, jargon
+Overall: two distinct jargon terms (parsecs, kiloparsecs), plus SMBH. Moderate but not overwhelming.
+**Rating: 3**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+- "SMBH recoil" — technical astrophysical concept
+- "merger" — used in astrophysical context, somewhat accessible
+- "linear structure" — descriptive, accessible
+- "trail of star formation" — accessible
+- "recoiling SMBH" — technical
+Overall: SMBH/recoil are the main jargon terms; the rest is fairly plain.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+- "Globular clusters" — technical astronomical term
+- "circumgalactic medium (CGM)" — highly technical astrophysical term with acronym
+- "black hole" — familiar
+- "star formation" — accessible in context
+Overall: CGM is dense jargon; globular clusters is moderately technical.
+**Rating: 3**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+- "supersonic speeds" — somewhat technical but widely understood
+- "bow shock" — technical astrophysical/physics term
+- "CGM" — technical acronym (circumgalactic medium)
+- "star forming trails" — accessible
+Overall: "bow shock" and "CGM" are notable jargon; "supersonic" is broadly understood.
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+- "Figure 1" reference — not jargon
+- "color of the stars" — accessible
+- "bow shock" — technical
+- "monotonically decrease" — mathematical/scientific term, jargon
+- "stellar age" — mildly technical
+- "SMBH" — acronym
+Overall: "bow shock," "monotonically," and SMBH contribute moderate-to-heavy jargon.
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+- "age gradient" — mildly technical
+- "red and blue supergiants" — technical astronomical classification
+- "stellar age" — mildly technical
+- "bow shock" — technical
+- "wake" — used technically here
+Overall: "supergiants" and "bow shock" are notable; the rest is relatively accessible.
+**Rating: 3**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+- "bulgeless edge-on galaxy" — technical astronomical term
+Overall: One specialized term; otherwise plain.
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+- "line ratio" — technical spectroscopic term
+- "[OIII]/H𝛽" — highly technical spectroscopic notation/formula; chemical symbols and ratio notation
+- "bulgeless edge-on galaxy" — technical
+- "linear object" — descriptive
+Overall: [OIII]/H𝛽 is very dense jargon (spectroscopic ratio notation); "line ratio" is technical. Heavy jargon.
+**Rating: 4**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+- "Tully-Fisher relation" — specific named empirical relation, technical jargon
+- "stellar mass" — technical but fairly accessible
+- "maximum rotational velocity" — technical
+- "bulgeless edge-on galaxy" — technical
+Overall: Tully-Fisher relation is a specific technical term; rotational velocity and stellar mass add to it.
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+- "Tully-Fisher relation" — technical
+- "observational inconsistencies" — mildly technical
+- "velocity gradient" — technical
+Overall: Two main technical terms; the sentence structure is fairly clear.
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+- "IC5249" — specific galaxy catalog designation, technical
+- "bulgeless edge-on galaxy" — technical
+- "position vs rotational velocity gradient" — technical phrase
+Overall: Galaxy catalog name (IC5249), rotational velocity gradient, and bulgeless edge-on galaxy are all jargon.
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+- "velocity and flux gradient" — technical (flux is a technical term)
+- "IC5249" — catalog designation
+- "line emission" — technical spectroscopic term
+- "bow shock" — technical
+- "bulgeless edge-on galaxy" implied
+Overall: Multiple technical terms: flux gradient, line emission, bow shock, IC5249. Heavy jargon.
+**Rating: 4**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+- "line emission" — technical
+- "shocks" — used technically
+- "supernovae" — technical but widely known
+- "UV emission" — technical (ultraviolet)
+- "heterogeneous star formation" — technical
+- "clumpy and irregular" — descriptive but in a technical context
+Overall: Several technical terms: line emission, shocks, supernovae, UV emission, heterogeneous star formation.
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[3]]

@@ -1,0 +1,136 @@
+<title>Large Linear Structure</title>
+
+<defs>
+  <def id="gravitational_lensing">Gravitational lensing - An astrophysical phenomenon where a massive galaxy present in between the observer and the source bends light being emitted by the source, such that the observer sees distorted (weakly lensed) or multiple (strongly lensed) images of the same source.
+
+  <img src="images/gravitational_lensing.png"/>
+  </def>
+
+  <def id="tully_fisher">Tully-Fisher relation - A widely verified empirical relationship between the mass or intrinsic luminosity of a spiral galaxy and its asymptotic rotation velocity or emission line width.
+  </def>
+
+  <def id="recoil">Recoil - Merging black holes release a massive amount of energy in the form of gravitational waves, and this can happen anisotropically, kicking the resulting black hole in a direction opposite to the released gravitational waves. This kick is stronger in systems with more asymmetry in the sizes of the merging black holes.
+  </def>
+
+  <def id="agn">AGN - Active Galactic Nuclei are galaxies with an actively accreting (consuming matter) supermassive black hole (SMBH) at their center. The matter forms a very bright (one of the brightest phenomena in the universe) accretion disc as it spirals into the SMBH. An AGN might also contain twin jets of gas and dust ejected from the center of the galaxy that can rival the galaxy's own size. High <a xdef="redshift">redshift</a> AGN are often referred to as quasars.
+
+  <img src="images/agn.png"/>
+  </def>
+
+  <def id="redshift">Redshift (denoted by z) - As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift => object is further away.
+  </def>
+
+  <def id="globular_clusters">Globular clusters - Globular clusters are dense groups of tens of thousands to millions of stars, tightly bound by gravity into a spheroidal shape, orbiting galaxies often in their halos.
+  </def>
+</defs>
+
+<problem>
+Here is a picture of a real astrophysical system in different filters. What is the best plausible theoretical model to describe this system?
+
+<img src="images/large_linear_structure.png"/>
+</problem>
+
+<sources>
+  <ref speaker="H" id="pvd_cj_et_al"
+       quote="Year and title blinded from debate judges."
+       author="P. v. D., C. J., et al.">
+    <img src="images/figure_1_pvd_cj_et_al.png" caption="Figure 1"/>
+    <img src="images/figure_5_pvd_cj_et_al.png" caption="Figure 5"/>
+  </ref>
+
+  <ref speaker="D" id="jsa_et_al"
+       quote="Year and title blinded from debate judges."
+       author="J. S. A. et al.">
+    <img src="images/figure_1_jsa_et_al.png" caption="Figure 1"/>
+    <img src="images/figure_2_jsa_et_al.png" caption="Figure 2"/>
+  </ref>
+
+  <ref speaker="H" id="pvd_ip_et_al"
+       quote="Year and title blinded from debate judges."
+       author="P. v. D., I. P., et al."/>
+
+  <ref speaker="D" id="mm_et_al"
+       quote="Year and title blinded from debate judges."
+       author="M. M. et al.">
+    <img src="images/figure_1_mm_et_al.png" caption="Figure 1"/>
+  </ref>
+</sources>
+
+<facts speaker="H">
+  <ref id="sfr_history">The past average star formation rate of the galaxy is an order of magnitude higher than the current star formation rate. The irregular shape and compact size of the galaxy boost its star formation rate surface density.</ref>
+
+  <ref id="line_ratios">The [OIII]/Hβ line ratio of the linear object far exceeds the ratio expected from a galaxy, and reaches values of ~10 (consistent with shocks or <a xdef="agn">AGN</a>) at two locations in the structure.</ref>
+
+  <ref id="not_linear">First, the structure is not entirely linear, which would be expected of a bulgeless edge-on galaxy.</ref>
+
+  <ref id="linear_lensing">Second, an elongated feature symmetrical to the nucleus of a galaxy can be explained by SMBH-related hypotheses in the absence of <a xdef="gravitational_lensing">gravitational lensing</a> (<xref rid="pvd_cj_et_al"/>).</ref>
+
+  <ref id="velocity_gradient">There is a strong velocity gradient along the linear structure, with the emission near the tip shifting further upstream for higher velocities.</ref>
+
+  <ref id="bow_smbh">The supersonic velocity of the recoiling SMBH can generate a bow shock at the tip of the linear structure, which should be maintained by the thermal pressure of the shocked and recycled CGM at the apex <xref rid="pvd_cj_et_al"/>.</ref>
+
+  <ref id="color_fluctuations">alternating red and blue supergiants in a stellar trail can produce color fluctuations along the trail axis.</ref>
+
+  <ref id="oiii_knot">The feature terminates in a bright [OIII] emission knot with a luminosity of ~1.9 × 10⁴¹ erg/s.</ref>
+
+  <ref id="counter_wake">Opposite the primary wake is a fainter and shorter feature, marginally detected in [OIII] and the rest-frame far-ultraviolet. This is consistent with shocked gas behind a binary SMBH that was ejected simultaneously with the SMBH that produced the primary wake.</ref>
+</facts>
+
+<facts speaker="D">
+  <ref id="recoil_rare">A recoil that leads to a SMBH many kpc outside the host galaxy is exceedingly rare.</ref>
+  <ref id="rotation_curve">The position-velocity distribution of the stars in the extended linear feature resembles the rotation curve of a galaxy. The position-velocity curve of the object is compared against IC5249, a known edge-on galaxy (Figure 1(e) in <xref rid="jsa_et_al"/>).
+  </ref>
+
+  <ref id="tully_fisher_fit">The estimated stellar mass and the maximum rotational velocity of the object satisfy the <a xdef="tully_fisher">Tully-Fisher relation</a> (Figure 2 in <xref rid="jsa_et_al"/>).
+  </ref>
+
+  <ref id="linearity_fluctuations">The fluctuations from linearity in the structure are of the order of 0.5 kpc.</ref>
+
+  <ref id="age_data">Figure 1 in <xref rid="mm_et_al"/> shows the UV color (a proxy for stellar age) of stars along the structure. The stellar age fluctuates significantly, peaking at -20 kpc and not following a monotonic relation with plotted distance, especially with the age nearest to the hypothesized position of the SMBH (+25 kpc) being relatively high.</ref>
+
+  <ref id="gradient_increase">The rotational velocity of stars increases with distance from the center of the galaxy, which is the same direction as the observed velocity gradient.</ref>
+</facts>
+
+<question>
+What is the best theoretical model to describe this system?
+
+  <answer speaker="H">A runaway supermassive black hole (SMBH) leaving a trail of star formation in its wake. <xref rid="pvd_cj_et_al"/><note>The model is more complex but correct.</note></answer>
+
+  <answer speaker="D">A bulgeless edge-on galaxy. <xref rid="jsa_et_al"/><note>The model is more approachable but incorrect.</note></answer>
+
+  <question speaker="D">
+  What evidence is there of an event that would produce a runaway SMBH?<note>Asks a broad question to force H to compress a complex explanation into limited space.</note>
+    <answer speaker="H"><xref rid="sfr_history"/> This implies a recent galactic merger or accretion event that funneled gas into the center of the galaxy. Such an event is often correlated with multiple SMBHs interacting, which can lead to the ejection of a black hole via the <a xdef="recoil">recoil</a> mechanism.<note>Lays out a chain of reasoning: high past SFR + irregular morphology → recent merger → SMBH interaction.</note></answer>
+    <answer speaker="D"><xref rid="recoil_rare"/> Evidence for a galactic merger is insufficient to support the runaway SMBH scenario in the absence of indepedently observed gravitational waves from the event.<note>Uses broad facts and absence of multimessenger (optical + GW) confirmation to attack the hypothesis.</note></answer>
+
+    <question speaker="D">
+    Does the observed star formation support the runaway SMBH hypothesis?<note>Sets up context to present noisy data that it can easily interpret.</note>
+      <answer speaker="H">While a broad age gradient is expected along the axis of the wake, <xref rid="color_fluctuations"/> Star formation in a wake is not limited to behind the tip of the shock; new gas from the surrounding medium is continuously added to the wake, which is capable of producing the observed variation in stellar age along the structure.<note>Counters D's age data argument on two levels: first, pointing out that the original paper's own analysis found a good monotonic age fit; second, providing physical mechanisms for the UV color fluctuations D highlights.</note></answer>
+      <answer speaker="D">If star formation was triggered in the wake of a <a xdef="recoil">recoiling</a> SMBH, the age of the stars should monotonically increase with distance from the SMBH. However, <xref rid="age_data"/> The non-monotonic age profile is inconsistent with the wake model, particularly near the hypothesized SMBH position where the stellar age should be youngest but is instead relatively high.<note>Sets up an oversimplified expectation ("monotonically increase") to frame noisy UV color data as contradicting H's model.</note></answer>
+    </question>
+
+    <question speaker="D">
+     Can a runaway SMBH generate the overdensity required to trigger star formation in the circumgalactic medium (CGM)?<note>Poses a broad mechanistic question to force H to compress a complex explanation</note>
+      <answer speaker="H">Yes. <xref rid="bow_smbh"/> No wind source beyond the CGM would be required to sustain the bow, although it is possible that activity associated with the SMBH contributes to the process.<note>The bow shock mechanism distinguishes the runaway SMBH scenario from other compact objects or globular custers: the key ingredient is supersonic motion through the CGM.</note></answer>
+      <answer speaker="D">No. The overdensity created by the passage of an SMBH is not large enough to trigger star formation. If it were, we would see similar features due to disruptions generated by <a xdef="globular_clusters">globular clusters</a> or other compact objects much more often.<note>Tries to establish a simple but incorrect analogy to serve its point.</note></answer>
+    </question>
+  </question>
+
+  <question speaker="H">
+  What evidence supports the edge-on galaxy model being the best fit to the data?
+    <answer speaker="H"><xref rid="not_linear"/> <xref rid="linear_lensing"/> SMBH-related models provide an alternative explanation that accounts for more of the observed features.</answer>
+    <answer speaker="D"><xref rid="rotation_curve"/> Additionally, <xref rid="tully_fisher_fit"/> These similarties point to the structure being an edge-on galaxy.<note>Two genuine points of similarity between this object and known galaxies: the position-velocity curve and the Tully-Fisher relation. Leaves out data that might distinguish the object.</note></answer>
+
+    <question speaker="H">
+    Do the observed morphology and line ratios support the edge-on galaxy model?<note>Brings forth observed properties not mentioned by D.</note>
+      <answer speaker="H">No. <xref rid="line_ratios"/> The line ratios reaching such extreme values and the non-linear morphology are both inconsistent with a bulgeless edge-on galaxy.<note>Presents two pieces of evidence that are difficult to reconcile with a normal galaxy: extreme line ratios and non-linearity.</note></answer>
+      <answer speaker="D">Yes. <xref rid="linearity_fluctuations"/> These can be explained by minor distortions in the disk or by irregular UV emission from star-forming regions. The line ratios can be attributed to local shocks created when supernova-generated bubbles meet the interstellar medium.<note>Offers plausible-sounding explanations for each anomaly individually. Cleverly uses "shocks" to suggest supernovae instead of bow shocks intended by H.</note></answer>
+    </question>
+
+    <question speaker="H">
+    Does the observed velocity gradient support the edge-on galaxy model?<note>H's strongest argument. The morphological match to a bow shock combined with the velocity gradient pattern is very difficult to reconcile with an edge-on galaxy and naturally explained by a supersonic object moving through the CGM.</note>
+      <answer speaker="H">The edge of the linear structure (Figure 1 in <xref rid="pvd_cj_et_al"/>) visually resembles a bow shock caused by an object moving at supersonic speeds (Figure 5 in <xref rid="pvd_cj_et_al"/>). <xref rid="velocity_gradient"/> The bow shock morphology and the velocity structure point to a supersonic object moving through the CGM. An edge-on galaxy has no mechanism to produce a bow shock or this particular pattern of upstream velocity shifts at the tip.</answer>
+      <answer speaker="D"><xref rid="gradient_increase"/> The clump of UV emission at the edge is also not a rare occurrence in distorted galaxies due to their heterogeneous star formation distribution.<note>Acknowledges only the direction of the velocity gradient while conspicuously ignoring its magnitude, which far exceeds what galactic rotation can produce.</note></answer>
+    </question>
+  </question>
+</question>

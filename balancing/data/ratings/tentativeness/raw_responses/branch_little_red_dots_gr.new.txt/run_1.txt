@@ -1,0 +1,157 @@
+I'll analyze each turn for hedging and qualifying language, then provide ratings.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"Black hole accretion in AGN (active galactic nuclei) is a **highly plausible** explanation for LRDs"
+
+"Highly plausible" is a hedging phrase — it stops short of claiming this *is* the explanation, instead saying it's plausible. One instance, but it's the central claim of the sentence.
+
+**Rating: 2** — One hedging expression ("highly plausible") that is noticeable but the claim is otherwise direct.
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "LRDs contain Balmer breaks; these are associated with galaxy-only models or dusty star formation." — Direct, no hedging.
+Claim 2: "Prominent Balmer breaks **can be** cleanly explained by photospheric emission in supermassive stars." — "can be" is a mild hedge.
+
+One hedging expression ("can be") in Claim 2, but Claim 1 is fully direct.
+
+**Rating: 2** — Minimal tentativeness with one incidental hedge.
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: "Balmer breaks are also associated with absorption from dense gas in the line of sight in high-redshift AGN." — Direct.
+Claim 2: "D. N. et al's use of speculative theories like supermassive stars to explain phenomena that **can be** defined by known physics **may not be** warranted."
+
+"Can be defined" and "may not be warranted" are both hedging expressions. Two hedges in Claim 2, making it notably qualified.
+
+**Rating: 3** — Several hedging expressions concentrated in Claim 2 ("can be," "may not be"), creating a noticeable qualification.
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: "Postulating something other than typical AGN is warranted: LRDs are X-ray weak while AGN are **typically** strong in X-rays." — "typically" is a mild qualifier.
+Claim 2: "LRDs also show, **on the whole**, significantly weaker variability than **typical** observed AGN." — "on the whole" and "typical" are both qualifiers.
+
+Three mild hedging/qualifying expressions spread across both claims.
+
+**Rating: 3** — Several qualifying expressions ("typically," "on the whole," "typical"), though none are strong hedges.
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: "At super-Eddington accretion rates, the plasma responsible for emitting X-rays is cooled down. This results in weak X-ray spectra." — Direct, no hedging.
+Claim 2: "AGN variability amplitude decreases with increasing accretion rate, which **supports** super-Eddington accretion as an explanation for weak observed variability (**moreso than** SMS)."
+
+"Supports" (rather than "proves") is a mild hedge; "moreso than" is a comparative but not a hedge. Mostly direct.
+
+**Rating: 2** — Minimal tentativeness; "supports" is the only hedging expression.
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "The super-Eddington variability suppression mechanism is **theoretically predicted** but rests on a **small number** of empirical samples." — "theoretically predicted" and "small number" are qualifiers highlighting uncertainty/limitation.
+Claim 2: "SMS photospheres lack the stochastic accretion-driven variability mechanism that **characterises** AGN." — Direct.
+
+"Theoretically predicted" and "small number of empirical samples" qualify the first claim meaningfully.
+
+**Rating: 2** — One turn has qualifiers but they're descriptive rather than hedging language per se; the claims are still largely direct.
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: "The SMS in D. N. et al. accretes at the rate of 1000 Msol/yr. This results in turbulent flows, which are a **known** source of stochastic variability." — "known" is an intensifier, not a hedge; direct.
+Claim 2: "**However**, none of the variability associated with these turbulent flows is modelled." — "However" is a connector, not a hedge; direct.
+
+No hedging language present.
+
+**Rating: 1** — No tentativeness; both claims are stated directly.
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"Photospheric emission of supermassive stars (SMS) is a **highly plausible** explanation for LRDs"
+
+"Highly plausible" hedges the central claim — same pattern as Debater A's opening.
+
+**Rating: 2** — One hedging expression ("highly plausible").
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "Supermassive stars are theoretical objects that have not been directly observed." — Direct.
+Claim 2: "**Furthermore**, with characteristic masses above 10⁴ M☉, supermassive stars have **short** main-sequence lifetimes." — "short" is descriptive, not hedging; direct.
+
+No hedging language.
+
+**Rating: 1** — No tentativeness; both claims are stated directly.
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "It is **almost certain** that supermassive stars existed in the early universe, made up of pure hydrogen and helium." — "almost certain" is a hedge (not fully certain).
+Claim 2: "D. N. et al.'s SMS model has an LRD-like spectrum for **around** 1000 years, making a galaxy containing SMS a **valid candidate** for LRDs." — "around" and "valid candidate" are mild hedges.
+
+Three hedging/qualifying expressions across both claims.
+
+**Rating: 3** — Multiple hedging expressions ("almost certain," "around," "valid candidate") that meaningfully qualify the claims.
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "Direct collapse of supermassive stars is **theorized** to generate black hole seeds for SMBH." — "theorized" hedges this claim.
+Claim 2: "If the SMS model only resembles LRDs for 1000 years, the number of SMS required would be **too high** compared to observed SMBHs." — "If" is a conditional hedge; "would be" is also conditional.
+
+"Theorized," "if," and "would be" all hedge the claims.
+
+**Rating: 3** — Several hedging expressions ("theorized," "if," "would be") that qualify both claims.
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "Stellar rotation, **in general**, provides additional outward pressure that **can help** stabilize stars against collapse over time." — "in general" and "can help" are hedges.
+Claim 2: "Considering the effect of rotation extends SMS lifetimes. Including it in the SMS model **will, in turn**, reduce the number of SMS required to produce LRDs to **acceptable** numbers." — "acceptable" is a mild qualifier; "will" is direct.
+
+"In general," "can help," and "acceptable" are hedging/qualifying expressions.
+
+**Rating: 3** — Several qualifying expressions spread across both claims.
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "The modeling of rotation, radiative transfer, and related effects **appears** insufficiently rigorous to **fully** support this claim." — "appears" and "fully" are both hedges.
+Claim 2: "**For example**, the paper does not provide an estimate for the lifespan of SMS with stellar rotation." — "for example" is an evidential qualifier suggesting this is illustrative rather than exhaustive.
+
+"Appears," "fully," and "for example" all hedge.
+
+**Rating: 3** — Multiple hedging expressions ("appears," "fully," "for example") that noticeably qualify the claims.
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "Modelling the evolution of rapidly accreting SMSs to the GR instability regime is **only** feasible with 1D stellar evolution." — "only" limits scope but is not a hedge on certainty; direct.
+Claim 2: "D. N. et al. solve radiative transfer with a one-dimensional streaming-pair scheme (a Feautrier / Λ-iteration solver)." — Direct technical statement.
+
+No hedging language.
+
+**Rating: 1** — No tentativeness; both claims are factual and direct.
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[1]]
+B | Opening | [[2]]
+A | Argument 1 | [[1]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[1]]

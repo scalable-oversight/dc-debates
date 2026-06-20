@@ -1,0 +1,93 @@
+I'll analyze each turn for confidence signals, then provide ratings.
+
+**1. Debater A: [Opening] (Left)**
+"The internal temperature of a star increases with time on the main sequence."
+- Entirely declarative, no hedging, no qualifications. Direct statement of fact.
+- Rating: **5**
+
+**2. Debater B: [Argument 1] (Left)**
+- Claim 1: "A star continually radiates energy away from its surface in the form of photons." — Definitive, factual statement.
+- Claim 2: "The temperature of the system does not increase due to the amount of energy actively being taken away from it." — Assertive, no hedging.
+- Both claims are stated as straightforward facts with no qualification.
+- Rating: **5**
+
+**3. Debater A: [Response 1] (Left)**
+- Claim 1: "The temperature of a star is proportional to the kinetic energy of its constituent particles via the equipartition theorem." — Stated as a direct fact, citing a theorem.
+- Claim 2: "The kinetic energy of the constituent particles of the star increases, as it evolves, on the main sequence." — Assertive, no hedging.
+- Both are confident and definitive.
+- Rating: **5**
+
+**4. Debater B: [Argument 2] (Left)**
+- Claim 1: "By the first law of thermodynamics, energy lost via radiation must come from the system's internal energy or work done on the system." — Strong, invoking a physical law; "must" is emphatic.
+- Claim 2: "Since no external work is being done on the system, the internal energy must decrease, which comes from the kinetic energy of the constituent particles." — "must" again; conditional reasoning but stated definitively.
+- Very confident overall.
+- Rating: **5**
+
+**5. Debater A: [Response 2] (Left)**
+- Claim 1: "When a self-gravitating system contracts, its gravitational potential energy decreases." — Definitive, no hedging.
+- Claim 2: "Gravity does work on the system and the released gravitational potential energy more than offsets the radiated energy. The surplus increases the kinetic energy of the particles." — Assertive; "more than offsets" is a strong claim without qualification.
+- Rating: **5**
+
+**6. Debater B: [Argument 3] (Left)**
+- Claim 1: "Thermodynamic properties, which include internal energy, are intrinsically linked to the star's temperature." — "intrinsically linked" is strong.
+- Claim 2: "Kinetic energy maps onto temperature via the equipartition theorem. In contrast, gravitational potential energy has no place in thermodynamic calculations." — Very assertive; "has no place" is absolute language.
+- Rating: **5**
+
+**7. Debater A: [Response 3] (Left)**
+- Claim 1: "By the virial theorem, the kinetic energy of the star increases over time, as the gravitational potential energy of the star itself decreases." — Definitive, citing a theorem.
+- Claim 2: "And since the temperature is proportional to the kinetic energy (Debater A Response 1 Claim 1), the temperature, on the whole, naturally increases." — "on the whole" is a slight softening, but "naturally increases" is confident. Minor hedge.
+- Mostly confident with one small qualifier.
+- Rating: **4**
+
+**8. Debater B: [Opening] (Right)**
+"The internal temperature of a star decreases with time on the main sequence."
+- Entirely declarative, no hedging.
+- Rating: **5**
+
+**9. Debater A: [Argument 1] (Right)**
+- Claim 1: "Star cores contract as they evolve on the main sequence." — Definitive.
+- Claim 2: "Gravity gets stronger as the star contracts. If the internal temperature also decreases, the star would collapse at a thermal timescale." — The "if...would" construction is conditional but used rhetorically to argue against the opposing view; it's an assertive logical argument.
+- Overall confident, though the conditional framing introduces slight tentativeness.
+- Rating: **4**
+
+**10. Debater B: [Response 1] (Right)**
+- Claim 1: "Nuclear fusion generates the radiation pressure and thermal pressure that support the star against gravitational collapse." — Definitive.
+- Claim 2: "Decreasing outward pressure as the star runs out of nuclear fuel causes the star's contraction. This does not cause collapse." — Assertive, especially "does not cause collapse."
+- Rating: **5**
+
+**11. Debater A: [Argument 2] (Right)**
+- Claim 1: "Nuclear fusion in the star's core converts hydrogen into helium during the main sequence." — Factual, definitive.
+- Claim 2: "This in turn reduces the number of particles and hence the thermal pressure in the core. If the temperature does not increase to compensate, hydrostatic equilibrium cannot be maintained." — Conditional framing ("if...cannot"), but used assertively as logical necessity.
+- Mostly confident with a conditional structure.
+- Rating: **4**
+
+**12. Debater B: [Response 2] (Right)**
+- Claim 1: "Over time, the core gradually gets denser as hydrogen is steadily converted into helium." — "gradually" and "steadily" are descriptive but not hedging; factual statement.
+- Claim 2: "The higher density enables the core to withstand more inward pressure from the outer layers of the star. This is why temperature does not need to increase to maintain equilibrium." — "enables" and "does not need to" are assertive; "this is why" is confident causal attribution.
+- Rating: **5**
+
+**13. Debater A: [Argument 3] (Right)**
+- Claim 1: "The self-gravity of an object increases as it grows denser at constant mass." — Definitive, physical fact.
+- Claim 2: "The core's own inward pull and the pressure from the outer layers of the star grow stronger with contraction; the temperature must in turn increase to counteract them and prevent collapse." — "must" is emphatic; very assertive.
+- Rating: **5**
+
+**14. Debater B: [Response 3] (Right)**
+- Claim 1: "A star contracts until it ignites helium fusion at the end of the main sequence." — Definitive.
+- Claim 2: "The rate at which thermal pressure decreases matters: the increasing density of the core (Debater B Response 2 Claim 1) prolongs the contraction long enough for helium fusion to ignite, preventing collapse." — Assertive causal chain, no hedging.
+- Rating: **5**
+
+RATINGS:
+A | Opening | [[5]]
+B | Argument 1 | [[5]]
+A | Response 1 | [[5]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[5]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[4]]
+B | Opening | [[5]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[5]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[5]]
+A | Argument 3 | [[5]]
+B | Response 3 | [[5]]

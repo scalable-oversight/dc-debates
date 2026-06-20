@@ -1,0 +1,77 @@
+I'll analyze each turn for rhetorical or persuasive tactics.
+
+**Left Side:**
+
+**1. Debater A: [Opening]**
+Simply states a position with a citation. No emotional appeals, no loaded language, no framing devices. Pure claim with source.
+Rating: 1
+
+**2. Debater B: [Argument 1]**
+Both claims are factual/empirical. Claim 1 states a general fact about SMBHs; Claim 2 applies it to the hypothesis. No rhetorical devices—straightforward logical challenge based on physical scale.
+Rating: 1
+
+**3. Debater A: [Response 1]**
+Both claims are substantive. Claim 1 invokes a physical mechanism (recoil); Claim 2 cites evidence from a source. No rhetorical devices.
+Rating: 1
+
+**4. Debater B: [Argument 2]**
+Claim 1 is a factual statement. Claim 2 uses an analogy-based argument (if X caused Y, we'd see similar Y for analogous X). This is a substantive logical argument, not a rhetorical device, though the analogy could be seen as mildly framing.
+Rating: 1
+
+**5. Debater A: [Response 2]**
+Both claims are technical/physical explanations (supersonic speeds, bow shocks). No rhetorical devices—pure mechanistic reasoning.
+Rating: 1
+
+**6. Debater B: [Argument 3]**
+Claim 1 cites a figure. Claim 2 makes a logical inference from the evidence. The word "but" in Claim 2 is mildly emphatic but not rhetorically loaded. Substantive.
+Rating: 1
+
+**7. Debater A: [Response 3]**
+Both claims offer mechanistic explanations. "While" in Claim 1 slightly concedes to soften opposition, which is a mild framing device, but overall the response is substantive.
+Rating: 1
+
+**Right Side:**
+
+**8. Debater B: [Opening]**
+Simple position statement with citation. No rhetorical devices.
+Rating: 1
+
+**9. Debater A: [Argument 1]**
+Claim 1 uses "far exceeds" which is mildly loaded but is describing an empirical comparison. Claim 2 uses "would be expected" as a logical constraint. Mostly substantive with very minor emphasis language.
+Rating: 2
+
+**10. Debater B: [Response 1]**
+Both claims are substantive. Claim 2 uses "strong candidate" which is mildly persuasive framing, but the argument rests on the Tully-Fisher relation evidence.
+Rating: 1
+
+**11. Debater A: [Argument 2]**
+Claim 1 concedes while adding a qualifier ("not sufficient"). Claim 2 cites specific figures. Both are substantive. "Too large" is a factual characterization.
+Rating: 1
+
+**12. Debater B: [Response 2]**
+Uses a concrete comparison case (IC5249). Claim 2 uses "directly suggesting" which is mildly assertive framing, but the argument is substantive.
+Rating: 1
+
+**13. Debater A: [Argument 3]**
+Claim 1 notes a factual difference. Claim 2 uses "strongly resembling" and "implies" which are assertive but substantive. The conclusion "This implies that the object is not a galaxy" is a logical inference.
+Rating: 1
+
+**14. Debater B: [Response 3]**
+Claim 2 uses "It is well established that..." which is an appeal to consensus/authority to add persuasive weight without citing specific evidence. This is a recognizable rhetorical device. Claim 1 is more straightforwardly empirical.
+Rating: 2
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[1]]
+A | Response 1 | [[1]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[1]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[1]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[1]]
+A | Argument 3 | [[1]]
+B | Response 3 | [[2]]

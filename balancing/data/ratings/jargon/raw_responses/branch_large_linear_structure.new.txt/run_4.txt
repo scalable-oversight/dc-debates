@@ -1,0 +1,170 @@
+I'll analyze each turn for technical jargon, then provide ratings.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+- "supermassive black hole (SMBH)": Jargon — specialized astrophysics term, though "black hole" is familiar to general readers; "supermassive" qualifier and acronym SMBH are more specialized.
+- "runaway": not jargon in itself, but in context implies a specific astrophysical phenomenon.
+- Overall: one or two technical terms, meaning is broadly accessible.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1]**
+- "parsecs": Jargon — unit of astronomical distance unfamiliar to most laypeople.
+- "SMBH": Jargon — acronym for supermassive black hole.
+- "host galaxy": mild jargon, but fairly accessible.
+- "kiloparsecs": Jargon — specialized unit of distance.
+- Several technical terms but the overall argument is followable.
+**Rating: 3**
+
+---
+
+**3. Debater A: [Response 1]**
+- "SMBH recoil": Jargon — specialized astrophysical process.
+- "merger": mild jargon in this context (galaxy merger).
+- "linear structure": mild technical usage.
+- "star formation": fairly accessible but used in technical astrophysical context.
+- "recoiling SMBH": Jargon — combines two specialized terms.
+- "trail of star formation": somewhat technical but accessible.
+- Several technical terms present; moderately dense.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2]**
+- "Globular clusters": Jargon — specialized astronomy term for dense star clusters.
+- "circumgalactic medium (CGM)": Jargon — highly specialized astrophysics term and acronym.
+- "black hole": familiar enough to general readers.
+- "star formation": accessible.
+- "trails": not jargon.
+- CGM is particularly opaque; overall moderately heavy jargon.
+**Rating: 3**
+
+---
+
+**5. Debater A: [Response 2]**
+- "SMBH": Jargon — acronym.
+- "supersonic speeds": moderately technical but broadly understood.
+- "bow shock": Jargon — specialized physics/astrophysics term for the shock wave created by supersonic motion.
+- "star formation": accessible.
+- "CGM": Jargon — specialized acronym.
+- "Globular clusters": Jargon.
+- Multiple specialized terms; moderately heavy.
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3]**
+- "[Figure 1]": reference notation, not jargon.
+- "hypothesised wake": "wake" in this context is somewhat technical.
+- "bow shock": Jargon.
+- "SMBH": Jargon.
+- "monotonically decrease": Jargon — mathematical/scientific term meaning steadily decreasing without reversal.
+- "stellar age" / "star formation": accessible.
+- "color" of stars: used in technical astrophysical sense (photometric color).
+- Moderate density of jargon.
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3]**
+- "age gradient": Jargon — technical term for systematic change in stellar age across a structure.
+- "red and blue supergiants": Jargon — stellar classification terms; "supergiants" are a specific class of very luminous stars.
+- "bow shock": Jargon.
+- "SMBH": Jargon.
+- "stellar age": moderately technical.
+- Multiple technical terms; moderately dense.
+**Rating: 3**
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+- "bulgeless edge-on galaxy": Jargon — specialized astronomical description; "bulgeless" refers to the absence of a galactic bulge, "edge-on" is the viewing orientation.
+- Relatively brief with a single compound jargon term.
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1]**
+- "line ratio": Jargon — spectroscopic term for the ratio of intensities of spectral emission lines.
+- "[OIII]/H𝜷": Jargon — highly specialized spectroscopic notation; [OIII] is doubly ionized oxygen emission line, H𝜷 is the Hβ Balmer hydrogen line. This would be opaque to a non-specialist.
+- "bulgeless edge-on galaxy": Jargon.
+- "linear object": mild technical usage.
+- Very technical notation and terminology present.
+**Rating: 4**
+
+---
+
+**10. Debater B: [Response 1]**
+- "Tully-Fisher relation": Jargon — specialized empirical relationship in astronomy (defined in glossary but still highly specialized).
+- "stellar mass": Jargon — technical measurement in astrophysics.
+- "maximum rotational velocity": technical but somewhat accessible.
+- "bulgeless edge-on galaxy": Jargon.
+- Multiple specialized terms; moderately heavy.
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2]**
+- "Tully-Fisher relation": Jargon.
+- "observational inconsistencies": mildly technical.
+- "velocity gradient": Jargon — specialized term for rate of change of velocity with position.
+- "galaxy": accessible.
+- Moderate jargon density.
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2]**
+- "IC5249": Jargon — proper name/catalog designation for a specific galaxy; opaque without domain knowledge.
+- "bulgeless edge-on galaxy": Jargon.
+- "position vs rotational velocity gradient": Jargon — technical kinematic concept.
+- "class of objects": mild technical usage.
+- Multiple specialized terms.
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3]**
+- "velocity and flux gradient": Jargon — "flux" is a specialized physics/astrophysics term; "gradient" in this context is technical.
+- "IC5249": Jargon.
+- "line emission": Jargon — spectroscopic term for emission at specific wavelengths.
+- "bow shock": Jargon.
+- Multiple technical terms across both claims; fairly heavy jargon.
+**Rating: 4**
+
+---
+
+**14. Debater B: [Response 3]**
+- "line emission": Jargon.
+- "shocks": used in technical astrophysical sense (shock waves).
+- "supernovae": Jargon — specialized term for stellar explosions; though somewhat familiar, precise meaning may be unclear to laypeople.
+- "UV emission": Jargon — ultraviolet emission, a spectroscopic/photometric term.
+- "heterogeneous star formation": Jargon — "heterogeneous" is somewhat technical in this context.
+- "distorted galaxies": mildly technical.
+- "clumpy and irregular": accessible.
+- Moderate-to-heavy jargon density.
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[3]]

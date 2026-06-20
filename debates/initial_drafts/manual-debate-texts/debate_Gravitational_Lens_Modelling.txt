@@ -1,0 +1,117 @@
+<debate initiator="Liz" questioner="Bob">
+  <speaker name="Liz" claim="0">
+    The best plausible theoretical model to describe this system is an Einstein zig-zag lens with two deflectors and a single AGN (D1) <ref id="fd_et_al"/>.
+  </speaker>
+
+  <speaker name="Bob" question="0">
+    An Einstein zig-zag lens requires many different parameters, what mass and light profiles did you use for the two deflectors and the quasar?
+  </speaker>
+
+  <speaker name="Liz" claim="1">
+    A Power-law Elliptical Mass Distribution (D6) was used for the first deflector (z=1.84) and a Single Isothermal Sphere (SIS) with external shear (D7) for the second deflector (z=1.8845). Four SIS profiles for galaxies in the plane of the first deflector were also used, but they didn’t affect convergence due to their distance from the optical axis. The quasars were modelled as point sources.
+  </speaker>
+
+  <speaker name="Bob" question="1">
+    The second deflector is an isolated galaxy that can be described by an SIE profile, but is instead constrained using an SIS + shear model. The presence of galaxies in the first deflector’s plane could have been handled using a shear to model the cumulative mass profile, why add four SIS profiles instead?
+  </speaker>
+
+  <speaker name="Liz" claim="2">
+    An SIE profile is often degenerate with an SIS + shear profile at low radii, and has the same amount of parameters. Four SIS profiles were added to accurately model the effects of neighbouring galaxies, taking their positions into account to model a more complex mass distribution than a simple shear.
+  </speaker>
+
+  <speaker name="Bob" question="2">
+    Adding complexity to the model allows for more degrees of freedom – 12 (SIE+shear for the lensing galaxy with two point sources at the same redshift) vs 15 (+15 if you set the position and redshift of the second deflector and the four foreground galaxies as free parameters) – that might overfit to the data. What is the reduced chi-squared error of your final model in the optical bands?
+  </speaker>
+
+  <speaker name="Liz" claim="3">
+    Positions of the four foreground galaxies were constrained by optical data from HST; the position of the second deflector was partially constrained by modelling the red arc as the second deflector is being lensed by the first deflector. Redshifts of the foreground galaxies and the second deflector were constrained by photometry (HST) and spectroscopy (NIRSpec) respectively. Chi-squared error for the optical data was not calculated, but the RMSE of the positions of the six lensed images is 0.03”.
+  </speaker>
+
+  <speaker name="Bob" question="3">
+    The RMSE for the positions of the six lensed images in our model is 0.02” and the reduced chi-squared error for the optical data is 2.11. The absence of a chi-squared error (reduced or otherwise) to assess absolute flux matching limits the ability to determine a better fit for the data. Even for flux ratio calibration, the lens model suggests a flipped ratio for the two least bright images than what is observed, how do you explain this?
+  </speaker>
+
+  <speaker name="Liz" claim="4">
+    We don’t include final magnification estimates, but Figure 3 in F. D. et al.<ref id="fd_et_al"/> provides a visual representation for the magnification of all images, which suggests a better match for the observed flux ratio than your reported values. The remaining discrepancy could be due to intrinsic variability in the quasar or microlensing.
+  </speaker>
+
+  <speaker name="Bob" question="4">
+    Microlensing would not affect observed flux in radio bands, and our data does highlight the anomaly in radio as well. In addition to intrinsic variability, the flux anomaly would also be explained by perturbations in the lens model, and the better fit for magnification in your model could be attributed to overfitting due to an increased number of parameters.
+  </speaker>
+</debate>
+
+<debate initiator="Bob" questioner="Liz">
+  <speaker name="Bob" claim="0">
+    The best plausible theoretical model to describe this system is a gravitationally lensed (D2) dual-AGN (D3) <ref id="csm_et_al"/>.
+  </speaker>
+
+  <speaker name="Liz" question="0">
+    If the system is indeed a dual-AGN, why is there no trace of a host galaxy for the two sets of point sources? There should be an extended arc for the four large points, especially since they are magnified more by the lens.
+  </speaker>
+
+  <speaker name="Bob" claim="1">
+    Any galaxy smaller than 400 pc across will not show up as an extended lensed arc in this image, suggesting a dwarf galaxy hosting the first active black hole. The red arc can be the host galaxy of the second active black hole, and the offset of the black hole from the center of the red galaxy can be explained by SMBH recoil (D8).
+  </speaker>
+
+  <speaker name="Liz" question="1">
+    Invoking the recoil mechanism requires the system to be post-merger, what evidence do you have that the system is interacting/has interacted?
+  </speaker>
+
+  <speaker name="Bob" claim="2">
+    The modelled separation between the quasars in the source plane is 6.5 kpc, which enables significant interaction. Additionally, radio data collected using VLA in addition to the optical HST data shows high radio emission corresponding to star formation rates that are too high for a pre-merger scenario.
+  </speaker>
+
+  <speaker name="Liz" question="2">
+    High radio emission can be attributed to weak jets instead of star formation, which can point to pre-merger galaxy interactions. How do you justify a post-merger scenario without attributing radio emissions to high star formation rates?
+  </speaker>
+
+  <speaker name="Bob" claim="3">
+    A significant part of the radio emission not coming from star formation is unlikely, since close-pair galactic interactions can increase star formation rates <ref id="cs_et_al"/>. Even if we assume that the majority of radio emission comes from the AGN (like weak jets), predictions from galactic simulations place dual-AGN activity in the latter phases of a merger <ref id="jms_et_al"/>, which also point to a post-merger scenario.
+  </speaker>
+
+  <speaker name="Liz" question="3">
+    Spectroscopy constrains the second deflector’s redshift to be ~1.8845 and the quasar’s redshift to be ~2.38, which rules out the possibility of the red lensed arc being the host galaxy for one of the AGN in your model. How do you justify a dual-AGN system without the red arc?
+  </speaker>
+
+  <speaker name="Bob" claim="4">
+    A dual-AGN is still plausible w/o the red galaxy at the same redshift as the quasars. As with the first AGN, the extended structure of the second might not be visible or be obscured by the overlapping red galaxy. Constraints on galaxy size for the second AGN would be looser than that of the first due to the lower magnification. Separation between the two AGN would also be the same or lower if the red galaxy was added to the lens model, which makes them better candidates for a dual-AGN system.
+  </speaker>
+
+  <speaker name="Liz" question="4">
+    The light curves obtained by spectroscopy for all lensed images are very similar, suggesting that they were emitted by a single astrophysical object, which adds evidence for a single AGN lensed by two deflectors instead of a dual-AGN system.
+  </speaker>
+</debate>
+
+<refs>
+  <cite id="fd_et_al" 
+        quote="Year and title blinded from debate judges." 
+        url="F. D. et al."/>
+  
+  <cite id="csm_et_al" 
+        quote="Year and title blinded from debate judges." 
+        url="C. S. M. et al."/>
+  
+  <cite id="tec_et_al" 
+        quote="Year and title blinded from debate judges." 
+        url="T. E. C. et al."/>
+  
+  <cite id="mo_et_al" 
+        quote="Year and title blinded from debate judges." 
+        url="M. O. et al."/>
+  
+  <cite id="cl_ta_et_al" 
+        quote="Year and title blinded from debate judges." 
+        url="C. L., T. A., et al."/>
+  
+  <cite id="cl_mm_et_al" 
+        quote="Year and title blinded from debate judges." 
+        url="C. L., M. M., et al."/>
+  
+  <cite id="cs_et_al" 
+        quote="Year and title blinded from debate judges." 
+        url="C. S. et al."/>
+  
+  <cite id="jms_et_al" 
+        quote="Year and title blinded from debate judges." 
+        url="J. M. S. et al."/>
+</refs>

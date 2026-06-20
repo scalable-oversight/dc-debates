@@ -1,0 +1,147 @@
+I'll analyze each turn for confidence indicators, then provide ratings.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The brightness of early universe galaxies is **weak evidence** towards falsifying the existence of dark matter."
+- "weak evidence" significantly hedges the claim — it's not denying the evidence, but qualifying it as minor
+- "towards falsifying" is also tentative rather than assertive
+- Overall: modest hedging but still making a directional claim
+
+**Rating: 3**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+- Claim 1: "strongly and reliably correlated" — highly assertive language, "broadly speaking" adds slight hedge
+- Claim 2: "can fit...while Lambda-CDM cannot" — "can fit" is moderately confident; "cannot" is definitive
+- Mix of strong and slightly hedged language overall
+
+**Rating: 4**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+- Claim 1: "a top-heavy IMF predicts a brighter galaxy" — stated definitively
+- Claim 2: "substantially improves...over the fit it appears to have" — "substantially" is assertive but "appears to have" introduces hedging
+- Moderate hedging in Claim 2 tempers otherwise confident language
+
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+- Claim 1: "based on dense empirical data" — confident, factual framing
+- Claim 2: "is not justified by the data available" — definitive negative assertion
+- Both claims are stated firmly with no hedging language
+
+**Rating: 5**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+- Claim 1: "Current methods do not allow us to empirically calculate" — stated as a definitive limitation
+- Claim 2: "systematically lower metallicity, which is **likely** to result" — "likely" introduces moderate hedging
+- The definitive Claim 1 is balanced by the hedged "likely" in Claim 2
+
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+- Claim 1: "assume a standard IMF...and obtain good residuals" — factual, confident
+- Claim 2: "the change does not justify the use of a top-heavy IMF" — definitive conclusion
+- Both claims are stated as clear facts/conclusions with no hedging
+
+**Rating: 5**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+- Claim 1: "will be more severe" — stated definitively
+- Claim 2: "does not mean these results would **necessarily** generalize" — "necessarily" introduces epistemic hedge; "would" is conditional
+- The hedging in Claim 2 ("not necessarily") moderates overall confidence
+
+**Rating: 3**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The brightness of early universe galaxies is **strong evidence** towards falsifying the existence of dark matter."
+- "strong evidence" — assertive qualifier
+- "towards falsifying" — directional but not absolute
+- Confident but stops short of certainty
+
+**Rating: 4**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+- Claim 1: "The **typical** argument for this is that..." — "typical" slightly distances the speaker; framing as others' argument
+- Claim 2: "**successfully** explains the **vast majority**" — strong but qualified ("vast majority" acknowledges exceptions)
+- Moderately confident overall; framing Claim 1 as others' argument reduces personal assertion
+
+**Rating: 3**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+- Claim 1: "relies on dark matter, which has **never been directly observed**" — factual and definitive; "theorized" slightly hedges dark energy
+- Claim 2: "MOND handles the same cosmological phenomena **without** postulating extra matter" — stated firmly
+- Both claims are assertive and factual in framing
+
+**Rating: 4**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+- Claim 1: "is the **best way** to explain" — superlative, assertive
+- Claim 2: "**would require** reworking...leading to modifications **across many areas**" — conditional but broad and assertive scope
+- Confident language throughout, though Claim 2 is somewhat hypothetical
+
+**Rating: 4**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+- Claim 1: "**generally do manage** to reproduce" — "generally" hedges, "do manage" is affirmative but modest
+- Claim 2: "**adequately** fits...without the need for dark matter" — "adequately" is a modest qualifier
+- Both claims are somewhat qualified ("generally," "adequately"), tempering confidence
+
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+- Claim 1: "was, in fact, designed specifically with handling gravitational lensing as one of its **principal** motivations" — "in fact" and "specifically" signal certainty; "one of its principal motivations" is precise
+- Claim 2: "contains **examples** of lens systems which do not fit" — factual, definitive citation
+- Both claims are stated as clear facts with no hedging
+
+**Rating: 5**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+- Claim 1: "has been shown to reproduce...**reasonably well**" — "reasonably well" hedges; "has been shown" is factual but modest
+- Claim 2: "**can be fit** using many-parameter interpolation functions" — "can be" is conditional/possible rather than definitive
+- Both claims use qualifying language, expressing moderate rather than full confidence
+
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[3]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[3]]
+B | Opening | [[4]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[5]]
+B | Response 3 | [[3]]

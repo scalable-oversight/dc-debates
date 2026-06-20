@@ -1,0 +1,121 @@
+I'll analyze each turn for rhetorical tactics, then provide ratings.
+
+---
+
+**Left Side**
+
+**1. Debater A: [Opening]**
+"The water level falls." — A bare declarative statement with no framing, emotional appeals, or persuasive devices. Pure positional claim.
+*Tactics: None.*
+**Rating: 1**
+
+---
+
+**2. Debater B: [Argument 1]**
+Claim 1 cites Quote 2 directly. Claim 2 makes a logical inference about meltwater replacing ice displacement. Both are substantive. No loaded language, emotional appeals, or rhetorical devices. The argument is perhaps slightly overconfident in its interpretation of Quote 2, but that's a substantive error, not a rhetorical tactic.
+*Tactics: None significant.*
+**Rating: 1**
+
+---
+
+**3. Debater A: [Response 1]**
+Claim 1 does a close textual reading of Quote 2 to extract an implied distinction. Claim 2 applies that distinction logically. No emotional appeals, no straw-manning. Straightforward textual and logical argument.
+*Tactics: None.*
+**Rating: 1**
+
+---
+
+**4. Debater B: [Argument 2]**
+Claim 1 appeals to "common dictionary definitions" — a mild appeal to authority/convention. Claim 2 makes a logical inference. The appeal to dictionary definitions is a minor rhetorical move (framing the debate around common usage rather than physics), but it's relatively minor and paired with substantive reasoning.
+*Tactics: Minor appeal to common usage/dictionary authority in Claim 1.*
+**Rating: 2**
+
+---
+
+**5. Debater A: [Response 2]**
+Claim 1 uses a framing move — pointing out an apparent contradiction to undermine B's position ("Quotes 1 and 2 appear to contradict each other if 'buoyant' simply means 'floating'"). This is a mild rhetorical setup. Claim 2 provides substantive definitional reasoning about effective density. Overall mostly substantive.
+*Tactics: Mild framing in Claim 1 to set up a contradiction.*
+**Rating: 2**
+
+---
+
+**6. Debater B: [Argument 3]**
+Claim 1 again appeals to "standard dictionaries" — appeal to common authority. Claim 2 makes a logical inference but uses slightly dismissive framing ("can't have anything to do with effective density here"). The dictionary appeal is repeated and slightly more prominent here.
+*Tactics: Repeated appeal to dictionary authority; slight dismissive framing in Claim 2.*
+**Rating: 2**
+
+---
+
+**7. Debater A: [Response 3]**
+Claim 1 offers a substantive reinterpretation of Quote 2. Claim 2 uses a concrete example (beach ball held underwater) — this is a legitimate analogical argument, not a rhetorical trick. Both claims are substantive.
+*Tactics: None significant; the example is illustrative, not manipulative.*
+**Rating: 1**
+
+---
+
+**Right Side**
+
+**8. Debater B: [Opening]**
+"The water level stays brim full." — A bare declarative statement, no framing or persuasive devices.
+*Tactics: None.*
+**Rating: 1**
+
+---
+
+**9. Debater A: [Argument 1]**
+Claim 1 cites Quote 1 directly. Claim 2 describes a physical process (ice popping up, displacing less water). Both are substantive physical reasoning. No rhetorical devices.
+*Tactics: None.*
+**Rating: 1**
+
+---
+
+**10. Debater B: [Response 1]**
+Claim 1 makes a logical implication argument ("treating them as one system implies the 'below the waterline' phrase is irrelevant") — this is a mild rhetorical move suggesting A is ignoring part of the question, but it's substantive in pointing out a consequence. Claim 2 makes a direct substantive claim with citation.
+*Tactics: Mild implication framing in Claim 1 (suggesting A's view renders information in the question irrelevant).*
+**Rating: 2**
+
+---
+
+**11. Debater A: [Argument 2]**
+Claim 1 uses a hypothetical counterexample (lead vs. sandstone) — a legitimate logical/thought experiment. Claim 2 follows through with the physical reasoning. No rhetorical devices; this is classic analytical argument by counterexample.
+*Tactics: None.*
+**Rating: 1**
+
+---
+
+**12. Debater B: [Response 2]**
+Claim 1 introduces a somewhat vague distinction ("degree to which ice is sinking rather than floating freely") without rigorous definition — this muddies the argument rather than clarifying it, which could be seen as rhetorical obscuring, but it seems more like imprecise reasoning. Claim 2 concedes A's point. Mostly substantive.
+*Tactics: Slight imprecision/vagueness in Claim 1 that may serve to obscure, but likely unintentional.*
+**Rating: 1**
+
+---
+
+**13. Debater A: [Argument 3]**
+Claim 1 makes a direct physical assertion ("submerged volume, not 'degree of floating', is what determines displacement") — this is a substantive correction of B's framing. Claim 2 continues the lead-block analogy substantively.
+*Tactics: None significant.*
+**Rating: 1**
+
+---
+
+**14. Debater B: [Response 3]**
+Claim 1 appeals to the "combination of quotes 1 and 2" making something "clear" — a mild appeal to the authority/clarity of the sources. Claim 2 introduces a vague middle-ground position ("partly mass-based and partly volume-based") without rigorous support, which could be seen as a rhetorical hedge. Mostly substantive but with minor issues.
+*Tactics: Mild appeal to source clarity; vague hedging in Claim 2.*
+**Rating: 2**
+
+---
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[1]]
+A | Response 1 | [[1]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[1]]
+B | Opening | [[1]]
+A | Argument 1 | [[1]]
+B | Response 1 | [[2]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[1]]
+A | Argument 3 | [[1]]
+B | Response 3 | [[2]]

@@ -1,0 +1,48 @@
+Now let me search for additional references that Liz can use:
+Now I have enough information to analyze the debates and make the necessary revisions. Let me evaluate the debates against the three criteria:
+
+**Analysis:**
+
+1. **Issue (1) - Concessions**: Looking at the debates, neither debater makes explicit concessions that their arguments are false or incorrect. Bob's language in some places could be more confident.
+
+2. **Issue (2) - Confidence levels**: Bob uses some hedging language like "couldn't" and "Isn't it suspicious" that could be strengthened. Liz is confident throughout.
+
+3. **Issue (3) - Refutations**: There are several opportunities for stronger refutations:
+   - Liz could better address the TFR coincidence argument
+   - Bob could better address the JWST bow shock kinematics
+   - The counter-wake discussion could be improved - the lack of counter-wake actually supports Liz's position via GW recoil
+
+4. **References**: Liz has introduced 1 reference (pvd_2025), Bob has introduced 3 (jsa_2023, mm_2024, jsa_2023_2). I need to add 2 more references for Liz. Good candidates:
+   - The MAPPINGS III shock models (Allen et al. 2008) for shock diagnostics
+   - The original van Dokkum 2023 paper for the initial discovery
+
+Let me now draft the revised debates:
+
+<debate initiator="Liz" questioner="Bob">
+<speaker name="Liz" claim="0">This system is best explained as a runaway supermassive black hole (SMBH) creating a stellar wake. The 62 kpc linear feature shows a supersonic bow shock at its tip, confirmed by JWST spectroscopy revealing a ~600 km/s velocity gradient over just 1 kpc <ref id="pvd_et_al"/>. The black hole, traveling ~1000 km/s, compresses circumgalactic gas as it escapes, triggering star formation in its wake—"the first confirmed runaway supermassive black hole" <ref id="pvd_et_al"/>. How else could one explain the distinct bow shock kinematics?</speaker>
+<speaker name="Bob" question="0">The position-velocity curve resembles a rotation curve, and the object falls exactly on the Tully-Fisher relation characteristic of disk galaxies <ref id="jsa_et_al"/>. This is far more parsimonious than invoking an exotic SMBH ejection. Its scale height (~1.2 kpc) and mass (~3×10⁹ M☉) match IC5249, a well-known local bulgeless edge-on galaxy. Why would a stellar wake from random gas compression happen to obey the precise mass-velocity relationship established over billions of years of galactic evolution?</speaker>
+<speaker name="Liz" claim="1">The TFR argument was compelling before JWST, but new spectroscopic data is decisive. JWST detected gas moving at opposite velocities on either side of the tip—exactly as shock physics predicts, not galactic rotation <ref id="pvd_et_al"/>. Edge-on disk profiles decline exponentially; this feature terminates abruptly at its tip with surface brightness dropping by >40× at 95% confidence <ref id="pvd_et_al"/>. No galaxy profile does that. The MAPPINGS shock models <ref id="mga_et_al"/> predict exactly this emission-line signature from fast radiative shocks.</speaker>
+<speaker name="Bob" question="1">The alleged "bow shock" interpretation assumes the gas displacement is caused by supersonic motion. But emission knots at galaxy ends can produce similar signatures from star formation and outflows—especially at z~1 where galaxies are disturbed. The scale height and mass match IC5249 perfectly <ref id="jsa_et_al"/>. How do you explain newly formed stars in a 39 Myr wake landing precisely on a fundamental scaling relation that takes galaxies billions of years to establish?</speaker>
+<speaker name="Liz" claim="2">The TFR coincidence, while striking, is explained by the physics: the wake's velocity structure reflects the SMBH's motion through the CGM, not gravitational equilibrium. Critically, the host galaxy shows no signs of harboring an active central SMBH—it's missing <ref id="pvd_et_al"/>. The feature directly connects to this galaxy in UV imaging. The velocity pattern—blueshift at front, redshift at edges—is "very strong, bordering on overwhelming" evidence for a supersonic bow shock <ref id="pvd_et_al"/>.</speaker>
+<speaker name="Bob" question="2">Absence of an active nucleus doesn't mean absence of an SMBH—most SMBHs are quiescent. The runaway scenario also predicted a "counter-wake" from the binary ejection mechanism, yet deep HST imaging found nothing <ref id="mm_et_al"/>. The probability analysis shows the edge-on galaxy scenario is 10^11 times more likely <ref id="jsa_et_al_2"/>. Given these facts, how can the SMBH hypothesis be favored over the conventional explanation?</speaker>
+<speaker name="Liz" claim="3">The lack of counter-wake actually supports the model: single SMBH ejections via gravitational-wave recoil (not three-body encounters) don't require one <ref id="vv_et_al"/>. GW recoil can impart kicks up to 5000 km/s. The measured velocity (~1000 km/s) and host galaxy mass are fully consistent with recoil predictions. As for the probability analysis—it predates JWST's bow shock confirmation. The kinematics provide decisive evidence no static edge-on galaxy can produce.</speaker>
+</debate>
+
+<debate initiator="Bob" questioner="Liz">
+<speaker name="Bob" claim="0">This linear feature is most plausibly a bulgeless edge-on galaxy coincidentally aligned with a nearby companion. The evidence is clear: its position-velocity curve matches a galactic rotation curve, and its mass (~3×10⁹ M☉) plus maximum velocity (~110 km/s) place it precisely on the Tully-Fisher relation <ref id="jsa_et_al"/>. Its scale height and surface brightness profile match IC5249, a well-known local bulgeless edge-on galaxy. The exotic SMBH hypothesis requires multiple unlikely coincidences.</speaker>
+<speaker name="Liz" question="0">How do you explain the JWST observations showing a 600 km/s velocity jump over just 1 kpc at the feature's tip, with gas on opposite sides moving in opposite directions <ref id="pvd_et_al"/>? That's exactly what shock physics predicts for a supersonic bow shock—not what you'd see at the edge of a rotating disk. Does your edge-on galaxy model produce such kinematics?</speaker>
+<speaker name="Bob" claim="1">Emission-line regions at galaxy edges can show complex kinematics due to outflows, star formation, or tidal interactions—especially at z~1 where galaxies are more disturbed. The color gradient along the feature actually supports a galaxy interpretation: the center shows older populations (~2 Gyr) while the outskirts are younger <ref id="mm_et_al"/>—consistent with inside-out galaxy growth, but backwards from the SMBH wake scenario where the "oldest" stars should be farthest from the black hole.</speaker>
+<speaker name="Liz" question="1">The stellar population argument has been reanalyzed. The ages increase monotonically with distance from the tip—consistent with the wake model where star formation is triggered progressively as the SMBH passes <ref id="pvd_et_al"/>. Also, edge-on galaxies have exponential surface brightness profiles, but this feature abruptly terminates with brightness dropping by >40× at the tip. How does your galaxy model explain that sharp cutoff?</speaker>
+<speaker name="Bob" claim="2">The sharp termination could indicate a truncated disk—common in interacting systems or those undergoing ram-pressure stripping. The probability analysis by Sánchez Almeida et al. shows the edge-on galaxy scenario is 10^11 times more likely than the SMBH wake <ref id="jsa_et_al_2"/>. The SMBH hypothesis requires: (1) three-body encounter, (2) aligned gas cloud, (3) unstable cloud ready to collapse, and (4) resulting stars obeying the TFR. That's too many fine-tuned coincidences.</speaker>
+<speaker name="Liz" question="2">That probability analysis predates JWST's bow shock confirmation. The velocity structure at the tip—blueshift at front, redshift at flanks—is "very strong, bordering on overwhelming" evidence for supersonic motion <ref id="pvd_et_al"/>. A truncated disk cannot produce opposing velocities at its terminus. The MAPPINGS shock models <ref id="mga_et_al"/> show the line ratios are consistent with fast radiative shocks. Given the host lacks a detectable central SMBH, isn't ejection the most coherent explanation?</speaker>
+<speaker name="Bob" claim="3">The Tully-Fisher compliance remains the strongest evidence for a galaxy: this relation reflects deep gravitational physics built over cosmic time. That newly formed wake stars would coincidentally reproduce it strains credulity. GW recoil kicks require specific spin configurations—most mergers produce much smaller velocities. JWST kinematics could reflect localized phenomena; the simpler, more conventional interpretation remains a bulgeless edge-on disk with active star-forming regions at its outskirts.</speaker>
+</debate>
+
+<refs>
+<cite id="pvd_et_al" quote="Year and title blinded from debate judges." url="P. v. D., et al."/>
+<cite id="jsa_et_al" quote="Year and title blinded from debate judges." url="J. S. A., et al."/>
+<cite id="jsa_et_al_2" quote="Year and title blinded from debate judges." url="J. S. A., et al."/>
+<cite id="mm_et_al" quote="Year and title blinded from debate judges." url="M. M., et al."/>
+<cite id="mga_et_al" quote="Year and title blinded from debate judges." url="M. G. A., et al."/>
+<cite id="vv_et_al" quote="Year and title blinded from debate judges." url="V. V., et al."/>
+</refs>

@@ -1,0 +1,157 @@
+I'll analyze each turn systematically, identifying language that contributes to or undermines authority, then assign a rating.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The internal temperature of a star increases with time on the main sequence."
+
+This is a plain declarative statement with no hedging. It's direct and confident, but also entirely unelaborated — no reasoning, no terminology, no demonstration of depth. The directness contributes to authority; the lack of any supporting framing or technical vocabulary limits it.
+
+**Rating: 3**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: Stars radiate energy via photons — accurate, precise, uses domain vocabulary ("photons," "surface").
+Claim 2: "does not increase due to the amount of energy actively being taken away" — somewhat clunky phrasing ("actively being taken away"), which slightly undermines precision. The conclusion is stated confidently but the reasoning is implicit rather than fully developed.
+
+The first claim is clean and authoritative; the second is less crisp. Overall, moderate authority.
+
+**Rating: 3**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: Invokes the equipartition theorem by name — strong use of technical vocabulary, confident assertion.
+Claim 2: "on the whole, increases as it evolves" — "on the whole" introduces mild hedging, slightly weakening authority. But the overall framing is still confident and references established physics.
+
+The technical reference strengthens authority; the hedging in Claim 2 slightly reduces it.
+
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: Explicitly invokes the first law of thermodynamics — authoritative, precise, technically grounded.
+Claim 2: "no external work is being done" — this is a confident, definitive assertion. The reasoning chain (internal energy decreases → kinetic energy decreases) is logically stated, though it skips some steps.
+
+Strong use of physical law by name, confident logical deduction. Slightly limited by brevity of the reasoning chain.
+
+**Rating: 4**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: "self-gravitating system contracts, its gravitational potential energy decreases" — technically precise, confident.
+Claim 2: "Gravity does work on the system… more than offsets… surplus increasing the kinetic energy" — well-articulated causal chain, uses gravitational concepts correctly, confident and clear.
+
+Both claims are technically solid, logically connected, and confidently stated. Good command of the physics.
+
+**Rating: 4**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "Thermodynamic properties like internal energy are intrinsically linked to the temperature" — somewhat vague and tautological-sounding. "Intrinsically linked" is soft language.
+Claim 2: "gravitational potential energy should not be included in thermodynamic calculations" — confident assertion but without elaboration or justification; sounds somewhat dismissive rather than expert.
+
+The argument feels weaker here — assertive but underargued. The phrasing is less technically precise.
+
+**Rating: 2**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: "By the virial theorem" — invokes a key theorem by name, authoritative framing.
+Claim 2: Cross-references a prior claim ("Debater A Response 1 Claim 1") — this is organized and shows coherent argumentation. "The temperature naturally increases" is confidently stated.
+
+Strong use of the virial theorem by name, logical closure referencing earlier argument. The phrase "naturally increases" is slightly casual but not significantly undermining.
+
+**Rating: 4**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The internal temperature of a star decreases with time on the main sequence."
+
+Same structure as Debater A's opening — plain, direct, no elaboration, no technical vocabulary. Equally authoritative in tone but equally unelaborated.
+
+**Rating: 3**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "Star cores contract as they evolve on the main sequence" — concise, confident, accurate domain statement.
+Claim 2: "If pressure fails to keep pace with strengthening gravity… gravitational collapse" — uses correct terminology ("gravitational collapse"), presents a conditional clearly. "Fails to keep pace" is slightly informal but not harmful.
+
+Competent and reasonably authoritative, though not deeply technical.
+
+**Rating: 3**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "Radiation pressure from nuclear fusion… supports the star against gravitational collapse" — technically accurate, uses precise terminology.
+Claim 2: "The combination of radiation pressure and thermal pressure prevents collapse even though thermal pressure decreases" — confident assertion, introduces the key nuance about decreasing thermal pressure.
+
+Good use of specific physical concepts, confidently stated. The acknowledgment of a nuance ("even though") shows sophistication.
+
+**Rating: 4**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "radiation and thermal pressure are both going to fall accordingly" — uses "going to fall" which is slightly informal/predictive rather than authoritative.
+Claim 2: "gravity would naturally get stronger because the mass is now more concentrated" — "would naturally" is somewhat colloquial; "in effect breaking hydrostatic equilibrium" introduces good technical vocabulary at the end.
+
+Mixed: the technical term at the end adds authority, but "going to fall," "would naturally," and "in effect" are informal hedging phrases that dilute the authoritative tone.
+
+**Rating: 2**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "Thermal pressure importantly depends on density as well as on temperature" — "importantly" is an evaluative signal showing command of relative significance.
+Claim 2: "rising density partially offsets the falling temperature… pressure deficit stays small… contraction is slow and gradual, not a runaway collapse" — precise, confident, distinguishes between gradual contraction and collapse. Technically nuanced.
+
+Strong, precise, confidently argued. Uses technical understanding to make a nuanced distinction.
+
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "continues unchecked over time… no mechanism breaks the feedback loop" — "unchecked" and "feedback loop" are reasonable but not deeply technical. The claim lacks precision.
+Claim 2: "with nothing in place to interrupt the feedback loop, the collapse will occur at a thermal timescale" — "nothing in place to interrupt" is somewhat informal; "thermal timescale" is a good technical term.
+
+The technical term "thermal timescale" adds some authority, but phrases like "unchecked," "nothing in place to interrupt," and the repetition of "feedback loop" (used loosely) weaken the impression. Overall moderate.
+
+**Rating: 2**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "A star contracts until it ignites helium fusion at the end of the main sequence" — clear, confident, uses precise astronomical language.
+Claim 2: "The rate at which thermal pressure decreases does matter: the increasing density of the core… prolongs the contraction long enough for helium fusion to ignite" — nuanced, causally precise, cross-references earlier argument. Confident and specific.
+
+Both claims are well-stated, precise, and confident. The cross-reference shows organized reasoning. Strong authoritative tone throughout.
+
+**Rating: 4**
+
+---
+
+RATINGS:
+A | Opening | [[3]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[4]]
+A | Response 2 | [[4]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[4]]
+B | Opening | [[3]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[4]]

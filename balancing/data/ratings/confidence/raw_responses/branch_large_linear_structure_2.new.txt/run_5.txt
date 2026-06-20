@@ -1,0 +1,132 @@
+I'll analyze each turn for confidence indicators, then provide ratings.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The best plausible theoretical model to describe this system is a runaway supermassive black hole (SMBH)"
+- "best plausible" is a mild hedge, acknowledging this is a reasoned judgment rather than a certainty
+- Overall tone is assertive and direct, citing a source
+- The hedge "plausible" slightly softens the claim
+**Rating: 4** — Mostly assertive; the single "plausible" qualifier is minor.
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+- Claim 1: "Supermassive black holes are typically found within a few parsecs" — "typically" is a hedge
+- Claim 2: "would have to be located ~40 kiloparsecs away" — "would have to be" is conditional but stated as a logical necessity; "~" signals approximation
+- Overall: factual, matter-of-fact statements with minor hedges
+**Rating: 4** — Mostly definitive with minor qualifiers ("typically," "~")
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+- Claim 1: "SMBH recoil can eject SMBHs" — "can" is a hedge
+- Claim 2: "shows signs of a recent merger" — "signs of" is somewhat hedged; "could be a trail" — "could be" is a clear hedge
+- Two hedges ("can," "could be") across two claims
+**Rating: 3** — Mix of assertive and hedged language
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+- Claim 1: "Globular clusters are old, massive and compact structures" — definitive, no hedging
+- Claim 2: "we would observe similar trails... but in practice we do not" — conditional reasoning but conclusion stated definitively
+- Overall: confident, direct statements
+**Rating: 5** — Both claims stated as certainties with no hedging
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+- Claim 1: "The SMBH in this model is traveling at supersonic speeds" — definitive within the model
+- Claim 2: "The bow shock due to this supersonic travel would cause star formation" — "would" is moderately assertive; "would not have star forming trails" — definitive conclusion
+- "would" is conditional but used confidently
+**Rating: 4** — Mostly assertive; "would" is standard conditional, not a strong hedge
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+- Claim 1: "[Figure 1] in [M. M. et al.] shows that the color of the stars...fluctuates" — definitively stated, citing evidence
+- Claim 2: "the age of the stars would monotonically decrease...but the observed fluctuating color does not support that" — "would" is conditional; "does not support" is fairly definitive
+- Mix of conditional ("would") and definitive ("does not support")
+**Rating: 4** — Mostly assertive with one conditional
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+- Claim 1: "can be explained by alternating red and blue supergiants" — "can be" is a hedge; "While a broad age gradient is expected" — "expected" and "while" soften
+- Claim 2: "Star formation will not only occur...but after the passage...as well" — "will" is assertive; "would also add fluctuations" — "would" is conditional
+- Mix of hedges and assertions
+**Rating: 3** — Roughly balanced between hedged ("can be explained," "while") and assertive ("will not only," "would also")
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The best plausible theoretical model to describe this system is a bulgeless edge-on galaxy"
+- "best plausible" is the same formulation as Debater A's opening — a mild hedge
+- Otherwise direct and assertive
+**Rating: 4** — Mostly assertive; "plausible" is a minor qualifier
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+- Claim 1: "far exceeds the ratio expected from a galaxy" — "far exceeds" is assertive; "expected" is standard
+- Claim 2: "the structure is not entirely linear, which would be expected if it were a bulgeless edge-on galaxy" — "not entirely linear" is definitive; "would be expected if it were" is conditional
+- Generally assertive with one conditional construction
+**Rating: 4** — Mostly assertive
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+- Claim 1: "The Tully-Fisher relation is used to classify objects as galaxies" — definitively stated
+- Claim 2: "The linear object satisfies the Tully-Fisher relation, making it a strong candidate" — "strong candidate" is hedged (not definitive)
+- "strong candidate" acknowledges uncertainty
+**Rating: 4** — Mostly assertive; "strong candidate" is a notable but isolated hedge
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+- Claim 1: "Satisfying the Tully-Fisher relation is not sufficient to classify an object as a galaxy given observational inconsistencies" — definitive
+- Claim 2: "The velocity gradient near the edge of the object is too large for it to be classified as a galaxy" — definitive, citing sources
+- Both claims stated firmly
+**Rating: 5** — Entirely assertive, no hedging
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+- Claim 1: "IC5249 is an observationally confirmed bulgeless edge-on galaxy" — definitive
+- Claim 2: "resembles the gradient of IC5249...suggesting that they're the same class of objects" — "resembles" and "suggesting" are hedges
+- "suggesting" is a clear hedge
+**Rating: 4** — Mostly assertive with one notable hedge ("suggesting")
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+- Claim 1: "appear smoother than those of the object" — "appear" is a mild hedge
+- Claim 2: "does not match that of a galaxy" — definitive; citing a figure
+- Mix: one hedge ("appear"), one definitive conclusion
+**Rating: 4** — Mostly assertive with one mild hedge
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+- Claim 1: "also appears to include a part of the galaxy" — "appears to" is a clear hedge
+- Claim 2: "Galactic mergers can leave extended trails of star formation...offering an alternative explanation" — "can" and "offering an alternative explanation" both hedge
+- Multiple hedges across both claims
+**Rating: 3** — Noticeably tentative with "appears to," "can," and "alternative explanation"
+
+---
+
+RATINGS:
+A | Opening | [[4]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[4]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[3]]
+B | Opening | [[4]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[5]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[3]]

@@ -1,0 +1,200 @@
+I'll analyze each turn for authoritative tone, then provide ratings.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The best plausible theoretical model to describe this system is a runaway supermassive black hole (SMBH) ([P. D. et al.])."
+
+- "best plausible theoretical model" — confident framing, direct assertion
+- Cites a source, adding credibility
+- Very brief; doesn't elaborate or demonstrate depth of knowledge
+- Straightforward and assertive, but minimal content limits the impression of expertise
+
+**Rating: 3** — Confident and direct with a citation, but too sparse to project deep expertise.
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: SMBHs are typically found within a few parsecs of galaxy centers.
+Claim 2: The SMBH would have to be ~40 kiloparsecs away from its host galaxy.
+
+- "typically found within a few parsecs" — uses precise astronomical units, sounds knowledgeable
+- "~40 kiloparsecs" — specific quantitative claim signals familiarity with the data
+- The logical structure (typical vs. observed) is clear and authoritative
+- Measured, factual tone with specific figures adds credibility
+
+**Rating: 4** — Specific, quantitative, logically structured; projects clear expertise.
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: SMBH recoil can eject SMBHs from centers during a merger.
+Claim 2: The galaxy shows signs of a recent merger, supporting the hypothesis of a trail of star formation left in the wake of a recoiling SMBH.
+
+- "SMBH recoil" — uses technical terminology confidently
+- "trail of star formation left in the wake of a recoiling SMBH" — vivid, mechanistically specific language
+- "signs of a recent merger" — slightly vague but supported by citation
+- Good use of causal reasoning (merger → recoil → trail)
+
+**Rating: 4** — Technically specific and mechanistically grounded; confident causal reasoning.
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: Globular clusters are old, massive, compact structures that travel through the CGM.
+Claim 2: If passage of a black hole through the CGM caused star formation, similar trails would be expected for globular clusters, but are not observed.
+
+- "circumgalactic medium (CGM)" — technical terminology, demonstrates domain knowledge
+- Uses a comparative/analogical argument (GC vs. SMBH), showing sophisticated reasoning
+- "in practice we do not" — grounded in empirical observation
+- Logical structure is clean and expert-like
+
+**Rating: 4** — Technically fluent, uses empirical analogy effectively, confident tone.
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: The SMBH is traveling at supersonic speeds along its trajectory.
+Claim 2: Bow shock due to supersonic travel causes star formation; globular clusters don't form bow shocks and thus lack star-forming trails.
+
+- "supersonic speeds," "bow shock" — precise physical terminology
+- Directly addresses the GC analogy with a mechanistic distinction
+- "would not have star forming trails" — confident, decisive conclusion
+- Physically grounded explanation demonstrates depth
+
+**Rating: 4** — Strong use of physical mechanisms and terminology; direct and confident.
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: Color of stars along the hypothesised wake fluctuates ([Figure 1] in [M. M. et al.]).
+Claim 2: If bow shock caused star formation, stellar ages would monotonically decrease along the structure, but fluctuating color doesn't support that.
+
+- "monotonically decrease" — precise mathematical/scientific language
+- References a specific figure in a source, grounding the claim empirically
+- "hypothesised wake" — slight hedging, but appropriate given context
+- The logic (expected monotonic gradient vs. observed fluctuation) is rigorous
+
+**Rating: 4** — Rigorous, empirically grounded, uses precise scientific language effectively.
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: Color fluctuations can be explained by alternating red and blue supergiants in the trail.
+Claim 2: Star formation occurs not only at the bow shock but after the SMBH passage as well.
+
+- "alternating red and blue supergiants" — specific stellar physics terminology
+- Offers two complementary mechanistic explanations, showing sophisticated understanding
+- "broad age gradient is expected" — confident framing
+- "While" concedes something but quickly provides a counter-explanation; slightly defensive but still confident
+
+**Rating: 4** — Mechanistically specific, multi-layered explanation; maintains authority while conceding a point.
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The best plausible theoretical model to describe this system is a bulgeless edge-on galaxy ([J. S. A. et al.])."
+
+- Direct, assertive statement with citation
+- "bulgeless edge-on galaxy" — specific technical term
+- Very brief, like Debater A's opening; limited elaboration
+- Same structure as A's opening — confident but thin
+
+**Rating: 3** — Confident and technically precise, but minimal content limits authority projection.
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: Line ratio ([OIII]/Hβ) far exceeds the ratio expected from a galaxy.
+Claim 2: The structure is not entirely linear, inconsistent with a bulgeless edge-on galaxy.
+
+- "[OIII]/Hβ" — spectroscopic notation signals expert-level knowledge
+- "far exceeds the ratio expected" — quantitatively framed, confident
+- Second claim is observational but less technically precise ("not entirely linear" is somewhat plain)
+- Overall: a strong technical first claim elevates the turn
+
+**Rating: 4** — Spectroscopic reference is impressive; dual-pronged argument is authoritative.
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: The Tully-Fisher relation is used to classify objects as galaxies based on stellar mass and maximum rotational velocity.
+Claim 2: The linear object satisfies the Tully-Fisher relation, making it a strong candidate for a bulgeless edge-on galaxy.
+
+- "Tully-Fisher relation" — well-known empirical relation in astrophysics, citing it demonstrates domain knowledge
+- "estimated stellar mass and maximum rotational velocity" — technically specific
+- "strong candidate" — appropriately confident without overclaiming
+- References a specific figure for empirical support
+
+**Rating: 4** — Technically grounded, uses established empirical relation confidently and precisely.
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: Satisfying the Tully-Fisher relation is not sufficient given observational inconsistencies.
+Claim 2: The velocity gradient near the edge of the object is too large to be classified as a galaxy ([Figure 1], [Figure 5] in [P. D. et al.]).
+
+- "not sufficient to classify" — authoritative dismissal of opponent's criterion
+- "velocity gradient" — technical term used precisely
+- "too large" — quantitatively framed judgment, confident
+- Multiple figure citations strengthen empirical grounding
+
+**Rating: 4** — Confident rebuttal with technical precision and multiple source citations.
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: IC5249 is an observationally confirmed bulgeless edge-on galaxy.
+Claim 2: The position vs rotational velocity gradient resembles IC5249, suggesting same class of objects.
+
+- "observationally confirmed" — precise scientific framing
+- "IC5249" — named specific object, demonstrates familiarity with literature
+- "position vs rotational velocity gradient" — technical descriptor
+- "suggesting that they're the same class of objects" — slightly hedged ("suggesting") but appropriate scientifically
+
+**Rating: 4** — Specific named comparison object and technical terminology convey solid expertise.
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: Velocity and flux gradients of IC5249 appear smoother than those of the object in your figure.
+Claim 2: The full gradient of the object ([Figure 10] in [P. D. et al.]) does not match that of a galaxy.
+
+- "velocity and flux gradients" — technical language used precisely
+- "appear smoother" — somewhat softer/hedged language ("appear")
+- "full gradient" vs. "part of the entire linear structure" — shows careful reading of data
+- Citation of specific figure adds empirical weight
+
+**Rating: 3** — Technically grounded but "appear smoother" is hedging; slightly less commanding than previous turns.
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: The fitted function includes part of the galaxy on the left side, with velocity measurements close to 0 on the far left.
+Claim 2: Galactic mergers can leave extended trails of star formation between merging galaxies, offering an alternative explanation.
+
+- "fitted function" — technical language
+- "velocity measurements close to 0 on the far left" — specific observational detail
+- Second claim pivots to a new explanatory framework (galactic mergers), showing breadth
+- "offering an alternative explanation" — slightly tentative framing
+- The turn feels somewhat reactive and patchwork, less focused
+
+**Rating: 3** — Technically specific in parts, but the alternative explanation feels introduced hastily; moderate authority.
+
+---
+
+RATINGS:
+A | Opening | [[3]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[4]]
+B | Argument 2 | [[4]]
+A | Response 2 | [[4]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[4]]
+B | Opening | [[3]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[3]]

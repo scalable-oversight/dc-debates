@@ -1,0 +1,77 @@
+I'll analyze each turn for rhetorical or persuasive tactics.
+
+**Left Side**
+
+**1. Debater A: [Opening]** — "Y is larger."
+No rhetorical tactics. A bare assertion of position with no framing or persuasive devices.
+Rating: 1
+
+**2. Debater B: [Argument 1]** — D6 becomes D3; two 6s in a row is harder.
+Claim 1 uses a clean analogy ("effectively turns the D6 into a D3") which is a substantive conceptual framing, not rhetorical manipulation. Claim 2 is a direct logical inference. No significant rhetorical tactics.
+Rating: 1
+
+**3. Debater A: [Response 1]** — Expected rolls to first 6 is 3 for D3 but 3/2 for conditioned D6.
+Both claims are purely substantive, presenting calculations. No rhetorical devices.
+Rating: 1
+
+**4. Debater B: [Argument 2]** — The expected rolls to first 6 for conditioned D6 equals D3; this follows trivially.
+The word "trivially" is mildly dismissive/rhetorical, implying the opponent should have seen this. "Follows trivially" also shifts burden slightly. Minor rhetorical element.
+Rating: 2
+
+**5. Debater A: [Response 2]** — Derives probability formula and plugs into expectation formula.
+Purely mathematical/substantive reasoning. No rhetorical tactics.
+Rating: 1
+
+**6. Debater B: [Argument 3]** — X=42, Y=13.2 on D3; analysis focused on first 6 not second.
+Claim 1 presents numbers (though potentially incorrect per opponent). Claim 2 is a pointed critique that the opponent's analysis is off-topic. Claim 2 slightly redirects attention rather than directly engaging the math dispute, but it's substantive criticism.
+Rating: 1
+
+**7. Debater A: [Response 3]** — Numbers wrong without filtering; pointing out self-contradiction.
+Claim 2 accuses Debater B of self-contradiction, which is a logical argument but also a rhetorical technique of attacking credibility/consistency. The accusation of contradiction is substantively grounded but is also used persuasively.
+Rating: 2
+
+**Right Side**
+
+**8. Debater B: [Opening]** — "X is larger."
+Bare assertion. No rhetorical tactics.
+Rating: 1
+
+**9. Debater A: [Argument 1]** — X needs two in a row (longer ignoring condition); but filtering favors X's short runs.
+Claim 1 concedes a point. Claim 2 introduces an intuitive argument about exponential filtering. Both are substantive reasoning with no rhetorical manipulation.
+Rating: 1
+
+**10. Debater B: [Response 1]** — Condition applies to both; X's distribution dominated by long sequences.
+Claim 1 is a simple, substantive point. Claim 2 uses the word "dominated" which is somewhat loaded/assertive framing, implying a strong conclusion without full derivation. Minor rhetorical element.
+Rating: 2
+
+**11. Debater A: [Argument 2]** — Long sequences filtered out; second sentence of opponent's claim doesn't follow.
+Claim 2 is a meta-logical attack on the opponent's reasoning structure rather than direct calculation. Pointing out that a conclusion "does not follow" is substantive but also somewhat dismissive. Minor rhetorical element.
+Rating: 2
+
+**12. Debater B: [Response 2]** — Filtering cuts both ways; specific probability numbers given.
+Claim 1 uses "cuts both ways" — a common rhetorical framing device that implies symmetry without fully proving it. Claim 2 provides specific numbers, which is substantive. The "cuts both ways" framing is a mild rhetorical technique.
+Rating: 2
+
+**13. Debater A: [Argument 3]** — 61% vs 44% stop at roll 2; 81% vs 74% by roll 3.
+Claim 1 presents specific statistical claims. Claim 2 uses "suggests" — hedging language that implies a conclusion without fully proving it. This is mildly rhetorical (using suggestive framing rather than decisive proof).
+Rating: 2
+
+**14. Debater B: [Response 3]** — Roll 2-3 proportions don't determine overall weighting; tails matter; full calculation shows X larger.
+Claim 1 is a substantive methodological point. Claim 2 appeals to "the full calculation" without showing it — a mild appeal to hidden authority/proof. The phrase "the full calculation shows" shifts burden without providing the calculation.
+Rating: 2
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[1]]
+A | Response 1 | [[1]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[2]]
+B | Opening | [[1]]
+A | Argument 1 | [[1]]
+B | Response 1 | [[2]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[2]]

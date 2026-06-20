@@ -1,0 +1,89 @@
+I'll analyze each turn systematically, identifying technical terms and assessing overall jargon density.
+
+---
+
+**Turn 1 – Debater A: [Opening] (Left)**
+"Einstein zig-zag lens model," "deflectors," "AGN," "lensed images" — all domain-specific astrophysics terms. "Einstein zig-zag lens" is a specialized concept; "AGN" is an acronym; "deflectors" and "lensed images" are technical in this context. Multiple technical terms in a short sentence, but the sentence is still somewhat parseable with context. **Rating: 4**
+
+---
+
+**Turn 2 – Debater B: [Argument 1] (Left)**
+Claim 1: "Einstein zig-zag lens model," "overfit," "modeling decisions," "second deflector," "first deflector's plane" — "overfit" is a statistical/modeling term; "deflector" is domain-specific. Claim 2: "chi-squared error," "image reconstruction error" — both are technical/statistical terms. Several specialized terms across both claims. **Rating: 3**
+
+---
+
+**Turn 3 – Debater A: [Response 1] (Left)**
+Claim 1: "mass profile," "second deflector," "optical axis" — "mass profile" and "optical axis" are technical physics terms. Claim 2: "mass distribution," "shear" — "shear" in lensing context is specialized. Several technical terms but still somewhat accessible sentences. **Rating: 3**
+
+---
+
+**Turn 4 – Debater B: [Argument 2] (Left)**
+Claim 1: "parameters" (in modeling context) — relatively accessible. Claim 2: "modelling flexibility," "overfitting" — "overfitting" is a technical statistics/ML term. Relatively light on deep jargon; the main concepts are parameter counts and overfitting, which are somewhat broadly understood. **Rating: 2**
+
+---
+
+**Turn 5 – Debater A: [Response 2] (Left)**
+Claim 1: "model" — general. Claim 2: "parameters," "degrees of freedom," "partially constrained" — "degrees of freedom" is a technical statistical term; "constrained" in modeling context is somewhat specialized. Light-to-moderate jargon. **Rating: 2**
+
+---
+
+**Turn 6 – Debater B: [Argument 3] (Left)**
+Claim 1: "parameters," "constraints" — moderately technical in context. Claim 2: "galaxy positions," "redshifts," "main deflector" — "redshifts" is an astrophysics term; "deflector" is domain-specific. Several technical terms but not overwhelmingly dense. **Rating: 3**
+
+---
+
+**Turn 7 – Debater A: [Response 3] (Left)**
+Claim 1: "NIRSpec spectroscopy," "second deflector's redshift," "lens model" — "NIRSpec" is a specific instrument acronym; "spectroscopy" is a technical method; "redshift" and "lens model" are domain terms. Claim 2: "Hubble Space Telescope imaging," "sub-arcsecond precision" — "sub-arcsecond" is a technical astronomical measurement unit. Multiple specialized terms including a specific instrument and unit. **Rating: 4**
+
+---
+
+**Turn 8 – Debater B: [Opening] (Right)**
+"gravitationally lensed," "dual-AGN model," "AGN," "lensed images," "extended red arcs" — "gravitationally lensed" and "dual-AGN" are domain-specific; "AGN" is an acronym; "extended red arcs" is a technical observational term. Dense with astrophysics jargon in a short sentence. **Rating: 4**
+
+---
+
+**Turn 9 – Debater A: [Argument 1] (Right)**
+Claim 1: "host galaxy," "point sources" — "host galaxy" and "point sources" are technical astrophysics terms. Claim 2: "light curves," "lensed images," "redshifts," "kiloparsecs" — "light curves" is a specific astrophysics concept; "kiloparsecs" is a distance unit; "redshifts" is technical. Multiple technical terms across both claims. **Rating: 4**
+
+---
+
+**Turn 10 – Debater B: [Response 1] (Right)**
+Claim 1: "dwarf host galaxy," "parsecs," "magnification," "HST imaging," "brightest image," "first AGN" — "parsecs" is a unit; "HST" is an acronym; "magnification" in lensing context is technical. Claim 2: "magnification of the images," "second AGN," "extended component" — "extended component" is a technical astrophysics term. Heavy with specialized terminology. **Rating: 4**
+
+---
+
+**Turn 11 – Debater A: [Argument 2] (Right)**
+Claim 1: "Dual AGN," "mergers" — "dual AGN" is technical; "mergers" in galactic context is specialized but somewhat intuitive. Claim 2: "AGN-host dwarf galaxies," "late-type," "merger rates" — "late-type" is a galaxy classification term (jargon); "merger rates" is technical. Several technical terms. **Rating: 3**
+
+---
+
+**Turn 12 – Debater B: [Response 2] (Right)**
+Claim 1: "AGN-host dwarf galaxies," "low redshifts" — technical but relatively brief. Claim 2: "low redshift galaxies," "representative population" — "representative population" is somewhat statistical; "low redshift" is astrophysics jargon. Moderate jargon. **Rating: 3**
+
+---
+
+**Turn 13 – Debater A: [Argument 3] (Right)**
+Claim 1: "morphology," "dwarf host," "quiescent galaxy," "pc" (parsecs), "AGN" — "morphology" in this context is technical; "quiescent galaxy" is an astrophysics classification; "pc" is a unit abbreviation. Claim 2: "merger-driven dual AGN system," "host properties" — "merger-driven dual AGN" is highly specialized. Heavy jargon. **Rating: 4**
+
+---
+
+**Turn 14 – Debater B: [Response 3] (Right)**
+Claim 1: "high redshift galaxies," "low redshift galaxies" — "redshift" is technical astrophysics. Claim 2: "Dual-AGN feedback," "quench star formation," "high z" — "AGN feedback" is a specialized astrophysical process; "quench star formation" is domain-specific; "high z" is shorthand for high redshift. Multiple technical terms including domain-specific processes and abbreviations. **Rating: 4**
+
+---
+
+RATINGS:
+A | Opening | [[4]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[4]]
+B | Opening | [[4]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[4]]

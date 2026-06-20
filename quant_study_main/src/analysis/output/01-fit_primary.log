@@ -1,0 +1,72 @@
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [sigma, Intercept, order, C(domain, Treatment('brainteasers')), 1|question_sigma, 1|question_offset, 1|transcript_sigma, 1|transcript_offset]
+Loaded 1282 rows from quant-1-official-study-analysis-ready.csv
+  domains:       {'coding': np.int64(429), 'brainteasers': np.int64(429), 'astrophysics': np.int64(424)}
+  n_questions:   12
+  n_transcripts: 24
+
+Model:
+       Formula: y_primary ~ 1 + order + C(domain, Treatment('brainteasers')) + (1|question) + (1|transcript)
+        Family: gaussian
+          Link: mu = identity
+  Observations: 1282
+        Priors: 
+    target = mu
+        Common-level effects
+            Intercept ~ Normal(mu: 0.0, sigma: 2.0)
+            order ~ Normal(mu: 0.0, sigma: 1.0)
+            C(domain, Treatment('brainteasers')) ~ Normal(mu: 0.0, sigma: 1.0)
+        
+        Group-level effects
+            1|question ~ Normal(mu: 0.0, sigma: HalfNormal(sigma: 1.0))
+            1|transcript ~ Normal(mu: 0.0, sigma: HalfNormal(sigma: 1.0))
+        
+        Auxiliary parameters
+            sigma ~ HalfNormal(sigma: 1.0)
+
+Initial fit (chains=4, tune=2000, draws=2000, target_accept=0.8)...
+/usr/local/lib/python3.11/dist-packages/pymc/step_methods/hmc/quadpotential.py:316: RuntimeWarning: overflow encountered in dot
+  return 0.5 * np.dot(x, v_out)
+Sampling 4 chains for 2_000 tune and 2_000 draw iterations (8_000 + 8_000 draws total) took 7 seconds.
+There were 7 divergences after tuning. Increase `target_accept` or reparameterize.
+Initializing NUTS using jitter+adapt_diag...
+Multiprocess sampling (4 chains in 4 jobs)
+NUTS: [sigma, Intercept, order, C(domain, Treatment('brainteasers')), 1|question_sigma, 1|question_offset, 1|transcript_sigma, 1|transcript_offset]
+  done in 9.6s
+  divergent transitions: 7
+
+Escalating divergences: refitting at target_accept=0.95...
+/usr/local/lib/python3.11/dist-packages/pymc/step_methods/hmc/quadpotential.py:316: RuntimeWarning: overflow encountered in dot
+  return 0.5 * np.dot(x, v_out)
+/usr/local/lib/python3.11/dist-packages/pymc/step_methods/hmc/quadpotential.py:316: RuntimeWarning: overflow encountered in dot
+  return 0.5 * np.dot(x, v_out)
+/usr/local/lib/python3.11/dist-packages/pymc/step_methods/hmc/quadpotential.py:316: RuntimeWarning: overflow encountered in dot
+  return 0.5 * np.dot(x, v_out)
+Sampling 4 chains for 2_000 tune and 2_000 draw iterations (8_000 + 8_000 draws total) took 12 seconds.
+  done in 13.6s
+  divergent transitions: 0
+
+NUTS diagnostics:
+  mean acceptance / chain: 0.953, 0.959, 0.953, 0.951
+  tree depth (max=10): saturated=0.00%  counts: 4:2 5:1768 6:6145 7:84 8:1
+  E-BFMI / chain: 0.790, 0.782, 0.762, 0.760  (all >= 0.3: True)
+  energy plot -> energy-primary.png
+
+Diagnostics -- R-hat<1.01: True  ESS_bulk>=400: True  ESS_tail>=400: True
+
+Saved InferenceData -> /workspace/cf_package/quant_study_main/src/analysis/output/primary-fit.nc
+
+Fixed effects + variance components:
+                                                     mean     sd  hdi_3%  hdi_97%  mcse_mean  mcse_sd  ess_bulk  ess_tail  r_hat
+sigma                                               1.475  0.029   1.422    1.530      0.000    0.000   12986.0    5815.0    1.0
+Intercept                                           0.227  0.273  -0.295    0.740      0.004    0.003    5809.0    5132.0    1.0
+order                                               0.009  0.083  -0.139    0.174      0.001    0.001   12581.0    5302.0    1.0
+C(domain, Treatment('brainteasers'))[astrophysics] -0.024  0.374  -0.727    0.684      0.005    0.005    5706.0    4821.0    1.0
+C(domain, Treatment('brainteasers'))[coding]       -0.038  0.376  -0.750    0.683      0.005    0.005    5878.0    5168.0    1.0
+1|question_sigma                                    0.487  0.188   0.106    0.842      0.004    0.003    2207.0    1753.0    1.0
+1|transcript_sigma                                  0.343  0.114   0.146    0.562      0.002    0.002    2214.0    3177.0    1.0
+
+Final divergent transitions: 0
+
+All convergence checks passed.

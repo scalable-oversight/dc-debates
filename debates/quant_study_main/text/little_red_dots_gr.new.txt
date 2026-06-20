@@ -1,0 +1,223 @@
+================================================================================
+KEY QUESTION
+================================================================================
+
+Key Question: What theoretical model best explains the Little Red Dots (LRDs) observed by the James Webb Space Telescope?
+
+================================================================================
+DEFINITIONS
+================================================================================
+
+Accretion: The process where a celestial object grows by gravitationally attracting and accumulating surrounding matter, like gas or dust, often forming a swirling accretion disk around the massive object before the material spirals inward. The central object can be a protostar, or a compact object like a neutron star or a black hole.
+
+Eddington limit: A theoretical limit to how fast an accreting body can grow. This is the point at which the outward force produced by radiation pressure is equal to the gravitational attraction experienced by the in-falling matter. In real systems, it is known that this limit can be violated, due to non-spherical geometry or various kinds of instabilities, resulting in super-Eddington accretion.
+
+Protostar: A protostar is the earliest stage of stellar evolution, forming from a collapsing cloud of gas and dust and growing by accreting more material, becoming hotter and denser until nuclear fusion ignites, transitioning it into a main-sequence star.
+
+AGN: Active Galactic Nuclei are galaxies with an actively accreting (consuming matter) supermassive black hole (SMBH) at their center. The matter forms a very bright (one of the brightest phenomena in the universe) accretion disc as it spirals into the SMBH. An AGN might also contain twin jets of gas and dust ejected from the center of the galaxy that can rival the galaxy's own size. High redshift AGN are often referred to as quasars.
+
+Photospheric emission: Radiation emitted from the photosphere (visible surface) of a star or stellar object, where the optical depth drops to roughly unity and photons can escape freely into space.
+
+Redshift (denoted by z): As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift => object is further away => we are looking further back in time as we are seeing light that left the object millions or billions of years ago.
+
+Spectrum: The distribution of light (or other electromagnetic radiation) from an object across different wavelengths, used to identify the object's composition, temperature, motion, and other physical properties.
+
+Stellar rotation: The spinning of a star about its own axis. Rotation provides additional outward pressure that can help support the star against gravitational collapse and influence its structure and lifespan.
+
+Supermassive stars: Theoretical, extremely massive stars (100 to 100,000+ solar masses or Msol) that likely formed in the early universe from primordial gas (mostly pure hydrogen and helium), theorized to be the seeds for the first supermassive black holes seen in the centers of galaxies.
+
+================================================================================
+SOURCES
+================================================================================
+
+Z. Z. et al. — “Year and title blinded from debate judges.”
+
+D. N. et al. — “Year and title blinded from debate judges.”
+
+--------------------------------------------------------------------------------
+Note: Exactly one of these debater's answers matches the answer of the expert who wrote the Key Question. Scroll to the top of this webpage to view the Key Question in full.
+--------------------------------------------------------------------------------
+
+================================================================================
+DEBATE — LEFT SIDE OF TABLE  (with reactions from the other debater)
+================================================================================
+
+────────────────────────────────────────────────────────────
+Debater A: [Opening]
+────────────────────────────────────────────────────────────
+
+Black hole accretion in AGN (active galactic nuclei) is a highly plausible explanation for LRDs ([Z. Z. et al.])
+
+   → ✘ Debater B objects
+
+Recursed on: Claim 1
+
+────────────────────────────────────────────────────────────
+Debater B: [Argument 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: LRDs contain Balmer breaks; these are associated with galaxy-only models or dusty star formation.
+   → ✔ 🚩 Debater A agrees but thinks this omits key info
+
+Claim 2: Prominent Balmer breaks can be cleanly explained by photospheric emission in supermassive stars.
+   → ✔ 🚩 Debater A agrees but thinks this omits key info
+
+   → ✘ Debater A objects to the idea that these claims refute their argument
+
+Recursed on: the meta-claim
+
+────────────────────────────────────────────────────────────
+Debater A: [Response 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: Balmer breaks are also associated with absorption from dense gas in the line of sight in high-redshift AGN.
+   → ✔ Debater B fully agrees
+
+Claim 2: D. N. et al's use of speculative theories like supermassive stars to explain phenomena that can be defined by known physics may not be warranted.
+   → ✘ Debater B objects
+
+Recursed on: Claim 2
+
+────────────────────────────────────────────────────────────
+Debater B: [Argument 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: Postulating something other than typical AGN is warranted: LRDs are X-ray weak while AGN are typically strong in X-rays.
+   → ✔ 🚩 Debater A agrees but thinks this omits key info
+
+Claim 2: LRDs also show, on the whole, significantly weaker variability than typical observed AGN.
+   → ✔ 🚩 Debater A agrees but thinks this omits key info
+
+   → ✘ Debater A objects to the idea that these claims refute their argument
+
+Recursed on: the meta-claim
+
+────────────────────────────────────────────────────────────
+Debater A: [Response 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: At super-Eddington accretion rates, the plasma responsible for emitting X-rays is cooled down. This results in weak X-ray spectra.
+   → ✔ Debater B fully agrees
+
+Claim 2: AGN variability amplitude decreases with increasing accretion rate, which supports super-Eddington accretion as an explanation for weak observed variability (moreso than SMS).
+   → ✘ Debater B objects
+
+Recursed on: Claim 2
+
+────────────────────────────────────────────────────────────
+Debater B: [Argument 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: The super-Eddington variability suppression mechanism is theoretically predicted but rests on a small number of empirical samples.
+   → ✔ Debater A fully agrees
+
+Claim 2: SMS photospheres lack the stochastic accretion-driven variability mechanism that characterises AGN.
+   → ✘ Debater A objects
+
+Recursed on: Claim 2
+
+────────────────────────────────────────────────────────────
+Debater A: [Response 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: The SMS in D. N. et al. accretes at the rate of 1000 Msol/yr. This results in turbulent flows, which are a known source of stochastic variability.
+   → ✔ 🚩 Debater B agrees but thinks this omits key info
+
+Claim 2: However, none of the variability associated with these turbulent flows is modelled.
+   → ✔ 🚩 Debater B agrees but thinks this omits key info
+
+   → ✘ Debater B objects to the idea that these claims refute their argument
+
+Recursed on: the meta-claim
+
+================================================================================
+DEBATE — RIGHT SIDE OF TABLE  (with reactions from the other debater)
+================================================================================
+
+────────────────────────────────────────────────────────────
+Debater B: [Opening]
+────────────────────────────────────────────────────────────
+
+Photospheric emission of supermassive stars (SMS) is a highly plausible explanation for LRDs ([D. N. et al.]).
+
+   → ✘ Debater A objects
+
+Recursed on: Claim 1
+
+────────────────────────────────────────────────────────────
+Debater A: [Argument 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: Supermassive stars are theoretical objects that have not been directly observed.
+   → ✔ 🚩 Debater B agrees but thinks this omits key info
+
+Claim 2: Furthermore, with characteristic masses above 10⁴ M☉, supermassive stars have short main-sequence lifetimes.
+   → ✔ 🚩 Debater B agrees but thinks this omits key info
+
+   → ✘ Debater B objects to the idea that these claims refute their argument
+
+Recursed on: the meta-claim
+
+────────────────────────────────────────────────────────────
+Debater B: [Response 1]
+────────────────────────────────────────────────────────────
+
+Claim 1: It is almost certain that supermassive stars existed in the early universe, made up of pure hydrogen and helium.
+   → ✔ Debater A fully agrees
+
+Claim 2: D. N. et al.'s SMS model has an LRD-like spectrum for around 1000 years, making a galaxy containing SMS a valid candidate for LRDs.
+   → ✘ Debater A objects
+
+Recursed on: Claim 2
+
+────────────────────────────────────────────────────────────
+Debater A: [Argument 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: Direct collapse of supermassive stars is theorized to generate black hole seeds for SMBH.
+   → ✔ 🚩 Debater B agrees but thinks this omits key info
+
+Claim 2: If the SMS model only resembles LRDs for 1000 years, the number of SMS required would be too high compared to observed SMBHs.
+   → ✔ 🚩 Debater B agrees but thinks this omits key info
+
+   → ✘ Debater B objects to the idea that these claims refute their argument
+
+Recursed on: the meta-claim
+
+────────────────────────────────────────────────────────────
+Debater B: [Response 2]
+────────────────────────────────────────────────────────────
+
+Claim 1: Stellar rotation, in general, provides additional outward pressure that can help stabilize stars against collapse over time.
+   → ✔ Debater A fully agrees
+
+Claim 2: Considering the effect of rotation extends SMS lifetimes. Including it in the SMS model will, in turn, reduce the number of SMS required to produce LRDs to acceptable numbers.
+   → ✘ Debater A objects
+
+Recursed on: Claim 2
+
+────────────────────────────────────────────────────────────
+Debater A: [Argument 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: The modeling of rotation, radiative transfer, and related effects appears insufficiently rigorous to fully support this claim.
+   → ✘ Debater B objects
+
+Claim 2: For example, the paper does not provide an estimate for the lifespan of SMS with stellar rotation.
+   → ✔ Debater B fully agrees
+
+Recursed on: Claim 1
+
+────────────────────────────────────────────────────────────
+Debater B: [Response 3]
+────────────────────────────────────────────────────────────
+
+Claim 1: Modelling the evolution of rapidly accreting SMSs to the GR instability regime is only feasible with 1D stellar evolution.
+   → ✔ 🚩 Debater A agrees but thinks this omits key info
+
+Claim 2: D. N. et al. solve radiative transfer with a one-dimensional streaming-pair scheme (a Feautrier / Λ-iteration solver).
+   → ✔ 🚩 Debater A agrees but thinks this omits key info
+
+   → ✘ Debater A objects to the idea that these claims refute their argument
+
+Recursed on: the meta-claim

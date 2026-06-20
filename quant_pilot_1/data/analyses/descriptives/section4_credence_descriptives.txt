@@ -1,0 +1,8 @@
+section_4_credence_in_correct_answer
+  n       = 99
+  mean    = 0.5144
+  95% CI  = [0.4701, 0.5588]
+  median  = 0.5000
+  sd      = 0.2223
+  min     = 0.0100
+  max     = 0.9600

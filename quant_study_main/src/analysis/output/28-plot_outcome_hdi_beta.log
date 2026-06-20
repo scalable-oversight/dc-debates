@@ -1,0 +1,3 @@
+/workspace/cf_package/quant_study_main/src/analysis/plot_outcome_hdis_beta.py:100: FutureWarning: hdi currently interprets 2d data as (draw, shape) but this will change in a future release to (chain, draw) for coherence with other functions
+  hdi = az.hdi(arr, hdi_prob=0.95)
+Wrote outcome-hdi-forest-beta.png

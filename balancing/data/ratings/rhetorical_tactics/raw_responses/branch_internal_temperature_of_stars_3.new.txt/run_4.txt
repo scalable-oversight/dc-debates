@@ -1,0 +1,121 @@
+I'll analyze each turn for rhetorical or persuasive tactics, then provide ratings.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+"The internal temperature of a star increases with time on the main sequence."
+— A plain assertion of position. No emotional appeals, no loaded language, no framing devices. Purely a claim of fact.
+**Rating: 1**
+
+---
+
+**2. Debater B: [Argument 1]**
+Claim 1: Stars radiate energy as photons. Claim 2: Temperature does not increase because energy is being taken away.
+— Both claims are straightforward physical statements. No rhetorical devices. The reasoning is direct if incomplete (doesn't account for gravitational contraction).
+**Rating: 1**
+
+---
+
+**3. Debater A: [Response 1]**
+Claim 1: Temperature proportional to kinetic energy via equipartition. Claim 2: Kinetic energy increases as star evolves.
+— Purely substantive. Invokes a named theorem appropriately as a physical principle, not as an appeal to authority. No rhetorical devices detected.
+**Rating: 1**
+
+---
+
+**4. Debater B: [Argument 2]**
+Claim 1: First law of thermodynamics — energy lost must come from internal energy or work. Claim 2: No external work → internal energy decreases → kinetic energy decreases.
+— Straightforward thermodynamic reasoning. "No external work is being done" is a substantive (if contestable) physical claim, not a rhetorical device. No framing or appeals detected.
+**Rating: 1**
+
+---
+
+**5. Debater A: [Response 2]**
+Claim 1: Contracting self-gravitating system loses gravitational potential energy. Claim 2: Gravity does work, released energy more than offsets radiation, surplus increases kinetic energy.
+— Substantive physical argument invoking gravitational contraction. "More than offsets" is a factual claim (referencing the virial theorem implicitly). No rhetorical devices.
+**Rating: 1**
+
+---
+
+**6. Debater B: [Argument 3]**
+Claim 1: Thermodynamic properties are intrinsically linked to temperature. Claim 2: Gravitational potential energy should not be included in thermodynamic calculations.
+— Claim 2 uses a somewhat assertive framing ("should not be included") that dismisses A's argument by drawing a categorical boundary. This is a mild rhetorical move — presenting a contestable methodological claim as a rule. However, it's mostly a substantive (if debatable) distinction.
+**Rating: 2**
+
+---
+
+**7. Debater A: [Response 3]**
+Claim 1: By the virial theorem, kinetic energy increases as gravitational potential energy decreases. Claim 2: Since temperature is proportional to kinetic energy (cross-referencing earlier claim), temperature increases.
+— The cross-reference to a previously agreed claim is a mild rhetorical device (establishing a chain of agreements to reinforce the conclusion). However, it functions primarily as a logical citation rather than a persuasive trick. Overall substantive.
+**Rating: 1**
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+"The internal temperature of a star decreases with time on the main sequence."
+— Plain assertion of position. No rhetorical devices.
+**Rating: 1**
+
+---
+
+**9. Debater A: [Argument 1]**
+Claim 1: Star cores contract as they evolve. Claim 2: If pressure fails to keep pace with gravity during contraction, the star undergoes gravitational collapse.
+— Claim 2 introduces the specter of "gravitational collapse" — a dramatic outcome — which functions somewhat as an appeal to consequences or an implicit warning. The framing nudges toward a dire scenario without yet justifying it as inevitable. Mild rhetorical loading.
+**Rating: 2**
+
+---
+
+**10. Debater B: [Response 1]**
+Claim 1: Radiation pressure from nuclear fusion supports the star. Claim 2: Combination of radiation and thermal pressure prevents collapse even though thermal pressure decreases.
+— Straightforward physical reasoning. No rhetorical devices. The concession ("even though thermal pressure decreases") is honest and substantive.
+**Rating: 1**
+
+---
+
+**11. Debater A: [Argument 2]**
+Claim 1: Falling temperature causes radiation and thermal pressure to fall. Claim 2: With less pressure, gravity gets stronger because mass is more concentrated, breaking hydrostatic equilibrium.
+— "Naturally get stronger" has slight loaded framing, implying inevitability. The argument builds toward an alarming conclusion (breaking hydrostatic equilibrium) using language that slightly dramatizes the physical process. Mild rhetorical loading.
+**Rating: 2**
+
+---
+
+**12. Debater B: [Response 2]**
+Claim 1: Thermal pressure depends on density as well as temperature. Claim 2: Rising density partially offsets falling temperature; contraction is slow and gradual, not a runaway collapse.
+— "Not a runaway collapse" directly counters A's framing with a contrasting characterization. This is a mild rhetorical counter-framing move, though it also reflects a substantive distinction. Overall mostly substantive.
+**Rating: 2**
+
+---
+
+**13. Debater A: [Argument 3]**
+Claim 1: Contraction continues unchecked because no mechanism breaks the feedback loop. Claim 2: The collapse will occur at a thermal timescale.
+— "Unchecked," "feedback loop," and "no mechanism" are loaded or alarmist framings that assert the conclusion rather than argue for it. "Feedback loop" in particular implies an unstoppable runaway process. This is noticeably rhetorical — asserting that B's mechanism is insufficient without substantive rebuttal.
+**Rating: 3**
+
+---
+
+**14. Debater B: [Response 3]**
+Claim 1: Star contracts until helium fusion ignites. Claim 2: Increasing density prolongs contraction long enough for helium fusion to ignite (cross-referencing earlier agreed claim).
+— Mostly substantive. The cross-reference is used as a logical anchor (similar to A's use in Response 3). Straightforward physical reasoning with a mild rhetorical callback structure.
+**Rating: 1**
+
+---
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[1]]
+A | Response 1 | [[1]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[1]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[1]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[1]]

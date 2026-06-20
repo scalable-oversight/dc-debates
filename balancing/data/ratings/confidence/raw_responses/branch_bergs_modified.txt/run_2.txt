@@ -1,0 +1,73 @@
+I'll analyze each turn for confidence markers, then provide ratings.
+
+**1. Debater A: [Opening] (Left)**
+"The water level falls." — A single, unhedged, declarative statement. No qualifiers whatsoever.
+**Rating: 5**
+
+**2. Debater B: [Argument 1] (Left)**
+"so its displacement is volume-based, in line with [Quote 2]" — assertive, citing a source. "When the ice eventually melts, the spike's volume does not change, and the ice's meltwater replaces the ice's displacement." — stated as fact, no hedging. Both claims are direct and unqualified.
+**Rating: 5**
+
+**3. Debater A: [Response 1] (Left)**
+"implying that these are different things" — "implying" is a mild hedge. "so its initial displacement is weight-based" — assertive. The use of "implying" introduces slight tentativeness, but overall mostly assertive.
+**Rating: 4**
+
+**4. Debater B: [Argument 2] (Left)**
+"so it is 'submerged' according to the dictionary definition" — assertive, citing a source. "which we can safely assume is being used here" — "we can safely assume" is a mild qualifier. "so it is buoyant" — assertive. Minor hedging in Claim 1, otherwise confident.
+**Rating: 4**
+
+**5. Debater A: [Response 2] (Left)**
+"contradict each other under any reading where 'buoyant' just means 'floating'" — assertive. "'Buoyant' here means..." — stated as a definition, assertive, with a citation. Both claims are stated firmly.
+**Rating: 5**
+
+**6. Debater B: [Argument 3] (Left)**
+"This definition diverges from the standard dictionary senses" — assertive, citing a source. "[Quote 2] invokes 'the volume of the object,' yet for an object whose density falls below that of water, the full volume is not typically underwater." — "not typically" is a mild hedge but the overall structure is assertive.
+**Rating: 4**
+
+**7. Debater A: [Response 3] (Left)**
+"[Quote 2] is pointing out that objects with density less than water, but which *do* have their full volumes underwater, will displace their full volumes." — assertive interpretation. "A beach ball held underwater is an example of this." — stated as fact, no hedging.
+**Rating: 5**
+
+**8. Debater B: [Opening] (Right)**
+"The water level stays brim full." — Single, unhedged declarative statement.
+**Rating: 5**
+
+**9. Debater A: [Argument 1] (Right)**
+"The floating system displaces water equal to its total weight [Quote 1]." — assertive with citation. "When some ice melts and the spike sinks, more of the ice rises above the waterline since it is no longer weighed down by the spike. This displaces less water, so the water level falls." — stated as logical sequence of facts, no hedging.
+**Rating: 5**
+
+**10. Debater B: [Response 1] (Right)**
+"Treating ice and spike as one 'floating system' implies that the 'below the waterline' phrase in the question is irrelevant." — "implies" is a mild hedge. "The ice floats on its own (weight-based displacement); the spike is a buoyant submerged object (volume-based displacement) [Quote 2]." — assertive with citation. Overall mostly assertive with minor hedging.
+**Rating: 4**
+
+**11. Debater A: [Argument 2] (Right)**
+"The spike is not a 'buoyant submerged object': the spike and the ice are initially part of the same floating system." — assertive, definitive. "[Quote 2]'s 'buoyant submerged object' means one that is fully underwater but less dense than water. The spike is not this." — assertive interpretation. No hedging.
+**Rating: 5**
+
+**12. Debater B: [Response 2] (Right)**
+"Because the spike is floating entirely below the waterline, it qualifies as a 'buoyant submerged object'." — assertive. "An anchor resting at the bottom of the tub is also fully below the waterline, yet it experiences a buoyant force equal to the weight of the water it displaces. Its displacement is volume-based, not weight-based." — stated as physical fact, no hedging.
+**Rating: 5**
+
+**13. Debater A: [Argument 3] (Right)**
+"This would mean displacement is weight-based when 99% is below the waterline, but volume-based at 100%." — stated as a logical consequence, assertive (reductio ad absurdum framing). "The source never defines 'submerged' as 'fully below the waterline'; in fact, it distinguishes 'submerged' from 'fully submerged' [Quote 4]." — assertive with citation.
+**Rating: 5**
+
+**14. Debater B: [Response 3] (Right)**
+"Your definition (Debater A Response 2 Claim 2) gives a weight-based regime when the spike is 1% attached to the ice, and volume-based at 0%." — assertive characterization. "Such a discontinuous switch in the regime is physically implausible." — "implausible" rather than "impossible" is a slight softening, but the overall tone is still highly assertive.
+**Rating: 4**
+
+RATINGS:
+A | Opening | [[5]]
+B | Argument 1 | [[5]]
+A | Response 1 | [[4]]
+B | Argument 2 | [[4]]
+A | Response 2 | [[5]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[5]]
+B | Opening | [[5]]
+A | Argument 1 | [[5]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[5]]
+B | Response 2 | [[5]]
+A | Argument 3 | [[5]]
+B | Response 3 | [[4]]

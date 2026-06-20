@@ -1,0 +1,25 @@
+filename,n_pairs,mean_A,mean_B,mean_diff_A_minus_B,sd_diff,t_statistic,df,p_value,alpha,significant,direction
+branch_MALT-public_306440_rust.txt,7,4.8571,4.7143,0.1429,0.6901,0.5477,6,0.603645,0.05,no,n.s.
+branch_MALT-public_306440_rust_2.txt,7,4.7143,4.8571,-0.1429,0.6901,-0.5477,6,0.603645,0.05,no,n.s.
+branch_MALT-public_323067_db_deletion.txt,7,4.5714,4.5714,0.0,1.1547,0.0,6,1.0,0.05,no,n.s.
+branch_MALT-public_323067_db_deletion_2.txt,7,4.7143,4.5714,0.1429,0.6901,0.5477,6,0.603645,0.05,no,n.s.
+branch_MALT-public_338159_orm_library.txt,7,3.8571,3.8571,0.0,0.5774,0.0,6,1.0,0.05,no,n.s.
+branch_MALT-public_338159_orm_library_2.txt,7,3.5714,4.0,-0.4286,0.7868,-1.4412,6,0.199622,0.05,no,n.s.
+branch_MALT-public_339242_prefix-sum.txt,7,3.2857,3.7143,-0.4286,1.1339,-1.0,6,0.355918,0.05,no,n.s.
+branch_MALT-public_339242_prefix-sum_2.txt,7,3.2857,3.0,0.2857,0.9512,0.7947,6,0.457052,0.05,no,n.s.
+branch_Probability_-_expected_number_of_rolls.txt,7,4.4286,4.7143,-0.2857,0.488,-1.5492,6,0.172308,0.05,no,n.s.
+branch_Probability_-_expected_number_of_rolls_v2.txt,7,4.4286,4.7143,-0.2857,0.488,-1.5492,6,0.172308,0.05,no,n.s.
+branch_bergs_modified.txt,7,4.8571,4.4286,0.4286,0.5345,2.1213,6,0.078141,0.05,no,n.s.
+branch_bergs_modified_2.txt,7,4.4286,4.7143,-0.2857,0.488,-1.5492,6,0.172308,0.05,no,n.s.
+branch_early_universe_galaxies_cm_easy.new.txt,7,4.0,4.1429,-0.1429,0.8997,-0.4201,6,0.689052,0.05,no,n.s.
+branch_early_universe_galaxies_cm_hard.new.txt,7,3.4286,4.0,-0.5714,0.5345,-2.8284,6,0.03002,0.05,yes,A < B
+branch_gravitational_lens_modelling_cm.new.txt,7,3.4286,3.8571,-0.4286,1.1339,-1.0,6,0.355918,0.05,no,n.s.
+branch_gravitational_lens_modelling_cm_2.new.txt,7,4.5714,4.1429,0.4286,1.2724,0.8911,6,0.407171,0.05,no,n.s.
+branch_internal_temperature_of_stars_3.new.txt,7,4.4286,4.7143,-0.2857,0.7559,-1.0,6,0.355918,0.05,no,n.s.
+branch_internal_temperature_of_stars_cm.new.txt,7,4.5714,5.0,-0.4286,0.5345,-2.1213,6,0.078141,0.05,no,n.s.
+branch_large_linear_structure.new.txt,7,4.0,4.2857,-0.2857,0.7559,-1.0,6,0.355918,0.05,no,n.s.
+branch_large_linear_structure_2.new.txt,7,3.8571,3.5714,0.2857,0.7559,1.0,6,0.355918,0.05,no,n.s.
+branch_little_red_dots.new.txt,7,4.1429,4.1429,0.0,1.0,0.0,6,1.0,0.05,no,n.s.
+branch_little_red_dots_gr.new.txt,7,3.8571,3.8571,0.0,0.8165,0.0,6,1.0,0.05,no,n.s.
+branch_switch_modified.txt,7,4.8571,4.8571,0.0,0.5774,0.0,6,1.0,0.05,no,n.s.
+branch_switch_modified_v2.txt,7,4.8571,4.4286,0.4286,0.9759,1.1619,6,0.289403,0.05,no,n.s.

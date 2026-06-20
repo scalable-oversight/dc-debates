@@ -1,0 +1,103 @@
+I'll analyze each turn for eloquence, focusing on expression quality rather than logical soundness.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"Y is larger." — Extremely terse. Functional but offers no rhetorical craft whatsoever. A bare assertion with no stylistic merit.
+**Rating: 1**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1 uses "effectively turns the D6 into a D3" — a clean, vivid analogy. Claim 2 uses "harder (requires more rolls)" which is straightforward but slightly redundant in parenthetical form. Overall competent and clear, with one nice phrase.
+**Rating: 3**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Both claims are clearly expressed. "It's not true that the condition effectively turns the D6 to a D3" is direct and well-phrased as a rebuttal. The numerical specificity (3, 3/2) aids clarity. Competent but unremarkable prose.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1 references a prior argument somewhat awkwardly ("Debater B Argument 1 Claim 1 specifies...") — this is clunky labeling rather than flowing prose. Claim 2 ("it is irrelevant because...") is plain but functional. The cross-referencing style feels procedural rather than eloquent.
+**Rating: 2**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1 is plain. Claim 2 uses "it would be strange if..." — a mildly effective rhetorical construction suggesting absurdity. However, the overall phrasing is workmanlike. The "but not when calculating" construction is slightly awkward.
+**Rating: 2**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1 is clear and concise. Claim 2 attempts a more analytical statement: "what counts is how often 6 turns up versus non-6 — non-6 is twice as likely here." The dash construction is moderately effective, but "turns up versus non-6" is slightly inelegant. Decent but unpolished.
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1 uses a concrete example ("'626' stops Y at roll 3 but doesn't stop X") — effective and illustrative. Claim 2 — "So order, not only relative frequency, is part of the stopping rule" — is well-constructed, with a nice contrast between "order" and "relative frequency." This is among the more polished turns.
+**Rating: 4**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"X is larger." — Same situation as A's opening. Bare assertion, no rhetorical craft.
+**Rating: 1**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1 is clear: "normally requiring a much longer run" is good. Claim 2 is more ambitious: "filters long runs exponentially, so X's probability mass is squeezed onto its short, lucky runs much more so than Y's." "Probability mass is squeezed onto... lucky runs" is a vivid and effective image. "Much more so than Y's" is slightly trailing but acceptable. One of the more expressive turns.
+**Rating: 4**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1 is plain and functional. Claim 2 — "X's distribution is dominated by long sequences that finally get two 6s in a row" — is reasonably well-phrased, with "dominated by" and "finally get" conveying appropriate weight. Competent overall.
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1 is functional but "you'll nearly always roll an odd before getting two 6s" is clearly expressed. Claim 2 — "the second is a false statement that does not follow from it" — is direct but slightly blunt and procedural. Overall plain.
+**Rating: 2**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1 mirrors A's language deliberately ("filtered just as harshly") — "harshly" is a mildly evocative word choice. Claim 2 — "the net effect... is therefore similar" and "the D3 equivalence holds" — is clear and reasonably well-constructed. Competent.
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1 deploys specific statistics effectively (61%, 44%, 81%, 74%) in well-structured comparative sentences. Claim 2 — "X is more likely than Y to stop extremely early" — is clean and direct. The statistical presentation is crisp and the inference is neatly drawn. A well-expressed turn.
+**Rating: 4**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1 — "The total proportion... does not determine the overall weighting" — is clear. Claim 2 — "the tails of the two distributions matter as well, and the full computation yields X as the larger of the two values" — is reasonably polished; "tails of the two distributions" is apt technical phrasing, and "yields X as the larger" is clean. Competent and slightly above average.
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[4]]
+B | Opening | [[1]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[3]]

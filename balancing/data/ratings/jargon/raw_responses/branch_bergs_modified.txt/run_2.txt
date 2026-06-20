@@ -1,0 +1,152 @@
+I'll analyze each turn for technical jargon, identifying specialized terms and assessing overall density.
+
+---
+
+**Turn 1 – Debater A: [Opening] (Left)**
+"The water level falls."
+- No technical terms. Plain English.
+**Rating: 1**
+
+---
+
+**Turn 2 – Debater B: [Argument 1] (Left)**
+- "submerged" – mildly technical but common enough
+- "displacement" – physics term; a layperson might understand it loosely but the precise meaning (volume of fluid displaced) is technical
+- "volume-based" / "weight-based" – technical framing from physics
+- "meltwater" – compound word, mostly accessible
+Overall: a few physics terms but the general meaning is followable.
+**Rating: 2**
+
+---
+
+**Turn 3 – Debater A: [Response 1] (Left)**
+- "floats on the surface" / "buoyant submerged object" – quotes physics terminology
+- "displacement" (implied through "weight-based" contrast) – technical
+- "weight-based" – technical framing
+Moderate use of physics framing but still largely accessible.
+**Rating: 2**
+
+---
+
+**Turn 4 – Debater B: [Argument 2] (Left)**
+- "submerged" – used in a technical definitional sense
+- "below the waterline" – accessible
+- "buoyant" – technical physics term, though dictionary-defined in source
+- "embedded" – common word
+Uses "buoyant" and "submerged" in precise technical senses, but still accessible overall.
+**Rating: 2**
+
+---
+
+**Turn 5 – Debater A: [Response 2] (Left)**
+- "effective density" – technical physics term (density relative to fluid)
+- "buoyant force" – standard physics terminology
+- "density of the surrounding fluid" – technical
+- "upward buoyant force" – technical
+This turn introduces "effective density" and "buoyant force" as precise physics concepts that a layperson might not know.
+**Rating: 3**
+
+---
+
+**Turn 6 – Debater B: [Argument 3] (Left)**
+- "buoyant" – technical sense
+- "density" – technical but common
+- "volume of the object" – accessible
+- "density falls below that of water" – technical framing
+Moderate technical language, but mostly accessible.
+**Rating: 2**
+
+---
+
+**Turn 7 – Debater A: [Response 3] (Left)**
+- "density less than water" – technical but accessible
+- "full volumes underwater" – accessible
+- "held underwater" – plain
+Relatively plain language with minor technical references.
+**Rating: 2**
+
+---
+
+**Turn 8 – Debater B: [Opening] (Right)**
+"The water level stays brim full."
+- No technical terms.
+**Rating: 1**
+
+---
+
+**Turn 9 – Debater A: [Argument 1] (Right)**
+- "displaces water equal to its total weight" – technical (Archimedes principle application)
+- "floating system" – semi-technical framing
+- "displaces less water" – technical physics usage
+- "above the waterline" – accessible
+Uses displacement concepts technically but remains fairly accessible.
+**Rating: 2**
+
+---
+
+**Turn 10 – Debater B: [Response 1] (Right)**
+- "weight-based displacement" – technical physics framing
+- "buoyant submerged object" – technical
+- "volume-based displacement" – technical
+- "floating system" – semi-technical
+Several technical physics terms used precisely.
+**Rating: 3**
+
+---
+
+**Turn 11 – Debater A: [Argument 2] (Right)**
+- "floating system" – semi-technical
+- "buoyant submerged object" – technical
+- "fully underwater" – accessible
+- "less dense than water" – technical but accessible
+- "density" – technical
+Moderate technical language.
+**Rating: 2**
+
+---
+
+**Turn 12 – Debater B: [Response 2] (Right)**
+- "floating entirely below the waterline" – accessible
+- "buoyant submerged object" – technical
+- "buoyant force" – technical physics
+- "weight of the water it displaces" – technical (Archimedes)
+- "volume-based" / "weight-based" – technical framing
+Several precise physics terms.
+**Rating: 3**
+
+---
+
+**Turn 13 – Debater A: [Argument 3] (Right)**
+- "below the waterline" – accessible
+- "volume-based" / "weight-based" – technical framing
+- "submerged" / "fully submerged" – technical distinction
+- "displacement" (implied) – technical
+Uses a technical distinction between "submerged" and "fully submerged" from a physics source; moderate technical density.
+**Rating: 2**
+
+---
+
+**Turn 14 – Debater B: [Response 3] (Right)**
+- "weight-based regime" / "volume-based" – technical framing
+- "discontinuous switch in the regime" – semi-technical (physics/math usage of "regime" and "discontinuous")
+- "physically implausible" – accessible
+"Discontinuous" and "regime" in this context are mildly technical but the overall meaning is accessible.
+**Rating: 2**
+
+---
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[2]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[2]]

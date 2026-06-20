@@ -1,0 +1,172 @@
+I'll analyze each turn for technical jargon, then provide ratings.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+- "supermassive black hole (SMBH)": technical astrophysics term, jargon
+- "runaway": common word used in technical context, borderline
+- Overall: one key technical term, but the acronym is defined and the concept is relatively well-known in popular science.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1]**
+- "parsecs": unit of astronomical distance, jargon for layperson
+- "kiloparsecs": same, more specialized
+- "host galaxy": somewhat technical but mostly accessible
+- "SMBH": acronym, jargon
+- Two specialized distance units plus acronym; a general reader would struggle with "parsecs" and "kiloparsecs."
+**Rating: 3**
+
+---
+
+**3. Debater A: [Response 1]**
+- "SMBH recoil": technical astrophysics concept (defined in glossary but still jargon)
+- "merger": accessible term in context
+- "linear structure": somewhat technical
+- "trail of star formation": accessible
+- "recoiling SMBH": technical
+- Moderate jargon; the core concepts require domain knowledge.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2]**
+- "Globular clusters": technical astrophysics term
+- "circumgalactic medium (CGM)": highly specialized astrophysics term, acronym
+- "compact structures": accessible
+- "black hole": well-known
+- "star formation": accessible
+- CGM is quite specialized; globular clusters are moderately technical.
+**Rating: 3**
+
+---
+
+**5. Debater A: [Response 2]**
+- "supersonic speeds": accessible to general reader
+- "bow shock": specialized physics/astrophysics term — the wave phenomenon caused by supersonic motion through a medium; jargon
+- "CGM": acronym, jargon
+- "star forming trails": accessible
+- "Globular clusters": technical
+- Multiple technical terms; "bow shock" and "CGM" would be opaque to many.
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3]**
+- "Figure 1": reference, not jargon
+- "color of the stars": accessible
+- "hypothesised wake": wake is accessible; "wake" in this context is somewhat technical but understandable
+- "bow shock": specialized jargon
+- "SMBH": acronym, jargon
+- "monotonically decrease": mathematical/technical term
+- "stellar age": somewhat technical
+- "fluctuating color": accessible
+- "monotonically" is a notable technical term; combined with SMBH and bow shock, moderate-heavy jargon.
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3]**
+- "age gradient": technical term (gradient in scientific sense)
+- "wake": accessible
+- "red and blue supergiants": astrophysics classification of stars — "supergiants" is jargon
+- "stellar age": somewhat technical
+- "bow shock": jargon
+- "star formation": accessible
+- Several technical terms; "supergiants," "bow shock," and "age gradient" require domain knowledge.
+**Rating: 3**
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+- "bulgeless edge-on galaxy": technical astrophysics descriptor (defined in glossary but still specialized)
+- Otherwise accessible
+- One compound technical term.
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1]**
+- "line ratio": spectroscopic jargon
+- "[OIII]/H𝛽": chemical/spectroscopic notation — highly specialized, uses element symbols and Greek letter
+- "bulgeless edge-on galaxy": technical
+- "linear": accessible
+- The spectroscopic notation [OIII]/H𝛽 is very dense jargon; "line ratio" also specialized.
+**Rating: 4**
+
+---
+
+**10. Debater B: [Response 1]**
+- "Tully-Fisher relation": named astrophysical empirical law, specialized jargon
+- "stellar mass": astrophysics term, somewhat technical
+- "maximum rotational velocity": technical but somewhat accessible
+- "bulgeless edge-on galaxy": technical
+- "Figure 2": reference
+- Tully-Fisher relation is a specialized named concept; combined with stellar mass and rotational velocity, moderate-heavy jargon.
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2]**
+- "Tully-Fisher relation": jargon
+- "observational inconsistencies": somewhat technical but accessible
+- "velocity gradient": technical term (defined in glossary)
+- "classified as a galaxy": accessible
+- "Figure 1, Figure 5": references
+- Two key technical terms; "velocity gradient" is the more opaque one.
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2]**
+- "IC5249": specific galaxy identifier/catalog name — specialized notation, jargon
+- "bulgeless edge-on galaxy": technical
+- "position vs rotational velocity gradient": technical physics term
+- "stars in the structure": accessible
+- Catalog name "IC5249" and "rotational velocity gradient" are both specialized.
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3]**
+- "velocity and flux gradients": "flux" is a physics/astrophysics term — jargon; "gradient" is technical
+- "IC5249": catalog designation, jargon
+- "position vs rotational velocity curve": technical
+- "linear structure": accessible
+- "Figure 10": reference
+- Multiple technical terms; "flux gradients" and "rotational velocity curve" require domain knowledge.
+**Rating: 3**
+
+---
+
+**14. Debater B: [Response 3]**
+- "fitted function": mildly technical (statistical/mathematical)
+- "velocity measurements": technical but accessible
+- "Galactic mergers": astrophysics term, somewhat accessible
+- "extended trails of star formation": accessible
+- "galaxy hypothesis": accessible
+- Relatively accessible; "fitted function" and "galactic mergers" are mildly technical but understandable to most.
+**Rating: 2**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[2]]

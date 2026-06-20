@@ -1,0 +1,35 @@
+Section 1 (section_1_credence_in_correct_answer)
+  n       = 99
+  mean    = 0.5174
+  95% CI  = [0.4870, 0.5477]
+  median  = 0.5000
+  sd      = 0.1521
+  min     = 0.0100
+  max     = 0.9000
+
+Section 2 (section_2_credence_in_correct_answer)
+  n       = 99
+  mean    = 0.5125
+  95% CI  = [0.4750, 0.5500]
+  median  = 0.5000
+  sd      = 0.1881
+  min     = 0.1000
+  max     = 0.9000
+
+Section 3 (section_3_credence_in_correct_answer)
+  n       = 99
+  mean    = 0.5171
+  95% CI  = [0.4757, 0.5584]
+  median  = 0.5500
+  sd      = 0.2074
+  min     = 0.0100
+  max     = 0.9300
+
+Section 4 (section_4_credence_in_correct_answer)
+  n       = 99
+  mean    = 0.5144
+  95% CI  = [0.4701, 0.5588]
+  median  = 0.5000
+  sd      = 0.2223
+  min     = 0.0100
+  max     = 0.9600

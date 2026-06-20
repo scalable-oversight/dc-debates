@@ -1,0 +1,153 @@
+I'll analyze each turn for technical jargon, identifying specialized terms and rating the overall density.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"Y is larger."
+- No technical terms. Simple comparative statement.
+- Rating: **1**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+- "D6": defined acronym for six-sided die — mild jargon, but defined in the glossary
+- "D3": defined acronym for three-sided die — same
+- "sides 2, 4, 6": mathematical notation, accessible
+- "condition 'all rolls were even'": plain English in context
+- Overall: The D6/D3 shorthand is mildly technical but defined. Mostly accessible.
+- Rating: **2**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+- "expected number of rolls": statistical term ("expected" in the sense of expected value) — this is mild jargon for a layperson
+- "D3": defined term
+- "D6": defined term
+- "given that all rolls were even": conditional probability phrasing — somewhat technical
+- The phrase "expected number" used in a statistical sense is mildly technical but contextually clear.
+- Rating: **2**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+- References to prior claims by label ("Debater B Argument 1 Claim 1") — structural, not jargon
+- "expected number of rolls to the first 6 given all rolls even": conditional expectation phrasing — mild statistical jargon
+- "irrelevant": plain English
+- No heavy technical terms. Mostly argumentative prose.
+- Rating: **2**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+- "equivalence": mathematical sense, but fairly accessible
+- "(2, 4, 6) D3": notation for a die with those faces — mild technical shorthand
+- "expected number of rolls to the first 6": conditional expectation — mild jargon
+- Mostly plain argumentative language.
+- Rating: **2**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+- "expected number of rolls to the first 6": mild statistical jargon
+- "fundamentally different quantity": "quantity" used in a mathematical sense — mild
+- "odds": used loosely, accessible
+- "non-6 is twice as likely": probability language, accessible
+- Generally accessible with minimal technical phrasing.
+- Rating: **2**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+- "stopping rule": this is a technical term from probability/statistics — genuine jargon
+- "conditional expectation": explicit statistical term — genuine jargon
+- "adjacent 6s": clear in context
+- "relative frequency": statistical term, moderately technical
+- "order": plain English here
+- The combination of "stopping rule" and "conditional expectation" introduces real statistical jargon.
+- Rating: **3**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"X is larger."
+- No technical terms.
+- Rating: **1**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+- "probability mass": explicit statistical/probability theory term — genuine jargon
+- "filters long runs exponentially": "exponentially" in a mathematical sense — moderately technical
+- "squeezed onto its short, lucky runs": informal but using "probability mass" makes it technical
+- "stopping rule" implied in the context
+- "probability mass" is clear jargon; "exponentially" is used in a technical mathematical sense.
+- Rating: **3**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+- "stopping condition": technical term from probability/statistics — jargon
+- "distribution": statistical term — mild jargon
+- "X's distribution is dominated by long sequences": statistical language
+- "strictly harder": plain comparative
+- Moderate use of statistical terminology.
+- Rating: **3**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+- "filtered out": informal, accessible
+- "odd before getting two 6s": plain English
+- "false statement that does not follow from it": logical/argumentative language, not technical jargon
+- Relatively plain language, mostly argumentative.
+- Rating: **1**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+- "nonconsecutive 6s": mathematical description, accessible
+- "net effect": plain English
+- "all-even condition": accessible in context
+- "D3 equivalence": refers to the die analogy — mild jargon
+- "filtered just as harshly": informal
+- Mostly plain language with minor technical references.
+- Rating: **2**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+- "61% of X sequences stop at roll 2": statistical/probabilistic language — mild
+- "probability mass" implied
+- "all-even stopped sequences": technical framing from the problem
+- Specific percentages (61%, 44%, 81%, 74%) — quantitative but accessible
+- "suggests that X is more likely than Y to stop extremely early": probabilistic language, accessible
+- Moderate statistical phrasing but mostly accessible.
+- Rating: **2**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+- "total proportion": statistical term, accessible
+- "overall weighting": statistical sense — mild jargon
+- "tails of the two distributions": "tails" is a specific statistical term referring to the ends of a probability distribution — genuine jargon
+- "full computation yields X as the larger": mathematical phrasing
+- "tails" in the distributional sense is real statistical jargon.
+- Rating: **3**
+
+---
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[3]]
+B | Opening | [[1]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[3]]

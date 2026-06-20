@@ -1,0 +1,131 @@
+I'll analyze each turn for authoritative tone, examining language choices, confidence, and expertise signaling.
+
+---
+
+**1. Debater A: [Opening] (Left Side)**
+
+The turn presents a specific technical model with named components ("Einstein zig-zag lens," "two deflectors," "white galaxy and red galaxy"), references a source, and states a clear numerical claim (6 lensed images). The language is declarative and specific, citing technical terminology confidently. However, it is brief and lacks elaboration or reasoning, which limits depth of authority.
+
+**Rating: 3**
+
+---
+
+**2. Debater B: [Argument 1] (Left Side)**
+
+Claim 1 uses "on closer inspection" and "overfit" — "on closer inspection" signals careful analytical scrutiny, implying expertise. "Overfit" is a precise technical term used confidently. Claim 2 uses "do not actually quantify or report a chi-squared error" — the phrase "do not actually" carries a critical, authoritative tone, and invoking "chi-squared error" as "an important index of image reconstruction error" frames Debater B as someone who knows what proper methodology looks like. Overall, confident critique grounded in technical vocabulary.
+
+**Rating: 4**
+
+---
+
+**3. Debater A: [Response 1] (Left Side)**
+
+Claim 1 uses "likely to have a significant effect" — "likely" hedges the claim, slightly undermining authority. Claim 2 states "allows one to more accurately model a more complex mass distribution than a simple shear" — the comparative framing and technical terms ("mass distribution," "shear") convey reasonable expertise, though the hedging in Claim 1 softens the overall impression.
+
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2] (Left Side)**
+
+Claim 1 presents a direct numerical comparison (30 vs. 12 parameters) — specific quantitative contrast signals deep familiarity with the literature. Claim 2 states "provides an enormous degree of modelling flexibility and results in overfitting" — "enormous degree" is emphatic and confident, and connecting parameter count to overfitting shows methodological command. The numerical precision elevates authority significantly.
+
+**Rating: 4**
+
+---
+
+**5. Debater A: [Response 2] (Left Side)**
+
+Claim 1 ("A simpler model is not necessarily a correct model") is a logical principle, stated plainly and confidently, though it is fairly generic and doesn't invoke deep technical knowledge. Claim 2 ("15 parameters in our model are partially constrained, which are not full degrees of freedom") is more technical — invoking "degrees of freedom" correctly is a mark of statistical literacy. Together, they show methodological awareness but remain somewhat defensive and brief.
+
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3] (Left Side)**
+
+Claim 1 ("Constraints don't fix the parameters... they are determined via different models that come with their own errors") is precise and methodologically sophisticated, directly addressing the statistical nature of constraints. Claim 2 ("All galaxy positions and redshifts except the main deflector can vary considerably, adding more freedom to an already complex model") builds on this with specific technical detail. Both claims are assertive and grounded in technical reasoning.
+
+**Rating: 4**
+
+---
+
+**7. Debater A: [Response 3] (Left Side)**
+
+Claim 1 invokes "NIRSpec spectroscopy" — a specific, named instrument — and says it provides "quite tight constraints... independent of the lens model itself." "Quite tight" is mildly hedged, and "independent of the lens model itself" is a technically meaningful qualifier that signals expertise. Claim 2 references "Hubble Space Telescope imaging" and "sub-arcsecond precision" — specific, authoritative instrumentation and quantitative precision. The instrumental specificity elevates authority considerably.
+
+**Rating: 4**
+
+---
+
+**8. Debater B: [Opening] (Right Side)**
+
+The turn presents a specific alternative model ("gravitationally lensed dual-AGN model") with precise observational description ("four brightest images," "two dim images next to the extended red arcs"). The language is declarative and technically specific. However, like Debater A's opening, it is brief without elaboration or reasoning.
+
+**Rating: 3**
+
+---
+
+**9. Debater A: [Argument 1] (Right Side)**
+
+Claim 1 uses "we would normally expect" — "normally expect" signals familiarity with standard astrophysical conventions, though slightly informal. Claim 2 is highly specific: it cites a numerical time delay ("35 days between D and E"), mentions "light curves," "redshifts," and a physical separation ("6 kiloparsecs"), then attributes this to a specific paper (C. S. M. et al.). The combination of observational specificity, quantitative precision, and literature citation conveys strong authority.
+
+**Rating: 4**
+
+---
+
+**10. Debater B: [Response 1] (Right Side)**
+
+Claim 1 invokes a specific physical constraint: "dwarf host galaxy of <400 parsecs (constrained by the brightest image for the first AGN)" — this is highly precise and technically grounded. "Would likely remain undetected in the HST imaging" is slightly hedged with "likely," but the HST reference adds credibility. Claim 2 reasons logically from magnification to detection thresholds ("magnification of the images of the second AGN is lower, an even larger extended component might be undetected") — "might" hedges somewhat, but the reasoning chain is expert-level. Overall, technically sophisticated.
+
+**Rating: 4**
+
+---
+
+**11. Debater A: [Argument 2] (Right Side)**
+
+Claim 1 ("Dual AGN often arise from mergers between two or more galaxies") is a confident, authoritative general statement about AGN physics. Claim 2 ("Observed AGN-host dwarf galaxies are biased towards late-type with low merger rates, directly against your hypothesis") uses "biased towards" in the statistical/astrophysical sense, invokes observational data, and ends with the decisive phrase "directly against your hypothesis." This is confident and precise.
+
+**Rating: 4**
+
+---
+
+**12. Debater B: [Response 2] (Right Side)**
+
+Claim 1 ("AGN-host dwarf galaxies have mainly been studied at very low redshifts") is a concise, factual statement that implicitly signals literature awareness. Claim 2 ("Low redshift galaxies are not a representative population for this object") follows logically and is stated flatly and confidently. Both claims are brief but assertive, with the brevity giving them a crisp, authoritative feel rather than a tentative one.
+
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3] (Right Side)**
+
+Claim 1 ("The most plausible morphology for a dwarf host is still going to be a quiescent galaxy that is <400 pc wide but yet massive enough to host AGN") uses precise quantitative constraints and technical morphological terminology ("quiescent galaxy"), maintaining confident framing. Claim 2 ("The probability of a merger-driven dual AGN system with these particular host properties remains very low, even conditioned on Debater B Response 2 Claim 1") uses probabilistic language ("probability... remains very low") and the precise conditional framing ("conditioned on") signals statistical sophistication. Together, a strong authoritative turn.
+
+**Rating: 4**
+
+---
+
+**14. Debater B: [Response 3] (Right Side)**
+
+Claim 1 ("High redshift galaxies can be far more compact than low redshift galaxies of similar mass") is a confident, expert-level astrophysical statement. Claim 2 ("Dual-AGN feedback can rapidly quench star formation. Compactness and quiescence are not mutually exclusive, especially at high z") invokes a specific physical mechanism ("feedback," "quench star formation"), uses precise terminology ("compactness," "quiescence"), and the concluding qualifier "especially at high z" shows contextual command. This is one of the more technically fluent turns in the debate.
+
+**Rating: 4**
+
+---
+
+RATINGS:
+A | Opening | [[3]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[4]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[4]]
+B | Opening | [[3]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[4]]

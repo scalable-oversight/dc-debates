@@ -1,0 +1,105 @@
+I'll analyze each turn for professionalism, considering language, structure, tone, and appropriateness for a formal context.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"Y is larger."
+This is an extremely terse opening with no elaboration, context, or supporting framing. While brevity can be professional, a single two-word declarative sentence as an opening position provides no sense of preparation or structure. It reads as minimal rather than polished.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1 introduces a clear analogy (D6→D3 under the condition). Claim 2 applies this to the problem clearly. The language is plain but structured. Both claims are logically connected and presented cleanly. No casual or flippant language.
+**Rating: 4**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1 states a specific numerical result (expected rolls = 3). Claim 2 presents a different calculation (3/2) as a counterpoint. The argument is structured around a concrete numerical comparison. While the content is clear, the logical connection between the claims and why they refute Debater B could be spelled out more explicitly. Reasonably polished.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1 references a prior claim by label ("Debater B Argument 1 Claim 1"), which is somewhat mechanical but clear. Claim 2 asserts the irrelevance of the first-6 question. The language is direct and structured, though "Debater B Argument 1 Claim 1" as a self-referential label reads slightly awkwardly. Overall, a reasonable level of formality.
+**Rating: 3**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1 asserts relevance without much development. Claim 2 uses the phrase "It would be strange if..." — this is mildly informal phrasing. The argument relies on an implicit intuition rather than a formal demonstration, and "it would be strange" is somewhat casual. Moderate professionalism overall.
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1 draws a clear distinction between the two quantities. Claim 2 introduces the reasoning about relative frequency vs. individual roll odds. The phrase "what counts is how often 6 turns up versus non-6" is slightly casual but not egregiously so. The structure is clear. Moderate-to-high professionalism.
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1 provides a concrete example ('626') to illustrate the distinction between X and Y stopping rules — this is well-structured and precise. Claim 2 draws a clean logical conclusion. The use of a specific example and a structured conclusion reads as prepared and appropriate. Good level of professionalism.
+**Rating: 4**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"X is larger."
+Same issue as Debater A's opening on the left — a two-word declarative with no elaboration or framing. Minimal and unpolished as an opening statement.
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1 is clear and well-stated. Claim 2 introduces the notion of "probability mass squeezed onto short, lucky runs" — the phrase "lucky runs" is somewhat informal, and "squeezed" is a casual metaphor. The idea is interesting but the phrasing is not fully formal. Moderate professionalism.
+**Rating: 3**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1 is clean and direct. Claim 2 uses "strictly harder" and "happens later than or at the same time as" — these are reasonably precise formulations. The claim that X is "dominated by long sequences" is a clear assertion. Overall the language is measured and structured.
+**Rating: 4**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1 uses "you'll nearly always roll an odd before getting two 6s" — somewhat informal but understandable. Claim 2 states "is a false statement that does not follow from it" — this is a bit blunt and reads as somewhat dismissive, though not unprofessional per se. The directness is acceptable but slightly abrupt.
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1 parallels the opponent's phrasing ("you will also nearly always roll an odd...") — this mirrors the informal register of the prior turn but maintains structural clarity. Claim 2's assertion of "D3 equivalence holds" is a clean, structured conclusion. Moderate professionalism, slightly informal in places.
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1 presents specific numerical figures (61%, 44%, 81%, 74%) — this is a strong signal of preparation and precision. Claim 2 draws a logical conclusion from the data. The use of concrete statistics is a hallmark of a well-prepared, professional presentation. High professionalism.
+**Rating: 4**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1 makes a methodological point about what the proportions do and don't determine — clear and precise. Claim 2 references "the full computation" as support, which is appropriately formal in framing, though it doesn't provide the computation itself. The language is structured and measured throughout.
+**Rating: 4**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[4]]
+B | Opening | [[2]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[4]]

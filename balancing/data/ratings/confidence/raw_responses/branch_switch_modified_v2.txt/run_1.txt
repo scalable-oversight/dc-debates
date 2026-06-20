@@ -1,0 +1,135 @@
+I'll analyze each turn for confidence language, then provide ratings.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The speed stays the same... It decreases slightly..."
+- "stays the same" is definitive for the point-mass case
+- "decreases slightly" is assertive but the qualifier "slightly" introduces a minor hedge
+- The conditional structure ("when we model as...") is matter-of-fact, not tentative
+- Overall: confident, with only minor qualification ("slightly")
+**Rating: 4**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+- "spins faster... the same principle applies" — assertive, no hedging
+- "provides a radially inward force that accelerates the car tangentially" — stated as fact
+- No hedging language anywhere; both claims are stated flatly as truths
+**Rating: 5**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+- "The string does work because... its velocity has a radial component aligned with the tension" — definitive causal claim
+- "The fixed frictionless track exerts only a normal constraint force perpendicular to the car's velocity, so unlike the string it does no work" — stated definitively with logical reasoning
+- "only" strengthens the assertiveness; no hedging
+**Rating: 5**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+- "Curvature changes continuously along the connecting arc, causing the direction of the constraint force to rotate" — stated as certain fact
+- "This rotation means the force cannot remain perfectly perpendicular to velocity" — "cannot" is absolute, though "perfectly" introduces a slight nuance
+- Overall very assertive; "cannot" and "means" signal certainty
+**Rating: 5**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+- "The car's velocity is tangent to the track at every point" — stated as definitional fact
+- "The constraint force is normal to the track, hence perpendicular to velocity" — logical deduction stated with certainty; "hence" signals confident inference
+- "At every instant, the force and velocity rotate together. Perpendicularity is maintained even as curvature changes" — absolute assertions, "at every instant" and "is maintained" leave no room for doubt
+**Rating: 5**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+- "must adjust in both magnitude and direction" — "must" is assertive
+- "behaves differently on the connecting track than it does on either circular section" — stated as certain fact
+- Both claims are confident, though they are relatively general/descriptive rather than boldly causal
+- No hedging language
+**Rating: 5**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+- "The force adjusts direction to maintain perpendicularity; it rotates to stay normal as velocity rotates to stay tangent" — stated definitively
+- "Centripetal force remains perpendicular to the velocity throughout, regardless of how its magnitude varies" — "remains... throughout, regardless" is maximally assertive
+- No hedging at all
+**Rating: 5**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The speed increases if we model the car as a point mass. It also increases if we model it as a rigid body."
+- Both assertions are flat and definitive
+- "also" reinforces consistency across both cases
+- No hedging whatsoever
+**Rating: 5**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+- "the rails' constraint force does no work, so kinetic energy (KE) is conserved and speed cannot increase" — logical chain stated with certainty; "cannot" is absolute
+- "There is simply nothing on a fixed frictionless track that can add energy to the car" — "simply" and "nothing... can" are emphatic and absolute
+- Very assertive throughout
+**Rating: 5**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+- "If the rails truly do no work, a point-mass car will not lose speed" — conditional "if" introduces slight tentativeness; "truly" is a mild qualifier
+- "Yet if kinetic energy is conserved while the rails do no work, a rigid body on a frictionless track does not slow down, contradicting Debater A's Opening" — another conditional; the argument rests on "if" premises
+- The repeated use of "if" creates a somewhat conditional/hedged structure, though the logical conclusions within each conditional are firm
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+- "A rigid body has translational and rotational kinetic energy; a point mass has only translational" — stated as definitional fact
+- "On a tighter track, rotational kinetic energy increases at the expense of translational kinetic energy" — stated confidently with no hedging
+- Both claims are straightforward and assertive
+**Rating: 5**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+- "This holds only when the body is mechanically constrained to yaw with the track curvature..., which has not been established" — "only when" is a firm conditional limiter; "which has not been established" is assertive
+- "Without that constraint, total KE stays translational and the speed does not fall" — definitive conclusion
+- Both claims are stated confidently; the challenge is assertive rather than tentative
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+- "Both axles are constrained to the rails, so the body's orientation is pinned by the chord between the two axle positions" — "both... constrained... pinned" all signal certainty
+- "On a curved section, this geometry causes the body to yaw as it advances" — "causes" is definitive causal language
+- No hedging
+**Rating: 5**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+- "A car whose axles are rigidly fixed parallel to its body cannot roll without slipping on a curved track" — "cannot" is absolute
+- "The curvature differs at the front and rear contact points on the connecting track, with consequences for yaw and speed" — "differs" is stated flatly; "with consequences for yaw and speed" is somewhat vague/noncommittal about what exactly those consequences are
+- The second claim is somewhat less bold (doesn't specify what the consequences are), but overall the turn is assertive
+**Rating: 4**
+
+---
+
+RATINGS:
+A | Opening | [[4]]
+B | Argument 1 | [[5]]
+A | Response 1 | [[5]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[5]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[5]]
+B | Opening | [[5]]
+A | Argument 1 | [[5]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[5]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[5]]
+B | Response 3 | [[4]]

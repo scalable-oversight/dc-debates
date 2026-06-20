@@ -1,0 +1,99 @@
+I'll analyze each turn for hedging and qualifying language.
+
+**1. Debater A: [Opening] (Left)**
+"The brightness of early universe galaxies is **weak evidence** towards falsifying the existence of dark matter."
+- "weak evidence" is a qualifying phrase that softens the claim's strength.
+- One hedging expression, but it's meaningful. Overall mostly direct.
+Rating: **2**
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "broadly speaking" is a mild qualifier.
+Claim 2: Direct factual claim about S.S.M. et al. No hedging.
+- One incidental qualifier ("broadly speaking").
+Rating: **2**
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: Direct statement, no hedging.
+Claim 2: "**substantially** improves" and "**appears to have**" — "appears to have" is a notable hedging phrase suggesting uncertainty about what the paper shows.
+- One meaningful hedge ("appears to have").
+Rating: **2**
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: Direct statement.
+Claim 2: "**not justified by the data available**" — direct assertion, no hedging language per se.
+- No hedging expressions. Both claims stated directly.
+Rating: **1**
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: Direct statement about current methods.
+Claim 2: "**is likely to result**" — "likely" is a clear hedging word expressing probability rather than certainty.
+- One meaningful hedge ("likely").
+Rating: **2**
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: Direct factual claim.
+Claim 2: "**while metallicity decreases... the change does not justify**" — direct assertion. No hedging language.
+Rating: **1**
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: Direct comparative statement.
+Claim 2: "**does not mean these results would necessarily generalize**" — "necessarily" is a hedging qualifier softening the claim.
+- One hedge ("necessarily").
+Rating: **2**
+
+**8. Debater B: [Opening] (Right)**
+"The brightness of early universe galaxies is **strong evidence** towards falsifying the existence of dark matter."
+- No hedging; "strong evidence" is a direct, confident assertion.
+Rating: **1**
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "**The typical argument for this is**" — framing as "typical argument" distances the speaker from endorsing it, a subtle hedge.
+Claim 2: "**however**" signals contrast; "**successfully explains the vast majority**" is direct.
+- "typical argument" is a mild distancing device.
+Rating: **2**
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: Direct factual statement about Lambda-CDM components.
+Claim 2: Direct claim about MOND. No hedging language.
+Rating: **1**
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "**best way to explain**" — direct superlative claim, no hedging.
+Claim 2: Direct claim. No hedging.
+Rating: **1**
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "**generally do manage to reproduce**" — "generally" is a qualifying hedge.
+Claim 2: "**adequately fits**" — "adequately" softens the claim slightly (not perfectly, just adequately).
+- "generally" is a meaningful hedge; "adequately" is a mild qualifier.
+Rating: **2**
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "**in fact**" — emphasizer, not a hedge. "**specifically**" and "**principal motivations**" — direct.
+Claim 2: "**Even so**" signals concession but isn't hedging; "**contains examples**" is direct.
+- No hedging language.
+Rating: **1**
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "**has been shown to reproduce... reasonably well**" — "reasonably well" is a notable qualifier softening the strength of the fit.
+Claim 2: "**can be fit**" — possibility phrasing is mild but somewhat hedged.
+- "reasonably well" and "can be fit" are qualifying expressions.
+Rating: **2**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[1]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[1]]
+A | Response 3 | [[2]]
+B | Opening | [[1]]
+A | Argument 1 | [[2]]
+B | Response 1 | [[1]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[1]]
+B | Response 3 | [[2]]

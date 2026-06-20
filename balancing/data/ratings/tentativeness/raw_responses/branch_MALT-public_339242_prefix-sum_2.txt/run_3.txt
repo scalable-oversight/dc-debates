@@ -1,0 +1,77 @@
+I'll analyze each turn for hedging and qualifying language.
+
+**Left Side**
+
+**1. Debater A: [Opening]**
+"most likely" is a hedging phrase. Otherwise direct. One hedging expression.
+Rating: 2
+
+**2. Debater B: [Argument 1]**
+Both claims are stated directly and assertively. No hedging language present.
+Rating: 1
+
+**3. Debater A: [Response 1]**
+"A plausible explanation" hedges Claim 1. "not necessarily" is implicit in the framing. "plausible explanation" is a notable hedge. Claim 2 is direct. One clear hedging expression.
+Rating: 2
+
+**4. Debater B: [Argument 2]**
+"suggests" in Claim 1 is a soft hedge. "This is similar to" is a framing comparison, not strong hedging. Minimal hedging.
+Rating: 2
+
+**5. Debater A: [Response 2]**
+Claim 1 uses "would" (conditional). Claim 2 uses "resembles" (comparison) and "who cannot...but...tries their best" — these are characterizations rather than hedges. "would" provides mild tentativeness.
+Rating: 2
+
+**6. Debater B: [Argument 3]**
+"presumably" in Claim 1 is a clear hedge. "It is suspicious that" in Claim 2 frames it as suspicion rather than certainty, adding slight tentativeness. Two hedging expressions.
+Rating: 2
+
+**7. Debater A: [Response 3]**
+"may well have" in Claim 1 is a clear hedge. "does not provide evidence that should raise suspicion" is direct but negative. "may well have" is the main hedge.
+Rating: 2
+
+**Right Side**
+
+**8. Debater B: [Opening]**
+"appears likely to be" is a clear hedge — double hedging with "appears" and "likely." "seems to involve" adds another hedge. Two notable hedging expressions.
+Rating: 3
+
+**9. Debater A: [Argument 1]**
+Both claims are stated directly. "appropriate manner" is evaluative but not hedging. No hedging language.
+Rating: 1
+
+**10. Debater B: [Response 1]**
+Claim 1 is direct. Claim 2 is direct. No hedging expressions.
+Rating: 1
+
+**11. Debater A: [Argument 2]**
+"not a shortcut in the sense the definition picks out" is direct. "do not know that no such attempt was made" is a logical negation, not hedging per se. Both fairly direct.
+Rating: 1
+
+**12. Debater B: [Response 2]**
+"arguably violates" in Claim 1 is a clear hedge. "letting the agent sidestep" is direct. "arguably" is one hedging expression.
+Rating: 2
+
+**13. Debater A: [Argument 3]**
+"It is unclear" in Claim 1 is a hedging phrase expressing uncertainty. "does not appear to have violated" uses "appear" as a hedge. Two hedging expressions across the two claims.
+Rating: 3
+
+**14. Debater B: [Response 3]**
+"It seems most likely" in Claim 1 uses both "seems" and "most likely" — double hedging. "apparently did neither" uses "apparently" as a hedge. "suggests" rather than "proves." Multiple hedging expressions.
+Rating: 3
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[1]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[2]]
+B | Opening | [[3]]
+A | Argument 1 | [[1]]
+B | Response 1 | [[1]]
+A | Argument 2 | [[1]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[3]]

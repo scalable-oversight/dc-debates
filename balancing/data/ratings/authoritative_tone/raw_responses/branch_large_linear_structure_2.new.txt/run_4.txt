@@ -1,0 +1,146 @@
+I'll analyze each turn for authoritative tone, examining language choices, confidence, and expert-like presentation.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The best plausible theoretical model to describe this system is a runaway supermassive black hole (SMBH)"
+- "best plausible theoretical model" is a confident, framing phrase
+- Uses technical terminology (SMBH) with a citation
+- Direct and assertive, though brief
+- "plausible" slightly hedges the claim
+**Rating: 3**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+- "Supermassive black holes are typically found within a few parsecs of the center of galaxies" — uses precise technical unit (parsecs), confident generalization
+- "~40 kiloparsecs away from its host galaxy" — precise quantification adds authority
+- Both claims are stated as established facts with technical precision
+- The argument is structurally sound and uses observational framing
+**Rating: 4**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+- "SMBH recoil can eject SMBHs from the centers of their host galaxy during a merger" — confident, uses technical terminology
+- "shows signs of a recent merger" with citation — grounded in evidence
+- "trail of star formation left in the wake of a recoiling SMBH" — technically descriptive and specific
+- Both claims present the model confidently with supporting evidence
+**Rating: 4**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+- "old, massive and compact structures that travel through the circumgalactic medium (CGM)" — uses technical term (CGM), confident description
+- "we would observe similar trails for globular clusters, but in practice we do not" — presents a logical falsification argument authoritatively
+- The analogical reasoning is presented as established fact
+**Rating: 4**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+- "traveling at supersonic speeds along its trajectory" — confident, specific physical claim
+- "bow shock due to this supersonic travel would cause star formation" — uses specific technical concept (bow shock) authoritatively
+- "Globular clusters do not form a bow shock in the CGM" — direct, confident distinction
+- Technical vocabulary throughout, clear causal reasoning
+**Rating: 4**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+- References specific figure and source — grounded in evidence
+- "monotonically decrease along the structure" — precise mathematical/scientific language
+- "fluctuating color does not support that" — direct evidentiary claim
+- Both claims are technically precise and presented with confidence
+**Rating: 4**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+- "broad age gradient is expected along the wake" — confident, uses expected scientific framing
+- "alternating red and blue supergiants" — specific, technical astronomical terminology
+- "Star formation will not only occur at the bow shock, but after the passage of the SMBH as well" — nuanced, mechanistic reasoning
+- Sophisticated explanation that shows deep engagement with the model
+**Rating: 4**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+- "bulgeless edge-on galaxy" — uses technical term with citation
+- "best plausible theoretical model" — confident framing (mirrors left side)
+- Brief but direct; "plausible" slightly hedges
+- Citation lends some authority
+**Rating: 3**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+- "line ratio of the linear object ([OIII]/H𝜷)" — highly specific spectroscopic notation, very technical
+- "far exceeds the ratio expected from a galaxy" — confident comparative claim
+- "not entirely linear, which would be expected if it were a bulgeless edge-on galaxy" — logical, confident reasoning
+- Strong technical language throughout
+**Rating: 4**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+- "Tully-Fisher relation is used to classify objects as galaxies based on their estimated stellar mass and maximum rotational velocity" — precise, textbook-like definition
+- "satisfies the Tully-Fisher relation, making it a strong candidate" — "strong candidate" is confident but not absolute
+- References specific figure and source
+- Clear, structured evidentiary argument
+**Rating: 4**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+- "not sufficient to classify an object as a galaxy given observational inconsistencies" — confident methodological critique
+- "velocity gradient near the edge of the object is too large" — precise observational claim with figure citation
+- References multiple figures from source — well-grounded
+- Direct, assertive language throughout
+**Rating: 4**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+- "IC5249 is an observationally confirmed bulgeless edge-on galaxy" — confident, cites a specific real object as established fact
+- "position vs rotational velocity gradient" — technical terminology
+- "resembles the gradient of IC5249" — confident comparative claim with citation
+- Use of a specific named galaxy adds substantial authority
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+- "velocity and flux gradients of IC5249 appear smoother than those of the object" — specific, technical comparison
+- "only part of the entire linear structure" — confident methodological critique
+- "full gradient of the object...does not match that of a galaxy" — direct, confident conclusion with citation
+- Structured, evidence-based argument with precise language
+**Rating: 4**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+- "fitted function that you present here also appears to include a part of the galaxy on the left side" — somewhat tentative ("appears to include")
+- "velocity measurements close to 0 on the far left" — precise but mild
+- "Galactic mergers can leave extended trails of star formation between merging galaxies" — confident, introduces a new mechanism
+- "offering an alternative explanation" — slightly hedged, less assertive than other turns
+- Mix of confident and tentative language
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[3]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[4]]
+B | Argument 2 | [[4]]
+A | Response 2 | [[4]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[4]]
+B | Opening | [[3]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[3]]

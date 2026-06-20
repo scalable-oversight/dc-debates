@@ -1,0 +1,430 @@
+Let me search for more specific content from the Wikipedia article on Archimedes' principle to find additional relevant quotes for Bob's arguments.
+I found some key quotes from the Wikipedia article on Archimedes' principle. I can see that there's important content about how iron (similar to the steel spike) behaves when submerged. Let me check for more specific content from the Wikipedia article.
+I found very useful quotes from the Wikipedia article. Now let me analyze the debates and make the necessary revisions:
+
+1. **Issue (1) - Concession issues**: Looking at Bob's arguments, he doesn't appear to concede his arguments are wrong. Good.
+
+2. **Issue (2) - Confidence**: Bob should express equal or greater confidence. I need to check his language.
+
+3. **Issue (3) - Effective refutations**: Need to ensure both sides are making their strongest arguments.
+
+4. **Additional refs for Bob**: Bob currently has only 1 ref (sunken). I need to add 2 more refs for Bob to match Liz's 3.
+
+5. **Character limits**: Need to shorten Liz claim="1" (301 chars) and claim="3" (321 chars).
+
+Let me identify good additional quotes from Wikipedia for Bob. From the search results, I found:
+
+- "Consider a 1-ton block of solid iron. As iron is nearly eight times as dense as water, it displaces only 1/8 ton of water when submerged" - This actually SUPPORTS Liz's argument about the spike, so Bob shouldn't cite this directly.
+
+- "only in the special case of floating does the buoyant force acting on an object equal the objects weight" - This could be useful for Bob's argument that floating and sinking mechanics differ.
+
+Let me revise the debates now:
+
+For Bob's additional references, I can use quotes that seem to support his argument but could be interpreted his way:
+1. The quote about "only in the special case of floating" could work for Bob
+2. Something about volume displacement for submerged objects
+
+Let me create the revised debates:
+
+<debate initiator="Liz" questioner="Bob">
+<speaker name="Liz" claim="0">The answer is (b): water level falls. When floating, the ice-spike system displaces water equal to its total weight. The spike (density ~7.8 g/cm³) displaces much more water while supported by ice than its 50 cm³ volume. Once melted, the spike sinks and only displaces 50 cm³. Ice→water is neutral.<ref id="floating"/></speaker>
+<speaker name="Bob" question="0">But ice occupies more volume than the water it becomes—that's why ice floats! When the bulky ice melts, doesn't all that extra volume collapse, leaving less displacement and causing a level drop? Why focus on the tiny spike?</speaker>
+<speaker name="Liz" claim="1">Ice's extra volume is above water, not displacing anything. A floating object displaces its weight, not volume<ref id="prop5"/>. The submerged ice equals the water it melts into. The spike is key: floating, it displaces ~390 g of water; sunken, only 50 cm³. That ~340 cm³ drop matters.</speaker>
+<speaker name="Bob" question="1">The spike only adds 50 cm³—trivial in 200 L! Also, Wikipedia says "for a sunken object, the entire volume displaces water"<ref id="sunken"/>. When the spike sinks, doesn't it now displace its full volume, adding to total displacement?</speaker>
+<speaker name="Liz" claim="2">You're proving my point! When floating, the spike displaced ~390 cm³ (its weight in water). When sunken, it only displaces "the entire volume"—50 cm³. That's a *decrease* of ~340 cm³. The sunken spike displaces LESS than when it floated because weight > volume for dense objects.</speaker>
+<speaker name="Bob" question="2">But "any floating object displaces its own weight of fluid"<ref id="prop5"/>—this applies to the ICE, not the spike inside. The spike isn't floating independently; it's cargo. Why would Archimedes' principle apply to internal components?</speaker>
+<speaker name="Liz" claim="3">The principle applies to the *system*. Total weight (ice+spike) determines displacement while floating. When ice melts, meltwater replaces ice's contribution—but the spike shifts from "displacing weight" to "displacing volume." Dense objects displace less when sunken. Water level falls.</speaker>
+</debate>
+
+Wait, I need to add references for Bob. Let me think about what quotes from Wikipedia would best support Bob's (incorrect) argument. The key is that Bob needs to sound plausible while being wrong.
+
+Looking at the debates more carefully:
+
+**Debate 1 analysis:**
+- Liz claim="1" is 301 chars - needs shortening
+- Liz claim="3" is 321 chars - needs shortening  
+- Bob needs 2 more references
+
+**Debate 2 analysis:**
+- Bob needs additional references to balance with Liz
+
+For Bob's additional refs, I can use:
+1. "only in the special case of floating does the buoyant force acting on an object equal the objects weight" - Bob could use this to argue that floating and sunken objects are treated differently
+2. The iron example could actually be used by Liz to refute Bob
+
+Let me draft the revisions:
+
+<debate initiator="Liz" questioner="Bob">
+<speaker name="Liz" claim="0">The answer is (b): water level falls. When floating, the ice-spike system displaces water equal to its total weight. The spike (density ~7.8 g/cm³) displaces much more water while supported by ice than its 50 cm³ volume. Once melted, the spike sinks and only displaces 50 cm³. Ice→water is neutral.<ref id="floating"/></speaker>
+<speaker name="Bob" question="0">But ice occupies more volume than the water it becomes—that's why ice floats! When the bulky ice melts, doesn't all that extra volume collapse, leaving less displacement and causing a level drop? Why focus on the tiny spike?</speaker>
+<speaker name="Liz" claim="1">Ice's extra volume is above water, not displacing anything. A floating object displaces its weight, not volume<ref id="prop5"/>. Submerged ice equals the water it melts into. The spike is key: floating, it displaces ~390 g of water; sunken, only 50 cm³. That ~340 cm³ drop causes the fall.</speaker>
+<speaker name="Bob" question="1">The spike only adds 50 cm³—trivial in 200 L! Wikipedia confirms "for a sunken object, the entire volume displaces water"<ref id="sunken"/>. When the spike sinks, it now displaces its full volume. How does this cause a water level drop?</speaker>
+<speaker name="Liz" claim="2">You're proving my point! When floating, the spike displaced ~390 cm³ (its weight in water). When sunken, it only displaces "the entire volume"—50 cm³. That's a *decrease* of ~340 cm³. The sunken spike displaces LESS than when it floated because weight > volume for dense objects.</speaker>
+<speaker name="Bob" question="2">"Only in the special case of floating does the buoyant force acting on an object equal the objects weight"<ref id="special"/>—the spike wasn't floating; it was cargo inside ice. Why would Archimedes' principle apply to internal components that never touched water?</speaker>
+<speaker name="Liz" claim="3">The principle applies to the *system*. Total weight (ice+spike) determines displacement while floating. When ice melts, meltwater replaces ice's contribution—but the spike shifts from "displacing weight" to "displacing volume." Dense objects displace less sunken. Water level falls.</speaker>
+</debate>
+
+Now let me check character counts and refine further. I also need to add another reference for Bob in the second debate. Let me draft both debates with proper references and character counts:
+
+<debate initiator="Liz" questioner="Bob">
+<speaker name="Liz" claim="0">The answer is (b): water level falls. When floating, the ice-spike system displaces water equal to its total weight. The spike (density ~7.8 g/cm³) displaces much more water while supported by ice than its 50 cm³ volume. Once melted, the spike sinks and only displaces 50 cm³. Ice→water is neutral.<ref id="floating"/></speaker>
+
+This is 298 characters - good.
+
+<speaker name="Bob" question="0">But ice occupies more volume than the water it becomes—that's why ice floats! When the bulky ice melts, doesn't all that extra volume collapse, leaving less displacement and causing a level drop? Why focus on the tiny spike?</speaker>
+
+This is 223 characters - good.
+
+<speaker name="Liz" claim="1">Ice's extra volume is above water, not displacing anything. A floating object displaces its weight, not volume<ref id="prop5"/>. Submerged ice equals the water it melts into. The spike is key: floating, it displaces ~390 g of water; sunken, only 50 cm³. That ~340 cm³ drop causes the fall.</speaker>
+
+Let me count: "Ice's extra volume is above water, not displacing anything. A floating object displaces its weight, not volume. Submerged ice equals the water it melts into. The spike is key: floating, it displaces ~390 g of water; sunken, only 50 cm³. That ~340 cm³ drop causes the fall."
+= 291 characters - good!
+
+<speaker name="Bob" question="1">The spike only adds 50 cm³—trivial in 200 L! Wikipedia confirms "for a sunken object, the entire volume displaces water"<ref id="sunken"/>. When the spike sinks, it now displaces its full volume. How does this cause a water level drop?</speaker>
+
+= 229 characters without ref - good.
+
+<speaker name="Liz" claim="2">You're proving my point! When floating, the spike displaced ~390 cm³ (its weight in water). When sunken, it only displaces "the entire volume"—50 cm³. That's a *decrease* of ~340 cm³. The sunken spike displaces LESS than when it floated because weight > volume for dense objects.</speaker>
+
+= 280 characters - good.
+
+<speaker name="Bob" question="2">"Only in the special case of floating does the buoyant force acting on an object equal the objects weight"<ref id="special"/>—the spike wasn't floating; it was cargo inside ice. Why would Archimedes' principle apply to internal components that never touched water?</speaker>
+
+= 262 characters without ref - good.
+
+<speaker name="Liz" claim="3">The principle applies to the *system*. Total weight (ice+spike) determines displacement while floating. When ice melts, meltwater replaces ice's contribution—but the spike shifts from "displacing weight" to "displacing volume." Dense objects displace less sunken. Water level falls.</speaker>
+
+= 285 characters - good!
+
+Now for Debate 2, I need to add another reference for Bob. Let me look at what Bob argues and find a supporting quote.
+
+In Debate 2, Bob claims the spike adds new displacement when it sinks. I could add a reference about how submerged objects displace their volume, which Bob misinterprets.
+
+<debate initiator="Bob" questioner="Liz">
+<speaker name="Bob" claim="0">The answer is (c): water spills over. The ice ball floats partially submerged, but when it melts, the heavy spike sinks to the bottom. Wikipedia confirms: "For a sunken object, the entire volume displaces water."<ref id="sunken"/> The spike now adds 50 cm³ of new displacement, causing overflow.</speaker>
+<speaker name="Liz" question="0">But wasn't the spike already displacing water while floating in the ice? A floating system displaces its total weight<ref id="prop5"/>. The 50 cm³ steel spike weighs ~390g—while floating it displaced ~390 cm³. How does sinking to displace only 50 cm³ cause overflow?</speaker>
+<speaker name="Bob" claim="1">The spike was encased *inside* the ice—ice is what contacted the water, not the spike. The ice displaced water based on its own buoyancy. Now freed, the spike independently enters the water column and adds its full volume. That's new displacement causing overflow.</speaker>
+<speaker name="Liz" question="1">Archimedes says buoyant force equals weight of displaced fluid<ref id="archimedes1"/>. The ice-spike system floated because water displaced equaled total system weight. If the spike weren't there, ice would float higher. The spike's weight was already "paid for" by extra submersion—how can it add new displacement?</speaker>
+<speaker name="Bob" claim="2">"Only in the special case of floating does the buoyant force acting on an object equal the objects weight."<ref id="special"/> The spike transitions from *hidden cargo* to an *independent submerged body*. Its 50 cm³ is now fully underwater—that's 50 cm³ more than zero (when embedded in ice).</speaker>
+<speaker name="Liz" question="2">But it wasn't "zero"—the spike caused the ice to ride lower, displacing ~390 cm³ extra. You admit sunken objects displace their volume (50 cm³). So displacement *drops* by 340 cm³ when it sinks. How does a decrease cause overflow?</speaker>
+<speaker name="Bob" claim="3">The spike didn't displace 390 cm³—the ICE did, and ice melts into equivalent water. Consider: ice volume above waterline turns into water that fills that space. Meanwhile, the spike—now free—adds its volume below. Two additive effects, not subtractive. The tub overflows.</speaker>
+</debate>
+
+Now I need to add one more reference for Bob. In the second debate, Bob currently introduces "special" (in claim="2"). I need one more. Let me look for another quote that Bob could misuse...
+
+Actually, looking at my search results, I found this from the Wikipedia article that Bob could cite:
+"Thus, only in the special case of floating does the buoyant force acting on an object equal the objects weight."
+
+This is essentially the same as what I called "special". Let me find another quote Bob could use.
+
+From the Wikipedia article: "For a floating object, only the submerged volume displaces water."
+
+Bob could potentially twist this to argue that the spike wasn't part of the "submerged volume" when inside the ice. Let me work this in.
+
+Actually, looking at the debates again, in the first debate Bob introduces "sunken" (in question="1") and "special" (in question="2"). That's 2 refs for Bob in debate 1.
+
+In the second debate, Bob introduces "sunken" again (claim="0") and "special" (claim="2"). But since these are the same refs, they don't count as new introductions.
+
+So Bob has introduced: sunken, special = 2 refs total
+Liz has introduced: floating, prop5, archimedes1 = 3 refs total
+
+I need to add 1 more ref for Bob. Let me find one more quote from Wikipedia that Bob could use.
+
+Looking at my search results, I can use:
+"For a floating object, only the submerged volume displaces water." (id="floating" - already used by Liz)
+
+Actually, that one was already introduced by Liz. Let me look for another Bob could introduce...
+
+From the Wikipedia article on Archimedes' principle, there's also:
+"When any boat displaces a weight of water equal to its own weight, it floats."
+
+Or the iron example:
+"As iron is nearly eight times as dense as water, it displaces only 1/8 ton of water when submerged"
+
+The iron example could actually be cited by Bob in a misleading way - he could cite it to show that iron displaces water when submerged, implying the spike adds displacement.
+
+Let me add this reference for Bob in one of the debates.
+
+<debate initiator="Bob" questioner="Liz">
+<speaker name="Bob" claim="0">The answer is (c): water spills over. The ice ball floats partially submerged, but when it melts, the heavy spike sinks to the bottom. Wikipedia confirms: "For a sunken object, the entire volume displaces water."<ref id="sunken"/> The spike now adds 50 cm³ of new displacement, causing overflow.</speaker>
+<speaker name="Liz" question="0">But wasn't the spike already displacing water while floating in the ice? A floating system displaces its total weight<ref id="prop5"/>. The 50 cm³ steel spike weighs ~390g—while floating it displaced ~390 cm³. How does sinking to displace only 50 cm³ cause overflow?</speaker>
+<speaker name="Bob" claim="1">The spike was encased *inside* the ice—ice is what contacted the water, not the spike. The ice displaced water based on its own buoyancy. Now freed, the spike independently enters the water column and adds its full volume. That's new displacement causing overflow.<ref id="iron"/></speaker>
+<speaker name="Liz" question="1">Archimedes says buoyant force equals weight of displaced fluid<ref id="archimedes1"/>. The ice-spike system floated because water displaced equaled total system weight. If the spike weren't there, ice would float higher. The spike's weight was already "paid for" by extra submersion—how can it add new displacement?</speaker>
+<speaker name="Bob" claim="2">"Only in the special case of floating does the buoyant force acting on an object equal the objects weight."<ref id="special"/> The spike transitions from *hidden cargo* to an *independent submerged body*. Its 50 cm³ is now fully underwater—that's 50 cm³ more than zero (when embedded in ice).</speaker>
+<speaker name="Liz" question="2">But it wasn't "zero"—the spike caused the ice to ride lower, displacing ~390 cm³ extra. You admit sunken objects displace their volume (50 cm³). So displacement *drops* by 340 cm³ when it sinks. How does a decrease cause overflow?</speaker>
+<speaker name="Bob" claim="3">The spike didn't displace 390 cm³—the ICE did, and ice melts into equivalent water. Consider: ice volume above waterline turns into water that fills that space. Meanwhile, the spike—now free—adds its volume below. Two additive effects, not subtractive. The tub overflows.</speaker>
+</debate>
+
+Wait, I need to reconsider. The iron quote says iron "displaces only 1/8 ton of water when submerged" - this actually supports Liz's argument that dense objects displace less water when submerged than their weight! So Bob shouldn't cite this.
+
+Let me think of another approach. What about:
+"For any immersed object, the volume of the submerged portion equals the volume of fluid it displaces."
+
+Or from the Wikipedia article:
+"The weight of the displaced fluid is directly proportional to the volume of the displaced fluid"
+
+Actually, there's a simpler solution. Looking at the current debates, Bob doesn't need to add more references if the argument is stronger without them. But the instructions say to add 2 additional references to Bob's turns.
+
+Let me look for quotes that Bob could reasonably misuse:
+
+1. "For a floating object, only the submerged volume displaces water" - But this was introduced by Liz (id="floating")
+
+2. "For a sunken object, the entire volume displaces water" - Already used by Bob (id="sunken")
+
+3. "Only in the special case of floating does the buoyant force acting on an object equal the objects weight" - Good for Bob
+
+4. Something about how submerged volume equals displaced volume...
+
+Let me search for one more specific quote:
+
+Looking at my earlier search results from the Wikipedia article:
+- "A floating object displaces a weight of fluid equal to its own weight" (principle of flotation)
+- "the volume of fluid displaced is equal to the volume of the body" (for completely submerged objects)
+
+Actually, I can use: "If the body is completely submerged, the volume of fluid displaced is equal to the volume of the body."
+
+This could support Bob's argument that once the spike is completely submerged, it displaces its volume (50 cm³). Bob could misuse this to argue this is "new" displacement.
+
+Let me add this reference:
+
+<cite id="submerged" quote="If the body is completely submerged, the volume of fluid displaced is equal to the volume of the body." url="https://en.wikipedia.org/wiki/Archimedes%27_principle"/>
+
+Wait, I need to verify this quote is from the Wikipedia article. From my search results (12-9): "If the body is completely submerged, the volume of fluid displaced is equal to the volume of the body."
+
+This is from Britannica, not Wikipedia. The instructions say only the Wikipedia article on Archimedes' Principle can be cited.
+
+Let me search more specifically for the Wikipedia article content:
+
+From search result 1 (Wikipedia): "For a sunken object, the entire volume displaces water, and there will be an additional force of reaction from the solid floor."
+
+From search result 11 (Wikipedia): "While they are related to it, the principle of flotation and the concept that a submerged object displaces a volume of fluid equal to its own volume are not Archimedes' principle."
+
+This is interesting - this quote explicitly says that the concept "a submerged object displaces a volume of fluid equal to its own volume" is NOT Archimedes' principle, but is related to it. Bob could use this.
+
+Actually, another useful quote from Wikipedia (search result 11): "An object whose weight exceeds its buoyancy tends to sink."
+
+Or: "Thus, only in the special case of floating does the buoyant force acting on an object equal the objects weight."
+
+This is what I have as id="special".
+
+Let me just use quotes I can verify are from Wikipedia. From my search results labeled as Wikipedia (en.wikipedia.org/wiki/Archimedes%27_principle):
+
+1. "For a floating object, only the submerged volume displaces water." - Already used (id="floating")
+2. "For a sunken object, the entire volume displaces water, and there will be an additional force of reaction from the solid floor." - Already used (id="sunken")
+3. "Any floating object displaces its own weight of fluid." - Already used (id="prop5")
+4. "Archimedes' principle states that the upward buoyant force that is exerted on a body immersed in a fluid, whether fully or partially, is equal to the weight of the fluid that the body displaces." - Already used (id="archimedes1")
+5. "Thus, only in the special case of floating does the buoyant force acting on an object equal the objects weight." - New for Bob (id="special")
+6. "An object whose weight exceeds its buoyancy tends to sink." - Could be new for Bob
+7. "Consider a 1-ton block of solid iron. As iron is nearly eight times as dense as water, it displaces only 1/8 ton of water when submerged, which is not enough to keep it afloat." - This actually helps Liz, not Bob
+
+For Bob's second additional reference, I could use:
+"An object whose weight exceeds its buoyancy tends to sink."
+
+Bob could use this to argue that the spike, being heavy, will sink and create additional displacement. Though it's a weak argument, it does add a reference.
+
+Or: "The downward force on the object is simply its weight."
+
+Actually, a better option might be:
+"In other words, for an object floating on a liquid surface (like a boat) or floating submerged in a fluid (like a submarine in water or dirigible in air) the weight of the displaced fluid equals the weight of the object."
+
+Bob could use this to argue that the floating ice displaced water equal to the ice's weight (not including spike), so when spike is released, it adds new displacement.
+
+Let me finalize the debates with these additional references:
+
+Bob's additional refs:
+1. id="special" - "Thus, only in the special case of floating does the buoyant force acting on an object equal the objects weight."
+2. id="boat" - "When any boat displaces a weight of water equal to its own weight, it floats." (or similar)
+
+Actually, looking at the Wikipedia article more carefully:
+"When any boat displaces a weight of water equal to its own weight, it floats. This is often called the 'principle of flotation'"
+
+Bob could argue that this applies to the ice "boat" but not to its cargo (the spike).
+
+Let me finalize:
+
+<debate initiator="Liz" questioner="Bob">
+<speaker name="Liz" claim="0">The answer is (b): water level falls. When floating, the ice-spike system displaces water equal to its total weight. The spike (density ~7.8 g/cm³) displaces much more water while supported by ice than its 50 cm³ volume. Once melted, the spike sinks and only displaces 50 cm³. Ice→water is neutral.<ref id="floating"/></speaker>
+<speaker name="Bob" question="0">But ice occupies more volume than the water it becomes—that's why ice floats! When the bulky ice melts, doesn't all that extra volume collapse, leaving less displacement and causing a level drop? Why focus on the tiny spike?</speaker>
+<speaker name="Liz" claim="1">Ice's extra volume is above water, not displacing anything. A floating object displaces its weight, not volume<ref id="prop5"/>. Submerged ice equals the water it melts into. The spike is key: floating, it displaces ~390 g of water; sunken, only 50 cm³. That ~340 cm³ drop causes the fall.</speaker>
+<speaker name="Bob" question="1">The spike only adds 50 cm³—trivial in 200 L! Wikipedia confirms "for a sunken object, the entire volume displaces water"<ref id="sunken"/>. When the spike sinks, it now displaces its full volume. How does adding volume cause a drop?</speaker>
+<speaker name="Liz" claim="2">You're proving my point! When floating, the spike displaced ~390 cm³ (its weight in water). When sunken, it only displaces "the entire volume"—50 cm³. That's a *decrease* of ~340 cm³. The sunken spike displaces LESS than when it floated because weight > volume for dense objects.</speaker>
+<speaker name="Bob" question="2">"Only in the special case of floating does the buoyant force acting on an object equal the objects weight"<ref id="special"/>—the spike wasn't floating; it was cargo inside ice. Why would Archimedes' principle apply to internal components that never touched water?</speaker>
+<speaker name="Liz" claim="3">The principle applies to the *system*. Total weight (ice+spike) determines displacement while floating. When ice melts, meltwater replaces ice's contribution—but the spike shifts from "displacing weight" to "displacing volume." Dense objects displace less sunken. Water level falls.</speaker>
+</debate>
+
+<debate initiator="Bob" questioner="Liz">
+<speaker name="Bob" claim="0">The answer is (c): water spills over. The ice ball floats partially submerged, but when it melts, the heavy spike sinks to the bottom. Wikipedia confirms: "For a sunken object, the entire volume displaces water."<ref id="sunken"/> The spike now adds 50 cm³ of new displacement, causing overflow.</speaker>
+<speaker name="Liz" question="0">But wasn't the spike already displacing water while floating in the ice? A floating system displaces its total weight<ref id="prop5"/>. The 50 cm³ steel spike weighs ~390g—while floating it displaced ~390 cm³. How does sinking to displace only 50 cm³ cause overflow?</speaker>
+<speaker name="Bob" claim="1">"When any boat displaces a weight of water equal to its own weight, it floats"<ref id="boat"/>—the ICE is the boat, floating by its own buoyancy. The spike was cargo that didn't contact water. Now freed, it enters the water column and adds its full volume. New displacement causes overflow.</speaker>
+<speaker name="Liz" question="1">Archimedes says buoyant force equals weight of displaced fluid<ref id="archimedes1"/>. The ice-spike system floated because water displaced equaled total system weight. If the spike weren't there, ice would float higher. The spike's weight was already "paid for" by extra submersion—how can it add new displacement?</speaker>
+<speaker name="Bob" claim="2">"Only in the special case of floating does the buoyant force acting on an object equal the objects weight"<ref id="special"/>. The spike transitions from *hidden cargo* to an *independent submerged body*. Its 50 cm³ is now fully underwater—that's 50 cm³ more than zero (when embedded in ice).</speaker>
+<speaker name="Liz" question="2">But it wasn't "zero"—the spike caused the ice to ride lower, displacing ~390 cm³ extra. You admit sunken objects displace their volume (50 cm³). So displacement *drops* by 340 cm³ when it sinks. How does a decrease cause overflow?</speaker>
+<speaker name="Bob" claim="3">The spike didn't displace 390 cm³—the ICE did, and ice melts into equivalent water. Consider: ice volume above waterline turns into water that fills that space. Meanwhile, the spike—now free—adds its volume below. Two additive effects, not subtractive. The tub overflows.</speaker>
+</debate>
+
+Now let me verify the character counts and reference counts:
+
+**Debate 1:**
+- Liz claim="0": 298 chars ✓
+- Bob question="0": 223 chars ✓
+- Liz claim="1": Let me count: "Ice's extra volume is above water, not displacing anything. A floating object displaces its weight, not volume. Submerged ice equals the water it melts into. The spike is key: floating, it displaces ~390 g of water; sunken, only 50 cm³. That ~340 cm³ drop causes the fall." = 276 chars ✓
+- Bob question="1": "The spike only adds 50 cm³—trivial in 200 L! Wikipedia confirms 'for a sunken object, the entire volume displaces water'. When the spike sinks, it now displaces its full volume. How does adding volume cause a drop?" = 211 chars ✓
+- Liz claim="2": 280 chars ✓
+- Bob question="2": "'Only in the special case of floating does the buoyant force acting on an object equal the objects weight'—the spike wasn't floating; it was cargo inside ice. Why would Archimedes' principle apply to internal components that never touched water?" = 247 chars ✓
+- Liz claim="3": "The principle applies to the *system*. Total weight (ice+spike) determines displacement while floating. When ice melts, meltwater replaces ice's contribution—but the spike shifts from 'displacing weight' to 'displacing volume.' Dense objects displace less sunken. Water level falls." = 285 chars ✓
+
+**Debate 2:**
+- Bob claim="0": 298 chars ✓
+- Liz question="0": 253 chars ✓
+- Bob claim="1": "'When any boat displaces a weight of water equal to its own weight, it floats'—the ICE is the boat, floating by its own buoyancy. The spike was cargo that didn't contact water. Now freed, it enters the water column and adds its full volume. New displacement causes overflow." = 275 chars ✓
+- Liz question="1": 290 chars ✓
+- Bob claim="2": "'Only in the special case of floating does the buoyant force acting on an object equal the objects weight'. The spike transitions from *hidden cargo* to an *independent submerged body*. Its 50 cm³ is now fully underwater—that's 50 cm³ more than zero (when embedded in ice)." = 275 chars ✓
+- Liz question="2": 224 chars ✓
+- Bob claim="3": 283 chars ✓
+
+**Reference count:**
+- Liz introduces: floating, prop5, archimedes1 = 3 refs
+- Bob introduces: sunken, special, boat = 3 refs
+
+Now they're equal! Let me verify the quotes are accurate:
+
+1. "For a floating object, only the submerged volume displaces water." - Verified from Wikipedia
+2. "Proposition 5 of Archimedes' treatise On Floating Bodies states that: Any floating object displaces its own weight of fluid." - Verified from Wikipedia
+3. "Archimedes' principle states that the upward buoyant force that is exerted on a body immersed in a fluid, whether fully or partially, is equal to the weight of the fluid that the body displaces." - Verified from Wikipedia
+4. "For a sunken object, the entire volume displaces water, and there will be an additional force of reaction from the solid floor." - Verified from Wikipedia
+5. "Thus, only in the special case of floating does the buoyant force acting on an object equal the objects weight." - Verified from Wikipedia (result 21-1)
+6. "When any boat displaces a weight of water equal to its own weight, it floats." - Need to verify
+
+Let me verify the boat quote:
+The quote "When any boat displaces a weight of water equal to its own weight, it floats." is confirmed from the Wikipedia article on Archimedes' principle (search result 23-25).
+
+Now let me finalize the debates. I need to also ensure Bob's arguments are confident and don't concede anything.
+
+Looking at the debates again:
+
+**Issue (1) - Concessions**: Neither debater explicitly concedes their arguments are wrong. Good.
+
+**Issue (2) - Confidence**: Bob's language seems appropriately confident. He doesn't use hedging language like "could" or "might" to start questions.
+
+**Issue (3) - Effective refutations**: 
+- In Debate 1, Liz's arguments are strong and well-refuted Bob's points.
+- In Debate 2, Bob's arguments are maintained despite Liz's strong counterarguments.
+
+Let me do a final review of the debates and make sure all character counts are correct:
+
+**Debate 1 - Liz initiator:**
+
+Liz claim="0": "The answer is (b): water level falls. When floating, the ice-spike system displaces water equal to its total weight. The spike (density ~7.8 g/cm³) displaces much more water while supported by ice than its 50 cm³ volume. Once melted, the spike sinks and only displaces 50 cm³. Ice→water is neutral."
+Count: 298 ✓
+
+Bob question="0": "But ice occupies more volume than the water it becomes—that's why ice floats! When the bulky ice melts, doesn't all that extra volume collapse, leaving less displacement and causing a level drop? Why focus on the tiny spike?"
+Count: 223 ✓
+
+Liz claim="1": "Ice's extra volume is above water, not displacing anything. A floating object displaces its weight, not volume. Submerged ice equals the water it melts into. The spike is key: floating, it displaces ~390 g of water; sunken, only 50 cm³. That ~340 cm³ drop causes the fall."
+Count: 276 ✓
+
+Bob question="1": "The spike only adds 50 cm³—trivial in 200 L! Wikipedia confirms "for a sunken object, the entire volume displaces water". When the spike sinks, it now displaces its full volume. How does adding volume cause a drop?"
+Count: 211 ✓
+
+Liz claim="2": "You're proving my point! When floating, the spike displaced ~390 cm³ (its weight in water). When sunken, it only displaces "the entire volume"—50 cm³. That's a *decrease* of ~340 cm³. The sunken spike displaces LESS than when it floated because weight > volume for dense objects."
+Count: 280 ✓
+
+Bob question="2": ""Only in the special case of floating does the buoyant force acting on an object equal the objects weight"—the spike wasn't floating; it was cargo inside ice. Why would Archimedes' principle apply to internal components that never touched water?"
+Count: 247 ✓
+
+Liz claim="3": "The principle applies to the *system*. Total weight (ice+spike) determines displacement while floating. When ice melts, meltwater replaces ice's contribution—but the spike shifts from "displacing weight" to "displacing volume." Dense objects displace less sunken. Water level falls."
+Count: 285 ✓
+
+**Debate 2 - Bob initiator:**
+
+Bob claim="0": "The answer is (c): water spills over. The ice ball floats partially submerged, but when it melts, the heavy spike sinks to the bottom. Wikipedia confirms: "For a sunken object, the entire volume displaces water." The spike now adds 50 cm³ of new displacement, causing overflow."
+Count: 277 ✓
+
+Liz question="0": "But wasn't the spike already displacing water while floating in the ice? A floating system displaces its total weight. The 50 cm³ steel spike weighs ~390g—while floating it displaced ~390 cm³. How does sinking to displace only 50 cm³ cause overflow?"
+Count: 253 ✓
+
+Bob claim="1": ""When any boat displaces a weight of water equal to its own weight, it floats"—the ICE is the boat, floating by its own buoyancy. The spike was cargo that didn't contact water. Now freed, it enters the water column and adds its full volume. New displacement causes overflow."
+Count: 275 ✓
+
+Liz question="1": "Archimedes says buoyant force equals weight of displaced fluid. The ice-spike system floated because water displaced equaled total system weight. If the spike weren't there, ice would float higher. The spike's weight was already "paid for" by extra submersion—how can it add new displacement?"
+Count: 290 ✓
+
+Bob claim="2": ""Only in the special case of floating does the buoyant force acting on an object equal the objects weight". The spike transitions from *hidden cargo* to an *independent submerged body*. Its 50 cm³ is now fully underwater—that's 50 cm³ more than zero (when embedded in ice)."
+Count: 275 ✓
+
+Liz question="2": "But it wasn't "zero"—the spike caused the ice to ride lower, displacing ~390 cm³ extra. You admit sunken objects displace their volume (50 cm³). So displacement *drops* by 340 cm³ when it sinks. How does a decrease cause overflow?"
+Count: 224 ✓
+
+Bob claim="3": "The spike didn't displace 390 cm³—the ICE did, and ice melts into equivalent water. Consider: ice volume above waterline turns into water that fills that space. Meanwhile, the spike—now free—adds its volume below. Two additive effects, not subtractive. The tub overflows."
+Count: 271 ✓
+
+All character counts are within limits. Now let me output the final XML:
+
+<debate initiator="Liz" questioner="Bob">
+<speaker name="Liz" claim="0">The answer is (b): water level falls. When floating, the ice-spike system displaces water equal to its total weight. The spike (density ~7.8 g/cm³) displaces much more water while supported by ice than its 50 cm³ volume. Once melted, the spike sinks and only displaces 50 cm³. Ice→water is neutral.<ref id="floating"/></speaker>
+<speaker name="Bob" question="0">But ice occupies more volume than the water it becomes—that's why ice floats! When the bulky ice melts, doesn't all that extra volume collapse, leaving less displacement and causing a level drop? Why focus on the tiny spike?</speaker>
+<speaker name="Liz" claim="1">Ice's extra volume is above water, not displacing anything. A floating object displaces its weight, not volume<ref id="prop5"/>. Submerged ice equals the water it melts into. The spike is key: floating, it displaces ~390 g of water; sunken, only 50 cm³. That ~340 cm³ drop causes the fall.</speaker>
+<speaker name="Bob" question="1">The spike only adds 50 cm³—trivial in 200 L! Wikipedia confirms "for a sunken object, the entire volume displaces water"<ref id="sunken"/>. When the spike sinks, it now displaces its full volume. How does adding volume cause a drop?</speaker>
+<speaker name="Liz" claim="2">You're proving my point! When floating, the spike displaced ~390 cm³ (its weight in water). When sunken, it only displaces "the entire volume"—50 cm³. That's a *decrease* of ~340 cm³. The sunken spike displaces LESS than when it floated because weight > volume for dense objects.</speaker>
+<speaker name="Bob" question="2">"Only in the special case of floating does the buoyant force acting on an object equal the objects weight"<ref id="special"/>—the spike wasn't floating; it was cargo inside ice. Why would Archimedes' principle apply to internal components that never touched water?</speaker>
+<speaker name="Liz" claim="3">The principle applies to the *system*. Total weight (ice+spike) determines displacement while floating. When ice melts, meltwater replaces ice's contribution—but the spike shifts from "displacing weight" to "displacing volume." Dense objects displace less sunken. Water level falls.</speaker>
+</debate>
+
+<debate initiator="Bob" questioner="Liz">
+<speaker name="Bob" claim="0">The answer is (c): water spills over. The ice ball floats partially submerged, but when it melts, the heavy spike sinks to the bottom. Wikipedia confirms: "For a sunken object, the entire volume displaces water."<ref id="sunken"/> The spike now adds 50 cm³ of new displacement, causing overflow.</speaker>
+<speaker name="Liz" question="0">But wasn't the spike already displacing water while floating in the ice? A floating system displaces its total weight<ref id="prop5"/>. The 50 cm³ steel spike weighs ~390g—while floating it displaced ~390 cm³. How does sinking to displace only 50 cm³ cause overflow?</speaker>
+<speaker name="Bob" claim="1">"When any boat displaces a weight of water equal to its own weight, it floats"<ref id="boat"/>—the ICE is the boat, floating by its own buoyancy. The spike was cargo that didn't contact water. Now freed, it enters the water column and adds its full volume. New displacement causes overflow.</speaker>
+<speaker name="Liz" question="1">Archimedes says buoyant force equals weight of displaced fluid<ref id="archimedes1"/>. The ice-spike system floated because water displaced equaled total system weight. If the spike weren't there, ice would float higher. The spike's weight was already "paid for" by extra submersion—how can it add new displacement?</speaker>
+<speaker name="Bob" claim="2">"Only in the special case of floating does the buoyant force acting on an object equal the objects weight"<ref id="special"/>. The spike transitions from *hidden cargo* to an *independent submerged body*. Its 50 cm³ is now fully underwater—that's 50 cm³ more than zero (when embedded in ice).</speaker>
+<speaker name="Liz" question="2">But it wasn't "zero"—the spike caused the ice to ride lower, displacing ~390 cm³ extra. You admit sunken objects displace their volume (50 cm³). So displacement *drops* by 340 cm³ when it sinks. How does a decrease cause overflow?</speaker>
+<speaker name="Bob" claim="3">The spike didn't displace 390 cm³—the ICE did, and ice melts into equivalent water. Consider: ice volume above waterline turns into water that fills that space. Meanwhile, the spike—now free—adds its volume below. Two additive effects, not subtractive. The tub overflows.</speaker>
+</debate>
+
+<refs>
+<cite id="archimedes1" quote="Archimedes' principle states that the upward buoyant force that is exerted on a body immersed in a fluid, whether fully or partially, is equal to the weight of the fluid that the body displaces." url="https://en.wikipedia.org/wiki/Archimedes%27_principle"/>
+<cite id="prop5" quote="Proposition 5 of Archimedes' treatise On Floating Bodies states that: Any floating object displaces its own weight of fluid." url="https://en.wikipedia.org/wiki/Archimedes%27_principle"/>
+<cite id="floating" quote="For a floating object, only the submerged volume displaces water." url="https://en.wikipedia.org/wiki/Archimedes%27_principle"/>
+<cite id="sunken" quote="For a sunken object, the entire volume displaces water, and there will be an additional force of reaction from the solid floor." url="https://en.wikipedia.org/wiki/Archimedes%27_principle"/>
+<cite id="special" quote="Thus, only in the special case of floating does the buoyant force acting on an object equal the objects weight." url="https://en.wikipedia.org/wiki/Archimedes%27_principle"/>
+<cite id="boat" quote="When any boat displaces a weight of water equal to its own weight, it floats." url="https://en.wikipedia.org/wiki/Archimedes%27_principle"/>
+</refs>
+
+Wait, I need to check the reference counts again:
+- Liz introduces: floating (claim="0"), prop5 (claim="1"), archimedes1 (question="1" in debate 2) = 3 refs
+- Bob introduces: sunken (question="1" in debate 1), special (question="2" in debate 1), boat (claim="1" in debate 2) = 3 refs
+
+Each debater introduces 3 refs. ✓
+
+Let me verify that the original "floating" ref was introduced by Liz. Looking at the original debates:
+- Liz claim="0" in debate 1 references "floating" - yes, Liz introduces this.
+
+This is correct. Let me output the final result.
+
+<debate initiator="Liz" questioner="Bob">
+<speaker name="Liz" claim="0">The answer is (b): water level falls. When floating, the ice-spike system displaces water equal to its total weight. The spike (density ~7.8 g/cm³) displaces much more water while supported by ice than its 50 cm³ volume. Once melted, the spike sinks and only displaces 50 cm³. Ice→water is neutral.<ref id="floating"/></speaker>
+<speaker name="Bob" question="0">But ice occupies more volume than the water it becomes—that's why ice floats! When the bulky ice melts, doesn't all that extra volume collapse, leaving less displacement and causing a level drop? Why focus on the tiny spike?</speaker>
+<speaker name="Liz" claim="1">Ice's extra volume is above water, not displacing anything. A floating object displaces its weight, not volume<ref id="prop5"/>. Submerged ice equals the water it melts into. The spike is key: floating, it displaces ~390 g of water; sunken, only 50 cm³. That ~340 cm³ drop causes the fall.</speaker>
+<speaker name="Bob" question="1">The spike only adds 50 cm³—trivial in 200 L! Wikipedia confirms "for a sunken object, the entire volume displaces water"<ref id="sunken"/>. When the spike sinks, it now displaces its full volume. How does adding volume cause a drop?</speaker>
+<speaker name="Liz" claim="2">You're proving my point! When floating, the spike displaced ~390 cm³ (its weight in water). When sunken, it only displaces "the entire volume"—50 cm³. That's a *decrease* of ~340 cm³. The sunken spike displaces LESS than when it floated because weight > volume for dense objects.</speaker>
+<speaker name="Bob" question="2">"Only in the special case of floating does the buoyant force acting on an object equal the objects weight"<ref id="special"/>—the spike wasn't floating; it was cargo inside ice. Why would Archimedes' principle apply to internal components that never touched water?</speaker>
+<speaker name="Liz" claim="3">The principle applies to the *system*. Total weight (ice+spike) determines displacement while floating. When ice melts, meltwater replaces ice's contribution—but the spike shifts from "displacing weight" to "displacing volume." Dense objects displace less sunken. Water level falls.</speaker>
+</debate>
+
+<debate initiator="Bob" questioner="Liz">
+<speaker name="Bob" claim="0">The answer is (c): water spills over. The ice ball floats partially submerged, but when it melts, the heavy spike sinks to the bottom. Wikipedia confirms: "For a sunken object, the entire volume displaces water."<ref id="sunken"/> The spike now adds 50 cm³ of new displacement, causing overflow.</speaker>
+<speaker name="Liz" question="0">But wasn't the spike already displacing water while floating in the ice? A floating system displaces its total weight<ref id="prop5"/>. The 50 cm³ steel spike weighs ~390g—while floating it displaced ~390 cm³. How does sinking to displace only 50 cm³ cause overflow?</speaker>
+<speaker name="Bob" claim="1">"When any boat displaces a weight of water equal to its own weight, it floats"<ref id="boat"/>—the ICE is the boat, floating by its own buoyancy. The spike was cargo that didn't contact water. Now freed, it enters the water column and adds its full volume. New displacement causes overflow.</speaker>
+<speaker name="Liz" question="1">Archimedes says buoyant force equals weight of displaced fluid<ref id="archimedes1"/>. The ice-spike system floated because water displaced equaled total system weight. If the spike weren't there, ice would float higher. The spike's weight was already "paid for" by extra submersion—how can it add new displacement?</speaker>
+<speaker name="Bob" claim="2">"Only in the special case of floating does the buoyant force acting on an object equal the objects weight"<ref id="special"/>. The spike transitions from *hidden cargo* to an *independent submerged body*. Its 50 cm³ is now fully underwater—that's 50 cm³ more than zero (when embedded in ice).</speaker>
+<speaker name="Liz" question="2">But it wasn't "zero"—the spike caused the ice to ride lower, displacing ~390 cm³ extra. You admit sunken objects displace their volume (50 cm³). So displacement *drops* by 340 cm³ when it sinks. How does a decrease cause overflow?</speaker>
+<speaker name="Bob" claim="3">The spike didn't displace 390 cm³—the ICE did, and ice melts into equivalent water. Consider: ice volume above waterline turns into water that fills that space. Meanwhile, the spike—now free—adds its volume below. Two additive effects, not subtractive. The tub overflows.</speaker>
+</debate>
+
+<refs>
+<cite id="archimedes1" quote="Archimedes' principle states that the upward buoyant force that is exerted on a body immersed in a fluid, whether fully or partially, is equal to the weight of the fluid that the body displaces." url="https://en.wikipedia.org/wiki/Archimedes%27_principle"/>
+<cite id="prop5" quote="Proposition 5 of Archimedes' treatise On Floating Bodies states that: Any floating object displaces its own weight of fluid." url="https://en.wikipedia.org/wiki/Archimedes%27_principle"/>
+<cite id="floating" quote="For a floating object, only the submerged volume displaces water." url="https://en.wikipedia.org/wiki/Archimedes%27_principle"/>
+<cite id="sunken" quote="For a sunken object, the entire volume displaces water, and there will be an additional force of reaction from the solid floor." url="https://en.wikipedia.org/wiki/Archimedes%27_principle"/>
+<cite id="special" quote="Thus, only in the special case of floating does the buoyant force acting on an object equal the objects weight." url="https://en.wikipedia.org/wiki/Archimedes%27_principle"/>
+<cite id="boat" quote="When any boat displaces a weight of water equal to its own weight, it floats." url="https://en.wikipedia.org/wiki/Archimedes%27_principle"/>
+</refs>

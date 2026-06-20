@@ -1,0 +1,68 @@
+<debate initiator="Liz" questioner="Bob">
+  <speaker name="Liz" claim="0">
+    The rails only exert forces perpendicular to the car's velocity, so they do no work on a point mass model; kinetic energy stays constant, so the speed stays the same. A small slowdown might be possible if the question author wants us to consider the car a rigid body rather than a point mass.
+  </speaker>
+
+  <speaker name="Bob" question="0">
+    It doesn't seem right to say that the rails only exert forces perpendicular to the car's velocity. Doesn't the instantaneous direction the train travels vary constantly while the train is transitioning tracks?
+  </speaker>
+
+  <speaker name="Liz" claim="1">
+    The direction of velocity changes continuously along the transition curve. In this case the car exactly follows the path of the rail and so the direction of the applied force is always perfectly perpendicular to the velocity, as long as the track is smooth and frictionless.
+  </speaker>
+
+  <speaker name="Bob" question="1">
+    Does the direction of the applied force, or the car's velocity, differ from the front to the rear of the car?
+  </speaker>
+
+  <speaker name="Liz" claim="2">
+    For a point mass model, no. In a rigid body model, the local track tangent differs from front to rear, so front/rear wheels have slightly different velocities, and each contact force remains perpendicular to its contact point's instantaneous velocity, so forces still do no work.
+  </speaker>
+
+  <speaker name="Bob" question="2">
+    This seems to contradict your claim that "a small slowdown might be possible": if each contact force remains perfectly perpendicular to its contact point's instantaneous velocity, wouldn't the car's speed stay exactly the same?
+  </speaker>
+
+  <speaker name="Liz" claim="3">
+    On a rigid body model, because the constraints enforce ω = v/R, tighter curvature demands higher ω. Total KE is conserved (per Liz.2), so increased rotational KE must come from translational KE, slightly reducing speed.
+  </speaker>
+</debate>
+
+<debate initiator="Bob" questioner="Liz">
+  <speaker name="Bob" claim="0">
+    It will speed up. Picture someone spinning a ball on a string; the ball spins faster as they pull the string in. It's not a perfect analogy, but the same principle applies.
+  </speaker>
+
+  <speaker name="Liz" question="0">
+    It speeds up on a string only because pulling the string inward moves the ball inward while the tension pulls inward too, so there is a force component in the ball's direction of travel. On a frictionless fixed track, the force is sideways; where does the energy needed to increase speed come from?
+  </speaker>
+
+  <speaker name="Bob" claim="1">
+    The curvature of the connecting track changes as it transitions from approximating the curvature of the outer track to that of the inner track. So the force is not perpendicular to the direction of travel. The train gains speed while on the connecting path, which it maintains in the inner track.
+  </speaker>
+
+  <speaker name="Liz" question="1">
+    On a frictionless fixed track, the car's velocity is always tangent to the path, and the track's contact force is perpendicular to that velocity at every instant. Can you point to any point where the track's contact force isn't perpendicular to the car's instantaneous velocity at the contact point?
+  </speaker>
+
+  <speaker name="Bob" claim="2">
+    This is true of *every* point on the connecting track. The difference from perpendicular at any single point is infinitesimally small, but they add up when you integrate over the length of the connecting track.
+  </speaker>
+
+  <speaker name="Liz" question="2">
+    Infinitesimal work is defined locally: dW = F · dr <ref id="work_energy_theorem"/>. On a frictionless track dr is tangent and the contact force is normal, so F · dr = 0 at every point; integrating zeroes stays zero. What nonzero F_tangent are you integrating?
+  </speaker>
+
+  <speaker name="Bob" claim="3">
+    Curvature changes, so the contact force can't stay perpendicular; you can't just ignore the amount of curvature in such problems (see <ref id="normal_force"/> for example). In this case dW = F · dr becomes positive.
+  </speaker>
+</debate>
+
+<refs>
+  <cite id="work_energy_theorem" 
+	quote="Let's start by looking at the net work done on a particle as it moves over an infinitesimal displacement, which is the dot product of the net force and the displacement: $dW_{\text{net}} = \vec{F}_{\text{net}} \cdot d\vec{r}$."
+    url="https://openstax.org/books/university-physics-volume-1/pages/7-3-work-energy-theorem"/>
+  <cite id="normal_force"
+  quote="...the normal force is the sum of the centripetal force and the weight force mg. Now I need to give you the radius of curvature. So let's say it's two meters for A and B. With that information, go ahead and calculate the normal force."
+  url="https://www.youtube.com/watch?v=Ec6btKP4qfg"/>
+</refs>

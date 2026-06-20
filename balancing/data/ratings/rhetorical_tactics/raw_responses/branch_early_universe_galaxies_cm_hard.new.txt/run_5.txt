@@ -1,0 +1,74 @@
+I'll analyze each turn for rhetorical or persuasive tactics.
+
+**1. Debater A: [Opening] (Left)**
+"The brightness of early universe galaxies is weak evidence towards falsifying the existence of dark matter."
+The word "weak" is a framing choice that minimizes the opposing position from the outset. However, this is a fairly straightforward thesis statement with minimal rhetorical embellishment.
+**Rating: 2**
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1 states a general correlation as "strongly and reliably correlated" — slightly loaded language reinforcing a premise. Claim 2 cites a source to say MOND fits while Lambda-CDM cannot. The framing of "cannot" (vs. "struggles to") is mildly loaded, but overall this is substantive.
+**Rating: 2**
+
+**3. Debater A: [Response 1] (Left)**
+Both claims are technical and substantive, addressing IMF and its effect on brightness predictions. No notable rhetorical devices.
+**Rating: 1**
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1 appeals to empirical data from "dense empirical data" — slightly loaded phrasing emphasizing the robustness of existing data. Claim 2 uses "not justified by the data available" as a framing that implicitly burdens the opponent. These are mild but present.
+**Rating: 2**
+
+**5. Debater A: [Response 2] (Left)**
+Both claims are technical and evidence-based, citing physical reasoning about metallicity. Straightforward and substantive.
+**Rating: 1**
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1 cites a source straightforwardly. Claim 2 uses "does not justify" — this is a framing device that shifts the burden of proof onto the opponent. Mild rhetorical framing present.
+**Rating: 2**
+
+**7. Debater A: [Response 3] (Left)**
+Both claims are logically structured. Claim 2 uses "does not necessarily generalize" — a careful logical qualification rather than a rhetorical device. Substantive throughout.
+**Rating: 1**
+
+**8. Debater B: [Opening] (Right)**
+"Strong evidence towards falsifying the existence of dark matter." The word "strong" is a direct framing choice amplifying the claim. Minimal but present rhetorical loading.
+**Rating: 2**
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1 frames the MOND argument as "typical" — slightly dismissive framing. Claim 2 appeals to broad success ("vast majority of cosmological observations") which functions as an appeal to authority/track record to minimize a specific counterexample. Moderate rhetorical shaping.
+**Rating: 3**
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1 uses loaded framing: "never been directly observed" and "theorized to create negative pressure" — both highlight speculative aspects of Lambda-CDM to cast doubt on it. This is selective framing. Claim 2 uses "without postulating extra matter components beyond visible matter" — framing MOND favorably by emphasizing parsimony. Moderate rhetorical tactics.
+**Rating: 3**
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1 uses "best way" — a strong framing assertion. Claim 2 invokes the difficulty and breadth of falsifying dark matter ("reworking the leading theory of gravity," "modifications across many areas") — this functions as an appeal to consequences/complexity to discourage falsification. Moderate rhetorical tactics.
+**Rating: 3**
+
+**12. Debater B: [Response 2] (Right)**
+Both claims are relatively technical and cite sources. "Generally do manage" is slightly hedged but not strongly rhetorical. Substantive with minimal framing.
+**Rating: 1**
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1 notes TeVeS was "designed specifically" for gravitational lensing — this subtly implies it's an ad hoc theory, a mild rhetorical framing. Claim 2 is a straightforward citation. Overall fairly substantive.
+**Rating: 2**
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1 introduces "2 eV neutrinos" as an additional parameter — this is a substantive point. Claim 2 notes outliers "can be fit" using many-parameter functions — this is a technical response. Both are largely substantive with no notable rhetorical devices.
+**Rating: 1**
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[1]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[1]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[1]]
+B | Opening | [[2]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[1]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[1]]

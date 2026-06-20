@@ -1,0 +1,161 @@
+I'll analyze each turn for technical jargon, then provide ratings.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+- "early universe galaxies" – descriptive, accessible
+- "dark matter" – defined in the debate, but still a technical physics term familiar to many general readers
+- "falsifying" – philosophical/scientific method term; somewhat accessible but slightly technical
+Overall: minimal jargon, broadly understandable. **Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1]**
+- "stellar mass" – implied but not stated; "mass of a galaxy" is plain language
+- "brightness" – everyday word
+- "high-redshift" – technical astrophysics term; a layperson wouldn't know what redshift means or why it implies "early universe"
+- "MOND-based models" – acronym from definitions section, but still jargon
+- "Lambda-CDM" – acronym from definitions, still technical
+- "masses of observed early universe galaxies" – accessible phrasing
+Overall: several technical terms (MOND, Lambda-CDM, high-redshift). **Rating: 3**
+
+---
+
+**3. Debater A: [Response 1]**
+- "stellar mass" – technical but moderately familiar
+- "top-heavy IMF" – IMF is defined in the debate but still specialized jargon; "top-heavy" in this context is discipline-specific
+- "standard IMF" – same as above
+- "Lambda-CDM" – technical acronym
+Overall: IMF usage (including "top-heavy") and Lambda-CDM make this moderately technical. **Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2]**
+- "standard IMF" – technical jargon (Initial Mass Function)
+- "empirically" – slightly formal but accessible
+- "Milky Way" – common knowledge
+- "population of stars" – accessible
+- "empirically observed" – accessible
+Overall: IMF is the main jargon term; the rest is fairly plain. **Rating: 2**
+
+---
+
+**5. Debater A: [Response 2]**
+- "empirically calculate the IMF" – IMF is jargon
+- "early universe galaxies" – accessible
+- "metallicity" – technical astrophysics term; a layperson would not know this refers to the abundance of elements heavier than helium
+- "systematic lower metallicity" – technical
+- "formation of more massive stars" – accessible
+Overall: IMF and metallicity are both significant jargon terms. **Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3]**
+- "standard IMF" – jargon
+- "z~3-4" – redshift notation; highly technical, a layperson would not understand "z" as redshift
+- "good residuals" – statistical/modeling term; "residuals" in this context is technical
+- "metallicity" – technical
+- "increasing redshift" – technical
+- "top-heavy IMF" – jargon
+Overall: Multiple technical terms (z notation, residuals, IMF, metallicity, redshift). **Rating: 4**
+
+---
+
+**7. Debater A: [Response 3]**
+- "metallicity" – technical
+- "z~10" – redshift notation, highly technical
+- "standard IMF" – jargon
+- "early universe galaxies" – accessible
+Overall: z~10 notation, metallicity, and IMF are all jargon. **Rating: 3**
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+- "early universe galaxies" – accessible
+- "dark matter" – moderately familiar
+- "falsifying" – slightly technical (philosophy of science)
+Overall: Very similar to Debater A's opening; minimal jargon. **Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1]**
+- "MOND-based models" – jargon
+- "high-redshift galaxy masses" – technical (redshift)
+- "Lambda-CDM" – technical acronym
+- "cosmological observations" – somewhat technical but accessible
+Overall: MOND, redshift, Lambda-CDM are notable jargon. **Rating: 3**
+
+---
+
+**10. Debater B: [Response 1]**
+- "Lambda-CDM" – technical
+- "dark matter" – moderately familiar
+- "dark energy" – moderately familiar
+- "negative pressure" – technical physics concept; a layperson would find this confusing
+- "MOND" – jargon
+- "cosmological phenomena" – slightly technical
+- "visible matter" / "matter components" – accessible
+Overall: Lambda-CDM, negative pressure, MOND represent meaningful jargon. **Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2]**
+- "gravitational lensing" – technical astrophysics term; familiar to some but not general public
+- "dark matter" – moderately familiar
+- "gravitational influence" – accessible
+- "astrophysics" – field name, recognizable
+- "leading theory of gravity" – accessible
+Overall: Gravitational lensing is the main jargon; otherwise fairly accessible. **Rating: 2**
+
+---
+
+**12. Debater B: [Response 2]**
+- "Relativistic extensions of MOND" – technical; "relativistic" in this physics context is jargon
+- "TeVeS" – highly specialized acronym (Tensor-Vector-Scalar gravity); most general readers would not recognize this
+- "gravitational lensing effects" – technical
+- "dark matter" – moderately familiar
+- "CASTLES sample" – specialized dataset name; opaque to non-specialists
+Overall: TeVeS and CASTLES are highly specialized; relativistic extensions of MOND also very technical. **Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3]**
+- "TeVeS" – highly specialized acronym
+- "gravitational lensing" – technical
+- "principal motivations" – accessible
+- "MOND/TeVeS framework" – jargon
+- "lens systems" – technical in this context (gravitational lensing)
+Overall: TeVeS, MOND, and lens systems are all jargon. **Rating: 3**
+
+---
+
+**14. Debater B: [Response 3]**
+- "TeVeS" – highly specialized acronym
+- "2 eV neutrinos" – highly technical; eV (electronvolts) is physics unit jargon, neutrinos are specialized particles
+- "gravitational lensing" – technical
+- "galaxy clusters" – somewhat accessible
+- "many-parameter interpolation functions" – technical mathematical/modeling language
+- "single parameters" – moderately accessible
+Overall: "2 eV neutrinos," TeVeS, and interpolation functions make this heavily technical. **Rating: 4**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[4]]

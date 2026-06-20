@@ -1,0 +1,131 @@
+I'll analyze each turn for clarity to a layperson, then provide ratings.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+
+The turn introduces the "Einstein zig-zag lens model" and mentions "two deflectors," "one AGN," and "6 lensed images." While some terms (Einstein zig-zag, AGN) are defined in the glossary, the sentence assumes the reader understands what "deflectors," "optical path," and "lensed images" mean in context. The structure is relatively compact but requires prior reading of the definitions. A layperson who read the definitions could partially follow this, but "white galaxy and red galaxy behind it" is a helpful concrete detail. Overall moderately accessible but relies on definitions.
+
+**Rating: 3**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+
+Claim 1 uses "overfit" (a technical statistical term), "modeling decisions," "second deflector," and "first deflector's plane" — all requiring specialist knowledge. Claim 2 mentions "chi-squared error" and "image reconstruction error," both defined in the glossary. The word "overfit" is the main stumbling block; the general idea that a model is too complex is somewhat inferable but not clear without context. The glossary definitions help with chi-squared, making Claim 2 more accessible than Claim 1.
+
+**Rating: 2**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+
+Claim 1 discusses how the "mass profile of the second deflector" affects modelling "when it is close to the optical axis" — fairly technical. Claim 2 says "Taking galaxy positions into account allows one to more accurately model a more complex mass distribution than a simple shear." The term "shear" is defined in the glossary, but "mass distribution," "optical axis," and "mass profile" are not explained. A layperson can grasp the general sense (more complex model = more accurate) but the specific technical points are opaque.
+
+**Rating: 2**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+
+Claim 1 states the model has 30 parameters vs. 12 in other work — this is clear and concrete, accessible to a layperson. Claim 2 says this provides "an enormous degree of modelling flexibility and results in overfitting." "Overfitting" remains a technical term, but the idea that too many parameters means too much flexibility is somewhat intuitive. This is one of the more accessible turns, using concrete numbers and a relatively understandable concept.
+
+**Rating: 3**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+
+Claim 1 ("A simpler model is not necessarily a correct model") is very clear and accessible to any layperson. Claim 2 ("15 parameters in our model are partially constrained, which are not full degrees of freedom") is more technical — "degrees of freedom" and "partially constrained" are statistical/technical terms that a layperson would struggle with. The combination is mixed, with one very clear and one fairly opaque claim.
+
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+
+Claim 1 references "Debater A Response 2 Claim 2" directly — a layperson must navigate back to understand what is being discussed, which is disorienting. The point about constraints not fixing parameters and coming with "their own errors" is somewhat understandable at a general level. Claim 2 about "galaxy positions and redshifts" varying and "adding more freedom to an already complex model" is somewhat followable, especially with the glossary definition of redshift. The cross-reference is the main clarity issue.
+
+**Rating: 2**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+
+Claim 1 mentions "NIRSpec spectroscopy" and "tight constraints for the second deflector's redshift, independent of the lens model itself." NIRSpec is unexplained jargon; the general point (a separate instrument confirms the distance) is inferable but not clear. Claim 2 says "Hubble Space Telescope imaging constrains positions to sub-arcsecond precision" — HST is a recognizable name, and "sub-arcsecond precision" is technical but the general meaning (very precise positioning) is understandable. Together, the claims are somewhat accessible in their broad meaning but rely on unexplained technical terms.
+
+**Rating: 3**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+
+The turn introduces a "gravitationally lensed dual-AGN model" with one AGN producing four bright images and another producing two dim images "next to extended red arcs." The glossary explains gravitational lensing and AGN. "Extended red arcs" is not explained but is visually descriptive. "Dual-AGN" means two active galactic nuclei. The sentence is reasonably structured and relies on defined terms. A layperson could follow the general concept: two separate bright objects, each producing a different set of images.
+
+**Rating: 3**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+
+Claim 1 says we'd expect to see a "host galaxy" for each set of point sources — "host galaxy" and "point sources" are unexplained. Claim 2 is more concrete: light curves show the same variations with specific offsets (35 days), same redshifts, but the other model claims two AGN are 6 kiloparsecs apart. "Light curves" is unexplained, but "35 days between D and E" is tangible. "Kiloparsecs" is defined in the glossary. The claim about same redshift implying same source is a logical point a layperson could grasp. Mixed clarity.
+
+**Rating: 3**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+
+Claim 1 mentions a "dwarf host galaxy of <400 parsecs" being undetected in "HST imaging." "Parsecs" is defined; HST is recognizable. The point (the galaxy is too small to see) is understandable. Claim 2 says lower magnification means an even larger component might be undetected. "Magnification" in lensing context makes intuitive sense. "Extended component" is defined in the glossary. This turn is relatively accessible with defined terms and an understandable logical thread.
+
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+
+Claim 1 ("Dual AGN often arise from mergers between two or more galaxies") is clear and accessible. Claim 2 ("Observed AGN-host dwarf galaxies are biased towards late-type with low merger rates, directly against your hypothesis") is more technical — "late-type," "merger rates," and "biased towards" in a statistical sense require specialist knowledge. The overall point (real observations don't support the merger hypothesis) is somewhat graspable, but the technical terminology in Claim 2 limits accessibility.
+
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+
+Claim 1 ("AGN-host dwarf galaxies have mainly been studied at very low redshifts") is relatively clear — low vs. high redshift means nearby vs. distant, which is explained in the glossary. Claim 2 ("Low redshift galaxies are not a representative population for this object") follows logically and is easy to understand: what we've studied nearby doesn't apply here. This is one of the clearer turns overall.
+
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+
+Claim 1 says "the most plausible morphology for a dwarf host is still going to be a quiescent galaxy that is <400 pc wide but yet massive enough to host AGN." "Morphology," "quiescent galaxy," and "massive enough to host AGN" are technical terms without explanation. Claim 2 references "Debater B Response 2 Claim 1" requiring navigation back, and "merger-driven dual AGN system" and "conditioned on" (statistical language) are technical. This is one of the less accessible turns.
+
+**Rating: 2**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+
+Claim 1 ("High redshift galaxies can be far more compact than low redshift galaxies of similar mass") is reasonably clear with the glossary's redshift definition — distant galaxies can be smaller. Claim 2 ("Dual-AGN feedback can rapidly quench star formation. Compactness and quiescence are not mutually exclusive, especially at high z") is more technical — "AGN feedback," "quench star formation," "quiescence" are astrophysical concepts. The last sentence is a logical point but uses jargon. The turn is partially accessible.
+
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[3]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[2]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[2]]
+A | Response 3 | [[3]]
+B | Opening | [[3]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[3]]

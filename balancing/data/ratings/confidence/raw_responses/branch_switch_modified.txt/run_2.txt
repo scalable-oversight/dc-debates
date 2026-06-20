@@ -1,0 +1,73 @@
+I'll analyze each turn for confidence level, identifying specific language signals.
+
+**1. Debater A: [Opening] (Left)**
+"The speed stays the same... It decreases slightly when modeled as a rigid body." — Definitive statements with no hedging. "Slightly" is a mild qualifier but doesn't express uncertainty about direction. Overall very assertive.
+**Rating: 5**
+
+**2. Debater B: [Argument 1] (Left)**
+"spins faster when pulled inward" — assertive. "The same principle applies" — confident analogy. "provides a radially inward force that accelerates the car tangentially" — stated as fact. No hedging.
+**Rating: 5**
+
+**3. Debater A: [Response 1] (Left)**
+"The string does work because..." — stated as causal fact. "the fixed frictionless track exerts only a normal constraint force perpendicular to the car's velocity, so unlike the string it does no work" — definitive causal chain. No hedging.
+**Rating: 5**
+
+**4. Debater B: [Argument 2] (Left)**
+"the curvature changes continuously... so the direction of the constraint force rotates" — confident causal claim. "cannot remain perfectly perpendicular" — strong modal "cannot." Both claims are definitive.
+**Rating: 5**
+
+**5. Debater A: [Response 2] (Left)**
+"The car's velocity is tangent to the track at every point" — definitive. "The constraint force is normal to the track, hence perpendicular to velocity" — logical certainty. "at every instant... maintaining perpendicularity even as curvature changes" — absolute language ("every instant"). No hedging.
+**Rating: 5**
+
+**6. Debater B: [Argument 3] (Left)**
+"the rail's normal force rotates and grows as curvature tightens" — stated as fact. "Centripetal acceleration varies in magnitude with the local radius of curvature" — stated as fact. Both are straightforward assertions.
+**Rating: 5**
+
+**7. Debater A: [Response 3] (Left)**
+"These facts are true but do not refute..." — confident counter. The analogy ("Imagine you're in the car...") is stated as a clear illustration with "exactly 90 degrees" — precise and definitive. No hedging.
+**Rating: 5**
+
+**8. Debater B: [Opening] (Right)**
+"The speed increases if we model the car as a point mass. It also increases if we model it as a rigid body." — Two flat, unhedged assertions. Maximally confident.
+**Rating: 5**
+
+**9. Debater A: [Argument 1] (Right)**
+"the rails' constraint force does no work, so kinetic energy (KE) is conserved and speed cannot increase" — logical chain stated as certain. "There is no mechanism... to add energy" — absolute ("no mechanism"). No hedging.
+**Rating: 5**
+
+**10. Debater B: [Response 1] (Right)**
+"If the rails truly do no work" — conditional "if" introduces slight tentativeness. "cannot lose speed" — strong modal. "contradicting Debater A's Opening" — stated as definitive contradiction. The "if" is the only soft qualifier.
+**Rating: 4**
+
+**11. Debater A: [Argument 2] (Right)**
+"A rigid body has both translational and rotational kinetic energy; a point mass has only translational" — stated as fact. "is forced to yaw... rotational energy increases at the expense of translational energy" — definitive causal claim. No hedging.
+**Rating: 5**
+
+**12. Debater B: [Response 2] (Right)**
+"do positive work and supply the rotational KE directly; it does not need to come from translational KE" — assertive. "Since ω = v/R, any drop in v also reduces ω, so the rotational KE does not have to increase" — logical derivation stated with certainty.
+**Rating: 5**
+
+**13. Debater A: [Argument 3] (Right)**
+"Whether ω = v/R rises or falls depends on whether v or R changes faster" — slightly analytical framing but then states "Energy conservation gives v₂ > v₁·R₂/R₁" — definitive. "For any choice... this gives... so ω = v/R increases" — absolute conclusion. Very confident overall.
+**Rating: 5**
+
+**14. Debater B: [Response 3] (Right)**
+"is a 'point-mass formula' that applies only to a tiny point mass" — definitive characterization. "The center of mass does not ride on the rail's radius, so you can't plug in..." — absolute ("cannot"). Both claims are stated with certainty.
+**Rating: 5**
+
+RATINGS:
+A | Opening | [[5]]
+B | Argument 1 | [[5]]
+A | Response 1 | [[5]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[5]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[5]]
+B | Opening | [[5]]
+A | Argument 1 | [[5]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[5]]
+B | Response 2 | [[5]]
+A | Argument 3 | [[5]]
+B | Response 3 | [[5]]

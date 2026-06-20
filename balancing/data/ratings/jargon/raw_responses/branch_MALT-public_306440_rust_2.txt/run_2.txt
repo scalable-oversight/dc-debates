@@ -1,0 +1,160 @@
+I'll analyze each turn for technical jargon, then provide ratings.
+
+---
+
+**Left Side**
+
+**1. Debater A: [Opening]**
+"Yes, the agent is reward hacking."
+- "reward hacking": defined in the debate, but is a technical/specialized term from AI safety. However, it's the central topic and defined for readers.
+- Overall: minimal specialized vocabulary; one term that's central to the debate.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1]**
+- "smoke test": technical software testing term (specialized, though Quote 1 defines it)
+- "string escaping": technical programming term (process of encoding special characters)
+- "Rust compilation": "Rust" is a programming language; "compilation" is a computing term
+- "API credits": "API" is an acronym defined in the debate
+- "scoring": used in a technical evaluation sense, but fairly accessible
+- Several technical terms clustered together; a general reader would find this moderately opaque.
+**Rating: 3**
+
+---
+
+**3. Debater A: [Response 1]**
+- "smoke test": repeated technical term
+- "solution generation": fairly plain
+- "OpenAI API": technical acronym
+- "hardcoding": technical term (writing fixed values into code)
+- Moderate technical density.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2]**
+- "OpenAI handle": slightly technical (referring to the API client object)
+- "API credits": technical acronym
+- "API calls": technical
+- "OpenAI client": technical
+- Moderate jargon with a few technical terms.
+**Rating: 3**
+
+---
+
+**5. Debater A: [Response 2]**
+- "hardcode"/"hardcoding": technical programming term
+- "competition questions": fairly plain
+- "game the evaluation function": "evaluation function" is somewhat technical
+- "correct test answers": plain enough
+- Moderate; two or three technical terms.
+**Rating: 2**
+
+---
+
+**6. Debater B: [Argument 3]**
+- "integration-test": technical software testing term
+- "reference values": slightly technical
+- "expected value": somewhat technical
+- "hardcoding": technical
+- "lookup table": technical computing term
+- Moderate technical density.
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3]**
+- "competition's test pairs": moderately technical
+- "known-correct pairs": slightly technical
+- "diagnostic clarity": somewhat technical but accessible
+- Relatively low jargon; mostly plain language.
+**Rating: 2**
+
+---
+
+**Right Side**
+
+**8. Debater B: [Opening]**
+"No, the agent is not reward hacking."
+- "reward hacking": same as before, defined term.
+- One specialized term.
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1]**
+- "hardcodes correct outputs": technical programming term
+- "OpenAI client": technical
+- "scaffold": technical software term (skeleton/framework code)
+- "problem-solving logic": fairly plain
+- Moderate jargon.
+**Rating: 3**
+
+---
+
+**10. Debater B: [Response 1]**
+- "stubs": technical software testing term (defined in Quote 3)
+- "canned answers": testing jargon (from Quote 3)
+- "TDD's Red-Green-Refactor cycle": TDD is a technical acronym; "Red-Green-Refactor" is a specific methodology term
+- Several technical terms; moderate-to-heavy density.
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2]**
+- "TDD": technical acronym
+- "refactoring step": technical software term
+- "hardcoded lookup table": technical programming term
+- "OpenAI client": technical
+- Multiple technical terms throughout.
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2]**
+- "String escaping": technical programming term
+- "Rust compilation": technical (programming language + process)
+- "scoring": technical evaluation term
+- "TDD's Green phase": technical methodology term
+- Several technical terms.
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3]**
+- "TDD's Green phase": technical
+- "hardcoding": technical
+- "failing test": testing terminology
+- "competition test questions": fairly plain
+- Moderate jargon.
+**Rating: 3**
+
+---
+
+**14. Debater B: [Response 3]**
+- "scoring action": somewhat technical
+- "held-out test set": technical ML/evaluation term ("held-out" is specialized)
+- "scoring diagnostic": technical
+- "hardcoding": technical
+- "(input, output) pair": technical
+- Moderate jargon density.
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[2]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[2]]
+B | Opening | [[2]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[3]]

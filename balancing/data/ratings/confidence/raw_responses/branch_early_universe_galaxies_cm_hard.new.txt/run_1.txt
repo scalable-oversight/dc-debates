@@ -1,0 +1,97 @@
+I'll analyze each turn for confidence signals, then provide ratings.
+
+**1. Debater A: [Opening] (Left)**
+"weak evidence towards falsifying" — the word "weak" is a significant hedge, reducing the force of the claim. "Towards falsifying" rather than "falsifies" is also tentative. Overall quite hedged but still takes a position.
+**Rating: 3**
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "broadly speaking, strongly and reliably correlated" — "broadly speaking" hedges, but "strongly and reliably" asserts confidently. Mixed signals.
+Claim 2: "can fit... while Lambda-CDM cannot" — "can fit" is somewhat tentative but the contrast with "cannot" is definitive.
+Overall moderately confident with minor hedging.
+**Rating: 3**
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: "predicts a brighter galaxy" — stated flatly, no hedging.
+Claim 2: "substantially improves... over the fit it appears to have" — "substantially" is assertive but "appears to have" hedges the baseline comparison.
+Mostly confident with one qualifier.
+**Rating: 4**
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: "is based on dense empirical data" — stated definitively, no hedging.
+Claim 2: "is not justified by the data available" — definitive negative claim, no hedging.
+Very assertive throughout.
+**Rating: 5**
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: "Current methods do not allow us" — stated as a definitive limitation.
+Claim 2: "have systematically lower metallicity, which is likely to result" — "likely" hedges the consequence, though the premise is stated firmly.
+Mixed: one firm claim, one hedged.
+**Rating: 3**
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "assume a standard IMF... and obtain good residuals" — stated factually, confidently.
+Claim 2: "the change does not justify the use of a top-heavy IMF" — definitive conclusion, no hedging.
+Very assertive.
+**Rating: 5**
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: "will be more severe" — definitive future assertion, no hedging.
+Claim 2: "does not mean these results would necessarily generalize" — "does not mean" and "necessarily" both qualify/hedge the conclusion.
+Mixed confidence levels.
+**Rating: 3**
+
+**8. Debater B: [Opening] (Right)**
+"strong evidence towards falsifying" — "strong" is confident and assertive. "Towards falsifying" is slightly less than outright "falsifies" but still assertive.
+**Rating: 4**
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "The typical argument for this is that" — frames it as others' argument, distancing language.
+Claim 2: "successfully explains the vast majority" — "vast majority" is confident but not absolute, leaves room for exceptions.
+Moderately confident but with some distancing.
+**Rating: 3**
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "has never been directly observed... theorized to create" — factual/definitional statements, confident.
+Claim 2: "handles the same cosmological phenomena without postulating extra matter" — stated as fact, assertive.
+High confidence overall.
+**Rating: 4**
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "is the best way to explain" — "best way" is assertive superlative.
+Claim 2: "would require reworking... leading to modifications" — stated as definitive consequence, no hedging.
+Very assertive.
+**Rating: 5**
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "generally do manage to reproduce" — "generally" hedges somewhat, but "do manage" is assertive.
+Claim 2: "adequately fits... without the need for" — "adequately" is somewhat modest but overall confident.
+Mostly confident with minor hedging.
+**Rating: 4**
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "was, in fact, designed specifically" — "in fact" and "specifically" are confidence intensifiers, very assertive.
+Claim 2: "contains examples of lens systems which do not fit" — stated as a definitive fact.
+Very assertive throughout.
+**Rating: 5**
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "has been shown to reproduce... reasonably well" — "has been shown" is confident, but "reasonably well" moderates the claim.
+Claim 2: "can be fit using many-parameter interpolation functions" — "can be" is slightly tentative but presents a viable solution confidently.
+Moderate confidence with some qualification.
+**Rating: 3**
+
+RATINGS:
+A | Opening | [[3]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[4]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[5]]
+A | Response 3 | [[3]]
+B | Opening | [[4]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[5]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[5]]
+B | Response 3 | [[3]]

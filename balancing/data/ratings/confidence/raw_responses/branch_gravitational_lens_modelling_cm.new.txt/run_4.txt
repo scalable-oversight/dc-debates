@@ -1,0 +1,157 @@
+I'll analyze each turn for confidence indicators, then provide ratings.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The Einstein zig-zag lens model... with two deflectors... at different distances, and one AGN which produces 6 lensed images after being lensed by both deflectors."
+
+No hedging words whatsoever. States the model as a definitive description. No qualifications like "possibly" or "likely." Extremely assertive, declarative sentence presenting a specific, technical claim as fact.
+
+**Rating: 5**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+Claim 1: "is, on closer inspection, overfit, mainly due to..." — assertive; "mainly due to" is slightly selective but still confident.
+Claim 2: "do not actually quantify or report a chi-squared error" — factual, definitive statement.
+
+The phrase "on closer inspection" hints at a deliberate re-evaluation but doesn't hedge the conclusion. Both claims are stated firmly. No hedging language like "might" or "possibly." Overall very confident.
+
+**Rating: 4**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1: "is likely to have a significant effect" — "likely" is a hedge, moderating the confidence.
+Claim 2: "allows one to more accurately model a more complex mass distribution" — stated as a general principle, assertive but somewhat abstract.
+
+The word "likely" in Claim 1 introduces noticeable hedging. Claim 2 is more assertive. Taken together, there's a mix — one hedged, one confident.
+
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+Claim 1: "This fails to reveal that the model has 30 total parameters, compared to 12 parameters used in other work." — Definitive, factual, no hedging.
+Claim 2: "This provides an enormous degree of modelling flexibility and results in overfitting." — Asserts causation confidently; "enormous" is emphatic.
+
+Both claims are stated as clear facts/conclusions. No hedging. Highly assertive throughout.
+
+**Rating: 5**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+Claim 1: "A simpler model is not necessarily a correct model." — Uses "not necessarily," which is a hedge of sorts, but this is a logical principle stated firmly.
+Claim 2: "15 parameters in our model are partially constrained, which are not full degrees of freedom." — Factual, assertive.
+
+Claim 1 uses "not necessarily" but as a logical counter-argument rather than personal uncertainty. Claim 2 is definitive. Overall mostly confident with slight qualification.
+
+**Rating: 4**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+Claim 1: "Constraints don't fix the parameters... in place: they are determined via different models that come with their own errors." — Definitive, logical statement.
+Claim 2: "All galaxy positions and redshifts except the main deflector can vary considerably, adding more freedom to an already complex model." — "Can vary" is slightly hedged, but "considerably" and "already complex" are emphatic.
+
+Mostly assertive with a slight hedge in "can vary." Overall high confidence.
+
+**Rating: 4**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+Claim 1: "NIRSpec spectroscopy provides quite tight constraints for the second deflector's redshift, independent of the lens model itself." — "quite tight" is moderately assertive; "independent of the lens model" is definitive.
+Claim 2: "Hubble Space Telescope imaging constrains positions to sub-arcsecond precision." — Highly specific, definitive factual claim.
+
+"Quite tight" introduces a small qualifier but overall both claims are stated confidently with specific technical detail. High confidence.
+
+**Rating: 4**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The gravitationally lensed dual-AGN model... with the first AGN corresponding to the four brightest images and the second AGN corresponding to the two dim images next to the extended red arcs."
+
+States the model definitively, no hedging at all. Specific and assertive description.
+
+**Rating: 5**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+Claim 1: "we would normally expect to see a host galaxy" — "normally expect" introduces a degree of tentativeness; it's a probabilistic/normative statement.
+Claim 2: "Light curves for all 6 lensed images display the same variations... But C. S. M. et al. claim that D and E correspond to AGN that are 6 kiloparsecs away from each other." — The second part uses "claim" which attributes the statement to others but the implication is stated as a strong contradiction.
+
+Claim 1 is hedged with "normally expect." Claim 2 is largely factual and assertive. Mixed but leaning moderate-to-high.
+
+**Rating: 3**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1: "A dwarf host galaxy of <400 parsecs... would likely remain undetected" — "would likely" is a notable hedge.
+Claim 2: "an even larger extended component might be undetected." — "might" is a clear hedge.
+
+Both claims use hedging language ("would likely," "might"). The speaker is making probabilistic arguments about non-detection. This represents genuinely moderate-to-low confidence in the language used.
+
+**Rating: 2**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1: "Dual AGN often arise from mergers between two or more galaxies." — "often" is a hedge/qualifier.
+Claim 2: "Observed AGN-host dwarf galaxies are biased towards late-type with low merger rates, directly against your hypothesis." — "directly against your hypothesis" is assertive; the observation is stated as fact.
+
+Claim 1 uses "often" as a qualifier. Claim 2 is assertive with "directly against." Mixed — one hedged claim, one assertive.
+
+**Rating: 3**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+Claim 1: "AGN-host dwarf galaxies have mainly been studied at very low redshifts." — "mainly" is a slight qualifier but the claim is largely factual.
+Claim 2: "Low redshift galaxies are not a representative population for this object." — Stated definitively.
+
+"Mainly" is a minor qualifier in Claim 1; Claim 2 is definitive. Overall fairly confident with minor hedging.
+
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+Claim 1: "The most plausible morphology for a dwarf host is still going to be a quiescent galaxy that is <400 pc wide but yet massive enough to host AGN." — "most plausible" is a qualifier acknowledging alternatives; "still going to be" is assertive.
+Claim 2: "The probability of a merger-driven dual AGN system with these particular host properties remains very low, even conditioned on Debater B Response 2 Claim 1." — "remains very low" is assertive about probability; "even conditioned on" shows logical thoroughness.
+
+"Most plausible" hedges somewhat, but "very low probability" and "remains" are confident. Moderately high overall.
+
+**Rating: 3**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+Claim 1: "High redshift galaxies can be far more compact than low redshift galaxies of similar mass." — "can be" is a hedge.
+Claim 2: "Dual-AGN feedback can rapidly quench star formation. Compactness and quiescence are not mutually exclusive, especially at high z." — "can rapidly" hedges; "are not mutually exclusive" is definitive; "especially at high z" qualifies scope.
+
+Multiple uses of "can be," "can rapidly," which hedge the claims. The final statement is more definitive. Overall mixed but with noticeable hedging.
+
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[5]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[5]]
+A | Response 2 | [[4]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[4]]
+B | Opening | [[5]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[2]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[3]]

@@ -1,0 +1,122 @@
+I'll analyze each turn for technical jargon systematically.
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+- "point mass": technical physics term (idealized object)
+- "rigid body": technical physics term
+- "model": slightly technical but widely understood
+Overall: Two clear physics jargon terms, but the sentence remains fairly accessible. Rating: 2
+
+**2. Debater B: [Argument 1]**
+- "radius": mathematical/physics term, but widely understood
+- "radially inward": technical directional term from physics
+- "tangentially": technical physics/math term
+- "connecting track": plain language
+Overall: A couple of technical terms but mostly accessible. Rating: 2
+
+**3. Debater A: [Response 1]**
+- "radial component": technical physics term
+- "tension": physics term, but commonly understood
+- "normal constraint force": technical physics ("normal" as perpendicular, "constraint force" is specialized)
+- "perpendicular": math term, widely understood
+Overall: "normal constraint force" and "radial component" are genuine jargon; several technical terms present. Rating: 3
+
+**4. Debater B: [Argument 2]**
+- "curvature": technical math/physics term
+- "connecting arc": slightly technical
+- "constraint force": technical physics term
+- "perpendicular to velocity": technical but somewhat accessible
+Overall: Several technical terms, moderate density. Rating: 3
+
+**5. Debater A: [Response 2]**
+- "tangent to the track": technical geometry/physics term
+- "constraint force": technical physics
+- "normal to the track": technical (normal = perpendicular)
+- "perpendicular": math, widely known
+- "curvature": technical
+Overall: Multiple technical terms throughout. Rating: 3
+
+**6. Debater B: [Argument 3]**
+- "changing-curvature path": technical
+- "constraint force": technical physics
+- "centripetal acceleration": clear physics jargon
+- "circular section": somewhat technical
+Overall: "Centripetal acceleration" and "constraint force" are genuine jargon, moderate density. Rating: 3
+
+**7. Debater A: [Response 3]**
+- "perpendicularity": technical math term
+- "normal": technical (perpendicular sense)
+- "tangent": technical geometry
+- "Centripetal force": technical physics jargon
+- "perpendicular to the velocity": technical
+Overall: Several technical terms throughout, moderate-to-heavy. Rating: 3
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+- "point mass": technical physics
+- "rigid body": technical physics
+- "model": slightly technical
+Overall: Two physics jargon terms, similar to A's opening. Rating: 2
+
+**9. Debater A: [Argument 1]**
+- "frictionless track": somewhat technical but accessible
+- "constraint force": technical physics
+- "kinetic energy (KE)": technical physics, but widely taught
+- "conserved": physics technical usage
+Overall: "Constraint force," "KE," and "conserved" are notable jargon. Rating: 3
+
+**10. Debater B: [Response 1]**
+- "kinetic energy": technical but widely known
+- "point-mass car": technical physics
+- "rigid body": technical physics
+Overall: Several technical terms but mostly accessible. Rating: 2
+
+**11. Debater A: [Argument 2]**
+- "translational kinetic energy": technical physics
+- "rotational kinetic energy": technical physics
+- "point mass": technical physics
+- "rigid body": technical physics
+Overall: Multiple specific physics terms, moderate-heavy density. Rating: 3
+
+**12. Debater B: [Response 2]**
+- "mechanically constrained": technical engineering/physics
+- "yaw": technical engineering term (rotation about vertical axis)
+- "axles": mechanical term, widely understood
+- "total KE stays translational": technical physics
+Overall: "Yaw," "mechanically constrained," and KE terminology make this moderately technical. Rating: 3
+
+**13. Debater A: [Argument 3]**
+- "axles": mechanical, widely understood
+- "chord": technical geometry term
+- "axle positions": technical
+- "yaw": technical engineering term
+- "geometry": general but used technically
+Overall: "Chord," "yaw," and axle geometry constitute moderate technical density. Rating: 3
+
+**14. Debater B: [Response 3]**
+- "axles": mechanical, widely understood
+- "rigidly fixed parallel": technical engineering phrasing
+- "roll without slipping": technical physics/engineering phrase
+- "curvature": technical math/physics
+- "contact points": technical
+- "yaw": technical engineering
+- "connecting track": somewhat technical
+Overall: Multiple technical terms including "roll without slipping," "yaw," "curvature" — moderately heavy. Rating: 3
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[2]]
+A | Argument 2 | [[3]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[3]]
+B | Response 3 | [[3]]

@@ -1,0 +1,169 @@
+I'll analyze each turn for technical jargon, then provide ratings.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"The internal temperature of a star increases with time on the main sequence."
+- "main sequence": technical astronomical term (defined in debate, but still jargon to layperson)
+- "internal temperature": mildly technical in context
+- Overall: one or two technical terms, meaning still accessible.
+**Rating: 2**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+"A star continually radiates energy away from its surface in the form of photons." / "The temperature of the system does not increase due to the amount of energy actively being taken away from it."
+- "photons": physics jargon (massless quanta), though widely known
+- "radiates": slightly technical but familiar
+- "system": used in physics sense, mostly accessible
+- Overall: minimal jargon; photons is the main technical term, but broadly recognized.
+**Rating: 2**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+"The temperature of a star is proportional to the kinetic energy of its constituent particles via the equipartition theorem." / "The kinetic energy of the constituent particles of the star increases, as it evolves, on the main sequence."
+- "kinetic energy": technical physics term, though widely taught
+- "equipartition theorem": specialized thermodynamics term, unlikely familiar to layperson
+- "constituent particles": mildly technical
+- "main sequence": astronomical jargon
+- Overall: multiple technical terms, especially "equipartition theorem," which would be opaque to most laypersons.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+"By the first law of thermodynamics, energy lost via radiation must come from the system's internal energy or work done on the system." / "Since no external work is being done on the system, the internal energy must decrease, which comes from the kinetic energy of the constituent particles."
+- "first law of thermodynamics": recognizable name but specialized concept
+- "internal energy": thermodynamics term
+- "work done on the system": physics/thermodynamics usage
+- "kinetic energy": widely taught physics term
+- "constituent particles": mildly technical
+- Overall: several thermodynamics terms; requires some domain knowledge.
+**Rating: 3**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+"When a self-gravitating system contracts, its gravitational potential energy decreases." / "Gravity does work on the system and the released gravitational potential energy more than offsets the radiated energy. The surplus increases the kinetic energy of the particles."
+- "self-gravitating system": specialized astrophysics term
+- "gravitational potential energy": physics jargon, taught in school but technical
+- "kinetic energy": widely known
+- "work" (physics sense): technical usage
+- Overall: several technical physics terms; moderate density.
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+"Thermodynamic properties, which include internal energy, are intrinsically linked to the star's temperature." / "Kinetic energy maps onto temperature via the equipartition theorem. In contrast, gravitational potential energy has no place in thermodynamic calculations."
+- "thermodynamic properties": specialized field term
+- "internal energy": thermodynamics
+- "kinetic energy": physics, widely known
+- "equipartition theorem": specialized thermodynamics term
+- "gravitational potential energy": physics
+- "thermodynamic calculations": specialized
+- Overall: dense with thermodynamics terminology.
+**Rating: 4**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+"By the virial theorem, the kinetic energy of the star increases over time, as the gravitational potential energy of the star itself decreases." / "And since the temperature is proportional to the kinetic energy (Debater A Response 1 Claim 1), the temperature, on the whole, naturally increases."
+- "virial theorem": specialized astrophysics/physics theorem, unlikely known to layperson
+- "kinetic energy": widely taught
+- "gravitational potential energy": physics term
+- Overall: several technical terms including the specialized "virial theorem."
+**Rating: 3**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"The internal temperature of a star decreases with time on the main sequence."
+- "main sequence": astronomical jargon
+- "internal temperature": mildly technical
+- Overall: minimal jargon, very similar to Turn 1.
+**Rating: 2**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+"Star cores contract as they evolve on the main sequence." / "Gravity gets stronger as the star contracts. If the internal temperature also decreases, the star would collapse at a thermal timescale."
+- "main sequence": astronomical jargon
+- "thermal timescale": specialized astrophysics term (one of the stellar timescales defined)
+- "cores": somewhat technical in this context
+- Overall: a couple of technical terms; "thermal timescale" is the most opaque.
+**Rating: 3**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+"Nuclear fusion generates the radiation pressure and thermal pressure that support the star against gravitational collapse." / "Decreasing outward pressure as the star runs out of nuclear fuel causes the star's contraction. This does not cause collapse."
+- "nuclear fusion": specialized but widely known term
+- "radiation pressure": physics/astrophysics jargon
+- "thermal pressure": specialized astrophysics term
+- "gravitational collapse": astrophysics term
+- "nuclear fuel": accessible metaphor
+- Overall: several technical astrophysics terms.
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+"Nuclear fusion in the star's core converts hydrogen into helium during the main sequence." / "This in turn reduces the number of particles and hence the thermal pressure in the core. If the temperature does not increase to compensate, hydrostatic equilibrium cannot be maintained."
+- "nuclear fusion": widely known
+- "main sequence": astronomical jargon
+- "thermal pressure": specialized astrophysics term
+- "hydrostatic equilibrium": specialized astrophysics term, likely opaque to layperson
+- Overall: multiple technical terms, with "hydrostatic equilibrium" being notably specialized.
+**Rating: 4**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+"Over time, the core gradually gets denser as hydrogen is steadily converted into helium." / "The higher density enables the core to withstand more inward pressure from the outer layers of the star. This is why temperature does not need to increase to maintain equilibrium."
+- "density/denser": used in straightforward physical sense, accessible
+- "pressure": accessible concept
+- "equilibrium": somewhat technical but broadly understood
+- Overall: mostly accessible language; minimal specialized jargon.
+**Rating: 2**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+"The self-gravity of an object increases as it grows denser at constant mass." / "The core's own inward pull and the pressure from the outer layers of the star grow stronger with contraction; the temperature must in turn increase to counteract them and prevent collapse."
+- "self-gravity": somewhat technical astrophysics term
+- "at constant mass": physics phrasing, mostly accessible
+- "contraction": accessible
+- "pressure": accessible
+- Overall: mostly accessible with one or two mildly technical terms.
+**Rating: 2**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+"A star contracts until it ignites helium fusion at the end of the main sequence." / "The rate at which thermal pressure decreases matters: the increasing density of the core (Debater B Response 2 Claim 1) prolongs the contraction long enough for helium fusion to ignite, preventing collapse."
+- "helium fusion": specialized nuclear astrophysics term
+- "main sequence": astronomical jargon
+- "thermal pressure": specialized astrophysics term
+- "density": accessible
+- Overall: several technical terms; moderately jargon-heavy.
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[2]]
+B | Argument 1 | [[2]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[3]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[3]]
+B | Opening | [[2]]
+A | Argument 1 | [[3]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[2]]
+A | Argument 3 | [[2]]
+B | Response 3 | [[3]]

@@ -1,0 +1,194 @@
+I'll analyze each turn for authoritative tone, examining language choices, confidence, and expertise signals.
+
+---
+
+**LEFT SIDE**
+
+**1. Debater A: [Opening]**
+"The best plausible theoretical model to describe this system is a runaway supermassive black hole (SMBH)"
+- "best plausible" slightly hedges but is standard debate framing
+- "runaway supermassive black hole" uses technical terminology confidently
+- Citation adds credibility
+- Brief and assertive; lacks elaboration that might signal deeper expertise
+- Overall: confident but minimal
+**Rating: 3**
+
+---
+
+**2. Debater B: [Argument 1]**
+"Supermassive black holes are typically located within a few parsecs of the center of their host galaxies."
+"If this hypothesis were true, the SMBH would have to be located ~40 kiloparsecs away from its host galaxy."
+- "typically located within a few parsecs" — precise, knowledgeable phrasing
+- "~40 kiloparsecs" — specific quantitative claim signals expertise
+- "If this hypothesis were true" — conditional framing is logical and methodical
+- Use of "parsecs" and "kiloparsecs" with confidence conveys domain knowledge
+- Clear logical structure between claims
+**Rating: 4**
+
+---
+
+**3. Debater A: [Response 1]**
+"SMBH recoil can eject SMBHs from the centers of their host galaxy during a merger."
+"The galaxy shows signs of a recent merger ([P. D. et al.]), which supports the hypothesis that the linear structure could be a trail of star formation left in the wake of a recoiling SMBH."
+- "SMBH recoil" — technically precise term used fluently
+- "trail of star formation left in the wake of a recoiling SMBH" — vivid, specific mechanism described with confidence
+- "shows signs of a recent merger" — slightly vague but citation supports it
+- "could be" introduces mild hedging
+- Overall technically fluent and specific
+**Rating: 4**
+
+---
+
+**4. Debater B: [Argument 2]**
+"Globular clusters are old, massive and compact structures that travel through the circumgalactic medium (CGM)."
+"If the passage of a black hole through the CGM caused star formation, we would observe similar trails for globular clusters, but in practice we do not."
+- "circumgalactic medium (CGM)" — technical terminology, parenthetical shows awareness of audience
+- "but in practice we do not" — empirically grounded, authoritative appeal to observation
+- The analogical argument (globular clusters vs. SMBH) is logically constructed
+- "old, massive and compact" is accurate but fairly basic description
+- "in practice" is a confident empirical appeal
+**Rating: 4**
+
+---
+
+**5. Debater A: [Response 2]**
+"The SMBH in this model is traveling at supersonic speeds along its trajectory."
+"The bow shock due to this supersonic travel would cause star formation along the way. Globular clusters do not form a bow shock in the CGM, and thus would not have star forming trails."
+- "supersonic speeds" and "bow shock" — precise physical terminology used confidently
+- "thus would not have star forming trails" — logical deduction, assertive
+- "along its trajectory" — slightly generic but acceptable
+- The mechanistic explanation (bow shock → star formation) demonstrates physical reasoning
+- Clean causal logic and technical language
+**Rating: 4**
+
+---
+
+**6. Debater B: [Argument 3]**
+"[Figure 1] in [M. M. et al.] shows that the color of the stars along the hypothesised wake fluctuates."
+"If the star formation was caused by the bow shock of a passing SMBH, the age of the stars would monotonically decrease along the structure, but the fluctuating color does not support that."
+- "monotonically decrease" — precise mathematical/scientific language, signals expertise
+- "fluctuating color does not support that" — empirically grounded, confident
+- Reference to specific figure adds credibility
+- "hypothesised wake" — slight hedging via "hypothesised" but appropriate in context
+- "monotonically" is particularly strong authoritative language
+**Rating: 4**
+
+---
+
+**7. Debater A: [Response 3]**
+"While a broad age gradient is expected along the wake, the color fluctuations can be explained by alternating red and blue supergiants in the trail."
+"Star formation will not only occur at the bow shock, but after the passage of the SMBH as well, which would also add fluctuations to the stellar age."
+- "alternating red and blue supergiants" — specific stellar classification, technically detailed
+- "broad age gradient is expected" — confident predictive framing
+- "will not only occur at the bow shock, but after the passage" — mechanistically specific
+- "add fluctuations to the stellar age" — precise causal language
+- Concedes the broad gradient while explaining the fluctuations — nuanced and sophisticated
+**Rating: 4**
+
+---
+
+**RIGHT SIDE**
+
+**8. Debater B: [Opening]**
+"The best plausible theoretical model to describe this system is a bulgeless edge-on galaxy ([J. S. A. et al.])."
+- Parallel structure to Debater A's opening — assertive but brief
+- "bulgeless edge-on galaxy" — technical classification used confidently
+- Citation supports the claim
+- Very brief, lacks elaboration
+- Standard opening framing
+**Rating: 3**
+
+---
+
+**9. Debater A: [Argument 1]**
+"The line ratio of the linear object ([OIII]/H𝜷) far exceeds the ratio expected from a typical galaxy."
+"Additionally, the structure is not entirely linear, which would be expected if it were a bulgeless edge-on galaxy."
+- "[OIII]/H𝜷" — specific spectroscopic notation, highly technical and authoritative
+- "far exceeds the ratio expected" — confident comparative claim with implicit expert knowledge
+- "not entirely linear" — observational claim that is slightly less technical
+- "which would be expected if it were" — logical conditional framing
+- The spectroscopic reference is particularly impressive and expert-like
+**Rating: 4**
+
+---
+
+**10. Debater B: [Response 1]**
+"The Tully-Fisher relation is used to classify objects as galaxies based on their estimated stellar mass and maximum rotational velocity."
+"The linear object satisfies the Tully-Fisher relation, making it a strong candidate for a bulgeless edge-on galaxy ([Figure 2] in [J. S. A. et al.])."
+- "Tully-Fisher relation" — well-known but technical relation, used fluently
+- "estimated stellar mass and maximum rotational velocity" — precise parameter description
+- "making it a strong candidate" — confident classificatory language
+- Reference to specific figure strengthens credibility
+- "strong candidate" is assertive without overclaiming
+**Rating: 4**
+
+---
+
+**11. Debater A: [Argument 2]**
+"Satisfying the Tully-Fisher relation is not sufficient to classify an object as a galaxy given observational inconsistencies."
+"The velocity gradient near the edge of the object is too large for it to be classified as a galaxy ([Figure 1], [Figure 5] in [P. D. et al.])."
+- "not sufficient to classify" — logical, methodical framing
+- "observational inconsistencies" — technically grounded qualifier
+- "velocity gradient near the edge" — precise kinematic language
+- "too large for it to be classified" — confident, definitive claim
+- Multiple figure citations strengthen the empirical authority
+- "velocity gradient" is suitably technical
+**Rating: 4**
+
+---
+
+**12. Debater B: [Response 2]**
+"IC5249 is an observationally confirmed bulgeless edge-on galaxy."
+"The position vs rotational velocity gradient of the stars in the structure resembles the gradient of IC5249 ([Figure 1] in [J. S. A. et al.]), directly suggesting that they're in the same class of objects."
+- "IC5249" — specific named object, signals familiarity with literature
+- "observationally confirmed" — empirically grounded, authoritative
+- "position vs rotational velocity gradient" — precise kinematic description
+- "directly suggesting that they're in the same class of objects" — confident classificatory claim
+- "they're" is slightly informal but doesn't significantly undermine authority
+- Use of specific comparison object is expert-like
+**Rating: 4**
+
+---
+
+**13. Debater A: [Argument 3]**
+"The velocity and flux gradient of IC5249 are much smoother than those of the object in the figure you present."
+"The linear object has a structure in line emission strongly resembling a bow shock at its tip ([Figure 3] in [P. D. et al.]) that IC5249 does not have. This implies that the object is not a galaxy."
+- "velocity and flux gradient" — technical, precise parameters
+- "much smoother" — comparative but somewhat qualitative
+- "structure in line emission strongly resembling a bow shock at its tip" — highly specific, technical description
+- "This implies that the object is not a galaxy" — definitive, confident conclusion
+- Citation of specific figure reinforces empirical basis
+- "strongly resembling" is confident without being absolute
+**Rating: 4**
+
+---
+
+**14. Debater B: [Response 3]**
+"The magnitude of the line emission seen in the figure you present is in the range expected of shocks produced by supernovae within ordinary galaxies."
+"It is well established that distorted galaxies often have rather clumpy and irregular UV emission arising from heterogeneous star formation."
+- "magnitude of the line emission" — precise observational language
+- "in the range expected of shocks produced by supernovae" — technically specific, empirically grounded
+- "It is well established" — classic authoritative appeal to consensus
+- "heterogeneous star formation" — technical terminology
+- "clumpy and irregular UV emission" — observationally specific
+- "well established" is a particularly strong authority signal
+- Overall very technically fluent
+**Rating: 4**
+
+---
+
+RATINGS:
+A | Opening | [[3]]
+B | Argument 1 | [[4]]
+A | Response 1 | [[4]]
+B | Argument 2 | [[4]]
+A | Response 2 | [[4]]
+B | Argument 3 | [[4]]
+A | Response 3 | [[4]]
+B | Opening | [[3]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[4]]
+A | Argument 2 | [[4]]
+B | Response 2 | [[4]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[4]]

@@ -1,0 +1,103 @@
+I'll analyze each turn for eloquence, focusing on phrasing, fluency, and rhetorical polish.
+
+---
+
+**1. Debater A: [Opening] (Left)**
+"Y is larger." — Two words, a bare assertion with no elaboration or rhetorical craft. Functional but entirely unadorned.
+**Rating: 1**
+
+---
+
+**2. Debater B: [Argument 1] (Left)**
+"effectively turns the D6 into a D3" is a clean, intuitive formulation. "harder (requires more rolls)" is slightly redundant but serviceable. The two claims are logically sequenced and clearly expressed, though plain in style.
+**Rating: 3**
+
+---
+
+**3. Debater A: [Response 1] (Left)**
+Claim 1 is direct and clear. Claim 2 introduces a counterpoint with reasonable clarity — "it's not true that the condition effectively turns the D6 to a D3" is a direct rebuttal. Mildly clunky ("So it's not true that") but functional. Overall competent but unremarkable.
+**Rating: 3**
+
+---
+
+**4. Debater B: [Argument 2] (Left)**
+"specifies that the D6 becomes a D3 for the purposes of this question" echoes earlier phrasing adequately. "a separate, irrelevant question" is blunt but clear. Claim 2 ("It is irrelevant because...") is terse and slightly abrupt. The overall expression is plain and somewhat repetitive.
+**Rating: 2**
+
+---
+
+**5. Debater A: [Response 2] (Left)**
+"for showing why arguments based on this claimed equivalence don't work" is reasonably well-constructed. "It would be strange if..." is a natural rhetorical move, though the phrasing is slightly awkward ("equivalent to 'D6 given all rolls even' for this question, but not when calculating..."). Competent but unpolished.
+**Rating: 3**
+
+---
+
+**6. Debater B: [Argument 3] (Left)**
+"a fundamentally different quantity" is well-chosen phrasing. Claim 2 attempts a substantive point but "what counts is how often 6 turns up versus non-6 — non-6 is twice as likely here" is a bit clunky and informal. The dash construction disrupts flow slightly. Moderately expressed.
+**Rating: 3**
+
+---
+
+**7. Debater A: [Response 3] (Left)**
+"'626' stops Y at roll 3 but doesn't stop X" is a nicely concrete illustration. "So order, not only relative frequency, is part of the stopping rule and affects the conditional expectation" is well-structured and precise — the clearest, most polished expression in this branch. Good use of contrast ("not only... but also" implied).
+**Rating: 4**
+
+---
+
+**8. Debater B: [Opening] (Right)**
+"X is larger." — Same as the opposing opening: a bare two-word assertion, no rhetorical elaboration.
+**Rating: 1**
+
+---
+
+**9. Debater A: [Argument 1] (Right)**
+"normally requiring a much longer run" is natural. "filters long runs exponentially, so X's probability mass is squeezed onto its short, lucky runs much more so than Y's" — this is quite vivid and well-expressed. "Squeezed onto its short, lucky runs" is an effective, evocative phrase. The turn shows genuine rhetorical effort.
+**Rating: 4**
+
+---
+
+**10. Debater B: [Response 1] (Right)**
+Claim 1 is bare but clear. Claim 2: "X's distribution is dominated by long sequences that finally get two 6s in a row" is a reasonably well-constructed image. "strictly harder and happens later than or at the same time as" is a bit legalistic and clunky. Competent overall.
+**Rating: 3**
+
+---
+
+**11. Debater A: [Argument 2] (Right)**
+Claim 1 is clear and makes a decent point, though the phrasing "you'll nearly always roll an odd before getting two 6s" is informal and slightly awkward. Claim 2 — "the second is a false statement that does not follow from it" — is blunt and somewhat inelegant in its meta-commentary. Functional but not polished.
+**Rating: 2**
+
+---
+
+**12. Debater B: [Response 2] (Right)**
+"filtered just as harshly" is a well-chosen phrase with some rhetorical force. "The net effect of the all-even condition is therefore similar" is clear and reasonably well-constructed. The turn is competent and flows adequately, though not particularly polished.
+**Rating: 3**
+
+---
+
+**13. Debater A: [Argument 3] (Right)**
+The specific numerical claims (61%, 44%, 81%, 74%) are clearly presented and the structure is logical. "By the end of roll 3" is natural. "This suggests that X is more likely than Y to stop extremely early" is a clear, well-formed conclusion. The turn is tidy and well-expressed.
+**Rating: 4**
+
+---
+
+**14. Debater B: [Response 3] (Right)**
+"The total proportion of all-even stopped sequences that stop by roll 2 or 3 does not determine the overall weighting" is a bit cumbersome but technically clear. "The tails of the two distributions matter as well" is concise and effective. "The full computation yields X as the larger of the two values" is clean if slightly anticlimactic. Moderately well-expressed.
+**Rating: 3**
+
+---
+
+RATINGS:
+A | Opening | [[1]]
+B | Argument 1 | [[3]]
+A | Response 1 | [[3]]
+B | Argument 2 | [[2]]
+A | Response 2 | [[3]]
+B | Argument 3 | [[3]]
+A | Response 3 | [[4]]
+B | Opening | [[1]]
+A | Argument 1 | [[4]]
+B | Response 1 | [[3]]
+A | Argument 2 | [[2]]
+B | Response 2 | [[3]]
+A | Argument 3 | [[4]]
+B | Response 3 | [[3]]

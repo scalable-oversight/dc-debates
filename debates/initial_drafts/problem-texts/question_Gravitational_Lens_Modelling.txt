@@ -1,0 +1,32 @@
+Definitions
+(D1) Einstein zig-zag lens - A gravitational lens system with two lenses, where two light rays from the source cross the optical path between the lenses <ref id="tec_et_al">.
+
+<img src="images/einstein_zig_zag.png">
+
+(D2) Gravitational lensing - An astrophysical phenomenon where a massive galaxy present in between the observer and the source bends light being emitted by the source, such that the observer sees distorted (weakly lensed) or multiple (strongly lensed) images of the same source.
+
+<img src="images/gravitational_lensing.png">
+
+(D3) AGN - Active Galactic Nuclei are galaxies with an actively accreting (consuming matter) supermassive black hole (SMBH) at their center. The matter forms a very bright (one of the  brightest phenomena in the universe) accretion disc as it spirals into the SMBH. An AGN might also contain twin jets of gas and dust ejected from the center of the galaxy that can rival the galaxy’s own size. High redshift (D4) AGN are often referred to as quasars.   
+
+<img src="images/agn.png">
+
+(D4) Redshift (denoted by z) - As light moves through expanding space, its waveform gets stretched out, increasing its wavelength and making it redder. Redshift is a measure of this stretching, and is used to determine how far astrophysical objects are from us by relating the stretch in wavelength to distance traveled through expanding space. Higher redshift => object is further away.
+
+(D5) Flux - Amount of light captured by the camera. Higher flux results in a brighter image.
+
+(D6) SIS/SIE/PEMD - All of these are separate models for the mass distribution in a galaxy. SIS is the simplest model for a spherical galaxy where mass falls off by a power of 2. SIE includes two additional parameters for ellipticity. PEMD adds two for ellipticity, and one additional parameter for the slope of the mass distribution power law.
+
+(D7) Shear - Adds two parameters to add ellipticity to any model without having to align it with the elliptical shape of the galaxy observed in the optical data. This is usually used if the lens is a part of a cluster, or to describe galaxies using an SIS+shear model instead of an SIE. An SIE+shear model is usually used to model an elliptical galaxy in a cluster to model angular properties from the lens galaxy and uncorrelated angular properties from surrounding matter.
+
+(D8) Recoil - Merging black holes release a massive amount of energy in the form of gravitational waves, and this can happen anisotropically, kicking the resulting black hole in a direction opposite to the released gravitational waves. This kick is stronger in systems with more asymmetry in the sizes of the merging black holes.
+
+Figure 3 in <ref id="fd_et_al"> - size of black circles represents amount of magnification:
+
+<img src="images/figure_3_fd_et_al.png">
+
+Question
+
+Here is a picture of a real astrophysical system. What is the best plausible theoretical model to describe this system? 
+ 
+<img src="images/astrophysical_system.png">
