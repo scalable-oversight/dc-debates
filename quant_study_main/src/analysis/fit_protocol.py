@@ -157,10 +157,11 @@ def _report_nuts(idata, max_treedepth_used: int) -> dict:
 
 
 def _save_energy_plot(idata, out_dir: Path, label: str) -> Path:
-    ax = az.plot_energy(idata)
-    fig = ax.figure if hasattr(ax, "figure") else ax[0].figure
+    fig, ax = plt.subplots(figsize=(9, 4.5))
+    az.plot_energy(idata, ax=ax)
+    fig.tight_layout()
     path = out_dir / f"energy-{label}.png"
-    fig.savefig(path, dpi=100, bbox_inches="tight")
+    fig.savefig(path, dpi=200, bbox_inches="tight")
     plt.close(fig)
     return path
 

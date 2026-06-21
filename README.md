@@ -1,4 +1,4 @@
-This repository accompanies the paper *"DC-Debates: Difficulty-Calibrated Debate Transcripts as Stimuli for Scalable Oversight Research with Human Participants."* It contains the debate transcripts released as stimuli, the pipelines used to produce and balance them, and the data, code, and materials from the qualitative study, the two quantitative pilots, and the main quantitative study described in the paper.
+This repository accompanies the paper [*"DC-Debates: Difficulty-Calibrated Debate Transcripts as Stimuli for Scalable Oversight Research with Human Participants"*](DC_Debates.pdf). It contains the debate transcripts released as stimuli, the pipelines used to produce and balance them, and the data, code, and materials from the qualitative study, the two quantitative pilots, and the main quantitative study described in the paper.
 
 Each of the six top-level folders contains its own README with more detail on contents, layout, and reproduction steps where relevant.
 

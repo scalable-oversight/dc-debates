@@ -281,7 +281,7 @@ def energy_plot(out_path, label, idata):
     posterior's energy variation -- a sign of pathological geometry that
     R-hat / ESS can miss.
     """
-    fig, ax = plt.subplots(figsize=(7, 4))
+    fig, ax = plt.subplots(figsize=(9, 4.5))
     az.plot_energy(idata, ax=ax)
     bfmi = az.bfmi(idata)
     ax.set_title(
@@ -289,7 +289,7 @@ def energy_plot(out_path, label, idata):
         f"BFMI per chain: {', '.join(f'{b:.2f}' for b in bfmi)}"
     )
     fig.tight_layout()
-    fig.savefig(out_path, dpi=120)
+    fig.savefig(out_path, dpi=200)
     plt.close(fig)
     return [float(b) for b in bfmi]
 
